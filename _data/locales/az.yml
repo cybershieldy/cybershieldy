@@ -1,0 +1,94 @@
+# ----- Commons label -----
+
+layout:
+  post: Yazı
+  category: Kateqoriya
+  tag: Teq
+
+# The tabs of sidebar
+tabs:
+  home: "Ana Səhifə"
+  categories: "Kateqoriyalar"
+  tags: "Teqlər"
+  archives: "Arxiv"
+  about: "Haqqında"
+
+# the text displayed in the search bar & search results
+search:
+  hint: "Axtarış"
+  cancel: "Ləğv et"
+  no_results: "Oops! Nəticə tapılmadı."
+
+panel:
+  lastmod: "Son Yenilənənlər"
+  trending_tags: "Populyar Teqlər"
+  toc: "Mündəricat"
+
+copyright:
+  license:
+    template: "Bu yazı müəllif tərəfindən :LICENSE_NAME ilə lisenziyalaşdırılıb."
+    name: "CC BY 4.0"
+    link: "https://creativecommons.org/licenses/by/4.0/"
+  brief: "Bəzi hüquqlar qorunur."
+  verbose: >-
+    Əks halda göstərilmədiyi təqdirdə, bu saytdakı yazılar müəllif tərəfindən
+    Creative Commons Attribution 4.0 International (CC BY 4.0) lisenziyası ilə qorunur.
+
+meta: ":PLATFORM üçün :THEME mövzusu istifadə olunur."
+
+not_found:
+  statement: "Bağışlayın, səhifə mövcud deyil və ya köçürülüb."
+
+notification:
+  update_found: "Yeni məzmun mövcuddur."
+  update: "Yenilə"
+
+# ----- Posts related labels -----
+
+post:
+  written_by: "Müəllif"
+  posted: "Paylaşıldı"
+  updated: "Yeniləndi"
+  words: "söz"
+  pageview_measure: "baxış"
+  read_time:
+    unit: "dəq"
+    prompt: "oxu"
+  relate_posts: "Oxşar Yazılar"
+  share: "Paylaş"
+  button:
+    next: "Növbəti"
+    previous: "Əvvəlki"
+    copy_code:
+      succeed: "Kopyalandı!"
+    share_link:
+      title: "Linki kopyala"
+      succeed: "Link uğurla kopyalandı!"
+
+# Date time format
+df:
+  post:
+    strftime: "%d %B %Y"
+    dayjs: "D MMMM YYYY"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# categories page
+categories:
+  category_measure:
+    singular: "kateqoriya"
+    plural: "kateqoriyalar"
+  post_measure:
+    singular: "yazı"
+    plural: "yazılar"
+
+
+
+#licenze off
+
+copyright:
+  license:
+    template: ""
+    name: ""
+    link: ""

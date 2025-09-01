@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/posts/2025.word/</loc>
+<lastmod>2025-08-26T06:42:00+04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/posts/2025-word/</loc>
+<lastmod>2025-08-29T06:42:00+04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Categories/</loc>
+<lastmod>2025-09-01T13:22:33+04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Tags/</loc>
+<lastmod>2025-09-01T13:22:33+04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Archives/</loc>
+<lastmod>2025-09-01T13:22:33+04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/About/</loc>
+<lastmod>2025-09-01T13:22:33+04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/salam/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/salam/</loc>
+</url>
+</urlset>
