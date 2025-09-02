@@ -1,14 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-02T22:09:24+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Salam</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="Salam" /><published>2025-09-02T06:42:00+04:00</published><updated>2025-09-02T19:18:40+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="hello-salam--yeni-söz">Hello Salam — Yeni Söz</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-02T22:16:26+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="Phishing hücumu nədir? Canlı nümunə və qorunma yolları" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-02T19:18:40+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="phishing-hücumu-nədir-canlı-nümunə-və-qorunma-yolları">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</h1>
 
-<p>sentyabr blogu
-asasasasass</p>]]></content><author><name></name></author><category term="yeni" /><category term="yeni" /><summary type="html"><![CDATA[Hello Salam — Yeni Söz]]></summary></entry><entry><title type="html">salam</title><link href="https://cybershieldy.com/posts/2025-word/" rel="alternate" type="text/html" title="salam" /><published>2025-09-01T06:42:00+04:00</published><updated>2025-09-01T16:44:49+04:00</updated><id>https://cybershieldy.com/posts/2025-word</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-word/"><![CDATA[<h1 id="hello-salam--yeni-söz">Hello Salam — Yeni Söz</h1>
+<p>Phishing — <strong>sosial mühəndislik</strong> texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan <strong>şifrə</strong>, <strong>kredit kartı</strong> və ya digər həssas məlumatları almağa çalışırlar.</p>
 
-<p>sentyabr blogu</p>]]></content><author><name></name></author><category term="salam" /><category term="salam" /><summary type="html"><![CDATA[Hello Salam — Yeni Söz]]></summary></entry><entry><title type="html">salam</title><link href="https://cybershieldy.com/posts/2025-word/" rel="alternate" type="text/html" title="salam" /><published>2025-08-29T06:42:00+04:00</published><updated>2025-08-29T06:42:00+04:00</updated><id>https://cybershieldy.com/posts/2025-word</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-word/"><![CDATA[<h1 id="hello-salam--yeni-söz">Hello Salam — Yeni Söz</h1>
+<hr />
 
-<p>Men burda yenimejhdhusdb</p>
+<h2 id="-canlı-nümunə-saxta-e-mail-kampaniyası">🎯 Canlı nümunə: Saxta e-mail kampaniyası</h2>
 
-<p><img src="/assets/images/emin.jpg" alt="Bu mənəm" /></p>]]></content><author><name></name></author><category term="salam" /><category term="salam" /><summary type="html"><![CDATA[Hello Salam — Yeni Söz]]></summary></entry><entry><title type="html">salam</title><link href="https://cybershieldy.com/posts/2025.word/" rel="alternate" type="text/html" title="salam" /><published>2025-08-26T06:42:00+04:00</published><updated>2025-09-01T16:34:21+04:00</updated><id>https://cybershieldy.com/posts/2025.word</id><content type="html" xml:base="https://cybershieldy.com/posts/2025.word/"><![CDATA[<h1 id="hello-salam--yeni-söz">Hello Salam — Yeni Söz</h1>
+<p>Aşağıda real bir phishing e-mail nümunəsini paylaşırıq (şəxsi məlumatlar gizlədilib):</p>
 
-<p>pramateson</p>
+<p><img src="/assets/images/phishing-example.jpg" alt="Phishing e-mail nümunəsi" /></p>
 
-<p><img src="/assets/images/2.jpg" alt="Bu mənəm" /></p>]]></content><author><name></name></author><category term="salam" /><category term="salam" /><summary type="html"><![CDATA[Hello Salam — Yeni Söz]]></summary></entry></feed>
+<p>📩 Bu e-mail istifadəçiyə belə bir mesaj göndərmişdi:</p>
+
+<blockquote>
+  <p><strong>Subject:</strong> “Hesabınız təhlükədədir — dərhal daxil olun!”<br />
+<strong>Göndərən:</strong> <code class="language-plaintext highlighter-rouge">support@paypal-secure.com</code><br />
+<strong>Mesaj:</strong> “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: [click-here.com]”</p>
+</blockquote>
+
+<p>Linkə klik edən istifadəçilər saxta “PayPal login” səhifəsinə yönləndirilirdi. Bura daxil edilən istifadəçi adı və şifrə hücumçuların əlinə keçir.</p>
+
+<hr />
+
+<h2 id="️-qorunma-yolları">🛡️ Qorunma yolları</h2>
+
+<p>Bu cür hücumlardan qorunmaq üçün aşağıdakı addımları izləyin:</p>
+
+<p>✅ <strong>E-mail ünvanını diqqətlə yoxlayın:</strong><br />
+Saxta ünvanlar çox bənzər olur — <code class="language-plaintext highlighter-rouge">paypal.com</code> əvəzinə <code class="language-plaintext highlighter-rouge">paypal-secure.com</code> kimi.</p>
+
+<p>✅ <strong>Şübhəli linklərə klik etməyin:</strong><br />
+Linkin üstündə mouse-u saxlayın və URL-in real olub-olmadığını yoxlayın.</p>
+
+<p>✅ <strong>İki faktorlu identifikasiya (2FA) istifadə edin:</strong><br />
+Hətta şifrə oğurlansa belə, ikinci qoruma qatınız olur.</p>
+
+<p>✅ <strong>Anti-phishing təlimləri keçirin:</strong><br />
+Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.</p>
+
+<hr />
+
+<h2 id="-red-team-baxış-bucağı">👨‍💻 Red Team baxış bucağı</h2>
+
+<p>Red Team simulyasiyalarında phishing tez-tez istifadə olunur. Məsələn:</p>
+
+<blockquote>
+  <p>“Təlim zamanı 50 nəfərə saxta HR e-mail-i göndərildi. 18 nəfər linkə klik etdi, 7 nəfər isə şifrəni daxil etdi.”</p>
+</blockquote>
+
+<p>Bu, real hücum ssenarilərinə hazırlıq baxımından çox effektiv üsuldur.</p>
+
+<hr />
+
+<h2 id="-blue-team-cavab-strategiyası">🔐 Blue Team cavab strategiyası</h2>
+
+<p>Blue Team tərəfi isə bu hücumlara qarşı cavab verir:</p>
+
+<ul>
+  <li><strong>SIEM-lər ilə şübhəli e-mail trafiki izlənir</strong></li>
+  <li><strong>Spam/Phishing filtrləri tətbiq olunur</strong></li>
+  <li><strong>İstifadəçilər təlimlərlə maarifləndirilir</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>Phishing — görünüşcə sadə, amma təsiri çox böyük ola biləcək hücum formasıdır. İstər fərdi istifadəçi, istər böyük korporasiya olun — phishing-ə qarşı hazırlıqlı olmaq şərtdir.</p>
+
+<p><strong>Məsləhət:</strong> Müntəzəm təlimlər keçin, şübhəli e-maillərə qarşı ayıq olun və təhlükəsizlik alətlərinizi daim yeniləyin.</p>
+
+<hr />
+
+<blockquote>
+  <p>Siz də buna bənzər e-mail almısınızsa və ya təlim simulyasiyası təşkil etmək istəyirsinizsə — <a href="mailto:cyberdersler@gmail.com">mənimlə əlaqə saxlayın</a></p>
+</blockquote>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="sosial mühəndislik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="email hücumu" /><category term="kibertəhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="istifadəçi maarifləndirilməsi" /><summary type="html"><![CDATA[Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/phishing-example.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/phishing-example.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
