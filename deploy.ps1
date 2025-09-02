@@ -1,12 +1,10 @@
-# deploy.ps1
-
 param(
     [string]$msg = "update site"
 )
 
 Write-Host "🔄 Remote dəyişikliklər gətirilir..."
 
-# Əvvəlcə local dəyişiklikləri saxla
+# Lokal dəyişiklik varsa stash et
 if ((git status --porcelain) -ne $null) {
     git stash
     $stashed = $true
@@ -16,15 +14,18 @@ if ((git status --porcelain) -ne $null) {
 
 git pull origin main --rebase
 
-# Əgər stash olunmuş dəyişikliklər varsa, geri qaytar
+# Stash varsa pop et
 if ($stashed) {
     git stash pop
 }
 
+Write-Host "🛠 Sayt build edilir..."
+jekyll build
+
 Write-Host "➕ Dəyişikliklər əlavə olunur..."
 git add .
 
-# Əgər dəyişiklik yoxdursa, commit etmə
+# Əgər dəyişiklik yoxdursa commit etmə
 if ((git diff --cached --quiet) -eq $true) {
     Write-Host "⚠️ Heç bir dəyişiklik yoxdur, commit atılmadı."
 } else {
