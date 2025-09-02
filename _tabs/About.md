@@ -7,6 +7,13 @@ description: Emin Savaylov-un kiber təhlükəsizlik bloqu. Red Team, Blue Team,
 ---
 
 ## Haqqımda – Emin Savaylov
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+  <img src="/assets/images/emin.jpg" alt="Emin Savaylov" style="width: 120px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+  
+  <div>
+    <p>Salam! Mən <strong>Emin Savaylov</strong>, kiber təhlükəsizlik üzrə ixtisaslaşmış mütəxəssisəm. Bu bloqu yaratmağımın əsas məqsədi — <strong>kibertəhlükələr</strong>, <strong>sosial mühəndislik</strong>, <strong>penetrasiya testləri</strong>, <strong>Red Team / Blue Team metodologiyaları</strong> və <strong>rəqəmsal müdafiə</strong> kimi mövzularda geniş, peşəkar və anlaşılır məlumatlar təqdim etməkdir.</p>
+  </div>
+</div>
 
 Salam! Mən **Emin Savaylov**, kiber təhlükəsizlik üzrə ixtisaslaşmış mütəxəssisəm. Bu bloqu yaratmağımın əsas məqsədi — **kibertəhlükələr**, **sosial mühəndislik**, **penetrasiya testləri**, **Red Team / Blue Team metodologiyaları** və **rəqəmsal müdafiə** kimi mövzularda geniş, peşəkar və anlaşılır məlumatlar təqdim etməkdir.
 
