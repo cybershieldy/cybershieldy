@@ -45,12 +45,12 @@ Red Team/Blue Team kursları, **CEH**, **OSCP**, **Cyber Kill Chain**, **MITRE A
 
 Əməkdaşlıq, suallar və təkliflər üçün mənimlə əlaqə saxlaya bilərsiniz:
 
-📞 Telefon: +994 50 123 45 67  
+📞 Telefon: +994 55 518 25 23
 ✉️ Email: [cyberdersler@gmail.com](mailto:cyberdersler@gmail.com)  
 🔗 LinkedIn: [linkedin.com/in/emin-savaylov](https://linkedin.com/in/emin-savaylov)
 
 💬 **WhatsApp ilə birbaşa yaz:**  
-👉 [Buraya kliklə və mənə WhatsApp-dan yaz](https://wa.me/994501234567?text=Salam%2C%20Emin%20b%C9%99y%21%20Bloqunuz%20haqq%C4%B1nda%20%C9%99lav%C9%99%20m%C9%99lumat%20almaq%20ist%C9%99yir%C9%99m.)
+👉 [Buraya kliklə və mənə WhatsApp-dan yaz](https://wa.me/994555182523?text=Salam%2C%20Emin%20b%C9%99y%21%20Bloqunuz%20haqq%C4%B1nda%20%C9%99lav%C9%99%20m%C9%99lumat%20almaq%20ist%C9%99yir%C9%99m.)
 
 ---
 
