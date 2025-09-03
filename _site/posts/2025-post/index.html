@@ -45,7 +45,7 @@
 <meta property="twitter:title" content="Phishing hücumu nədir? Canlı nümunə və qorunma yolları" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-02T22:38:39+04:00","datePublished":"2025-09-02T10:00:00+04:00","description":"Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.","headline":"Phishing hücumu nədir? Canlı nümunə və qorunma yolları","image":"https://cybershieldy.com/assets/images/1.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/2025-post/"},"url":"https://cybershieldy.com/posts/2025-post/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-03T11:51:57+04:00","datePublished":"2025-09-02T10:00:00+04:00","description":"Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.","headline":"Phishing hücumu nədir? Canlı nümunə və qorunma yolları","image":"https://cybershieldy.com/assets/images/1.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/2025-post/"},"url":"https://cybershieldy.com/posts/2025-post/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -830,13 +830,13 @@
 
 <time
   
-  data-ts="1756838319"
+  data-ts="1756885917"
   data-df="D MMMM YYYY"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  02 September 2025
+  03 September 2025
 </time>
 
         </span>
@@ -892,7 +892,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="304 söz"
+  title="292 söz"
 >
   <em>1 dəq</em> oxu</span>
 
@@ -932,13 +932,57 @@
 
 <hr />
 
-<p>```bash</p>
-<blockquote>
-  <p>Hacking your system…
-Bypassing firewall…
-Injecting pink style…
-Welcome to CyberShieldy.</p>
-</blockquote>
+<div id="terminal"></div>
+
+<script>
+const messages = [
+  "Hacking your system...",
+  "Bypassing firewall...",
+  "Injecting pink style...",
+  "Welcome to CyberShieldy."
+];
+
+let idx = 0;
+const terminal = document.getElementById('terminal');
+const typingSpeed = 100;
+
+function typeMessage(msg, i = 0) {
+  if (i < msg.length) {
+    terminal.textContent += msg.charAt(i);
+    setTimeout(() => typeMessage(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => {
+      eraseMessage(msg.length);
+    }, 1000);
+  }
+}
+
+function eraseMessage(len) {
+  if (len > 0) {
+    terminal.textContent = terminal.textContent.slice(0, -1);
+    setTimeout(() => eraseMessage(len - 1), typingSpeed / 2);
+  } else {
+    idx = (idx + 1) % messages.length;
+    typeMessage(messages[idx]);
+  }
+}
+
+typeMessage(messages[idx]);
+</script>
+
+<style>
+#terminal {
+  font-family: monospace;
+  white-space: nowrap;
+  background: black;
+  color: #0f0;
+  padding: 10px;
+  border-radius: 4px;
+  width: max-content;
+  min-width: 300px;
+  height: 1.2em;
+}
+</style>
 
 <h2 id="-canlı-nümunə-saxta-e-mail-kampaniyası"><span class="me-2">🎯 Canlı nümunə: Saxta e-mail kampaniyası</span><a href="#-canlı-nümunə-saxta-e-mail-kampaniyası" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
