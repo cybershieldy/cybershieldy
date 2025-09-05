@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-05T19:40:40+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="Phishing hücumu nədir? Canlı nümunə və qorunma yolları" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-03T12:02:28+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="phishing-hücumu-nədir-canlı-nümunə-və-qorunma-yolları">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-05T19:52:04+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən" /><published>2025-09-05T14:00:00+04:00</published><updated>2025-09-05T14:00:00+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="mitm-man-in-the-middle-hücumu-nədir-şəbəkədəki-görünməz-düşmən">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</h1>
+
+<p>İnternetdə “güvəndiyiniz bağlantı” sizi aldada bilər. <strong>MITM (Man-in-the-Middle)</strong> hücumları — hakerlərin şəbəkənizlə server arasına girərək sizin <strong>şəxsi məlumatlarınızı oğurlamasının</strong> ən təhlükəli yollarından biridir.</p>
+
+<p>Bu yazıda MITM-in necə işlədiyini, real bir ssenarini və <strong>özünüzü qorumağın effektiv yollarını</strong> öyrənəcəksiniz.</p>
+
+<hr />
+
+<p><img src="/assets/images/mitm-diagram.png" alt="MITM konsepti" /></p>
+
+<blockquote>
+  <p><em>Şəkil: Hücumçunun qurban və server arasında gizli şəkildə yerləşdiyi MITM strukturu</em></p>
+</blockquote>
+
+<hr />
+
+<h2 id="-mitm-hücumları-necə-işləyir-sadə-dillə-izah">💣 MITM hücumları necə işləyir? (Sadə dillə izah)</h2>
+
+<p>MITM hücumu zamanı haker sizi və daxil olmaq istədiyiniz serveri <strong>bir-birinə birləşdirir</strong>, amma trafikiniz əvvəlcə onun əlindən keçir. Bu, həm şifrə oğurlamaq, həm də sizi saxta saytlara yönləndirmək üçün istifadə olunur.</p>
+
+<h3 id="əsas-mərhələlər">Əsas mərhələlər:</h3>
+
+<ul>
+  <li><strong>Trafik ələ keçir:</strong> Şəbəkədəki paketlər hücumçunun cihazına düşür.</li>
+  <li><strong>Məlumat oxunur:</strong> Şifrələnməmiş məlumatlar (login, bank, mesajlar) rahatca analiz edilir.</li>
+  <li><strong>Manipulyasiya edilir:</strong> İstifadəçi istəmədən saxta səhifəyə yönləndirilə bilər.</li>
+</ul>
+
+<hr />
+
+<h2 id="-real-dünya-ssenarisi-kafedə-pulsuz-wi-fi-mitm-tələsi">🎯 Real dünya ssenarisi: Kafedə “pulsuz Wi-Fi” MITM tələsi</h2>
+
+<p>Bir kafedə oturub pulsuz Wi-Fi-a qoşuldunuz. Şəbəkənin adı <code class="language-plaintext highlighter-rouge">Free_Coffee_Wifi</code>. Amma əslində bu şəbəkə <strong>hücumçu tərəfindən yaradılıb</strong>.</p>
+
+<p>Siz e-maillərə baxırsınız, sosial media login edirsiniz və fərqində olmadan <strong>bütün məlumatlarınız hücumçunun laptopuna düşür</strong>.</p>
+
+<blockquote>
+  <p>🔎 Haker <code class="language-plaintext highlighter-rouge">Wireshark</code>, <code class="language-plaintext highlighter-rouge">Ettercap</code> və <code class="language-plaintext highlighter-rouge">Bettercap</code> kimi alətlərlə trafiki analiz edir. HTTPS olmayan səhifələrdə isə istədiyi kimi məlumatları oxuyur.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="️-mitm-hücumlarından-necə-qorunmaq-olar-praktik-məsləhətlər">🛡️ MITM hücumlarından necə qorunmaq olar? (Praktik məsləhətlər)</h2>
+
+<p>🔐 <strong>1. VPN istifadə edin</strong><br />
+Trafikinizi şifrələyən VPN, MITM hücumlarının qarşısını effektiv şəkildə alır.</p>
+
+<p>🌐 <strong>2. HTTPS olmayan saytlardan uzaq olun</strong><br />
+Brauzerinizdə “kilid işarəsi” yoxdursa, həmin sayta heç vaxt şifrə daxil etməyin.</p>
+
+<p>📶 <strong>3. Tanımadığınız Wi-Fi-lara qoşulmayın</strong><br />
+Eyni adda bir neçə Wi-Fi varsa — ehtiyatlı olun. “Evil Twin” texnikası çox yayılmış MITM üsuludur.</p>
+
+<p>⚙️ <strong>4. Telefon və laptopda antivirus + firewall aktiv edin</strong><br />
+Endpoint təhlükəsizlik tədbirləri ilk müdafiə xəttinizdir.</p>
+
+<p>📱 <strong>5. Mobil tətbiqlərdə SSL pinning istifadə edin (developer-lər üçün)</strong><br />
+Bu, tətbiqin yalnız orijinal serverlə əlaqə qurmasını təmin edir.</p>
+
+<hr />
+
+<h2 id="-red-team-hücumlarında-mitm-necə-istifadə-olunur">👨‍💻 Red Team hücumlarında MITM necə istifadə olunur?</h2>
+
+<p>Penetrasiya testlərində MITM hücumları real vəziyyəti simulyasiya etmək üçün istifadə olunur:</p>
+
+<blockquote>
+  <p>“Test zamanı saxta Wi-Fi yaradıldı. 32 istifadəçidən 13-ü bu şəbəkəyə qoşuldu. MITM ilə onların trafiki analiz edildi, 5 nəfərin login məlumatları oğurlandı.”</p>
+</blockquote>
+
+<p>MITM texnikaları ilə <strong>istifadəçiyə toxunmadan məlumat oğurlamaq</strong> mümkündür — bu onu həm təhlükəli, həm də “ağıllı” hücum halına gətirir.</p>
+
+<hr />
+
+<h2 id="️-blue-team-cavab-strategiyaları">🛡️ Blue Team cavab strategiyaları</h2>
+
+<p>Blue Team (müdafiə tərəfi) MITM hücumlarına qarşı aşağıdakı addımları tətbiq edir:</p>
+
+<ul>
+  <li>🔎 <strong>SIEM sistemləri ilə şəbəkə anomaliyalarını aşkar edir</strong></li>
+  <li>🚫 <strong>DNS Spoofing və ARP Poisoning qarşısını alan alətlər tətbiq edir</strong></li>
+  <li>🎓 <strong>İstifadəçilər üçün müntəzəm kibertəhlükəsizlik təlimləri təşkil edir</strong></li>
+  <li>🔒 <strong>Wi-Fi şəbəkə monitorinq sistemləri qurur və şübhəli fəaliyyətləri izləyir</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-nəticə-mitm-real-təhlükədir">✅ Nəticə: MITM real təhlükədir</h2>
+
+<p>Hər gün milyonlarla insan bu cür görünməyən hücumlara məruz qalır — fərqində olmadan. MITM sadəcə texniki bir termin deyil, <strong>həyatınıza təsir edə biləcək real risqdir.</strong></p>
+
+<p>Bu yazı sizə özünüzü və ya təşkilatınızı qorumaq üçün ilk addımı atmaqda yardımçı olmalıdır.</p>
+
+<hr />
+
+<h2 id="-əlaqə-və-konsultasiya">📞 Əlaqə və konsultasiya</h2>
+
+<blockquote>
+  <p>❗ Siz də buna bənzər bir MITM və ya şəbəkə hücumu ilə qarşılaşmısınızsa, və ya bu sahədə <strong>praktik dərslər</strong>, <strong>real simulyasiya təlimləri</strong> keçmək istəyirsinizsə — aşağıdakı WhatsApp nömrəsi ilə <strong>birbaşa əlaqə</strong> saxlaya bilərsiniz:</p>
+</blockquote>
+
+<p>📲 <strong><a href="https://wa.me/994555182523">+994 55 518 25 23 WhatsApp ilə əlaqə saxla</a></strong></p>
+
+<hr />
+
+<p>🔐 <strong>Kibertəhlükəsizlik məlumatdan başlayır. Maarifləndikcə güclənirsiniz!</strong></p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real senari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="Phishing hücumu nədir? Canlı nümunə və qorunma yolları" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-03T12:02:28+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="phishing-hücumu-nədir-canlı-nümunə-və-qorunma-yolları">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</h1>
 
 <p>Phishing — <strong>sosial mühəndislik</strong> texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan <strong>şifrə</strong>, <strong>kredit kartı</strong> və ya digər həssas məlumatları almağa çalışırlar.</p>
 
