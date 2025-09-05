@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-05T19:52:04+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən" /><published>2025-09-05T14:00:00+04:00</published><updated>2025-09-05T14:00:00+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="mitm-man-in-the-middle-hücumu-nədir-şəbəkədəki-görünməz-düşmən">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-05T19:59:21+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</title><link href="https://cybershieldy.com/posts/2025-post/" rel="alternate" type="text/html" title="MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən" /><published>2025-09-05T14:00:00+04:00</published><updated>2025-09-05T14:00:00+04:00</updated><id>https://cybershieldy.com/posts/2025-post</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post/"><![CDATA[<h1 id="mitm-man-in-the-middle-hücumu-nədir-şəbəkədəki-görünməz-düşmən">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</h1>
 
 <p>İnternetdə “güvəndiyiniz bağlantı” sizi aldada bilər. <strong>MITM (Man-in-the-Middle)</strong> hücumları — hakerlərin şəbəkənizlə server arasına girərək sizin <strong>şəxsi məlumatlarınızı oğurlamasının</strong> ən təhlükəli yollarından biridir.</p>
 
@@ -6,7 +6,7 @@
 
 <hr />
 
-<p><img src="/assets/images/mitm-diagram.png" alt="MITM konsepti" /></p>
+<p><img src="/assets/images/man-in-the-middle-attack.svg" alt="MITM konsepti" /></p>
 
 <blockquote>
   <p><em>Şəkil: Hücumçunun qurban və server arasında gizli şəkildə yerləşdiyi MITM strukturu</em></p>
