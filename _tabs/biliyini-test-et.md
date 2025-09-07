@@ -1,6 +1,12 @@
+---
+title: Bilik Testi
+---
+
 # Bilik Testi
 
-**Sual 1:** Kibertəhlükəsizlikdə “Phishing” nə deməkdir?
+{% tabs %}
+{% tab title="Sual 1" %}
+**Kibertəhlükəsizlikdə “Phishing” nə deməkdir?**
 
 - a) Şəbəkə avadanlığının yoxlanması  
 - b) İnsanları aldadaraq şəxsi məlumatlarını ələ keçirmək  
@@ -8,3 +14,5 @@
 - d) Firewall quraşdırmaq  
 
 **Cavabınızı yazın:**
+{% endtab %}
+{% endtabs %}
