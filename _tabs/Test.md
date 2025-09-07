@@ -1,5 +1,7 @@
 ---
 title: Test
+icon: fas fa-vial
+order: 4
 ---
 
 # Kibertəhlükəsizlik Bilik Testi
