@@ -1,5 +1,5 @@
 ---
-title: Bilik Testi
+title: Test
 ---
 
 # Kibertəhlükəsizlik Bilik Testi
