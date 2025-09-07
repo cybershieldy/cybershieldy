@@ -1,4 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-07T11:49:28+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</title><link href="https://cybershieldy.com/posts/2025-post-05/" rel="alternate" type="text/html" title="MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən" /><published>2025-09-05T14:00:00+04:00</published><updated>2025-09-05T14:00:00+04:00</updated><id>https://cybershieldy.com/posts/2025-post-05</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post-05/"><![CDATA[<h1 id="mitm-man-in-the-middle-hücumu-nədir-şəbəkədəki-görünməz-düşmən">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-07T11:59:44+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları</title><link href="https://cybershieldy.com/posts/2025-post-07/" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-07T11:28:35+04:00</updated><id>https://cybershieldy.com/posts/2025-post-07</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post-07/"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-və-müdafiə-yolları">Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları</h1>
+
+<p>Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək <strong>şəbəkə hücumlarından</strong> xəbərsizdir. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcəyik: <strong>Evil Twin</strong>, <strong>Deauthentication Attack</strong>, <strong>KRACK</strong>, <strong>Sniffing</strong> və daha çox.</p>
+
+<hr />
+
+<div id="terminal"></div>
+
+<script>
+const messages = [
+  "Scanning Wi-Fi networks...",
+  "Capturing handshake...",
+  "Running deauth attack...",
+  "Welcome to CyberShieldy.com"
+];
+
+let idx = 0;
+const terminal = document.getElementById('terminal');
+const typingSpeed = 100;
+
+function typeMessage(msg, i = 0) {
+  if (i < msg.length) {
+    terminal.textContent += msg.charAt(i);
+    setTimeout(() => typeMessage(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => {
+      eraseMessage(msg.length);
+    }, 1000);
+  }
+}
+
+function eraseMessage(len) {
+  if (len > 0) {
+    terminal.textContent = terminal.textContent.slice(0, -1);
+    setTimeout(() => eraseMessage(len - 1), typingSpeed / 2);
+  } else {
+    idx = (idx + 1) % messages.length;
+    typeMessage(messages[idx]);
+  }
+}
+
+typeMessage(messages[idx]);
+</script>
+
+<style>
+#terminal {
+  font-family: monospace;
+  white-space: nowrap;
+  background: black;
+  color: #0f0;
+  padding: 10px;
+  border-radius: 4px;
+  width: max-content;
+  min-width: 300px;
+  height: 1.2em;
+}
+</style>
+
+<hr />
+
+<h2 id="-canlı-nümunə-evil-twin-hücumu">🎯 Canlı nümunə: Evil Twin hücumu</h2>
+
+<p><img src="/assets/images/evil-twin-demo.jpg" alt="Wi-Fi Evil Twin hücumu" /></p>
+
+<p>Bir kafedə aşağıdakı ssenari baş verir:</p>
+
+<blockquote>
+  <p>Hücumçu eyni adla (<code class="language-plaintext highlighter-rouge">FreeCafeWiFi</code>) saxta bir access point yaradır. Qurban bu saxta şəbəkəyə qoşulduqda, bütün trafiki hücumçu izləyə bilir.</p>
+</blockquote>
+
+<p>Bu metodla <strong>istifadəçinin daxil olduğu saytlar</strong>, <strong>şifrə cəhdləri</strong> və <strong>cookie məlumatları</strong> toplanır.</p>
+
+<hr />
+
+<h2 id="️-ən-çox-yayılan-wi-fi-hücum-növləri">🛠️ Ən çox yayılan Wi-Fi hücum növləri</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hücum tipi</th>
+      <th>Təsviri</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Evil Twin</strong></td>
+      <td>Saxta access point yaradılır</td>
+    </tr>
+    <tr>
+      <td><strong>Deauthentication Attack</strong></td>
+      <td>İstifadəçilər real AP-dən qoparılır</td>
+    </tr>
+    <tr>
+      <td><strong>Packet Sniffing</strong></td>
+      <td>Trafik dinlənir və analiz olunur</td>
+    </tr>
+    <tr>
+      <td><strong>KRACK Attack</strong></td>
+      <td>WPA2 zəifliyi istismar olunur</td>
+    </tr>
+    <tr>
+      <td><strong>Man-in-the-Middle (MitM)</strong></td>
+      <td>İstifadəçi ilə server arasında məlumatlar dəyişdirilir</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-qorunma-yolları">🔐 Qorunma yolları</h2>
+
+<p>Bu cür hücumlardan qorunmaq üçün aşağıdakı addımları tətbiq edin:</p>
+
+<p>✅ <strong>Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin</strong><br />
+✅ <strong>VPN istifadə edin</strong> – Trafiki şifrələyir<br />
+✅ <strong>HTTPS yoxlayın</strong> – Giriş etdiyiniz saytların təhlükəsizlik sertifikatı olmalıdır<br />
+✅ <strong>Wi-Fi deaktiv edin</strong> – Aktiv istifadə etmirsinizsə, şəbəkəni bağlayın<br />
+✅ <strong>Ən son təhlükəsizlik yeniləmələrini tətbiq edin</strong></p>
+
+<hr />
+
+<h2 id="-red-team-baxışı">👨‍💻 Red Team baxışı</h2>
+
+<p>Red Team simulyasiyalarında Wi-Fi hücumları real ssenarilərdə test edilir:</p>
+
+<blockquote>
+  <p>“Test zamanı işçilər ‘Guest_WiFi_Free’ adlı saxta şəbəkəyə bağlandılar. 15 nəfərin trafikindən cookie məlumatları analiz edildi.”</p>
+</blockquote>
+
+<p>Bu cür sınaqlar təşkilatın zəif nöqtələrini aşkarlamaq üçün vacibdir.</p>
+
+<hr />
+
+<h2 id="-blue-team-müdafiəsi">🧯 Blue Team müdafiəsi</h2>
+
+<p>Blue Team bu hücumlara belə cavab verir:</p>
+
+<ul>
+  <li>Wi-Fi IDS/IPS sistemləri qurulur</li>
+  <li>Şəbəkə trafiki monitorinq edilir</li>
+  <li>Təhlükəsizlik təlimləri təşkil edilir</li>
+  <li>AP-lər aktiv olaraq izlənir (Rogue AP Detection)</li>
+</ul>
+
+<hr />
+
+<h2 id="-nəticə">✅ Nəticə</h2>
+
+<p>Wi-Fi — rahat, amma riskli bir texnologiyadır. Hücumçular sadə üsullarla böyük zərər verə bilər. Əgər təşkilatınızda və ya şəxsi cihazlarınızda Wi-Fi istifadə edirsinizsə, bu mövzuda hazırlıqlı olmaq vacibdir.</p>
+
+<p><strong>Məsləhət:</strong> VPN istifadə edin, şəbəkəyə qoşularkən ehtiyatlı olun və maarifləndirici təlimlərdə iştirak edin.</p>
+
+<hr />
+
+<blockquote>
+  <p>Sualınız var? Təlim və simulyasiya üçün <a href="mailto:cyberdersler@gmail.com">əlaqə saxlayın</a></p>
+</blockquote>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="wifi hücumları" /><category term="evil twin" /><category term="deauth attack" /><category term="sniffing" /><category term="krack" /><category term="şəbəkə təhlükəsizliyi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar və onlardan qorunma yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/wifi-attack.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/wifi-attack.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</title><link href="https://cybershieldy.com/posts/2025-post-05/" rel="alternate" type="text/html" title="MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən" /><published>2025-09-05T14:00:00+04:00</published><updated>2025-09-05T14:00:00+04:00</updated><id>https://cybershieldy.com/posts/2025-post-05</id><content type="html" xml:base="https://cybershieldy.com/posts/2025-post-05/"><![CDATA[<h1 id="mitm-man-in-the-middle-hücumu-nədir-şəbəkədəki-görünməz-düşmən">MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən</h1>
 
 <p>İnternetdə “güvəndiyiniz bağlantı” sizi aldada bilər. <strong>MITM (Man-in-the-Middle)</strong> hücumları — hakerlərin şəbəkənizlə server arasına girərək sizin <strong>şəxsi məlumatlarınızı oğurlamasının</strong> ən təhlükəli yollarından biridir.</p>
 

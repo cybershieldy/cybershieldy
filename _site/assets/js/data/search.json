@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları",
+    "url": "/posts/2025-post-07/",
+    "categories": "təhlükəsizlik, şəbəkə hücumları",
+    "tags": "wifi hücumları, evil twin, deauth attack, sniffing, krack, şəbəkə təhlükəsizliyi, red team, blue team",
+    "date": "2025-09-07 09:02:00 +0400",
+    "content": "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar və onlardan qorunma yolları."
+  },
+  
+  {
     "title": "MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən",
     "url": "/posts/2025-post-05/",
     "categories": "təhlükəsizlik, şəbəkə hücumları",
