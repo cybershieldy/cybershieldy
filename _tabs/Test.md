@@ -90,7 +90,7 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 <script>
     function showResult() {
         let score = 0;
-        let totalQuestions = 30; // ümumi suallar
+        let totalQuestions = 10; // ümumi suallar
         let unanswered = 0;
 
         // Bütün sualların cavabını yoxlayırıq
