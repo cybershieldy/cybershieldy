@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-09T09:25:29+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları</title><link href="https://cybershieldy.com/posts/wifi-hucumlari/" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-07T09:02:00+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari/"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-və-müdafiə-yolları">Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-09T09:30:00+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları</title><link href="https://cybershieldy.com/posts/wifi-hucumlari/" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-07T09:02:00+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari/"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-və-müdafiə-yolları">Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları</h1>
 
 <p>Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək <strong>şəbəkə hücumlarından</strong> xəbərsizdir. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcəyik: <strong>Evil Twin</strong>, <strong>Deauthentication Attack</strong>, <strong>KRACK</strong>, <strong>Sniffing</strong> və daha çox.</p>
 
@@ -258,83 +258,52 @@ Bu, tətbiqin yalnız orijinal serverlə əlaqə qurmasını təmin edir.</p>
 
 <hr />
 
-<p>🔐 <strong>Kibertəhlükəsizlik məlumatdan başlayır. Maarifləndikcə güclənirsiniz!</strong></p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real senari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</title><link href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/" rel="alternate" type="text/html" title="Phishing hücumu nədir? Canlı nümunə və qorunma yolları" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-02T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/"><![CDATA[<h1 id="phishing-hücumu-nədir-canlı-nümunə-və-qorunma-yolları">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</h1>
+<p>🔐 <strong>Kibertəhlükəsizlik məlumatdan başlayır. Maarifləndikcə güclənirsiniz!</strong></p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real senari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</title><link href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/" rel="alternate" type="text/html" title="Phishing hücumu nədir? Canlı nümunə və qorunma yolları" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-02T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/"><![CDATA[<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Phishing hücumu nədir? Canlı nümunə və qorunma yolları",
+  "description": "Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "datePublished": "2025-09-02",
+  "image": "https://cybershieldy.com/assets/images/1.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir.html"
+  }
+}
+</script>
+
+<h1 id="phishing-hücumu-nədir-canlı-nümunə-və-qorunma-yolları">Phishing hücumu nədir? Canlı nümunə və qorunma yolları</h1>
 
 <p>Phishing — <strong>sosial mühəndislik</strong> texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan <strong>şifrə</strong>, <strong>kredit kartı</strong> və ya digər həssas məlumatları almağa çalışırlar.</p>
 
 <hr />
 
-<div id="terminal"></div>
-
-<script>
-const messages = [
-  "Hacking your system...",
-  "Bypassing firewall...",
-  "Injecting pink style...",
-  "Welcome to CyberShieldy.com"
-];
-
-let idx = 0;
-const terminal = document.getElementById('terminal');
-const typingSpeed = 100;
-
-function typeMessage(msg, i = 0) {
-  if (i < msg.length) {
-    terminal.textContent += msg.charAt(i);
-    setTimeout(() => typeMessage(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => {
-      eraseMessage(msg.length);
-    }, 1000);
-  }
-}
-
-function eraseMessage(len) {
-  if (len > 0) {
-    terminal.textContent = terminal.textContent.slice(0, -1);
-    setTimeout(() => eraseMessage(len - 1), typingSpeed / 2);
-  } else {
-    idx = (idx + 1) % messages.length;
-    typeMessage(messages[idx]);
-  }
-}
-
-typeMessage(messages[idx]);
-</script>
-
-<style>
-#terminal {
-  font-family: monospace;
-  white-space: nowrap;
-  background: black;
-  color: #0f0;
-  padding: 10px;
-  border-radius: 4px;
-  width: max-content;
-  min-width: 300px;
-  height: 1.2em;
-}
-</style>
-
 <h2 id="-canlı-nümunə-saxta-e-mail-kampaniyası">🎯 Canlı nümunə: Saxta e-mail kampaniyası</h2>
 
 <p>Aşağıda real bir phishing e-mail nümunəsini paylaşırıq (şəxsi məlumatlar gizlədilib):</p>
 
-<p><img src="/assets/images/3.png" alt="Phishing e-mail nümunəsi" /></p>
+<p><img src="/assets/images/3.png" alt="Saxta PayPal e-mail nümunəsi" title="Phishing e-mail hücumu nümunəsi" /></p>
 
 <p>📩 Bu e-mail istifadəçiyə belə bir mesaj göndərmişdi:</p>
 
 <blockquote>
   <p><strong>Subject:</strong> “Hesabınız təhlükədədir — dərhal daxil olun!”<br />
 <strong>Göndərən:</strong> <code class="language-plaintext highlighter-rouge">support@paypal-secure.com</code><br />
-<strong>Mesaj:</strong> “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: [click-here.com]”</p>
+<strong>Mesaj:</strong> “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: <a href="https://click-here.com">click-here.com</a>”</p>
 </blockquote>
 
 <p>Linkə klik edən istifadəçilər saxta “PayPal login” səhifəsinə yönləndirilirdi. Bura daxil edilən istifadəçi adı və şifrə hücumçuların əlinə keçir.</p>
 
+<p>🔗 <strong>Əlavə oxu:</strong> <a href="/posts/sosial-muhendislik-nedir.html">Sosial mühəndislik hücumları və müdafiə yolları</a></p>
+
 <hr />
 
-<h2 id="️-qorunma-yolları">🛡️ Qorunma yolları</h2>
+<h2 id="️-phishing-dən-qorunma-yolları">🛡️ Phishing-dən qorunma yolları</h2>
 
 <p>Bu cür hücumlardan qorunmaq üçün aşağıdakı addımları izləyin:</p>
 
@@ -342,13 +311,15 @@ typeMessage(messages[idx]);
 Saxta ünvanlar çox bənzər olur — <code class="language-plaintext highlighter-rouge">paypal.com</code> əvəzinə <code class="language-plaintext highlighter-rouge">paypal-secure.com</code> kimi.</p>
 
 <p>✅ <strong>Şübhəli linklərə klik etməyin:</strong><br />
-Linkin üstündə mouse-u saxlayın və URL-in real olub-olmadığını yoxlayın.</p>
+Mouse-u link üzərinə gətirib URL-in real olub-olmadığını yoxlayın.</p>
 
 <p>✅ <strong>İki faktorlu identifikasiya (2FA) istifadə edin:</strong><br />
-Hətta şifrə oğurlansa belə, ikinci qoruma qatınız olur.</p>
+Şifrə oğurlansa belə, ikinci qoruma qatınız olacaq.</p>
 
 <p>✅ <strong>Anti-phishing təlimləri keçirin:</strong><br />
 Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.</p>
+
+<p>🔗 <strong>Google Təhlükəsizlik Mərkəzi:</strong> <a href="https://safety.google/security-tips/">https://safety.google/security-tips/</a></p>
 
 <hr />
 
@@ -360,23 +331,23 @@ Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.
   <p>“Təlim zamanı 50 nəfərə saxta HR e-mail-i göndərildi. 18 nəfər linkə klik etdi, 7 nəfər isə şifrəni daxil etdi.”</p>
 </blockquote>
 
-<p>Bu, real hücum ssenarilərinə hazırlıq baxımından çox effektiv üsuldur.</p>
+<p>Bu cür ssenarilər real hücumlara qarşı hazırlıq baxımından olduqca effektivdir.</p>
 
 <hr />
 
 <h2 id="-blue-team-cavab-strategiyası">🔐 Blue Team cavab strategiyası</h2>
 
-<p>Blue Team tərəfi isə bu hücumlara qarşı cavab verir:</p>
+<p>Blue Team bu hücumlara qarşı aşağıdakı addımları atır:</p>
 
 <ul>
   <li><strong>SIEM-lər ilə şübhəli e-mail trafiki izlənir</strong></li>
   <li><strong>Spam/Phishing filtrləri tətbiq olunur</strong></li>
-  <li><strong>İstifadəçilər təlimlərlə maarifləndirilir</strong></li>
+  <li><strong>İstifadəçilər maarifləndirmə ilə hazırlanır</strong></li>
 </ul>
 
 <hr />
 
-<h2 id="nəticə">Nəticə</h2>
+<h2 id="-nəticə">✅ Nəticə</h2>
 
 <p>Phishing — görünüşcə sadə, amma təsiri çox böyük ola biləcək hücum formasıdır. İstər fərdi istifadəçi, istər böyük korporasiya olun — phishing-ə qarşı hazırlıqlı olmaq şərtdir.</p>
 
@@ -384,6 +355,16 @@ Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.
 
 <hr />
 
-<blockquote>
-  <p>Siz də buna bənzər e-mail almısınızsa və ya təlim simulyasiyası təşkil etmək istəyirsinizsə — <a href="mailto:cyberdersler@gmail.com">mənimlə əlaqə saxlayın</a></p>
-</blockquote>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="sosial mühəndislik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="email hücumu" /><category term="kibertəhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="istifadəçi maarifləndirilməsi" /><summary type="html"><![CDATA[Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/1.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<h2 id="-əlaqə">📬 Əlaqə</h2>
+
+<p>Siz də buna bənzər e-mail almısınızsa və ya təlim simulyasiyası təşkil etmək istəyirsinizsə — <a href="mailto:cyberdersler@gmail.com">mənimlə əlaqə saxlayın</a></p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar yazılar</h2>
+
+<ul>
+  <li><a href="/posts/sosial-muhendislik-nedir.html">Sosial mühəndislik nədir və necə işləyir?</a></li>
+  <li><a href="/posts/2fa-nedir.html">İki faktorlu identifikasiya nədir və niyə vacibdir?</a></li>
+  <li><a href="/posts/red-team-blue-team.html">Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri</a></li>
+</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="sosial mühəndislik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="email hücumu" /><category term="kibertəhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="istifadəçi maarifləndirilməsi" /><summary type="html"><![CDATA[Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/1.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

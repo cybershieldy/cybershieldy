@@ -6,81 +6,51 @@ tags: [phishing, sosial mühəndislik, email hücumu, kibertəhlükəsizlik, red
 description: "Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan."
 image: /assets/images/1.jpg
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Phishing hücumu nədir? Canlı nümunə və qorunma yolları",
+  "description": "Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "datePublished": "2025-09-02",
+  "image": "https://cybershieldy.com/assets/images/1.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir.html"
+  }
+}
+</script>
+
 # Phishing hücumu nədir? Canlı nümunə və qorunma yolları
 
 Phishing — **sosial mühəndislik** texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan **şifrə**, **kredit kartı** və ya digər həssas məlumatları almağa çalışırlar.
 
 ---
 
-<div id="terminal"></div>
-
-<script>
-const messages = [
-  "Hacking your system...",
-  "Bypassing firewall...",
-  "Injecting pink style...",
-  "Welcome to CyberShieldy.com"
-];
-
-let idx = 0;
-const terminal = document.getElementById('terminal');
-const typingSpeed = 100;
-
-function typeMessage(msg, i = 0) {
-  if (i < msg.length) {
-    terminal.textContent += msg.charAt(i);
-    setTimeout(() => typeMessage(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => {
-      eraseMessage(msg.length);
-    }, 1000);
-  }
-}
-
-function eraseMessage(len) {
-  if (len > 0) {
-    terminal.textContent = terminal.textContent.slice(0, -1);
-    setTimeout(() => eraseMessage(len - 1), typingSpeed / 2);
-  } else {
-    idx = (idx + 1) % messages.length;
-    typeMessage(messages[idx]);
-  }
-}
-
-typeMessage(messages[idx]);
-</script>
-
-<style>
-#terminal {
-  font-family: monospace;
-  white-space: nowrap;
-  background: black;
-  color: #0f0;
-  padding: 10px;
-  border-radius: 4px;
-  width: max-content;
-  min-width: 300px;
-  height: 1.2em;
-}
-</style>
-
 ## 🎯 Canlı nümunə: Saxta e-mail kampaniyası
 
 Aşağıda real bir phishing e-mail nümunəsini paylaşırıq (şəxsi məlumatlar gizlədilib):
 
-![Phishing e-mail nümunəsi](/assets/images/3.png)
+![Saxta PayPal e-mail nümunəsi](/assets/images/3.png "Phishing e-mail hücumu nümunəsi")
 
 📩 Bu e-mail istifadəçiyə belə bir mesaj göndərmişdi:
 
 > **Subject:** “Hesabınız təhlükədədir — dərhal daxil olun!”  
 > **Göndərən:** `support@paypal-secure.com`  
-> **Mesaj:** “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: [click-here.com]”
+> **Mesaj:** “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: [click-here.com](https://click-here.com)”
 
 Linkə klik edən istifadəçilər saxta “PayPal login” səhifəsinə yönləndirilirdi. Bura daxil edilən istifadəçi adı və şifrə hücumçuların əlinə keçir.
 
+🔗 **Əlavə oxu:** [Sosial mühəndislik hücumları və müdafiə yolları](/posts/sosial-muhendislik-nedir.html)
+
 ---
 
-## 🛡️ Qorunma yolları
+## 🛡️ Phishing-dən qorunma yolları
 
 Bu cür hücumlardan qorunmaq üçün aşağıdakı addımları izləyin:
 
@@ -88,13 +58,15 @@ Bu cür hücumlardan qorunmaq üçün aşağıdakı addımları izləyin:
 Saxta ünvanlar çox bənzər olur — `paypal.com` əvəzinə `paypal-secure.com` kimi.
 
 ✅ **Şübhəli linklərə klik etməyin:**  
-Linkin üstündə mouse-u saxlayın və URL-in real olub-olmadığını yoxlayın.
+Mouse-u link üzərinə gətirib URL-in real olub-olmadığını yoxlayın.
 
 ✅ **İki faktorlu identifikasiya (2FA) istifadə edin:**  
-Hətta şifrə oğurlansa belə, ikinci qoruma qatınız olur.
+Şifrə oğurlansa belə, ikinci qoruma qatınız olacaq.
 
 ✅ **Anti-phishing təlimləri keçirin:**  
 Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.
+
+🔗 **Google Təhlükəsizlik Mərkəzi:** [https://safety.google/security-tips/](https://safety.google/security-tips/)
 
 ---
 
@@ -104,21 +76,21 @@ Red Team simulyasiyalarında phishing tez-tez istifadə olunur. Məsələn:
 
 > “Təlim zamanı 50 nəfərə saxta HR e-mail-i göndərildi. 18 nəfər linkə klik etdi, 7 nəfər isə şifrəni daxil etdi.”
 
-Bu, real hücum ssenarilərinə hazırlıq baxımından çox effektiv üsuldur.
+Bu cür ssenarilər real hücumlara qarşı hazırlıq baxımından olduqca effektivdir.
 
 ---
 
 ## 🔐 Blue Team cavab strategiyası
 
-Blue Team tərəfi isə bu hücumlara qarşı cavab verir:
+Blue Team bu hücumlara qarşı aşağıdakı addımları atır:
 
 - **SIEM-lər ilə şübhəli e-mail trafiki izlənir**
 - **Spam/Phishing filtrləri tətbiq olunur**
-- **İstifadəçilər təlimlərlə maarifləndirilir**
+- **İstifadəçilər maarifləndirmə ilə hazırlanır**
 
 ---
 
-## Nəticə
+## ✅ Nəticə
 
 Phishing — görünüşcə sadə, amma təsiri çox böyük ola biləcək hücum formasıdır. İstər fərdi istifadəçi, istər böyük korporasiya olun — phishing-ə qarşı hazırlıqlı olmaq şərtdir.
 
@@ -126,5 +98,14 @@ Phishing — görünüşcə sadə, amma təsiri çox böyük ola biləcək hücu
 
 ---
 
-> Siz də buna bənzər e-mail almısınızsa və ya təlim simulyasiyası təşkil etmək istəyirsinizsə — [mənimlə əlaqə saxlayın](mailto:cyberdersler@gmail.com)
+## 📬 Əlaqə
 
+Siz də buna bənzər e-mail almısınızsa və ya təlim simulyasiyası təşkil etmək istəyirsinizsə — [mənimlə əlaqə saxlayın](mailto:cyberdersler@gmail.com)
+
+---
+
+## 📚 Oxşar yazılar
+
+- [Sosial mühəndislik nədir və necə işləyir?](/posts/sosial-muhendislik-nedir.html)
+- [İki faktorlu identifikasiya nədir və niyə vacibdir?](/posts/2fa-nedir.html)
+- [Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri](/posts/red-team-blue-team.html)
