@@ -3,9 +3,12 @@ title: "Phishing hücumu nədir? Canlı nümunə və qorunma yolları"
 date: 2025-09-02 10:00:00 +0400
 categories: [təhlükəsizlik, sosial mühəndislik]
 tags: [phishing, sosial mühəndislik, email hücumu, kibertəhlükəsizlik, red team, blue team, istifadəçi maarifləndirilməsi]
-description: "Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan."
+description: "Phishing e-mail hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Sosial mühəndislik texnikaları və onlardan necə qorunmaq olar — Emin Savaylov-un bloqundan. Bloqu oxuyun və özünüzü qorumağı öyrənin."
 image: /assets/images/1.jpg
 ---
+
+<!-- Canonical link -->
+<link rel="canonical" href="https://cybershieldy.com/posts/phishing-hucumu-nedir.html"/>
 
 <script type="application/ld+json">
 {
@@ -36,14 +39,13 @@ Phishing — **sosial mühəndislik** texnikalarının ən geniş yayılmış fo
 
 Aşağıda real bir phishing e-mail nümunəsini paylaşırıq (şəxsi məlumatlar gizlədilib):
 
-![Saxta PayPal e-mail nümunəsi](/assets/images/3.png "Phishing e-mail hücumu nümunəsi")
+![Saxta PayPal e-mail phishing hücumu nümunəsi](/assets/images/3.png "Phishing e-mail hücumu nümunəsi")
 
 📩 Bu e-mail istifadəçiyə belə bir mesaj göndərmişdi:
 
 > **Subject:** “Hesabınız təhlükədədir — dərhal daxil olun!”  
 > **Göndərən:** `support@paypal-secure.com`  
 >> **Mesaj:** “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: `click-here.com`”
-
 
 Linkə klik edən istifadəçilər saxta “PayPal login” səhifəsinə yönləndirilirdi. Bura daxil edilən istifadəçi adı və şifrə hücumçuların əlinə keçir.
 
@@ -70,8 +72,6 @@ Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.
 🔗 **Google Təhlükəsizlik Mərkəzi:**  
 <a href="https://safety.google/intl/en" target="_blank" rel="noopener noreferrer">https://safety.google/intl/en</a>  
 Google-un rəsmi təhlükəsizlik portalı — phishing və digər kiber təhdidlərə qarşı qorunma yolları burada təqdim olunur.
-
-
 
 ---
 
