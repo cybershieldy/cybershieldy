@@ -3,9 +3,32 @@ title: "MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz dü
 date: 2025-09-05 14:00:00 +0400
 categories: [təhlükəsizlik, şəbəkə hücumları]
 tags: [mitm, man in the middle, şəbəkə təhlükəsizliyi, sniffing, vpn, kibertəhlükəsizlik, ictimai wi-fi, red team, blue team]
-description: "MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real senari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda."
+description: "MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real senari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. Bloqu oxuyun və özünüzü qorumağı öyrənin."
 image: /assets/images/2.jpg
 ---
+
+<!-- Canonical link -->
+<link rel="canonical" href="https://cybershieldy.com/posts/mitm-hucumu-nedir.html" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən",
+  "description": "MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real senari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "datePublished": "2025-09-05",
+  "image": "https://cybershieldy.com/assets/images/2.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/mitm-hucumu-nedir.html"
+  }
+}
+</script>
 
 # MITM (Man-in-the-Middle) hücumu nədir? Şəbəkədəki görünməz düşmən
 
@@ -15,7 +38,7 @@ Bu yazıda MITM-in necə işlədiyini, real bir ssenarini və **özünüzü qoru
 
 ---
 
-![MITM konsepti](/assets/images/man-in-the-middle-attack.svg)
+![MITM konsepti və sxematik görünüş](/assets/images/man-in-the-middle-attack.svg "Şəbəkə üzərində MITM hücumunun necə baş verdiyini göstərən texniki vizual")
 
 > *Şəkil: Hücumçunun qurban və server arasında gizli şəkildə yerləşdiyi MITM strukturu*
 
@@ -27,76 +50,79 @@ MITM hücumu zamanı haker sizi və daxil olmaq istədiyiniz serveri **bir-birin
 
 ### Əsas mərhələlər:
 
-- **Trafik ələ keçir:** Şəbəkədəki paketlər hücumçunun cihazına düşür.
-- **Məlumat oxunur:** Şifrələnməmiş məlumatlar (login, bank, mesajlar) rahatca analiz edilir.
-- **Manipulyasiya edilir:** İstifadəçi istəmədən saxta səhifəyə yönləndirilə bilər.
+- **Trafik ələ keçirilir**
+- **Məlumatlar oxunur və analiz olunur**
+- **Zərərli yönləndirmə və ya manipulyasiya edilir**
 
 ---
 
-## 🎯 Real dünya ssenarisi: Kafedə “pulsuz Wi-Fi” MITM tələsi
+## 🎯 Real ssenari: Kafedə “pulsuz Wi-Fi” MITM tələsi
 
-Bir kafedə oturub pulsuz Wi-Fi-a qoşuldunuz. Şəbəkənin adı `Free_Coffee_Wifi`. Amma əslində bu şəbəkə **hücumçu tərəfindən yaradılıb**.
+Bir kafedə `Free_Coffee_Wifi` adlı pulsuz Wi-Fi-a qoşuldunuz. Amma bu əslində **hücumçu tərəfindən yaradılmış saxta şəbəkədir**.
 
-Siz e-maillərə baxırsınız, sosial media login edirsiniz və fərqində olmadan **bütün məlumatlarınız hücumçunun laptopuna düşür**.
+Siz sosial media və ya bank hesabınıza girərkən **bütün trafik MITM hücumçunun laptopundan keçir**.
 
-> 🔎 Haker `Wireshark`, `Ettercap` və `Bettercap` kimi alətlərlə trafiki analiz edir. HTTPS olmayan səhifələrdə isə istədiyi kimi məlumatları oxuyur.
+> 🔎 Alətlər: `Wireshark`, `Ettercap`, `Bettercap` və s.  
+> HTTPS olmayan səhifələrdə hər şey açıq şəkildə görünür!
 
 ---
 
-## 🛡️ MITM hücumlarından necə qorunmaq olar? (Praktik məsləhətlər)
+## 🛡️ MITM hücumlarından necə qorunmaq olar?
 
 🔐 **1. VPN istifadə edin**  
-Trafikinizi şifrələyən VPN, MITM hücumlarının qarşısını effektiv şəkildə alır.
+Trafikinizi şifrələyən VPN, MITM hücumlarına qarşı ən effektiv qorunmadır.
 
-🌐 **2. HTTPS olmayan saytlardan uzaq olun**  
-Brauzerinizdə “kilid işarəsi” yoxdursa, həmin sayta heç vaxt şifrə daxil etməyin.
+🌐 **2. Yalnız HTTPS olan saytlardan istifadə edin**  
+“Kilid” simvolu olmayan saytlara şifrə daxil etməyin.
 
-📶 **3. Tanımadığınız Wi-Fi-lara qoşulmayın**  
-Eyni adda bir neçə Wi-Fi varsa — ehtiyatlı olun. “Evil Twin” texnikası çox yayılmış MITM üsuludur.
+📶 **3. Tanımadığınız Wi-Fi-lardan uzaq durun**  
+Eyni adlı Wi-Fi-lar varsa ehtiyatlı olun. “Evil Twin” texnikası çox yayılıb.
 
-⚙️ **4. Telefon və laptopda antivirus + firewall aktiv edin**  
-Endpoint təhlükəsizlik tədbirləri ilk müdafiə xəttinizdir.
+⚙️ **4. Antivirus və firewall aktiv edin**  
+Əsas təhlükəsizlik qatıdır.
 
-📱 **5. Mobil tətbiqlərdə SSL pinning istifadə edin (developer-lər üçün)**  
-Bu, tətbiqin yalnız orijinal serverlə əlaqə qurmasını təmin edir.
+📱 **5. SSL Pinning tətbiq edin (developer-lər üçün)**  
+Tətbiqlər yalnız etibarlı serverlərlə işləməlidir.
 
----
-
-## 👨‍💻 Red Team hücumlarında MITM necə istifadə olunur?
-
-Penetrasiya testlərində MITM hücumları real vəziyyəti simulyasiya etmək üçün istifadə olunur:
-
-> “Test zamanı saxta Wi-Fi yaradıldı. 32 istifadəçidən 13-ü bu şəbəkəyə qoşuldu. MITM ilə onların trafiki analiz edildi, 5 nəfərin login məlumatları oğurlandı.”
-
-MITM texnikaları ilə **istifadəçiyə toxunmadan məlumat oğurlamaq** mümkündür — bu onu həm təhlükəli, həm də “ağıllı” hücum halına gətirir.
+🔗 **Əlavə resurs:**  
+<a href="https://safety.google/intl/en" target="_blank" rel="noopener noreferrer">Google Təhlükəsizlik Mərkəzi</a>
 
 ---
 
-## 🛡️ Blue Team cavab strategiyaları
+## 👨‍💻 Red Team: MITM necə istifadə olunur?
 
-Blue Team (müdafiə tərəfi) MITM hücumlarına qarşı aşağıdakı addımları tətbiq edir:
+> “Pentest zamanı saxta Wi-Fi yaradıldı. 13 nəfər qoşuldu, 5 istifadəçinin login məlumatları MITM vasitəsilə oğurlandı.”
 
-- 🔎 **SIEM sistemləri ilə şəbəkə anomaliyalarını aşkar edir**
-- 🚫 **DNS Spoofing və ARP Poisoning qarşısını alan alətlər tətbiq edir**
-- 🎓 **İstifadəçilər üçün müntəzəm kibertəhlükəsizlik təlimləri təşkil edir**
-- 🔒 **Wi-Fi şəbəkə monitorinq sistemləri qurur və şübhəli fəaliyyətləri izləyir**
+Bu hücumlar istifadəçiyə **toxunmadan məlumat oğurlamaq** üçün ideal üsuldur.
 
 ---
 
-## ✅ Nəticə: MITM real təhlükədir
+## 🔐 Blue Team: Müdafiə strategiyaları
 
-Hər gün milyonlarla insan bu cür görünməyən hücumlara məruz qalır — fərqində olmadan. MITM sadəcə texniki bir termin deyil, **həyatınıza təsir edə biləcək real risqdir.**
-
-Bu yazı sizə özünüzü və ya təşkilatınızı qorumaq üçün ilk addımı atmaqda yardımçı olmalıdır.
-
----
-
-## 📞 Əlaqə və konsultasiya
-
-> ❗ Siz də buna bənzər bir MITM və ya şəbəkə hücumu ilə qarşılaşmısınızsa, və ya bu sahədə **praktik dərslər**, **real simulyasiya təlimləri** keçmək istəyirsinizsə — aşağıdakı WhatsApp nömrəsi ilə **birbaşa əlaqə** saxlaya bilərsiniz:
-
-📲 **[+994 55 518 25 23 WhatsApp ilə əlaqə saxla](https://wa.me/994555182523)**
+- 🔍 SIEM ilə trafik monitorinqi
+- 🚫 DNS spoofing və ARP poisoning qoruması
+- 🎓 Maarifləndirmə təlimləri
+- 📶 Wi-Fi təhlükəsizlik sistemləri
 
 ---
 
-🔐 **Kibertəhlükəsizlik məlumatdan başlayır. Maarifləndikcə güclənirsiniz!**
+## ✅ Nəticə: Gözə görünməyən təhlükə
+
+MITM hücumları — sadəcə texniki bir termin deyil. O, **real həyatda şəxsi və korporativ məlumatlarınızı** ciddi şəkildə riskə ata bilər.
+
+🔐 **Maariflən — qorun — paylaş.**
+
+---
+
+## 📞 Əlaqə və praktiki dəstək
+
+> Hücumla qarşılaşmısınız və ya kibertəhlükəsizlik təlimi almaq istəyirsiniz?  
+📲 **[WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523)** — Birbaşa konsultasiya.
+
+---
+
+## 📚 Oxşar yazılar
+
+- [Phishing hücumu nədir? Canlı nümunə və qorunma yolları](/posts/phishing-hucumu-nedir.html)
+- [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](/posts/red-team-blue-team.html)
+- [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](/posts/ictimai-wifi-riskleri.html)
