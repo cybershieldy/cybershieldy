@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-09T22:10:59+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/kiber-hucumlar/" rel="alternate" type="text/html" title="Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları" /><published>2025-09-09T18:00:00+04:00</published><updated>2025-09-09T18:25:37+04:00</updated><id>https://cybershieldy.com/posts/kiber-hucumlar</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-hucumlar/"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-09T22:27:26+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/kiber-hucumlar/" rel="alternate" type="text/html" title="Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları" /><published>2025-09-09T18:00:00+04:00</published><updated>2025-09-09T18:25:37+04:00</updated><id>https://cybershieldy.com/posts/kiber-hucumlar</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-hucumlar/"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -489,121 +489,7 @@ HTTPS olmayan səhifələrdə hər şey açıq şəkildə görünür!</p>
   <li><a href="/posts/phishing-hucumu-nedir.html">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
   <li><a href="/posts/red-team-blue-team.html">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
   <li><a href="/posts/ictimai-wifi-riskleri.html">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
-</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real ssenari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">What is a Phishing Attack? Live Examples and Complete Defense Methods (2025 Updated)</title><link href="https://cybershieldy.com/posts/phishing-en/" rel="alternate" type="text/html" title="What is a Phishing Attack? Live Examples and Complete Defense Methods (2025 Updated)" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-02T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/phishing-en</id><content type="html" xml:base="https://cybershieldy.com/posts/phishing-en/"><![CDATA[<!-- Structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "What is a Phishing Attack? Live Examples and Complete Defense Methods (2025 Updated)",
-  "description": "Learn how phishing attacks work with live examples. Social engineering techniques and defense strategies – on Emin Savaylov's cybersecurity blog.",
-  "author": { "@type": "Person", "name": "Emin Savaylov" },
-  "publisher": { "@type": "Organization", "name": "CyberShieldy", "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }},
-  "datePublished": "2025-09-02T10:00:00+04:00",
-  "dateModified": "2025-09-09T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/1.jpg",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir.html" }
-}
-</script>
-
-<h1 id="what-is-a-phishing-attack-live-examples-and-complete-defense-methods-2025-updated">What is a Phishing Attack? Live Examples and Complete Defense Methods (2025 Updated)</h1>
-
-<p>Phishing is one of the most common forms of <strong>social engineering</strong> attacks. Attackers exploit the human factor, trying to steal <strong>passwords</strong>, <strong>credit card information</strong>, or other sensitive data from victims via fake emails.</p>
-
-<hr />
-
-<h2 id="️-frequently-asked-questions-faq">🙋‍♂️ Frequently Asked Questions (FAQ)</h2>
-
-<p><strong>How does a phishing attack occur?</strong><br />
-A phishing attack usually starts by sending a fake email to the user. The link in the email redirects to a malicious website.</p>
-
-<p><strong>How can you protect yourself from phishing?</strong><br />
-Check email addresses carefully, enable 2FA, and never click on suspicious links.</p>
-
-<hr />
-
-<h2 id="-live-example-fake-email-campaign">🎯 Live Example: Fake Email Campaign</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Attack Type</th>
-      <th>Description</th>
-      <th>Real Example</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Fake PayPal Email</strong></td>
-      <td>Claims the user’s account is at risk and attempts to steal information via a link</td>
-      <td><strong>Subject:</strong> “Your account is at risk — login immediately!”<br /><strong>Sender:</strong> support@paypal-secure.com<br />Link: click-here.com</td>
-    </tr>
-    <tr>
-      <td><strong>Fake Bank Email</strong></td>
-      <td>Claims to be from the bank’s security system</td>
-      <td>Clicking the link redirects the user to a fake banking page</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="/assets/images/3.png" alt="Fake PayPal phishing email example" title="Phishing email example" /></p>
-
-<p>🔗 Read more: <a href="/posts/sosial-muhendislik-nedir.html">Social Engineering Attacks and Defense Methods</a></p>
-
-<hr />
-
-<h2 id="️-ways-to-protect-against-phishing">🛡️ Ways to Protect Against Phishing</h2>
-
-<p>✅ <strong>Check email addresses carefully</strong> — Fake addresses often look very similar (<code class="language-plaintext highlighter-rouge">paypal.com</code> vs <code class="language-plaintext highlighter-rouge">paypal-secure.com</code>).<br />
-✅ <strong>Do not click suspicious links</strong> — Hover over the link to verify the real URL.<br />
-✅ <strong>Use two-factor authentication (2FA)</strong> — Even if your password is stolen, you have an additional layer of protection.<br />
-✅ <strong>Conduct anti-phishing training</strong> — Regular simulations and awareness programs are essential in corporate environments.</p>
-
-<p>🔗 Google Safety Center:<br />
-<a href="https://safety.google/intl/en" target="_blank" rel="noopener noreferrer">https://safety.google/intl/en</a></p>
-
-<hr />
-
-<h2 id="-red-team-perspective">👨‍💻 Red Team Perspective</h2>
-
-<blockquote>
-  <p>“During the training, 50 employees received a fake HR email. 18 clicked the link, and 7 entered their passwords.”</p>
-</blockquote>
-
-<p>Red Team scenarios are effective for preparing against real attacks.</p>
-
-<hr />
-
-<h2 id="-blue-team-response-strategy">🔐 Blue Team Response Strategy</h2>
-
-<ul>
-  <li><strong>Monitor suspicious email traffic with SIEM</strong></li>
-  <li><strong>Apply spam/phishing filters</strong></li>
-  <li><strong>Train users with awareness programs</strong></li>
-</ul>
-
-<hr />
-
-<h2 id="-conclusion">✅ Conclusion</h2>
-
-<p>Phishing may look simple but has a high impact. Being prepared is essential.</p>
-
-<p><strong>Advice:</strong> Conduct regular training, stay alert to suspicious emails, and keep your security tools updated.</p>
-
-<hr />
-
-<h2 id="-contact">📬 Contact</h2>
-
-<p><a href="mailto:cyberdersler@gmail.com">Contact via email</a></p>
-
-<hr />
-
-<h2 id="-related-posts">📚 Related Posts</h2>
-
-<ul>
-  <li><a href="/posts/sosial-muhendislik-nedir.html">What is Social Engineering and How It Works</a></li>
-  <li><a href="/posts/2fa-nedir.html">What is Two-Factor Authentication (2FA) and Why It’s Important</a></li>
-  <li><a href="/posts/red-team-blue-team.html">Red Team vs Blue Team Differences in Cybersecurity</a></li>
-</ul>]]></content><author><name></name></author><category term="security" /><category term="social engineering" /><category term="phishing" /><category term="social engineering" /><category term="email attack" /><category term="cybersecurity" /><category term="red team" /><category term="blue team" /><category term="user awareness" /><summary type="html"><![CDATA[Learn how phishing attacks work with live examples. Social engineering techniques and defense strategies – on Emin Savaylov's cybersecurity blog. 2025 Updated article.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/1.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/" rel="alternate" type="text/html" title="Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-09T17:06:16+04:00</updated><id>https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/"><![CDATA[<!-- Structured data -->
+</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real ssenari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/" rel="alternate" type="text/html" title="Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-09T17:06:16+04:00</updated><id>https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

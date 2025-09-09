@@ -14,7 +14,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
-  - jekyll-polyglot   # çoxdillilik
+ 
 
 languages: [az, en, ru, tr]
 default_lang: az
