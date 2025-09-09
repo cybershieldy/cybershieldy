@@ -20,6 +20,23 @@ keywords:
 robots: index, follow
 ---
 
+<!-- Canonical -->
+<link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)" />
+<meta property="og:description" content="30 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
+<meta property="og:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)" />
+<meta name="twitter:description" content="Ethical hacking, OWASP və SQLi biliklərinizi bu test ilə yoxlayın. CEH hazırlığı üçün uyğundur." />
+<meta name="twitter:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
+
+
 # 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
 
 Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **30 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.

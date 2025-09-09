@@ -1,6 +1,6 @@
 function showResult() {
     let score = 0;
-    let totalQuestions = 10; // sual sayını burda dəyiş
+    let totalQuestions = 30; // 30 sual üçün
     let unanswered = 0;
 
     for (let i = 1; i <= totalQuestions; i++) {
