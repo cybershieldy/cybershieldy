@@ -3,7 +3,7 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-favicon: /assets/images/favicon.ico
+favicon: /assets/images/favicon.png
 
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
