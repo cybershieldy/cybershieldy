@@ -1,15 +1,18 @@
 ---
-title: "Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları"
+title: "Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)"
 date: 2025-09-07 09:02:00 +0400
+lastmod: 2025-09-09 12:00:00 +0400
 categories: [təhlükəsizlik, şəbəkə hücumları]
 tags: [wifi hücumları, evil twin, deauth attack, sniffing, krack, şəbəkə təhlükəsizliyi, red team, blue team]
-description: "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar və onlardan qorunma yolları."
+description: "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar, təhlükələr və ən effektiv müdafiə yolları – 2025-ci ilin yenilənmiş versiyası."
 image: /assets/images/wfi.png
 ---
 
-# Wi-Fi Hücumları nədir? Real nümunə və müdafiə yolları
+# Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)
 
-Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək **şəbəkə hücumlarından** xəbərsizdir. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcəyik: **Evil Twin**, **Deauthentication Attack**, **KRACK**, **Sniffing** və daha çox.
+> **Son yenilənmə:** 9 Sentyabr 2025
+
+Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək **şəbəkə hücumlarından** xəbərsizdir. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.
 
 ---
 
@@ -69,7 +72,7 @@ typeMessage(messages[idx]);
 
 ## 🎯 Canlı nümunə: Evil Twin hücumu
 
-![Wi-Fi Evil Twin hücumu](/assets/images/evil.jpg)
+![Wi-Fi Evil Twin hücumu](/assets/images/evil.jpg "Wi-Fi Evil Twin hücumu nümunəsi")
 
 Bir kafedə aşağıdakı ssenari baş verir:
 
@@ -79,57 +82,84 @@ Bu metodla **istifadəçinin daxil olduğu saytlar**, **şifrə cəhdləri** və
 
 ---
 
-## 🛠️ Ən çox yayılan Wi-Fi hücum növləri
+## 🛠️ Ən çox yayılan Wi-Fi hücum növləri və 2025-də yeniliklər
 
-| Hücum tipi | Təsviri |
-|------------|----------|
-| **Evil Twin** | Saxta access point yaradılır |
-| **Deauthentication Attack** | İstifadəçilər real AP-dən qoparılır |
-| **Packet Sniffing** | Trafik dinlənir və analiz olunur |
-| **KRACK Attack** | WPA2 zəifliyi istismar olunur |
-| **Man-in-the-Middle (MitM)** | İstifadəçi ilə server arasında məlumatlar dəyişdirilir |
+| Hücum tipi                  | Təsviri                                                               |
+|-----------------------------|----------------------------------------------------------------------|
+| **Evil Twin**               | Saxta access point yaradılır, istifadəçilər aldanır.                 |
+| **Deauthentication Attack** | İstifadəçilər real AP-dən qoparılır və hücumçunun AP-sinə yönləndirilir. |
+| **Packet Sniffing**         | Şəbəkə trafiki dinlənir və analiz olunur.                             |
+| **KRACK Attack**            | WPA2 zəifliyi istismar olunur, şifrələnmiş trafik ifşa edilir.         |
+| **Man-in-the-Middle (MitM)**| İstifadəçi ilə server arasında məlumatlar dəyişdirilir və oğurlanır. |
+| **Wi-Fi Phishing**          | Saxta şəbəkə ilə istifadəçi məlumatları fırıldaqla ələ keçirilir.     |
 
----
-
-## 🔐 Qorunma yolları
-
-Bu cür hücumlardan qorunmaq üçün aşağıdakı addımları tətbiq edin:
-
-✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin**  
-✅ **VPN istifadə edin** – Trafiki şifrələyir  
-✅ **HTTPS yoxlayın** – Giriş etdiyiniz saytların təhlükəsizlik sertifikatı olmalıdır  
-✅ **Wi-Fi deaktiv edin** – Aktiv istifadə etmirsinizsə, şəbəkəni bağlayın  
-✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin**
+*2025-ci ildə hücum metodları daha da təkmilləşib və avtomatlaşdırılıb. Bu səbəbdən müdafiə üsullarını da daim yeniləmək lazımdır.*
 
 ---
 
-## 👨‍💻 Red Team baxışı
+## 🔐 2025-ci il üçün Wi-Fi hücumlarından qorunma yolları
+
+Aşağıdakı tədbirlər ən effektiv müdafiə üsullarıdır:
+
+✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə VPN istifadə edin.  
+✅ **VPN istifadəsi** – Bütün trafikinizi güclü şifrələmə ilə qoruyur.  
+✅ **HTTPS protokoluna diqqət edin** – Giriş etdiyiniz saytların SSL sertifikatı olmalıdır.  
+✅ **Wi-Fi deaktiv edin** – İstifadə etmədiyiniz zaman cihazınızın Wi-Fi-ni bağlayın.  
+✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – Firmware və OS yeniləmələri vacibdir.  
+✅ **Rogue AP Detection alətləri quraşdırın** – Şəbəkənizdə saxta AP-ləri aşkarlayın.  
+✅ **Təhlükəsizlik təlimlərinə qatılın** – Özünüzü və komandamızı yeniliklərdən xəbərdar edin.
+
+---
+
+## 👨‍💻 Red Team perspektivi
 
 Red Team simulyasiyalarında Wi-Fi hücumları real ssenarilərdə test edilir:
 
 > “Test zamanı işçilər ‘Guest_WiFi_Free’ adlı saxta şəbəkəyə bağlandılar. 15 nəfərin trafikindən cookie məlumatları analiz edildi.”
 
-Bu cür sınaqlar təşkilatın zəif nöqtələrini aşkarlamaq üçün vacibdir.
+Bu sınaqlar təşkilatların zəif nöqtələrini aşkarlamağa və təhlükəsizlik tədbirlərini gücləndirməyə imkan verir.
 
 ---
 
 ## 🧯 Blue Team müdafiəsi
 
-Blue Team bu hücumlara belə cavab verir:
+Blue Team bu hücumlara qarşı aktiv müdafiə sistemləri qurur:
 
-- Wi-Fi IDS/IPS sistemləri qurulur
-- Şəbəkə trafiki monitorinq edilir
-- Təhlükəsizlik təlimləri təşkil edilir
-- AP-lər aktiv olaraq izlənir (Rogue AP Detection)
+- Wi-Fi IDS/IPS sistemləri quraşdırılır  
+- Şəbəkə trafiki daimi monitorinq edilir  
+- Təhlükəsizlik təlimləri keçirilir  
+- AP-lər aktiv olaraq izlənir (Rogue AP Detection)  
+
+---
+
+## 📅 Cronical yenilənmə və davamlı təhlükəsizlik
+
+Wi-Fi hücum texnologiyaları daim dəyişir və yenilənir. Buna görə də, bu məqalə müntəzəm olaraq yenilənir və 2025-ci ilin ən son məlumatları ilə zənginləşdirilir.  
+
+**Son yenilənmə:** 9 Sentyabr 2025
 
 ---
 
 ## ✅ Nəticə
 
-Wi-Fi — rahat, amma riskli bir texnologiyadır. Hücumçular sadə üsullarla böyük zərər verə bilər. Əgər təşkilatınızda və ya şəxsi cihazlarınızda Wi-Fi istifadə edirsinizsə, bu mövzuda hazırlıqlı olmaq vacibdir.
+Wi-Fi — rahat, amma riskli bir texnologiyadır. Hücumçular sadə üsullarla böyük zərər verə bilər. Şəxsi və korporativ şəbəkələrdə Wi-Fi istifadə edirsinizsə, daim yenilənən təhlükəsizlik tədbirlərinə əməl etmək vacibdir.
 
-**Məsləhət:** VPN istifadə edin, şəbəkəyə qoşularkən ehtiyatlı olun və maarifləndirici təlimlərdə iştirak edin.
+**Məsləhət:** VPN istifadə edin, şəbəkəyə qoşularkən ehtiyatlı olun və müntəzəm təlimlərdə iştirak edin.
 
 ---
 
 > Sualınız var? Təlim və simulyasiya üçün [əlaqə saxlayın](mailto:cyberdersler@gmail.com)
+
+---
+
+## 📝 Texniki SEO tövsiyələri:
+
+- Şəkillərin ALT atributlarını əlavə edin:  
+  - `![Wi-Fi Evil Twin hücumu](/assets/images/evil.jpg "Wi-Fi Evil Twin hücumu nümunəsi")`  
+- URL-nizi `wifi-hucumlari` kimi qısa və açar sözlü edin.  
+- Saytınız mobil uyğun və sürətli yüklənən olsun.  
+- Daxili linklərlə əlaqədar mövzuları bağlayın (məsələn, “Wi-Fi təhlükəsizliyi haqqında digər məqaləmiz…”).  
+- Schema markup əlavə edin: `Article` tipi ilə.  
+
+---
+
