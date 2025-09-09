@@ -90,15 +90,13 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 <script>
     function showResult() {
         let score = 0;
-        let totalQuestions = 10; // ümumi suallar
+        let totalQuestions = 10; // hal-hazırda 10 sual var
         let unanswered = 0;
 
-        // Bütün sualların cavabını yoxlayırıq
         for (let i = 1; i <= totalQuestions; i++) {
             let question = document.getElementsByName('q' + i);
             let answered = false;
 
-            // Sualların cavabını yoxlayırıq
             for (let j = 0; j < question.length; j++) {
                 if (question[j].checked) {
                     answered = true;
@@ -109,17 +107,15 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
                 }
             }
 
-            // Əgər cavab verilməyibsə, boş sualları sayırıq
             if (!answered) {
                 unanswered++;
             }
         }
 
-        // Nəticəni göstəririk
         if (unanswered === 0) {
-            alert("Test tamamlandı! Nəticəniz: " + score + " / " + totalQuestions);
+            alert("✅ Test tamamlandı! Nəticəniz: " + score + " / " + totalQuestions);
         } else {
-            alert("Lütfən, bütün sualları cavablandırın. Cavablanmamış suallar var!");
+            alert("⚠️ Lütfən, bütün sualları cavablandırın. Cavablanmamış suallar var!");
         }
     }
 </script>
