@@ -66,8 +66,10 @@ Mouse-u link üzərinə gətirib URL-in real olub-olmadığını yoxlayın.
 ✅ **Anti-phishing təlimləri keçirin:**  
 Korporativ mühitdə mütəmadi simulyasiyalar və maarifləndirmə mütləqdir.
 
-🔗 **Google Təhlükəsizlik Mərkəzi:** [https://safety.google/intl/en](https://safety.google/intl/en)  
+🔗 **Google Təhlükəsizlik Mərkəzi:**  
+<a href="https://safety.google/intl/en" target="_blank" rel="noopener noreferrer">https://safety.google/intl/en</a>  
 Google-un rəsmi təhlükəsizlik portalı — phishing və digər kiber təhdidlərə qarşı qorunma yolları burada təqdim olunur.
+
 
 
 ---
