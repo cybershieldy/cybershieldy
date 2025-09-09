@@ -9,19 +9,16 @@ favicon: /assets/images/favicon.png
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Baku
 
-# Plugins
 plugins:
-
-  - jekyll-include-cache
-  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
- # çoxdillilik üçün əlavə olunur
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-polyglot   # çoxdillilik
 
-# Polyglot i18n settings
-languages: [az, tr, ru, en]  # saytın dəstəklədiyi dillər
-default_lang: az              # əsas dil
-
+languages: [az, en, ru, tr]
+default_lang: az
+exclude_from_localizations: ["assets", "images"]  # statik faylları tərcümə etməsin
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
