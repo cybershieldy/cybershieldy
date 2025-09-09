@@ -119,7 +119,7 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
         if (unanswered === 0) {
             alert("Test tamamlandı! Nəticəniz: " + score + " / " + totalQuestions);
         } else {
-            alert("Test tamamlandı! Lütfən " + unanswered + " sualı cavablandırmamısınız.");
+            alert("Lütfən, bütün sualları cavablandırın. Cavablanmamış suallar var!");
         }
     }
 </script>
