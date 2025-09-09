@@ -47,13 +47,28 @@ Red Team/Blue Team kursları, CEH, OSCP, Cyber Kill Chain, MITRE ATT&CK üzrə t
 
 ---
 
-## Tələbələr üçün faydalı tövsiyələr
+## Tez-tez verilən suallar (FAQ)
 
-1. **Praktikaya önəm verin:** Nəzəriyyə ilə yanaşı, real laboratoriya işləri və simulyasiyalar edin.  
-2. **Daim yenilənən olun:** Kibertəhlükəsizlik sahəsi sürətlə dəyişir, ən son texnologiya və hücum metodları ilə tanış olun.  
-3. **Sertifikatlara hazırlaşın:** CEH, OSCP kimi beynəlxalq sertifikatlar karyerada irəliləyiş üçün vacibdir.  
-4. **Sosial mühəndislikdən çəkinməyin:** İnsan faktoru ən zəif linkdir – onun üzərində çalışmaq vacibdir.  
-5. **Şəbəkələrdə təhlükəsizlik tədbirləri tətbiq edin:** Təlimlər zamanı əldə etdiyiniz bilikləri real həyatda tətbiq edin.
+### Emin bəy kimdir?
+
+Emin Savaylov — kiber təhlükəsizlik üzrə peşəkar mütəxəssis və təlimatçıdır. Red Team və Blue Team əməliyyatlarında təcrübəsi var.
+
+### Təlimləriniz kimlər üçündür?
+
+Tələbələr, yeni başlayanlar və peşəkarlar üçün nəzərdə tutulub. Praktiki və real dünyadan nümunələr təqdim olunur.
+
+### Sertifikatlara hazırlıq dəstəyi varmı?
+
+Bəli, CEH, OSCP və digər beynəlxalq sertifikatlar üzrə təlimlər təşkil edilir.
+
+### Əməkdaşlıq üçün necə əlaqə saxlamaq olar?
+
+Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə verilib.
+
+---
+
+> “Emin bəyin təlimləri sayəsində OSCP sertifikatımı aldım və işimdə böyük uğurlar qazandım!”  
+> — **Aysel Məmmədova, Kiber Təhlükəsizlik Mütəxəssisi**
 
 ---
 
@@ -70,6 +85,16 @@ Red Team/Blue Team kursları, CEH, OSCP, Cyber Kill Chain, MITRE ATT&CK üzrə t
 
 ---
 
-> Bloqu izlədiyiniz üçün təşəkkür edirəm! Burada daim yenilənən kiber təhlükəsizlik məqalələri, təlimlər və alətlər paylaşılır.  
-> Yeni başlayanlar və tələbələr üçün xüsusi məzmunlar daima əlavə olunur.
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Emin Savaylov",
+  "url": "https://sizin-saytiniz.az/haqqinda",
+  "sameAs": [
+    "https://linkedin.com/in/emin-savaylov"
+  ],
+  "jobTitle": "Kiber Təhlükəsizlik Mütəxəssisi və Təlimatçı",
+  "description": "Emin Savaylov-un kiber təhlükəsizlik üzrə peşəkar bloqu və təlimləri. Red Team, Blue Team, penetrasiya testləri və sosial mühəndislik üzrə praktik biliklər."
+}
+</script>
