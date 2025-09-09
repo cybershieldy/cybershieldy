@@ -20,355 +20,106 @@ keywords:
 robots: index, follow
 ---
 
-
-# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
 # 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
 
-1. **Phishing nə deməkdir?**  
-İnsanları aldadaraq şəxsi məlumatlarını ələ keçirmək.
+Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **30 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
-2. **SQL Injection hücumu nədir?**  
-Verilənlər bazasına zərərli kod yerləşdirmək.
+### Təlimat:
+- Bütün suallara cavab verin.
+- Doğru cavabları seçdiyiniz zaman **"Nəticəni Göstər"** düyməsini basın.
+- Zəhmət olmasa bütün sualları cavablandırın, çünki seçim olmadan nəticələr göstərilmir.
 
-3. **OWASP Top 10 nədir?**  
-Web tətbiqlərində ən çox rast gəlinən təhlükəsizlik zəiflikləri siyahısı.
+### Suallar:
 
-4. **Sosial mühəndislik nədir?**  
-İnsanları aldatmaq yolu ilə məlumat toplamaq.
+<form id="quiz-form">
+    <p>1. Phishing nə deməkdir?</p>
+    <input type="radio" name="q1" value="correct"> İnsanları aldadaraq şəxsi məlumatlarını ələ keçirmək<br>
+    <input type="radio" name="q1" value="incorrect"> E-poçt göndərmək<br>
+    <input type="radio" name="q1" value="incorrect"> Kod yazmaq<br>
 
-5. **Metasploit nədir?**  
-Penetrasiya testləri üçün istifadə olunan alət.
+    <p>2. SQL Injection hücumu nədir?</p>
+    <input type="radio" name="q2" value="incorrect"> Brauzerə virus göndərmək<br>
+    <input type="radio" name="q2" value="correct"> Verilənlər bazasına zərərli kod yerləşdirmək<br>
+    <input type="radio" name="q2" value="incorrect"> Parolu dəyişmək<br>
 
-6. **Buffer overflow nədir?**  
-Proqram yaddaşında dolu olmayan yerə artıq məlumat yazılması.
+    <p>3. OWASP Top 10 nədir?</p>
+    <input type="radio" name="q3" value="correct"> Web tətbiqlərində ən çox rast gəlinən təhlükəsizlik zəiflikləri siyahısı<br>
+    <input type="radio" name="q3" value="incorrect"> Antivirus siyahısı<br>
+    <input type="radio" name="q3" value="incorrect"> Firewall növləri<br>
 
-7. **Kali Linux nə üçün istifadə olunur?**  
-Ethical hacking və penetration test üçün əməliyyat sistemi.
+    <p>4. XSS (Cross-site Scripting) nədir?</p>
+    <input type="radio" name="q4" value="incorrect"> Web serverin zəiflədilməsi<br>
+    <input type="radio" name="q4" value="correct"> Zərərli JavaScript kodunun saytın səhifəsinə daxil edilməsi<br>
+    <input type="radio" name="q4" value="incorrect"> DDoS hücumu<br>
 
-8. **XSS (Cross-Site Scripting) hücumu nədir?**  
-İstifadəçinin brauzerində zərərli skript icra etmək.
+    <p>5. DDoS hücumu nə deməkdir?</p>
+    <input type="radio" name="q5" value="incorrect"> Web saytının parolunun dəyişdirilməsi<br>
+    <input type="radio" name="q5" value="correct"> Serverə çoxlu sayda sorğu göndərərək onu əlçatan etmək<br>
+    <input type="radio" name="q5" value="incorrect"> Virus yükləmək<br>
 
-9. **Penetrasiya testi nədir?**  
-Sistem zəifliklərini aşkarlamaq üçün edilən hücum simulyasiyası.
+    <p>6. Malvertising nədir?</p>
+    <input type="radio" name="q6" value="incorrect"> Şəbəkə təhlükəsizliyini artıran bir proqram<br>
+    <input type="radio" name="q6" value="correct"> Zərərli reklamların istifadəçi cihazlarına yeridilməsi<br>
+    <input type="radio" name="q6" value="incorrect"> Hackerların məlumat oğurlama əməliyyatı<br>
 
-10. **IDS nədir?**  
-Hücum aşkarlama sistemi (Intrusion Detection System).
+    <p>7. Phishing e-poçtu necə tanıyarsınız?</p>
+    <input type="radio" name="q7" value="incorrect"> Şəxsi məlumat istəyən e-poçtlar<br>
+    <input type="radio" name="q7" value="correct"> Qeyri-adi göndəricilərdən gələn e-poçtlar<br>
+    <input type="radio" name="q7" value="incorrect"> Yalnız şübhəli mənbələrdən gələn e-poçtlar<br>
 
-11. **VPN nədir?**  
-Şəbəkə trafikini şifrələyərək təhlükəsiz əlaqə təmin edən texnologiya.
+    <p>8. Verilənlər bazası şifrələrinin zərərli şəkildə saxlanmasının nəticəsi nə ola bilər?</p>
+    <input type="radio" name="q8" value="correct"> Hackerlər tərəfindən məlumatların oğurlanması<br>
+    <input type="radio" name="q8" value="incorrect"> Şifrəni unutmaq<br>
+    <input type="radio" name="q8" value="incorrect"> Şifrəni heç kim bilməyəcək<br>
 
-12. **DDoS hücumu nədir?**  
-Xidmətə qarşı yayılmış rədd etmə hücumu.
+    <p>9. OWASP ən çox hansı növ təhlükəsizlik zəifliklərinə diqqət yetirir?</p>
+    <input type="radio" name="q9" value="correct"> Web tətbiqlərinin təhlükəsizlik zəiflikləri<br>
+    <input type="radio" name="q9" value="incorrect"> Server təhlükəsizlik zəiflikləri<br>
+    <input type="radio" name="q9" value="incorrect"> Virus və malware təhlükəsizlik zəiflikləri<br>
 
-13. **Zero-day zəifliyi nədir?**  
-Hələ açıqlanmamış və proqram təminatında olan zəiflik.
+    <p>10. SQL injection hücumu necə baş verir?</p>
+    <input type="radio" name="q10" value="correct"> SQL sorgularına zərərli kod daxil edilərək verilənlər bazası manipulyasiya edilir<br>
+    <input type="radio" name="q10" value="incorrect"> Web serverə böyük bir sorğu göndərilir<br>
+    <input type="radio" name="q10" value="incorrect"> DDoS hücumu ilə verilənlər bazası əngəllənir<br>
 
-14. **Brute force hücumu nədir?**  
-Parolları təxmin etmək üçün bütün mümkün variantları sınamaq.
+    <!-- 20 əlavə sual əlavə et-->
+    
+    <button type="button" onclick="showResult()">Nəticəni Göstər</button>
+</form>
 
-15. **Social engineering hücumlarından qorunma yolu nədir?**  
-İstifadəçilərin təhlükəsizlik təlimatı alması və məlumatların doğrulanması.
+<script>
+    function showResult() {
+        let score = 0;
+        let totalQuestions = 30; // ümumi suallar
+        let unanswered = 0;
 
-16. **XDR nədir?**  
-Kiber hücumların aşkarlanması və cavab verilməsi üçün genişlənmiş təhlükəsizlik platforması.
+        // Bütün sualların cavabını yoxlayırıq
+        for (let i = 1; i <= totalQuestions; i++) {
+            let question = document.getElementsByName('q' + i);
+            let answered = false;
 
-17. **CVE nədir?**  
-Common Vulnerabilities and Exposures - Zəifliklərin unikal identifikatoru.
+            // Sualların cavabını yoxlayırıq
+            for (let j = 0; j < question.length; j++) {
+                if (question[j].checked) {
+                    answered = true;
+                    if (question[j].value === "correct") {
+                        score++;
+                    }
+                    break;
+                }
+            }
 
-18. **Ransomware nədir?**  
-Məlumatları şifrələyərək fidyə tələb edən zərərli proqram.
+            // Əgər cavab verilməyibsə, boş sualları sayırıq
+            if (!answered) {
+                unanswered++;
+            }
+        }
 
-19. **Honeypot nədir?**  
-Hücumları cəlb etmək və izləmək üçün yaradılmış saxta sistem.
-
-20. **Rootkit nədir?**  
-Sistemə gizlicə daxil olaraq nəzarət təmin edən zərərli proqram.
-
-21. **Burp Suite nədir?**  
-Web tətbiqlərinin təhlükəsizlik testləri üçün istifadə olunan alət.
-
-22. **XSS-dən qorunmaq üçün nə etməli?**  
-İstifadəçi girişlərini düzgün filtrləmək və escape etmək.
-
-23. **TLS nə üçündür?**  
-İnternetdə məlumatların şifrələnməsi və təhlükəsiz ötürülməsi.
-
-24. **2FA nədir?**  
-İki mərhələli autentifikasiya prosesi.
-
-25. **Malware analizi nədir?**  
-Zərərli proqramların davranışını və quruluşunu təhlil etmək.
-
-26. **Ethical hacking nədir?**  
-Hüquqi yollarla sistem zəifliklərini aşkar edib aradan qaldırmaq.
-
-27. **Sosial media hesablarını qorumaq üçün nə edilməlidir?**  
-Güclü şifrə və iki faktorlu autentifikasiya istifadə etmək.
-
-28. **Şifrələmə nə üçündür?**  
-Məlumatların icazəsiz şəxslərdən qorunması üçün.
-
-29. **Password manager nədir?**  
-Şifrələri təhlükəsiz saxlamaq və idarə etmək üçün proqram.
-
-30. **Honeypotların əsas məqsədi nədir?**  
-Hücum edənlərin fəaliyyətini izləmək və analiz etmək.
-
-
-<!-- Testin HTML və JavaScript kodu burda -->
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Quiz",
-  "name": "Kibertəhlükəsizlik və Ethical Hacking Bilik Testi",
-  "description": "Bu test vasitəsilə phishing, SQL Injection, OWASP Top 10, malware, şifrələmə və digər kibertəhlükəsizlik mövzularında biliklərinizi sınaya bilərsiniz.",
-  "educationalLevel": "Beginner to Advanced",
-  "audience": {
-    "@type": "Audience",
-    "educationalRole": "student"
-  },
-  "hasPart": [
-    {
-      "@type": "Question",
-      "name": "Phishing nə deməkdir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İnsanları aldadaraq şəxsi məlumatlarını ələ keçirmək"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "SQL Injection hücumu nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Verilənlər bazasına zərərli kod yerləşdirmək"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "OWASP Top 10 nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Web tətbiqlərində ən çox rast gəlinən təhlükəsizlik zəiflikləri siyahısı"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Sosial mühəndislik nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İnsanları aldatmaq yolu ilə məlumat toplamaq"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Metasploit nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Penetrasiya testləri üçün istifadə olunan alət"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Buffer overflow nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proqram yaddaşında dolu olmayan yerə artıq məlumat yazılması"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Kali Linux nə üçün istifadə olunur?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ethical hacking və penetration test üçün əməliyyat sistemi"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "XSS (Cross-Site Scripting) hücumu nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İstifadəçinin brauzerində zərərli skript icra etmək"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Penetrasiya testi nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sistem zəifliklərini aşkarlamaq üçün edilən hücum simulyasiyası"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "IDS nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hücum aşkarlama sistemi (Intrusion Detection System)"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "VPN nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Şəbəkə trafikini şifrələyərək təhlükəsiz əlaqə təmin edən texnologiya"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "DDoS hücumu nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Xidmətə qarşı yayılmış rədd etmə hücumu"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Zero-day zəifliyi nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hələ açıqlanmamış və proqram təminatında olan zəiflik"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Brute force hücumu nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Parolları təxmin etmək üçün bütün mümkün variantları sınamaq"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Social engineering hücumlarından qorunma yolu nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İstifadəçilərin təhlükəsizlik təlimatı alması və məlumatların doğrulanması"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "XDR nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Kiber hücumların aşkarlanması və cavab verilməsi üçün genişlənmiş təhlükəsizlik platforması"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "CVE nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common Vulnerabilities and Exposures - Zəifliklərin unikal identifikatoru"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Ransomware nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Məlumatları şifrələyərək fidyə tələb edən zərərli proqram"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Honeypot nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hücumları cəlb etmək və izləmək üçün yaradılmış saxta sistem"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Rootkit nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sistemə gizlicə daxil olaraq nəzarət təmin edən zərərli proqram"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Burp Suite nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Web tətbiqlərinin təhlükəsizlik testləri üçün istifadə olunan alət"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "XSS-dən qorunmaq üçün nə etməli?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İstifadəçi girişlərini düzgün filtrləmək və escape etmək"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "TLS nə üçündür?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İnternetdə məlumatların şifrələnməsi və təhlükəsiz ötürülməsi"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "2FA nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "İki mərhələli autentifikasiya prosesi"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Malware analizi nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zərərli proqramların davranışını və quruluşunu təhlil etmək"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Ethical hacking nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hüquqi yollarla sistem zəifliklərini aşkar edib aradan qaldırmaq"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Sosial media hesablarını qorumaq üçün nə edilməlidir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Güclü şifrə və iki faktorlu autentifikasiya istifadə etmək"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Şifrələmə nə üçündür?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Məlumatların icazəsiz şəxslərdən qorunması üçün"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Password manager nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Şifrələri təhlükəsiz saxlamaq və idarə etmək üçün proqram"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Honeypotların əsas məqsədi nədir?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hücum edənlərin fəaliyyətini izləmək və analiz etmək"
-      }
+        // Nəticəni göstəririk
+        if (unanswered === 0) {
+            alert("Test tamamlandı! Nəticəniz: " + score + " / " + totalQuestions);
+        } else {
+            alert("Test tamamlandı! Lütfən " + unanswered + " sualı cavablandırmamısınız.");
+        }
     }
-  ]
-}
 </script>
