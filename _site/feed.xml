@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-09T17:06:14+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari/" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-09T11:22:36+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari/"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="az"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" hreflang="az" /><updated>2025-09-09T18:09:27+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/kiber-hucumlar/" rel="alternate" type="text/html" title="Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları" /><published>2025-09-09T18:00:00+04:00</published><updated>2025-09-09T18:00:00+04:00</updated><id>https://cybershieldy.com/posts/kiber-hucumlar</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-hucumlar/"><![CDATA[<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları",
+  "description": "2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və red/blue team strategiyaları.",
+  "author": { "@type": "Person", "name": "Emin Savaylov" },
+  "publisher": { "@type": "Organization", "name": "CyberShieldy", "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }},
+  "datePublished": "2025-09-09T18:00:00+04:00",
+  "dateModified": "2025-09-09T18:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/kiber-cybersecurity-2025.jpg",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/kiber-cybersecurity-2025.html" }
+}
+</script>
+
+<h1 id="kibertəhlükəsizlik-və-cybersecurity-2025-ən-böyük-hücum-növləri-və-müdafiə-yolları">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</h1>
+
+<p>Kibertəhlükəsizlik (<strong>cybersecurity</strong>) 2025-ci ildə tələbələr, IT mütəxəssislər və peşəkar hackerlər üçün həyati əhəmiyyət daşıyır. Bu yazıda ən çox rast gəlinən <strong>phishing</strong>, <strong>ransomware</strong>, <strong>malware</strong>, <strong>Wi-Fi hücumları</strong>, həmçinin <strong>red team / blue team</strong> metodları və <strong>penetration testing</strong> strategiyaları izah olunur.</p>
+
+<hr />
+
+<h2 id="-2025-ci-ilin-ən-böyük-hücum-növləri-cyber-hücumlar">🔹 2025-ci ilin Ən Böyük Hücum Növləri (Cyber Hücumlar)</h2>
+
+<h3 id="1-phishing-hücumları">1. Phishing Hücumları</h3>
+<p>Phishing hücumları — sosial mühəndislik texnikası ilə istifadəçidən <strong>şifrə və maliyyə məlumatlarını</strong> oğurlamaqdır.<br />
+<strong>Trend:</strong> Saxta e-mail, SMS və WhatsApp mesajları ilə hədəf alma.<br />
+<strong>Long-tail keywords:</strong> “cyber phishing 2025”, “kiber phishing nümunəsi”, “student phishing guide”.</p>
+
+<p><strong>Tövsiyə:</strong> 2FA aktiv edin və linkləri diqqətlə yoxlayın.</p>
+
+<hr />
+
+<h3 id="2-ransomware">2. Ransomware</h3>
+<p>Ransomware faylları şifrələyir və pul qarşılığında açar tələb edir.<br />
+<strong>Məşhur növlər:</strong> LockBit, BlackCat, Ryuk.<br />
+<strong>Long-tail keywords:</strong> “cyber ransomware attack”, “kiber ransomware qorunma”, “ransomware prevention student”.</p>
+
+<p><strong>Tövsiyə:</strong> Backup sistemi qurun, antivirusu yeniləyin, e-mail filterləri aktiv edin.</p>
+
+<hr />
+
+<h3 id="3-malware-və-spyware">3. Malware və Spyware</h3>
+<p>Malware — sistemdə gizli fəaliyyət göstərən zərərli proqramdır.<br />
+<strong>Ən çox axtarılanlar:</strong> Keylogger, trojan, spyware.<br />
+<strong>SEO keywords:</strong> “kiber malware nümunəsi”, “cyber malware 2025”, “student guide malware”.</p>
+
+<p><strong>Tövsiyə:</strong> Yalnız rəsmi proqramlar quraşdırın, linklərdən və fayllardan ehtiyatlı olun.</p>
+
+<hr />
+
+<h3 id="4-wi-fi-hücumları">4. Wi-Fi Hücumları</h3>
+<p>ICTIMAI Wi-Fi şəbəkələrində MITM, Evil Twin və Deauth hücumları yaygındır.<br />
+<strong>Keywords:</strong> “kiber Wi-Fi hücumu”, “cyber wifi attack 2025”, “ictimai wifi təhlükəsizliyi”.</p>
+
+<p><strong>Tövsiyə:</strong> VPN istifadə edin və ictimai şəbəkələrdə şəxsi məlumat daxil etməyin.</p>
+
+<hr />
+
+<h3 id="5-penetration-testing-pentest">5. Penetration Testing (Pentest)</h3>
+<p>Red Team-lər şirkət infrastrukturlarını sınayır, Blue Team isə müdafiəni gücləndirir.<br />
+<strong>Açar sözlər:</strong> “cyber pentesting”, “kiber penetration test”, “ethical hacking guide 2025”.<br />
+<strong>Ən çox öyrənilən bacarıqlar:</strong> Metasploit, Nmap, Wireshark, Burp Suite.</p>
+
+<hr />
+
+<h2 id="️-müdafiə-və-təhlükəsizlik-strategiyaları">🛡️ Müdafiə və Təhlükəsizlik Strategiyaları</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Strategiya</th>
+      <th>İzah</th>
+      <th>SEO Keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Red Team / Blue Team</strong></td>
+      <td>Hücum və müdafiə ssenarilərini təcrübədə sınamaq</td>
+      <td>kiber red team, cyber blue team, hacking simulation</td>
+    </tr>
+    <tr>
+      <td><strong>SOC və SIEM</strong></td>
+      <td>Trafiki izləyərək şübhəli fəaliyyətləri aşkarlamaq</td>
+      <td>cyber SOC monitoring, kiber SIEM guide</td>
+    </tr>
+    <tr>
+      <td><strong>VPN və HTTPS</strong></td>
+      <td>Trafiki şifrələmək və MITM hücumlarına qarşı qorunmaq</td>
+      <td>VPN cybersecurity, MITM prevention 2025</td>
+    </tr>
+    <tr>
+      <td><strong>Təlim və Maarifləndirmə</strong></td>
+      <td>İstifadəçiləri phishing və sosial mühəndislikdən qorumaq</td>
+      <td>cybersecurity training student, kiber təlim</td>
+    </tr>
+    <tr>
+      <td><strong>Backup</strong></td>
+      <td>Ransomware və data itkisinə qarşı qorunma</td>
+      <td>ransomware backup guide, kiber backup</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-nəticə">🔑 Nəticə</h2>
+
+<p>Kibertəhlükəsizlik və <strong>cybersecurity</strong> — tələbələr, IT peşəkarları və red/blue team mütəxəssisləri üçün həyati əhəmiyyət daşıyır. <strong>Phishing, ransomware, malware, Wi-Fi hücumları</strong> real risklər yaradır.</p>
+
+<p><strong>Tövsiyə:</strong></p>
+<ul>
+  <li>Red/Blue team təlimləri</li>
+  <li>SOC monitorinqi</li>
+  <li>Davamlı maarifləndirmə</li>
+  <li>VPN və HTTPS ilə qorunma</li>
+  <li>Backup sistemi</li>
+</ul>
+
+<p><strong>SEO optimizasiya:</strong> Hər başlıq, meta description, alt text və structured data uzun-tail keywords ilə optimallaşdırılıb.</p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li><a href="/posts/mitm-hucumu-nedir.html">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+  <li><a href="/posts/phishing-hucumu-nedir.html">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
+  <li><a href="/posts/wifi-hucumlari.html">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
+
+<p>📲 <a href="https://wa.me/994555182523">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və red/blue team strategiyaları – Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/kiber-cybersecurity-2025.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/kiber-cybersecurity-2025.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari/" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-09T11:22:36+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari/"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
 
 <blockquote>
   <p><strong>Son yenilənmə:</strong> 9 Sentyabr 2025</p>
@@ -353,7 +489,7 @@ HTTPS olmayan səhifələrdə hər şey açıq şəkildə görünür!</p>
   <li><a href="/posts/phishing-hucumu-nedir.html">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
   <li><a href="/posts/red-team-blue-team.html">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
   <li><a href="/posts/ictimai-wifi-riskleri.html">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
-</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real ssenari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/" rel="alternate" type="text/html" title="Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-09T16:20:07+04:00</updated><id>https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/"><![CDATA[<!-- Structured data -->
+</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="mitm" /><category term="man in the middle" /><category term="şəbəkə təhlükəsizliyi" /><category term="sniffing" /><category term="vpn" /><category term="kibertəhlükəsizlik" /><category term="ictimai wi-fi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real ssenari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/" rel="alternate" type="text/html" title="Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-02T10:00:00+04:00</published><updated>2025-09-09T17:06:16+04:00</updated><id>https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik/"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
