@@ -19,7 +19,8 @@ plugins:
  # çoxdillilik üçün əlavə olunur
 
 # Polyglot i18n settings
-lang: az
+languages: [az, tr, ru, en]  # saytın dəstəklədiyi dillər
+default_lang: az              # əsas dil
 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md

@@ -1,0 +1,76 @@
+# ----- Commons label -----
+layout:
+  post: "Yazı"
+  category: "Kategori"
+  tag: "Etiket"
+
+tabs:
+  home: "Ana Sayfa"
+  categories: "Kategoriler"
+  tags: "Etiketler"
+  archives: "Arşiv"
+  about: "Hakkında"
+
+search:
+  hint: "Arama"
+  cancel: "İptal"
+  no_results: "Oops! Sonuç bulunamadı."
+
+panel:
+  lastmod: "Son Güncellenenler"
+  trending_tags: "Popüler Etiketler"
+  toc: "İçindekiler"
+
+copyright:
+  license:
+    template: "Bu yazı yazar tarafından :LICENSE_NAME ile lisanslanmıştır."
+    name: "CC BY 4.0"
+    link: "https://creativecommons.org/licenses/by/4.0/"
+  brief: "Bazı haklar saklıdır."
+  verbose: >-
+    Aksi belirtilmediği sürece, bu sitedeki yazılar Creative Commons Attribution 4.0 International (CC BY 4.0) lisansı ile korunmaktadır.
+
+meta: ":PLATFORM için :THEME teması kullanılmıştır."
+
+not_found:
+  statement: "Üzgünüz, sayfa mevcut değil veya taşınmış."
+
+notification:
+  update_found: "Yeni içerik mevcut."
+  update: "Güncelle"
+
+post:
+  written_by: "Yazar"
+  posted: "Paylaşıldı"
+  updated: "Güncellendi"
+  words: "kelime"
+  pageview_measure: "görüntüleme"
+  read_time:
+    unit: "dk"
+    prompt: "oku"
+  relate_posts: "Benzer Yazılar"
+  share: "Paylaş"
+  button:
+    next: "Sonraki"
+    previous: "Önceki"
+    copy_code:
+      succeed: "Kopyalandı!"
+    share_link:
+      title: "Linki kopyala"
+      succeed: "Link başarıyla kopyalandı!"
+
+df:
+  post:
+    strftime: "%d %B %Y"
+    dayjs: "D MMMM YYYY"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+categories:
+  category_measure:
+    singular: "kategori"
+    plural: "kategoriler"
+  post_measure:
+    singular: "yazı"
+    plural: "yazılar"

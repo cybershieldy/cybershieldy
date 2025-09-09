@@ -1,0 +1,75 @@
+layout:
+  post: "Статья"
+  category: "Категория"
+  tag: "Тег"
+
+tabs:
+  home: "Главная"
+  categories: "Категории"
+  tags: "Теги"
+  archives: "Архив"
+  about: "О нас"
+
+search:
+  hint: "Поиск"
+  cancel: "Отмена"
+  no_results: "Упс! Результаты не найдены."
+
+panel:
+  lastmod: "Последнее обновление"
+  trending_tags: "Популярные теги"
+  toc: "Содержание"
+
+copyright:
+  license:
+    template: "Эта статья лицензирована под :LICENSE_NAME автором."
+    name: "CC BY 4.0"
+    link: "https://creativecommons.org/licenses/by/4.0/"
+  brief: "Все права защищены."
+  verbose: >-
+    Если не указано иное, все статьи на этом сайте лицензированы под Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+meta: "Используется тема :THEME для :PLATFORM."
+
+not_found:
+  statement: "Извините, эта страница не существует или была перемещена."
+
+notification:
+  update_found: "Доступен новый контент."
+  update: "Обновить"
+
+post:
+  written_by: "Автор"
+  posted: "Опубликовано"
+  updated: "Обновлено"
+  words: "слов"
+  pageview_measure: "просмотров"
+  read_time:
+    unit: "мин"
+    prompt: "читать"
+  relate_posts: "Похожие статьи"
+  share: "Поделиться"
+  button:
+    next: "Следующая"
+    previous: "Предыдущая"
+    copy_code:
+      succeed: "Скопировано!"
+    share_link:
+      title: "Скопировать ссылку"
+      succeed: "Ссылка успешно скопирована!"
+
+df:
+  post:
+    strftime: "%d %B %Y"
+    dayjs: "D MMMM YYYY"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+categories:
+  category_measure:
+    singular: "категория"
+    plural: "категории"
+  post_measure:
+    singular: "статья"
+    plural: "статьи"
