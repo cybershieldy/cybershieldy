@@ -1,3 +1,4 @@
+---
 layout: page
 title: "Haqqında – Emin Savaylov | Kiber Təhlükəsizlik və Təlimlər"
 icon: fas fa-info-circle
