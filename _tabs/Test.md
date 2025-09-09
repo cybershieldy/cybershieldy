@@ -22,6 +22,98 @@ robots: index, follow
 
 
 # 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
+# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
+
+1. **Phishing nə deməkdir?**  
+İnsanları aldadaraq şəxsi məlumatlarını ələ keçirmək.
+
+2. **SQL Injection hücumu nədir?**  
+Verilənlər bazasına zərərli kod yerləşdirmək.
+
+3. **OWASP Top 10 nədir?**  
+Web tətbiqlərində ən çox rast gəlinən təhlükəsizlik zəiflikləri siyahısı.
+
+4. **Sosial mühəndislik nədir?**  
+İnsanları aldatmaq yolu ilə məlumat toplamaq.
+
+5. **Metasploit nədir?**  
+Penetrasiya testləri üçün istifadə olunan alət.
+
+6. **Buffer overflow nədir?**  
+Proqram yaddaşında dolu olmayan yerə artıq məlumat yazılması.
+
+7. **Kali Linux nə üçün istifadə olunur?**  
+Ethical hacking və penetration test üçün əməliyyat sistemi.
+
+8. **XSS (Cross-Site Scripting) hücumu nədir?**  
+İstifadəçinin brauzerində zərərli skript icra etmək.
+
+9. **Penetrasiya testi nədir?**  
+Sistem zəifliklərini aşkarlamaq üçün edilən hücum simulyasiyası.
+
+10. **IDS nədir?**  
+Hücum aşkarlama sistemi (Intrusion Detection System).
+
+11. **VPN nədir?**  
+Şəbəkə trafikini şifrələyərək təhlükəsiz əlaqə təmin edən texnologiya.
+
+12. **DDoS hücumu nədir?**  
+Xidmətə qarşı yayılmış rədd etmə hücumu.
+
+13. **Zero-day zəifliyi nədir?**  
+Hələ açıqlanmamış və proqram təminatında olan zəiflik.
+
+14. **Brute force hücumu nədir?**  
+Parolları təxmin etmək üçün bütün mümkün variantları sınamaq.
+
+15. **Social engineering hücumlarından qorunma yolu nədir?**  
+İstifadəçilərin təhlükəsizlik təlimatı alması və məlumatların doğrulanması.
+
+16. **XDR nədir?**  
+Kiber hücumların aşkarlanması və cavab verilməsi üçün genişlənmiş təhlükəsizlik platforması.
+
+17. **CVE nədir?**  
+Common Vulnerabilities and Exposures - Zəifliklərin unikal identifikatoru.
+
+18. **Ransomware nədir?**  
+Məlumatları şifrələyərək fidyə tələb edən zərərli proqram.
+
+19. **Honeypot nədir?**  
+Hücumları cəlb etmək və izləmək üçün yaradılmış saxta sistem.
+
+20. **Rootkit nədir?**  
+Sistemə gizlicə daxil olaraq nəzarət təmin edən zərərli proqram.
+
+21. **Burp Suite nədir?**  
+Web tətbiqlərinin təhlükəsizlik testləri üçün istifadə olunan alət.
+
+22. **XSS-dən qorunmaq üçün nə etməli?**  
+İstifadəçi girişlərini düzgün filtrləmək və escape etmək.
+
+23. **TLS nə üçündür?**  
+İnternetdə məlumatların şifrələnməsi və təhlükəsiz ötürülməsi.
+
+24. **2FA nədir?**  
+İki mərhələli autentifikasiya prosesi.
+
+25. **Malware analizi nədir?**  
+Zərərli proqramların davranışını və quruluşunu təhlil etmək.
+
+26. **Ethical hacking nədir?**  
+Hüquqi yollarla sistem zəifliklərini aşkar edib aradan qaldırmaq.
+
+27. **Sosial media hesablarını qorumaq üçün nə edilməlidir?**  
+Güclü şifrə və iki faktorlu autentifikasiya istifadə etmək.
+
+28. **Şifrələmə nə üçündür?**  
+Məlumatların icazəsiz şəxslərdən qorunması üçün.
+
+29. **Password manager nədir?**  
+Şifrələri təhlükəsiz saxlamaq və idarə etmək üçün proqram.
+
+30. **Honeypotların əsas məqsədi nədir?**  
+Hücum edənlərin fəaliyyətini izləmək və analiz etmək.
+
 
 <!-- Testin HTML və JavaScript kodu burda -->
 
