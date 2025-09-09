@@ -29,6 +29,17 @@ canonical: https://cybershieldy.com/posts/phishing-hucumu-nedir.html
 Phishing — **sosial mühəndislik** texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan **şifrə**, **kredit kartı** və ya digər həssas məlumatları almağa çalışırlar.
 
 ---
+---
+
+## 🙋‍♂️ Tez-tez verilən suallar (FAQ)
+
+**Phishing hücumu necə baş verir?**  
+Phishing hücumu adətən istifadəçiyə saxta e-mail göndərməklə başlayır. Bu e-maildə kliklənən link zərərli vebsayta yönləndirir.
+
+**Phishing-dən necə qorunmaq olar?**  
+E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli linklərə klik etməyin.
+
+---
 
 ## 🎯 Canlı Nümunə: Saxta E-mail Kampaniyası
 
