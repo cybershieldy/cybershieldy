@@ -87,7 +87,7 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
     <button type="button" onclick="showResult()">Nəticəni Göstər</button>
 </form>
 
-</form>
+
 
 <script src="/assets/quiz.js"></script>
 
