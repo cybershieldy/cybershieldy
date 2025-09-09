@@ -42,7 +42,8 @@ Aşağıda real bir phishing e-mail nümunəsini paylaşırıq (şəxsi məlumat
 
 > **Subject:** “Hesabınız təhlükədədir — dərhal daxil olun!”  
 > **Göndərən:** `support@paypal-secure.com`  
-> **Mesaj:** “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: [click-here.com](https://click-here.com)”
+>> **Mesaj:** “Şübhəli giriş aşkar etdik. Hesabınızı təsdiqləmək üçün bu linkə daxil olun: `click-here.com`”
+
 
 Linkə klik edən istifadəçilər saxta “PayPal login” səhifəsinə yönləndirilirdi. Bura daxil edilən istifadəçi adı və şifrə hücumçuların əlinə keçir.
 
