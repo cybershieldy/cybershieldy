@@ -152,14 +152,4 @@ Wi-Fi — rahat, amma riskli bir texnologiyadır. Hücumçular sadə üsullarla 
 
 ---
 
-## 📝 Texniki SEO tövsiyələri:
-
-- Şəkillərin ALT atributlarını əlavə edin:  
-  - `![Wi-Fi Evil Twin hücumu](/assets/images/evil.jpg "Wi-Fi Evil Twin hücumu nümunəsi")`  
-- URL-nizi `wifi-hucumlari` kimi qısa və açar sözlü edin.  
-- Saytınız mobil uyğun və sürətli yüklənən olsun.  
-- Daxili linklərlə əlaqədar mövzuları bağlayın (məsələn, “Wi-Fi təhlükəsizliyi haqqında digər məqaləmiz…”).  
-- Schema markup əlavə edin: `Article` tipi ilə.  
-
----
 
