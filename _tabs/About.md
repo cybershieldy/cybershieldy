@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Haqqında – Emin Savaylov | Kiber Təhlükəsizlik Təlimləri və Blog
+title: Haqqında
 icon: fas fa-info-circle
 order: 4
 description: Emin Savaylov-un kiber təhlükəsizlik bloqu və təlimləri. Red Team, Blue Team, penetrasiya testləri və sosial mühəndislik üzrə praktik biliklər. Tələbələr üçün SEO dostu məlumatlar və kurslar.
