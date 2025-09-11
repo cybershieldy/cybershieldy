@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-11T22:01:20+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti/" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T21:05:04+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti/"><![CDATA[<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-rolu">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Rolu</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-11T22:09:22+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team/" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/red-team-vs-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team/"><![CDATA[<h1 id="️-red-team-vs-blue-team-kibertəhlükəsizlikdə-fərqlər-nələrdir">🛡️ Red Team vs Blue Team: Kibertəhlükəsizlikdə Fərqlər Nələrdir?</h1>
+
+<p><img src="assets/images/read2.jpg" alt="Red Team və Blue Team Fərqləri" title="Red Team və Blue Team İş Prosesi" /></p>
+
+<h2 id="red-team-nədir">Red Team nədir?</h2>
+
+<p><strong>Red Team</strong> — təşkilatın sistemlərinə və şəbəkələrinə <strong>real dünyadakı hakerlər kimi hücum edən</strong> etik mütəxəssislərdən ibarətdir. Onların məqsədi təşkilatın zəif nöqtələrini aşkara çıxarmaq və istismar edə biləcək yolları tapmaqdır.</p>
+
+<h3 id="red-team-fəaliyyətlərinə-aşağıdakılar-daxildir">Red Team fəaliyyətlərinə aşağıdakılar daxildir:</h3>
+
+<ul>
+  <li>🔍 Sosial mühəndislik hücumları</li>
+  <li>🧠 Sızma testləri (penetration testing)</li>
+  <li>💣 Phishing kampaniyaları</li>
+  <li>🕵️‍♂️ Göstərilmədən hücum ssenariləri (stealth attacks)</li>
+</ul>
+
+<h2 id="blue-team-nədir">Blue Team nədir?</h2>
+
+<p><strong>Blue Team</strong> — Red Team-in və ya real hücumların qarşısını almaq üçün təşkilat daxilində <strong>müdafiə tədbirləri görən komandadır</strong>.</p>
+
+<h3 id="blue-team-funksiyalarına-aiddir">Blue Team funksiyalarına aiddir:</h3>
+
+<ul>
+  <li>🛡️ Təhlükəsizlik monitorinqi</li>
+  <li>⚙️ SIEM sistemlərinin idarə olunması</li>
+  <li>🔍 Hücum analizləri və cavab tədbirləri (incident response)</li>
+  <li>🧱 Firewall və antivirus sistemlərinin qurulması və tənzimlənməsi</li>
+</ul>
+
+<h2 id="red-team-və-blue-team-arasındakı-əsas-fərqlər">Red Team və Blue Team arasındakı əsas fərqlər</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Xüsusiyyət</th>
+      <th>Red Team</th>
+      <th>Blue Team</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rol</td>
+      <td>Hücum (Offensiv Təhlükəsizlik)</td>
+      <td>Müdafiə (Defensiv Təhlükəsizlik)</td>
+    </tr>
+    <tr>
+      <td>Məqsəd</td>
+      <td>Zəiflikləri tapmaq və sınaqdan keçirmək</td>
+      <td>Hücumları aşkar etmək və cavab vermək</td>
+    </tr>
+    <tr>
+      <td>İstifadə etdiyi alətlər</td>
+      <td>Kali Linux, Metasploit, Cobalt Strike</td>
+      <td>SIEM, IDS/IPS, EDR, firewalls</td>
+    </tr>
+    <tr>
+      <td>İş prinsipi</td>
+      <td>Real haker hücumlarını təqlid edir</td>
+      <td>Real hücumları dayandırmağa çalışır</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="red-team-və-blue-team-əməkdaşlığı">Red Team və Blue Team əməkdaşlığı</h2>
+
+<p>🔄 Ən uğurlu kibertəhlükəsizlik strategiyaları <strong>Red Team və Blue Team-in birgə işləməsi</strong> ilə qurulur. Bu, <strong>Purple Team</strong> anlayışını ortaya çıxarır – həm hücum, həm müdafiə biliklərini birləşdirən hibrid yanaşma.</p>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p><strong>Red Team və Blue Team yanaşmaları bir-birini tamamlayan vacib rollardır.</strong> Təşkilatlar bu iki komandanın qarşılıqlı əməkdaşlığı ilə kibertəhlükəsizlik səviyyəsini daha yüksək səviyyəyə qaldıra bilər.</p>
+
+<hr />
+
+<p>📞 <strong>Kibertəhlükəsizlik üzrə məsləhət almaq istəyirsiniz?</strong></p>
+
+<p>💬 <a href="https://wa.me/994555182523?text=Salam,%20Red%20Team%20və%20Blue%20Team%20haqqında%20məlumat%20almaq%20istəyirəm">WhatsApp üzərindən bizimlə əlaqə saxlayın</a> – sizi maraqlandıran məsələlərə cavab verməyə hazırıq.</p>
+
+<hr />
+
+<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read2.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti/" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T21:05:04+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti/"><![CDATA[<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-rolu">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Rolu</h1>
 
 <p>Red Team (Qırmızı Komanda) kibertəhlükəsizlik dünyasında ən kritik və effektiv təhlil vasitələrindən biridir. Red Team peşəkarları, real kiberhücumları təqlid edərək təşkilatların zəif nöqtələrini aşkarlayır və qorunma səviyyəsini maksimuma çatdırırlar. Bu fəaliyyət, xüsusilə informasiya təhlükəsizliyi, penetrasiya testi və hücum simulyasiyaları sahəsində əvəzsizdir.</p>
 
@@ -106,7 +188,7 @@ Red Team (hücumçu) və Blue Team (müdafiəçi) komandaları birgə iş aparar
 <blockquote>
   <p>Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:<br />
 📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a></p>
-</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə şirkətinizin kibertəhlükəsizlik səviyyəsini artırın. 2025-ci ilin ən qabaqcıl metodları, simulyasiya texnikaları və müdafiə strategiyaları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya/" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T21:54:39+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya/"><![CDATA[<h1 id="-i̇ki-faktorlu-identifikasiya-nədir-və-niyə-vacibdir">🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?</h1>
+</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə şirkətinizin kibertəhlükəsizlik səviyyəsini artırın. 2025-ci ilin ən qabaqcıl metodları, simulyasiya texnikaları və müdafiə strategiyaları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya/" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T22:01:23+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya/"><![CDATA[<h1 id="-i̇ki-faktorlu-identifikasiya-nədir-və-niyə-vacibdir">🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?</h1>
 
 <p><img src="assets/images/2faa.png" alt="İki Faktorlu Identifikasiya" title="2FA - İki Faktorlu Təhlükəsizlik" /></p>
 
