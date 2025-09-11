@@ -11,7 +11,7 @@ canonical: https://sizin-saytiniz.az/posts/iki-faktorlu-identifikasiya.html
 
 # 🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?
 
-![İki Faktorlu Identifikasiya](assets/images/2fa-security.jpg "2FA - İki Faktorlu Təhlükəsizlik")
+![İki Faktorlu Identifikasiya](assets/images/2faa.png "2FA - İki Faktorlu Təhlükəsizlik")
 
 ## İki Faktorlu Identifikasiya (2FA) nədir?
 
