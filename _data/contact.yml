@@ -25,3 +25,12 @@
   icon: "fab fa-whatsapp"
   url: "https://wa.me/+994555182523"
 
+
+
+- type: youtube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/your_channel_id"
+
+- type: medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@yourusername"
