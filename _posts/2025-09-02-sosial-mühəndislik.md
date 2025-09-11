@@ -100,5 +100,5 @@ Phishing — sadə görünən, amma təsiri böyük olan hücum formasıdır. Ha
 ## 📚 Oxşar Yazılar
 
 - [Sosial mühəndislik nədir və necə işləyir?](/posts/sosial-muhendislik-nedir.html)  
-- [İki faktorlu identifikasiya nədir və niyə vacibdir?](/posts/2fa-nedir.html)  
-- [Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri](/posts/red-team-blue-team.html)
+- [İki faktorlu identifikasiya nədir və niyə vacibdir?](/posts/iki-faktorlu-identifikasiya)  
+- [Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri](/posts/red-team-vs-blue-team.html)

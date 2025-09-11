@@ -7,6 +7,7 @@ tags: [iki faktorlu identifikasiya, 2FA, giriş təhlükəsizliyi, kibertəhlük
 description: "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda."
 image: /assets/images/2fa.png
 canonical: https://sizin-saytiniz.az/posts/iki-faktorlu-identifikasiya.html
+permalink: /posts/iki-faktorlu-identifikasiya.html
 ---
 
 # 🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?
