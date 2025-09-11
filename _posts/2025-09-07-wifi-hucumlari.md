@@ -7,6 +7,7 @@ tags: [wifi hücumları, evil twin, deauth attack, sniffing, krack, şəbəkə t
 description: "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar, təhlükələr və ən effektiv müdafiə yolları – 2025-ci ilin yenilənmiş versiyası."
 image: /assets/images/wfi.png
 canonical: https://sizin-saytiniz.az/wifi-hucumlari-taktikalar-mudafie-2025
+permalink: /posts/wifi-hucumlari.html
 ---
 
 # Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)
