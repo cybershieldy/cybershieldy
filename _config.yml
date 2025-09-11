@@ -47,13 +47,7 @@ twitter:
 social:
   name: Emin Savaylov
   email: cyberdersler@gmail.com
-  links:
-    - url: https://twitter.com/senin_twitter_adin
-      icon: fab fa-twitter
-    - url: https://github.com/senin_github_adin
-      icon: fab fa-github
-    - url: https://linkedin.com/in/emin-savaylov-5a58a3380/
-      icon: fab fa-linkedin
+
 
 
 # Site Verification Settings
