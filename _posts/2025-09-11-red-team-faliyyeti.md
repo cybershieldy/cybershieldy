@@ -83,7 +83,8 @@ Kibertəhlükəsizlik sahəsində peşəkar təlimlər və Red Team simulyasiyal
 
 ## 📸 Şəkil: Red Team İş Prosesi
 
-![Red Team Hücum Simulyasiyası](https://sizin-saytiniz.az/assets/images/read2.jpg "Red Team Hücum Simulyasiyası")
+![Red Team Hücum Simulyasiyası](assets/images/read2.jpg "Red Team Hücum Simulyasiyası")
+
 
 ---
 
