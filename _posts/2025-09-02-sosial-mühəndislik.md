@@ -7,6 +7,7 @@ tags: [phishing, sosial mühəndislik, email hücumu, kibertəhlükəsizlik, red
 description: "Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə."
 image: /assets/images/1.jpg
 canonical: https://cybershieldy.com/posts/phishing-hucumu-nedir.html
+permalink: /posts/sosial-mühəndislik.html
 ---
 <!-- Structured data -->
 <script type="application/ld+json">

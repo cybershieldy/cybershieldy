@@ -104,8 +104,8 @@ Kibertəhlükəsizlik və **cybersecurity** — tələbələr, IT peşəkarları
 
 ## 📚 Oxşar Yazılar
 
-- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/mitm-hucumu-nedir.html)  
-- [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/phishing-hucumu-nedir.html)  
+- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/şəbəkə-hücumları.html)  
+- [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/sosial-mühəndislik.html)  
 - [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari.html)
 
 ---
