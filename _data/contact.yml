@@ -19,3 +19,9 @@
 - type: linkedin
   icon: 'fab fa-linkedin'
   url: 'https://linkedin.com/in/emin-savaylov-5a58a3380/'
+
+
+- type: whatsapp
+  icon: "fab fa-whatsapp"
+  url: "https://wa.me/+994555182523"
+
