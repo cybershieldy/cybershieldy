@@ -6,9 +6,10 @@ categories: [kiber təhlükəsizlik, red team]
 tags: [red team, kibertəhlükəsizlik, təhlükəsizlik testləri, penetration testing, sosial mühəndislik, hücum simulyasiyası, cybersecurity 2025]
 description: "Red Team fəaliyyəti ilə şirkətinizin kibertəhlükəsizlik səviyyəsini artırın. 2025-ci ilin ən qabaqcıl metodları, simulyasiya texnikaları və müdafiə strategiyaları bu yazıda."
 image: /assets/images/read.jpg
-canonical: https://sizin-saytiniz.az/posts/red-team-faliyyeti.html
-permalink: /posts/red-team-vs-blue-team.html
+canonical: https://cybershieldy.com/posts/red-team-faliyyeti
+permalink: /posts/red-team-faliyyeti
 ---
+
 
 # 👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Rolu
 

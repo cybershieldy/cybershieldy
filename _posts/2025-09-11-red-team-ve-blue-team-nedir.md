@@ -6,7 +6,7 @@ categories: [kiber təhlükəsizlik, red team, blue team]
 tags: [red team, blue team, kibertəhlükəsizlik, etik hakerlər, müdafiə komandası, hücum simulyasiyası, penetration testing, təhlükəsizlik testləri]
 description: "Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin."
 image: https://cybershieldy.com/assets/images/blue-read.webp
-canonical: https://cybershieldy.com/posts/red-team-vs-blue-team.html
+canonical: https://cybershieldy.com/posts/red-team-vs-blue-team
 permalink: /posts/red-team-vs-blue-team
 ---
 
