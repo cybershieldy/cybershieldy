@@ -42,7 +42,8 @@ permalink: /posts/red-team-vs-blue-team
 
 # 🛡️ Red Team və Blue Team Nədir? Rolları, Fərqləri və Kibertəhlükəsizlikdə Əhəmiyyəti (2025)
 
-![Red Team və Blue Team Fərqləri](/assets/images/read2.jpg "Red Team və Blue Team İş Prosesi")
+![Red Team və Blue Team Fərqləri](/assets/images/blue.webp "Red Team və Blue Team İş Prosesi")
+
 
 ## 🔴 Red Team nədir? Hücum Komandasının Rolu və Alətləri
 
