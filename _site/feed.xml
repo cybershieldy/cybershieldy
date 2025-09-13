@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-13T15:45:29+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-13T13:51:17+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-13T16:17:29+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-13T15:45:32+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -14,22 +14,22 @@
     "name": "CyberShieldy",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://sizin-saytiniz.az/assets/images/logo.png"
+      "url": "https://cybershieldy.com/assets/images/logo.png"
     }
   },
   "datePublished": "2025-09-11T12:00:00+04:00",
   "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://sizin-saytiniz.az/assets/images/read2.jpg",
+  "image": "https://cybershieldy.com/assets/images/blue-read.webp",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sizin-saytiniz.az/posts/red-team-ve-blue-team-nedir.html"
+    "@id": "https://cybershieldy.com/posts/red-team-vs-blue-team"
   }
 }
 </script>
 
 <h1 id="️-red-team-və-blue-team-nədir-rolları-fərqləri-və-kibertəhlükəsizlikdə-əhəmiyyəti-2025">🛡️ Red Team və Blue Team Nədir? Rolları, Fərqləri və Kibertəhlükəsizlikdə Əhəmiyyəti (2025)</h1>
 
-<p><img src="/assets/images/blue.webp" alt="Red Team və Blue Team Fərqləri" title="Red Team və Blue Team İş Prosesi" /></p>
+<p><img src="https://cybershieldy.com/assets/images/blue-read.webp" alt="Red Team və Blue Team Fərqləri" title="Red Team və Blue Team İş Prosesi" /></p>
 
 <h2 id="-red-team-nədir-hücum-komandasının-rolu-və-alətləri">🔴 Red Team nədir? Hücum Komandasının Rolu və Alətləri</h2>
 
@@ -45,6 +45,8 @@
   <li>⚔️ Hücum simulyasiyaları və qırmızı komanda ssenariləri</li>
 </ul>
 
+<hr />
+
 <h2 id="-blue-team-nədir-müdafiə-komandası-və-tətbiqləri">🔵 Blue Team nədir? Müdafiə Komandası və Tətbiqləri</h2>
 
 <p><strong>Blue Team</strong> — Red Team-in və ya real kibertəhdidlərin qarşısını almaq üçün <strong>müdafiə tədbirləri görən komanda</strong>dır. Onlar sistemlərin qorunması və hücumların aşkar edilməsi üçün cavabdehdir.</p>
@@ -58,6 +60,8 @@
   <li>🧱 Firewall, EDR və antivirus sistemləri</li>
   <li>📊 Log təhlili və təhdid ovçuluğu (threat hunting)</li>
 </ul>
+
+<hr />
 
 <h2 id="️-red-team-vs-blue-team-əsas-fərqlər-və-rollar">⚔️ Red Team vs Blue Team: Əsas Fərqlər və Rollar</h2>
 
@@ -134,98 +138,98 @@
 
 <h2 id="-açar-sözlər">🔑 Açar sözlər</h2>
 
-<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T23:08:04+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-rolu">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Rolu</h1>
+<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><category term="kiberhücum simulyasiyası" /><category term="purple team nədir" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-13T15:45:32+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-əhəmiyyəti">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Əhəmiyyəti</h1>
 
-<p>Red Team (Qırmızı Komanda) kibertəhlükəsizlik dünyasında ən kritik və effektiv təhlil vasitələrindən biridir. Red Team peşəkarları, real kiberhücumları təqlid edərək təşkilatların zəif nöqtələrini aşkarlayır və qorunma səviyyəsini maksimuma çatdırırlar. Bu fəaliyyət, xüsusilə informasiya təhlükəsizliyi, penetrasiya testi və hücum simulyasiyaları sahəsində əvəzsizdir.</p>
+<p>Red Team (Qırmızı Komanda) kibertəhlükəsizlikdə şirkətlərin zəif nöqtələrini aşkarlayan və real kiberhücumları imitasiya edən mütəxəssislər qrupudur. Onların fəaliyyəti təşkilatların müdafiə sistemlərini gücləndirməyə və potensial təhlükələri vaxtında müəyyən etməyə kömək edir. Bu yanaşma xüsusilə penetrasiya testi və hücum simulyasiyaları sahəsində vacibdir.</p>
 
 <hr />
 
 <h2 id="-red-team-nədir-və-niyə-vacibdir">🔍 Red Team Nədir və Niyə Vacibdir?</h2>
 
-<p>Red Team kibertəhlükəsizlikdə təşkilatların müdafiə sistemlərini sınaqdan keçirən və zəiflikləri aşkar edən mütəxəssislər qrupudur. Onlar müxtəlif hücum vektorlarından istifadə edərək:</p>
+<p>Red Team komandası müxtəlif hücum növlərindən istifadə etməklə təşkilatların zəif tərəflərini aşkarlayır:</p>
 
 <ul>
-  <li>Şəbəkə zəifliklərini (Network Vulnerabilities)</li>
-  <li>Proqram təminatındakı zəiflikləri (Application Vulnerabilities)</li>
-  <li>Sosial mühəndislik hücumlarını (Social Engineering Attacks)</li>
-  <li>Fiziki və ya daxili təhlükəsizlik boşluqlarını təhlil edir və</li>
+  <li>Şəbəkə zəiflikləri (Network Vulnerabilities)</li>
+  <li>Proqram təminatı zəiflikləri (Application Vulnerabilities)</li>
+  <li>Sosial mühəndislik hücumları (Social Engineering Attacks)</li>
+  <li>Fiziki və daxili təhlükəsizlik boşluqları</li>
 </ul>
 
-<p>hücum simulyasiyası aparırlar.</p>
-
-<p>Bu testlər şirkətlərin <strong>kiberhücumlara qarşı dayanıqlığını</strong> artırır və real hücum zamanı baş verə biləcək zərərlərin qarşısını alır.</p>
+<p>Bütün bu testlər sayəsində şirkətlərin <strong>kiberhücumlara qarşı davamlılığı</strong> artır və mümkün risklər vaxtında aradan qaldırılır.</p>
 
 <hr />
 
-<h2 id="-red-team-fəaliyyətinin-əsas-i̇stiqamətləri">🚀 Red Team Fəaliyyətinin Əsas İstiqamətləri</h2>
+<h2 id="-red-team-fəaliyyətinin-əsas-sahələri">🚀 Red Team Fəaliyyətinin Əsas Sahələri</h2>
 
 <ol>
   <li>
     <p><strong>Penetrasiya Testləri (Penetration Testing):</strong><br />
-Təhlükəsizlik boşluqlarının aşkar edilməsi üçün sistemlərə hücum testləri edilir. Bu testlər proqram təminatından tutmuş şəbəkəyə qədər geniş sahəni əhatə edir.</p>
+Sistemlərdə olan zəiflikləri müəyyən etmək üçün genişmiqyaslı hücum ssenariləri həyata keçirilir.</p>
   </li>
   <li>
     <p><strong>Sosial Mühəndislik Hücumları (Social Engineering Attacks):</strong><br />
-İnsan faktorunu sındırmaq üçün e-poçt fişinqi, telefon zəngləri və digər sosial mühəndislik metodları tətbiq olunur.</p>
+İnsan amilini hədəf alan fişinq, telefon zəngi və digər üsullar tətbiq olunur.</p>
   </li>
   <li>
     <p><strong>Fiziki Təhlükəsizlik Testləri:</strong><br />
-Müəssisəyə fiziki giriş və avadanlıqlara müdaxilə imkanları yoxlanılır.</p>
+Müəssisəyə fiziki giriş imkanı və avadanlıqların təhlükəsizliyi yoxlanılır.</p>
   </li>
   <li>
-    <p><strong>Red/Blue Team Əməkdaşlığı:</strong><br />
-Red Team (hücumçu) və Blue Team (müdafiəçi) komandaları birgə iş apararaq təhlükəsizlik sistemlərini təkmilləşdirirlər.</p>
+    <p><strong>Red və Blue Team Əməkdaşlığı:</strong><br />
+Hücum və müdafiə komandaları birlikdə işləyərək təhlükəsizlik strategiyalarını təkmilləşdirir.</p>
   </li>
 </ol>
 
 <hr />
 
-<h2 id="-red-team-fəaliyyəti-ilə-təşkilatlara-verilən-faydalar">🔐 Red Team Fəaliyyəti ilə Təşkilatlara Verilən Faydalar</h2>
+<h2 id="-red-team-in-təşkilatlara-gətirdiyi-üstünlüklər">🔐 Red Team-in Təşkilatlara Gətirdiyi Üstünlüklər</h2>
 
 <ul>
-  <li><strong>Zəifliklərin Vaxtında Aşkarlanması və Aradan Qaldırılması</strong></li>
-  <li><strong>Kiberhücumlara Qarşı Proaktiv Müdafiə Strategiyalarının Hazırlanması</strong></li>
-  <li><strong>Komanda Təlimi və Təhlükəsizlik Mədəniyyətinin İnkişafı</strong></li>
-  <li><strong>Məlumatların və Şəxsi Verilənlərin Qorunması</strong></li>
-  <li><strong>Reputasiya və Maliyyə Zərərlərinin Qarşısının Alınması</strong></li>
+  <li><strong>Zəifliklərin vaxtında aşkar olunması və aradan qaldırılması</strong></li>
+  <li><strong>Proaktiv müdafiə taktikalarının hazırlanması</strong></li>
+  <li><strong>Komanda təlimləri və təhlükəsizlik mədəniyyətinin formalaşması</strong></li>
+  <li><strong>Məlumatların və şəxsi verilənlərin qorunması</strong></li>
+  <li><strong>Şirkətin reputasiyası və maliyyə itkilərinin qarşısının alınması</strong></li>
 </ul>
 
-<p>Bu səbəbdən Red Team fəaliyyəti hər bir müasir şirkət və təşkilat üçün zəruridir.</p>
+<p>Bu səbəbdən Red Team fəaliyyəti müasir bizneslər üçün əvəzolunmazdır.</p>
 
 <hr />
 
-<h2 id="-2025-ci-i̇ldə-red-team-və-kibertəhlükəsizlik-yenilikləri">📅 2025-ci İldə Red Team və Kibertəhlükəsizlik Yenilikləri</h2>
+<h2 id="-2025-ci-i̇ldə-red-team-və-kibertəhlükəsizlikdə-yeniliklər">📅 2025-ci İldə Red Team və Kibertəhlükəsizlikdə Yeniliklər</h2>
 
-<p>Kibertəhlükəsizlik sahəsi sürətlə inkişaf edir və Red Team fəaliyyətləri daim təkmilləşir. 2025-ci ildə:</p>
+<p>Kibertəhlükəsizlik sahəsində sürətli inkişafla birlikdə Red Team üsulları da təkmilləşir. 2025-ci ildə aşağıdakı istiqamətlər önə çıxır:</p>
 
 <ul>
-  <li>Süni intellekt (AI) və maşın öyrənməsi (ML) ilə təchiz olunmuş hücum simulyasiyaları</li>
+  <li>Süni intellekt (AI) və maşın öyrənməsi (ML) ilə təchiz edilmiş hücum simulyasiyaları</li>
   <li>Avtomatlaşdırılmış penetration test alətləri</li>
-  <li>Yeni sosial mühəndislik metodları</li>
-  <li>Cloud təhlükəsizliyi və IoT cihazlarına yönəlmiş hücum testləri daha çox önə çıxır.</li>
+  <li>Yeni sosial mühəndislik texnikaları</li>
+  <li>Cloud təhlükəsizliyi və IoT cihazlarına yönəlmiş testlər</li>
 </ul>
 
-<p>Müasir Red Team komandaları ən qabaqcıl texnologiyalardan istifadə edərək təşkilatların tam müdafiə sistemlərini yoxlayır.</p>
+<p>Bu yeniliklər təşkilatların təhlükəsizlik səviyyəsini daha da yüksəldir.</p>
 
 <hr />
 
-<hr />
+<h2 id="-əlaqə-və-təlim-i̇mkanları">📞 Əlaqə və Təlim İmkanları</h2>
 
-<h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
+<p>Kibertəhlükəsizlik sahəsində təlim və Red Team simulyasiyaları üçün bizimlə əlaqə saxlayın:</p>
 
-<p>Kibertəhlükəsizlik sahəsində peşəkar təlimlər və Red Team simulyasiyaları üçün bizimlə əlaqə saxlayın:</p>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a> — Təlimlər və praktiki dəstək üçün.</p>
+<p>📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a> — təlimlər və praktiki dəstək.</p>
 
 <hr />
 
 <h2 id="-şəkil-red-team-i̇ş-prosesi">📸 Şəkil: Red Team İş Prosesi</h2>
 
-<p><img src="assets/images/read2.jpg" alt="Red Team Hücum Simulyasiyası" title="Red Team Hücum Simulyasiyası" /></p>
+<p><img src="assets/images/blue.webp" alt="Red Team Hücum Simulyasiyası" title="Red Team Hücum Simulyasiyası&quot; alt=&quot;Red Team hücum simulyasiyası" /></p>
 
 <hr />
 
 <h2 id="-nəticə">✅ Nəticə</h2>
+
+<p>Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının təməl daşıdır. Bu metodlarla şirkətlər zəiflikləri vaxtında müəyyən edir, mümkün hücumların qarşısını alır və təhlükəsizlik mədəniyyətini gücləndirirlər. 2025-ci ildə rəqabətdə ön sırada olmaq üçün Red Team simulyasiyaları zəruridir.</p>
+
+<hr />
 
 <h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
 
@@ -235,16 +239,14 @@ Red Team (hücumçu) və Blue Team (müdafiəçi) komandaları birgə iş aparar
   <li><a href="/posts/mitm-hucumu-nedir.html">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
 </ul>
 
-<p>Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının əsas tərkib hissəsidir. Bu təcrübələr sayəsində şirkətlər öz zəifliklərini vaxtında müəyyən edir, potensial hücumların qarşısını alır və təhlükəsizlik mədəniyyətini gücləndirir. 2025-ci ildə kibertəhlükəsizlik dünyasında rəqabət aparmaq istəyən hər bir təşkilat üçün Red Team simulyasiyaları vacibdir.</p>
-
 <hr />
 
 <blockquote>
   <p>Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:<br />
 📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a></p>
-</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə şirkətinizin kibertəhlükəsizlik səviyyəsini artırın. 2025-ci ilin ən qabaqcıl metodları, simulyasiya texnikaları və müdafiə strategiyaları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T23:08:04+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"><![CDATA[<h1 id="-i̇ki-faktorlu-identifikasiya-nədir-və-niyə-vacibdir">🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?</h1>
+</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="kibertəhlükəsizlik 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-11T23:08:04+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"><![CDATA[<h1 id="-i̇ki-faktorlu-identifikasiya-nədir-və-niyə-vacibdir">🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?</h1>
 
-<p><img src="assets/images/2faa.png" alt="İki Faktorlu Identifikasiya" title="2FA - İki Faktorlu Təhlükəsizlik" /></p>
+<p><img src="assets/images/234.webp" alt="İki Faktorlu Identifikasiya" title="2FA - İki Faktorlu Təhlükəsizlik" /></p>
 
 <h2 id="i̇ki-faktorlu-identifikasiya-2fa-nədir">İki Faktorlu Identifikasiya (2FA) nədir?</h2>
 
@@ -298,7 +300,7 @@ Red Team (hücumçu) və Blue Team (müdafiəçi) komandaları birgə iş aparar
 
 <hr />
 
-<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/2fa.png" /><media:content medium="image" url="https://cybershieldy.com/assets/images/2fa.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/kiber-hucumlar/" rel="alternate" type="text/html" title="Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları" /><published>2025-09-09T18:00:00+04:00</published><updated>2025-09-11T18:10:16+04:00</updated><id>https://cybershieldy.com/posts/kiber-hucumlar</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-hucumlar/"><![CDATA[<!-- Structured data -->
+<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/kiber-hucumlar/" rel="alternate" type="text/html" title="Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları" /><published>2025-09-09T18:00:00+04:00</published><updated>2025-09-11T18:10:16+04:00</updated><id>https://cybershieldy.com/posts/kiber-hucumlar</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-hucumlar/"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -434,7 +436,7 @@ Red Team (hücumçu) və Blue Team (müdafiəçi) komandaları birgə iş aparar
 
 <h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
 
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və red/blue team strategiyaları – Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/212.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/212.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari.html" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-11T17:53:05+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari.html"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və red/blue team strategiyaları – Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/934.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/934.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari.html" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-11T17:53:05+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari.html"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
 
 <blockquote>
   <p><strong>Son yenilənmə:</strong> 9 Sentyabr 2025</p>

@@ -3,13 +3,12 @@ title: "Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərq
 date: 2025-09-11 12:00:00 +0400
 lastmod: 2025-09-11 12:00:00 +0400
 categories: [kiber təhlükəsizlik, red team, blue team]
-tags: [red team, blue team, kibertəhlükəsizlik, etik hakerlər, müdafiə komandası, hücum simulyasiyası, penetration testing, təhlükəsizlik testləri]
+tags: [red team, blue team, kibertəhlükəsizlik, etik hakerlər, müdafiə komandası, hücum simulyasiyası, penetration testing, təhlükəsizlik testləri, kiberhücum simulyasiyası, purple team nədir]
 description: "Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin."
 image: https://cybershieldy.com/assets/images/blue-read.webp
 canonical: https://cybershieldy.com/posts/red-team-vs-blue-team
 permalink: /posts/red-team-vs-blue-team
 ---
-
 
 <!-- Structured data -->
 <script type="application/ld+json">
@@ -27,23 +26,22 @@ permalink: /posts/red-team-vs-blue-team
     "name": "CyberShieldy",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://sizin-saytiniz.az/assets/images/logo.png"
+      "url": "https://cybershieldy.com/assets/images/logo.png"
     }
   },
   "datePublished": "2025-09-11T12:00:00+04:00",
   "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://sizin-saytiniz.az/assets/images/read2.jpg",
+  "image": "https://cybershieldy.com/assets/images/blue-read.webp",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sizin-saytiniz.az/posts/red-team-ve-blue-team-nedir.html"
+    "@id": "https://cybershieldy.com/posts/red-team-vs-blue-team"
   }
 }
 </script>
 
 # 🛡️ Red Team və Blue Team Nədir? Rolları, Fərqləri və Kibertəhlükəsizlikdə Əhəmiyyəti (2025)
 
-![Red Team və Blue Team Fərqləri](/assets/images/blue.webp "Red Team və Blue Team İş Prosesi")
-
+![Red Team və Blue Team Fərqləri](https://cybershieldy.com/assets/images/blue-read.webp "Red Team və Blue Team İş Prosesi")
 
 ## 🔴 Red Team nədir? Hücum Komandasının Rolu və Alətləri
 
@@ -57,6 +55,8 @@ permalink: /posts/red-team-vs-blue-team
 - 🕵️‍♂️ Göstərilmədən hücum ssenariləri (stealth attacks)  
 - ⚔️ Hücum simulyasiyaları və qırmızı komanda ssenariləri
 
+---
+
 ## 🔵 Blue Team nədir? Müdafiə Komandası və Tətbiqləri
 
 **Blue Team** — Red Team-in və ya real kibertəhdidlərin qarşısını almaq üçün **müdafiə tədbirləri görən komanda**dır. Onlar sistemlərin qorunması və hücumların aşkar edilməsi üçün cavabdehdir.
@@ -68,6 +68,8 @@ permalink: /posts/red-team-vs-blue-team
 - 🧯 Hadisəyə cavab (incident response)  
 - 🧱 Firewall, EDR və antivirus sistemləri  
 - 📊 Log təhlili və təhdid ovçuluğu (threat hunting)
+
+---
 
 ## ⚔️ Red Team vs Blue Team: Əsas Fərqlər və Rollar
 
@@ -115,4 +117,4 @@ permalink: /posts/red-team-vs-blue-team
 
 ## 🔑 Açar sözlər
 
-`red team nədir`, `blue team nədir`, `etik haker`, `sızma testi`, `penetration test`, `müdafiə komandası`, `SIEM`, `purple team nədir`, `red team vs blue team`, `kibertəhlükəsizlik rolları`
+`red team nədir`, `blue team nədir`, `etik haker`, `sızma testi`, `penetration test`, `müdafiə komandası`, `SIEM`, `purple team nədir`, `red team vs blue team`, `kibertəhlükəsizlik rolları`, `kiberhücum simulyasiyası`

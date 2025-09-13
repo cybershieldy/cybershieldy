@@ -5,14 +5,14 @@ lastmod: 2025-09-11 12:00:00 +0400
 categories: [kiber təhlükəsizlik, autentifikasiya]
 tags: [iki faktorlu identifikasiya, 2FA, giriş təhlükəsizliyi, kibertəhlükəsizlik, sms doğrulama, autentifikasiya metodları, hesab qorunması, cybersecurity 2025]
 description: "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda."
-image: /assets/images/2fa.png
+image: /assets/images/12.webp
 canonical: https://sizin-saytiniz.az/posts/iki-faktorlu-identifikasiya.html
 permalink: /posts/iki-faktorlu-identifikasiya.html
 ---
 
 # 🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?
 
-![İki Faktorlu Identifikasiya](assets/images/2faa.png "2FA - İki Faktorlu Təhlükəsizlik")
+![İki Faktorlu Identifikasiya](assets/images/234.webp "2FA - İki Faktorlu Təhlükəsizlik")
 
 ## İki Faktorlu Identifikasiya (2FA) nədir?
 

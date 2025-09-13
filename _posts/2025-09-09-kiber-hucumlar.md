@@ -5,7 +5,7 @@ lastmod: 2025-09-09 18:00:00 +0400
 categories: [təhlükəsizlik, kiber təhlükəsizlik, cybersecurity]
 tags: [kibertəhlükəsizlik, cyber security, hacking, phishing, ransomware, malware, wi-fi hücumları, penetration testing, ethical hacking, red team, blue team, ictimai wi-fi, SOC, student guide]
 description: "2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və red/blue team strategiyaları – Emin Savaylov."
-image: /assets/images/212.jpg
+image: /assets/images/934.webp
 canonical: https://cybershieldy.com/posts/kiber-cybersecurity-2025.html
 ---
 
