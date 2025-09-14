@@ -9,6 +9,33 @@ image: /assets/images/12.webp
 canonical: https://sizin-saytiniz.az/posts/iki-faktorlu-identifikasiya.html
 permalink: /posts/iki-faktorlu-identifikasiya.html
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım",
+  "description": "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-11T12:00:00+04:00",
+  "dateModified": "2025-09-11T12:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/234.webp",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"
+  }
+}
+</script>
 
 # 🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?
 
