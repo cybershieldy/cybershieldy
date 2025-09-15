@@ -108,7 +108,6 @@ permalink: /posts/red-team-vs-blue-team
 
 ## 📚 Oxşar yazılar
 
-- [Phishing hücumu nədir və necə qorunmalı?](/posts/phishing-hucumu-nedir.html)  
 - [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik.html)  
 - [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
 - [SIEM nədir və necə işləyir?](/posts/siem-nedir.html)
