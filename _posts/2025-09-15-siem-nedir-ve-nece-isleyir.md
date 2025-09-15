@@ -60,7 +60,32 @@ SIEM sistemləri, fərqli mənbələrdən (firewall, server, antivirus, IDS/IPS 
 ---
 
 ## Snort və Suricata ilə SIEM İnteqrasiyası
+---
+## 🔍 Snort vs Suricata: Hansı Daha Uyğundur?
 
+Aşağıdakı cədvəldə **Snort** və **Suricata** alətlərinin əsas texniki fərqləri və istifadə sahələri müqayisə olunur:
+
+| Xüsusiyyət            | 🐗 Snort                                  | 🦊 Suricata                                 |
+|------------------------|-------------------------------------------|---------------------------------------------|
+| **Lisenziya**          | Açıq mənbə (GPL)                         | Açıq mənbə (GPL)                            |
+| **Funksiyalar**        | IDS / IPS                                | IDS / IPS / Network Security Monitoring     |
+| **Performans**         | Single-threaded                          | Multi-threaded, daha yüksək performans      |
+| **Protokol dəstəyi**   | Məhduddur (əsas protokollar)             | Geniş protokol dəstəyi (HTTP, TLS, DNS və s.)|
+| **Log çıxışı**         | Klassik format                            | JSON formatı – SIEM inteqrasiyası üçün ideal|
+| **Dəstək**             | Cisco tərəfindən dəstəklənir             | OISF (Open Information Security Foundation) |
+| **Kural dəstəyi**      | Snort qaydaları                           | Snort qaydaları + əlavə özəlliklər          |
+| **İnteqrasiya**        | SIEM sistemlərinə əl ilə inteqrasiya     | ELK, Wazuh, Splunk və s. ilə daha asan      |
+| **Yayılma**            | Daha uzun müddətdir istifadə olunur       | Yeni texnologiya, daha sürətlə yayılır      |
+
+---
+
+💡 **Nəticə:**  
+- **Snort** – klassik və stabil sistemlər üçün uyğun  
+- **Suricata** – yüksək performans və SIEM inteqrasiyası tələb edən müasir mühitlər üçün daha effektivdir
+
+
+
+---
 ### Snort nədir?
 
 **Snort** – açıq mənbəli, real-time **İntrusion Detection System (IDS)** və **İntrusion Prevention System (IPS)** funksiyalarını yerinə yetirən bir təhlükəsizlik alətidir.

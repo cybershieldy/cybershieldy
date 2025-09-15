@@ -38,7 +38,7 @@
 <meta property="twitter:title" content="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-15T10:00:00+04:00","datePublished":"2025-09-15T10:00:00+04:00","description":"SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.","headline":"SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)","image":"https://cybershieldy.com/assets/images/siem.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/siem-nedir.html"},"url":"https://cybershieldy.com/posts/siem-nedir.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-15T22:47:38+04:00","datePublished":"2025-09-15T10:00:00+04:00","description":"SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.","headline":"SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)","image":"https://cybershieldy.com/assets/images/siem.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/siem-nedir.html"},"url":"https://cybershieldy.com/posts/siem-nedir.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -824,6 +824,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -945,6 +956,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1757962058"
+  data-df="D MMMM YYYY"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  15 September 2025
+</time>
+
+        </span>
+      
 
       
         
@@ -996,9 +1030,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="439 words"
+  title="580 words"
 >
-  <em>2 min</em> read</span>
+  <em>3 min</em> read</span>
 
         </div>
       </div>
@@ -1083,7 +1117,77 @@
 <hr />
 
 <h2 id="snort-və-suricata-ilə-siem-i̇nteqrasiyası"><span class="me-2">Snort və Suricata ilə SIEM İnteqrasiyası</span><a href="#snort-və-suricata-ilə-siem-i̇nteqrasiyası" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<hr />
+<h2 id="-snort-vs-suricata-hansı-daha-uyğundur"><span class="me-2">🔍 Snort vs Suricata: Hansı Daha Uyğundur?</span><a href="#-snort-vs-suricata-hansı-daha-uyğundur" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
+<p>Aşağıdakı cədvəldə <strong>Snort</strong> və <strong>Suricata</strong> alətlərinin əsas texniki fərqləri və istifadə sahələri müqayisə olunur:</p>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Xüsusiyyət</th>
+      <th>🐗 Snort</th>
+      <th>🦊 Suricata</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lisenziya</strong></td>
+      <td>Açıq mənbə (GPL)</td>
+      <td>Açıq mənbə (GPL)</td>
+    </tr>
+    <tr>
+      <td><strong>Funksiyalar</strong></td>
+      <td>IDS / IPS</td>
+      <td>IDS / IPS / Network Security Monitoring</td>
+    </tr>
+    <tr>
+      <td><strong>Performans</strong></td>
+      <td>Single-threaded</td>
+      <td>Multi-threaded, daha yüksək performans</td>
+    </tr>
+    <tr>
+      <td><strong>Protokol dəstəyi</strong></td>
+      <td>Məhduddur (əsas protokollar)</td>
+      <td>Geniş protokol dəstəyi (HTTP, TLS, DNS və s.)</td>
+    </tr>
+    <tr>
+      <td><strong>Log çıxışı</strong></td>
+      <td>Klassik format</td>
+      <td>JSON formatı – SIEM inteqrasiyası üçün ideal</td>
+    </tr>
+    <tr>
+      <td><strong>Dəstək</strong></td>
+      <td>Cisco tərəfindən dəstəklənir</td>
+      <td>OISF (Open Information Security Foundation)</td>
+    </tr>
+    <tr>
+      <td><strong>Kural dəstəyi</strong></td>
+      <td>Snort qaydaları</td>
+      <td>Snort qaydaları + əlavə özəlliklər</td>
+    </tr>
+    <tr>
+      <td><strong>İnteqrasiya</strong></td>
+      <td>SIEM sistemlərinə əl ilə inteqrasiya</td>
+      <td>ELK, Wazuh, Splunk və s. ilə daha asan</td>
+    </tr>
+    <tr>
+      <td><strong>Yayılma</strong></td>
+      <td>Daha uzun müddətdir istifadə olunur</td>
+      <td>Yeni texnologiya, daha sürətlə yayılır</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<hr />
+
+<p>💡 <strong>Nəticə:</strong></p>
+<ul>
+  <li><strong>Snort</strong> – klassik və stabil sistemlər üçün uyğun</li>
+  <li><strong>Suricata</strong> – yüksək performans və SIEM inteqrasiyası tələb edən müasir mühitlər üçün daha effektivdir</li>
+</ul>
+
+<hr />
 <h3 id="snort-nədir"><span class="me-2">Snort nədir?</span><a href="#snort-nədir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <p><strong>Snort</strong> – açıq mənbəli, real-time <strong>İntrusion Detection System (IDS)</strong> və <strong>İntrusion Prevention System (IPS)</strong> funksiyalarını yerinə yetirən bir təhlükəsizlik alətidir.</p>
@@ -1350,6 +1454,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/siem-nedir.html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/red-team-vs-blue-team">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</a>
         </li>
       
@@ -1358,13 +1469,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/sosial-m%C3%BCh%C9%99ndislik.html">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/siem-nedir.html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</a>
         </li>
       
         

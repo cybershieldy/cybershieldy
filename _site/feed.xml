@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-15T22:47:36+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir.html" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir.html"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-15T23:16:54+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir.html" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T22:47:38+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir.html"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -51,7 +51,77 @@
 <hr />
 
 <h2 id="snort-və-suricata-ilə-siem-i̇nteqrasiyası">Snort və Suricata ilə SIEM İnteqrasiyası</h2>
+<hr />
+<h2 id="-snort-vs-suricata-hansı-daha-uyğundur">🔍 Snort vs Suricata: Hansı Daha Uyğundur?</h2>
 
+<p>Aşağıdakı cədvəldə <strong>Snort</strong> və <strong>Suricata</strong> alətlərinin əsas texniki fərqləri və istifadə sahələri müqayisə olunur:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Xüsusiyyət</th>
+      <th>🐗 Snort</th>
+      <th>🦊 Suricata</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lisenziya</strong></td>
+      <td>Açıq mənbə (GPL)</td>
+      <td>Açıq mənbə (GPL)</td>
+    </tr>
+    <tr>
+      <td><strong>Funksiyalar</strong></td>
+      <td>IDS / IPS</td>
+      <td>IDS / IPS / Network Security Monitoring</td>
+    </tr>
+    <tr>
+      <td><strong>Performans</strong></td>
+      <td>Single-threaded</td>
+      <td>Multi-threaded, daha yüksək performans</td>
+    </tr>
+    <tr>
+      <td><strong>Protokol dəstəyi</strong></td>
+      <td>Məhduddur (əsas protokollar)</td>
+      <td>Geniş protokol dəstəyi (HTTP, TLS, DNS və s.)</td>
+    </tr>
+    <tr>
+      <td><strong>Log çıxışı</strong></td>
+      <td>Klassik format</td>
+      <td>JSON formatı – SIEM inteqrasiyası üçün ideal</td>
+    </tr>
+    <tr>
+      <td><strong>Dəstək</strong></td>
+      <td>Cisco tərəfindən dəstəklənir</td>
+      <td>OISF (Open Information Security Foundation)</td>
+    </tr>
+    <tr>
+      <td><strong>Kural dəstəyi</strong></td>
+      <td>Snort qaydaları</td>
+      <td>Snort qaydaları + əlavə özəlliklər</td>
+    </tr>
+    <tr>
+      <td><strong>İnteqrasiya</strong></td>
+      <td>SIEM sistemlərinə əl ilə inteqrasiya</td>
+      <td>ELK, Wazuh, Splunk və s. ilə daha asan</td>
+    </tr>
+    <tr>
+      <td><strong>Yayılma</strong></td>
+      <td>Daha uzun müddətdir istifadə olunur</td>
+      <td>Yeni texnologiya, daha sürətlə yayılır</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>💡 <strong>Nəticə:</strong></p>
+<ul>
+  <li><strong>Snort</strong> – klassik və stabil sistemlər üçün uyğun</li>
+  <li><strong>Suricata</strong> – yüksək performans və SIEM inteqrasiyası tələb edən müasir mühitlər üçün daha effektivdir</li>
+</ul>
+
+<hr />
 <h3 id="snort-nədir">Snort nədir?</h3>
 
 <p><strong>Snort</strong> – açıq mənbəli, real-time <strong>İntrusion Detection System (IDS)</strong> və <strong>İntrusion Prevention System (IPS)</strong> funksiyalarını yerinə yetirən bir təhlükəsizlik alətidir.</p>
