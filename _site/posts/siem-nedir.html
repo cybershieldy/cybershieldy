@@ -1,0 +1,4612 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- `site.alt_lang` can specify a language different from the UI -->
+<html lang="" >
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah." />
+<meta property="og:description" content="SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah." />
+<link rel="canonical" href="https://cybershieldy.com/posts/siem-nedir.html" />
+<meta property="og:url" content="https://cybershieldy.com/posts/siem-nedir.html" />
+<meta property="og:site_name" content="Kiber Təhlükəsizlik Bloqu" />
+<meta property="og:image" content="https://cybershieldy.com/assets/images/siem-analizi.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-09-15T10:00:00+04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://cybershieldy.com/assets/images/siem-analizi.jpg" />
+<meta property="twitter:title" content="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" />
+<meta name="twitter:site" content="@twitter_username" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-15T10:00:00+04:00","datePublished":"2025-09-15T10:00:00+04:00","description":"SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.","headline":"SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)","image":"https://cybershieldy.com/assets/images/siem-analizi.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/siem-nedir.html"},"url":"https://cybershieldy.com/posts/siem-nedir.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <title>SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş) | Kiber Təhlükəsizlik Bloqu
+  </title>
+
+  <!-- Burada favicon daxil edilmir -->
+
+  <!-- Resource Hints -->
+  
+    
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com" >
+      
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+      
+    
+      
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" >
+      
+    
+      
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" >
+      
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
+      
+    
+  
+
+  <!-- Bootstrap (yalnız development üçün) -->
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" />
+  
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css" />
+
+  <!-- Web Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css" />
+
+  <!-- 3rd-party Dependencies -->
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css" />
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css" />
+  
+
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
+  
+
+  <!-- Scripts -->
+  <script src="/assets/js/dist/theme.min.js"></script>
+
+  <!-- JS selector for site. -->
+
+<!-- commons -->
+
+
+
+<!-- layout specified -->
+
+
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
+
+
+
+
+
+
+
+<script defer src="/assets/js/dist/post.min.js"></script>
+
+
+
+<!-- Pageviews -->
+
+  
+
+  
+
+
+
+  
+
+  <!-- A placeholder to allow defining custom metadata -->
+
+</head>
+
+
+  <body>
+    <!-- The Side Bar -->
+
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/images/emin.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+
+    <a class="site-title d-block" href="/">Kiber Təhlükəsizlik Bloqu</a>
+    <p class="site-subtitle fst-italic mb-0">Məlumatlı ol, təhlükəsiz qal.</p>
+  </header>
+  <!-- .profile-wrapper -->
+
+  <nav class="flex-column flex-grow-1 w-100 ps-0">
+    <ul class="nav">
+      <!-- home -->
+      <li class="nav-item">
+        <a href="/" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>HOME</span>
+        </a>
+      </li>
+      <!-- the real tabs -->
+      
+        <li class="nav-item">
+          <a href="/Categories/" class="nav-link">
+            <i class="fa-fw fas fa-stream"></i>
+            
+
+            <span>KATEQORIYALAR</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Tags/" class="nav-link">
+            <i class="fa-fw fas fa-tags"></i>
+            
+
+            <span>TEQLƏR</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Archives/" class="nav-link">
+            <i class="fa-fw fas fa-archive"></i>
+            
+
+            <span>ARXIV</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/telimler/" class="nav-link">
+            <i class="fa-fw fas fa-user-graduate"></i>
+            
+
+            <span>TƏLIMLƏR | KIBERTƏHLÜKƏSIZLIK VƏ WEB DEVELOPER KURSLARI</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/About/" class="nav-link">
+            <i class="fa-fw fas fa-info-circle"></i>
+            
+
+            <span>HAQQINDA – EMIN SAVAYLOV | KIBER TƏHLÜKƏSIZLIK VƏ TƏLIMLƏR</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Test/" class="nav-link">
+            <i class="fa-fw fas fa-shield-alt"></i>
+            
+
+            <span>KIBERTƏHLÜKƏSIZLIK VƏ ETHICAL HACKING BILIK TESTI (30 SUAL)</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Kitab/" class="nav-link">
+            <i class="fa-fw fas fa-book"></i>
+            
+
+            <span>KITAB</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/video/" class="nav-link">
+            <i class="fa-fw fas fa-tv"></i>
+            
+
+            <span>VIDEO</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+    </ul>
+  </nav>
+
+  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+    
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      
+        <span class="icon-border"></span>
+      
+    
+
+    
+      
+
+      
+        <a
+          href="https://github.com/github_username"
+          aria-label="github"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://twitter.com/twitter_username"
+          aria-label="twitter"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="javascript:location.href = 'mailto:' + ['cyberdersler','gmail.com'].join('@')"
+          aria-label="email"
+          
+
+          
+
+          
+
+          
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="/feed.xml"
+          aria-label="rss"
+          
+
+          
+
+          
+
+          
+        >
+          <i class="fas fa-rss"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://linkedin.com/in/emin-savaylov-5a58a3380/"
+          aria-label="linkedin"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://wa.me/+994555182523"
+          aria-label="whatsapp"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://www.youtube.com/channel/your_channel_id"
+          aria-label="youtube"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://medium.com/@yourusername"
+          aria-label="medium"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-medium"></i>
+        </a>
+      
+    
+  </div>
+  <!-- .sidebar-bottom -->
+</aside>
+<!-- #sidebar -->
+
+
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column px-xxl-5">
+        <!-- The Top Bar -->
+
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
+  <div
+    id="topbar"
+    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
+  >
+    <nav id="breadcrumb" aria-label="Breadcrumb">
+      
+
+      
+        
+          
+            <span>
+              <a href="/">Home</a>
+            </span>
+
+          
+        
+          
+        
+          
+            
+              <span>SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</span>
+            
+
+          
+        
+      
+    </nav>
+    <!-- endof #breadcrumb -->
+
+    <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
+      <i class="fas fa-bars fa-fw"></i>
+    </button>
+
+    <div id="topbar-title">
+      Post
+    </div>
+
+    <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+
+    <search id="search" class="align-items-center ms-3 ms-lg-0">
+      <i class="fas fa-search fa-fw"></i>
+      <input
+        class="form-control"
+        id="search-input"
+        type="search"
+        aria-label="search"
+        autocomplete="off"
+        placeholder="Search..."
+      >
+    </search>
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
+  </div>
+</header>
+
+
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              <!-- Refactor the HTML structure -->
+
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</h1>
+    
+      <p class="post-desc fw-light mb-4">SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.</p>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1757916000"
+  data-df="D MMMM YYYY"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  15 September 2025
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
+      
+
+      
+        
+        
+        
+
+        
+
+        <div class="mt-3 mb-3">
+          <a href="/assets/images/siem-analizi.jpg" class="popup img-link preview-img shimmer"><img src="/assets/images/siem-analizi.jpg"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          Author
+
+          <em>
+            
+              <a href="">Emin Savaylov</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="439 words"
+>
+  <em>2 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Table of Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)",
+  "description": "SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-15T10:00:00+04:00",
+  "dateModified": "2025-09-15T10:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/siem-analizi.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html"
+  }
+}
+</script>
+
+<h1 id="siem-nədir-və-necə-i̇şləyir-2025-yenilənmiş">SIEM Nədir və Necə İşləyir? (2025 Yenilənmiş)</h1>
+
+<p>Kibertəhlükəsizlik dünyasında <strong>SIEM</strong> (Security Information and Event Management) sistemləri artıq yalnız böyük şirkətlərin deyil, orta və kiçik bizneslərin də gündəminə gəlib. Bu yazıda <strong>SIEM nədir</strong>, necə işləyir, və <strong>Snort</strong> və <strong>Suricata</strong> kimi populyar açıq mənbə təhlükəsizlik alətləri ilə necə inteqrasiya oluna bilər - geniş şəkildə öyrənəcəyik.</p>
+
+<hr />
+
+<h2 id="siem-nədir"><span class="me-2">SIEM nədir?</span><a href="#siem-nədir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p><strong>SIEM</strong> – “Security Information and Event Management” ifadəsinin qısaltmasıdır. Bu texnologiya <strong>log toplama</strong>, <strong>real-time analiz</strong>, <strong>anomalya aşkarlanması</strong>, və <strong>insident cavabı</strong> kimi funksiyaları bir araya gətirir.</p>
+
+<p>SIEM sistemləri, fərqli mənbələrdən (firewall, server, antivirus, IDS/IPS və s.) gələn <strong>log məlumatlarını</strong> toplayaraq, onların üzərində analiz aparır və <strong>təhlükə göstəricilərini</strong> müəyyən edir.</p>
+
+<h3 id="siem-in-əsas-funksiyaları"><span class="me-2">SIEM-in əsas funksiyaları:</span><a href="#siem-in-əsas-funksiyaları" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li><strong>Logların mərkəzləşdirilmiş toplanması</strong></li>
+  <li><strong>Real-time təhlükə aşkarlanması</strong></li>
+  <li><strong>SIEM alqoritmləri ilə anomalya təhlili</strong></li>
+  <li><strong>İnsidentlər üçün avtomatik cavab mexanizmləri</strong></li>
+  <li><strong>Regulyasiya uyğunluğunun təmin olunması</strong> (PCI-DSS, ISO 27001 və s.)</li>
+</ul>
+
+<hr />
+
+<h2 id="snort-və-suricata-ilə-siem-i̇nteqrasiyası"><span class="me-2">Snort və Suricata ilə SIEM İnteqrasiyası</span><a href="#snort-və-suricata-ilə-siem-i̇nteqrasiyası" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="snort-nədir"><span class="me-2">Snort nədir?</span><a href="#snort-nədir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p><strong>Snort</strong> – açıq mənbəli, real-time <strong>İntrusion Detection System (IDS)</strong> və <strong>İntrusion Prevention System (IPS)</strong> funksiyalarını yerinə yetirən bir təhlükəsizlik alətidir.</p>
+
+<p>Snort:</p>
+<ul>
+  <li>Trafiki real vaxtda izləyir</li>
+  <li>Müəyyən imzalar əsasında hücumları tanıyır</li>
+  <li>Şübhəli davranışları qeyd edir və bloklaya bilir (IPS rejimində)</li>
+</ul>
+
+<h3 id="suricata-nədir"><span class="me-2">Suricata nədir?</span><a href="#suricata-nədir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p><strong>Suricata</strong> – Snort-a alternativ olan, lakin daha <strong>çox performanslı</strong>, <strong>multi-threaded</strong> və <strong>protokol analizi</strong> dəstəyi ilə tanınan başqa bir açıq mənbə <strong>IDS/IPS</strong> alətidir.</p>
+
+<p>Suricata:</p>
+<ul>
+  <li>Daha geniş protokol dəstəyi (HTTP, TLS, DNS və s.)</li>
+  <li>JSON formatında çıxış (SIEM sistemləri üçün uyğun)</li>
+  <li>Yüksək performans (CPU-nun bütün nüvələrindən istifadə)</li>
+</ul>
+
+<hr />
+
+<h2 id="siem--snortsuricata-real-dünyada-nə-qazandırır"><span class="me-2">SIEM + Snort/Suricata: Real Dünyada Nə Qazandırır?</span><a href="#siem--snortsuricata-real-dünyada-nə-qazandırır" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Bir SIEM sistemi Snort və ya Suricata ilə inteqrasiya olunanda:</p>
+
+<p>✅ <strong>Anomaliyalar daha sürətli aşkarlanır</strong><br />
+✅ <strong>İnsident cavab müddəti azaldılır</strong><br />
+✅ <strong>Komprometə edilmiş sistemlər tez müəyyən edilir</strong><br />
+✅ <strong>Ətraflı və strukturlaşdırılmış loglar ilə daha dəqiq analiz aparılır</strong></p>
+
+<h3 id="məsələn"><span class="me-2">Məsələn:</span><a href="#məsələn" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li>Snort bir port scanning cəhdi aşkar etdikdə, bu məlumatı <strong>SIEM</strong> sisteminə ötürür</li>
+  <li>SIEM bu insidenti <strong>gecikmədən təhlükəsizlik analitiklərinə bildirir</strong></li>
+  <li>Əgər bu aktivlik təkrarlanarsa, avtomatik qaydalarla <strong>firewall</strong> üzərindən IP blok edilə bilər</li>
+</ul>
+
+<hr />
+
+<h2 id="hansı-siem-sistemləri-ilə-işləyə-bilər"><span class="me-2">Hansı SIEM sistemləri ilə işləyə bilər?</span><a href="#hansı-siem-sistemləri-ilə-işləyə-bilər" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Snort və Suricata aşağıdakı məşhur SIEM platformaları ilə inteqrasiya olunur:</p>
+
+<ul>
+  <li><strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong></li>
+  <li><strong>Splunk</strong></li>
+  <li><strong>Wazuh</strong></li>
+  <li><strong>AlienVault OSSIM</strong></li>
+  <li><strong>Graylog</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="2025-də-siem-ə-olan-tələbat-niyə-artır"><span class="me-2">2025-də SIEM-ə olan tələbat niyə artır?</span><a href="#2025-də-siem-ə-olan-tələbat-niyə-artır" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><strong>Hücumların həcmi və mürəkkəbliyi artır</strong></li>
+  <li><strong>Sıfır gün (zero-day) zəifliklər</strong> artıb</li>
+  <li><strong>Hibrit və uzaq iş modelləri</strong> daha çox məlumat axını yaradır</li>
+  <li><strong>Regulyativ tələblər</strong> daha sərtləşib</li>
+</ul>
+
+<hr />
+
+<h2 id="nəticə-kibertəhlükəsizlikdə-siem-i̇ndi-daha-vacibdir"><span class="me-2">Nəticə: Kibertəhlükəsizlikdə SIEM İndi Daha Vacibdir</span><a href="#nəticə-kibertəhlükəsizlikdə-siem-i̇ndi-daha-vacibdir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Əgər təşkilatınız kibertəhlükəsizlik üçün sistemli yanaşma qurmaq istəyirsə, SIEM texnologiyasına investisiya etməklə:</p>
+
+<ul>
+  <li><strong>Riskləri azalda bilərsiniz</strong></li>
+  <li><strong>Zamanında müdaxilə edə bilərsiniz</strong></li>
+  <li><strong>Audit və hesabat proseslərini avtomatlaşdıra bilərsiniz</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="açar-sözlər-seo-üçün"><span class="me-2">Açar Sözlər (SEO üçün)</span><a href="#açar-sözlər-seo-üçün" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p><code class="language-plaintext highlighter-rouge">SIEM nədir</code>, <code class="language-plaintext highlighter-rouge">Snort IDS</code>, <code class="language-plaintext highlighter-rouge">Suricata təhlükəsizlik</code>, <code class="language-plaintext highlighter-rouge">SIEM sistemləri 2025</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik alətləri</code>, <code class="language-plaintext highlighter-rouge">log analiz alətləri</code>, <code class="language-plaintext highlighter-rouge">real-time siem</code>, <code class="language-plaintext highlighter-rouge">suricata vs snort</code>, <code class="language-plaintext highlighter-rouge">elasticsearch siem</code>, <code class="language-plaintext highlighter-rouge">wazuh siem</code></p>
+
+<hr />
+
+<h2 id="-kibertəhlükəsizlik-üzrə-məsləhət-almaq-istəyirsiniz"><span class="me-2">📞 Kibertəhlükəsizlik üzrə məsləhət almaq istəyirsiniz?</span><a href="#-kibertəhlükəsizlik-üzrə-məsləhət-almaq-istəyirsiniz" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>💬 <a href="https://wa.me/994555182523?text=Salam,%20Red%20Team%20və%20Blue%20Team%20haqqında%20məlumat%20almaq%20istəyirəm">WhatsApp üzərindən bizimlə əlaqə saxlayın</a> – sizi maraqlandıran məsələlərə cavab verməyə hazırıq.</p>
+
+<hr />
+
+<p><strong>Müəllif:</strong> Emin Savaylov<br />
+<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html">CyberShieldy.com</a></p>
+
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/kibert%C9%99hl%C3%BCk%C9%99sizlik/">kibertəhlükəsizlik</a>,
+          <a href="/categories/t%C9%99hl%C3%BCk%C9%99sizlik-al%C9%99tl%C9%99ri/">təhlükəsizlik alətləri</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/siem/"
+            class="post-tag no-text-decoration"
+          >SIEM</a>
+        
+          <a
+            href="/tags/snort/"
+            class="post-tag no-text-decoration"
+          >Snort</a>
+        
+          <a
+            href="/tags/suricata/"
+            class="post-tag no-text-decoration"
+          >Suricata</a>
+        
+          <a
+            href="/tags/ids/"
+            class="post-tag no-text-decoration"
+          >IDS</a>
+        
+          <a
+            href="/tags/ips/"
+            class="post-tag no-text-decoration"
+          >IPS</a>
+        
+          <a
+            href="/tags/log-analizi/"
+            class="post-tag no-text-decoration"
+          >log analizi</a>
+        
+          <a
+            href="/tags/siem-n%C9%99dir/"
+            class="post-tag no-text-decoration"
+          >SIEM nədir</a>
+        
+          <a
+            href="/tags/soc/"
+            class="post-tag no-text-decoration"
+          >SOC</a>
+        
+          <a
+            href="/tags/m%C9%99rk%C9%99zl%C9%99%C5%9Fdirilmi%C5%9F-monitorinq/"
+            class="post-tag no-text-decoration"
+          >mərkəzləşdirilmiş monitorinq</a>
+        
+          <a
+            href="/tags/real-time-t%C9%99hlil/"
+            class="post-tag no-text-decoration"
+          >real-time təhlil</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=SIEM%20N%C9%99dir?%20Snort%20v%C9%99%20Suricata%20il%C9%99%20Real%20T%C9%99hl%C3%BCk%C9%99sizlik%20T%C9%99hlili%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Kiber%20T%C9%99hl%C3%BCk%C9%99sizlik%20Bloqu&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsiem-nedir.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=SIEM%20N%C9%99dir?%20Snort%20v%C9%99%20Suricata%20il%C9%99%20Real%20T%C9%99hl%C3%BCk%C9%99sizlik%20T%C9%99hlili%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Kiber%20T%C9%99hl%C3%BCk%C9%99sizlik%20Bloqu&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsiem-nedir.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsiem-nedir.html&text=SIEM%20N%C9%99dir?%20Snort%20v%C9%99%20Suricata%20il%C9%99%20Real%20T%C9%99hl%C3%BCk%C9%99sizlik%20T%C9%99hlili%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Kiber%20T%C9%99hl%C3%BCk%C9%99sizlik%20Bloqu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy Link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
+
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
+
+
+            
+          </main>
+
+          <!-- panel -->
+          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
+            <div class="access">
+              <!-- Get 5 last posted/updated posts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="access-lastmod">
+    <h2 class="panel-heading">Last Updated</h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/red-team-vs-blue-team">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/sosial-m%C3%BCh%C9%99ndislik.html">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/siem-nedir.html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/iki-faktorlu-identifikasiya.html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/red-team-faliyyeti">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</a>
+        </li>
+      
+    </ul>
+  </section>
+  <!-- #access-lastmod -->
+
+
+              <!-- The trending tags list -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+
+
+  <section>
+    <h2 class="panel-heading">Trending Tags</h2>
+    <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/kibert%C9%99hl%C3%BCk%C9%99sizlik/">kibertəhlükəsizlik</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/red-team/">red team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/blue-team/">blue team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/penetration-testing/">penetration testing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/h%C3%BCcum-simulyasiyas%C4%B1/">hücum simulyasiyası</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/ictimai-wi-fi/">ictimai wi-fi</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/phishing/">phishing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sniffing/">sniffing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/soc/">SOC</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sosial-m%C3%BCh%C9%99ndislik/">sosial mühəndislik</a>
+      
+    </div>
+  </section>
+
+
+            </div>
+
+            
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Table of Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
+          </aside>
+        </div>
+
+        <div class="row">
+          <!-- tail -->
+          <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Related Posts</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/kiber-hucumlar/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1757426400"
+  data-df="D MMMM YYYY"
+  
+>
+  09 September 2025
+</time>
+
+              <h4 class="pt-0 my-2">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</h4>
+              <div class="text-muted">
+                <p>2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/red-team-vs-blue-team"
+      class="btn btn-outline-primary"
+      aria-label="Previous"
+    >
+      <p>Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Next">
+      <p>-</p>
+    </div>
+  
+</nav>
+
+            
+
+            <footer>
+  <p>© 2025 Emin Savaylov. Bütün hüquqlar qorunur.</p>
+</footer>
+
+          </div>
+        </div>
+
+        <!-- The Search results -->
+
+<div id="search-result-wrapper" class="d-flex justify-content-center d-none">
+  <div class="col-11 content">
+    <div id="search-hints">
+      <!-- The trending tags list -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+
+
+  <section>
+    <h2 class="panel-heading">Trending Tags</h2>
+    <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/kibert%C9%99hl%C3%BCk%C9%99sizlik/">kibertəhlükəsizlik</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/red-team/">red team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/blue-team/">blue team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/penetration-testing/">penetration testing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/h%C3%BCcum-simulyasiyas%C4%B1/">hücum simulyasiyası</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/ictimai-wi-fi/">ictimai wi-fi</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/phishing/">phishing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sniffing/">sniffing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/soc/">SOC</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sosial-m%C3%BCh%C9%99ndislik/">sosial mühəndislik</a>
+      
+    </div>
+  </section>
+
+
+    </div>
+    <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
+  </div>
+</div>
+
+      </div>
+
+      <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </aside>
+    </div>
+
+    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
+
+    
+      <aside
+  id="notification"
+  class="toast"
+  role="alert"
+  aria-live="assertive"
+  aria-atomic="true"
+  data-bs-animation="true"
+  data-bs-autohide="false"
+>
+  <div class="toast-header">
+    <button
+      type="button"
+      class="btn-close ms-auto"
+      data-bs-dismiss="toast"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="toast-body text-center pt-0">
+    <p class="px-2 mb-3">New content available.</p>
+    <button type="button" class="btn btn-primary" aria-label="Update">
+      Update
+    </button>
+  </div>
+</aside>
+
+    
+
+    <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
+
+    
+
+    <!--
+  Jekyll Simple Search loader
+  See: <https://github.com/christian-fei/Simple-Jekyll-Search>
+-->
+
+
+
+
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/assets/js/data/search.json',
+      searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{content}</p>  </article>',
+      noResultsText: '<p class="mt-5">Oops! No results found.</p>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'categories') {
+          if (value === '') {
+            return `${value}`;
+          } else {
+            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+          }
+        }
+
+        if (prop === 'tags') {
+          if (value === '') {
+            return `${value}`;
+          } else {
+            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+          }
+        }
+      }
+    });
+  });
+</script>
+
+  </body>
+</html>
+

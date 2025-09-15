@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-15T22:18:44+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-15T22:16:16+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-15T22:29:11+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir.html" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir.html"><![CDATA[<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)",
+  "description": "SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-15T10:00:00+04:00",
+  "dateModified": "2025-09-15T10:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/siem-analizi.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html"
+  }
+}
+</script>
+
+<h1 id="siem-nədir-və-necə-i̇şləyir-2025-yenilənmiş">SIEM Nədir və Necə İşləyir? (2025 Yenilənmiş)</h1>
+
+<p>Kibertəhlükəsizlik dünyasında <strong>SIEM</strong> (Security Information and Event Management) sistemləri artıq yalnız böyük şirkətlərin deyil, orta və kiçik bizneslərin də gündəminə gəlib. Bu yazıda <strong>SIEM nədir</strong>, necə işləyir, və <strong>Snort</strong> və <strong>Suricata</strong> kimi populyar açıq mənbə təhlükəsizlik alətləri ilə necə inteqrasiya oluna bilər - geniş şəkildə öyrənəcəyik.</p>
+
+<hr />
+
+<h2 id="siem-nədir">SIEM nədir?</h2>
+
+<p><strong>SIEM</strong> – “Security Information and Event Management” ifadəsinin qısaltmasıdır. Bu texnologiya <strong>log toplama</strong>, <strong>real-time analiz</strong>, <strong>anomalya aşkarlanması</strong>, və <strong>insident cavabı</strong> kimi funksiyaları bir araya gətirir.</p>
+
+<p>SIEM sistemləri, fərqli mənbələrdən (firewall, server, antivirus, IDS/IPS və s.) gələn <strong>log məlumatlarını</strong> toplayaraq, onların üzərində analiz aparır və <strong>təhlükə göstəricilərini</strong> müəyyən edir.</p>
+
+<h3 id="siem-in-əsas-funksiyaları">SIEM-in əsas funksiyaları:</h3>
+<ul>
+  <li><strong>Logların mərkəzləşdirilmiş toplanması</strong></li>
+  <li><strong>Real-time təhlükə aşkarlanması</strong></li>
+  <li><strong>SIEM alqoritmləri ilə anomalya təhlili</strong></li>
+  <li><strong>İnsidentlər üçün avtomatik cavab mexanizmləri</strong></li>
+  <li><strong>Regulyasiya uyğunluğunun təmin olunması</strong> (PCI-DSS, ISO 27001 və s.)</li>
+</ul>
+
+<hr />
+
+<h2 id="snort-və-suricata-ilə-siem-i̇nteqrasiyası">Snort və Suricata ilə SIEM İnteqrasiyası</h2>
+
+<h3 id="snort-nədir">Snort nədir?</h3>
+
+<p><strong>Snort</strong> – açıq mənbəli, real-time <strong>İntrusion Detection System (IDS)</strong> və <strong>İntrusion Prevention System (IPS)</strong> funksiyalarını yerinə yetirən bir təhlükəsizlik alətidir.</p>
+
+<p>Snort:</p>
+<ul>
+  <li>Trafiki real vaxtda izləyir</li>
+  <li>Müəyyən imzalar əsasında hücumları tanıyır</li>
+  <li>Şübhəli davranışları qeyd edir və bloklaya bilir (IPS rejimində)</li>
+</ul>
+
+<h3 id="suricata-nədir">Suricata nədir?</h3>
+
+<p><strong>Suricata</strong> – Snort-a alternativ olan, lakin daha <strong>çox performanslı</strong>, <strong>multi-threaded</strong> və <strong>protokol analizi</strong> dəstəyi ilə tanınan başqa bir açıq mənbə <strong>IDS/IPS</strong> alətidir.</p>
+
+<p>Suricata:</p>
+<ul>
+  <li>Daha geniş protokol dəstəyi (HTTP, TLS, DNS və s.)</li>
+  <li>JSON formatında çıxış (SIEM sistemləri üçün uyğun)</li>
+  <li>Yüksək performans (CPU-nun bütün nüvələrindən istifadə)</li>
+</ul>
+
+<hr />
+
+<h2 id="siem--snortsuricata-real-dünyada-nə-qazandırır">SIEM + Snort/Suricata: Real Dünyada Nə Qazandırır?</h2>
+
+<p>Bir SIEM sistemi Snort və ya Suricata ilə inteqrasiya olunanda:</p>
+
+<p>✅ <strong>Anomaliyalar daha sürətli aşkarlanır</strong><br />
+✅ <strong>İnsident cavab müddəti azaldılır</strong><br />
+✅ <strong>Komprometə edilmiş sistemlər tez müəyyən edilir</strong><br />
+✅ <strong>Ətraflı və strukturlaşdırılmış loglar ilə daha dəqiq analiz aparılır</strong></p>
+
+<h3 id="məsələn">Məsələn:</h3>
+<ul>
+  <li>Snort bir port scanning cəhdi aşkar etdikdə, bu məlumatı <strong>SIEM</strong> sisteminə ötürür</li>
+  <li>SIEM bu insidenti <strong>gecikmədən təhlükəsizlik analitiklərinə bildirir</strong></li>
+  <li>Əgər bu aktivlik təkrarlanarsa, avtomatik qaydalarla <strong>firewall</strong> üzərindən IP blok edilə bilər</li>
+</ul>
+
+<hr />
+
+<h2 id="hansı-siem-sistemləri-ilə-işləyə-bilər">Hansı SIEM sistemləri ilə işləyə bilər?</h2>
+
+<p>Snort və Suricata aşağıdakı məşhur SIEM platformaları ilə inteqrasiya olunur:</p>
+
+<ul>
+  <li><strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong></li>
+  <li><strong>Splunk</strong></li>
+  <li><strong>Wazuh</strong></li>
+  <li><strong>AlienVault OSSIM</strong></li>
+  <li><strong>Graylog</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="2025-də-siem-ə-olan-tələbat-niyə-artır">2025-də SIEM-ə olan tələbat niyə artır?</h2>
+
+<ul>
+  <li><strong>Hücumların həcmi və mürəkkəbliyi artır</strong></li>
+  <li><strong>Sıfır gün (zero-day) zəifliklər</strong> artıb</li>
+  <li><strong>Hibrit və uzaq iş modelləri</strong> daha çox məlumat axını yaradır</li>
+  <li><strong>Regulyativ tələblər</strong> daha sərtləşib</li>
+</ul>
+
+<hr />
+
+<h2 id="nəticə-kibertəhlükəsizlikdə-siem-i̇ndi-daha-vacibdir">Nəticə: Kibertəhlükəsizlikdə SIEM İndi Daha Vacibdir</h2>
+
+<p>Əgər təşkilatınız kibertəhlükəsizlik üçün sistemli yanaşma qurmaq istəyirsə, SIEM texnologiyasına investisiya etməklə:</p>
+
+<ul>
+  <li><strong>Riskləri azalda bilərsiniz</strong></li>
+  <li><strong>Zamanında müdaxilə edə bilərsiniz</strong></li>
+  <li><strong>Audit və hesabat proseslərini avtomatlaşdıra bilərsiniz</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="açar-sözlər-seo-üçün">Açar Sözlər (SEO üçün)</h2>
+
+<p><code class="language-plaintext highlighter-rouge">SIEM nədir</code>, <code class="language-plaintext highlighter-rouge">Snort IDS</code>, <code class="language-plaintext highlighter-rouge">Suricata təhlükəsizlik</code>, <code class="language-plaintext highlighter-rouge">SIEM sistemləri 2025</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik alətləri</code>, <code class="language-plaintext highlighter-rouge">log analiz alətləri</code>, <code class="language-plaintext highlighter-rouge">real-time siem</code>, <code class="language-plaintext highlighter-rouge">suricata vs snort</code>, <code class="language-plaintext highlighter-rouge">elasticsearch siem</code>, <code class="language-plaintext highlighter-rouge">wazuh siem</code></p>
+
+<hr />
+
+<h2 id="-kibertəhlükəsizlik-üzrə-məsləhət-almaq-istəyirsiniz">📞 Kibertəhlükəsizlik üzrə məsləhət almaq istəyirsiniz?</h2>
+
+<p>💬 <a href="https://wa.me/994555182523?text=Salam,%20Red%20Team%20və%20Blue%20Team%20haqqında%20məlumat%20almaq%20istəyirəm">WhatsApp üzərindən bizimlə əlaqə saxlayın</a> – sizi maraqlandıran məsələlərə cavab verməyə hazırıq.</p>
+
+<hr />
+
+<p><strong>Müəllif:</strong> Emin Savaylov<br />
+<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem-analizi.jpg" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem-analizi.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-15T22:18:46+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

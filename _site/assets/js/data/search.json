@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)",
+    "url": "/posts/siem-nedir.html",
+    "categories": "kibertəhlükəsizlik, təhlükəsizlik alətləri",
+    "tags": "SIEM, Snort, Suricata, IDS, IPS, log analizi, SIEM nədir, SOC, mərkəzləşdirilmiş monitorinq, real-time təhlil",
+    "date": "2025-09-15 10:00:00 +0400",
+    "content": "SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah."
+  },
+  
+  {
     "title": "Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər",
     "url": "/posts/red-team-vs-blue-team",
     "categories": "kiber təhlükəsizlik, red team, blue team",
