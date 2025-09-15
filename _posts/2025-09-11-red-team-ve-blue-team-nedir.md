@@ -31,7 +31,7 @@ permalink: /posts/red-team-vs-blue-team
   },
   "datePublished": "2025-09-11T12:00:00+04:00",
   "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/blue-read.webp",
+  "image": "https://cybershieldy.com/assets/images/red2.webp",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://cybershieldy.com/posts/red-team-vs-blue-team"
@@ -41,7 +41,7 @@ permalink: /posts/red-team-vs-blue-team
 
 # 🛡️ Red Team və Blue Team Nədir? Rolları, Fərqləri və Kibertəhlükəsizlikdə Əhəmiyyəti (2025)
 
-![Red Team və Blue Team Fərqləri](https://cybershieldy.com/assets/images/blue-read.webp "Red Team və Blue Team İş Prosesi")
+![Red Team və Blue Team Fərqləri](https://cybershieldy.com/assets/images/red2.webp "Red Team və Blue Team İş Prosesi")
 
 ## 🔴 Red Team nədir? Hücum Komandasının Rolu və Alətləri
 
