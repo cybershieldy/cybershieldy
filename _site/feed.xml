@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-15T22:16:14+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-15T22:13:09+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-15T22:18:44+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-15T22:16:16+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -129,7 +129,7 @@
 
 <ul>
   <li><a href="/posts/phishing-hucumu-nedir.html">Phishing hücumu nədir və necə qorunmalı?</a></li>
-  <li><a href="/posts/ sosial-mühəndislik.html">Sosial mühəndislik nədir və real nümunələr</a></li>
+  <li><a href="/posts/sosial-mühəndislik.html">Sosial mühəndislik nədir və real nümunələr</a></li>
   <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
   <li><a href="/posts/siem-nedir.html">SIEM nədir və necə işləyir?</a></li>
 </ul>
