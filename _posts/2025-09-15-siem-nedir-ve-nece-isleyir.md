@@ -5,7 +5,7 @@ lastmod: 2025-09-15 10:00:00 +0400
 categories: [kibertəhlükəsizlik, təhlükəsizlik alətləri]
 tags: [SIEM, Snort, Suricata, IDS, IPS, log analizi, SIEM nədir, SOC, mərkəzləşdirilmiş monitorinq, real-time təhlil]
 description: "SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah."
-image: /assets/images/siem-analizi.jpg
+image: /assets/images/siem.webp
 canonical: https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html
 permalink: /posts/siem-nedir.html
 ---
