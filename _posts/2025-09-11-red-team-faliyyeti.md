@@ -108,7 +108,7 @@ Kibertəhlükəsizlik sahəsində təlim və Red Team simulyasiyaları üçün b
 
 ## 📸 Şəkil: Red Team İş Prosesi
 
-![Red Team Hücum Simulyasiyası](assets/images/read2.webp "Red Team Hücum Simulyasiyası" alt="Red Team hücum simulyasiyası")
+![Red Team Hücum Simulyasiyası](assets/images/red2.webp "Red Team Hücum Simulyasiyası" alt="Red Team hücum simulyasiyası")
 
 ---
 
