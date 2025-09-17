@@ -1,13 +1,16 @@
+
 ---
-title: "Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları"
+title: "Kibertəhlükəsizlik 2025: Ən Tez-Tez Görülən Hücumlar və Müdafiə Yolları"
 date: 2025-09-09 18:00:00 +0400
 lastmod: 2025-09-09 18:00:00 +0400
 categories: [təhlükəsizlik, kiber təhlükəsizlik, cybersecurity]
 tags: [kibertəhlükəsizlik, cyber security, hacking, phishing, ransomware, malware, wi-fi hücumları, penetration testing, ethical hacking, red team, blue team, ictimai wi-fi, SOC, student guide]
-description: "2025-ci ildə tələbələr və IT mütəxəssisləri üçün kibertəhlükəsizliyin əsas prinsipləri, ən çox yayılmış hücum növləri və effektiv müdafiə yolları. Phishing, ransomware, malware, Wi-Fi hücumları və red/blue team strategiyaları – Emin Savaylov."
+description: "Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları."
 image: /assets/images/934.webp
 canonical: https://cybershieldy.com/posts/kiber-cybersecurity-2025.html
+permalink: /posts/kiber-cybersecurity-2025.html
 ---
+
 
 <!-- Structured data -->
 <script type="application/ld+json">
