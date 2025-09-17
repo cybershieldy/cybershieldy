@@ -122,7 +122,7 @@ Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının təməl 
 
 - [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/sosial-mühəndislik.html)  
 - [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari.html)  
-- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/mitm-hucumu-nedir.html)  
+- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts//şəbəkə-hücumları.html)  
 
 ---
 
