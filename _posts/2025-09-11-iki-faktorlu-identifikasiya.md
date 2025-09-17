@@ -6,9 +6,15 @@ categories: [kiber təhlükəsizlik, autentifikasiya]
 tags: [iki faktorlu identifikasiya, 2FA, giriş təhlükəsizliyi, kibertəhlükəsizlik, sms doğrulama, autentifikasiya metodları, hesab qorunması, cybersecurity 2025]
 description: "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda."
 image: /assets/images/12.webp
-canonical: https://sizin-saytiniz.az/posts/iki-faktorlu-identifikasiya.html
+canonical: https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html
 permalink: /posts/iki-faktorlu-identifikasiya.html
 ---
+
+> **🔎 SERP Preview (Google axtarış nəticəsində necə görünür):**  
+> **İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım**  
+> https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html  
+> İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
