@@ -112,7 +112,10 @@ Wi-Fi trafikinə edilən hücumlar — xüsusilə **Deauth**, **Packet Sniffing*
 
 ---
 
-> Əlaqə və təlim üçün: [cyberdersler@gmail.com](mailto:cyberdersler@gmail.com)
+
+## 📞 Əlaqə və Təlim
+
+📲 [WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — Kibertəhlükəsizlik təlimləri və praktik dəstək.
 
 ---
 
