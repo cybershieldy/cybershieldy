@@ -5,7 +5,7 @@ lastmod: 2025-09-09 12:00:00 +0400
 categories: [təhlükəsizlik, sosial mühəndislik]
 tags: [phishing, sosial mühəndislik, email hücumu, kibertəhlükəsizlik, red team, blue team, istifadəçi maarifləndirilməsi]
 description: "Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə."
-image: /assets/images/1.jpg
+image: /assets/images/sos2.webp
 canonical: https://cybershieldy.com/posts/phishing-hucumu-nedir.html
 permalink: /posts/sosial-mühəndislik.html
 ---
@@ -20,7 +20,7 @@ permalink: /posts/sosial-mühəndislik.html
   "publisher": { "@type": "Organization", "name": "CyberShieldy", "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }},
   "datePublished": "2025-09-02T10:00:00+04:00",
   "dateModified": "2025-09-09T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/1.jpg",
+  "image": "https://cybershieldy.com/assets/images/1.webp",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir.html" }
 }
 </script>
@@ -49,7 +49,7 @@ E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli l
 | **Saxta PayPal E-mail** | İstifadəçi hesabının təhlükədə olduğu göstərilir və link vasitəsilə məlumatları ələ keçirilir | **Subject:** “Hesabınız təhlükədədir — dərhal daxil olun!”<br>**Göndərən:** support@paypal-secure.com<br>Link: click-here.com |
 | **Saxta Bank E-mail** | Bankın təhlükəsizlik sistemindən gəldiyi iddia olunur | Linkə klik edən istifadəçi saxta bank səhifəsinə yönləndirilir |
 
-![Saxta PayPal e-mail phishing nümunəsi](/assets/images/3.png "Phishing e-mail nümunəsi")
+![Saxta PayPal e-mail phishing nümunəsi](/assets/images/sos1.webp "Phishing e-mail nümunəsi")
 
 
 
@@ -90,10 +90,9 @@ Phishing — sadə görünən, amma təsiri böyük olan hücum formasıdır. Ha
 **Məsləhət:** Müntəzəm təlimlər keçin, şübhəli e-maillərə qarşı ayıq olun və təhlükəsizlik alətlərinizi daim yeniləyin.
 
 ---
+## 📞 Əlaqə və Təlim
 
-## 📬 Əlaqə
-
-[Əlaqə üçün e-mail](mailto:cyberdersler@gmail.com)
+📲 [WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — Kibertəhlükəsizlik təlimləri və praktik dəstək.
 
 ---
 
