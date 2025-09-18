@@ -91,9 +91,9 @@ Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/evi
 | Hücum tipi                  | Təsviri                                                               |
 |-----------------------------|----------------------------------------------------------------------|
 | **Evil Twin**               | Saxta access point yaradılır, istifadəçilər aldanır.                 |
-| **Deauthentication Attack** | İstifadəçilər real AP-dən qoparılır və hücumçunun AP-sinə yönləndirilir. Daha çox öyrən: [Deauth Attack](https://cybershieldy.com/ /posts/wifi-trafik-hucumlari.html) |
+| **Deauthentication Attack** | İstifadəçilər real AP-dən qoparılır və hücumçunun AP-sinə yönləndirilir. Daha çox öyrən: [Deauth Attack](https://cybershieldy.com/posts/wifi-trafik-hucumlari.html) |
 | **Packet Sniffing**         | Şəbəkə trafiki dinlənir və analiz olunur. Əlavə məlumat: [Sniffing nədir?](https://cybershieldy.com/posts/wifi-trafik-hucumlari.html) |
-| **KRACK Attack**            | WPA2 zəifliyi istismar olunur, şifrələnmiş trafik ifşa edilir. Ətraflı: [KRACK hücumu](https://cybershieldy.com/ /posts/wifi-trafik-hucumlari.html) |
+| **KRACK Attack**            | WPA2 zəifliyi istismar olunur, şifrələnmiş trafik ifşa edilir. Ətraflı: [KRACK hücumu](https://cybershieldy.com/posts/wifi-trafik-hucumlari.html) |
 | **Man-in-the-Middle (MitM)**| İstifadəçi ilə server arasında məlumatlar dəyişdirilir və oğurlanır. |
 | **Wi-Fi Phishing**          | Saxta şəbəkə ilə istifadəçi məlumatları fırıldaqla ələ keçirilir.     |
 
