@@ -14,7 +14,7 @@ permalink: /posts/wifi-hucumlari.html
 
 > **Son yenilənmə:** 9 Sentyabr 2025
 
-Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək **[şəbəkə hücumları](https://cybershieldy.com/sebek-tehlukesizliyi)** barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.
+Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək **[şəbəkə hücumları](https://cybershieldy.com/posts/şəbəkə-hücumları.html)** barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.
 
 ---
 
