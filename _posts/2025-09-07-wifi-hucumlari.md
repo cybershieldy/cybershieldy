@@ -6,7 +6,7 @@ categories: [təhlükəsizlik, şəbəkə hücumları]
 tags: [wifi hücumları, evil twin, deauth attack, sniffing, krack, şəbəkə təhlükəsizliyi, red team, blue team]
 description: "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar, təhlükələr və ən effektiv müdafiə yolları – 2025-ci ilin yenilənmiş versiyası."
 image: /assets/images/wfi2.webp
-canonical: https://sizin-saytiniz.az/wifi-hucumlari-taktikalar-mudafie-2025
+canonical: https://cybershieldy.com/wifi-hucumlari-taktikalar-mudafie-2025
 permalink: /posts/wifi-hucumlari.html
 ---
 
@@ -14,7 +14,7 @@ permalink: /posts/wifi-hucumlari.html
 
 > **Son yenilənmə:** 9 Sentyabr 2025
 
-Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək **[şəbəkə hücumları](https://sizin-saytiniz.az/sebek-tehlukesizliyi)** barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.
+Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək **[şəbəkə hücumları](https://cybershieldy.com/sebek-tehlukesizliyi)** barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.
 
 ---
 
@@ -82,7 +82,7 @@ Bir kafedə aşağıdakı ssenari baş verir:
 
 Bu metodla **istifadəçinin daxil olduğu saytlar**, **şifrə cəhdləri** və **cookie məlumatları** toplanır.
 
-Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://sizin-saytiniz.az/evil-twin-hucumu)
+Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/evil-twin-hucumu)
 
 ---
 
@@ -105,11 +105,11 @@ Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://sizin-saytiniz.az/ev
 
 Aşağıdakı tədbirlər ən effektiv müdafiə üsullarıdır:
 
-✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə [VPN](https://sizin-saytiniz.az/vpn-nedir) istifadə edin.  
+✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə [VPN](https://cybershieldy.com/vpn-nedir) istifadə edin.  
 ✅ **VPN istifadəsi** – Bütün trafikinizi güclü şifrələmə ilə qoruyur.  
 ✅ **HTTPS protokoluna diqqət edin** – Giriş etdiyiniz saytların SSL sertifikatı olmalıdır.  
 ✅ **Wi-Fi deaktiv edin** – İstifadə etmədiyiniz zaman cihazınızın Wi-Fi-ni bağlayın.  
-✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – [Firmware yeniləmələri](https://sizin-saytiniz.az/firmware-yenileme) vacibdir.  
+✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – [Firmware yeniləmələri](https://cybershieldy.com/firmware-yenileme) vacibdir.  
 ✅ **Rogue AP Detection alətləri quraşdırın** – Şəbəkənizdə saxta AP-ləri aşkarlayın.  
 ✅ **Təhlükəsizlik təlimlərinə qatılın** – Özünüzü və komandamızı yeniliklərdən xəbərdar edin.
 
@@ -123,7 +123,7 @@ Red Team simulyasiyalarında Wi-Fi hücumları real ssenarilərdə test edilir:
 
 Bu sınaqlar təşkilatların zəif nöqtələrini aşkarlamağa və təhlükəsizlik tədbirlərini gücləndirməyə imkan verir.
 
-Ətraflı oxu: [Red Team fəaliyyətləri](https://sizin-saytiniz.az/red-team-nedir)
+Ətraflı oxu: [Red Team fəaliyyətləri](https://cybershieldy.com/red-team-nedir)
 
 ---
 
@@ -136,7 +136,7 @@ Blue Team bu hücumlara qarşı aktiv müdafiə sistemləri qurur:
 - Təhlükəsizlik təlimləri keçirilir  
 - AP-lər aktiv olaraq izlənir (Rogue AP Detection)  
 
-Əlavə məlumat: [Blue Team rolu](https://sizin-saytiniz.az/blue-team-nedir)
+Əlavə məlumat: [Blue Team rolu](https://cybershieldy.com/blue-team-nedir)
 
 ---
 

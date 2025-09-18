@@ -1,6 +1,24 @@
 [
   
   {
+    "title": "Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)",
+    "url": "/posts/wifi-trafik-hucumlari.html",
+    "categories": "wifi hücumları, şəbəkə təhlükəsizliyi",
+    "tags": "deauth attack, sniffing, krack, wifi zəifliyi, wpa2, packet capture, red team, wifi trafik hücumları",
+    "date": "2025-09-18 12:00:00 +0400",
+    "content": "Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi."
+  },
+  
+  {
+    "title": "Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)",
+    "url": "/posts/evil-twin-hucumlari.html",
+    "categories": "şəbəkə təhlükəsizliyi, wifi hücumları",
+    "tags": "evil twin, wifi hücumları, fake access point, sniffing, phishing, red team, kibertəhlükəsizlik",
+    "date": "2025-09-18 09:00:00 +0400",
+    "content": "Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin."
+  },
+  
+  {
     "title": "SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)",
     "url": "/posts/siem-nedir.html",
     "categories": "kibertəhlükəsizlik, təhlükəsizlik alətləri",

@@ -1,4 +1,300 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-18T13:36:06+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir.html" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T23:16:57+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir.html"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-18T13:57:29+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Kiber Təhlükəsizlik Bloqu</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle><entry><title type="html">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</title><link href="https://cybershieldy.com/posts/wifi-trafik-hucumlari.html" rel="alternate" type="text/html" title="Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)" /><published>2025-09-18T12:00:00+04:00</published><updated>2025-09-18T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/wifi-trafik-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-trafik-hucumlari.html"><![CDATA[<h1 id="wi-fi-trafik-hücumları-deauth-sniffing-və-krack-taktikası-ilə-geniş-hücum-ssenarisi-2025">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</h1>
+
+<blockquote>
+  <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
+<strong>Yazı tipi:</strong> Təhlükəsizlik Hücum Ssenarisi və Texniki Təhlil</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-vizual-görüntü">📷 Vizual Görüntü</h2>
+
+<p><img src="/assets/images/wifi-traffic-attacks.webp" alt="Wi-Fi Trafik Hücumları - Deauth, Sniffing, KRACK" title="Wi-Fi Trafik Hücumları – Deauth, Packet Sniffing və KRACK birləşmiş hücumu" /></p>
+
+<hr />
+
+<h2 id="-hücumun-strukturu-üçtərəfli-taktika">🧠 Hücumun Strukturu: Üçtərəfli Taktika</h2>
+
+<p>Bu hücum modeli <strong>bir neçə mərhələdən</strong> ibarətdir və çox zaman <strong>Red Team simulyasiyalarında</strong> tətbiq olunur. Aşağıda bu hücumların birləşmiş şəkildə necə istifadə olunduğunu izah edirik.</p>
+
+<hr />
+
+<h3 id="1️⃣-deauthentication-attack--qurbanı-şəbəkədən-qoparma">1️⃣ <strong>Deauthentication Attack – Qurbanı şəbəkədən qoparma</strong></h3>
+
+<ul>
+  <li>Bu mərhələdə hücumçu <code class="language-plaintext highlighter-rouge">aireplay-ng</code>, <code class="language-plaintext highlighter-rouge">wifite</code>, və ya <code class="language-plaintext highlighter-rouge">mdk4</code> kimi alətlərdən istifadə edərək qurban cihazı mövcud Wi-Fi şəbəkəsindən qoparır.</li>
+  <li>Bu, IEEE 802.11 standartında zəiflikdən istifadə edərək həyata keçirilir.</li>
+</ul>
+
+<p>📌 <strong>Məqsəd:</strong> Qurbanın yenidən qoşulması zamanı <code class="language-plaintext highlighter-rouge">4-way handshake</code>-in tutulması.</p>
+
+<hr />
+
+<h3 id="2️⃣-packet-sniffing--trafikin-dinlənməsi-və-ələ-keçirilməsi">2️⃣ <strong>Packet Sniffing – Trafikin dinlənməsi və ələ keçirilməsi</strong></h3>
+
+<ul>
+  <li>Hücumçu qurban cihazı öz yaratdığı saxta AP-yə yönləndirir.</li>
+  <li>Burada <code class="language-plaintext highlighter-rouge">Wireshark</code>, <code class="language-plaintext highlighter-rouge">tcpdump</code>, və ya <code class="language-plaintext highlighter-rouge">airodump-ng</code> istifadə olunur.</li>
+  <li>Trafik analiz edilir: HTTP sorğuları, DNS sorğuları, şifrlənməmiş girişlər və hətta session cookie-lər ələ keçirilə bilər.</li>
+</ul>
+
+<p>📌 <strong>Ən təhlükəli hal:</strong> HTTPS istifadə olunmayan giriş formaları.</p>
+
+<hr />
+
+<h3 id="3️⃣-krack-attack--wpa2-protokol-zəifliyindən-istismar">3️⃣ <strong>KRACK Attack – WPA2 protokol zəifliyindən istismar</strong></h3>
+
+<ul>
+  <li><strong>KRACK (Key Reinstallation Attack)</strong> WPA2-PSK protokolunun <code class="language-plaintext highlighter-rouge">4-way handshake</code> mərhələsində kriptoqrafik açarın təkrar istifadəsinə əsaslanır.</li>
+  <li>Hücumçu, <code class="language-plaintext highlighter-rouge">reinstallation</code> mesajını təkrar göndərərək <strong>trafikin deşifrə edilməsinə</strong> nail olur.</li>
+</ul>
+
+<p>📌 <strong>Əlavə risk:</strong> Şəbəkə trafiki şifrələnmiş olsa da, <strong>KRACK</strong> ilə bu məlumatlar oxunaqlı hala gətirilə bilər.</p>
+
+<hr />
+
+<h2 id="-real-dünya-hücum-ssenarisi">🎯 Real Dünya Hücum Ssenarisi</h2>
+
+<h3 id="-ssenari">🔍 Ssenari:</h3>
+
+<blockquote>
+  <p>Təşkilatın əməkdaşı <code class="language-plaintext highlighter-rouge">Office_FreeWiFi</code> adlı şəbəkəyə qoşulub. Hücumçu bu şəbəkənin eynisini yaradaraq cihazı deauth hücumu ilə real AP-dən qoparır. Yenidən qoşulma zamanı həm <code class="language-plaintext highlighter-rouge">handshake</code> məlumatı toplanır, həm də istifadəçi trafiki sniff edilir. Əgər WPA2 istifadə olunursa, KRACK hücumu ilə şifrələnmiş paketlər deşifrə edilir.</p>
+</blockquote>
+
+<p><strong>Nəticə:</strong></p>
+<ul>
+  <li>İstifadəçinin daxil olduğu saytlarda şifrə və sessiya məlumatları ələ keçirilir.</li>
+  <li>Şəbəkəyə digər cihazların da aktivliyi izlənilir.</li>
+  <li>Şirkət məlumatları risk altına düşür.</li>
+</ul>
+
+<hr />
+
+<h2 id="️-müdafiə-yolları-2025-standartlarına-uyğun">🛡️ Müdafiə Yolları (2025 Standartlarına Uyğun)</h2>
+
+<p>✅ <strong>WPA3 dəstəyi olan cihazlardan istifadə edin</strong><br />
+✅ <strong>Firmware və şəbəkə avadanlığı müntəzəm yeniləyin</strong><br />
+✅ <strong>VPN tətbiqi ilə şəbəkə trafikinizi şifrələyin</strong><br />
+✅ <strong>HTTPS Everywhere və DNS over HTTPS istifadə edin</strong><br />
+✅ <strong>Wi-Fi monitorinq sistemləri qurun (Rogue AP Detection, IDS)</strong><br />
+✅ <strong>Cihazınızın Wi-Fi-ni istifadə etmədiyiniz zaman deaktiv edin</strong><br />
+✅ <strong>Red Team simulyasiyaları ilə şəbəkə zəifliklərini yoxlayın</strong></p>
+
+<hr />
+
+<h2 id="-red-team-tətbiqi">👨‍💻 Red Team Tətbiqi</h2>
+
+<p>Red Team ssenarilərində bu hücum taktikaları belə birləşdirilir:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Deauth + Evil Twin + Sniffing + KRACK</code></li>
+  <li>VPN istifadə etməyən qurumlarda məlumat sızması 90%-dən çox ehtimalla mümkündür</li>
+  <li>Test nəticələri rəhbərliyə təqdim edilir və Blue Team tədbirləri planlaşdırılır</li>
+</ul>
+
+<hr />
+
+<h2 id="-blue-team-müdafiəsi">🔵 Blue Team Müdafiəsi</h2>
+
+<p>Blue Team bu hücumlara qarşı aşağıdakı tədbirləri görür:</p>
+
+<ul>
+  <li><strong>WPA2-dən WPA3-ə keçid proqramı</strong></li>
+  <li><strong>Sniffing hücumlarına qarşı firewall və IDS-lər</strong></li>
+  <li><strong>Şirkət daxilində Wi-Fi şifrə siyasətinin dəyişməsi</strong></li>
+  <li><strong>Əməkdaşların maarifləndirilməsi və risk testləri</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-nəticə">📌 Nəticə</h2>
+
+<p>Wi-Fi trafikinə edilən hücumlar — xüsusilə <strong>Deauth</strong>, <strong>Packet Sniffing</strong> və <strong>KRACK</strong> — həm texniki, həm də praktiki baxımdan ciddi təhlükə yaradır. Bu hücumlar bir-biri ilə <strong>kombinə olunduqda</strong>, nəticələr daha dağıdıcı olur.</p>
+
+<p>📢 <strong>Tövsiyə:</strong><br />
+Əgər Wi-Fi şəbəkələrindən istifadə edirsinizsə, yalnız parol ilə deyil, <strong>protokol səviyyəsində təhlükəsizliklə</strong> özünüzü və təşkilatınızı qoruyun.</p>
+
+<hr />
+
+<blockquote>
+  <p>Əlaqə və təlim üçün: <a href="mailto:cyberdersler@gmail.com">cyberdersler@gmail.com</a></p>
+</blockquote>
+
+<hr />
+
+<!-- Strukturlaşdırılmış məlumat (JSON-LD) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)",
+  "description": "Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.",
+  "image": "https://cybershieldy.com/assets/images/wifi-traffic-attacks.webp",
+  "author": {
+    "@type": "Person",
+    "name": "CyberShieldy"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-18T12:00:00+04:00",
+  "dateModified": "2025-09-18T12:00:00+04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/wifi-trafik-hucumlari-2025"
+  }
+}
+</script>]]></content><author><name></name></author><category term="wifi hücumları" /><category term="şəbəkə təhlükəsizliyi" /><category term="deauth attack" /><category term="sniffing" /><category term="krack" /><category term="wifi zəifliyi" /><category term="wpa2" /><category term="packet capture" /><category term="red team" /><category term="wifi trafik hücumları" /><summary type="html"><![CDATA[Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/wifi-traffic-attacks.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/wifi-traffic-attacks.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</title><link href="https://cybershieldy.com/posts/evil-twin-hucumlari.html" rel="alternate" type="text/html" title="Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)" /><published>2025-09-18T09:00:00+04:00</published><updated>2025-09-18T09:00:00+04:00</updated><id>https://cybershieldy.com/posts/evil-twin-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/evil-twin-hucumlari.html"><![CDATA[<h1 id="evil-twin-hücumları-nədir-real-ssenari-fəaliyyət-prinsipi-və-qorunma-yolları-2025-bələdçisi">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</h1>
+
+<blockquote>
+  <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
+<strong>Yazı Tipi:</strong> Texniki Təhlükəsizlik Bələdçisi</p>
+</blockquote>
+
+<p><strong>Evil Twin hücumu</strong>, Wi-Fi şəbəkələri üzərindən istifadəçilərin aldanaraq saxta (fake) bir Access Point-ə (AP) qoşulması və məlumatlarının oğurlanması ilə nəticələnən ciddi bir <strong>kibertəhlükəsizlik hücumudur</strong>.</p>
+
+<hr />
+
+<h2 id="-hücumun-vizual-görünüşü">📸 Hücumun Vizual Görünüşü</h2>
+
+<p><img src="/assets/images/evil-twin.webp" alt="Evil Twin Hücumu nümunəsi" title="Evil Twin Hücumu — Fake Access Point ilə real Wi-Fi təqlidi" /></p>
+
+<hr />
+
+<h2 id="-hücum-necə-işləyir">🧠 Hücum necə işləyir?</h2>
+
+<p><strong>Evil Twin hücumu</strong> adətən belə bir ssenari ilə baş verir:</p>
+
+<ol>
+  <li>Hücumçu, istifadəçinin qoşulmaq istədiyi ictimai Wi-Fi şəbəkəsinin eynisini yaradır. (məsələn, <code class="language-plaintext highlighter-rouge">FreeCoffee_WiFi</code>)</li>
+  <li>Saxta access point real AP-nin adı, SSID-si və MAC ünvanı ilə eyni görünür.</li>
+  <li>İstifadəçi fərqində olmadan saxta AP-yə qoşulur.</li>
+  <li>Hücumçu MITM (Man-in-the-Middle) mövqeyində yerləşərək:
+    <ul>
+      <li>Trafiki dinləyir (sniffing)</li>
+      <li>HTTPS olmayan saytlarda şifrələri toplayır</li>
+      <li>Session cookie-ləri ələ keçirir</li>
+      <li>Phishing səhifələrlə istifadəçini aldatmağa çalışır</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-real-dünya-ssenarisi">🎯 Real Dünya Ssenarisi</h2>
+
+<p><strong>Ssenari:</strong> Bir iş mərkəzində <code class="language-plaintext highlighter-rouge">Guest_WiFi_Open</code> adlı pulsuz Wi-Fi şəbəkəsi mövcuddur. Hücumçu eyni adı və siqnal gücünü istifadə edərək bir access point yaradır. Onlar DNS spoofing vasitəsilə qurbanın <code class="language-plaintext highlighter-rouge">facebook.com</code> sorğusunu öz phishing səhifəsinə yönləndirir.</p>
+
+<blockquote>
+  <p>Nəticə: Qurban istifadəçi hesabı və şifrə məlumatını fırıldaqçı səhifəyə daxil edir.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="️-evil-twin-hücumundan-necə-qorunmalı">🛡️ Evil Twin hücumundan necə qorunmalı?</h2>
+
+<p>2025-ci ildə hücumlar daha da ağıllılaşıb. Müdafiə isə aşağıdakı prinsiplərlə gücləndirilə bilər:</p>
+
+<p>✅ <strong>VPN istifadə edin</strong> — Trafikinizi şifrələyin və MITM riskini azaldın.<br />
+✅ <strong>Public Wi-Fi şəbəkələrindən uzaq durun</strong> — Mümkünsə öz mobil internetinizi istifadə edin.<br />
+✅ <strong>HTTPS istifadə edən saytları ziyarət edin</strong> — <code class="language-plaintext highlighter-rouge">https://</code> protokolu olan saytlar MITM qarşısında daha dayanıqlıdır.<br />
+✅ <strong>Cihazınızın avtomatik Wi-Fi qoşulma funksiyasını deaktiv edin</strong><br />
+✅ <strong>Rogue AP Detector alətlərindən istifadə edin</strong><br />
+✅ <strong>Firewall və Wi-Fi IDS sistemləri qurun</strong></p>
+
+<hr />
+
+<h2 id="-red-team-baxışı">👨‍💻 Red Team baxışı</h2>
+
+<p>Red Team simulyasiyalarında Evil Twin hücumu geniş yayılıb. Aşağıdakı hallarda istifadə olunur:</p>
+
+<ul>
+  <li>Phishing kampaniyaları ilə birlikdə</li>
+  <li>DNS spoofing testləri üçün</li>
+  <li>Əməkdaşların kibertəhlükəsizliyə yanaşmasını ölçmək üçün</li>
+</ul>
+
+<blockquote>
+  <p>“Simulyasiya zamanı 28 işçi saxta Wi-Fi şəbəkəsinə qoşuldu və 14 nəfər giriş məlumatlarını phishing səhifəsinə daxil etdi.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-blue-team-müdafiəsi">🔐 Blue Team müdafiəsi</h2>
+
+<p>Blue Team bu cür hücumlara qarşı aşağıdakı addımları atır:</p>
+
+<ul>
+  <li>Wi-Fi trafikini real-time monitorinq edir</li>
+  <li>DNS və DHCP trafikini yoxlayır</li>
+  <li>Rogue Access Point aşkarlayan sistemlər qurur</li>
+  <li>Şirkət daxili Wi-Fi təhlükəsizlik təlimləri keçirir</li>
+</ul>
+
+<hr />
+
+<h2 id="-hücum-texnologiyalarının-yenilənməsi">🔄 Hücum Texnologiyalarının Yenilənməsi</h2>
+
+<p>Evil Twin hücum texnikaları artıq daha <strong>avtomatlaşdırılmış və görünməz</strong> hala gəlib:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Wifiphisher</code>, <code class="language-plaintext highlighter-rouge">Fluxion</code> kimi açıq mənbə alətlərlə hücumlar 5 dəqiqədən az vaxtda hazırlanır</li>
+  <li><strong>Deauth + Evil Twin</strong> kombinasiya hücumları geniş yayılıb</li>
+  <li>QR kod vasitəsilə istifadəçini yönləndirmə (phishing) üsulları istifadə olunur</li>
+</ul>
+
+<hr />
+
+<h2 id="-nəticə">📌 Nəticə</h2>
+
+<p><strong>Evil Twin hücumları</strong>, səssiz və təhlükəli olması ilə seçilir. Əgər ictimai Wi-Fi istifadə edirsinizsə, bu hücumun potensial hədəfinə çevrilirsiniz.</p>
+
+<p><strong>Tövsiyə:</strong><br />
+Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutun. Müasir şəbəkə hücumlarına qarşı müdafiə yalnız texnologiya ilə deyil, həm də biliklə mümkündür.</p>
+
+<hr />
+
+<blockquote>
+  <p>Əlaqə və təlim üçün: <a href="mailto:cyberdersler@gmail.com">cyberdersler@gmail.com</a></p>
+</blockquote>
+
+<hr />
+
+<!-- Strukturlaşdırılmış məlumat (JSON-LD) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)",
+  "description": "Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.",
+  "image": "https://cybershieldy.com/assets/images/evil-twin.webp",
+  "author": {
+    "@type": "Person",
+    "name": "CyberShieldy"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-18T09:00:00+04:00",
+  "dateModified": "2025-09-18T09:00:00+04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/evil-twin-hucumlari-2025"
+  }
+}
+</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="wifi hücumları" /><category term="evil twin" /><category term="wifi hücumları" /><category term="fake access point" /><category term="sniffing" /><category term="phishing" /><category term="red team" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/evil-twin.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/evil-twin.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir.html" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T23:16:57+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir.html"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -714,13 +1010,13 @@ https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html<br />
 
 <h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
 
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/934.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/934.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari.html" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-11T17:53:05+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari.html"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/934.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/934.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari.html" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-18T13:36:10+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari.html"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
 
 <blockquote>
   <p><strong>Son yenilənmə:</strong> 9 Sentyabr 2025</p>
 </blockquote>
 
-<p>Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək <strong><a href="https://sizin-saytiniz.az/sebek-tehlukesizliyi">şəbəkə hücumları</a></strong> barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.</p>
+<p>Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək <strong><a href="https://cybershieldy.com/sebek-tehlukesizliyi">şəbəkə hücumları</a></strong> barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.</p>
 
 <hr />
 
@@ -790,7 +1086,7 @@ typeMessage(messages[idx]);
 
 <p>Bu metodla <strong>istifadəçinin daxil olduğu saytlar</strong>, <strong>şifrə cəhdləri</strong> və <strong>cookie məlumatları</strong> toplanır.</p>
 
-<p>Daha ətraflı oxu: <a href="https://sizin-saytiniz.az/evil-twin-hucumu">Evil Twin hücumları nədir?</a></p>
+<p>Daha ətraflı oxu: <a href="https://cybershieldy.com/evil-twin-hucumu">Evil Twin hücumları nədir?</a></p>
 
 <hr />
 
@@ -839,11 +1135,11 @@ typeMessage(messages[idx]);
 
 <p>Aşağıdakı tədbirlər ən effektiv müdafiə üsullarıdır:</p>
 
-<p>✅ <strong>Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin</strong> – Mümkünsə <a href="https://sizin-saytiniz.az/vpn-nedir">VPN</a> istifadə edin.<br />
+<p>✅ <strong>Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin</strong> – Mümkünsə <a href="https://cybershieldy.com/vpn-nedir">VPN</a> istifadə edin.<br />
 ✅ <strong>VPN istifadəsi</strong> – Bütün trafikinizi güclü şifrələmə ilə qoruyur.<br />
 ✅ <strong>HTTPS protokoluna diqqət edin</strong> – Giriş etdiyiniz saytların SSL sertifikatı olmalıdır.<br />
 ✅ <strong>Wi-Fi deaktiv edin</strong> – İstifadə etmədiyiniz zaman cihazınızın Wi-Fi-ni bağlayın.<br />
-✅ <strong>Ən son təhlükəsizlik yeniləmələrini tətbiq edin</strong> – <a href="https://sizin-saytiniz.az/firmware-yenileme">Firmware yeniləmələri</a> vacibdir.<br />
+✅ <strong>Ən son təhlükəsizlik yeniləmələrini tətbiq edin</strong> – <a href="https://cybershieldy.com/firmware-yenileme">Firmware yeniləmələri</a> vacibdir.<br />
 ✅ <strong>Rogue AP Detection alətləri quraşdırın</strong> – Şəbəkənizdə saxta AP-ləri aşkarlayın.<br />
 ✅ <strong>Təhlükəsizlik təlimlərinə qatılın</strong> – Özünüzü və komandamızı yeniliklərdən xəbərdar edin.</p>
 
@@ -859,7 +1155,7 @@ typeMessage(messages[idx]);
 
 <p>Bu sınaqlar təşkilatların zəif nöqtələrini aşkarlamağa və təhlükəsizlik tədbirlərini gücləndirməyə imkan verir.</p>
 
-<p>Ətraflı oxu: <a href="https://sizin-saytiniz.az/red-team-nedir">Red Team fəaliyyətləri</a></p>
+<p>Ətraflı oxu: <a href="https://cybershieldy.com/red-team-nedir">Red Team fəaliyyətləri</a></p>
 
 <hr />
 
@@ -874,7 +1170,7 @@ typeMessage(messages[idx]);
   <li>AP-lər aktiv olaraq izlənir (Rogue AP Detection)</li>
 </ul>
 
-<p>Əlavə məlumat: <a href="https://sizin-saytiniz.az/blue-team-nedir">Blue Team rolu</a></p>
+<p>Əlavə məlumat: <a href="https://cybershieldy.com/blue-team-nedir">Blue Team rolu</a></p>
 
 <hr />
 
