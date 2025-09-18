@@ -123,7 +123,7 @@ Red Team simulyasiyalarında Wi-Fi hücumları real ssenarilərdə test edilir:
 
 Bu sınaqlar təşkilatların zəif nöqtələrini aşkarlamağa və təhlükəsizlik tədbirlərini gücləndirməyə imkan verir.
 
-Ətraflı oxu: [Red Team fəaliyyətləri](https://cybershieldy.com/red-team-nedir)
+Ətraflı oxu: [Red Team fəaliyyətləri](https://cybershieldy.com/posts/red-team-faliyyeti)
 
 ---
 
@@ -136,7 +136,7 @@ Blue Team bu hücumlara qarşı aktiv müdafiə sistemləri qurur:
 - Təhlükəsizlik təlimləri keçirilir  
 - AP-lər aktiv olaraq izlənir (Rogue AP Detection)  
 
-Əlavə məlumat: [Blue Team rolu](https://cybershieldy.com/blue-team-nedir)
+Əlavə məlumat: [Blue Team rolu](https://cybershieldy.com/posts/red-team-vs-blue-team)
 
 ---
 
