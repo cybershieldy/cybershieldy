@@ -105,11 +105,11 @@ Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/pos
 
 Aşağıdakı tədbirlər ən effektiv müdafiə üsullarıdır:
 
-✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə [VPN](https://cybershieldy.com/vpn-nedir) istifadə edin.  
+✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə [VPN](https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik.html) istifadə edin.  
 ✅ **VPN istifadəsi** – Bütün trafikinizi güclü şifrələmə ilə qoruyur.  
 ✅ **HTTPS protokoluna diqqət edin** – Giriş etdiyiniz saytların SSL sertifikatı olmalıdır.  
 ✅ **Wi-Fi deaktiv edin** – İstifadə etmədiyiniz zaman cihazınızın Wi-Fi-ni bağlayın.  
-✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – [Firmware yeniləmələri](https://cybershieldy.com/firmware-yenileme) vacibdir.  
+✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – [Firmware yeniləmələri](https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik.html) vacibdir.  
 ✅ **Rogue AP Detection alətləri quraşdırın** – Şəbəkənizdə saxta AP-ləri aşkarlayın.  
 ✅ **Təhlükəsizlik təlimlərinə qatılın** – Özünüzü və komandamızı yeniliklərdən xəbərdar edin.
 
