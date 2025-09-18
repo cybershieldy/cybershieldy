@@ -45,7 +45,7 @@ VPN internet bağlantınızı **şifrələyir** və məlumatlarınızı **təhl�
 - **Təhlükəli şəbəkələrdə təhlükəsizlik artır** – Public Wi-Fi istifadə zamanı risk azalır.  
 - **Geo-bloklamalardan yan keçə bilərsiniz** – Xüsusilə beynəlxalq təşkilatlar üçün faydalıdır.
 
-📎 Daha ətraflı: [VPN nədir və necə işləyir?](https://cybershieldy.com/vpn-nedir)
+
 
 ---
 
@@ -66,7 +66,7 @@ Kibertəhlükəsizlik sahəsində zəifliklər **tez-tez aşkarlanır**, lakin i
 
 > 2023-cü ildə `CVE-2023-XXXX` kimi bir zəiflik TP-Link router-lərdə aşkarlanmışdı. Bu boşluq vasitəsilə hücumçular **admin interfeysə uzaqdan daxil ola bilirdi**. Problem yalnız firmware yeniləməsi ilə aradan qaldırılmışdı.
 
-📎 Ətraflı: [Firmware yeniləmələri haqqında bələdçi](https://cybershieldy.com/firmware-yenileme)
+
 
 ---
 
