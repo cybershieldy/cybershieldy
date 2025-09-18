@@ -5,7 +5,7 @@ lastmod: 2025-09-09 12:00:00 +0400
 categories: [təhlükəsizlik, şəbəkə hücumları]
 tags: [mitm, man in the middle, şəbəkə təhlükəsizliyi, sniffing, vpn, kibertəhlükəsizlik, ictimai wi-fi, red team, blue team]
 description: "MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real ssenari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə."
-image: /assets/images/2.jpg
+image: /assets/images/2.webp
 canonical: https://cybershieldy.com/posts/mitm-hucumu-nedir.html
 permalink: /posts/şəbəkə-hücumları.html
 ---
@@ -21,7 +21,7 @@ permalink: /posts/şəbəkə-hücumları.html
   "publisher": { "@type": "Organization", "name": "CyberShieldy", "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }},
   "datePublished": "2025-09-05T14:00:00+04:00",
   "dateModified": "2025-09-09T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/2.jpg",
+  "image": "https://cybershieldy.com/assets/images/2.webp",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/mitm-hucumu-nedir.html" }
 }
 </script>
@@ -34,7 +34,7 @@ Bu yazıda MITM-in necə işlədiyini, real ssenarini və **özünüzü qorumağ
 
 ---
 
-![MITM konsepti və sxematik görünüş](/assets/images/man-in-the-middle-attack.svg "Şəbəkə üzərində MITM hücumunun necə baş verdiyini göstərən texniki vizual")
+![MITM konsepti və sxematik görünüş](/assets/images/man-in-the-middle-attack.webp "Şəbəkə üzərində MITM hücumunun necə baş verdiyini göstərən texniki vizual")
 
 > *Şəkil: Hücumçunun qurban və server arasında gizli şəkildə yerləşdiyi MITM strukturu*
 
