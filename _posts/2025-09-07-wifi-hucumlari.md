@@ -82,7 +82,7 @@ Bir kafedə aşağıdakı ssenari baş verir:
 
 Bu metodla **istifadəçinin daxil olduğu saytlar**, **şifrə cəhdləri** və **cookie məlumatları** toplanır.
 
-Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/evil-twin-hucumu)
+Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/posts/evil-twin-hucumlari.html)
 
 ---
 
