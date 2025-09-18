@@ -51,7 +51,7 @@ E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli l
 
 ![Saxta PayPal e-mail phishing nümunəsi](/assets/images/3.png "Phishing e-mail nümunəsi")
 
-🔗 Əlavə oxu: [Sosial mühəndislik hücumları və müdafiə yolları](/posts/sosial-muhendislik-nedir.html)
+
 
 ---
 
