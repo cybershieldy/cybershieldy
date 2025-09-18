@@ -5,7 +5,7 @@ lastmod: 2025-09-18 12:00:00 +0400
 categories: [wifi hücumları, şəbəkə təhlükəsizliyi]
 tags: [deauth attack, sniffing, krack, wifi zəifliyi, wpa2, packet capture, red team, wifi trafik hücumları]
 description: "Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi."
-image: /assets/images/wifi-traffic-attacks.webp
+image: /assets/images/snifing.webp
 canonical: https://cybershieldy.com/wifi-trafik-hucumlari-2025
 permalink: /posts/wifi-trafik-hucumlari.html
 ---
@@ -19,7 +19,7 @@ permalink: /posts/wifi-trafik-hucumlari.html
 
 ## 📷 Vizual Görüntü
 
-![Wi-Fi Trafik Hücumları - Deauth, Sniffing, KRACK](/assets/images/wifi-traffic-attacks.webp "Wi-Fi Trafik Hücumları – Deauth, Packet Sniffing və KRACK birləşmiş hücumu")
+![Wi-Fi Trafik Hücumları - Deauth, Sniffing, KRACK](/assets/images/deauth.webp "Wi-Fi Trafik Hücumları – Deauth, Packet Sniffing və KRACK birləşmiş hücumu")
 
 ---
 
