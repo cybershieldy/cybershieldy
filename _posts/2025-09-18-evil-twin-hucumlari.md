@@ -5,7 +5,7 @@ lastmod: 2025-09-18 09:00:00 +0400
 categories: [şəbəkə təhlükəsizliyi, wifi hücumları]
 tags: [evil twin, wifi hücumları, fake access point, sniffing, phishing, red team, kibertəhlükəsizlik]
 description: "Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin."
-image: /assets/images/evil-twin.webp
+image: /assets/images/evil1.webp
 canonical: https://cybershieldy.com/evil-twin-hucumlari-2025
 permalink: /posts/evil-twin-hucumlari.html
 ---
@@ -21,7 +21,7 @@ permalink: /posts/evil-twin-hucumlari.html
 
 ## 📸 Hücumun Vizual Görünüşü
 
-![Evil Twin Hücumu nümunəsi](/assets/images/evil-twin.webp "Evil Twin Hücumu — Fake Access Point ilə real Wi-Fi təqlidi")
+![Evil Twin Hücumu nümunəsi](/assets/images/evil2.webp "Evil Twin Hücumu — Fake Access Point ilə real Wi-Fi təqlidi")
 
 ---
 
