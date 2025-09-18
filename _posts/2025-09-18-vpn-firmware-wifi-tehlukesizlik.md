@@ -36,7 +36,7 @@ VPN internet bağlantınızı **şifrələyir** və məlumatlarınızı **təhl�
 - Man-in-the-Middle (MitM),
 - DNS hijacking və s. hücumlardan qorunmasını təmin edir.
 
-![VPN bağlantısının vizual izahı](/assets/images/vpn-illustration.webp "VPN necə işləyir")
+![VPN bağlantısının vizual izahı](/assets/images/vpn2.webp "VPN necə işləyir")
 
 ### ✅ VPN İstifadəsinin Əsas Faydaları:
 
