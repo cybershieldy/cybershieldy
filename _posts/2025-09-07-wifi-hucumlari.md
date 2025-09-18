@@ -5,7 +5,7 @@ lastmod: 2025-09-09 12:00:00 +0400
 categories: [təhlükəsizlik, şəbəkə hücumları]
 tags: [wifi hücumları, evil twin, deauth attack, sniffing, krack, şəbəkə təhlükəsizliyi, red team, blue team]
 description: "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar, təhlükələr və ən effektiv müdafiə yolları – 2025-ci ilin yenilənmiş versiyası."
-image: /assets/images/wfi.png
+image: /assets/images/wfi2.webp
 canonical: https://sizin-saytiniz.az/wifi-hucumlari-taktikalar-mudafie-2025
 permalink: /posts/wifi-hucumlari.html
 ---
@@ -74,7 +74,7 @@ typeMessage(messages[idx]);
 
 ## 🎯 Canlı nümunə: Evil Twin hücumu
 
-![Wi-Fi Evil Twin hücumu nümunəsi](/assets/images/evil.jpg "Wi-Fi Evil Twin hücumu nümunəsi")
+![Wi-Fi Evil Twin hücumu nümunəsi](/assets/images/wfi1.webp "Wi-Fi Evil Twin hücumu nümunəsi")
 
 Bir kafedə aşağıdakı ssenari baş verir:
 
