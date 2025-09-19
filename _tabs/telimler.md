@@ -5,7 +5,7 @@ order: 3
 description: "Ən son metodlarla hazırlanmış kibertəhlükəsizlik və web developer təlimləri. Real-world praktika, advanced hacking roadmap və modern web proqramlaşdırma. Tələbələr üçün SEO dostu kurslar."
 keywords: kiber təhlükəsizlik təlimi, ethical hacking roadmap, advanced hacking kursu, web developer təlimi, frontend backend roadmap, CEH hazırlıq, OSCP, penetration testing, OWASP, real hacking, web proqramlaşdırma kursu, React, Node.js, MongoDB, online təlimlər, tələbə üçün təlim
 robots: index, follow
-canonical: https://sizin-saytiniz.az/kibertehlukesizlik-ve-web-kurslar
+canonical: https://cybershieldy.com/kibertehlukesizlik-ve-web-kurslar
 image: /assets/images/training-banner.png
 ---
 
@@ -18,7 +18,7 @@ image: /assets/images/training-banner.png
   "provider": {
     "@type": "Organization",
     "name": "CyberShieldy",
-    "sameAs": "https://sizin-saytiniz.az"
+    "sameAs": "https://cybershieldy.com"
   }
 }
 </script>
@@ -36,7 +36,7 @@ Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı 
 
 **Hədəf auditoriya:** Yeni başlayanlar, İT mütəxəssisləri, CEH və Security+ imtahanına hazırlaşanlar, advanced səviyyəyə yüksəlmək istəyənlər.  
 
-[Əsas Səhifəyə Qayıt](https://sizin-saytiniz.az) • [Digər Kurslar](https://sizin-saytiniz.az/kurslar)
+
 
 ### 🚀 Roadmap
 
@@ -85,7 +85,6 @@ Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı 
 
 **Hədəf auditoriya:** Proqramlaşdırmaya sıfırdan başlayanlar, freelancer və şirkət üçün işə hazırlaşanlar.  
 
-[React kursu](https://sizin-saytiniz.az/react-kursu) • [Node.js kursu](https://sizin-saytiniz.az/nodejs-kursu)
 
 ### 🚀 Roadmap
 
@@ -125,9 +124,9 @@ Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı 
 
 ## ✍️ Əlavə məlumat və əlaqə
 
-- 🌐 Rəsmi sayt: [sizin-saytiniz.az](https://sizin-saytiniz.az)  
+- 🌐 Rəsmi sayt: [cybershieldy.com](https://cybershieldy.com)  
 - 📞 WhatsApp: [yaz](https://wa.me/994555182523)  
-- 📧 Email: [cyberdersler@gmail.com](mailto:cyberdersler@gmail.com)  
+- 📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)  
 
 ---
 
