@@ -6,7 +6,7 @@ description: "Ən son metodlarla hazırlanmış kibertəhlükəsizlik və web de
 keywords: kiber təhlükəsizlik təlimi, ethical hacking roadmap, advanced hacking kursu, web developer təlimi, frontend backend roadmap, CEH hazırlıq, OSCP, penetration testing, OWASP, real hacking, web proqramlaşdırma kursu, React, Node.js, MongoDB, online təlimlər, tələbə üçün təlim
 robots: index, follow
 canonical: https://cybershieldy.com/kibertehlukesizlik-ve-web-kurslar
-image: /assets/images/training-banner.png
+image: /assets/images/stamp_cybershieldy.png
 ---
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ image: /assets/images/training-banner.png
 # 🎓 Kibertəhlükəsizlik və Web Developer Təlimləri
 
 Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı təlimlər!  
-Ən müasir metodlar, praktik nümunələr və sertifikatlarla təlimlər sizi gözləyir.
+Ən müasir metodlar, praktik nümunəli təlimlər sizi gözləyir.
 
 ![Kibertəhlükəsizlik və Web Developer Təlimləri Banner](/assets/images/training-banner.png "Kibertəhlükəsizlik və Web Developer Təlimləri")
 
