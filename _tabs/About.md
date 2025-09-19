@@ -19,7 +19,7 @@ canonical: https://cybershieldy.com/haqqinda
   
   <p>
     Bloqumu və dərslərimi ziyarət edin: 👉 
-    <a href="https://cybershieldy.com/posts" target="_blank" rel="noopener noreferrer">Bloq yazıları</a>
+    <a href="https://cybershieldy.com/Archives/" target="_blank" rel="noopener noreferrer">Bloq yazıları</a>
   </p>
 </div>
 
