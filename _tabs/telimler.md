@@ -1,11 +1,11 @@
 ---
-title: "Təlimlər | Kibertəhlükəsizlik və Web Developer Kursları"
+title: "Kiber Təhlükəsizlik və Web Developer Kursları | Online və Bakı üzrə Təlimlər"
 icon: fas fa-user-graduate
 order: 3
-description: "Ən son metodlarla hazırlanmış kibertəhlükəsizlik və web developer təlimləri. Real-world praktika, advanced hacking roadmap və modern web proqramlaşdırma. Tələbələr üçün SEO dostu kurslar."
-keywords: kiber təhlükəsizlik təlimi, ethical hacking roadmap, advanced hacking kursu, web developer təlimi, frontend backend roadmap, CEH hazırlıq, OSCP, penetration testing, OWASP, real hacking, web proqramlaşdırma kursu, React, Node.js, MongoDB, online təlimlər, tələbə üçün təlim
+description: "Kiber təhlükəsizlik kursu, web developer təlimi, CEH və OSCP hazırlığı. Online və Bakıda keçirilən cybersecurity və proqramlaşdırma kursları. Real praktika, portfolio və beynəlxalq sertifikat!"
+keywords: kiber təhlükəsizlik kursu, cyber kurs, cybersecurity təlimi, ethical hacking, CEH hazırlığı, OSCP kursu, penetration testing, web proqramlaşdırma təlimi, web developer kursu, frontend backend kurs, React Node.js MongoDB kursu, online kurslar Azərbaycanda, IT təlimləri Bakı, hacker kursları, real lab mühiti
 robots: index, follow
-canonical: https://cybershieldy.com/kibertehlukesizlik-ve-web-kurslar
+canonical: https://cybershieldy.com/telimler/
 image: /assets/images/stamp_cybershieldy.png
 ---
 
@@ -13,8 +13,8 @@ image: /assets/images/stamp_cybershieldy.png
 {
   "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Kibertəhlükəsizlik və Web Developer Təlimləri",
-  "description": "Ən son metodlarla hazırlanmış kibertəhlükəsizlik və web developer təlimləri. Real-world praktika, advance hacking roadmap və modern web proqramlaşdırma. Tələbələr üçün SEO dostu kurslar.",
+  "name": "Kiber Təhlükəsizlik və Web Developer Kursları",
+  "description": "Kiber təhlükəsizlik, ethical hacking, web proqramlaşdırma və cybersecurity üzrə online və Bakıda peşəkar kurslar. CEH, OSCP, React, Node.js və real praktiki təlimlər.",
   "provider": {
     "@type": "Organization",
     "name": "CyberShieldy",
@@ -23,112 +23,86 @@ image: /assets/images/stamp_cybershieldy.png
 }
 </script>
 
-# 🎓 Kibertəhlükəsizlik və Web Developer Təlimləri
+# 🎓 Kiber Təhlükəsizlik və Web Developer Kursları – Bakı və Online
 
-Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı təlimlər!  
-Ən müasir metodlar, praktik nümunəli təlimlər sizi gözləyir.
+IT sahəsində karyera qurmaq istəyirsiniz?  
+**Kiber təhlükəsizlik, ethical hacking, CEH/OSCP hazırlığı və web proqramlaşdırma üzrə** təlimlər sizi gözləyir!
 
-![Kibertəhlükəsizlik və Web Developer Təlimləri Banner](/assets/images/123.webp "Kibertəhlükəsizlik və Web Developer Təlimləri")
-
----
-
-## 🛡️ Kibertəhlükəsizlik Təlimi (Ethical Hacking Roadmap)
-
-**Hədəf auditoriya:** Yeni başlayanlar, İT mütəxəssisləri, CEH və Security+ imtahanına hazırlaşanlar, advanced səviyyəyə yüksəlmək istəyənlər.  
-
-
-
-### 🚀 Roadmap
-
-1. **İT əsasları və Linux mühiti**
-   - OSI modeli, TCP/IP, portlar
-   - Kali Linux və terminal əmrləri
-
-2. **Şəbəkə təhlükəsizliyi**
-   - Wireshark ilə şəbəkə trafikin analiz edilməsi
-   - Firewall, VPN, IDS/IPS sistemləri
-
-3. **Sosial mühəndislik və Phishing**
-   - E-mail, SMS phishing senariləri
-   - Canlı simulyasiyalar
-
-4. **Web hücum texnikaları**
-   - SQL Injection, XSS, CSRF
-   - OWASP Top 10 və real nümunələr
-
-5. **Pentest Tools və praktika**
-   - Metasploit, Burp Suite, Hydra
-   - Real lab mühiti və CTF oyunları
-
-6. **Vulnerability Analysis və Exploit Yazılması**
-   - Zəiflik aşkarlanması, exploit development əsasları
-
-7. **Post-Exploitation və Rəqəmsal Forensika**
-   - Lateral movement, məlumat çıxarılması
-   - Forensik analiz metodları
-
-8. **Advanced mövzular**
-   - **ROP Chains, Kernel Exploits, Malware Analizi**
-   - **MITRE ATT&CK**, sandbox bypass, reverse engineering
-
-### 🎯 Təlim sonunda öyrənəcəksiniz:
-- Hücum/müdafiə üzrə praktiki bacarıqlar  
-- Advanced exploit development təcrübəsi  
-- Sertifikat və CV/LinkedIn optimizasiyası  
-- Real hücum simulyasiyası və lab təcrübəsi
-
-📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Kiber+T%C9%99hl%C3%BCk%C9%99sizlik+t%C9%99limin%C9%99+qo%C5%9Fulmaq+ist%C9%99yir%C9%99m)
+**Praktik əsaslı roadmap**, beynəlxalq sertifikatlar və real lab təcrübəsi ilə peşəkar ol.
 
 ---
 
-## 💻 Web Developer Təlimi (Frontend + Backend)
+## 🛡️ Kiber Təhlükəsizlik Kursu (Ethical Hacking & Cybersecurity)
 
-**Hədəf auditoriya:** Proqramlaşdırmaya sıfırdan başlayanlar, freelancer və şirkət üçün işə hazırlaşanlar.  
+🔐 **Açar sözlər:**  
+kiber kurs, cyber kurs, cybersecurity təlimi, CEH kursu, OSCP hazırlığı, penetration testing, hacker kursları, təhlükəsizlik təlimi, Bakıda kiber təhlükəsizlik kursları
 
+### 💼 Kimlər üçündür?
+- İT sahəsinə yeni başlayanlar  
+- CEH, Security+, OSCP imtahanına hazırlaşanlar  
+- Ethical hacking və advanced cyber defence öyrənmək istəyənlər
 
-### 🚀 Roadmap
+### 📘 Tədris Roadmap:
 
-1. **Frontend Əsasları**
-   - HTML5, CSS3, Responsive dizayn, Flexbox/Grid
-   - JavaScript ES6+, DOM, Event Handling
+1. **Əsas İT bilikləri və Linux komandaları**  
+2. **Şəbəkə təhlükəsizliyi və Wireshark təhlili**  
+3. **Phishing, sosial mühəndislik hücumları**  
+4. **Web tətbiqlərə hücumlar – OWASP Top 10**  
+5. **Pentest tools – Metasploit, Burp Suite, Hydra**  
+6. **Exploit development və zəiflik analizləri**  
+7. **Post-Exploitation və rəqəmsal forensika**  
+8. **Advanced hacking mövzuları – Malware, Reverse Engineering, MITRE ATT&CK**
 
-2. **Praktiki Layihələr**
-   - Portfolio saytı, blog, todo list
+### 🎯 Nəticə:
+- Praktik hacking bacarıqları  
+- Real lab mühitində təcrübə  
+- Sertifikat, CV və LinkedIn optimizasiyası  
+- **CEH, OSCP və digər beynəlxalq imtahanlara hazırlıq**
 
-3. **Modern JS Frameworkləri**
-   - React.js: komponentlər, hooks, SPA
-
-4. **Backend Əsasları**
-   - Node.js, Express.js, MongoDB
-   - REST API, JWT autentifikasiya
-
-5. **Version Control və Deploy**
-   - Git/GitHub, Vercel/Netlify, bulud hostinq
-
-🎓 Təlim sonunda:
-- Real portfolio və GitHub hesabı  
-- CV optimizasiyası və işə qəbul məsləhətləri
-
-📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Developer+t%C9%99limin%C9%99+qo%C5%9Fulmaq+ist%C9%99yir%C9%99m)
-
----
-
-## 📚 Təlim formatı və üstünlüklər
-
-- Yüksək keyfiyyətli video dərslər + canlı mentor dəstəyi  
-- Praktik tapşırıqlar və real lab mühitləri  
-- Beynəlxalq sertifikat imkanı  
-- Online və ofisdə iştirak seçimi
+📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Kiber+T%C9%99hl%C3%BCk%C9%99sizlik+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
 
 ---
 
-## ✍️ Əlavə məlumat və əlaqə
+## 💻 Web Developer Kursu (Frontend + Backend)
 
-- 🌐 Rəsmi sayt: [cybershieldy.com](https://cybershieldy.com)  
-- 📞 WhatsApp: [yaz](https://wa.me/994555182523)  
-- 📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)  
+🖥️ **Açar sözlər:**  
+web proqramlaşdırma kursu, JavaScript kursu, React təlimi, Node.js backend kursu, MongoDB kursu, frontend backend kursları, IT təlimləri Bakı, online proqramlaşdırma kursları
+
+### 💼 Kimlər üçündür?
+- Sıfırdan proqramlaşdırma öyrənmək istəyənlər  
+- Freelancer və startup layihələri qurmaq istəyənlər  
+- Frontend və backend üzrə real təcrübə əldə etmək istəyənlər
+
+### 📘 Tədris Roadmap:
+
+1. **HTML5, CSS3, Responsive dizayn, JavaScript əsasları**  
+2. **DOM, Event Handling, LocalStorage və ES6+**  
+3. **React.js ilə SPA yaratmaq (Hooks, Router, Props/State)**  
+4. **Node.js, Express.js və MongoDB ilə Backend**  
+5. **REST API, JWT autentifikasiya və baza təhlükəsizlik**  
+6. **Git/GitHub və layihələrin deploy edilməsi**  
+7. **Real portfolio layihələri + GitHub optimizasiyası**
+
+### 🎯 Nəticə:
+- Web tətbiqləri yaratmaq bacarığı  
+- Freelancer və şirkət layihələrinə hazır olmaq  
+- CV hazırlığı, real portfolio, işə qəbul üçün dəstək
+
+📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Developer+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
 
 ---
+
+## 📚 Təlim Formatı və Üstünlüklər
+
+- ✅ Online və Bakı ofisində dərslər  
+- ✅ Təcrübəli mentorlar və canlı praktika  
+- ✅ Beynəlxalq səviyyəli sertifikat imkanı  
+- ✅ Real-world lab və CTF mühitləri  
+- ✅ Həftəlik tapşırıqlar və mentor izləməsi
+
+---
+
+## ❓ Tez-tez verilən suallar
 
 <script type="application/ld+json">
 {
@@ -137,28 +111,39 @@ Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kibertəhlükəsizlik təlimi kimlər üçündür?",
+      "name": "Kiber təhlükəsizlik kursu kimlər üçündür?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yeni başlayanlar, IT mütəxəssisləri, CEH və Security+ imtahanına hazırlaşanlar, advanced səviyyəyə yüksəlmək istəyənlər."
+        "text": "Kurs yeni başlayanlar, IT mütəxəssisləri və CEH, OSCP imtahanına hazırlaşanlar üçün nəzərdə tutulub."
       }
     },
     {
       "@type": "Question",
-      "name": "Web developer təlimi kimlər üçün uyğundur?",
+      "name": "Web developer təliminə necə başlaya bilərəm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Proqramlaşdırmaya sıfırdan başlayanlar, freelancer və şirkət üçün işə hazırlaşanlar, modern web tətbiqləri qurmaq istəyənlər."
+        "text": "Sadəcə WhatsApp ilə əlaqə saxlayın və sizə uyğun qrupla dərslərə başlayın. Sıfırdan öyrədilir."
       }
     },
     {
       "@type": "Question",
-      "name": "Təlim sonunda nələr əldə ediləcək?",
+      "name": "Online dərslərdə necə iştirak edə bilərəm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Praktik biliklər, sertifikat, CV və LinkedIn optimizasiyası, real hücum və layihə simulyasiyaları."
+        "text": "Online dərslər Zoom vasitəsilə keçirilir və dərs yazıları sizə təqdim olunur. Mentor dəstəyi daima aktivdir."
       }
     }
   ]
 }
 </script>
+
+---
+
+## 📞 Əlaqə və Məlumat
+
+- 🌐 Rəsmi sayt: [https://cybershieldy.com](https://cybershieldy.com)  
+- 📲 WhatsApp: [+994 55 518 25 23](https://wa.me/994555182523)  
+- 📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)
+
+---
+
