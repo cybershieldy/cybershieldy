@@ -6,8 +6,8 @@ categories: [təhlükəsizlik, şəbəkə hücumları]
 tags: [mitm, man in the middle, şəbəkə təhlükəsizliyi, sniffing, vpn, kibertəhlükəsizlik, ictimai wi-fi, red team, blue team]
 description: "MITM hücumu ilə şəxsi məlumatlar necə ələ keçirilir? Sadə Wi-Fi bağlantısı belə həyatınızı dəyişə bilər. Texniki izah, real ssenari və qorunma yolları — Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə."
 image: /assets/images/2.webp
-canonical: https://cybershieldy.com/posts/mitm-hucumu-nedir.html
-permalink: /posts/şəbəkə-hücumları.html
+canonical: https://cybershieldy.com/posts/mitm-hucumu-nedir
+permalink: /posts/şəbəkə-hücumları
 ---
 
 <!-- Structured data -->
