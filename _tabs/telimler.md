@@ -1,9 +1,9 @@
 ---
-title: "Kiber Təhlükəsizlik və Web Developer Kursları | Online və Bakı üzrə Təlimlər"
+title: "Kiber Təhlükəsizlik və Web Developer Kursları | Bakı və Online Təlimlər"
 icon: fas fa-user-graduate
 order: 3
-description: "Kiber təhlükəsizlik kursu, web developer təlimi, CEH və OSCP hazırlığı. Online və Bakıda keçirilən cybersecurity və proqramlaşdırma kursları. Real praktika, portfolio və beynəlxalq sertifikat!"
-keywords: kiber təhlükəsizlik kursu, cyber kurs, cybersecurity təlimi, ethical hacking, CEH hazırlığı, OSCP kursu, penetration testing, web proqramlaşdırma təlimi, web developer kursu, frontend backend kurs, React Node.js MongoDB kursu, online kurslar Azərbaycanda, IT təlimləri Bakı, hacker kursları, real lab mühiti
+description: "Kiber təhlükəsizlik kursu, ethical hacking təlimi, CEH və OSCP hazırlığı, həmçinin sıfırdan web developer olmaq üçün full-stack proqramlaşdırma kursları. Bakı və onlayn təlim formatı, real praktika və beynəlxalq sertifikatlar."
+keywords: kiber təhlükəsizlik kursu, cybersecurity təlimi, ethical hacking kursu, CEH hazırlığı, OSCP kursu, pentest təlimi, penetration testing, hacker kursları, cyber security kursu, advanced hacking roadmap, web proqramlaşdırma kursu, web developer təlimi, frontend backend roadmap, JavaScript kursu, React, Node.js, MongoDB kursu, online proqramlaşdırma kursları, IT təlimləri Bakı, proqramlaşdırma kursları Azərbaycanda
 robots: index, follow
 canonical: https://cybershieldy.com/telimler/
 image: /assets/images/stamp_cybershieldy.png
@@ -14,7 +14,7 @@ image: /assets/images/stamp_cybershieldy.png
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Kiber Təhlükəsizlik və Web Developer Kursları",
-  "description": "Kiber təhlükəsizlik, ethical hacking, web proqramlaşdırma və cybersecurity üzrə online və Bakıda peşəkar kurslar. CEH, OSCP, React, Node.js və real praktiki təlimlər.",
+  "description": "Cybersecurity və proqramlaşdırma üzrə tam təlim paketləri: CEH, OSCP, ethical hacking və full-stack web development. Bakı və online formatda peşəkar kurslar. Real praktika və sertifikatla işə hazırlıq.",
   "provider": {
     "@type": "Organization",
     "name": "CyberShieldy",
@@ -23,70 +23,108 @@ image: /assets/images/stamp_cybershieldy.png
 }
 </script>
 
-# 🎓 Kiber Təhlükəsizlik və Web Developer Kursları – Bakı və Online
+# 🎓 Kiber Təhlükəsizlik və Web Developer Kursları – Online və Bakı üzrə
 
-IT sahəsində karyera qurmaq istəyirsiniz?  
-**Kiber təhlükəsizlik, ethical hacking, CEH/OSCP hazırlığı və web proqramlaşdırma üzrə** təlimlər sizi gözləyir!
-
-**Praktik əsaslı roadmap**, beynəlxalq sertifikatlar və real lab təcrübəsi ilə peşəkar ol.
+Karyerana real bilik və praktika ilə başla!  
+**Cybersecurity və proqramlaşdırma** sahəsində **real-world roadmap**, **live lab mühitləri** və **beynəlxalq səviyyədə sertifikat dəstəyi** ilə kurslara qoşul.
 
 ---
 
-## 🛡️ Kiber Təhlükəsizlik Kursu (Ethical Hacking & Cybersecurity)
+## 🛡️ Kiber Təhlükəsizlik Kursu (Ethical Hacking & Cyber Defense)
 
-🔐 **Açar sözlər:**  
-kiber kurs, cyber kurs, cybersecurity təlimi, CEH kursu, OSCP hazırlığı, penetration testing, hacker kursları, təhlükəsizlik təlimi, Bakıda kiber təhlükəsizlik kursları
+🔍 **Açar sözlər:**  
+kiber təhlükəsizlik kursu, cybersecurity kursları, ethical hacking təlimi, CEH hazırlığı, OSCP kursu, penetration testing, hacker kursları, advanced hacking roadmap, təhlükəsizlik təlimləri Bakı, cyber kurs online
 
-### 💼 Kimlər üçündür?
-- İT sahəsinə yeni başlayanlar  
-- CEH, Security+, OSCP imtahanına hazırlaşanlar  
-- Ethical hacking və advanced cyber defence öyrənmək istəyənlər
+### 👤 Kimlər üçündür?
+- Yeni başlayanlar üçün sıfırdan təməl tədris  
+- İT mütəxəssisləri və təhlükəsizlik sahəsində yüksəlmək istəyənlər  
+- CEH, OSCP kimi beynəlxalq imtahanlara hazırlaşanlar
 
-### 📘 Tədris Roadmap:
+### 🚀 Tədris Roadmap (Advanced səviyyəyə qədər):
 
-1. **Əsas İT bilikləri və Linux komandaları**  
-2. **Şəbəkə təhlükəsizliyi və Wireshark təhlili**  
-3. **Phishing, sosial mühəndislik hücumları**  
-4. **Web tətbiqlərə hücumlar – OWASP Top 10**  
-5. **Pentest tools – Metasploit, Burp Suite, Hydra**  
-6. **Exploit development və zəiflik analizləri**  
-7. **Post-Exploitation və rəqəmsal forensika**  
-8. **Advanced hacking mövzuları – Malware, Reverse Engineering, MITRE ATT&CK**
+1. **İT və Şəbəkə Əsasları**
+   - OSI modeli, port anlayışları, TCP/IP təməl biliklər
+   - Kali Linux, terminal əmrləri, virtual mühit qurulması
 
-### 🎯 Nəticə:
-- Praktik hacking bacarıqları  
-- Real lab mühitində təcrübə  
-- Sertifikat, CV və LinkedIn optimizasiyası  
-- **CEH, OSCP və digər beynəlxalq imtahanlara hazırlıq**
+2. **Şəbəkə Təhlükəsizliyi və Wireshark**
+   - Paket analizi, trafik izləmə, ARP spoofing
+   - VPN, Firewall, IDS/IPS sistemləri
+
+3. **Sosial Mühəndislik və Phishing**
+   - Email və SMS phishing senariləri
+   - Real-case simulyasiyalar
+
+4. **Web Hücum Texnikaları**
+   - SQL Injection, XSS, CSRF, SSRF
+   - OWASP Top 10 və real-world zəifliklərin istismarı
+
+5. **Pentest Tools ilə Praktika**
+   - Metasploit, Burp Suite, Hydra, Nmap
+   - CTF təcrübələri və lab simulyasiyaları
+
+6. **Exploit Development və Vulnerability Research**
+   - Zəiflik analizləri, PoC yaradılması
+   - Buffer overflow, ROP chains, format string attacks
+
+7. **Post-Exploitation və Forensika**
+   - Lateral movement, credential harvesting, Mimikatz
+   - Digital Forensics və log analizləri
+
+8. **Advanced Topics & Red Teaming**
+   - Malware analiz, reverse engineering
+   - MITRE ATT&CK, sandbox bypass, C2 infrastruktur
+
+### ✅ Təlim sonunda əldə edəcəksiniz:
+- Real-world hacking və müdafiə bacarıqları  
+- Sertifikat (CEH, OSCP yönümlü hazırlıq)  
+- CV və LinkedIn optimizasiyası  
+- Portfel üçün canlı lab və CTF performansı
 
 📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Kiber+T%C9%99hl%C3%BCk%C9%99sizlik+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
 
 ---
 
-## 💻 Web Developer Kursu (Frontend + Backend)
+## 💻 Web Developer Kursu (Full-Stack Frontend + Backend)
 
-🖥️ **Açar sözlər:**  
-web proqramlaşdırma kursu, JavaScript kursu, React təlimi, Node.js backend kursu, MongoDB kursu, frontend backend kursları, IT təlimləri Bakı, online proqramlaşdırma kursları
+🧠 **Açar sözlər:**  
+web developer kursu, proqramlaşdırma təlimi, frontend backend kursları, React kursu, Node.js kursu, MongoDB, JavaScript kursu, HTML CSS, IT kursları Bakı, online web təlimi, sıfırdan proqramlaşdırma
 
-### 💼 Kimlər üçündür?
-- Sıfırdan proqramlaşdırma öyrənmək istəyənlər  
-- Freelancer və startup layihələri qurmaq istəyənlər  
-- Frontend və backend üzrə real təcrübə əldə etmək istəyənlər
+### 👤 Kimlər üçündür?
+- Heç vaxt kod yazmamış şəxslər üçün sıfırdan  
+- İş axtaran və freelancer olmaq istəyənlər  
+- Startup və layihə qurmaq istəyənlər
 
-### 📘 Tədris Roadmap:
+### 🚀 Tədris Roadmap:
 
-1. **HTML5, CSS3, Responsive dizayn, JavaScript əsasları**  
-2. **DOM, Event Handling, LocalStorage və ES6+**  
-3. **React.js ilə SPA yaratmaq (Hooks, Router, Props/State)**  
-4. **Node.js, Express.js və MongoDB ilə Backend**  
-5. **REST API, JWT autentifikasiya və baza təhlükəsizlik**  
-6. **Git/GitHub və layihələrin deploy edilməsi**  
-7. **Real portfolio layihələri + GitHub optimizasiyası**
+1. **Frontend Əsasları**
+   - HTML5, CSS3, Flexbox, Grid Layout, Responsiv dizayn
+   - JavaScript əsasları, DOM, ES6, Event Handling, LocalStorage
 
-### 🎯 Nəticə:
-- Web tətbiqləri yaratmaq bacarığı  
-- Freelancer və şirkət layihələrinə hazır olmaq  
-- CV hazırlığı, real portfolio, işə qəbul üçün dəstək
+2. **Modern JS Framework – React**
+   - Components, Props/State, useEffect/useState, Router
+   - Form validation, reusable komponentlər
+
+3. **Backend – Node.js və Express.js**
+   - Server qurulması, REST API, middleware strukturu
+   - MongoDB ilə məlumat bazası inteqrasiyası
+
+4. **Autentifikasiya və Təhlükəsizlik**
+   - JWT ilə istifadəçi girişi
+   - Input validation, error handling, baza təhlükəsizlik tədbirləri
+
+5. **Layihə və Portfolio Hazırlığı**
+   - Portfolio saytı, blog platforması, to-do app
+   - GitHub optimizasiyası və CV dəstəyi
+
+6. **Version Control və Deploy**
+   - Git/GitHub əsasları
+   - Netlify, Vercel, Render.io ilə layihələrin yerləşdirilməsi
+
+### ✅ Təlim sonunda əldə edəcəksiniz:
+- Full-stack web development bacarıqları  
+- Real layihələr və portfolio saytı  
+- CV və GitHub hesabı hazır olacaq  
+- İş tapmaq üçün praktiki biliklər və məsləhətlər
 
 📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Developer+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
 
@@ -94,15 +132,26 @@ web proqramlaşdırma kursu, JavaScript kursu, React təlimi, Node.js backend ku
 
 ## 📚 Təlim Formatı və Üstünlüklər
 
-- ✅ Online və Bakı ofisində dərslər  
-- ✅ Təcrübəli mentorlar və canlı praktika  
-- ✅ Beynəlxalq səviyyəli sertifikat imkanı  
-- ✅ Real-world lab və CTF mühitləri  
-- ✅ Həftəlik tapşırıqlar və mentor izləməsi
+- ✅ Online və Bakı ofisində dərs imkanı  
+- ✅ Praktik tapşırıqlar və canlı mentor dəstəyi  
+- ✅ Sertifikatlar və CV hazırlığı  
+- ✅ Real-world senarilər və CTF simulyasiyaları  
+- ✅ Dərs yazıları və ömürlük giriş imkanı
 
 ---
 
-## ❓ Tez-tez verilən suallar
+## 📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər
+
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik.html)  
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir.html)  
+- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik.html)  
+- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari.html)  
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/şəbəkə-hücumları.html)  
+
+---
+
+## ❓ Tez-tez Verilən Suallar (FAQ)
 
 <script type="application/ld+json">
 {
@@ -114,23 +163,23 @@ web proqramlaşdırma kursu, JavaScript kursu, React təlimi, Node.js backend ku
       "name": "Kiber təhlükəsizlik kursu kimlər üçündür?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Kurs yeni başlayanlar, IT mütəxəssisləri və CEH, OSCP imtahanına hazırlaşanlar üçün nəzərdə tutulub."
+        "text": "Yeni başlayanlar, IT sahəsində çalışanlar, CEH və OSCP kimi imtahanlara hazırlaşanlar üçün uyğundur."
       }
     },
     {
       "@type": "Question",
-      "name": "Web developer təliminə necə başlaya bilərəm?",
+      "name": "Web developer kursuna necə başlaya bilərəm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sadəcə WhatsApp ilə əlaqə saxlayın və sizə uyğun qrupla dərslərə başlayın. Sıfırdan öyrədilir."
+        "text": "WhatsApp vasitəsilə bizimlə əlaqə saxlayın. Sıfırdan başlamağınız üçün xüsusi qruplar var."
       }
     },
     {
       "@type": "Question",
-      "name": "Online dərslərdə necə iştirak edə bilərəm?",
+      "name": "Online dərslər necə keçirilir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Online dərslər Zoom vasitəsilə keçirilir və dərs yazıları sizə təqdim olunur. Mentor dəstəyi daima aktivdir."
+        "text": "Zoom platformasında keçirilir. Dərs yazıları təqdim olunur və mentorlar daim aktivdir."
       }
     }
   ]
@@ -139,7 +188,7 @@ web proqramlaşdırma kursu, JavaScript kursu, React təlimi, Node.js backend ku
 
 ---
 
-## 📞 Əlaqə və Məlumat
+## 📞 Əlaqə və Qeydiyyat
 
 - 🌐 Rəsmi sayt: [https://cybershieldy.com](https://cybershieldy.com)  
 - 📲 WhatsApp: [+994 55 518 25 23](https://wa.me/994555182523)  
