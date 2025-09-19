@@ -6,7 +6,7 @@ order: 4
 description: "Emin Savaylov-un kiber təhlükəsizlik bloqu və təlimləri. Red Team, Blue Team, penetrasiya testləri, sosial mühəndislik və praktiki kurslar. 2025-ci ilin SEO optimizə edilmiş səhifəsi."
 keywords: kiber təhlükəsizlik, red team, blue team, penetrasiya testləri, sosial mühəndislik, kibertəhlükəsizlik təlimləri, CEH, OSCP, MITRE ATT&CK, tələbə təlimləri, kibertəhlükəsizlik kursları, online təlimlər, kibertəhlükəsizlik bloqu, Emin Savaylov
 robots: index, follow
-canonical: https://sizin-saytiniz.az/haqqinda
+canonical: https://cybershieldy.com/haqqinda
 ---
 
 ## Haqqımda – Emin Savaylov  
@@ -15,7 +15,7 @@ canonical: https://sizin-saytiniz.az/haqqinda
   <img src="/assets/images/emin.jpg" alt="Emin Savaylov - Kiber Təhlükəsizlik Mütəxəssisi" style="width: 140px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   
   <div>
-    <p>Salam! Mən <strong>Emin Savaylov</strong>, kiber təhlükəsizlik üzrə peşəkar mütəxəssis və təlimatçıyım. Bu bloq və təlimlər tələbələr, yeni başlayanlar və peşəkarlar üçün <strong>kiber təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong>, <strong>Red Team və Blue Team metodologiyaları</strong>, <strong>sosial mühəndislik</strong> və <strong>rəqəmsal müdafiə</strong> mövzularında praktik və dərin biliklər təqdim edir. Daha çox oxu: [Bloq yazıları](https://sizin-saytiniz.az/posts)</p>
+    <p>Salam! Mən <strong>Emin Savaylov</strong>, kiber təhlükəsizlik üzrə peşəkar mütəxəssis və təlimatçıyım. Bu bloq və təlimlər tələbələr, yeni başlayanlar və peşəkarlar üçün <strong>kiber təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong>, <strong>Red Team və Blue Team metodologiyaları</strong>, <strong>sosial mühəndislik</strong> və <strong>rəqəmsal müdafiə</strong> mövzularında praktik və dərin biliklər təqdim edir. Daha çox oxu: [Bloq yazıları](https://cybershieldy.com/posts)</p>
   </div>
 </div>
 
@@ -69,7 +69,7 @@ Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə veril
 ## Əlaqə və əməkdaşlıq
 
 📞 Telefon: +994 55 518 25 23  
-✉️ Email: [cyberdersler@gmail.com](mailto:cyberdersler@gmail.com)  
+✉️ Email: [cyberdersler@gmail.com](mailto:ccybershieldy@gmail.com)  
 🔗 LinkedIn: [linkedin.com/in/emin-savaylov](https://linkedin.com/in/emin-savaylov)  
 💬 WhatsApp: [Birbaşa yaz](https://wa.me/994555182523?text=Salam%2C%20Emin%20bəy%21)
 
@@ -82,7 +82,7 @@ Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə veril
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Emin Savaylov",
-  "url": "https://sizin-saytiniz.az/haqqinda",
+  "url": "https://cybershieldy.com/haqqinda",
   "sameAs": [
     "https://linkedin.com/in/emin-savaylov"
   ],
