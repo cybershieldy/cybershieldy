@@ -8,6 +8,7 @@ description: "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının n
 image: /assets/images/wfi2.webp
 canonical: https://cybershieldy.com/wifi-hucumlari-taktikalar-mudafie-2025
 permalink: /posts/wifi-hucumlari.html
+redirect_to: /posts/wifi-hucumlari/
 ---
 
 # Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)
