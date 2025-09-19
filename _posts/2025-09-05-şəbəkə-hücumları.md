@@ -22,7 +22,7 @@ permalink: /posts/şəbəkə-hücumları
   "datePublished": "2025-09-05T14:00:00+04:00",
   "dateModified": "2025-09-09T12:00:00+04:00",
   "image": "https://cybershieldy.com/assets/images/2.webp",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/mitm-hucumu-nedir.html" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/mitm-hucumu-nedir" }
 }
 </script>
 
