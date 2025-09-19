@@ -15,9 +15,14 @@ canonical: https://cybershieldy.com/haqqinda
   <img src="/assets/images/emin.jpg" alt="Emin Savaylov - Kiber Təhlükəsizlik Mütəxəssisi" style="width: 140px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   
   <div>
-    <p>Salam, mən <strong>Emin Savaylov</strong> — <strong>kiber təhlükəsizlik</strong>, <strong>web təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong> və <strong>praktiki təlimlər</strong> üzrə ixtisaslaşmış təlimatçı və mütəxəssisəm. Bu platforma tələbələr, IT sahəsinə yeni başlayanlar və peşəkarlar üçün <strong>real-world ssenarilər</strong>ə əsaslanan dərslər təqdim edir.</p>
-    <p>Bloqumu və dərslərimi ziyarət edin: 👉 [Bloq yazıları](https://cybershieldy.com/posts)</p>
-  </div>
+  <p>Salam, mən <strong>Emin Savaylov</strong> — <strong>kiber təhlükəsizlik</strong>, <strong>web təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong> və <strong>praktiki təlimlər</strong> üzrə ixtisaslaşmış təlimatçı və mütəxəssisəm. Bu platforma tələbələr, IT sahəsinə yeni başlayanlar və peşəkarlar üçün <strong>real-world ssenarilər</strong>ə əsaslanan dərslər təqdim edir.</p>
+  
+  <p>
+    Bloqumu və dərslərimi ziyarət edin: 👉 
+    <a href="https://cybershieldy.com/posts" target="_blank" rel="noopener noreferrer">Bloq yazıları</a>
+  </p>
+</div>
+
 </div>
 
 ---
