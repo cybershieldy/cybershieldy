@@ -1,82 +1,107 @@
 ---
 layout: page
-title: "Haqqında – Emin Savaylov | Kiber Təhlükəsizlik və Təlimlər"
+title: "Haqqında – Emin Savaylov | Kiber Təhlükəsizlik, Web Təhlükəsizlik və Online Təlimlər"
 icon: fas fa-info-circle
 order: 4
-description: "Emin Savaylov-un kiber təhlükəsizlik bloqu və təlimləri. Red Team, Blue Team, penetrasiya testləri, sosial mühəndislik və praktiki kurslar. 2025-ci ilin SEO optimizə edilmiş səhifəsi."
-keywords: kiber təhlükəsizlik, red team, blue team, penetrasiya testləri, sosial mühəndislik, kibertəhlükəsizlik təlimləri, CEH, OSCP, MITRE ATT&CK, tələbə təlimləri, kibertəhlükəsizlik kursları, online təlimlər, kibertəhlükəsizlik bloqu, Emin Savaylov
+description: "Emin Savaylov ilə kiber təhlükəsizlik, web təhlükəsizlik və real-world penetrasiya testləri üzrə online və praktiki təlimlər. Red Team, Blue Team, CEH, OSCP hazırlığı."
+keywords: kiber təhlükəsizlik kursları, web təhlükəsizlik dərsləri, penetrasiya testləri, red team, blue team, CEH hazırlığı, OSCP təlimi, sosial mühəndislik, SIEM, online kiber təlimlər, kibertəhlükəsizlik tədrisi, mentorluq, Azərbaycan kibertəhlükəsizlik mütəxəssisi
 robots: index, follow
 canonical: https://cybershieldy.com/haqqinda
 ---
 
-## Haqqımda – Emin Savaylov  
+# Haqqımda – Emin Savaylov
 
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
   <img src="/assets/images/emin.jpg" alt="Emin Savaylov - Kiber Təhlükəsizlik Mütəxəssisi" style="width: 140px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   
   <div>
-    <p>Salam! Mən <strong>Emin Savaylov</strong>, kiber təhlükəsizlik üzrə peşəkar mütəxəssis və təlimatçıyım. Bu bloq və təlimlər tələbələr, yeni başlayanlar və peşəkarlar üçün <strong>kiber təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong>, <strong>Red Team və Blue Team metodologiyaları</strong>, <strong>sosial mühəndislik</strong> və <strong>rəqəmsal müdafiə</strong> mövzularında praktik və dərin biliklər təqdim edir. Daha çox oxu: [Bloq yazıları](https://cybershieldy.com/posts)</p>
+    <p>Salam, mən <strong>Emin Savaylov</strong> — <strong>kiber təhlükəsizlik</strong>, <strong>web təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong> və <strong>praktiki təlimlər</strong> üzrə ixtisaslaşmış təlimatçı və mütəxəssisəm. Bu platforma tələbələr, IT sahəsinə yeni başlayanlar və peşəkarlar üçün <strong>real-world ssenarilər</strong>ə əsaslanan dərslər təqdim edir.</p>
+    <p>Bloqumu və dərslərimi ziyarət edin: 👉 [Bloq yazıları](https://cybershieldy.com/posts)</p>
   </div>
 </div>
 
 ---
 
-## Niyə bu bloq və təlimlər tələbələr üçün faydalıdır?
+## Günümüzdə Kiber Təhlükəsizlik və Tədrisin Önəmi
 
-Dünyada kiber təhlükəsizlik sahəsi sürətlə inkişaf edir. Bu bloq və təlimlər:
+Bugünkü rəqəmsal dünyada <strong>cyber təhlükəsizlik</strong> hər bir təşkilat və fərd üçün həyati önəm daşıyır. Bu platforma sizə:
 
-- Tələbələrə **praktik biliklər və real-world ssenarilər** təqdim edir  
-- Peşəkarların işlərinə uyğun **penetrasiya testləri və müdafiə strategiyaları** öyrədir  
-- **Red Team və Blue Team metodlarını praktikada necə tətbiq etmək** göstərir  
-- **CEH, OSCP və MITRE ATT&CK** kimi beynəlxalq sertifikatlara hazırlıqda dəstək olur  
-- Sosial mühəndislik hücumlarının qarşısını alma yollarını açıq şəkildə izah edir  
-
----
-
-## Təcrübə sahələrim və təlim mövzularım
-
-🔐 **Red Team əməliyyatları:** Hədəf sistemlərin zəifliklərinin aşkarlanması, sosial mühəndislik, real-world penetrasiya testləri.  
-
-🛡️ **Blue Team müdafiəsi:** SIEM inteqrasiyası, log təhlili, hücumların aşkarlanması və qarşısının alınması strategiyaları.  
-
-🧪 **Penetrasiya testləri:** Web tətbiqləri, şəbəkələr, API-lər üzərində OWASP Top 10 əsasında testlərin keçirilməsi.  
-
-🎓 **Təlim və mentorluq:** Red Team/Blue Team kursları, CEH, OSCP, Cyber Kill Chain, MITRE ATT&CK üzrə təlimlər və praktiki məşğələlər.
+- 🌐 <strong>Web təhlükəsizlik kursları</strong> ilə OWASP Top 10 zəifliklərini öyrədir  
+- 🚨 <strong>Penetrasiya testləri və Red Team təlimləri</strong> üzrə real hücum texnikalarını təqdim edir  
+- 🛡️ <strong>Blue Team müdafiəsi və SIEM platformaları</strong> ilə müdafiə bacarıqlarınızı inkişaf etdirir  
+- 🎓 <strong>CEH, OSCP, Security+ və eJPT</strong> kimi beynəlxalq sertifikatlara hazırlıq təmin edir  
+- 📚 <strong>Praktiki dərslər və CTF tapşırıqları</strong> ilə biliklərinizi dərhal tətbiq etməyə imkan verir  
 
 ---
 
-## Tez-tez verilən suallar (FAQ)
+## Mən nə təklif edirəm? – Cyber Təhlükəsizlik üzrə Təlimlər
 
-### Emin bəy kimdir?
-Emin Savaylov — kiber təhlükəsizlik üzrə peşəkar mütəxəssis və təlimatçıdır. Red Team və Blue Team əməliyyatlarında təcrübəsi var.
+🔐 **Red Team və Penetrasiya Testləri:**  
+– Sosial mühəndislik, phishing hücumları, exploit inkişafı, real-world ssenarilər  
+– Kali Linux, Metasploit, Nmap, Burp Suite, Wireshark
 
-### Təlimlər kimlər üçündür?
-Tələbələr, yeni başlayanlar və peşəkarlar üçün nəzərdə tutulub. Praktiki və real dünyadan nümunələr təqdim olunur.
+🛡️ **Blue Team və Müdafiə:**  
+– SIEM sistemləri (Wazuh, Splunk), log təhlili, MITRE ATT&CK tətbiqi  
+– Təcavüz aşkarlanması (IDS/IPS), təhlükəli fəaliyyətlərin təhlili
 
-### Sertifikatlara hazırlıq dəstəyi varmı?
-Bəli, CEH, OSCP və digər beynəlxalq sertifikatlar üzrə təlimlər təşkil edilir.
+🌐 **Web Təhlükəsizlik Kursları:**  
+– OWASP Top 10 zəiflikləri: XSS, SQL Injection, CSRF, RCE və s.  
+– API təhlükəsizliyi, secure coding və DevSecOps praktikası
 
-### Əməkdaşlıq üçün necə əlaqə saxlamaq olar?
-Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə verilib.
-
----
-
-> “Emin bəyin təlimləri sayəsində OSCP sertifikatımı aldım və işimdə böyük uğurlar qazandım!”  
-> — **Aysel Məmmədova, Kiber Təhlükəsizlik Mütəxəssisi**
-
----
-
-## Əlaqə və əməkdaşlıq
-
-📞 Telefon: +994 55 518 25 23  
-✉️ Email: [cyberdersler@gmail.com](mailto:ccybershieldy@gmail.com)  
-🔗 LinkedIn: [linkedin.com/in/emin-savaylov](https://linkedin.com/in/emin-savaylov)  
-💬 WhatsApp: [Birbaşa yaz](https://wa.me/994555182523?text=Salam%2C%20Emin%20bəy%21)
+🎓 **Mentorluq və Sertifikat Dəstəyi:**  
+– CEH, OSCP, eJPT, Security+ hazırlığı  
+– Karyera məsləhətləri, CV yazımı və texniki müsahibə simulyasiyası
 
 ---
 
-<!-- Strukturlaşdırılmış məlumat (JSON-LD) -->
+## Niyə bu kurslar digərlərindən fərqlənir?
 
+✅ Real-case senarilər ilə öyrədici dərslər  
+✅ Həm hücum (Red Team), həm müdafiə (Blue Team) istiqamətli təlimlər  
+✅ Online iştirak və praktiki laboratoriyalar  
+✅ Qapalı Telegram/Discord icması ilə mentor dəstəyi  
+✅ Hər dərs üçün video, PDF və praktiki materiallar
+
+---
+
+## 📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər
+
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik.html)  
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir.html)  
+- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik.html)  
+- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari.html)  
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/şəbəkə-hücumları.html)  
+
+---
+
+## Tez-Tez Verilən Suallar (FAQ)
+
+### 🔹 Emin Savaylov kimdir?  
+Kiber təhlükəsizlik üzrə mütəxəssis və Red Team/Blue Team əməliyyatlarında təcrübəli təlimatçı.
+
+### 🔹 Təlimlər kim üçündür?  
+Tələbələr, yeni başlayanlar və peşəkarlar. Kod bilməyənlər də qoşula bilər.
+
+### 🔹 Sertifikatlara hazırlıq varmı?  
+Bəli. CEH, OSCP, eJPT, CompTIA Security+ və s. üzrə hazırlıq mövcuddur.
+
+### 🔹 Dərslər necə keçirilir?  
+Online Zoom dərsləri, video modullar, real-case laboratoriyalar və CTF-lərlə tədris edilir.
+
+---
+
+---
+
+## 📞 Əlaqə və Qeydiyyat
+
+- 🌐 Rəsmi sayt: [https://cybershieldy.com](https://cybershieldy.com)  
+- 📲 WhatsApp: [+994 55 518 25 23](https://wa.me/994555182523)  
+- 📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)
+
+---
+
+<!-- Strukturlaşdırılmış məlumat (SEO – JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,17 +111,17 @@ Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə veril
   "sameAs": [
     "https://linkedin.com/in/emin-savaylov"
   ],
-  "jobTitle": "Kiber Təhlükəsizlik Mütəxəssisi və Təlimatçı",
-  "description": "Emin Savaylov-un kiber təhlükəsizlik üzrə peşəkar bloqu və təlimləri. Red Team, Blue Team, penetrasiya testləri və sosial mühəndislik üzrə praktik biliklər.",
+  "jobTitle": "Kiber Təhlükəsizlik Təlimçisi",
+  "description": "Emin Savaylov ilə kiber təhlükəsizlik, penetrasiya testləri, web təhlükəsizlik və Red Team üzrə online kurslar və mentorluq.",
   "mainEntity": {
     "@type": "FAQPage",
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Emin bəy kimdir?",
+        "name": "Emin Savaylov kimdir?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Emin Savaylov — kiber təhlükəsizlik üzrə peşəkar mütəxəssis və təlimatçıdır. Red Team və Blue Team əməliyyatlarında təcrübəsi var."
+          "text": "Kiber təhlükəsizlik üzrə mütəxəssis, Red Team və Blue Team əməliyyatlarında təcrübəli təlimatçı və mentor."
         }
       },
       {
@@ -104,23 +129,23 @@ Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə veril
         "name": "Təlimlər kimlər üçündür?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tələbələr, yeni başlayanlar və peşəkarlar üçün nəzərdə tutulub. Praktiki və real dünyadan nümunələr təqdim olunur."
+          "text": "Tələbələr, yeni başlayanlar və peşəkarlar üçün nəzərdə tutulub. Online və fiziki dərslər mövcuddur."
         }
       },
       {
         "@type": "Question",
-        "name": "Sertifikatlara hazırlıq dəstəyi varmı?",
+        "name": "Sertifikatlara hazırlıq təlimləri varmı?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bəli, CEH, OSCP və digər beynəlxalq sertifikatlar üzrə təlimlər təşkil edilir."
+          "text": "Bəli, CEH, OSCP və digər beynəlxalq sertifikatlara hazırlaşdıran proqramlar təqdim olunur."
         }
       },
       {
         "@type": "Question",
-        "name": "Əməkdaşlıq üçün necə əlaqə saxlamaq olar?",
+        "name": "Əlaqə üçün necə müraciət edə bilərəm?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Telefon, email və LinkedIn vasitəsilə əlaqə məlumatları səhifədə verilib."
+          "text": "Telefon, e-poçt və ya WhatsApp vasitəsilə əlaqə saxlaya bilərsiniz."
         }
       }
     ]
