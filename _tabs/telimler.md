@@ -28,7 +28,7 @@ image: /assets/images/stamp_cybershieldy.png
 Uğurlu karyera üçün peşəkar biliklər və **real-world roadmap** əsaslı təlimlər!  
 Ən müasir metodlar, praktik nümunəli təlimlər sizi gözləyir.
 
-![Kibertəhlükəsizlik və Web Developer Təlimləri Banner](/assets/images/training-banner.png "Kibertəhlükəsizlik və Web Developer Təlimləri")
+![Kibertəhlükəsizlik və Web Developer Təlimləri Banner](/assets/images/stamp_cybershieldy.png "Kibertəhlükəsizlik və Web Developer Təlimləri")
 
 ---
 
