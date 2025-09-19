@@ -153,6 +153,94 @@ web developer kursu, proqramlaşdırma təlimi, frontend backend kursları, Reac
 
 ## ❓ Tez-tez Verilən Suallar (FAQ)
 
+Aşağıda **kiber təhlükəsizlik kursları**, **web developer təlimləri**, həmçinin **tədris formatı və qeydiyyat prosesi** ilə bağlı ən çox verilən sualları və cavabları tapa bilərsiniz.
+
+---
+
+### 🔹 Təlimlər necə keçirilir?
+
+**Kurslar tam praktik əsaslıdır.** Təlimlər Zoom platforması üzərindən **online** şəkildə və ya istəyinizə uyğun olaraq **Bakı ofisində** keçirilir.  
+Hər dərs **video şəklində yazılır** və iştirakçılara təqdim olunur. Beləliklə, dərsdən geri qalsanız belə, materiallara istədiyiniz vaxt baxa bilərsiniz.
+
+---
+
+### 🔹 Təlimlərdə iştirak üçün hansı səviyyə lazımdır?
+
+Təlimlər **sıfırdan başlayanlar üçün uyğunlaşdırılıb.** İstər kiber təhlükəsizlik, istərsə də web proqramlaşdırma üzrə **təcrübəsiz şəxslər üçün nəzərdə tutulmuş təməl dərslərlə** başlanır. Əlavə olaraq, təcrübəli iştirakçılar üçün **advanced modullar və lab tapşırıqları** da mövcuddur.
+
+---
+
+### 🔹 Kiber təhlükəsizlik kursu hansı mövzuları əhatə edir?
+
+Kursda CEH, OSCP kimi beynəlxalq imtahanlara hazırlıq ilə yanaşı:
+- Ethical hacking,
+- Penetration testing,
+- Şəbəkə təhlükəsizliyi,
+- Web hücum texnikaları,
+- Exploit development,
+- Forensika və Red Teaming  
+kimi **real-world cybersecurity mövzuları** öyrədilir.
+
+**Açar sözlər:** CEH kursu, OSCP hazırlığı, cybersecurity təlimi, hacker kursu, penetration testing kursu
+
+---
+
+### 🔹 Web developer kursu nəyi öyrədir?
+
+Kurs boyunca siz:
+- HTML, CSS, JavaScript əsasları
+- React.js ilə frontend proqramlaşdırma
+- Node.js və MongoDB ilə backend inkişafı
+- REST API, autentifikasiya və deploy  
+kimi **full-stack proqramlaşdırma bacarıqlarını sıfırdan öyrənəcəksiniz.**
+
+**Açar sözlər:** Web developer kursu, frontend backend təlimi, React və Node.js kursu, full-stack proqramlaşdırma kursları
+
+---
+
+### 🔹 Təlimlər tam praktikdirmi?
+
+Bəli, **hər mövzu üzrə real praktiki lab tapşırıqları, simulyasiyalar və layihələr** verilir.  
+Cybersecurity kurslarında **CTF (Capture The Flag) yarış mühiti**, Web developer kurslarında isə **real layihə və portfolio** hazırlanması həyata keçirilir.
+
+---
+
+### 🔹 Dərs materialları və video yazılar təqdim olunurmu?
+
+Bəli. **Hər dərs video şəklində yazılır** və bütün iştirakçılara təqdim olunur. Əlavə olaraq:
+- PDF konspektlər,
+- Praktik tapşırıqlar,
+- GitHub layihələri və əlavə resurslar da verilir.
+
+---
+
+### 🔹 Təlimlərdən əvvəl sınaq dərs mövcuddurmu?
+
+Bəli, **sınaq dərs pulsuzdur**. Təlimə qoşulmazdan əvvəl istəyə uyğun olaraq **demo dərsə qatılıb tədris metodikası ilə tanış ola bilərsiniz.**
+
+---
+
+### 🔹 Təlimlərin sonunda sertifikat verilir?
+
+Bəli. Təlimin sonunda iştirakçılara **rəqəmsal sertifikat** təqdim olunur. Əgər CEH, OSCP və ya digər beynəlxalq imtahanlara hazırlaşırsınızsa, sizə yönəlik **imtahan öncəsi dəstək** və **sınaq testləri** də təklif olunur.
+
+---
+
+### 🔹 Təlimi bitirdikdən sonra işə düzəlməkdə dəstək verilir?
+
+Bəli, **CV və LinkedIn profil optimizasiyası**, **portfel hazırlanması** və **intervyu məşqləri** vasitəsilə iştirakçılara **karyera dəstəyi** göstərilir.
+
+---
+
+### 🔹 Təlimlərə necə qeydiyyatdan keçə bilərəm?
+
+Sadəcə **WhatsApp vasitəsilə bizimlə əlaqə saxlayın** və sizi uyğun qrupa əlavə edək:
+
+📲 [Kiber Təhlükəsizlik Kursuna Yazıl](https://wa.me/994555182523?text=Kiber+T%C9%99hl%C3%BCk%C9%99sizlik+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)  
+📲 [Web Developer Kursuna Yazıl](https://wa.me/994555182523?text=Web+Developer+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
+
+---
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -160,31 +248,40 @@ web developer kursu, proqramlaşdırma təlimi, frontend backend kursları, Reac
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Kiber təhlükəsizlik kursu kimlər üçündür?",
+      "name": "Təlimlər necə keçirilir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yeni başlayanlar, IT sahəsində çalışanlar, CEH və OSCP kimi imtahanlara hazırlaşanlar üçün uyğundur."
+        "text": "Təlimlər online Zoom üzərindən və ya Bakı ofisində keçirilir. Hər dərs video ilə yazılır və tələbələrə təqdim olunur. Praktik əsaslı öyrədilir."
       }
     },
     {
       "@type": "Question",
-      "name": "Web developer kursuna necə başlaya bilərəm?",
+      "name": "Təlimlərdə iştirak üçün əvvəlcədən bilik lazımdır?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "WhatsApp vasitəsilə bizimlə əlaqə saxlayın. Sıfırdan başlamağınız üçün xüsusi qruplar var."
+        "text": "Xeyr. Təlimlər sıfırdan başlayanlar üçün nəzərdə tutulub və tədricən professional səviyyəyə yüksəlir."
       }
     },
     {
       "@type": "Question",
-      "name": "Online dərslər necə keçirilir?",
+      "name": "Sınaq dərs varmı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Zoom platformasında keçirilir. Dərs yazıları təqdim olunur və mentorlar daim aktivdir."
+        "text": "Bəli. Sınaq dərs pulsuzdur və qoşulmaq üçün sadəcə WhatsApp ilə əlaqə saxlamanız kifayətdir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Təlimin sonunda sertifikat verilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bəli. Rəqəmsal sertifikat təqdim olunur və istəyə əsasən CEH, OSCP imtahanlarına yönəlik dəstək də verilir."
       }
     }
   ]
 }
 </script>
+
 
 ---
 
