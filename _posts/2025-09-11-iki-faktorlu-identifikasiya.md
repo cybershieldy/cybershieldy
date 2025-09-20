@@ -12,7 +12,7 @@ permalink: /posts/iki-faktorlu-identifikasiya
 
 > **🔎 SERP Preview (Google axtarış nəticəsində necə görünür):**  
 > **İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım**  
-> https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html  
+> https://cybershieldy.com/posts/iki-faktorlu-identifikasiya
 > İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.
 
 
