@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T17:21:19+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-18T22:13:10+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T17:32:08+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
@@ -213,12 +213,69 @@ typeMessage(messages[idx]);
     "@id": "https://cybershieldy.com/vpn-firmware-wifi-tehlukesizlik"
   }
 }
-</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="şəxsi təhlükəsizlik" /><category term="vpn" /><category term="firmware yeniləmələri" /><category term="wifi təhlükəsizliyi" /><category term="router qorunması" /><category term="şifrləmə" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Wi-Fi təhlükəsizliyi üçün VPN istifadəsi və firmware yeniləmələrinin vacibliyini kəşf edin. 2025-ci ilin yenilənmiş tövsiyələri ilə şəxsi və korporativ şəbəkənizi qorumağın effektiv yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/vpn.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/vpn.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</title><link href="https://cybershieldy.com/posts/wifi-trafik-hucumlari.html" rel="alternate" type="text/html" title="Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)" /><published>2025-09-18T12:00:00+04:00</published><updated>2025-09-18T22:19:45+04:00</updated><id>https://cybershieldy.com/posts/wifi-trafik-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-trafik-hucumlari.html"><![CDATA[<h1 id="wi-fi-trafik-hücumları-deauth-sniffing-və-krack-taktikası-ilə-geniş-hücum-ssenarisi-2025">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</h1>
+</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="şəxsi təhlükəsizlik" /><category term="vpn" /><category term="firmware yeniləmələri" /><category term="wifi təhlükəsizliyi" /><category term="router qorunması" /><category term="şifrləmə" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Wi-Fi təhlükəsizliyi üçün VPN istifadəsi və firmware yeniləmələrinin vacibliyini kəşf edin. 2025-ci ilin yenilənmiş tövsiyələri ilə şəxsi və korporativ şəbəkənizi qorumağın effektiv yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/vpn.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/vpn.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</title><link href="https://cybershieldy.com/posts/wifi-trafik-hucumlari" rel="alternate" type="text/html" title="Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)" /><published>2025-09-18T12:00:00+04:00</published><updated>2025-09-18T22:19:45+04:00</updated><id>https://cybershieldy.com/posts/wifi-trafik-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-trafik-hucumlari"><![CDATA[<h1 id="wi-fi-trafik-hücumları-deauth-sniffing-və-krack-taktikası-ilə-geniş-hücum-ssenarisi-2025">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
 <strong>Yazı tipi:</strong> Təhlükəsizlik Hücum Ssenarisi və Texniki Təhlil</p>
 </blockquote>
+
+<div id="terminal2"></div>
+
+<script>
+const messages2 = [
+  "Initializing Wi-Fi attack simulation...",
+  "Launching deauthentication packets...",
+  "Sniffing handshake traffic...",
+  "KRACK vulnerability being exploited...",
+  "Red Team active | Blue Team responding...",
+  "CyberShieldy.com | Defense starts here"
+];
+
+let idx2 = 0;
+const terminal2 = document.getElementById('terminal2');
+const typingSpeed2 = 100;
+
+function typeMessage2(msg, i = 0) {
+  if (i < msg.length) {
+    terminal2.textContent += msg.charAt(i);
+    setTimeout(() => typeMessage2(msg, i + 1), typingSpeed2);
+  } else {
+    setTimeout(() => {
+      eraseMessage2(msg.length);
+    }, 1200);
+  }
+}
+
+function eraseMessage2(len) {
+  if (len > 0) {
+    terminal2.textContent = terminal2.textContent.slice(0, -1);
+    setTimeout(() => eraseMessage2(len - 1), typingSpeed2 / 2);
+  } else {
+    idx2 = (idx2 + 1) % messages2.length;
+    typeMessage2(messages2[idx2]);
+  }
+}
+
+typeMessage2(messages2[idx2]);
+</script>
+
+<style>
+#terminal2 {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background: #000;
+  color: #00ffcc;
+  padding: 12px 18px;
+  border-radius: 5px;
+  width: max-content;
+  min-width: 340px;
+  height: 1.4em;
+  margin-bottom: 24px;
+  box-shadow: 0 0 12px #00ffcc;
+  text-shadow: 0 0 6px #00ffcc;
+}
+</style>
 
 <hr />
 

@@ -7,13 +7,71 @@ tags: [deauth attack, sniffing, krack, wifi zəifliyi, wpa2, packet capture, red
 description: "Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi."
 image: /assets/images/snifing.webp
 canonical: https://cybershieldy.com/wifi-trafik-hucumlari-2025
-permalink: /posts/wifi-trafik-hucumlari.html
+permalink: /posts/wifi-trafik-hucumlari
 ---
 
 # Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)
 
 > **Son Yenilənmə:** 18 Sentyabr 2025  
 > **Yazı tipi:** Təhlükəsizlik Hücum Ssenarisi və Texniki Təhlil
+
+<div id="terminal2"></div>
+
+<script>
+const messages2 = [
+  "Initializing Wi-Fi attack simulation...",
+  "Launching deauthentication packets...",
+  "Sniffing handshake traffic...",
+  "KRACK vulnerability being exploited...",
+  "Red Team active | Blue Team responding...",
+  "CyberShieldy.com | Defense starts here"
+];
+
+let idx2 = 0;
+const terminal2 = document.getElementById('terminal2');
+const typingSpeed2 = 100;
+
+function typeMessage2(msg, i = 0) {
+  if (i < msg.length) {
+    terminal2.textContent += msg.charAt(i);
+    setTimeout(() => typeMessage2(msg, i + 1), typingSpeed2);
+  } else {
+    setTimeout(() => {
+      eraseMessage2(msg.length);
+    }, 1200);
+  }
+}
+
+function eraseMessage2(len) {
+  if (len > 0) {
+    terminal2.textContent = terminal2.textContent.slice(0, -1);
+    setTimeout(() => eraseMessage2(len - 1), typingSpeed2 / 2);
+  } else {
+    idx2 = (idx2 + 1) % messages2.length;
+    typeMessage2(messages2[idx2]);
+  }
+}
+
+typeMessage2(messages2[idx2]);
+</script>
+
+<style>
+#terminal2 {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background: #000;
+  color: #00ffcc;
+  padding: 12px 18px;
+  border-radius: 5px;
+  width: max-content;
+  min-width: 340px;
+  height: 1.4em;
+  margin-bottom: 24px;
+  box-shadow: 0 0 12px #00ffcc;
+  text-shadow: 0 0 6px #00ffcc;
+}
+</style>
+
 
 ---
 

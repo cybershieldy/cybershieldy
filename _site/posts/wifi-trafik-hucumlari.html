@@ -27,8 +27,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi." />
 <meta property="og:description" content="Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi." />
-<link rel="canonical" href="https://cybershieldy.com/posts/wifi-trafik-hucumlari.html" />
-<meta property="og:url" content="https://cybershieldy.com/posts/wifi-trafik-hucumlari.html" />
+<link rel="canonical" href="https://cybershieldy.com/posts/wifi-trafik-hucumlari" />
+<meta property="og:url" content="https://cybershieldy.com/posts/wifi-trafik-hucumlari" />
 <meta property="og:site_name" content="Cybershieldy – Emin Savaylov" />
 <meta property="og:image" content="https://cybershieldy.com/assets/images/snifing.webp" />
 <meta property="og:type" content="article" />
@@ -38,7 +38,7 @@
 <meta property="twitter:title" content="Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-18T22:19:45+04:00","datePublished":"2025-09-18T12:00:00+04:00","description":"Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.","headline":"Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)","image":"https://cybershieldy.com/assets/images/snifing.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/wifi-trafik-hucumlari.html"},"url":"https://cybershieldy.com/posts/wifi-trafik-hucumlari.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-18T22:19:45+04:00","datePublished":"2025-09-18T12:00:00+04:00","description":"Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.","headline":"Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)","image":"https://cybershieldy.com/assets/images/snifing.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/wifi-trafik-hucumlari"},"url":"https://cybershieldy.com/posts/wifi-trafik-hucumlari"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1133,6 +1133,63 @@
 <strong>Yazı tipi:</strong> Təhlükəsizlik Hücum Ssenarisi və Texniki Təhlil</p>
 </blockquote>
 
+<div id="terminal2"></div>
+
+<script>
+const messages2 = [
+  "Initializing Wi-Fi attack simulation...",
+  "Launching deauthentication packets...",
+  "Sniffing handshake traffic...",
+  "KRACK vulnerability being exploited...",
+  "Red Team active | Blue Team responding...",
+  "CyberShieldy.com | Defense starts here"
+];
+
+let idx2 = 0;
+const terminal2 = document.getElementById('terminal2');
+const typingSpeed2 = 100;
+
+function typeMessage2(msg, i = 0) {
+  if (i < msg.length) {
+    terminal2.textContent += msg.charAt(i);
+    setTimeout(() => typeMessage2(msg, i + 1), typingSpeed2);
+  } else {
+    setTimeout(() => {
+      eraseMessage2(msg.length);
+    }, 1200);
+  }
+}
+
+function eraseMessage2(len) {
+  if (len > 0) {
+    terminal2.textContent = terminal2.textContent.slice(0, -1);
+    setTimeout(() => eraseMessage2(len - 1), typingSpeed2 / 2);
+  } else {
+    idx2 = (idx2 + 1) % messages2.length;
+    typeMessage2(messages2[idx2]);
+  }
+}
+
+typeMessage2(messages2[idx2]);
+</script>
+
+<style>
+#terminal2 {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background: #000;
+  color: #00ffcc;
+  padding: 12px 18px;
+  border-radius: 5px;
+  width: max-content;
+  min-width: 340px;
+  height: 1.4em;
+  margin-bottom: 24px;
+  box-shadow: 0 0 12px #00ffcc;
+  text-shadow: 0 0 6px #00ffcc;
+}
+</style>
+
 <hr />
 
 <h2 id="-vizual-görüntü"><span class="me-2">📷 Vizual Görüntü</span><a href="#-vizual-görüntü" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -1373,21 +1430,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Wi-Fi%20Trafik%20H%C3%BCcumlar%C4%B1:%20Deauth,%20Sniffing%20v%C9%99%20KRACK%20Taktikas%C4%B1%20il%C9%99%20Geni%C5%9F%20H%C3%BCcum%20Ssenarisi%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fwifi-trafik-hucumlari.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Wi-Fi%20Trafik%20H%C3%BCcumlar%C4%B1:%20Deauth,%20Sniffing%20v%C9%99%20KRACK%20Taktikas%C4%B1%20il%C9%99%20Geni%C5%9F%20H%C3%BCcum%20Ssenarisi%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fwifi-trafik-hucumlari" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Wi-Fi%20Trafik%20H%C3%BCcumlar%C4%B1:%20Deauth,%20Sniffing%20v%C9%99%20KRACK%20Taktikas%C4%B1%20il%C9%99%20Geni%C5%9F%20H%C3%BCcum%20Ssenarisi%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fwifi-trafik-hucumlari.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Wi-Fi%20Trafik%20H%C3%BCcumlar%C4%B1:%20Deauth,%20Sniffing%20v%C9%99%20KRACK%20Taktikas%C4%B1%20il%C9%99%20Geni%C5%9F%20H%C3%BCcum%20Ssenarisi%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fwifi-trafik-hucumlari" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fwifi-trafik-hucumlari.html&text=Wi-Fi%20Trafik%20H%C3%BCcumlar%C4%B1:%20Deauth,%20Sniffing%20v%C9%99%20KRACK%20Taktikas%C4%B1%20il%C9%99%20Geni%C5%9F%20H%C3%BCcum%20Ssenarisi%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fwifi-trafik-hucumlari&text=Wi-Fi%20Trafik%20H%C3%BCcumlar%C4%B1:%20Deauth,%20Sniffing%20v%C9%99%20KRACK%20Taktikas%C4%B1%20il%C9%99%20Geni%C5%9F%20H%C3%BCcum%20Ssenarisi%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1442,6 +1499,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/vpn-firmware-wifi-tehlukesizlik">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/wifi-hucumlari/">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</a>
         </li>
       
@@ -1463,14 +1527,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/wifi-trafik-hucumlari.html">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/vpn-firmware-wifi-tehlukesizlik">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</a>
+          <a href="/posts/wifi-trafik-hucumlari">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</a>
         </li>
       
     </ul>
