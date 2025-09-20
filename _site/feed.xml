@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T17:45:13+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T17:53:53+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
@@ -422,7 +422,7 @@ typeMessage2(messages2[idx2]);
     "@id": "https://cybershieldy.com/wifi-trafik-hucumlari-2025"
   }
 }
-</script>]]></content><author><name></name></author><category term="wifi hücumları" /><category term="şəbəkə təhlükəsizliyi" /><category term="deauth attack" /><category term="sniffing" /><category term="krack" /><category term="wifi zəifliyi" /><category term="wpa2" /><category term="packet capture" /><category term="red team" /><category term="wifi trafik hücumları" /><summary type="html"><![CDATA[Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/snifing.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/snifing.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</title><link href="https://cybershieldy.com/posts/evil-twin-hucumlari" rel="alternate" type="text/html" title="Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)" /><published>2025-09-18T09:00:00+04:00</published><updated>2025-09-20T17:42:01+04:00</updated><id>https://cybershieldy.com/posts/evil-twin-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/evil-twin-hucumlari"><![CDATA[<h1 id="evil-twin-hücumları-nədir-real-ssenari-fəaliyyət-prinsipi-və-qorunma-yolları-2025-bələdçisi">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</h1>
+</script>]]></content><author><name></name></author><category term="wifi hücumları" /><category term="şəbəkə təhlükəsizliyi" /><category term="deauth attack" /><category term="sniffing" /><category term="krack" /><category term="wifi zəifliyi" /><category term="wpa2" /><category term="packet capture" /><category term="red team" /><category term="wifi trafik hücumları" /><summary type="html"><![CDATA[Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/snifing.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/snifing.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</title><link href="https://cybershieldy.com/posts/evil-twin-hucumlari" rel="alternate" type="text/html" title="Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)" /><published>2025-09-18T09:00:00+04:00</published><updated>2025-09-20T17:45:17+04:00</updated><id>https://cybershieldy.com/posts/evil-twin-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/evil-twin-hucumlari"><![CDATA[<h1 id="evil-twin-hücumları-nədir-real-ssenari-fəaliyyət-prinsipi-və-qorunma-yolları-2025-bələdçisi">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
@@ -634,7 +634,7 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
     "@id": "https://cybershieldy.com/evil-twin-hucumlari-2025"
   }
 }
-</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="wifi hücumları" /><category term="evil twin" /><category term="wifi hücumları" /><category term="fake access point" /><category term="sniffing" /><category term="phishing" /><category term="red team" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/evil1.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/evil1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir.html" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T23:16:57+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir.html"><![CDATA[<!-- Structured data -->
+</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="wifi hücumları" /><category term="evil twin" /><category term="wifi hücumları" /><category term="fake access point" /><category term="sniffing" /><category term="phishing" /><category term="red team" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/evil1.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/evil1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/siem-nedir" rel="alternate" type="text/html" title="SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)" /><published>2025-09-15T10:00:00+04:00</published><updated>2025-09-15T23:16:57+04:00</updated><id>https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/siem-nedir"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -668,6 +668,73 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
 <p>Kibertəhlükəsizlik dünyasında <strong>SIEM</strong> (Security Information and Event Management) sistemləri artıq yalnız böyük şirkətlərin deyil, orta və kiçik bizneslərin də gündəminə gəlib. Bu yazıda <strong>SIEM nədir</strong>, necə işləyir, və <strong>Snort</strong> və <strong>Suricata</strong> kimi populyar açıq mənbə təhlükəsizlik alətləri ilə necə inteqrasiya oluna bilər - geniş şəkildə öyrənəcəyik.</p>
 
 <hr />
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Launching Evil Twin Attack...",
+  "Creating Fake Access Point...",
+  "Sniffing User Traffic...",
+  "Phishing Page Active...",
+  "Red Team Engaged | Blue Team Alerted...",
+  "CyberShieldy.com | Stay Secure"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 <h2 id="siem-nədir">SIEM nədir?</h2>
 
@@ -850,7 +917,7 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
 <hr />
 
 <p><strong>Müəllif:</strong> Emin Savaylov<br />
-<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-17T20:18:57+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"><![CDATA[<blockquote>
+<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-17T20:18:57+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"><![CDATA[<blockquote>
   <p><strong>🔎 SERP Preview (Google axtarış nəticəsində necə görünür):</strong><br />
 <strong>İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</strong><br />
 https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html<br />

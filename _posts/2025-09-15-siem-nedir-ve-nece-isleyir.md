@@ -6,8 +6,8 @@ categories: [kibertəhlükəsizlik, təhlükəsizlik alətləri]
 tags: [SIEM, Snort, Suricata, IDS, IPS, log analizi, SIEM nədir, SOC, mərkəzləşdirilmiş monitorinq, real-time təhlil]
 description: "SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah."
 image: /assets/images/siem.webp
-canonical: https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html
-permalink: /posts/siem-nedir.html
+canonical: https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir
+permalink: /posts/siem-nedir
 ---
 <!-- Structured data -->
 <script type="application/ld+json">
@@ -43,6 +43,74 @@ permalink: /posts/siem-nedir.html
 Kibertəhlükəsizlik dünyasında **SIEM** (Security Information and Event Management) sistemləri artıq yalnız böyük şirkətlərin deyil, orta və kiçik bizneslərin də gündəminə gəlib. Bu yazıda **SIEM nədir**, necə işləyir, və **Snort** və **Suricata** kimi populyar açıq mənbə təhlükəsizlik alətləri ilə necə inteqrasiya oluna bilər - geniş şəkildə öyrənəcəyik.
 
 ---
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Launching Evil Twin Attack...",
+  "Creating Fake Access Point...",
+  "Sniffing User Traffic...",
+  "Phishing Page Active...",
+  "Red Team Engaged | Blue Team Alerted...",
+  "CyberShieldy.com | Stay Secure"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
 
 ## SIEM nədir?
 
@@ -167,5 +235,5 @@ Snort və Suricata aşağıdakı məşhur SIEM platformaları ilə inteqrasiya o
 ---
 
 **Müəllif:** Emin Savaylov  
-**Mənbə:** [CyberShieldy.com](https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir.html)
+**Mənbə:** [CyberShieldy.com](https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir)
 
