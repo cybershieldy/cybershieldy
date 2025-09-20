@@ -6,14 +6,84 @@ categories: [kiber təhlükəsizlik, autentifikasiya]
 tags: [iki faktorlu identifikasiya, 2FA, giriş təhlükəsizliyi, kibertəhlükəsizlik, sms doğrulama, autentifikasiya metodları, hesab qorunması, cybersecurity 2025]
 description: "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda."
 image: /assets/images/12.webp
-canonical: https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html
-permalink: /posts/iki-faktorlu-identifikasiya.html
+canonical: https://cybershieldy.com/posts/iki-faktorlu-identifikasiya
+permalink: /posts/iki-faktorlu-identifikasiya
 ---
 
 > **🔎 SERP Preview (Google axtarış nəticəsində necə görünür):**  
 > **İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım**  
 > https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html  
 > İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.
+
+
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Verifying Password...",
+  "Sending Verification Code via SMS...",
+  "Authenticator App Code Required...",
+  "Biometric Verification in Progress...",
+  "Access Granted ✅ Two-Factor Auth Success",
+  "CyberShieldy.com | Stay Secure with 2FA"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 <script type="application/ld+json">
 {
@@ -38,7 +108,7 @@ permalink: /posts/iki-faktorlu-identifikasiya.html
   "image": "https://cybershieldy.com/assets/images/234.webp",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"
+    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"
   }
 }
 </script>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T18:46:21+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T21:55:22+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
@@ -917,12 +917,80 @@ typeNeon(neonMessages[neonIndex]);
 <hr />
 
 <p><strong>Müəllif:</strong> Emin Savaylov<br />
-<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-17T20:18:57+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"><![CDATA[<blockquote>
+<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-17T20:18:57+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"><![CDATA[<blockquote>
   <p><strong>🔎 SERP Preview (Google axtarış nəticəsində necə görünür):</strong><br />
 <strong>İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</strong><br />
 https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html<br />
 İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.</p>
 </blockquote>
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Verifying Password...",
+  "Sending Verification Code via SMS...",
+  "Authenticator App Code Required...",
+  "Biometric Verification in Progress...",
+  "Access Granted ✅ Two-Factor Auth Success",
+  "CyberShieldy.com | Stay Secure with 2FA"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 <script type="application/ld+json">
 {
@@ -947,7 +1015,7 @@ https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html<br />
   "image": "https://cybershieldy.com/assets/images/234.webp",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html"
+    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"
   }
 }
 </script>
@@ -1008,7 +1076,7 @@ https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html<br />
 
 <hr />
 
-<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:42:12+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<script type="application/ld+json">
+<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:46:25+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
