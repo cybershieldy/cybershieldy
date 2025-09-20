@@ -67,16 +67,14 @@ typeNeon(neonMessages[neonIndex]);
   min-width: 350px;
   height: 1.6em;
   margin-bottom: 25px;
-  box-shadow:
-    0 0 10px #39ff14,
-    0 0 20px #39ff14,
-    0 0 30px #39ff14,
-    0 0 40px #39ff14;
-  text-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14,
-    0 0 20px #39ff14,
-    0 0 40px #00ff00;
+ box-shadow:
+  0 0 5px #39ff14,
+  0 0 10px #39ff14;
+
+text-shadow:
+  0 0 3px #39ff14,
+  0 0 6px #39ff14;
+
   overflow: hidden;
   user-select: none;
 }
