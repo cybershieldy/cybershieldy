@@ -7,7 +7,7 @@ tags: [kibertəhlükəsizlik, cyber security, hacking, phishing, ransomware, mal
 description: "Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları."
 image: /assets/images/934.webp
 canonical: https://cybershieldy.com/posts/kiber-cybersecurity-2025.html
-permalink: /posts/kiber-cybersecurity-2025.html
+permalink: /posts/kiber-cybersecurity-2025
 ---
 
 
@@ -23,13 +23,83 @@ permalink: /posts/kiber-cybersecurity-2025.html
   "datePublished": "2025-09-09T18:00:00+04:00",
   "dateModified": "2025-09-09T18:00:00+04:00",
   "image": "https://cybershieldy.com/assets/images/kiber-cybersecurity-2025.jpg",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/kiber-cybersecurity-2025.html" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/kiber-cybersecurity-2025" }
 }
 </script>
 
 # Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları
 
 Kibertəhlükəsizlik (**cybersecurity**) 2025-ci ildə tələbələr, IT mütəxəssislər və peşəkar hackerlər üçün həyati əhəmiyyət daşıyır. Bu yazıda ən çox rast gəlinən **phishing**, **ransomware**, **malware**, **Wi-Fi hücumları**, həmçinin **red team / blue team** metodları və **penetration testing** strategiyaları izah olunur.
+
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "🔐 Phishing Attempts Detected...",
+  "🛡️ Ransomware Blocked by Endpoint Security...",
+  "📡 Monitoring Public Wi-Fi Attacks...",
+  "💣 Malware Neutralized with Real-Time Protection...",
+  "🧠 Red Team Running Pentest Simulation...",
+  "🔎 SOC Team Analyzing Suspicious Traffic...",
+  "🔒 CyberShieldy.com | Empowering Cybersecurity 2025"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 ---
 
@@ -106,9 +176,9 @@ Kibertəhlükəsizlik və **cybersecurity** — tələbələr, IT peşəkarları
 
 ## 📚 Oxşar Yazılar
 
-- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/şəbəkə-hücumları.html)  
-- [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/sosial-mühəndislik.html)  
-- [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari.html)
+- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/sebeke-hucumlari)  
+- [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/sosial-muhəndislik)  
+- [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari)
 
 ---
 

@@ -27,8 +27,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları." />
 <meta property="og:description" content="Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları." />
-<link rel="canonical" href="https://cybershieldy.com/posts/kiber-cybersecurity-2025.html" />
-<meta property="og:url" content="https://cybershieldy.com/posts/kiber-cybersecurity-2025.html" />
+<link rel="canonical" href="https://cybershieldy.com/posts/kiber-cybersecurity-2025" />
+<meta property="og:url" content="https://cybershieldy.com/posts/kiber-cybersecurity-2025" />
 <meta property="og:site_name" content="Cybershieldy – Emin Savaylov" />
 <meta property="og:image" content="https://cybershieldy.com/assets/images/934.webp" />
 <meta property="og:type" content="article" />
@@ -38,7 +38,7 @@
 <meta property="twitter:title" content="Kibertəhlükəsizlik 2025: Ən Tez-Tez Görülən Hücumlar və Müdafiə Yolları" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-17T20:48:22+04:00","datePublished":"2025-09-09T18:00:00+04:00","description":"Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.","headline":"Kibertəhlükəsizlik 2025: Ən Tez-Tez Görülən Hücumlar və Müdafiə Yolları","image":"https://cybershieldy.com/assets/images/934.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/kiber-cybersecurity-2025.html"},"url":"https://cybershieldy.com/posts/kiber-cybersecurity-2025.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-17T20:48:22+04:00","datePublished":"2025-09-09T18:00:00+04:00","description":"Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.","headline":"Kibertəhlükəsizlik 2025: Ən Tez-Tez Görülən Hücumlar və Müdafiə Yolları","image":"https://cybershieldy.com/assets/images/934.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/kiber-cybersecurity-2025"},"url":"https://cybershieldy.com/posts/kiber-cybersecurity-2025"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1043,13 +1043,82 @@
   "datePublished": "2025-09-09T18:00:00+04:00",
   "dateModified": "2025-09-09T18:00:00+04:00",
   "image": "https://cybershieldy.com/assets/images/kiber-cybersecurity-2025.jpg",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/kiber-cybersecurity-2025.html" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/kiber-cybersecurity-2025" }
 }
 </script>
 
 <h1 id="kibertəhlükəsizlik-və-cybersecurity-2025-ən-böyük-hücum-növləri-və-müdafiə-yolları">Kibertəhlükəsizlik və Cybersecurity 2025: Ən Böyük Hücum Növləri və Müdafiə Yolları</h1>
 
 <p>Kibertəhlükəsizlik (<strong>cybersecurity</strong>) 2025-ci ildə tələbələr, IT mütəxəssislər və peşəkar hackerlər üçün həyati əhəmiyyət daşıyır. Bu yazıda ən çox rast gəlinən <strong>phishing</strong>, <strong>ransomware</strong>, <strong>malware</strong>, <strong>Wi-Fi hücumları</strong>, həmçinin <strong>red team / blue team</strong> metodları və <strong>penetration testing</strong> strategiyaları izah olunur.</p>
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "🔐 Phishing Attempts Detected...",
+  "🛡️ Ransomware Blocked by Endpoint Security...",
+  "📡 Monitoring Public Wi-Fi Attacks...",
+  "💣 Malware Neutralized with Real-Time Protection...",
+  "🧠 Red Team Running Pentest Simulation...",
+  "🔎 SOC Team Analyzing Suspicious Traffic...",
+  "🔒 CyberShieldy.com | Empowering Cybersecurity 2025"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 <hr />
 
@@ -1158,9 +1227,9 @@
 <h2 id="-oxşar-yazılar"><span class="me-2">📚 Oxşar Yazılar</span><a href="#-oxşar-yazılar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
-  <li><a href="/posts/şəbəkə-hücumları.html">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
-  <li><a href="/posts/sosial-mühəndislik.html">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari.html">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
+  <li><a href="/posts/sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+  <li><a href="/posts/sosial-muhəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
+  <li><a href="/posts/wifi-hucumlari">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
 </ul>
 
 <hr />
@@ -1293,21 +1362,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Kibert%C9%99hl%C3%BCk%C9%99sizlik%202025:%20%C6%8Fn%20Tez-Tez%20G%C3%B6r%C3%BCl%C9%99n%20H%C3%BCcumlar%20v%C9%99%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fkiber-cybersecurity-2025.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Kibert%C9%99hl%C3%BCk%C9%99sizlik%202025:%20%C6%8Fn%20Tez-Tez%20G%C3%B6r%C3%BCl%C9%99n%20H%C3%BCcumlar%20v%C9%99%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fkiber-cybersecurity-2025" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Kibert%C9%99hl%C3%BCk%C9%99sizlik%202025:%20%C6%8Fn%20Tez-Tez%20G%C3%B6r%C3%BCl%C9%99n%20H%C3%BCcumlar%20v%C9%99%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fkiber-cybersecurity-2025.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Kibert%C9%99hl%C3%BCk%C9%99sizlik%202025:%20%C6%8Fn%20Tez-Tez%20G%C3%B6r%C3%BCl%C9%99n%20H%C3%BCcumlar%20v%C9%99%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fkiber-cybersecurity-2025" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fkiber-cybersecurity-2025.html&text=Kibert%C9%99hl%C3%BCk%C9%99sizlik%202025:%20%C6%8Fn%20Tez-Tez%20G%C3%B6r%C3%BCl%C9%99n%20H%C3%BCcumlar%20v%C9%99%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fkiber-cybersecurity-2025&text=Kibert%C9%99hl%C3%BCk%C9%99sizlik%202025:%20%C6%8Fn%20Tez-Tez%20G%C3%B6r%C3%BCl%C9%99n%20H%C3%BCcumlar%20v%C9%99%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
