@@ -61,24 +61,30 @@ typeNeon(neonMessages[neonIndex]);
   white-space: nowrap;
   background-color: #000;
   color: #39ff14;
-  padding: 14px 20px;
+  padding: 10px 20px;
   border-radius: 8px;
   width: max-content;
   min-width: 350px;
-  height: 1.6em;
+  height: auto;
+  line-height: 1.6em;
   margin-bottom: 25px;
- box-shadow:
-  0 0 5px #39ff14,
-  0 0 10px #39ff14;
 
-text-shadow:
-  0 0 3px #39ff14,
-  0 0 6px #39ff14;
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
 
   overflow: hidden;
   user-select: none;
+
+  display: flex;
+  align-items: center;
 }
 </style>
+
 
 
 ---
