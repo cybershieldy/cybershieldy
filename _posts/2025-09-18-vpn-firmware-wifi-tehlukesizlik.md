@@ -7,13 +7,67 @@ tags: [vpn, firmware yeniləmələri, wifi təhlükəsizliyi, router qorunması,
 description: "Wi-Fi təhlükəsizliyi üçün VPN istifadəsi və firmware yeniləmələrinin vacibliyini kəşf edin. 2025-ci ilin yenilənmiş tövsiyələri ilə şəxsi və korporativ şəbəkənizi qorumağın effektiv yolları."
 image: /assets/images/vpn.webp
 canonical: https://cybershieldy.com/vpn-firmware-wifi-tehlukesizlik
-permalink: /posts/vpn-firmware-wifi-tehlukesizlik.html
+permalink: /posts/vpn-firmware-wifi-tehlukesizlik
 ---
 
 # Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)
 
 > **Son Yenilənmə:** 18 Sentyabr 2025  
 > **Yazı tipi:** Maarifləndirici / Texniki Təhlükəsizlik Təlimatı
+<div id="terminal"></div>
+
+<script>
+const messages = [
+  "Starting Cybersecurity Training...",
+  "Scanning vulnerable routers...",
+  "Deploying VPN tunnel...",
+  "Updating router firmware...",
+  "Secure Wi-Fi initialized!",
+  "Visit CyberShieldy.com for full course."
+];
+
+let idx = 0;
+const terminal = document.getElementById('terminal');
+const typingSpeed = 100;
+
+function typeMessage(msg, i = 0) {
+  if (i < msg.length) {
+    terminal.textContent += msg.charAt(i);
+    setTimeout(() => typeMessage(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => {
+      eraseMessage(msg.length);
+    }, 1000);
+  }
+}
+
+function eraseMessage(len) {
+  if (len > 0) {
+    terminal.textContent = terminal.textContent.slice(0, -1);
+    setTimeout(() => eraseMessage(len - 1), typingSpeed / 2);
+  } else {
+    idx = (idx + 1) % messages.length;
+    typeMessage(messages[idx]);
+  }
+}
+
+typeMessage(messages[idx]);
+</script>
+
+<style>
+#terminal {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background: #000;
+  color: #00ff00;
+  padding: 12px 16px;
+  border-radius: 5px;
+  width: max-content;
+  min-width: 320px;
+  height: 1.4em;
+  box-shadow: 0 0 10px #00ff00;
+}
+</style>
 
 ---
 
