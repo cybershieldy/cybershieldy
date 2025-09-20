@@ -1082,55 +1082,69 @@
 
 <hr />
 
-<div id="terminal"></div>
+<div id="terminal-neon"></div>
 
 <script>
-const messages = [
-  "Scanning Wi-Fi networks...",
+const neonMessages = [
+   "Scanning Wi-Fi networks...",
   "Capturing handshake...",
   "Running deauth attack...",
   "Welcome to CyberShieldy.com"
 ];
 
-let idx = 0;
-const terminal = document.getElementById('terminal');
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
 const typingSpeed = 100;
 
-function typeMessage(msg, i = 0) {
+function typeNeon(msg, i = 0) {
   if (i < msg.length) {
-    terminal.textContent += msg.charAt(i);
-    setTimeout(() => typeMessage(msg, i + 1), typingSpeed);
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
   } else {
-    setTimeout(() => {
-      eraseMessage(msg.length);
-    }, 1000);
+    setTimeout(() => eraseNeon(msg.length), 1500);
   }
 }
 
-function eraseMessage(len) {
+function eraseNeon(len) {
   if (len > 0) {
-    terminal.textContent = terminal.textContent.slice(0, -1);
-    setTimeout(() => eraseMessage(len - 1), typingSpeed / 2);
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
   } else {
-    idx = (idx + 1) % messages.length;
-    typeMessage(messages[idx]);
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
   }
 }
 
-typeMessage(messages[idx]);
+typeNeon(neonMessages[neonIndex]);
 </script>
 
 <style>
-#terminal {
-  font-family: monospace;
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
   white-space: nowrap;
-  background: black;
-  color: #0f0;
-  padding: 10px;
-  border-radius: 4px;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
   width: max-content;
-  min-width: 300px;
-  height: 1.2em;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
 }
 </style>
 
@@ -1450,6 +1464,13 @@ typeMessage(messages[idx]);
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/kiber-cybersecurity-2025">Kibertəhlükəsizlik 2025: Ən Tez-Tez Görülən Hücumlar və Müdafiə Yolları</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/iki-faktorlu-identifikasiya">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</a>
         </li>
       
@@ -1472,13 +1493,6 @@ typeMessage(messages[idx]);
         
         <li class="text-truncate lh-lg">
           <a href="/posts/siem-nedir">SIEM Nədir? Snort və Suricata ilə Real Təhlükəsizlik Təhlili (2025 Yenilənmiş)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/evil-twin-hucumlari">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</a>
         </li>
       
     </ul>
