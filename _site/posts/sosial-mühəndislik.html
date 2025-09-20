@@ -27,8 +27,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə." />
 <meta property="og:description" content="Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə." />
-<link rel="canonical" href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik.html" />
-<meta property="og:url" content="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik.html" />
+<link rel="canonical" href="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik" />
+<meta property="og:url" content="https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik" />
 <meta property="og:site_name" content="Cybershieldy – Emin Savaylov" />
 <meta property="og:image" content="https://cybershieldy.com/assets/images/sos2.webp" />
 <meta property="og:type" content="article" />
@@ -38,7 +38,7 @@
 <meta property="twitter:title" content="Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-02T10:00:00+04:00","datePublished":"2025-09-02T10:00:00+04:00","description":"Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.","headline":"Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)","image":"https://cybershieldy.com/assets/images/sos2.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik.html"},"url":"https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-02T10:00:00+04:00","datePublished":"2025-09-02T10:00:00+04:00","description":"Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.","headline":"Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)","image":"https://cybershieldy.com/assets/images/sos2.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik"},"url":"https://cybershieldy.com/posts/sosial-m%C3%BCh%C9%99ndislik"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1061,13 +1061,81 @@
   "datePublished": "2025-09-02T10:00:00+04:00",
   "dateModified": "2025-09-09T12:00:00+04:00",
   "image": "https://cybershieldy.com/assets/images/1.webp",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir.html" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir" }
 }
 </script>
 
 <h1 id="phishing-hücumu-nədir-canlı-nümunələr-və-tam-müdafiə-yolları-2025-yenilənmiş">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
 
 <p>Phishing — <strong>sosial mühəndislik</strong> texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan <strong>şifrə</strong>, <strong>kredit kartı</strong> və ya digər həssas məlumatları almağa çalışırlar.</p>
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+ "📨 Receiving suspicious email from 'support@paypal-secure.com'...",
+  "🔍 Analyzing embedded phishing link: http://click-here.com...",
+  "🚨 Phishing Attempt Detected! Spoofed domain in use...",
+  "⚠️ Warning: User credentials at risk...",
+  "🛡️ Deploying phishing protection filters...",
+  "CyberShieldy.com | Stay Safe from Social Engineering Attacks"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 <hr />
 <hr />
@@ -1159,7 +1227,7 @@ E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli l
 
 <ul>
   <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir və niyə vacibdir?</a></li>
-  <li><a href="/posts/red-team-vs-blue-team.html">Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri</a></li>
+  <li><a href="/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri</a></li>
 </ul>
 
   </div>
@@ -1249,21 +1317,21 @@ E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli l
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Phishing%20H%C3%BCcumu%20N%C9%99dir?%20Canl%C4%B1%20N%C3%BCmun%C9%99l%C9%99r%20v%C9%99%20Tam%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsosial-m%25C3%25BCh%25C9%2599ndislik.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Phishing%20H%C3%BCcumu%20N%C9%99dir?%20Canl%C4%B1%20N%C3%BCmun%C9%99l%C9%99r%20v%C9%99%20Tam%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsosial-m%25C3%25BCh%25C9%2599ndislik" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Phishing%20H%C3%BCcumu%20N%C9%99dir?%20Canl%C4%B1%20N%C3%BCmun%C9%99l%C9%99r%20v%C9%99%20Tam%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsosial-m%25C3%25BCh%25C9%2599ndislik.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Phishing%20H%C3%BCcumu%20N%C9%99dir?%20Canl%C4%B1%20N%C3%BCmun%C9%99l%C9%99r%20v%C9%99%20Tam%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsosial-m%25C3%25BCh%25C9%2599ndislik" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsosial-m%25C3%25BCh%25C9%2599ndislik.html&text=Phishing%20H%C3%BCcumu%20N%C9%99dir?%20Canl%C4%B1%20N%C3%BCmun%C9%99l%C9%99r%20v%C9%99%20Tam%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fsosial-m%25C3%25BCh%25C9%2599ndislik&text=Phishing%20H%C3%BCcumu%20N%C9%99dir?%20Canl%C4%B1%20N%C3%BCmun%C9%99l%C9%99r%20v%C9%99%20Tam%20M%C3%BCdafi%C9%99%20Yollar%C4%B1%20(2025%20Yenil%C9%99nmi%C5%9F)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1318,6 +1386,13 @@ E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli l
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/sebeke-hucumlari">MITM (Man-in-the-Middle) Hücumu Nədir? Şəbəkədəki Görünməz Düşmən (2025 Yenilənmiş)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/wifi-hucumlari">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</a>
         </li>
       
@@ -1340,13 +1415,6 @@ E-mail ünvanlarına diqqət edin, 2FA istifadə edin və heç vaxt şübhəli l
         
         <li class="text-truncate lh-lg">
           <a href="/posts/red-team-faliyyeti">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/red-team-vs-blue-team">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</a>
         </li>
       
     </ul>

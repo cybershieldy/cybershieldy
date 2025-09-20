@@ -6,8 +6,8 @@ categories: [təhlükəsizlik, sosial mühəndislik]
 tags: [phishing, sosial mühəndislik, email hücumu, kibertəhlükəsizlik, red team, blue team, istifadəçi maarifləndirilməsi]
 description: "Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə."
 image: /assets/images/sos2.webp
-canonical: https://cybershieldy.com/posts/phishing-hucumu-nedir.html
-permalink: /posts/sosial-mühəndislik.html
+canonical: https://cybershieldy.com/posts/phishing-hucumu-nedir
+permalink: /posts/sosial-mühəndislik
 ---
 <!-- Structured data -->
 <script type="application/ld+json">
@@ -21,13 +21,82 @@ permalink: /posts/sosial-mühəndislik.html
   "datePublished": "2025-09-02T10:00:00+04:00",
   "dateModified": "2025-09-09T12:00:00+04:00",
   "image": "https://cybershieldy.com/assets/images/1.webp",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir.html" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/phishing-hucumu-nedir" }
 }
 </script>
 
 # Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)
 
 Phishing — **sosial mühəndislik** texnikalarının ən geniş yayılmış formalarından biridir. Hücumçular insan faktorundan sui-istifadə edərək, saxta e-maillərlə qurbanlardan **şifrə**, **kredit kartı** və ya digər həssas məlumatları almağa çalışırlar.
+
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+ "📨 Receiving suspicious email from 'support@paypal-secure.com'...",
+  "🔍 Analyzing embedded phishing link: http://click-here.com...",
+  "🚨 Phishing Attempt Detected! Spoofed domain in use...",
+  "⚠️ Warning: User credentials at risk...",
+  "🛡️ Deploying phishing protection filters...",
+  "CyberShieldy.com | Stay Safe from Social Engineering Attacks"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 ---
 ---
@@ -99,4 +168,4 @@ Phishing — sadə görünən, amma təsiri böyük olan hücum formasıdır. Ha
 ## 📚 Oxşar Yazılar
 
 - [İki faktorlu identifikasiya nədir və niyə vacibdir?](/posts/iki-faktorlu-identifikasiya)  
-- [Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri](/posts/red-team-vs-blue-team.html)
+- [Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri](/posts/red-team-vs-blue-team)
