@@ -56,6 +56,7 @@ permalink: /posts/red-team-vs-blue-team
 - ⚔️ Hücum simulyasiyaları və qırmızı komanda ssenariləri
 
 ---
+
 <div id="terminal-neon"></div>
 
 <script>
@@ -95,31 +96,32 @@ typeNeon(neonMessages[neonIndex]);
 </script>
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  background-color: #000; /* Page background black */
-  display: flex;
-  justify-content: center; /* Horizontal center */
-  align-items: center;     /* Vertical center */
-  font-family: 'Courier New', Courier, monospace;
-}
-
 #terminal-neon {
-  background-color: #000; /* Black background */
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
   color: #39ff14;
-  padding: 14px 20px;
+  padding: 10px 20px;
   border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
   box-shadow:
     0 0 5px #39ff14,
     0 0 10px #39ff14;
+
   text-shadow:
     0 0 3px #39ff14,
     0 0 6px #39ff14;
-  white-space: nowrap;
+
   overflow: hidden;
   user-select: none;
-  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
 }
 </style>
 
