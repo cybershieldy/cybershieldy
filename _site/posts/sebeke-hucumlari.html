@@ -1092,6 +1092,74 @@
 
 <p>Bu yazıda MITM-in necə işlədiyini, real ssenarini və <strong>özünüzü qorumağın effektiv yollarını</strong> öyrənəcəksiniz.</p>
 
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+   "Intercepting traffic via Evil Twin...",
+  "Analyzing ARP packets...",
+  "Sniffing credentials in real time...",
+  "Launching MITM proxy attack...",
+  "Secure your Wi-Fi before it's too late!",
+  "CyberShieldy.com | Defense is the best offense"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
 <hr />
 
 <p><a href="/assets/images/man-in-the-middle-attack.webp" class="popup img-link shimmer"><img src="/assets/images/man-in-the-middle-attack.webp" alt="MITM konsepti və sxematik görünüş" title="Şəbəkə üzərində MITM hücumunun necə baş verdiyini göstərən texniki vizual" loading="lazy"></a></p>
@@ -1208,9 +1276,9 @@ HTTPS olmayan səhifələrdə hər şey açıq şəkildə görünür!</p>
 <h2 id="-oxşar-yazılar"><span class="me-2">📚 Oxşar Yazılar</span><a href="#-oxşar-yazılar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
-  <li><a href="https://cybershieldy.com/posts/sosial-mühəndislik.html">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li><a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
   <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
-  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari.html">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
 </ul>
 
   </div>

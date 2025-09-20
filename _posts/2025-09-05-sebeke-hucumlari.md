@@ -33,6 +33,75 @@ canonical: https://cybershieldy.com/posts/sebeke-hucumlari
 
 Bu yazıda MITM-in necə işlədiyini, real ssenarini və **özünüzü qorumağın effektiv yollarını** öyrənəcəksiniz.
 
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+   "Intercepting traffic via Evil Twin...",
+  "Analyzing ARP packets...",
+  "Sniffing credentials in real time...",
+  "Launching MITM proxy attack...",
+  "Secure your Wi-Fi before it's too late!",
+  "CyberShieldy.com | Defense is the best offense"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
 ---
 
 ![MITM konsepti və sxematik görünüş](/assets/images/man-in-the-middle-attack.webp "Şəbəkə üzərində MITM hücumunun necə baş verdiyini göstərən texniki vizual")
@@ -113,6 +182,6 @@ MITM hücumları — sadəcə texniki bir termin deyil. O, **real həyatda şəx
 
 ## 📚 Oxşar Yazılar
 
-- [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik.html)  
+- [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
 - [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
-- [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari.html)
+- [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
