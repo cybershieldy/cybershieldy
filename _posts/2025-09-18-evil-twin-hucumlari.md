@@ -7,7 +7,7 @@ tags: [evil twin, wifi hücumları, fake access point, sniffing, phishing, red t
 description: "Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin."
 image: /assets/images/evil1.webp
 canonical: https://cybershieldy.com/evil-twin-hucumlari-2025
-permalink: /posts/evil-twin-hucumlari.html
+permalink: /posts/evil-twin-hucumlari
 ---
 
 # Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)
@@ -16,6 +16,72 @@ permalink: /posts/evil-twin-hucumlari.html
 > **Yazı Tipi:** Texniki Təhlükəsizlik Bələdçisi
 
 **Evil Twin hücumu**, Wi-Fi şəbəkələri üzərindən istifadəçilərin aldanaraq saxta (fake) bir Access Point-ə (AP) qoşulması və məlumatlarının oğurlanması ilə nəticələnən ciddi bir **kibertəhlükəsizlik hücumudur**.
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Launching Evil Twin Attack Simulation...",
+  "Creating Fake Access Point...",
+  "Sniffing User Traffic...",
+  "Phishing Page Redirect Active...",
+  "Red Team Engaged | Blue Team Alerted...",
+  "CyberShieldy.com | Stay Secure"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 14px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: 1.6em;
+  margin-bottom: 25px;
+  box-shadow:
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 30px #39ff14,
+    0 0 40px #39ff14;
+  text-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 40px #00ff00;
+  overflow: hidden;
+  user-select: none;
+}
+</style>
+
 
 ---
 

@@ -27,8 +27,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin." />
 <meta property="og:description" content="Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin." />
-<link rel="canonical" href="https://cybershieldy.com/posts/evil-twin-hucumlari.html" />
-<meta property="og:url" content="https://cybershieldy.com/posts/evil-twin-hucumlari.html" />
+<link rel="canonical" href="https://cybershieldy.com/posts/evil-twin-hucumlari" />
+<meta property="og:url" content="https://cybershieldy.com/posts/evil-twin-hucumlari" />
 <meta property="og:site_name" content="Cybershieldy – Emin Savaylov" />
 <meta property="og:image" content="https://cybershieldy.com/assets/images/evil1.webp" />
 <meta property="og:type" content="article" />
@@ -38,7 +38,7 @@
 <meta property="twitter:title" content="Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-18T22:25:57+04:00","datePublished":"2025-09-18T09:00:00+04:00","description":"Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.","headline":"Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)","image":"https://cybershieldy.com/assets/images/evil1.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/evil-twin-hucumlari.html"},"url":"https://cybershieldy.com/posts/evil-twin-hucumlari.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-18T22:25:57+04:00","datePublished":"2025-09-18T09:00:00+04:00","description":"Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.","headline":"Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)","image":"https://cybershieldy.com/assets/images/evil1.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/evil-twin-hucumlari"},"url":"https://cybershieldy.com/posts/evil-twin-hucumlari"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1092,6 +1092,71 @@
 
 <p><strong>Evil Twin hücumu</strong>, Wi-Fi şəbəkələri üzərindən istifadəçilərin aldanaraq saxta (fake) bir Access Point-ə (AP) qoşulması və məlumatlarının oğurlanması ilə nəticələnən ciddi bir <strong>kibertəhlükəsizlik hücumudur</strong>.</p>
 
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Launching Evil Twin Attack Simulation...",
+  "Creating Fake Access Point...",
+  "Sniffing User Traffic...",
+  "Phishing Page Redirect Active...",
+  "Red Team Engaged | Blue Team Alerted...",
+  "CyberShieldy.com | Stay Secure"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 14px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: 1.6em;
+  margin-bottom: 25px;
+  box-shadow:
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 30px #39ff14,
+    0 0 40px #39ff14;
+  text-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 40px #00ff00;
+  overflow: hidden;
+  user-select: none;
+}
+</style>
+
 <hr />
 
 <h2 id="-hücumun-vizual-görünüşü"><span class="me-2">📸 Hücumun Vizual Görünüşü</span><a href="#-hücumun-vizual-görünüşü" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -1317,21 +1382,21 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Evil%20Twin%20H%C3%BCcumlar%C4%B1%20n%C9%99dir?%20Real%20Ssenari,%20F%C9%99aliyy%C9%99t%20Prinsipi%20v%C9%99%20Qorunma%20Yollar%C4%B1%20(2025%20B%C9%99l%C9%99d%C3%A7isi)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fevil-twin-hucumlari.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Evil%20Twin%20H%C3%BCcumlar%C4%B1%20n%C9%99dir?%20Real%20Ssenari,%20F%C9%99aliyy%C9%99t%20Prinsipi%20v%C9%99%20Qorunma%20Yollar%C4%B1%20(2025%20B%C9%99l%C9%99d%C3%A7isi)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fevil-twin-hucumlari" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Evil%20Twin%20H%C3%BCcumlar%C4%B1%20n%C9%99dir?%20Real%20Ssenari,%20F%C9%99aliyy%C9%99t%20Prinsipi%20v%C9%99%20Qorunma%20Yollar%C4%B1%20(2025%20B%C9%99l%C9%99d%C3%A7isi)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fevil-twin-hucumlari.html" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Evil%20Twin%20H%C3%BCcumlar%C4%B1%20n%C9%99dir?%20Real%20Ssenari,%20F%C9%99aliyy%C9%99t%20Prinsipi%20v%C9%99%20Qorunma%20Yollar%C4%B1%20(2025%20B%C9%99l%C9%99d%C3%A7isi)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fevil-twin-hucumlari" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fevil-twin-hucumlari.html&text=Evil%20Twin%20H%C3%BCcumlar%C4%B1%20n%C9%99dir?%20Real%20Ssenari,%20F%C9%99aliyy%C9%99t%20Prinsipi%20v%C9%99%20Qorunma%20Yollar%C4%B1%20(2025%20B%C9%99l%C9%99d%C3%A7isi)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fevil-twin-hucumlari&text=Evil%20Twin%20H%C3%BCcumlar%C4%B1%20n%C9%99dir?%20Real%20Ssenari,%20F%C9%99aliyy%C9%99t%20Prinsipi%20v%C9%99%20Qorunma%20Yollar%C4%B1%20(2025%20B%C9%99l%C9%99d%C3%A7isi)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1386,6 +1451,13 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/wifi-trafik-hucumlari">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/vpn-firmware-wifi-tehlukesizlik">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</a>
         </li>
       
@@ -1407,14 +1479,7 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/evil-twin-hucumlari.html">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/wifi-trafik-hucumlari">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</a>
+          <a href="/posts/evil-twin-hucumlari">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</a>
         </li>
       
     </ul>
