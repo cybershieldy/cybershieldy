@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T18:20:15+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-20T18:42:09+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</title><link href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik" rel="alternate" type="text/html" title="Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)" /><published>2025-09-18T13:00:00+04:00</published><updated>2025-09-20T17:21:24+04:00</updated><id>https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik"><![CDATA[<h1 id="wi-fi-təhlükəsizliyi-üçün-vpn-və-firmware-yeniləmələrinin-rolu-2025">Wi-Fi Təhlükəsizliyi üçün VPN və Firmware Yeniləmələrinin Rolu (2025)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
@@ -1042,6 +1042,74 @@ https://cybershieldy.com/posts/iki-faktorlu-identifikasiya.html<br />
 
 <hr />
 
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Red Team Initiating Attack Simulation...",
+  "Scanning for Vulnerabilities...",
+  "Phishing Campaign in Progress...",
+  "Detecting Intrusions and Anomalies...",
+  "Blue Team Strengthening Defenses...",
+  "CyberShieldy.com | Secure Your Future"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
 <h2 id="-red-team-nədir-və-niyə-vacibdir">🔍 Red Team Nədir və Niyə Vacibdir?</h2>
 
 <p>Red Team komandası müxtəlif hücum növlərindən istifadə etməklə təşkilatların zəif tərəflərini aşkarlayır:</p>
@@ -1132,9 +1200,9 @@ Hücum və müdafiə komandaları birlikdə işləyərək təhlükəsizlik strat
 <h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
 
 <ul>
-  <li><a href="/posts/sosial-mühəndislik.html">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
+  <li><a href="/posts/sosial-muhəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
   <li><a href="/posts/wifi-hucumlari.html">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
-  <li><a href="/posts//şəbəkə-hücumları.html">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+  <li><a href="/posts//sebeke-hucumları.html">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
 </ul>
 
 <hr />
@@ -1142,7 +1210,7 @@ Hücum və müdafiə komandaları birlikdə işləyərək təhlükəsizlik strat
 <blockquote>
   <p>Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:<br />
 📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a></p>
-</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="kibertəhlükəsizlik 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:13:28+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
+</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="kibertəhlükəsizlik 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:20:19+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
