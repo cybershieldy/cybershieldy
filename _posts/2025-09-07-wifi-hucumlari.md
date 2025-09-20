@@ -96,7 +96,7 @@ Bir kafedə aşağıdakı ssenari baş verir:
 
 Bu metodla **istifadəçinin daxil olduğu saytlar**, **şifrə cəhdləri** və **cookie məlumatları** toplanır.
 
-Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/posts/evil-twin-hucumlari.html)
+Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/posts/evil-twin-hucumlari)
 
 ---
 
@@ -105,9 +105,9 @@ Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/pos
 | Hücum tipi                  | Təsviri                                                               |
 |-----------------------------|----------------------------------------------------------------------|
 | **Evil Twin**               | Saxta access point yaradılır, istifadəçilər aldanır.                 |
-| **Deauthentication Attack** | İstifadəçilər real AP-dən qoparılır və hücumçunun AP-sinə yönləndirilir. Daha çox öyrən: [Deauth Attack](https://cybershieldy.com/posts/wifi-trafik-hucumlari.html) |
-| **Packet Sniffing**         | Şəbəkə trafiki dinlənir və analiz olunur. Əlavə məlumat: [Sniffing nədir?](https://cybershieldy.com/posts/wifi-trafik-hucumlari.html) |
-| **KRACK Attack**            | WPA2 zəifliyi istismar olunur, şifrələnmiş trafik ifşa edilir. Ətraflı: [KRACK hücumu](https://cybershieldy.com/posts/wifi-trafik-hucumlari.html) |
+| **Deauthentication Attack** | İstifadəçilər real AP-dən qoparılır və hücumçunun AP-sinə yönləndirilir. Daha çox öyrən: [Deauth Attack](https://cybershieldy.com/posts/wifi-trafik-hucumlari) |
+| **Packet Sniffing**         | Şəbəkə trafiki dinlənir və analiz olunur. Əlavə məlumat: [Sniffing nədir?](https://cybershieldy.com/posts/wifi-trafik-hucumlari) |
+| **KRACK Attack**            | WPA2 zəifliyi istismar olunur, şifrələnmiş trafik ifşa edilir. Ətraflı: [KRACK hücumu](https://cybershieldy.com/posts/wifi-trafik-hucumlari) |
 | **Man-in-the-Middle (MitM)**| İstifadəçi ilə server arasında məlumatlar dəyişdirilir və oğurlanır. |
 | **Wi-Fi Phishing**          | Saxta şəbəkə ilə istifadəçi məlumatları fırıldaqla ələ keçirilir.     |
 
@@ -119,11 +119,11 @@ Daha ətraflı oxu: [Evil Twin hücumları nədir?](https://cybershieldy.com/pos
 
 Aşağıdakı tədbirlər ən effektiv müdafiə üsullarıdır:
 
-✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə [VPN](https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik.html) istifadə edin.  
+✅ **Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin** – Mümkünsə [VPN](https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik) istifadə edin.  
 ✅ **VPN istifadəsi** – Bütün trafikinizi güclü şifrələmə ilə qoruyur.  
 ✅ **HTTPS protokoluna diqqət edin** – Giriş etdiyiniz saytların SSL sertifikatı olmalıdır.  
 ✅ **Wi-Fi deaktiv edin** – İstifadə etmədiyiniz zaman cihazınızın Wi-Fi-ni bağlayın.  
-✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – [Firmware yeniləmələri](https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik.html) vacibdir.  
+✅ **Ən son təhlükəsizlik yeniləmələrini tətbiq edin** – [Firmware yeniləmələri](https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik) vacibdir.  
 ✅ **Rogue AP Detection alətləri quraşdırın** – Şəbəkənizdə saxta AP-ləri aşkarlayın.  
 ✅ **Təhlükəsizlik təlimlərinə qatılın** – Özünüzü və komandamızı yeniliklərdən xəbərdar edin.
 
