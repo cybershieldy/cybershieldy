@@ -1,9 +1,9 @@
 ---
-title: "Kiber Təhlükəsizlik və Web Developer Kursları | Bakı və Online Təlimlər"
+title: "Kiber Təhlükəsizlik Kursu və Web Developer Təlimləri | Bakı və Online"
 icon: fas fa-user-graduate
 order: 3
-description: "Kiber təhlükəsizlik kursu, ethical hacking təlimi, CEH və OSCP hazırlığı, həmçinin sıfırdan web developer olmaq üçün full-stack proqramlaşdırma kursları. Bakı və onlayn təlim formatı, real praktika və beynəlxalq sertifikatlar."
-keywords: kiber təhlükəsizlik kursu, cybersecurity təlimi, ethical hacking kursu, CEH hazırlığı, OSCP kursu, pentest təlimi, penetration testing, hacker kursları, cyber security kursu, advanced hacking roadmap, web proqramlaşdırma kursu, web developer təlimi, frontend backend roadmap, JavaScript kursu, React, Node.js, MongoDB kursu, online proqramlaşdırma kursları, IT təlimləri Bakı, proqramlaşdırma kursları Azərbaycanda
+description: "Bakı və onlayn formatda kiber təhlükəsizlik kursları, ethical hacking təlimi, CEH və OSCP hazırlığı, həmçinin sıfırdan web developer olmaq üçün full-stack proqramlaşdırma kursları. Real praktika və beynəlxalq sertifikatlar."
+keywords: kiber təhlükəsizlik kursu, cybersecurity təlimi, ethical hacking kursu, CEH hazırlığı, OSCP kursu, pentest təlimi, penetration testing, hacker kursları, cyber security kursu, web developer kursu, proqramlaşdırma kursu, frontend backend təlimi, JavaScript kursu, React kursu, Node.js kursu, online proqramlaşdırma kursları, IT kursları Bakı
 robots: index, follow
 canonical: https://cybershieldy.com/telimler/
 image: /assets/images/stamp_cybershieldy.png
@@ -14,7 +14,7 @@ image: /assets/images/stamp_cybershieldy.png
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Kiber Təhlükəsizlik və Web Developer Kursları",
-  "description": "Cybersecurity və proqramlaşdırma üzrə tam təlim paketləri: CEH, OSCP, ethical hacking və full-stack web development. Bakı və online formatda peşəkar kurslar. Real praktika və sertifikatla işə hazırlıq.",
+  "description": "Cybersecurity və proqramlaşdırma üzrə kurslar: CEH, OSCP, ethical hacking və full-stack web development. Bakı və online formatda peşəkar təlimlər. Real praktika və beynəlxalq sertifikat dəstəyi.",
   "provider": {
     "@type": "Organization",
     "name": "CyberShieldy",
@@ -23,108 +23,258 @@ image: /assets/images/stamp_cybershieldy.png
 }
 </script>
 
-# 🎓 Kiber Təhlükəsizlik və Web Developer Kursları – Online və Bakı üzrə
+# 🎓 Kiber Təhlükəsizlik və Web Developer Kursları – Online və Bakı
 
 Karyerana real bilik və praktika ilə başla!  
-**Cybersecurity və proqramlaşdırma** sahəsində **real-world roadmap**, **live lab mühitləri** və **beynəlxalq səviyyədə sertifikat dəstəyi** ilə kurslara qoşul.
+**Cybersecurity və proqramlaşdırma kursları** üzrə **real-world roadmap**, **live lab mühitləri** və **beynəlxalq sertifikat dəstəyi** ilə təlimlərə qoşul.
 
 ---
 
-## 🛡️ Kiber Təhlükəsizlik Kursu (Ethical Hacking & Cyber Defense)
+## 🛡️ Kiber Təhlükəsizlik Kursu – Ethical Hacking və Cyber Defense
 
-🔍 **Açar sözlər:**  
-kiber təhlükəsizlik kursu, cybersecurity kursları, ethical hacking təlimi, CEH hazırlığı, OSCP kursu, penetration testing, hacker kursları, advanced hacking roadmap, təhlükəsizlik təlimləri Bakı, cyber kurs online
+🔑 **Əsas açar sözlər:**  
+kiber təhlükəsizlik kursu, cybersecurity təlimi, ethical hacking, CEH hazırlığı, OSCP kursu, pentest, hacker kursları, penetration testing
 
 ### 👤 Kimlər üçündür?
-- Yeni başlayanlar üçün sıfırdan təməl tədris  
-- İT mütəxəssisləri və təhlükəsizlik sahəsində yüksəlmək istəyənlər  
+- Yeni başlayanlar üçün sıfırdan təməl dərslər  
+- İT mütəxəssisləri və yüksəlmək istəyənlər  
 - CEH, OSCP kimi beynəlxalq imtahanlara hazırlaşanlar
 
-### 🚀 Tədris Roadmap (Advanced səviyyəyə qədər):
+### 🚀 Tədris Roadmap — Tam, Super və Praktik
 
-1. **İT və Şəbəkə Əsasları**
-   - OSI modeli, port anlayışları, TCP/IP təməl biliklər
-   - Kali Linux, terminal əmrləri, virtual mühit qurulması
+**Ümumi struktur:** Hər modulda — məqsəd, nə öyrənəcəksiniz (learning outcomes), praktiki lab tapşırıqları, mini-layihə və SEO açar sözləri. Kurs daxilində qiymətləndirmə: quizlər, lab-hesabatları, 2 böyük layihə (web app + pentest case), final CTF və sertifikat hazırlığı.
 
-2. **Şəbəkə Təhlükəsizliyi və Wireshark**
-   - Paket analizi, trafik izləmə, ARP spoofing
-   - VPN, Firewall, IDS/IPS sistemləri
+---
 
-3. **Sosial Mühəndislik və Phishing**
-   - Email və SMS phishing senariləri
-   - Real-case simulyasiyalar
+#### Modul 0 — Giriş və Kurs Resursları (Onboarding)
+**Məqsəd:** Kurs alətlərinə alışmaq, laboratoriya mühitləri ilə tanışlıq, təhlükəsizlik qaydaları və etik qaydalar.  
+**Learning outcomes:** Virtual lab (VM/Vagrant/Cloud lab) qura bilmək; GitHub repo yaratmaq; kurs infrastrukturu və qaydalarını bilmək.  
+**Praktiki lablar:** Kali/Parrot VM quraşdırma, VPN və lab şəbəkəsinə qoşulma, Git repo və branch workflow.  
+**Mini-layihə:** Öz lab mühitini sənədləşdir və digər tələbələr üçün “lab setup” bələdçisi hazırla.  
+**SEO açar sözlər:** kiber təhlükəsizlik kursu onboarding, cyber lab setup
 
-4. **Web Hücum Texnikaları**
-   - SQL Injection, XSS, CSRF, SSRF
-   - OWASP Top 10 və real-world zəifliklərin istismarı
+---
 
-5. **Pentest Tools ilə Praktika**
-   - Metasploit, Burp Suite, Hydra, Nmap
-   - CTF təcrübələri və lab simulyasiyaları
+#### Modul 1 — İT və Şəbəkə Əsasları (Deep Dive)
+**Məqsəd:** Şəbəkə protokollarını, OSI/TCP-IP modellərini, routing və switching əsaslarını dərindən öyrənmək.  
+**Learning outcomes:** Paketləri analiz edib problemləri diaqnostika edə bilmək; subnetting və IP planlama; Wireshark filtr yazmaq.  
+**Dərslər:** Ethernet, ARP, IPv4/IPv6, subnetting, NAT, TCP vs UDP, ports & services, basic routing.  
+**Praktiki lablar:** Wireshark ilə real trafik analizləri, ICMP traceroute və TTL analiz, subnet design.  
+**Mini-layihə:** Kiçik şəbəkə üçün təhlükəsizlik audit planı və zəif nöqtələrin ilkin identifikasiyası.  
+**SEO açar sözlər:** OSI modeli dərsi, TCP/IP təlimi, Wireshark tutorial
 
-6. **Exploit Development və Vulnerability Research**
-   - Zəiflik analizləri, PoC yaradılması
-   - Buffer overflow, ROP chains, format string attacks
+---
 
-7. **Post-Exploitation və Forensika**
-   - Lateral movement, credential harvesting, Mimikatz
-   - Digital Forensics və log analizləri
+#### Modul 2 — Sistem və Operativ Təhlükəsizlik
+**Məqsəd:** Unix/Windows internals, proseslər, servislər, fayl icazələri, loglama mexanizmləri öyrənmək.  
+**Learning outcomes:** Sistemdə zəif konfiqurasiyaları tapıb bərpa planı yazmaq; hesab və icazə problemlərini diagnostika etmək.  
+**Dərslər:** Windows AD fundamentals, Linux permissions, systemd, event logs, Windows Registry, service hardening.  
+**Praktiki lablar:** Local privilege escalation labları (etik), log toplayıcı və analiz nümunələri.  
+**Mini-layihə:** Bir serverin hardening hesabatı və tövsiyə olunan konfiqurasiya checklist.  
+**SEO açar sözlər:** Windows internals security, Linux security basics
 
-8. **Advanced Topics & Red Teaming**
-   - Malware analiz, reverse engineering
-   - MITRE ATT&CK, sandbox bypass, C2 infrastruktur
+---
 
-### ✅ Təlim sonunda əldə edəcəksiniz:
-- Real-world hacking və müdafiə bacarıqları  
-- Sertifikat (CEH, OSCP yönümlü hazırlıq)  
-- CV və LinkedIn optimizasiyası  
-- Portfel üçün canlı lab və CTF performansı
+#### Modul 3 — Şəbəkə Təhlükəsizliyi və Trafik Analizi (Wireshark & IDS)
+**Məqsəd:** Trafik analizindən hücum nümunələrini ayırd etmək, IDS/IPS konfiqurasiyası və qaydalar yazmaq.  
+**Learning outcomes:** TCP handshake troubleshooting; packet crafting; Snort/Suricata qaydaları yazmaq.  
+**Dərslər:** Packet structure, TCP/IP anomalies, Snort/Suricata, Zeek əsasları, network baselining.  
+**Praktiki lablar:** Wireshark ilə saldırı reconstruction, Snort qaydası yazmaq və test etmək.  
+**Mini-layihə:** İntrusion detection qaydaları toplusu və test nəticələrinin raportu.  
+**SEO açar sözlər:** network security kursu, snort tutorial, wireshark lab
+
+---
+
+#### Modul 4 — Sosial Mühəndislik və Phishing (Ethical)
+**Məqsəd:** İnsan vektorlarını anlamaq, müdafiə strategiyaları və etibarlı simulyasiya aparmaq.  
+**Learning outcomes:** Phishing kampaniyalarının işləmə mexanizmini başa düşmək və awareness planları hazırlamaq.  
+**Dərslər:** Phishing növləri (spear, clone, vishing), pretexting, user behavior analytics, legal & ethical limits.  
+**Praktiki lablar:** Phishing şablonları analizləri, awareness kampaniyası planı (etik simulyasiya), email header analysis.  
+**Mini-layihə:** Simulated phishing kampaniyası apar və nəticələrə əsasən awareness materialı hazırla.  
+**SEO açar sözlər:** sosial mühəndislik təlimi, phishing simulyasiya
+
+---
+
+#### Modul 5 — Veb Təhlükəsizlik və OWASP Top 10 (Zənginləşdirilmiş)
+**Məqsəd:** Veb zəifliklərini dərindən anlayıb praktiki exploit və müdafiəni öyrənmək.  
+**Learning outcomes:** OWASP Top 10 zəifliklərini tapmaq, exploit etmək və patch təklif etmək; raport yazmaq.  
+**Dərslər (hər biri üçün teoriya + hands-on):**  
+- SQL Injection (Blind, Time-based)  
+- Cross-Site Scripting (Reflected, Stored, DOM)  
+- CSRF və anti-CSRF dizaynı  
+- Authentication & Session management zəiflikləri  
+- Server-side Template Injection (SSTI), SSRF, insecure deserialization, IDOR, RCE  
+**Praktiki lablar:** DVWA / Juice Shop / WebGoat labları, Burp Suite repeater/intruder/fuzzer istifadə nümunələri.  
+**Mini-layihə:** Real-world web app üzərində OWASP Top 10 audit raportu, PoC və patch planı.  
+**SEO açar sözlər:** web təhlükəsizlik kursu, OWASP Top 10 təlimi, SQL Injection tutorial
+
+---
+
+#### Modul 6 — Pentest Tools & Methodologies (Praktiki Paket)
+**Məqsəd:** Recon → enumeration → exploitation → post-exploit workflowunu tətbiq etmək və peşəkar pentest hesabatı hazırlamaq.  
+**Learning outcomes:** Avtomatlaşdırılmış recon, əlazərə pentest alətləri ilə tam iş axını icra etmək; reporting best practices.  
+**Tools & Dərslər:** Nmap (NSE), Gobuster/Dirb, Nikto, Burp Suite, Metasploit, sqlmap, wfuzz, automated scripts.  
+**Praktiki lablar:** Host kəşfiyyatı, web directory fuzzing, sqli avtomatik testləri, Metasploit exploit chaining.  
+**Mini-layihə:** 3-hostlu labda tam pentest hesabatı (enumeration, vulns, exploit, PoC, remediation).  
+**SEO açar sözlər:** pentest kursu, Metasploit təlimi, Nmap tutorial
+
+---
+
+#### Modul 7 — Exploit Development & Vulnerability Research
+**Məqsəd:** Zəifliklərin reverse engineering və PoC exploit yazılmasını öyrənmək.  
+**Learning outcomes:** Buffer overflow exploitləri, format string, ROP chain-lər və shellcode ilə işləmək; basic reversing.  
+**Dərslər:** Binary basics, GDB/WinDbg, ASLR/DEP, ROP, shellcode, secure coding mitigationlər.  
+**Praktiki lablar:** Vulnerable VM üzərində exploit yazma, reversing simple binaries, pwning exercises.  
+**Mini-layihə:** Small C proqramında buffer overflow PoC və exploitation raportu.  
+**SEO açar sözlər:** exploit development kursu, buffer overflow tutorial
+
+---
+
+#### Modul 8 — Post-Exploitation, Forensika və Incident Response
+**Məqsəd:** İstismar sonrası hərəkətləri anlamaq, forensic data toplamaq və incident response planı hazırlamaq.  
+**Learning outcomes:** C2 kommunikasiya analizi, lateral movement, credential harvesting analizi, forensic evidence collection.  
+**Dərslər:** Persistence üsulları, memory forensics (Volatility), disk forensics, log correlation, incident triage & playbooks.  
+**Praktiki lablar:** Mimikatz (etik), memory dump analizi, Volatility ilə artefakt tapma, timeline yaratma.  
+**Mini-layihə:** Incident response playbook hazırlamaq və simulated breach üzrə post-mortem hazırlamaq.  
+**SEO açar sözlər:** digital forensics kursu, incident response təlimi, post exploitation lab
+
+---
+
+#### Modul 9 — Advanced Topics, Red Teaming və Blue Team Əməkdaşlığı
+**Məqsəd:** Hücum və müdafiə strategiyalarını real-world səviyyədə birləşdirmək; Red/Blue team əməliyyatları planlaşdırmaq.  
+**Learning outcomes:** Adversary emulation, MITRE ATT&CK mapping, purple team exercises, threat hunting.  
+**Dərslər:** Malware analysis basics, reverse engineering overview, C2 infrastrukturu, evasion techniques, threat intel integration.  
+**Praktiki lablar:** Red team engagement simulyasiyası, blue team detection rules yazmaq, threat hunting sessiyaları.  
+**Capstone layihə:** Red team əməliyyatı planla və execute et; Blue team detection və response olaraq raport ver. Final CTF və sertifikat.  
+**SEO açar sözlər:** red teaming kursu, MITRE ATT&CK təlimi, threat hunting kursu
+
+---
+
+## Qiymətləndirmə və Sertifikat
+- **Qiymətləndirmə:** Hər modul üçün quizlər, lab-hesabatları, iki böyük mini-layihə və final CTF.  
+- **Sertifikat:** Kursu uğurla bitirənlərə rəqəmsal sertifikat və portfolio üçün yardım (CEH/OSCP yönümlü əlavə hazırlıq mövcuddur).
+
+---
+
+## Dəstək və Resurslar
+- **Mentor dəstəyi:** Həftəlik canlı Q&A və Slack/Discord dəstəyi.  
+- **Materiallar:** Video dərslər, PDF konspektlər, GitHub reposu, hazır lab şablonları.  
+- **Karyera dəstəyi:** CV və LinkedIn optimizasiyası, intervyu məşqləri, işə başlama yardım.
+
+---
+
+✅ Təlim sonunda: real praktiki bacarıqlar, CEH/OSCP yönümlü hazırlıq, CV dəstəyi, CTF təcrübəsi.
 
 📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Kiber+T%C9%99hl%C3%BCk%C9%99sizlik+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
 
 ---
 
-## 💻 Web Developer Kursu (Full-Stack Frontend + Backend)
+## 💻 Web Developer Kursu – Full-Stack Frontend + Backend
 
-🧠 **Açar sözlər:**  
-web developer kursu, proqramlaşdırma təlimi, frontend backend kursları, React kursu, Node.js kursu, MongoDB, JavaScript kursu, HTML CSS, IT kursları Bakı, online web təlimi, sıfırdan proqramlaşdırma
+🔑 **Əsas açar sözlər:**  
+web developer kursu, proqramlaşdırma kursları, frontend backend təlimi, React kursu, Node.js kursu, JavaScript kursu, online proqramlaşdırma, IT kursları Bakı
 
 ### 👤 Kimlər üçündür?
-- Heç vaxt kod yazmamış şəxslər üçün sıfırdan  
-- İş axtaran və freelancer olmaq istəyənlər  
-- Startup və layihə qurmaq istəyənlər
+- Heç vaxt kod yazmamış şəxslər  
+- İş axtaran və ya freelancer olmaq istəyənlər  
+- Startup və layihə qurmaq istəyənlər  
+### 🚀 Web Developer Tədris Roadmap — Tam və Praktik
 
-### 🚀 Tədris Roadmap:
+**Ümumi struktur:** Hər modulda əsas texnologiyalar, öyrənmə məqsədləri, praktiki lab tapşırıqları, mini-layihə və SEO açar sözləri var. Kursun sonunda tələbə real-world portfolio və deploy olunmuş layihələrlə çıxır.
 
-1. **Frontend Əsasları**
-   - HTML5, CSS3, Flexbox, Grid Layout, Responsiv dizayn
-   - JavaScript əsasları, DOM, ES6, Event Handling, LocalStorage
+---
 
-2. **Modern JS Framework – React**
-   - Components, Props/State, useEffect/useState, Router
-   - Form validation, reusable komponentlər
+#### Modul 1 — Frontend Əsasları (HTML, CSS, JavaScript)
+**Məqsəd:** Veb səhifələrin strukturu, dizaynı və interaktivliyi üzrə fundamental biliklər qazanmaq.  
+**Learning outcomes:**  
+- HTML ilə səhifə strukturu yaratmaq  
+- CSS ilə stil və layout dizaynı (Flexbox, Grid)  
+- JavaScript ilə DOM manipulyasiya və event handling  
+**Praktiki lablar:** Responsive landing page dizaynı, interaktiv forma, slider və modal pəncərə.  
+**Mini-layihə:** “Portfolio Homepage” (responsive dizayn + interaktiv komponentlər).  
+**SEO açar sözlər:** frontend kursu, HTML CSS dərsləri, JavaScript təlimi
 
-3. **Backend – Node.js və Express.js**
-   - Server qurulması, REST API, middleware strukturu
-   - MongoDB ilə məlumat bazası inteqrasiyası
+---
 
-4. **Autentifikasiya və Təhlükəsizlik**
-   - JWT ilə istifadəçi girişi
-   - Input validation, error handling, baza təhlükəsizlik tədbirləri
+#### Modul 2 — Modern Framework — React.js
+**Məqsəd:** Modern komponent əsaslı frontend framework-lə işləməyi öyrənmək.  
+**Learning outcomes:**  
+- React komponentləri və props  
+- State və hooks (useState, useEffect, custom hooks)  
+- Routing və SPA strukturu  
+**Praktiki lablar:** Todo app, API-dən məlumat çəkmə, dark/light mode toggle.  
+**Mini-layihə:** “Blog App” (React Router + API integration).  
+**SEO açar sözlər:** React kursu, SPA tətbiqi, frontend framework təlimi
 
-5. **Layihə və Portfolio Hazırlığı**
-   - Portfolio saytı, blog platforması, to-do app
-   - GitHub optimizasiyası və CV dəstəyi
+---
 
-6. **Version Control və Deploy**
-   - Git/GitHub əsasları
-   - Netlify, Vercel, Render.io ilə layihələrin yerləşdirilməsi
+#### Modul 3 — Backend — Node.js və Express.js
+**Məqsəd:** Server-side proqramlaşdırma və REST API-lər yaratmaq.  
+**Learning outcomes:**  
+- Express.js ilə REST API endpoint-ləri qurmaq  
+- Middleware və error handling  
+- Fayl yükləmə və static content serve etmək  
+**Praktiki lablar:** User CRUD əməliyyatları, REST API dizaynı, Postman testləri.  
+**Mini-layihə:** “User Management API” (Express + MongoDB integration).  
+**SEO açar sözlər:** Node.js kursu, Express API dərsi, backend development təlimi
 
-### ✅ Təlim sonunda əldə edəcəksiniz:
-- Full-stack web development bacarıqları  
-- Real layihələr və portfolio saytı  
-- CV və GitHub hesabı hazır olacaq  
-- İş tapmaq üçün praktiki biliklər və məsləhətlər
+---
+
+#### Modul 4 — MongoDB ilə Məlumat Bazası
+**Məqsəd:** NoSQL məlumat bazası ilə işləmək və backend-ə inteqrasiya etmək.  
+**Learning outcomes:**  
+- MongoDB collections və documents  
+- Mongoose ilə schema/model  
+- Query, validation, index və aggregation pipelines  
+**Praktiki lablar:** Blog posts üçün məlumat bazası, user login məlumatlarının saxlanması.  
+**Mini-layihə:** “E-commerce DB” (məhsullar, istifadəçilər, sifarişlər).  
+**SEO açar sözlər:** MongoDB kursu, NoSQL təlimi, Mongoose dərsi
+
+---
+
+#### Modul 5 — Autentifikasiya və Təhlükəsizlik
+**Məqsəd:** İstifadəçi autentifikasiyası, avtorizasiya və web təhlükəsizlik prinsipləri.  
+**Learning outcomes:**  
+- JWT və session əsaslı login  
+- Şifrələrin hashing (bcrypt)  
+- CORS, Helmet, rate limiting və best security practices  
+**Praktiki lablar:** JWT-based login sistemi, role-based access control.  
+**Mini-layihə:** “Auth System” (Login/Register + token-based authorization).  
+**SEO açar sözlər:** web təhlükəsizlik kursu, JWT autentifikasiya, Node.js security
+
+---
+
+#### Modul 6 — Layihə və Portfolio Hazırlanması
+**Məqsəd:** Real layihə hazırlamaq, təmiz kod və best practices öyrənmək.  
+**Learning outcomes:**  
+- Full-stack tətbiqi sıfırdan qurmaq  
+- UI/UX dizayn prinsiplərini tətbiq etmək  
+- Kodun strukturlaşdırılması və reusable komponentlər  
+**Mini-layihə (Capstone):** “Full-Stack App” (React + Node.js + MongoDB, Auth sistemi ilə).  
+**SEO açar sözlər:** full-stack kursu, web developer portfolio, praktiki layihə təlimi
+
+---
+
+#### Modul 7 — Version Control və Deploy
+**Məqsəd:** Layihəni idarə etmək və online mühitə yerləşdirmək.  
+**Learning outcomes:**  
+- Git və GitHub ilə version control  
+- Branching, pull requests, team collaboration  
+- Deploy platformaları (Netlify, Vercel, Render, Railway)  
+**Praktiki lablar:** GitHub repo, CI/CD workflow setup.  
+**Mini-layihə:** Final layihəni Netlify/Vercel-ə deploy etmək və custom domain bağlamaq.  
+**SEO açar sözlər:** Git kursu, deploy təlimi, Netlify Vercel dərsləri
+
+---
+
+## Sertifikat və Portfolio
+- Kursu bitirənlər **Full-Stack Developer** sertifikatı əldə edir.  
+- Portfolio üçün ən azı **3 layihə** (Portfolio site, Blog App, Full-Stack App) hazır olur.  
+- CV və LinkedIn optimizasiyası, real intervyu sualları ilə məşq.
+
+---
+
+✅ Təlim sonunda: full-stack biliklər, real layihələr, hazır portfolio və CV dəstəyi.
 
 📲 **Qeydiyyat:** [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Developer+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
 
@@ -134,110 +284,28 @@ web developer kursu, proqramlaşdırma təlimi, frontend backend kursları, Reac
 
 - ✅ Online və Bakı ofisində dərs imkanı  
 - ✅ Praktik tapşırıqlar və canlı mentor dəstəyi  
-- ✅ Sertifikatlar və CV hazırlığı  
-- ✅ Real-world senarilər və CTF simulyasiyaları  
-- ✅ Dərs yazıları və ömürlük giriş imkanı
-
----
-
-## 📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər
-
-- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik.html)  
-- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
-- [SIEM nədir və necə işləyir?](/posts/siem-nedir.html)  
-- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik.html)  
-- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari.html)  
-- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/şəbəkə-hücumları.html)  
+- ✅ Sertifikat və CV optimizasiyası  
+- ✅ Real-world lab və CTF təcrübəsi  
+- ✅ Dərs yazıları və ömürlük giriş
 
 ---
 
 ## ❓ Tez-tez Verilən Suallar (FAQ)
 
-Aşağıda **kiber təhlükəsizlik kursları**, **web developer təlimləri**, həmçinin **tədris formatı və qeydiyyat prosesi** ilə bağlı ən çox verilən sualları və cavabları tapa bilərsiniz.
-
----
-
 ### 🔹 Təlimlər necə keçirilir?
+Online (Zoom) və ya Bakı ofisində. Hər dərs video ilə yazılır, praktiki əsaslı keçirilir.
 
-**Kurslar tam praktik əsaslıdır.** Təlimlər Zoom platforması üzərindən **online** şəkildə və ya istəyinizə uyğun olaraq **Bakı ofisində** keçirilir.  
-Hər dərs **video şəklində yazılır** və iştirakçılara təqdim olunur. Beləliklə, dərsdən geri qalsanız belə, materiallara istədiyiniz vaxt baxa bilərsiniz.
+### 🔹 Təlimlərdə iştirak üçün bilik lazımdır?
+Xeyr. Təlimlər sıfırdan başlayır və tədricən professional səviyyəyə çatır.
 
----
+### 🔹 Sınaq dərs varmı?
+Bəli. İlk dərs pulsuz demo dərsdir.
 
-### 🔹 Təlimlərdə iştirak üçün hansı səviyyə lazımdır?
+### 🔹 Sertifikat verilir?
+Bəli. Təlimi bitirənlərə rəqəmsal sertifikat təqdim olunur.
 
-Təlimlər **sıfırdan başlayanlar üçün uyğunlaşdırılıb.** İstər kiber təhlükəsizlik, istərsə də web proqramlaşdırma üzrə **təcrübəsiz şəxslər üçün nəzərdə tutulmuş təməl dərslərlə** başlanır. Əlavə olaraq, təcrübəli iştirakçılar üçün **advanced modullar və lab tapşırıqları** da mövcuddur.
-
----
-
-### 🔹 Kiber təhlükəsizlik kursu hansı mövzuları əhatə edir?
-
-Kursda CEH, OSCP kimi beynəlxalq imtahanlara hazırlıq ilə yanaşı:
-- Ethical hacking,
-- Penetration testing,
-- Şəbəkə təhlükəsizliyi,
-- Web hücum texnikaları,
-- Exploit development,
-- Forensika və Red Teaming  
-kimi **real-world cybersecurity mövzuları** öyrədilir.
-
-**Açar sözlər:** CEH kursu, OSCP hazırlığı, cybersecurity təlimi, hacker kursu, penetration testing kursu
-
----
-
-### 🔹 Web developer kursu nəyi öyrədir?
-
-Kurs boyunca siz:
-- HTML, CSS, JavaScript əsasları
-- React.js ilə frontend proqramlaşdırma
-- Node.js və MongoDB ilə backend inkişafı
-- REST API, autentifikasiya və deploy  
-kimi **full-stack proqramlaşdırma bacarıqlarını sıfırdan öyrənəcəksiniz.**
-
-**Açar sözlər:** Web developer kursu, frontend backend təlimi, React və Node.js kursu, full-stack proqramlaşdırma kursları
-
----
-
-### 🔹 Təlimlər tam praktikdirmi?
-
-Bəli, **hər mövzu üzrə real praktiki lab tapşırıqları, simulyasiyalar və layihələr** verilir.  
-Cybersecurity kurslarında **CTF (Capture The Flag) yarış mühiti**, Web developer kurslarında isə **real layihə və portfolio** hazırlanması həyata keçirilir.
-
----
-
-### 🔹 Dərs materialları və video yazılar təqdim olunurmu?
-
-Bəli. **Hər dərs video şəklində yazılır** və bütün iştirakçılara təqdim olunur. Əlavə olaraq:
-- PDF konspektlər,
-- Praktik tapşırıqlar,
-- GitHub layihələri və əlavə resurslar da verilir.
-
----
-
-### 🔹 Təlimlərdən əvvəl sınaq dərs mövcuddurmu?
-
-Bəli, **sınaq dərs pulsuzdur**. Təlimə qoşulmazdan əvvəl istəyə uyğun olaraq **demo dərsə qatılıb tədris metodikası ilə tanış ola bilərsiniz.**
-
----
-
-### 🔹 Təlimlərin sonunda sertifikat verilir?
-
-Bəli. Təlimin sonunda iştirakçılara **rəqəmsal sertifikat** təqdim olunur. Əgər CEH, OSCP və ya digər beynəlxalq imtahanlara hazırlaşırsınızsa, sizə yönəlik **imtahan öncəsi dəstək** və **sınaq testləri** də təklif olunur.
-
----
-
-### 🔹 Təlimi bitirdikdən sonra işə düzəlməkdə dəstək verilir?
-
-Bəli, **CV və LinkedIn profil optimizasiyası**, **portfel hazırlanması** və **intervyu məşqləri** vasitəsilə iştirakçılara **karyera dəstəyi** göstərilir.
-
----
-
-### 🔹 Təlimlərə necə qeydiyyatdan keçə bilərəm?
-
-Sadəcə **WhatsApp vasitəsilə bizimlə əlaqə saxlayın** və sizi uyğun qrupa əlavə edək:
-
-📲 [Kiber Təhlükəsizlik Kursuna Yazıl](https://wa.me/994555182523?text=Kiber+T%C9%99hl%C3%BCk%C9%99sizlik+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)  
-📲 [Web Developer Kursuna Yazıl](https://wa.me/994555182523?text=Web+Developer+kursuna+yaz%C4%B1lmaq+ist%C9%99yir%C9%99m)
+### 🔹 İş dəstəyi olur?
+Bəli. CV, LinkedIn optimizasiyası və intervü hazırlığı ilə karyera dəstəyi verilir.
 
 ---
 
@@ -251,15 +319,15 @@ Sadəcə **WhatsApp vasitəsilə bizimlə əlaqə saxlayın** və sizi uyğun qr
       "name": "Təlimlər necə keçirilir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Təlimlər online Zoom üzərindən və ya Bakı ofisində keçirilir. Hər dərs video ilə yazılır və tələbələrə təqdim olunur. Praktik əsaslı öyrədilir."
+        "text": "Təlimlər online və ya Bakı ofisində keçirilir. Hər dərs video ilə yazılır və praktik əsaslıdır."
       }
     },
     {
       "@type": "Question",
-      "name": "Təlimlərdə iştirak üçün əvvəlcədən bilik lazımdır?",
+      "name": "Təlimlərdə əvvəlcədən bilik lazımdır?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Xeyr. Təlimlər sıfırdan başlayanlar üçün nəzərdə tutulub və tədricən professional səviyyəyə yüksəlir."
+        "text": "Xeyr. Təlimlər sıfırdan başlayır və tədricən professional səviyyəyə yüksəlir."
       }
     },
     {
@@ -267,29 +335,33 @@ Sadəcə **WhatsApp vasitəsilə bizimlə əlaqə saxlayın** və sizi uyğun qr
       "name": "Sınaq dərs varmı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bəli. Sınaq dərs pulsuzdur və qoşulmaq üçün sadəcə WhatsApp ilə əlaqə saxlamanız kifayətdir."
+        "text": "Bəli. İlk dərs pulsuz demo dərsdir."
       }
     },
     {
       "@type": "Question",
-      "name": "Təlimin sonunda sertifikat verilir?",
+      "name": "Sertifikat verilir?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bəli. Rəqəmsal sertifikat təqdim olunur və istəyə əsasən CEH, OSCP imtahanlarına yönəlik dəstək də verilir."
+        "text": "Bəli. Təlimi bitirənlərə rəqəmsal sertifikat təqdim olunur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "İş dəstəyi varmı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bəli. CV, LinkedIn optimizasiyası və intervü hazırlığı ilə karyera dəstəyi verilir."
       }
     }
   ]
 }
 </script>
 
-
 ---
 
 ## 📞 Əlaqə və Qeydiyyat
 
-- 🌐 Rəsmi sayt: [https://cybershieldy.com](https://cybershieldy.com)  
-- 📲 WhatsApp: [+994 55 518 25 23](https://wa.me/994555182523)  
-- 📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)
-
----
-
+🌐 Sayt: [https://cybershieldy.com](https://cybershieldy.com)  
+📲 WhatsApp: [+994 55 518 25 23](https://wa.me/994555182523)  
+📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)
