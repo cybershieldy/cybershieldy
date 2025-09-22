@@ -4,7 +4,7 @@ title: "Haqqında – Emin Savaylov | Kiber Təhlükəsizlik, Web Təhlükəsizl
 icon: fas fa-info-circle
 order: 4
 description: "Emin Savaylov ilə kiber təhlükəsizlik, web təhlükəsizlik və real-world penetrasiya testləri üzrə online və praktiki təlimlər. Red Team, Blue Team, CEH, OSCP hazırlığı."
-keywords: cyber kurs, kiber kurs, online kiber kurs, CEH kursu, OSCP hazırlığı, web developer kursu, web təhlükəsizlik kursu, penetration test kursları, devsecops kursları, etik hacker təlimi, cyber təhlükəsizlik, SIEM tədrisi, red team kurs, blue team təlimləritədrisi, mentorluq, Azərbaycan kibertəhlükəsizlik mütəxəssisi
+keywords: cyber kurs, kiber kurs, online kiber kurs, CEH kursu, OSCP hazırlığı, web developer kursu, web təhlükəsizlik kursu, penetration test kursları, devsecops kursları, etik hacker təlimi, cyber təhlükəsizlik, SIEM tədrisi, red team kurs,  blue team təlimləri, mentorluq, Azərbaycan kibertəhlükəsizlik mütəxəssisi
 robots: index, follow
 canonical: https://cybershieldy.com/haqqinda
 ---
