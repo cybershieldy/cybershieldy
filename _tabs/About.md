@@ -71,12 +71,12 @@ Bugünkü rəqəmsal dünyada <strong>cyber təhlükəsizlik</strong> hər bir t
 
 ## 📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər
 
-- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik.html)  
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)  
 - [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
-- [SIEM nədir və necə işləyir?](/posts/siem-nedir.html)  
-- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik.html)  
-- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari.html)  
-- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/şəbəkə-hücumları.html)  
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir)  
+- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-muhəndislik)  
+- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari)  
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumları)  
 
 ---
 
