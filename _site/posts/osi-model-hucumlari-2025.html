@@ -38,7 +38,7 @@
 <meta property="twitter:title" content="OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-22T18:39:40+04:00","datePublished":"2025-09-22T12:00:00+04:00","description":"OSI modelinin 7 qatına aid hücum növlərini və müdafiə üsullarını dərindən öyrənin. Şəbəkə hücumları, protokol zəiflikləri, tətbiqetmə qatındakı XSS, SQL Injection və sosial mühəndislik taktikaları ilə bağlı ən son təhlil.","headline":"OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)","image":"https://cybershieldy.com/assets/images/osi.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/osi-model-hucumlari-2025"},"url":"https://cybershieldy.com/posts/osi-model-hucumlari-2025"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-22T19:14:43+04:00","datePublished":"2025-09-22T12:00:00+04:00","description":"OSI modelinin 7 qatına aid hücum növlərini və müdafiə üsullarını dərindən öyrənin. Şəbəkə hücumları, protokol zəiflikləri, tətbiqetmə qatındakı XSS, SQL Injection və sosial mühəndislik taktikaları ilə bağlı ən son təhlil.","headline":"OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)","image":"https://cybershieldy.com/assets/images/osi.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/osi-model-hucumlari-2025"},"url":"https://cybershieldy.com/posts/osi-model-hucumlari-2025"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -936,7 +936,7 @@
 
 <time
   
-  data-ts="1758551980"
+  data-ts="1758554083"
   data-df="D MMMM YYYY"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -1056,6 +1056,76 @@
 </ol>
 
 <p>Hər qat özünəməxsus protokollar və funksiyalar daşıyır, buna görə də hücumlar qatlara görə dəyişir.</p>
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+"Analyzing OSI Layer 1: Physical Layer...",
+  "Detecting ARP Spoofing at Layer 2...",
+  "Inspecting IP packets on Layer 3...",
+  "Blocking TCP SYN Flood on Layer 4...",
+  "Securing session tokens (Layer 5)...",
+  "Validating MIME types (Layer 6)...",
+  "Preventing SQL Injection at Layer 7...",
+  "Welcome to CyberShieldy.com"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
 
 <hr />
 

@@ -31,6 +31,77 @@ OSI (Open Systems Interconnection) modeli şəbəkə əlaqələrinin 7 təbəqə
 
 Hər qat özünəməxsus protokollar və funksiyalar daşıyır, buna görə də hücumlar qatlara görə dəyişir.
 
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+"Analyzing OSI Layer 1: Physical Layer...",
+  "Detecting ARP Spoofing at Layer 2...",
+  "Inspecting IP packets on Layer 3...",
+  "Blocking TCP SYN Flood on Layer 4...",
+  "Securing session tokens (Layer 5)...",
+  "Validating MIME types (Layer 6)...",
+  "Preventing SQL Injection at Layer 7...",
+  "Welcome to CyberShieldy.com"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
 ---
 
 ## 1️⃣ Fiziki Qat Hücumları (Layer 1)
