@@ -4,7 +4,7 @@ title: "Haqqında – Emin Savaylov | Kiber Təhlükəsizlik, Web Təhlükəsizl
 icon: fas fa-info-circle
 order: 4
 description: "Emin Savaylov ilə kiber təhlükəsizlik, web təhlükəsizlik və real-world penetrasiya testləri üzrə online və praktiki təlimlər. Red Team, Blue Team, CEH, OSCP hazırlığı."
-keywords: kiber təhlükəsizlik kursları, web təhlükəsizlik dərsləri, penetrasiya testləri, red team, blue team, CEH hazırlığı, OSCP təlimi, sosial mühəndislik, SIEM, online kiber təlimlər, kibertəhlükəsizlik tədrisi, mentorluq, Azərbaycan kibertəhlükəsizlik mütəxəssisi
+keywords: cyber kurs, kiber kurs, online kiber kurs, CEH kursu, OSCP hazırlığı, web developer kursu, web təhlükəsizlik kursu, penetration test kursları, devsecops kursları, etik hacker təlimi, cyber təhlükəsizlik, SIEM tədrisi, red team kurs, blue team təlimləritədrisi, mentorluq, Azərbaycan kibertəhlükəsizlik mütəxəssisi
 robots: index, follow
 canonical: https://cybershieldy.com/haqqinda
 ---
@@ -26,6 +26,18 @@ canonical: https://cybershieldy.com/haqqinda
 </div>
 
 ---
+
+
+## 🌐 Ən Çox Axtarılan Kurslar
+
+- 🔐 **Kiber Təhlükəsizlik Kursu** – CEH, OSCP, eJPT kimi beynəlxalq sertifikatlara hazırlıq
+- 🎓 **Online Kiber Kurs** – Zoom üzərindən tədris, PDF və video materiallarla dəstəklənir
+- 👨‍💻 **Web Developer Kursu** – HTML, CSS, JavaScript, React və back-end əsasları
+- 🛡️ **Web Təhlükəsizlik Kursu** – OWASP Top 10 zəiflikləri, API təhlükəsizliyi və secure coding
+- 📚 **CEH Kursu** – Etik hacker olmaq istəyənlər üçün təməl və irəliləmiş praktika
+- 🚨 **Red Team & Blue Team Təlimləri** – Penetrasiya testləri, SIEM, log analizi, MITRE ATT&CK
+- ⚙️ **Cyber Təlimlər və Mentorluq** – Karyera dəstəyi, texniki müsahibələrə hazırlıq və CV optimallaşdırma
+
 
 ## Günümüzdə Kiber Təhlükəsizlik və Tədrisin Önəmi
 
