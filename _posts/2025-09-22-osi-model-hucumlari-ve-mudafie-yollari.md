@@ -5,7 +5,7 @@ lastmod: 2025-09-22 12:00:00 +0400
 categories: [kiber təhlükəsizlik, osi modeli, hücumlar, şəbəkə təhlükəsizliyi]
 tags: [osi model, network security, penetration testing, layer 1 attack, layer 2 attack, layer 3 attack, layer 4 attack, layer 5 attack, layer 6 attack, layer 7 attack, ddos, man in the middle, arp spoofing, session hijacking, sql injection, xss, phishing, cyber attacks, cybersecurity 2025]
 description: "OSI modelinin 7 qatına aid hücum növlərini və müdafiə üsullarını dərindən öyrənin. Şəbəkə hücumları, protokol zəiflikləri, tətbiqetmə qatındakı XSS, SQL Injection və sosial mühəndislik taktikaları ilə bağlı ən son təhlil."
-image: /assets/images/osi-attacks.webp
+image: /assets/images/osi.webp
 canonical: https://cybershieldy.com/osi-model-hucumlari-2025
 permalink: /posts/osi-model-hucumlari-2025
 ---
@@ -183,7 +183,7 @@ OSI modelinə əsaslanan bu qatlı yanaşma ilə hücumların növlərini və m�
   "@type": "Article",
   "headline": "OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)",
   "description": "OSI modelinin 7 qatına aid hücum növlərini və müdafiə üsullarını dərindən öyrənin. Şəbəkə hücumları, protokol zəiflikləri, tətbiqetmə qatındakı XSS, SQL Injection və sosial mühəndislik taktikaları ilə bağlı ən son təhlil.",
-  "image": "https://cybershieldy.com/assets/images/osi-attacks.webp",
+  "image": "https://cybershieldy.com/assets/images/osi.webp",
   "author": {
     "@type": "Person",
     "name": "CyberShieldy"
