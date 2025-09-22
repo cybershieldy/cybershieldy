@@ -204,3 +204,14 @@ OSI modelinə əsaslanan bu qatlı yanaşma ilə hücumların növlərini və m�
   }
 }
 </script>
+
+## 📚 Oxşar Yazılar
+
+- 🔐 [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
+  Sosial mühəndislik və e-mail ilə gələn təhdidlərin analizi.
+
+- 🥷 [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
+  Hücum və müdafiə simulyasiyalarının real ssenarilərlə izahı.
+
+- 📶 [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)  
+  Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.
