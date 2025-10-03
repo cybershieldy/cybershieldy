@@ -5,7 +5,7 @@ lastmod: 2025-10-01 12:00:00 +0400
 categories: [kiber təhlükəsizlik, web təhlükəsizliyi, sql injection]
 tags: [sql injection, sqli, input validation, parametrizasiya, web təhlükəsizliyi, kiber təlim, kiber kurs, web kurs, backend təhlükəsizlik, ethical hacking, penetration testing, cybersecurity 2025]
 description: "SQL Injection nədir, necə işləyir və ondan necə qorunmaq olar? 2025-ci ilə uyğun müdafiə texnikaları, təhlükəsiz kod nümunələri, parametrizasiya və real risk ssenariləri ilə tanış olun."
-image: /assets/images/sql-injection.webp
+image: /assets/images/sql.webp
 canonical: https://cybershieldy.com/posts/sql-injection-2025
 permalink: /posts/sql-injection-2025
 ---
