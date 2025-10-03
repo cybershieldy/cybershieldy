@@ -1,6 +1,6 @@
 const swconf = {
   
-    cacheName: 'chirpy-1759489108',resources: [
+    cacheName: 'chirpy-1759489273',resources: [
       '/assets/css/jekyll-theme-chirpy.css',
       '/',
       
@@ -14,7 +14,7 @@ const swconf = {
       
         '/haqqinda/',
       
-        '/kibert%C9%99hl%C3%BCk%C9%99sizlik-test-ethical-hacking/',
+        '/kibertehlukesizlik-test-ethical-hacking/',
       
         '/Kitab/',
       
