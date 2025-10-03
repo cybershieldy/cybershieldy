@@ -11,7 +11,7 @@ function showResult() {
             if (question[j].checked) {
                 answered = true;
                 if (question[j].value === "correct") {
-                    score++;
+                    score += 10; // hər düzgün cavab 10 bal
                 }
                 break;
             }
@@ -23,8 +23,8 @@ function showResult() {
     }
 
     if (unanswered === 0) {
-        alert("✅ Test tamamlandı! Nəticəniz: " + score + " / " + totalQuestions);
+        alert("✅ Test tamamlandı! Nəticəniz: " + score + " bal (" + (score/10) + " / " + totalQuestions + ")");
     } else {
-        alert("⚠️ Lütfən, bütün sualları cavablandırın. Cavablanmamış suallar var!");
+        alert("⚠️ Zəhmət olmasa, bütün sualları cavablandırın. Cavabsız qalan: " + unanswered);
     }
 }
