@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)",
+    "url": "/posts/sql-injection-2025",
+    "categories": "kiber təhlükəsizlik, web təhlükəsizliyi, sql injection",
+    "tags": "sql injection, sqli, input validation, parametrizasiya, web təhlükəsizliyi, kiber təlim, kiber kurs, web kurs, backend təhlükəsizlik, ethical hacking, penetration testing, cybersecurity 2025",
+    "date": "2025-10-01 12:00:00 +0400",
+    "content": "SQL Injection nədir, necə işləyir və ondan necə qorunmaq olar? 2025-ci ilə uyğun müdafiə texnikaları, təhlükəsiz kod nümunələri, parametrizasiya və real risk ssenariləri ilə tanış olun."
+  },
+  
+  {
     "title": "OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)",
     "url": "/posts/osi-model-hucumlari-2025",
     "categories": "kiber təhlükəsizlik, osi modeli, hücumlar, şəbəkə təhlükəsizliyi",

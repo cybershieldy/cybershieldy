@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-09-22T19:20:11+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</title><link href="https://cybershieldy.com/posts/osi-model-hucumlari-2025" rel="alternate" type="text/html" title="OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)" /><published>2025-09-22T12:00:00+04:00</published><updated>2025-09-22T19:14:43+04:00</updated><id>https://cybershieldy.com/posts/osi-model-hucumlari-ve-mudafie-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/osi-model-hucumlari-2025"><![CDATA[<h1 id="osi-modelinə-görə-hücumlar-və-müdafiə-yolları--7-qatlı-təhlükəsizlik-analizi-2025">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-10-03T10:15:17+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)</title><link href="https://cybershieldy.com/posts/sql-injection-2025" rel="alternate" type="text/html" title="SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)" /><published>2025-10-01T12:00:00+04:00</published><updated>2025-10-01T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/sql-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/sql-injection-2025"><![CDATA[<h1 id="sql-injection-nədir-risklər-müdafiə-və-təhlükəsiz-kod-yazma-2025-yenilənmiş">SQL Injection nədir? Risklər, Müdafiə və Təhlükəsiz Kod Yazma (2025 Yenilənmiş)</h1>
+
+<p><strong>Yenilənmə:</strong> 10 Sentyabr 2025<br />
+<strong>Qısa xülasə:</strong> Bu məqalədə SQL Injection (SQLi) təşəkkülü, onun nəticələri, risk modelləri və tətbiqçilər üçün praktik müdafiə üsulları izah olunur. Məqsəd — müdafiə və təhlükəsiz dizayn; zərərli istismar nümunələri paylaşılmır.</p>
+
+<hr />
+
+<h2 id="-sql-injection--qısa-və-aydın-izah">🔎 SQL Injection — qısa və aydın izah</h2>
+
+<p><strong>SQL Injection (SQLi)</strong> — veb tətbiqin verilənlər bazasına göndərdiyi SQL sorğularında istifadəçi daxil olan dəyərləri lazımi şəkildə təmizləməməsi və ya parametrizasiya etməməsi nəticəsində, kənar istəklərin SQL sorğularına təsir göstərməsi vəziyyətidir. Bunun nəticəsində məlumat sızması, yetkisiz əməliyyatlar və tətbiqə tam nəzarət itirilməsi kimi ciddi zərərlər yarana bilər.</p>
+
+<hr />
+
+<h2 id="️-nə-üçün-sqli-təhlükəlidir">⚠️ Nə üçün SQLi təhlükəlidir?</h2>
+
+<ul>
+  <li><strong>Məlumat sızması</strong></li>
+  <li><strong>Avtorizasiya pozuntuları</strong></li>
+  <li><strong>Məlumatların dəyişdirilməsi və məhv edilməsi</strong></li>
+  <li><strong>Təşkilati risklər</strong></li>
+</ul>
+
+<blockquote>
+  <p><strong>Etik qeyd:</strong> Bu məqalə müdafiə məqsədi ilə yazılıb. Zərərli payload-lar və istismar addımları verilmir.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-təhlükə-modeli-threat-model">🧠 Təhlükə modeli (Threat Model)</h2>
+
+<ol>
+  <li>Hüquqlar və təsir</li>
+  <li>Giriş vektoru</li>
+  <li>Mühit və məhdudiyyətlər</li>
+  <li>Ehtimal</li>
+</ol>
+
+<hr />
+
+<h2 id="-sql-injectiondan-qorunma--əsas-prinsiplər">✅ SQL Injection‑dan QORUNMA — əsas prinsiplər</h2>
+
+<ol>
+  <li>Parametrizasiya / Prepared statements</li>
+  <li>ORM və ya query builder</li>
+  <li>Input validation və output encoding</li>
+  <li>Least privilege</li>
+  <li>WAF və filtrasiya</li>
+  <li>Logging və monitorinq</li>
+  <li>CI/CD‑də təhlükəsizlik yoxlamaları</li>
+  <li>Təlim və prosedurlar</li>
+</ol>
+
+<hr />
+
+<h2 id="-təhlükəsiz-kod-nümunələri-parametrizasiya">🧩 Təhlükəsiz kod nümunələri (parametrizasiya)</h2>
+
+<h3 id="php-pdo">PHP (PDO)</h3>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nv">$pdo</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PDO</span><span class="p">(</span><span class="mf">...</span><span class="p">);</span>
+<span class="nv">$stmt</span> <span class="o">=</span> <span class="nv">$pdo</span><span class="o">-&gt;</span><span class="nf">prepare</span><span class="p">(</span><span class="s2">"SELECT * FROM users WHERE email = :email"</span><span class="p">);</span>
+<span class="nv">$stmt</span><span class="o">-&gt;</span><span class="nf">execute</span><span class="p">([</span><span class="s1">'email'</span> <span class="o">=&gt;</span> <span class="nv">$userInputEmail</span><span class="p">]);</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="python-pymysql">Python (pymysql)</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">cursor</span><span class="p">.</span><span class="nf">execute</span><span class="p">(</span><span class="sh">"</span><span class="s">SELECT * FROM users WHERE email = %s</span><span class="sh">"</span><span class="p">,</span> <span class="p">(</span><span class="n">user_email</span><span class="p">,))</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="nodejs-mysql2">Node.js (mysql2)</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="p">[</span><span class="nx">rows</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">db</span><span class="p">.</span><span class="nf">execute</span><span class="p">(</span><span class="dl">"</span><span class="s2">SELECT * FROM users WHERE email = ?</span><span class="dl">"</span><span class="p">,</span> <span class="p">[</span><span class="nx">email</span><span class="p">]);</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="java-jdbc">Java (JDBC)</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nc">PreparedStatement</span> <span class="n">ps</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="na">prepareStatement</span><span class="o">(</span><span class="s">"SELECT * FROM users WHERE email = ?"</span><span class="o">);</span>
+<span class="n">ps</span><span class="o">.</span><span class="na">setString</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="n">userEmail</span><span class="o">);</span>
+<span class="nc">ResultSet</span> <span class="n">rs</span> <span class="o">=</span> <span class="n">ps</span><span class="o">.</span><span class="na">executeQuery</span><span class="o">();</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h2 id="-input-validation--output-handling">🔧 Input validation &amp; output handling</h2>
+
+<ul>
+  <li>Allow‑list formatları</li>
+  <li>Length limiti</li>
+  <li>Type checking</li>
+  <li>Context‑specific encoding</li>
+</ul>
+
+<hr />
+
+<h2 id="-test-və-aşkarlama-strategiyaları">🧪 Test və aşkarlama strategiyaları</h2>
+
+<ul>
+  <li>SAST</li>
+  <li>DAST</li>
+  <li>Manual code review</li>
+  <li>Unit/integration testlər</li>
+  <li>Logging və alerting</li>
+</ul>
+
+<hr />
+
+<h2 id="-arxitektura-və-infrastruktur">🏗 Arxitektura və infrastruktur</h2>
+
+<ul>
+  <li>Least privilege</li>
+  <li>Separation of concerns</li>
+  <li>Read‑only replikalar</li>
+  <li>Encryption</li>
+  <li>WAF</li>
+</ul>
+
+<hr />
+
+<h2 id="-quick-checklist">✅ Quick checklist</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />SQL-lər parametrizə olunub?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Input validation tətbiq olunub?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />DB hüquqları məhduddur?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />ORM düzgün qurulub?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />WAF və logging aktivdir?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />CI skanlar var?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Təlimlər keçirilib?</li>
+</ul>
+
+<hr />
+
+<h2 id="-təlim-və-proseslər">👨‍🏫 Təlim və proseslər</h2>
+
+<ul>
+  <li>Secure coding təlimi</li>
+  <li>Code review siyasəti</li>
+  <li>CI/CD-də skanlar</li>
+  <li>Incident response plan</li>
+  <li>Post-incident təhlil</li>
+</ul>
+
+<hr />
+
+<h2 id="-nəyi-etməmək-lazımdır">✋ Nəyi etməmək lazımdır</h2>
+
+<ul>
+  <li>Sadəcə <code class="language-plaintext highlighter-rouge">escape</code> etməklə kifayətlənmək</li>
+  <li>DB user-ə root hüquqlar vermək</li>
+  <li>İstehsalatda test exploit-lər işlətmək</li>
+  <li>Təkcə WAF-a güvənmək</li>
+</ul>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>SQLi təhlükəlidir, amma qarşısı alınandır — düzgün kodlama və təhlükəsiz arxitektura ilə.</p>
+
+<hr />
+
+<h2 id="əlaqə-və-təlimlər">Əlaqə və Təlimlər</h2>
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20OSI%20modeli%20hücumlar%C4%B1%20v%C9%99%20təhlükəsizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kiber Təhlükəsizlik və OSI Model Hücumları üzrə təlim və mentorluq.</p>
+
+<hr />
+
+<blockquote>
+  <p><strong>Qeyd:</strong> Bu məqalə yalnız tədris və müdafiə məqsədilə hazırlanıb.</p>
+</blockquote>
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li>
+    <p>🔐 <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a><br />
+Sosial mühəndislik və e-mail ilə gələn təhdidlərin analizi.</p>
+  </li>
+  <li>
+    <p>🥷 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a><br />
+Hücum və müdafiə simulyasiyalarının real ssenarilərlə izahı.</p>
+  </li>
+  <li>
+    <p>📶 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a><br />
+Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.</p>
+  </li>
+</ul>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="web təhlükəsizliyi" /><category term="sql injection" /><category term="sql injection" /><category term="sqli" /><category term="input validation" /><category term="parametrizasiya" /><category term="web təhlükəsizliyi" /><category term="kiber təlim" /><category term="kiber kurs" /><category term="web kurs" /><category term="backend təhlükəsizlik" /><category term="ethical hacking" /><category term="penetration testing" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[SQL Injection nədir, necə işləyir və ondan necə qorunmaq olar? 2025-ci ilə uyğun müdafiə texnikaları, təhlükəsiz kod nümunələri, parametrizasiya və real risk ssenariləri ilə tanış olun.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/sql-injection.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/sql-injection.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</title><link href="https://cybershieldy.com/posts/osi-model-hucumlari-2025" rel="alternate" type="text/html" title="OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)" /><published>2025-09-22T12:00:00+04:00</published><updated>2025-09-22T19:20:14+04:00</updated><id>https://cybershieldy.com/posts/osi-model-hucumlari-ve-mudafie-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/osi-model-hucumlari-2025"><![CDATA[<h1 id="osi-modelinə-görə-hücumlar-və-müdafiə-yolları--7-qatlı-təhlükəsizlik-analizi-2025">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</h1>
 
 <blockquote>
   <p><strong>Son Yenilənmə:</strong> 22 Sentyabr 2025<br />
@@ -1259,209 +1448,7 @@ typeNeon(neonMessages[neonIndex]);
 <hr />
 
 <p><strong>Müəllif:</strong> Emin Savaylov<br />
-<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:46:25+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası",
-  "description": "Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.",
-  "author": {
-    "@type": "Person",
-    "name": "Emin Savaylov"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-11T12:00:00+04:00",
-  "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/read.webp",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/red-team-faliyyeti"
-  }
-}
-</script>
-
-<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-əhəmiyyəti">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Əhəmiyyəti</h1>
-
-<p>Red Team (Qırmızı Komanda) kibertəhlükəsizlikdə şirkətlərin zəif nöqtələrini aşkarlayan və real kiberhücumları imitasiya edən mütəxəssislər qrupudur. Onların fəaliyyəti təşkilatların müdafiə sistemlərini gücləndirməyə və potensial təhlükələri vaxtında müəyyən etməyə kömək edir. Bu yanaşma xüsusilə penetrasiya testi və hücum simulyasiyaları sahəsində vacibdir.</p>
-
-<hr />
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
-  "Red Team Initiating Attack Simulation...",
-  "Scanning for Vulnerabilities...",
-  "Phishing Campaign in Progress...",
-  "Detecting Intrusions and Anomalies...",
-  "Blue Team Strengthening Defenses...",
-  "CyberShieldy.com | Secure Your Future"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: #000;
-  color: #39ff14;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 350px;
-  height: auto;
-  line-height: 1.6em;
-  margin-bottom: 25px;
-
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14;
-
-  text-shadow:
-    0 0 3px #39ff14,
-    0 0 6px #39ff14;
-
-  overflow: hidden;
-  user-select: none;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<h2 id="-red-team-nədir-və-niyə-vacibdir">🔍 Red Team Nədir və Niyə Vacibdir?</h2>
-
-<p>Red Team komandası müxtəlif hücum növlərindən istifadə etməklə təşkilatların zəif tərəflərini aşkarlayır:</p>
-
-<ul>
-  <li>Şəbəkə zəiflikləri (Network Vulnerabilities)</li>
-  <li>Proqram təminatı zəiflikləri (Application Vulnerabilities)</li>
-  <li>Sosial mühəndislik hücumları (Social Engineering Attacks)</li>
-  <li>Fiziki və daxili təhlükəsizlik boşluqları</li>
-</ul>
-
-<p>Bütün bu testlər sayəsində şirkətlərin <strong>kiberhücumlara qarşı davamlılığı</strong> artır və mümkün risklər vaxtında aradan qaldırılır.</p>
-
-<hr />
-
-<h2 id="-red-team-fəaliyyətinin-əsas-sahələri">🚀 Red Team Fəaliyyətinin Əsas Sahələri</h2>
-
-<ol>
-  <li>
-    <p><strong>Penetrasiya Testləri (Penetration Testing):</strong><br />
-Sistemlərdə olan zəiflikləri müəyyən etmək üçün genişmiqyaslı hücum ssenariləri həyata keçirilir.</p>
-  </li>
-  <li>
-    <p><strong>Sosial Mühəndislik Hücumları (Social Engineering Attacks):</strong><br />
-İnsan amilini hədəf alan fişinq, telefon zəngi və digər üsullar tətbiq olunur.</p>
-  </li>
-  <li>
-    <p><strong>Fiziki Təhlükəsizlik Testləri:</strong><br />
-Müəssisəyə fiziki giriş imkanı və avadanlıqların təhlükəsizliyi yoxlanılır.</p>
-  </li>
-  <li>
-    <p><strong>Red və Blue Team Əməkdaşlığı:</strong><br />
-Hücum və müdafiə komandaları birlikdə işləyərək təhlükəsizlik strategiyalarını təkmilləşdirir.</p>
-  </li>
-</ol>
-
-<hr />
-
-<h2 id="-red-team-in-təşkilatlara-gətirdiyi-üstünlüklər">🔐 Red Team-in Təşkilatlara Gətirdiyi Üstünlüklər</h2>
-
-<ul>
-  <li><strong>Zəifliklərin vaxtında aşkar olunması və aradan qaldırılması</strong></li>
-  <li><strong>Proaktiv müdafiə taktikalarının hazırlanması</strong></li>
-  <li><strong>Komanda təlimləri və təhlükəsizlik mədəniyyətinin formalaşması</strong></li>
-  <li><strong>Məlumatların və şəxsi verilənlərin qorunması</strong></li>
-  <li><strong>Şirkətin reputasiyası və maliyyə itkilərinin qarşısının alınması</strong></li>
-</ul>
-
-<p>Bu səbəbdən Red Team fəaliyyəti müasir bizneslər üçün əvəzolunmazdır.</p>
-
-<hr />
-
-<h2 id="-2025-ci-i̇ldə-red-team-və-kibertəhlükəsizlikdə-yeniliklər">📅 2025-ci İldə Red Team və Kibertəhlükəsizlikdə Yeniliklər</h2>
-
-<p>Kibertəhlükəsizlik sahəsində sürətli inkişafla birlikdə Red Team üsulları da təkmilləşir. 2025-ci ildə aşağıdakı istiqamətlər önə çıxır:</p>
-
-<ul>
-  <li>Süni intellekt (AI) və maşın öyrənməsi (ML) ilə təchiz edilmiş hücum simulyasiyaları</li>
-  <li>Avtomatlaşdırılmış penetration test alətləri</li>
-  <li>Yeni sosial mühəndislik texnikaları</li>
-  <li>Cloud təhlükəsizliyi və IoT cihazlarına yönəlmiş testlər</li>
-</ul>
-
-<p>Bu yeniliklər təşkilatların təhlükəsizlik səviyyəsini daha da yüksəldir.</p>
-
-<hr />
-
-<h2 id="-əlaqə-və-təlim-i̇mkanları">📞 Əlaqə və Təlim İmkanları</h2>
-
-<p>Kibertəhlükəsizlik sahəsində təlim və Red Team simulyasiyaları üçün bizimlə əlaqə saxlayın:</p>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a> — təlimlər və praktiki dəstək.</p>
-
-<hr />
-
-<h2 id="-şəkil-red-team-i̇ş-prosesi">📸 Şəkil: Red Team İş Prosesi</h2>
-
-<p><img src="assets/images/red2.webp" alt="Red Team Hücum Simulyasiyası" title="Red Team Hücum Simulyasiyası&quot; alt=&quot;Red Team hücum simulyasiyası" /></p>
-
-<hr />
-
-<h2 id="-nəticə">✅ Nəticə</h2>
-
-<p>Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının təməl daşıdır. Bu metodlarla şirkətlər zəiflikləri vaxtında müəyyən edir, mümkün hücumların qarşısını alır və təhlükəsizlik mədəniyyətini gücləndirirlər. 2025-ci ildə rəqabətdə ön sırada olmaq üçün Red Team simulyasiyaları zəruridir.</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li><a href="/posts/sosial-muhəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
-  <li><a href="/posts//sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
-</ul>
-
-<hr />
-
-<blockquote>
-  <p>Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:<br />
-📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a></p>
-</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="kibertəhlükəsizlik 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:20:19+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
+<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:20:19+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1668,7 +1655,209 @@ typeNeon(neonMessages[neonIndex]);
 
 <h2 id="-açar-sözlər">🔑 Açar sözlər</h2>
 
-<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><category term="kiberhücum simulyasiyası" /><category term="purple team nədir" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T21:58:32+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"><![CDATA[<blockquote>
+<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><category term="kiberhücum simulyasiyası" /><category term="purple team nədir" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:46:25+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası",
+  "description": "Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-11T12:00:00+04:00",
+  "dateModified": "2025-09-11T12:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/read.webp",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/red-team-faliyyeti"
+  }
+}
+</script>
+
+<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-əhəmiyyəti">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Əhəmiyyəti</h1>
+
+<p>Red Team (Qırmızı Komanda) kibertəhlükəsizlikdə şirkətlərin zəif nöqtələrini aşkarlayan və real kiberhücumları imitasiya edən mütəxəssislər qrupudur. Onların fəaliyyəti təşkilatların müdafiə sistemlərini gücləndirməyə və potensial təhlükələri vaxtında müəyyən etməyə kömək edir. Bu yanaşma xüsusilə penetrasiya testi və hücum simulyasiyaları sahəsində vacibdir.</p>
+
+<hr />
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Red Team Initiating Attack Simulation...",
+  "Scanning for Vulnerabilities...",
+  "Phishing Campaign in Progress...",
+  "Detecting Intrusions and Anomalies...",
+  "Blue Team Strengthening Defenses...",
+  "CyberShieldy.com | Secure Your Future"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
+<h2 id="-red-team-nədir-və-niyə-vacibdir">🔍 Red Team Nədir və Niyə Vacibdir?</h2>
+
+<p>Red Team komandası müxtəlif hücum növlərindən istifadə etməklə təşkilatların zəif tərəflərini aşkarlayır:</p>
+
+<ul>
+  <li>Şəbəkə zəiflikləri (Network Vulnerabilities)</li>
+  <li>Proqram təminatı zəiflikləri (Application Vulnerabilities)</li>
+  <li>Sosial mühəndislik hücumları (Social Engineering Attacks)</li>
+  <li>Fiziki və daxili təhlükəsizlik boşluqları</li>
+</ul>
+
+<p>Bütün bu testlər sayəsində şirkətlərin <strong>kiberhücumlara qarşı davamlılığı</strong> artır və mümkün risklər vaxtında aradan qaldırılır.</p>
+
+<hr />
+
+<h2 id="-red-team-fəaliyyətinin-əsas-sahələri">🚀 Red Team Fəaliyyətinin Əsas Sahələri</h2>
+
+<ol>
+  <li>
+    <p><strong>Penetrasiya Testləri (Penetration Testing):</strong><br />
+Sistemlərdə olan zəiflikləri müəyyən etmək üçün genişmiqyaslı hücum ssenariləri həyata keçirilir.</p>
+  </li>
+  <li>
+    <p><strong>Sosial Mühəndislik Hücumları (Social Engineering Attacks):</strong><br />
+İnsan amilini hədəf alan fişinq, telefon zəngi və digər üsullar tətbiq olunur.</p>
+  </li>
+  <li>
+    <p><strong>Fiziki Təhlükəsizlik Testləri:</strong><br />
+Müəssisəyə fiziki giriş imkanı və avadanlıqların təhlükəsizliyi yoxlanılır.</p>
+  </li>
+  <li>
+    <p><strong>Red və Blue Team Əməkdaşlığı:</strong><br />
+Hücum və müdafiə komandaları birlikdə işləyərək təhlükəsizlik strategiyalarını təkmilləşdirir.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-red-team-in-təşkilatlara-gətirdiyi-üstünlüklər">🔐 Red Team-in Təşkilatlara Gətirdiyi Üstünlüklər</h2>
+
+<ul>
+  <li><strong>Zəifliklərin vaxtında aşkar olunması və aradan qaldırılması</strong></li>
+  <li><strong>Proaktiv müdafiə taktikalarının hazırlanması</strong></li>
+  <li><strong>Komanda təlimləri və təhlükəsizlik mədəniyyətinin formalaşması</strong></li>
+  <li><strong>Məlumatların və şəxsi verilənlərin qorunması</strong></li>
+  <li><strong>Şirkətin reputasiyası və maliyyə itkilərinin qarşısının alınması</strong></li>
+</ul>
+
+<p>Bu səbəbdən Red Team fəaliyyəti müasir bizneslər üçün əvəzolunmazdır.</p>
+
+<hr />
+
+<h2 id="-2025-ci-i̇ldə-red-team-və-kibertəhlükəsizlikdə-yeniliklər">📅 2025-ci İldə Red Team və Kibertəhlükəsizlikdə Yeniliklər</h2>
+
+<p>Kibertəhlükəsizlik sahəsində sürətli inkişafla birlikdə Red Team üsulları da təkmilləşir. 2025-ci ildə aşağıdakı istiqamətlər önə çıxır:</p>
+
+<ul>
+  <li>Süni intellekt (AI) və maşın öyrənməsi (ML) ilə təchiz edilmiş hücum simulyasiyaları</li>
+  <li>Avtomatlaşdırılmış penetration test alətləri</li>
+  <li>Yeni sosial mühəndislik texnikaları</li>
+  <li>Cloud təhlükəsizliyi və IoT cihazlarına yönəlmiş testlər</li>
+</ul>
+
+<p>Bu yeniliklər təşkilatların təhlükəsizlik səviyyəsini daha da yüksəldir.</p>
+
+<hr />
+
+<h2 id="-əlaqə-və-təlim-i̇mkanları">📞 Əlaqə və Təlim İmkanları</h2>
+
+<p>Kibertəhlükəsizlik sahəsində təlim və Red Team simulyasiyaları üçün bizimlə əlaqə saxlayın:</p>
+
+<p>📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a> — təlimlər və praktiki dəstək.</p>
+
+<hr />
+
+<h2 id="-şəkil-red-team-i̇ş-prosesi">📸 Şəkil: Red Team İş Prosesi</h2>
+
+<p><img src="assets/images/red2.webp" alt="Red Team Hücum Simulyasiyası" title="Red Team Hücum Simulyasiyası&quot; alt=&quot;Red Team hücum simulyasiyası" /></p>
+
+<hr />
+
+<h2 id="-nəticə">✅ Nəticə</h2>
+
+<p>Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının təməl daşıdır. Bu metodlarla şirkətlər zəiflikləri vaxtında müəyyən edir, mümkün hücumların qarşısını alır və təhlükəsizlik mədəniyyətini gücləndirirlər. 2025-ci ildə rəqabətdə ön sırada olmaq üçün Red Team simulyasiyaları zəruridir.</p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li><a href="/posts/sosial-muhəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
+  <li><a href="/posts/wifi-hucumlari">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
+  <li><a href="/posts//sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+</ul>
+
+<hr />
+
+<blockquote>
+  <p>Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:<br />
+📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a></p>
+</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="kibertəhlükəsizlik 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T21:58:32+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"><![CDATA[<blockquote>
   <p><strong>🔎 SERP Preview (Google axtarış nəticəsində necə görünür):</strong><br />
 <strong>İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</strong><br />
 https://cybershieldy.com/posts/iki-faktorlu-identifikasiya
@@ -2032,232 +2221,4 @@ typeNeon(neonMessages[neonIndex]);
 
 <h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
 
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/934.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/934.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/wifi-hucumlari" rel="alternate" type="text/html" title="Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)" /><published>2025-09-07T09:02:00+04:00</published><updated>2025-09-20T22:25:08+04:00</updated><id>https://cybershieldy.com/posts/wifi-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-hucumlari"><![CDATA[<h1 id="wi-fi-hücumları-nədir-real-nümunə-taktikalar-və-tam-müdafiə-yolları-2025-yenilənmiş">Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)</h1>
-
-<blockquote>
-  <p><strong>Son yenilənmə:</strong> 9 Sentyabr 2025</p>
-</blockquote>
-
-<p>Wi-Fi texnologiyası gündəlik həyatımızın ayrılmaz hissəsinə çevrilib. Lakin çoxları Wi-Fi üzərindən edilə biləcək <strong><a href="https://cybershieldy.com/posts/sebeke-hucumlari">şəbəkə hücumları</a></strong> barədə məlumatlı deyil. Bu yazıda ən çox rast gəlinən Wi-Fi hücum texnikalarını izah edəcək, real nümunələrlə tanış olacaq və 2025-ci ilin ən müasir müdafiə yollarını öyrənəcəksiniz.</p>
-
-<hr />
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
-   "Scanning Wi-Fi networks...",
-  "Capturing handshake...",
-  "Running deauth attack...",
-  "Welcome to CyberShieldy.com"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: #000;
-  color: #39ff14;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 350px;
-  height: auto;
-  line-height: 1.6em;
-  margin-bottom: 25px;
-
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14;
-
-  text-shadow:
-    0 0 3px #39ff14,
-    0 0 6px #39ff14;
-
-  overflow: hidden;
-  user-select: none;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<hr />
-
-<h2 id="-canlı-nümunə-evil-twin-hücumu">🎯 Canlı nümunə: Evil Twin hücumu</h2>
-
-<p><img src="/assets/images/wfi1.webp" alt="Wi-Fi Evil Twin hücumu nümunəsi" title="Wi-Fi Evil Twin hücumu nümunəsi" /></p>
-
-<p>Bir kafedə aşağıdakı ssenari baş verir:</p>
-
-<blockquote>
-  <p>Hücumçu eyni adla (<code class="language-plaintext highlighter-rouge">FreeCafeWiFi</code>) saxta bir access point yaradır. Qurban bu saxta şəbəkəyə qoşulduqda, bütün trafiki hücumçu izləyə bilir.</p>
-</blockquote>
-
-<p>Bu metodla <strong>istifadəçinin daxil olduğu saytlar</strong>, <strong>şifrə cəhdləri</strong> və <strong>cookie məlumatları</strong> toplanır.</p>
-
-<p>Daha ətraflı oxu: <a href="https://cybershieldy.com/posts/evil-twin-hucumlari">Evil Twin hücumları nədir?</a></p>
-
-<hr />
-
-<h2 id="️-ən-çox-yayılan-wi-fi-hücum-növləri-və-2025-də-yeniliklər">🛠️ Ən çox yayılan Wi-Fi hücum növləri və 2025-də yeniliklər</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Hücum tipi</th>
-      <th>Təsviri</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Evil Twin</strong></td>
-      <td>Saxta access point yaradılır, istifadəçilər aldanır.</td>
-    </tr>
-    <tr>
-      <td><strong>Deauthentication Attack</strong></td>
-      <td>İstifadəçilər real AP-dən qoparılır və hücumçunun AP-sinə yönləndirilir. Daha çox öyrən: <a href="https://cybershieldy.com/posts/wifi-trafik-hucumlari">Deauth Attack</a></td>
-    </tr>
-    <tr>
-      <td><strong>Packet Sniffing</strong></td>
-      <td>Şəbəkə trafiki dinlənir və analiz olunur. Əlavə məlumat: <a href="https://cybershieldy.com/posts/wifi-trafik-hucumlari">Sniffing nədir?</a></td>
-    </tr>
-    <tr>
-      <td><strong>KRACK Attack</strong></td>
-      <td>WPA2 zəifliyi istismar olunur, şifrələnmiş trafik ifşa edilir. Ətraflı: <a href="https://cybershieldy.com/posts/wifi-trafik-hucumlari">KRACK hücumu</a></td>
-    </tr>
-    <tr>
-      <td><strong>Man-in-the-Middle (MitM)</strong></td>
-      <td>İstifadəçi ilə server arasında məlumatlar dəyişdirilir və oğurlanır.</td>
-    </tr>
-    <tr>
-      <td><strong>Wi-Fi Phishing</strong></td>
-      <td>Saxta şəbəkə ilə istifadəçi məlumatları fırıldaqla ələ keçirilir.</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><em>2025-ci ildə hücum metodları daha da təkmilləşib və avtomatlaşdırılıb. Bu səbəbdən müdafiə üsullarını da daim yeniləmək lazımdır.</em></p>
-
-<hr />
-
-<h2 id="-2025-ci-il-üçün-wi-fi-hücumlarından-qorunma-yolları">🔐 2025-ci il üçün Wi-Fi hücumlarından qorunma yolları</h2>
-
-<p>Aşağıdakı tədbirlər ən effektiv müdafiə üsullarıdır:</p>
-
-<p>✅ <strong>Public Wi-Fi şəbəkələrindən ehtiyatlı istifadə edin</strong> – Mümkünsə <a href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik">VPN</a> istifadə edin.<br />
-✅ <strong>VPN istifadəsi</strong> – Bütün trafikinizi güclü şifrələmə ilə qoruyur.<br />
-✅ <strong>HTTPS protokoluna diqqət edin</strong> – Giriş etdiyiniz saytların SSL sertifikatı olmalıdır.<br />
-✅ <strong>Wi-Fi deaktiv edin</strong> – İstifadə etmədiyiniz zaman cihazınızın Wi-Fi-ni bağlayın.<br />
-✅ <strong>Ən son təhlükəsizlik yeniləmələrini tətbiq edin</strong> – <a href="https://cybershieldy.com/posts/vpn-firmware-wifi-tehlukesizlik">Firmware yeniləmələri</a> vacibdir.<br />
-✅ <strong>Rogue AP Detection alətləri quraşdırın</strong> – Şəbəkənizdə saxta AP-ləri aşkarlayın.<br />
-✅ <strong>Təhlükəsizlik təlimlərinə qatılın</strong> – Özünüzü və komandamızı yeniliklərdən xəbərdar edin.</p>
-
-<hr />
-
-<h2 id="-red-team-perspektivi">👨‍💻 Red Team perspektivi</h2>
-
-<p>Red Team simulyasiyalarında Wi-Fi hücumları real ssenarilərdə test edilir:</p>
-
-<blockquote>
-  <p>“Test zamanı işçilər ‘Guest_WiFi_Free’ adlı saxta şəbəkəyə bağlandılar. 15 nəfərin trafikindən cookie məlumatları analiz edildi.”</p>
-</blockquote>
-
-<p>Bu sınaqlar təşkilatların zəif nöqtələrini aşkarlamağa və təhlükəsizlik tədbirlərini gücləndirməyə imkan verir.</p>
-
-<p>Ətraflı oxu: <a href="https://cybershieldy.com/posts/red-team-faliyyeti">Red Team fəaliyyətləri</a></p>
-
-<hr />
-
-<h2 id="-blue-team-müdafiəsi">🧯 Blue Team müdafiəsi</h2>
-
-<p>Blue Team bu hücumlara qarşı aktiv müdafiə sistemləri qurur:</p>
-
-<ul>
-  <li>Wi-Fi IDS/IPS sistemləri quraşdırılır</li>
-  <li>Şəbəkə trafiki daimi monitorinq edilir</li>
-  <li>Təhlükəsizlik təlimləri keçirilir</li>
-  <li>AP-lər aktiv olaraq izlənir (Rogue AP Detection)</li>
-</ul>
-
-<p>Əlavə məlumat: <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Blue Team rolu</a></p>
-
-<hr />
-
-<h2 id="-cronical-yenilənmə-və-davamlı-təhlükəsizlik">📅 Cronical yenilənmə və davamlı təhlükəsizlik</h2>
-
-<p>Wi-Fi hücum texnologiyaları daim dəyişir və yenilənir. Buna görə də, bu məqalə müntəzəm olaraq yenilənir və 2025-ci ilin ən son məlumatları ilə zənginləşdirilir.</p>
-
-<p><strong>Son yenilənmə:</strong> 9 Sentyabr 2025</p>
-
-<hr />
-
-<h2 id="-nəticə">✅ Nəticə</h2>
-
-<p>Wi-Fi — rahat, amma riskli bir texnologiyadır. Hücumçular sadə üsullarla böyük zərər verə bilər. Şəxsi və korporativ şəbəkələrdə Wi-Fi istifadə edirsinizsə, daim yenilənən təhlükəsizlik tədbirlərinə əməl etmək vacibdir.</p>
-
-<p><strong>Məsləhət:</strong> VPN istifadə edin, şəbəkəyə qoşularkən ehtiyatlı olun və müntəzəm təlimlərdə iştirak edin.</p>
-
-<hr />
-
-<h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>
-
-<hr />
-
-<!-- Strukturlaşdırılmış məlumat (JSON-LD) -->
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Wi-Fi Hücumları nədir? Real nümunə, Taktikalar və Tam Müdafiə Yolları (2025 Yenilənmiş)",
-  "description": "Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar, təhlükələr və ən effektiv müdafiə yolları – 2025-ci ilin yenilənmiş versiyası.",
-  "image": "https://sizin-saytiniz.az/assets/images/wfi.png",
-  "author": {
-    "@type": "Person",
-    "name": "CyberShieldy"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://sizin-saytiniz.az/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-07T09:02:00+04:00",
-  "dateModified": "2025-09-09T12:00:00+04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://sizin-saytiniz.az/wifi-hucumlari-taktikalar-mudafie-2025"
-  }
-}
-</script>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="şəbəkə hücumları" /><category term="wifi hücumları" /><category term="evil twin" /><category term="deauth attack" /><category term="sniffing" /><category term="krack" /><category term="şəbəkə təhlükəsizliyi" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Wi-Fi üzərindən edilən kibertəhlükəsizlik hücumlarının necə işlədiyini canlı nümunə ilə öyrənin. Evil Twin, KRACK və Deauth kimi taktikalar, təhlükələr və ən effektiv müdafiə yolları – 2025-ci ilin yenilənmiş versiyası.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/wfi2.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/wfi2.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber security" /><category term="hacking" /><category term="phishing" /><category term="ransomware" /><category term="malware" /><category term="wi-fi hücumları" /><category term="penetration testing" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="ictimai wi-fi" /><category term="SOC" /><category term="student guide" /><summary type="html"><![CDATA[Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/934.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/934.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
