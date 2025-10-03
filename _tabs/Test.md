@@ -243,7 +243,7 @@ d;
 <script>
 function showResult() {
     let score = 0;
-    let totalQuestions = 30;
+    let totalQuestions = 17;
     let unanswered = 0;
 
     for (let i = 1; i <= totalQuestions; i++) {
