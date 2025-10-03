@@ -20,23 +20,25 @@ keywords:
 robots: index, follow
 ---
 
-## ✍️ Bu test kimlər üçün uyğundur?
+<section class="quiz-info">
+  <h2>✍️ Bu test kimlər üçün uyğundur?</h2>
+  <ul>
+    <li><strong>Kibertəhlükəsizlik</strong> sahəsinə yeni başlayan tələbələr.</li>
+    <li><strong>CEH, OSCP və Security+</strong> imtahanlarına hazırlaşanlar.</li>
+    <li><strong>Penetration testing</strong> və <strong>ethical hacking</strong> sahəsinə marağı olan hər kəs.</li>
+  </ul>
 
-- **Kibertəhlükəsizlik sahəsinə yeni başlayan tələbələr.**  
-- **CEH, OSCP və Security+** imtahanlarına hazırlaşanlar.  
-- **Penetration testing** və **ethical hacking** sahəsinə marağı olan hər kəs.
+  <h3>Nə öyrənəcəksiniz?</h3>
+  <ul>
+    <li><strong>OWASP Top 10</strong> zəiflikləri və onları necə aşkarlamaq.</li>
+    <li><strong>SQL injection</strong> və exploitlərin əsasları.</li>
+    <li><strong>Phishing</strong> və social engineering üsulları.</li>
+    <li><strong>DDoS</strong> və şəbəkə təhlükəsizlik testləri.</li>
+    <li><strong>Firewall</strong>, şəbəkə və tətbiq səviyyəli müdafiələr.</li>
+  </ul>
 
-### Nə öyrənəcəksiniz?
-
-- **OWASP Top 10** zəiflikləri və onları necə aşkarlamaq.  
-- **SQL injection** və exploitlərin əsasları.  
-- **Phishing** və social engineering üsulları.  
-- **DDoS** və şəbəkə təhlükəsizlik testləri.  
-- **Firewall**, şəbəkə və tətbiq səviyyəli müdafiələr.
-
-✅ Testi bitirdikdən sonra öz bilik səviyyənizi görəcək və hansı mövzularda zəif olduğunuzu müəyyən edə biləcəksiniz.  
-İmtahana hazırlaşanlar üçün tövsiyə: səhvlərinizi qeyd edin, zəif mövzular üzrə praktika edin və real-dünya nümunələri öyrənin.
-
+  <p>✅ <strong>Testi bitirdikdən sonra</strong> öz bilik səviyyənizi görəcək və hansı mövzularda zəif olduğunuzu müəyyən edə biləcəksiniz. İmtahana hazırlaşanlara tövsiyə: səhvlərinizi qeyd edin, zəif mövzular üzrə praktika edin və real-dünya nümunələri öyrənin.</p>
+</section>
 <!-- Canonical -->
 <link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 
@@ -275,26 +277,8 @@ d;
   <label><input type="radio" name="q20" value="incorrect"> d) a=12; print(aes256(a));</label>
 </div>
 
-<!-- ... 9–30 eyni şablonla davam edir ... -->
-<section class="quiz-info">
-  <h2>✍️ Bu test kimlər üçün uyğundur?</h2>
-  <ul>
-    <li><strong>Kibertəhlükəsizlik</strong> sahəsinə yeni başlayan tələbələr.</li>
-    <li><strong>CEH, OSCP və Security+</strong> imtahanlarına hazırlaşanlar.</li>
-    <li><strong>Penetration testing</strong> və <strong>ethical hacking</strong> sahəsinə marağı olan hər kəs.</li>
-  </ul>
+<!-- ... sual elave etsen eyni şablonla davam edir ... -->
 
-  <h3>Nə öyrənəcəksiniz?</h3>
-  <ul>
-    <li><strong>OWASP Top 10</strong> zəiflikləri və onları necə aşkarlamaq.</li>
-    <li><strong>SQL injection</strong> və exploitlərin əsasları.</li>
-    <li><strong>Phishing</strong> və social engineering üsulları.</li>
-    <li><strong>DDoS</strong> və şəbəkə təhlükəsizlik testləri.</li>
-    <li><strong>Firewall</strong>, şəbəkə və tətbiq səviyyəli müdafiələr.</li>
-  </ul>
-
-  <p>✅ <strong>Testi bitirdikdən sonra</strong> öz bilik səviyyənizi görəcək və hansı mövzularda zəif olduğunuzu müəyyən edə biləcəksiniz. İmtahana hazırlaşanlara tövsiyə: səhvlərinizi qeyd edin, zəif mövzular üzrə praktika edin və real-dünya nümunələri öyrənin.</p>
-</section>
 
 
 <button type="button" onclick="showResult()">Nəticəni Göstər</button>
