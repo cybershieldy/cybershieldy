@@ -1,8 +1,8 @@
 ---
-title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
+title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (20 Sual)
 icon: fas fa-shield-alt
 order: 4
-description: 30 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
+description: 20 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
 keywords:
   - kibertəhlükəsizlik testi
   - ethical hacking sualları
@@ -20,19 +20,36 @@ keywords:
 robots: index, follow
 ---
 
+## ✍️ Bu test kimlər üçün uyğundur?
+
+- **Kibertəhlükəsizlik sahəsinə yeni başlayan tələbələr.**  
+- **CEH, OSCP və Security+** imtahanlarına hazırlaşanlar.  
+- **Penetration testing** və **ethical hacking** sahəsinə marağı olan hər kəs.
+
+### Nə öyrənəcəksiniz?
+
+- **OWASP Top 10** zəiflikləri və onları necə aşkarlamaq.  
+- **SQL injection** və exploitlərin əsasları.  
+- **Phishing** və social engineering üsulları.  
+- **DDoS** və şəbəkə təhlükəsizlik testləri.  
+- **Firewall**, şəbəkə və tətbiq səviyyəli müdafiələr.
+
+✅ Testi bitirdikdən sonra öz bilik səviyyənizi görəcək və hansı mövzularda zəif olduğunuzu müəyyən edə biləcəksiniz.  
+İmtahana hazırlaşanlar üçün tövsiyə: səhvlərinizi qeyd edin, zəif mövzular üzrə praktika edin və real-dünya nümunələri öyrənin.
+
 <!-- Canonical -->
 <link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 
 <!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)" />
-<meta property="og:description" content="30 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
+<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (20 Sual)" />
+<meta property="og:description" content="20 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 <meta property="og:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
 <!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)" />
+<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (20 Sual)" />
 <meta name="twitter:description" content="Ethical hacking, OWASP və SQLi biliklərinizi bu test ilə yoxlayın. CEH hazırlığı üçün uyğundur." />
 <meta name="twitter:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
@@ -75,7 +92,7 @@ robots: index, follow
   }
 </style>
 
-# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
+# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (20 Sual)
 
 Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **30 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
@@ -234,8 +251,51 @@ d;
   <label><input type="radio" name="q17" value="correct"> d) 100,12</label>
 </div>
 
+<div class="question">
+  <p>18. Phishing hücumu / proqramı hazırlamaq üçün hansı bacarıq daha çox lazımdır?</p>
+  <label><input type="radio" name="q18" value="incorrect"> a) coding + robotexnika</label>
+  <label><input type="radio" name="q18" value="correct"> b) coding + mysql</label>
+  <label><input type="radio" name="q18" value="incorrect"> c) coding + sqlinjection</label>
+  <label><input type="radio" name="q18" value="incorrect"> d) coding + DDOS</label>
+</div>
+
+<div class="question">
+  <p>19. Günümüzdə ən uğurlu kiber hücum növünü seçin:</p>
+  <label><input type="radio" name="q19" value="correct"> a) Phishing</label>
+  <label><input type="radio" name="q19" value="incorrect"> b) Virus ataka</label>
+  <label><input type="radio" name="q19" value="incorrect"> c) Reverse shell</label>
+  <label><input type="radio" name="q19" value="incorrect"> d) Exploit atak</label>
+</div>
+
+<div class="question">
+  <p>20. Hansı proqramlaşdırma dilində verilmiş kod doğrudur?</p>
+  <label><input type="radio" name="q20" value="correct"> a) $a=1234; md5($a);</label>
+  <label><input type="radio" name="q20" value="incorrect"> b) var x=12; base64_decode(x);</label>
+  <label><input type="radio" name="q20" value="incorrect"> c) int a=12; printf(md5("%d",a));</label>
+  <label><input type="radio" name="q20" value="incorrect"> d) a=12; print(aes256(a));</label>
+</div>
 
 <!-- ... 9–30 eyni şablonla davam edir ... -->
+<section class="quiz-info">
+  <h2>✍️ Bu test kimlər üçün uyğundur?</h2>
+  <ul>
+    <li><strong>Kibertəhlükəsizlik</strong> sahəsinə yeni başlayan tələbələr.</li>
+    <li><strong>CEH, OSCP və Security+</strong> imtahanlarına hazırlaşanlar.</li>
+    <li><strong>Penetration testing</strong> və <strong>ethical hacking</strong> sahəsinə marağı olan hər kəs.</li>
+  </ul>
+
+  <h3>Nə öyrənəcəksiniz?</h3>
+  <ul>
+    <li><strong>OWASP Top 10</strong> zəiflikləri və onları necə aşkarlamaq.</li>
+    <li><strong>SQL injection</strong> və exploitlərin əsasları.</li>
+    <li><strong>Phishing</strong> və social engineering üsulları.</li>
+    <li><strong>DDoS</strong> və şəbəkə təhlükəsizlik testləri.</li>
+    <li><strong>Firewall</strong>, şəbəkə və tətbiq səviyyəli müdafiələr.</li>
+  </ul>
+
+  <p>✅ <strong>Testi bitirdikdən sonra</strong> öz bilik səviyyənizi görəcək və hansı mövzularda zəif olduğunuzu müəyyən edə biləcəksiniz. İmtahana hazırlaşanlara tövsiyə: səhvlərinizi qeyd edin, zəif mövzular üzrə praktika edin və real-dünya nümunələri öyrənin.</p>
+</section>
+
 
 <button type="button" onclick="showResult()">Nəticəni Göstər</button>
 </form>
@@ -243,7 +303,7 @@ d;
 <script>
 function showResult() {
     let score = 0;
-    let totalQuestions = 17;
+    let totalQuestions = 20;
     let unanswered = 0;
 
     for (let i = 1; i <= totalQuestions; i++) {
