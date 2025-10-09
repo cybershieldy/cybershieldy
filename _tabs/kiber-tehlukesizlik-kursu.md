@@ -5,6 +5,7 @@ keywords: kiber təhlükəsizlik kursu, cybersecurity kursu, ethical hacking kur
 robots: index, follow
 canonical: https://cybershieldy.com/kiber-tehlukesizlik-kursu/
 image: /assets/images/cybershieldy_cyber.png
+icon: fas fa-bug
 date: 2025-10-09
 ---
 
@@ -16,7 +17,7 @@ Təlimdə həm **şəbəkə təhlükəsizliyi**, həm də **etik hacking (Ethica
 📍 **Məkan:** Bakı və Onlayn  
 🎓 **Sertifikat:** CyberShieldy Digital Certificate  
 💻 **Format:** Praktiki lab, CTF və real hücum simulyasiyaları  
-🕐 **Müddət:** 3 ay (96 saat)  
+🕐 **Müddət:** 8 ay (96 saat)  
 🧠 **Səviyyə:** Beginner → Advanced
 
 ---
@@ -94,6 +95,19 @@ Təlimdə həm **şəbəkə təhlükəsizliyi**, həm də **etik hacking (Ethica
 
 ---
 
+### 🔹 Modul 9: Öz CTF Yaratmaq (Capture-The-Flag Platforması)
+Bu bölmədə tələbələr öz **CTF (Capture-The-Flag)** yarışını sıfırdan qurur və idarə etməyi öyrənir.
+
+- CTF növləri: Jeopardy və Attack-Defense  
+- Challenge dizaynı: pwn, web, crypto, forensics, reverse, OSINT  
+- Flag və scoring sistemi (dynamic flags, HMAC-signed)  
+- Docker ilə izolyasiya, CTFd və auto-grading sistemi  
+- Hosting və təhlükəsizlik (firewall, rate-limit, backups)  
+🧩 *Final Project:* “Full CTF Platform Build & Host Challenge”  
+**SEO:** ctf kursu, ctf yaradılma, cybersecurity praktika
+
+---
+
 ## 🧾 Sertifikat və Layihə
 
 Kursu bitirdikdən sonra:
@@ -130,7 +144,7 @@ Bəli. Kursun sonunda “Career Preparation” modulu vasitəsilə CV və müsah
 
 📲 [WhatsApp ilə yaz](https://wa.me/994555182523?text=Kiber+Təhlükəsizlik+kursuna+yazılmaq+istəyirəm)  
 🌍 [https://cybershieldy.com/kiber-tehlukesizlik-kursu/](https://cybershieldy.com/kiber-tehlukesizlik-kursu/)  
-📧 info@cybershieldy.com  
+
 
 ---
 
