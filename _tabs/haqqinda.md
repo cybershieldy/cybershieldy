@@ -115,6 +115,8 @@ Online Zoom dərsləri, video modullar, real-case laboratoriyalar və CTF-lərl�
 - 🌐 Rəsmi sayt: [https://cybershieldy.com](https://cybershieldy.com)  
 - 📲 WhatsApp: [+994 55 518 25 23](https://wa.me/994555182523)  
 - 📧 Email: [ccybershieldy@gmail.com](mailto:ccybershieldy@gmail.com)
+📘 Həmçinin bax: [Kiber Təhlükəsizlik Kursu – Ethical Hacking və Cybersecurity Təlimi](/kiber-tehlukesizlik-kursu)
+
 
 ---
 

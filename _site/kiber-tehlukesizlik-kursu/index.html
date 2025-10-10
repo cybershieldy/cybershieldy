@@ -739,6 +739,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -754,6 +765,17 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -1044,6 +1066,64 @@ Təlimdə həm <strong>şəbəkə təhlükəsizliyi</strong>, həm də <strong>e
 
 <hr />
 
+<h3 id="-modul-10-advanced-exploitation--buffer-overflow-və-rop-texnikaları"><span class="me-2">🔹 Modul 10: Advanced Exploitation – Buffer Overflow və ROP Texnikaları</span><a href="#-modul-10-advanced-exploitation--buffer-overflow-və-rop-texnikaları" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Bu modul tələbələrə <strong>low-level exploitation</strong>, exploit development və qabaqcıl offensive security texnikalarını öyrədir. Məqsəd — təhlükəsizlik tədqiqatçısı və ya OSCP/advanced pentest mütəxəssisi səviyyəsinə yaxınlaşdırmaqdır. Kurs boyunca hər zaman <strong>etik və qanuni çərçivə</strong> vurğulanacaq.</p>
+
+<p><strong>Modul məzmunu</strong></p>
+<ul>
+  <li>Memory fundamentals: Stack vs Heap, memory layout, calling conventions (x86, x64)</li>
+  <li>Protections və mitigations: ASLR, DEP/NX, Stack Canaries, RELRO</li>
+  <li><strong>Buffer Overflow</strong> anlayışı: stack-based və heap-based overflow konseptləri (konseptual izah)</li>
+  <li>EIP/RIP yönləndirmə və shellcode injection (konseptual)</li>
+  <li><strong>Return-Oriented Programming (ROP)</strong>: gadget anlayışı, gadget chain planlaşdırma və ROP mitigasiyaları (konseptual)</li>
+  <li>Stack pivoting, ret2libc və jump-oriented texnikalar (izahlı konseptlər)</li>
+  <li>Exploit development workflow: vuln discovery → PoC design → safe proof-of-concept reporting (etik yanaşma)</li>
+  <li>Debugging və analiz alətləri: GDB, pwndbg, radare2, ltrace/strace, Immunity/WinDbg (əsas funksiyalar və necə istifadə olunur — high-level)</li>
+  <li>Automasiya: exploit skriptləri üçün Python struktur nümunələri (struktur, modul tərtibatı — amma zərərli kod deyil)</li>
+  <li>Platform spesifik nümunələr: Linux pwn challenges və Windows binary exploitation (konseptual yönəldilmiş lablar)</li>
+</ul>
+
+<p><strong>Praktiki lablar (təhlükəsiz, izolyasiya edilmiş mühitdə)</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ExploitMe-Stack-01</code> — sadə stack overflow (korrelyasiya və mitigation testləri)</li>
+  <li><code class="language-plaintext highlighter-rouge">ExploitMe-Heap-01</code> — heap behavior və basic heap-overflow anlayışı</li>
+  <li><code class="language-plaintext highlighter-rouge">ROP-Workshop-01</code> — gadget identification (automated tooling + manual reasoning)</li>
+  <li><code class="language-plaintext highlighter-rouge">Ret2libc-Lab</code> — protected binary-lərdə ret2libc strategiyaları (konseptual PoC)</li>
+  <li><code class="language-plaintext highlighter-rouge">BinaryHardening-Analysis</code> — Protection flags və binary hardening testi<br />
+🧩 <em>Final Project:</em> “Custom Exploit Development &amp; Proof-of-Concept Report” — tələbə izolyasiya edilmiş labda bir vulnerable binari tapır, PoC konseptini hazır edir, mitigasiya təklifləri və yazılı raport təqdim edir.</li>
+</ul>
+
+<p><strong>Qiymətləndirmə</strong></p>
+<ul>
+  <li>Lab tapşırıqları: 50%</li>
+  <li>Mini PoC və yazılı raport: 30%</li>
+  <li>Final Project (PoC + remediation plan): 20%</li>
+</ul>
+
+<p><strong>Öyrənmə nəticələri</strong></p>
+<ul>
+  <li>Tələbə exploit development prosesinin əsas mərhələlərini şifahi və yazılı şəkildə izah edə biləcək.</li>
+  <li>Tələbə əsas mitigasiyaları anlamaqla sistemdə zəifliklərin necə izləniləcəyini və necə aradan qaldırılacağını təqdim edə biləcək.</li>
+  <li>Tələbə etik və qanuni çərçivədə PoC hazırlayıb, məsuliyyətli disclosure prosesini izah edə biləcək.</li>
+</ul>
+
+<p><strong>Təhlükəsizlik və etik qayda</strong></p>
+<ul>
+  <li>Bütün lablar izolyasiya edilmiş mühitdə (Docker/Vagrant/VM) aparılır.</li>
+  <li>Tələbələrə real sistemlərdə istismar həyata keçirməmək və hər zaman “responsible disclosure” prinsiplərinə riayət etmək öyrədilir.</li>
+  <li>Hər bir PoC göndərilmədən əvvəl instruktordan icazə tələb olunur.</li>
+</ul>
+
+<p><strong>Resurslar və oxu materialı</strong></p>
+<ul>
+  <li>Konseptual məqalələr və sənədlər: memory layout, ASLR/DEP, ROP texnikaları (linklər kurs portalında paylaşılar)</li>
+  <li>Alətlər: GDB + pwndbg, radare2, pwntools (struktur və necə inteqrasiya olunur — nəzəri yönləndirmə)</li>
+  <li>Referans CTF problemləri: pwnable.kr, Protostar, CTF challenges (tədris məqsədli istinadlar)</li>
+</ul>
+
+<p><strong>SEO:</strong> buffer overflow kursu, exploit development təlimi, rop texnikası, oscp hazırlıq, cybersecurity advanced lab</p>
+
 <h2 id="-sertifikat-və-layihə"><span class="me-2">🧾 Sertifikat və Layihə</span><a href="#-sertifikat-və-layihə" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p>Kursu bitirdikdən sonra:</p>
@@ -1053,9 +1133,7 @@ Təlimdə həm <strong>şəbəkə təhlükəsizliyi</strong>, həm də <strong>e
   <li>LinkedIn və CV-də istifadə oluna bilən sertifikat</li>
 </ul>
 
-<div style="text-align:center; margin:30px 0;">
-  <a href="/assets/images/cybershieldy_cyber.webp" class="popup img-link shimmer"><img src="/assets/images/cybershieldy_cyber.webp" alt="Kiber Təhlükəsizlik Sertifikatı - CyberShieldy" style="max-width:650px; border-radius:16px; box-shadow:0 0 25px rgba(0,0,0,0.25);" loading="lazy"></a>
-</div>
+<p><a href="/assets/images/webpcybershieldy_cyber.webp" class="popup img-link shimmer"><img src="/assets/images/webpcybershieldy_cyber.webp" alt="Kiber Təhlükəsizlik Kursu Sertifikatı - Ethical Hacking və Cybersecurity Təlimi - CyberShieldy" title="Kiber Təhlükəsizlik Kursu Sertifikatı - CyberShieldy" loading="lazy"></a></p>
 
 <hr />
 
@@ -1083,7 +1161,7 @@ Təlimdə həm <strong>şəbəkə təhlükəsizliyi</strong>, həm də <strong>e
 <p>📲 <a href="https://wa.me/994555182523?text=Kiber+Təhlükəsizlik+kursuna+yazılmaq+istəyirəm">WhatsApp ilə yaz</a><br />
 🌍 <a href="https://cybershieldy.com/kiber-tehlukesizlik-kursu/">https://cybershieldy.com/kiber-tehlukesizlik-kursu/</a></p>
 
-<hr />
+<h2 id="-təlimçi-haqqında-daha-çox-öyrənmək-üçün-haqqında-səhifəsinə-keç-"><span class="me-2">💡 Təlimçi haqqında daha çox öyrənmək üçün <a href="/haqqinda">Haqqında səhifəsinə keç →</a></span><a href="#-təlimçi-haqqında-daha-çox-öyrənmək-üçün-haqqında-səhifəsinə-keç-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <script type="application/ld+json">
 {

@@ -108,6 +108,53 @@ Bu bölmədə tələbələr öz **CTF (Capture-The-Flag)** yarışını sıfırd
 
 ---
 
+### 🔹 Modul 10: Advanced Exploitation – Buffer Overflow və ROP Texnikaları
+
+Bu modul tələbələrə **low-level exploitation**, exploit development və qabaqcıl offensive security texnikalarını öyrədir. Məqsəd — təhlükəsizlik tədqiqatçısı və ya OSCP/advanced pentest mütəxəssisi səviyyəsinə yaxınlaşdırmaqdır. Kurs boyunca hər zaman **etik və qanuni çərçivə** vurğulanacaq.
+
+**Modul məzmunu**
+- Memory fundamentals: Stack vs Heap, memory layout, calling conventions (x86, x64)  
+- Protections və mitigations: ASLR, DEP/NX, Stack Canaries, RELRO  
+- **Buffer Overflow** anlayışı: stack-based və heap-based overflow konseptləri (konseptual izah)  
+- EIP/RIP yönləndirmə və shellcode injection (konseptual)  
+- **Return-Oriented Programming (ROP)**: gadget anlayışı, gadget chain planlaşdırma və ROP mitigasiyaları (konseptual)  
+- Stack pivoting, ret2libc və jump-oriented texnikalar (izahlı konseptlər)  
+- Exploit development workflow: vuln discovery → PoC design → safe proof-of-concept reporting (etik yanaşma)  
+- Debugging və analiz alətləri: GDB, pwndbg, radare2, ltrace/strace, Immunity/WinDbg (əsas funksiyalar və necə istifadə olunur — high-level)  
+- Automasiya: exploit skriptləri üçün Python struktur nümunələri (struktur, modul tərtibatı — amma zərərli kod deyil)  
+- Platform spesifik nümunələr: Linux pwn challenges və Windows binary exploitation (konseptual yönəldilmiş lablar)
+
+**Praktiki lablar (təhlükəsiz, izolyasiya edilmiş mühitdə)**
+- `ExploitMe-Stack-01` — sadə stack overflow (korrelyasiya və mitigation testləri)  
+- `ExploitMe-Heap-01` — heap behavior və basic heap-overflow anlayışı  
+- `ROP-Workshop-01` — gadget identification (automated tooling + manual reasoning)  
+- `Ret2libc-Lab` — protected binary-lərdə ret2libc strategiyaları (konseptual PoC)  
+- `BinaryHardening-Analysis` — Protection flags və binary hardening testi  
+🧩 *Final Project:* “Custom Exploit Development & Proof-of-Concept Report” — tələbə izolyasiya edilmiş labda bir vulnerable binari tapır, PoC konseptini hazır edir, mitigasiya təklifləri və yazılı raport təqdim edir.
+
+**Qiymətləndirmə**
+- Lab tapşırıqları: 50%  
+- Mini PoC və yazılı raport: 30%  
+- Final Project (PoC + remediation plan): 20%
+
+**Öyrənmə nəticələri**
+- Tələbə exploit development prosesinin əsas mərhələlərini şifahi və yazılı şəkildə izah edə biləcək.  
+- Tələbə əsas mitigasiyaları anlamaqla sistemdə zəifliklərin necə izləniləcəyini və necə aradan qaldırılacağını təqdim edə biləcək.  
+- Tələbə etik və qanuni çərçivədə PoC hazırlayıb, məsuliyyətli disclosure prosesini izah edə biləcək.
+
+**Təhlükəsizlik və etik qayda**
+- Bütün lablar izolyasiya edilmiş mühitdə (Docker/Vagrant/VM) aparılır.  
+- Tələbələrə real sistemlərdə istismar həyata keçirməmək və hər zaman “responsible disclosure” prinsiplərinə riayət etmək öyrədilir.  
+- Hər bir PoC göndərilmədən əvvəl instruktordan icazə tələb olunur.
+
+**Resurslar və oxu materialı**
+- Konseptual məqalələr və sənədlər: memory layout, ASLR/DEP, ROP texnikaları (linklər kurs portalında paylaşılar)  
+- Alətlər: GDB + pwndbg, radare2, pwntools (struktur və necə inteqrasiya olunur — nəzəri yönləndirmə)  
+- Referans CTF problemləri: pwnable.kr, Protostar, CTF challenges (tədris məqsədli istinadlar)
+
+**SEO:** buffer overflow kursu, exploit development təlimi, rop texnikası, oscp hazırlıq, cybersecurity advanced lab
+
+
 ## 🧾 Sertifikat və Layihə
 
 Kursu bitirdikdən sonra:
@@ -115,9 +162,11 @@ Kursu bitirdikdən sonra:
 - Portfolio üçün **real-world pentest və CTF layihələri**  
 - LinkedIn və CV-də istifadə oluna bilən sertifikat
 
-<div style="text-align:center; margin:30px 0;">
-  <img src="/assets/images/cybershieldy_cyber.webp" alt="Kiber Təhlükəsizlik Sertifikatı - CyberShieldy" style="max-width:650px; border-radius:16px; box-shadow:0 0 25px rgba(0,0,0,0.25);">
-</div>
+
+![Kiber Təhlükəsizlik Kursu Sertifikatı - Ethical Hacking və Cybersecurity Təlimi - CyberShieldy](/assets/images/webpcybershieldy_cyber.webp "Kiber Təhlükəsizlik Kursu Sertifikatı - CyberShieldy")
+
+
+
 
 ---
 
@@ -145,8 +194,9 @@ Bəli. Kursun sonunda “Career Preparation” modulu vasitəsilə CV və müsah
 📲 [WhatsApp ilə yaz](https://wa.me/994555182523?text=Kiber+Təhlükəsizlik+kursuna+yazılmaq+istəyirəm)  
 🌍 [https://cybershieldy.com/kiber-tehlukesizlik-kursu/](https://cybershieldy.com/kiber-tehlukesizlik-kursu/)  
 
-
+💡 Təlimçi haqqında daha çox öyrənmək üçün [Haqqında səhifəsinə keç →](/haqqinda)
 ---
+
 
 <script type="application/ld+json">
 {
