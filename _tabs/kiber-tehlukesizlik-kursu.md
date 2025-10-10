@@ -163,7 +163,7 @@ Kursu bitirdikdən sonra:
 - LinkedIn və CV-də istifadə oluna bilən sertifikat
 
 
-![Kiber Təhlükəsizlik Kursu Sertifikatı - Ethical Hacking və Cybersecurity Təlimi - CyberShieldy](/assets/images/webpcybershieldy_cyber.webp "Kiber Təhlükəsizlik Kursu Sertifikatı - CyberShieldy")
+![Kiber Təhlükəsizlik Kursu Sertifikatı - Ethical Hacking və Cybersecurity Təlimi - CyberShieldy](/assets/images/cybershieldy_cyber.webp "Kiber Təhlükəsizlik Kursu Sertifikatı - CyberShieldy")
 
 
 
