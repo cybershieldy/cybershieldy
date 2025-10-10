@@ -6,7 +6,6 @@ robots: index, follow
 canonical: https://cybershieldy.com/kiber-tehlukesizlik-kursu/
 image: /assets/images/cybershieldy_cyber.png
 icon: fas fa-bug
-date: 2025-10-09
 ---
 
 # 🛡️ Kiber Təhlükəsizlik Kursu – Ethical Hacking və Cybersecurity Təlimi
