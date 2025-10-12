@@ -278,7 +278,7 @@ d;
 </div>
 
 <div class="question">
-  <p>1. WordPress saytlarını zəiflik skan etmək üçün hansı proqram daha uyğundur?</p>
+  <p>21. WordPress saytlarını zəiflik skan etmək üçün hansı proqram daha uyğundur?</p>
   <label><input type="radio" name="q1" value="correct"> a) Wpscan</label>
   <label><input type="radio" name="q1" value="incorrect"> b) ScanningWord</label>
   <label><input type="radio" name="q1" value="incorrect"> c) WordScanIn</label>
@@ -286,7 +286,7 @@ d;
 </div>
 
 <div class="question">
-  <p>2. Lokal domen (məsələn, example.local) yaratmaq və IP ilə əlaqələndirmək üçün hansı fayl və qovluqdan istifadə olunur?</p>
+  <p>22. Lokal domen (məsələn, example.local) yaratmaq və IP ilə əlaqələndirmək üçün hansı fayl və qovluqdan istifadə olunur?</p>
   <label><input type="radio" name="q2" value="incorrect"> a) ads/hosts</label>
   <label><input type="radio" name="q2" value="correct"> b) /etc/hosts</label>
   <label><input type="radio" name="q2" value="incorrect"> c) /etc/domain</label>
@@ -294,7 +294,7 @@ d;
 </div>
 
 <div class="question">
-  <p>3. python -c "import pty; pty.spawn('/bin/bash')" əmri nə üçün istifadə olunur?</p>
+  <p>23. python -c "import pty; pty.spawn('/bin/bash')" əmri nə üçün istifadə olunur?</p>
   <label><input type="radio" name="q3" value="incorrect"> a) Yeni root istifadəçi əldə etmək və shellcode üçün</label>
   <label><input type="radio" name="q3" value="correct"> b) İnteraktiv PTY (pseudo-tty) shell yaratmaq üçün</label>
   <label><input type="radio" name="q3" value="incorrect"> c) Sistemi yenidən başlatmaq üçün</label>
@@ -302,7 +302,7 @@ d;
 </div>
 
 <div class="question">
-  <p>4. Sistemdə non-root istifadəçi olsan, ilk edəcəyin əməliyyatda hansı doğrudur?</p>
+  <p>24. Sistemdə non-root istifadəçi olsan, ilk edəcəyin əməliyyatda hansı doğrudur?</p>
   <label><input type="radio" name="q4" value="incorrect"> a) Heç nə — cron yalnız root ilə idarə olunur</label>
   <label><input type="radio" name="q4" value="correct"> b) Öz istifadəçi cron jobunu yarada bilərsən</label>
   <label><input type="radio" name="q4" value="incorrect"> c) Cron yalnız /var/log/cron faylını idarə edir</label>
@@ -310,7 +310,7 @@ d;
 </div>
 
 <div class="question">
-  <p>5. Telefona sızma (implantasiya / exploitation) prosesini çətinləşdirən mexanizm hansıdır?</p>
+  <p>25. Telefona sızma (implantasiya / exploitation) prosesini çətinləşdirən mexanizm hansıdır?</p>
   <label><input type="radio" name="q5" value="incorrect"> a) GreenBox</label>
   <label><input type="radio" name="q5" value="correct"> b) Sandbox</label>
   <label><input type="radio" name="q5" value="incorrect"> c) Heç bir maneə yoxdur — əgər virus atılıbsa, keçir</label>
@@ -318,7 +318,7 @@ d;
 </div>
 
 <div class="question">
-  <p>6. Aşağıdakılardan hansı kriptoqrafiyaya aid deyil?</p>
+  <p>26. Aşağıdakılardan hansı kriptoqrafiyaya aid deyil?</p>
   <label><input type="radio" name="q6" value="incorrect"> a) MD5</label>
   <label><input type="radio" name="q6" value="incorrect"> b) AES-256</label>
   <label><input type="radio" name="q6" value="correct"> c) base64_encode</label>
@@ -326,7 +326,7 @@ d;
 </div>
 
 <div class="question">
-  <p>7. wget əmri hansı məqsədlə istifadə olunur?</p>
+  <p>27. wget əmri hansı məqsədlə istifadə olunur?</p>
   <label><input type="radio" name="q7" value="correct"> a) URL-dən faylları (HTTP/HTTPS/FTP vasitəsilə) yükləmək üçün</label>
   <label><input type="radio" name="q7" value="incorrect"> b) Sistəmə xüsusi priviləqiya (root) vermək üçün</label>
   <label><input type="radio" name="q7" value="incorrect"> c) python3 -m modulunu işə salmaq üçün</label>
@@ -334,7 +334,7 @@ d;
 </div>
 
 <div class="question">
-  <p>8. ssh-keygen -t rsa -b 4096 -m PEM -f cryptoKey əmri nə yaradır?</p>
+  <p>28. ssh-keygen -t rsa -b 4096 -m PEM -f cryptoKey əmri nə yaradır?</p>
   <label><input type="radio" name="q8" value="incorrect"> a) Yalnız cryptoKey adlı fayl yaradır</label>
   <label><input type="radio" name="q8" value="incorrect"> b) cryptoKey.pub adlı yalnız public açar yaradır</label>
   <label><input type="radio" name="q8" value="correct"> c) cryptoKey və cryptoKey.pub — private və public açar cütlüyü yaradır</label>
@@ -342,7 +342,7 @@ d;
 </div>
 
 <div class="question">
-  <p>9. Squid proxy serverinin əsas iş prinsipi nəyə əsaslanır?</p>
+  <p>29. Squid proxy serverinin əsas iş prinsipi nəyə əsaslanır?</p>
   <label><input type="radio" name="q9" value="incorrect"> a) SSH trafikinə nəzarət etmək</label>
   <label><input type="radio" name="q9" value="incorrect"> b) FTP bağlantılarını bloklamaq</label>
   <label><input type="radio" name="q9" value="correct"> c) Sayt bloklama və girişə parol nəzarəti tətbiq etmək</label>
@@ -350,7 +350,7 @@ d;
 </div>
 
 <div class="question">
-  <p>10. Snort sistemi hansı prinsip əsasında çalışır?</p>
+  <p>30. Snort sistemi hansı prinsip əsasında çalışır?</p>
   <label><input type="radio" name="q10" value="correct"> a) Qaydalar (rules) təyin olunur və sistem trafiki analiz edərək monitorinqə verir</label>
   <label><input type="radio" name="q10" value="incorrect"> b) Yalnız SSH girişlərinə nəzarət edir</label>
   <label><input type="radio" name="q10" value="incorrect"> c) Yalnız FTP və HTTP (80) trafikinə baxır</label>
