@@ -1,14 +1,16 @@
 ---
-title: "Kiber Təhlükəsizlik Kursu | Cybersecurity və Ethical Hacking Təlimi | Bakı və Online"
-description: "Tam praktiki Kiber Təhlükəsizlik Kursu – Ethical Hacking, CEH və OSCP hazırlığı. Bakı və onlayn formatda Red Team, Blue Team və real CTF lab təlimləri. Sertifikatlı təlim — CyberShieldy."
-keywords: kiber təhlükəsizlik kursu, cybersecurity kursu, ethical hacking kursu, oscp hazırlıq, pentest kursu, hacker kursu, kiber təhlükəsizlik təlimi, cybersecurity bakı, red team kursu, blue team kursu, ceh kursu
+title: "Kiber Təhlükəsizlik Kursu və Təlimi | Red Team, Blue Team, OSCP, CompTIA++ Hazırlıq | CyberShieldy"
+description: "Kiber Təhlükəsizlik Kursu və Təlimi – Red Team və Blue Team praktiki dərsləri, OSCP və CompTIA++ hazırlığı, Ethical Hacking və Cybersecurity proqramı. Tam praktiki kiber kursu və təlimi Bakı və onlayn formatda — CyberShieldy."
+keywords: kiber təhlükəsizlik kursu, kiber təhlükəsizlik təlimi, kiber kursu, kiber təlim, red team kursu, red team təlimi, blue team kursu, blue team təlimi, oscp kursu, oscp təlimi, comptia++ kursu, comptia++ təlimi, cybersecurity kursu, ethical hacking kursu, oscp hazırlıq, pentest kursu, hacker kursu, cybersecurity bakı, ceh kursu
 robots: index, follow
 canonical: https://cybershieldy.com/kiber-tehlukesizlik-kursu/
 image: /assets/images/cybershieldy_cyber.png
 icon: fas fa-bug
 ---
 
-# 🛡️ Kiber Təhlükəsizlik Kursu – Ethical Hacking və Cybersecurity Təlimi
+
+# 🛡️ Kiber Təhlükəsizlik Kursu və Təlimi – Red Team, Blue Team, OSCP və CompTIA++ Hazırlıq
+
 
 **CyberShieldy** tərəfindən təqdim olunan **Kiber Təhlükəsizlik Kursu**, Azərbaycanda və beynəlxalq səviyyədə **ən tam praktiki cybersecurity proqramıdır**.  
 Təlimdə həm **şəbəkə təhlükəsizliyi**, həm də **etik hacking (Ethical Hacking)** bacarıqları qazanırsan.
