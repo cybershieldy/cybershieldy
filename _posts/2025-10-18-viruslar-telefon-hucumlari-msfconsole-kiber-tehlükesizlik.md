@@ -146,7 +146,7 @@ Mobil cihazlar üçün tipik yoluxma yolları belədir — **təfərrüatlı exp
 ---
 ## 📚 Oxşar yazılar
 
-- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-muhəndislik)  
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-m%C3%BCh%C9%99ndislik)
 - [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
 - [SIEM nədir və necə işləyir?](/posts/siem-nedir)
 
