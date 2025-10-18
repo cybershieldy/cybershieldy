@@ -1,7 +1,7 @@
 ---
 title: "Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)"
-date: 2025-10-18 12:00:00 +0400
-lastmod: 2025-10-18 12:00:00 +0400
+date: 2025-10-18 09:00:00 +0400
+lastmod: 2025-10-18 09:00:00 +0400
 categories: [kiber təhlükəsizlik, malware, mobil təhlükəsizlik, incident response]
 tags: [virus, mobile malware, telefon virusu, komputer virusu, msfconsole, malware analysis, ransomware, spyware, trojan, phishing, android virus, ios security, cyber hygiene, antivirus]
 description: "Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin."
