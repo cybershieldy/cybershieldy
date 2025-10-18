@@ -72,7 +72,8 @@ Siz də bu səhifədə yer almaq istəyirsinizsə bizimlə əlaqə saxlayın �
 ## 🌐 Qeydiyyat və Əlaqə
 
 📲 [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Proqramlaşdırma+kursuna+yazılmaq+istəyirəm)  
-🌍 [https://cybershieldy.com/web-proqramlasdirma-kursu/](https://cybershieldy.com/web-proqramlasdirma-kursu/)  
+🌍 [https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer//](https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer//)  
+🌍 [https://cybershieldy.com/kiber-tehlukesizlik-kursu/](https://cybershieldy.com/kiber-tehlukesizlik-kursu/)  
 
 💡 Təlimçi haqqında daha çox öyrənmək üçün [Haqqında səhifəsinə keç →](/haqqinda)
 
