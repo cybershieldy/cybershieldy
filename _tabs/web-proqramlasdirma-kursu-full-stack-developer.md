@@ -1,12 +1,13 @@
 ---
-title: "Web Proqramlaşdırma Kursu və Təlimi | Full Stack Developer | Bakı və Online | CyberShieldy"
-description: "Tam praktiki Web Proqramlaşdırma Kursu – Front-end və Back-end üzrə Full Stack Developer təlimi. HTML, CSS, JavaScript, React, Node.js, Python, SQL və Git ilə real layihə təcrübəsi. Bakı və onlayn formatda — CyberShieldy."
-keywords: web proqramlaşdırma kursu, web proqramlaşdırma təlimi, web developer kursu, web developer təlimi, proqramlaşdırma kursu, proqramlama təlimi, full stack kursu, front-end kursu, back-end kursu, javascript kursu, react kursu, nodejs kursu, python web kursu, sql kursu, html css kursu, web development kursu, web proqramçı hazırlığı, web proqramlaşdırma bakı, full stack developer təlimi
+title: "Web Proqramlaşdırma Kursu və Təlimi | Full Stack Developer | Bakı və Onlayn | CyberShieldy"
+description: "Web Proqramlaşdırma Kursu — sıfırdan Full Stack Developer olmaq üçün praktiki təlim. HTML, CSS, JavaScript, React, Node.js, Python və SQL ilə real layihə əsaslı öyrənmə. Bakı və onlayn dərslər, sertifikat və işə hazırlıq dəstəyi — CyberShieldy."
+keywords: web proqramlaşdırma kursu, web proqramlaşdırma təlimi, web developer kursu, web developer təlimi, web proqramçı hazırlığı, proqramlaşdırma kursu, full stack developer kursu, front-end kursu, back-end kursu, javascript kursu, react kursu, nodejs kursu, python web kursu, sql kursu, html css kursu, web development kursu, web proqramlaşdırma bakı, onlayn web kursu, web proqramçı öyrənmək, full stack təlimi, proqramlaşdırma tədrisi
 robots: index, follow
 canonical: https://cybershieldy.com/web-proqramlasdirma-kursu/
 image: /assets/images/web.png
 icon: fas fa-code
 ---
+
 
 # 💻 Web Proqramlaşdırma Kursu və Təlimi | Full Stack Developer – Front-end & Back-end | CyberShieldy
 
@@ -153,7 +154,7 @@ Bəli, kursun sonunda “Career Preparation” və “GitHub Portfolio” modull
 ## 🌐 Qeydiyyat və Əlaqə
 
 📲 [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Proqramlaşdırma+kursuna+yazılmaq+istəyirəm)  
-🌍 [https://cybershieldy.com/web-proqramlasdirma-kursu/](https://cybershieldy.com/web-proqramlasdirma-kursu/)  
+🌍 [https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer/](https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer)  
 
 💡 Təlimçi haqqında daha çox öyrənmək üçün [Haqqında səhifəsinə keç →](/haqqinda)
 
