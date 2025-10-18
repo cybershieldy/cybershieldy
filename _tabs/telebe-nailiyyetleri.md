@@ -67,9 +67,14 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
 
 ## 📞 Əlaqə
 Siz də bu səhifədə yer almaq istəyirsinizsə bizimlə əlaqə saxlayın 👇  
-- 🌐 Sayt: [https://cybershieldy.com/](https://cybershieldy.com/)  
-- 📲 WhatsApp: [+994 0555182523](https://wa.me/994555182523)  
-- 📧 Email: [email@example.com](mailto:email@example.com)
+
+## 🌐 Qeydiyyat və Əlaqə
+
+📲 [WhatsApp ilə yaz](https://wa.me/994555182523?text=Web+Proqramlaşdırma+kursuna+yazılmaq+istəyirəm)  
+🌍 [https://cybershieldy.com/web-proqramlasdirma-kursu/](https://cybershieldy.com/web-proqramlasdirma-kursu/)  
+
+💡 Təlimçi haqqında daha çox öyrənmək üçün [Haqqında səhifəsinə keç →](/haqqinda)
+
 
 ---
 
