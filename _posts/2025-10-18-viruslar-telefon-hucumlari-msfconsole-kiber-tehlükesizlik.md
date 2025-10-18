@@ -144,6 +144,12 @@ Mobil cihazlar üçün tipik yoluxma yolları belədir — **təfərrüatlı exp
 - **Etik pentest-lərlə öyrən:** Alətlər (məs. msfconsole) müdafiəni gücləndirmək üçün istifadə edilməlidir — zərər vermək deyil.
 
 ---
+## 📚 Oxşar yazılar
+
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-muhəndislik)  
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir)
+
 
 ## 🔗 Əlavə resurslar və oxu materialı
 - OWASP Mobile Security Project — mobil tətbiq təhlükəsizliyi qaynaqları.  
