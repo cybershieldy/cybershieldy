@@ -1,0 +1,5592 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- `site.alt_lang` can specify a language different from the UI -->
+<html lang="" >
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin." />
+<meta property="og:description" content="Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin." />
+<link rel="canonical" href="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole" />
+<meta property="og:url" content="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole" />
+<meta property="og:site_name" content="Cybershieldy – Emin Savaylov" />
+<meta property="og:image" content="https://cybershieldy.com/assets/images/virus-mobil.webp" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-10-18T09:00:00+04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://cybershieldy.com/assets/images/virus-mobil.webp" />
+<meta property="twitter:title" content="Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)" />
+<meta name="twitter:site" content="@twitter_username" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-18T09:00:00+04:00","datePublished":"2025-10-18T09:00:00+04:00","description":"Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin.","headline":"Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)","image":"https://cybershieldy.com/assets/images/virus-mobil.webp","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole"},"url":"https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <title>Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025) | Cybershieldy – Emin Savaylov
+  </title>
+
+  <!-- Burada favicon daxil edilmir -->
+
+  <!-- Resource Hints -->
+  
+    
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com" >
+      
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+      
+    
+      
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" >
+      
+    
+      
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" >
+      
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
+      
+    
+  
+
+  <!-- Bootstrap (yalnız development üçün) -->
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" />
+  
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css" />
+
+  <!-- Web Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css" />
+
+  <!-- 3rd-party Dependencies -->
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css" />
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css" />
+  
+
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
+  
+
+  <!-- Scripts -->
+  <script src="/assets/js/dist/theme.min.js"></script>
+
+  <!-- JS selector for site. -->
+
+<!-- commons -->
+
+
+
+<!-- layout specified -->
+
+
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
+
+
+
+
+
+
+
+<script defer src="/assets/js/dist/post.min.js"></script>
+
+
+
+<!-- Pageviews -->
+
+  
+
+  
+
+
+
+  
+
+  <!-- A placeholder to allow defining custom metadata -->
+
+</head>
+
+
+  <body>
+    <!-- The Side Bar -->
+
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/images/emin.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+
+    <a class="site-title d-block" href="/">Cybershieldy – Emin Savaylov</a>
+    <p class="site-subtitle fst-italic mb-0">Kiber Təhlükəsizlik və Praktiki Təlimlər</p>
+  </header>
+  <!-- .profile-wrapper -->
+
+  <nav class="flex-column flex-grow-1 w-100 ps-0">
+    <ul class="nav">
+      <!-- home -->
+      <li class="nav-item">
+        <a href="/" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>HOME</span>
+        </a>
+      </li>
+      <!-- the real tabs -->
+      
+        <li class="nav-item">
+          <a href="/Categories/" class="nav-link">
+            <i class="fa-fw fas fa-stream"></i>
+            
+
+            <span>KATEQORIYALAR</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Tags/" class="nav-link">
+            <i class="fa-fw fas fa-tags"></i>
+            
+
+            <span>TEQLƏR</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Archives/" class="nav-link">
+            <i class="fa-fw fas fa-archive"></i>
+            
+
+            <span>ARXIV</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/haqqinda/" class="nav-link">
+            <i class="fa-fw fas fa-info-circle"></i>
+            
+
+            <span>HAQQINDA – EMIN SAVAYLOV | KIBER TƏHLÜKƏSIZLIK, WEB TƏHLÜKƏSIZLIK VƏ ONLINE TƏLIMLƏR</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/kibertehlukesizlik-test-ethical-hacking/" class="nav-link">
+            <i class="fa-fw fas fa-shield-alt"></i>
+            
+
+            <span>KIBERTƏHLÜKƏSIZLIK VƏ ETHICAL HACKING BILIK TESTI (30 SUAL)</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/Kitab/" class="nav-link">
+            <i class="fa-fw fas fa-book"></i>
+            
+
+            <span>KITAB</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/video/" class="nav-link">
+            <i class="fa-fw fas fa-tv"></i>
+            
+
+            <span>VIDEO</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/kiber-tehlukesizlik-kursu/" class="nav-link">
+            <i class="fa-fw fas fa-bug"></i>
+            
+
+            <span>KIBER TƏHLÜKƏSIZLIK KURSU VƏ TƏLIMI | RED TEAM, BLUE TEAM, OSCP, COMPTIA++ HAZIRLIQ | CYBERSHIELDY</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/web-proqramlasdirma-kursu-full-stack-developer/" class="nav-link">
+            <i class="fa-fw fas fa-code"></i>
+            
+
+            <span>WEB PROQRAMLAŞDIRMA KURSU VƏ TƏLIMI | FULL STACK DEVELOPER | BAKI VƏ ONLINE | CYBERSHIELDY</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+    </ul>
+  </nav>
+
+  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+    
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      
+        <span class="icon-border"></span>
+      
+    
+
+    
+      
+
+      
+        <a
+          href="https://github.com/github_username"
+          aria-label="github"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://twitter.com/twitter_username"
+          aria-label="twitter"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="javascript:location.href = 'mailto:' + ['cyberdersler','gmail.com'].join('@')"
+          aria-label="email"
+          
+
+          
+
+          
+
+          
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="/feed.xml"
+          aria-label="rss"
+          
+
+          
+
+          
+
+          
+        >
+          <i class="fas fa-rss"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://linkedin.com/in/emin-savaylov-5a58a3380/"
+          aria-label="linkedin"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://wa.me/+994555182523"
+          aria-label="whatsapp"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://www.youtube.com/channel/your_channel_id"
+          aria-label="youtube"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+      
+    
+      
+
+      
+        <a
+          href="https://medium.com/@yourusername"
+          aria-label="medium"
+          
+
+          
+            target="_blank"
+            
+          
+
+          
+
+          
+            rel="noopener noreferrer"
+          
+        >
+          <i class="fab fa-medium"></i>
+        </a>
+      
+    
+  </div>
+  <!-- .sidebar-bottom -->
+</aside>
+<!-- #sidebar -->
+
+
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div class="container d-flex flex-column px-xxl-5">
+        <!-- The Top Bar -->
+
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
+  <div
+    id="topbar"
+    class="d-flex align-items-center justify-content-between px-lg-3 h-100"
+  >
+    <nav id="breadcrumb" aria-label="Breadcrumb">
+      
+
+      
+        
+          
+            <span>
+              <a href="/">Home</a>
+            </span>
+
+          
+        
+          
+        
+          
+            
+              <span>Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</span>
+            
+
+          
+        
+      
+    </nav>
+    <!-- endof #breadcrumb -->
+
+    <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
+      <i class="fas fa-bars fa-fw"></i>
+    </button>
+
+    <div id="topbar-title">
+      Post
+    </div>
+
+    <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+
+    <search id="search" class="align-items-center ms-3 ms-lg-0">
+      <i class="fas fa-search fa-fw"></i>
+      <input
+        class="form-control"
+        id="search-input"
+        type="search"
+        aria-label="search"
+        autocomplete="off"
+        placeholder="Search..."
+      >
+    </search>
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
+  </div>
+</header>
+
+
+        <div class="row flex-grow-1">
+          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              <!-- Refactor the HTML structure -->
+
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</h1>
+    
+      <p class="post-desc fw-light mb-4">Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin.</p>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1760763600"
+  data-df="D MMMM YYYY"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  18 October 2025
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
+      
+
+      
+        
+        
+        
+
+        
+
+        <div class="mt-3 mb-3">
+          <a href="/assets/images/virus-mobil.webp" class="popup img-link preview-img shimmer"><img src="/assets/images/virus-mobil.webp"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          Author
+
+          <em>
+            
+              <a href="">Emin Savaylov</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="1034 words"
+>
+  <em>5 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Table of Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <h1 id="-telefon-və-kompüter-virusları-yeni-hücum-növləri-yoluxma-yolları-və-müdafiə-2025">📱💻 Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</h1>
+
+<p><strong>Qısa xülasə:</strong> Bu məqalədə mobil və masaüstü cihazlarda rast gəlinən virus və zərərli proqram tipləri (ransomware, spyware, trojan və s.), telefonun necə yoluxduğu, kompüter içində virusun necə yayılması, simptomlar, aşkarlama və təmizləmə yolları, həmçinin <strong>msfconsole</strong> kimi pentest alətlərinin etik istifadə perspektivi yüksək səviyyədə izah olunur. Məqsəd — məlumatlandırma və müdafiə.</p>
+
+<hr />
+
+<h2 id="-nə-üçün-bu-mövzu-vacibdir"><span class="me-2">🔎 Nə üçün bu mövzu vacibdir?</span><a href="#-nə-üçün-bu-mövzu-vacibdir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>2025-ci ildə mobil cihazlar və IoT cihazların geniş yayılması ilə <strong>telefon virusları</strong> (mobile malware) və hibrid hücumlar daha çox görülür. Həm şəxsi məlumatların, həm də biznes məlumatlarının təhlükəsizliyi üçün istifadəçilər və administratorlar yoluxma vektorlarını, simptomları və müdafiə üsullarını bilməlidir.</p>
+
+<hr />
+
+<h2 id="1️⃣-malware-tipologiyası--əsas-zərərli-proqram-növləri"><span class="me-2">1️⃣ Malware tipologiyası – əsas zərərli proqram növləri</span><a href="#1️⃣-malware-tipologiyası--əsas-zərərli-proqram-növləri" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><strong>Virus / Worm:</strong> Özünü kopyalayaraq yayılmağa yönəlmiş proqramlar (məsələn, fayl virusları və ya şəbəkə solucuları).</li>
+  <li><strong>Trojan (Truva atı):</strong> Faydalı görünən proqramın içində gizlənən zərərli funksiya.</li>
+  <li><strong>Spyware / Adware:</strong> İstifadəçi məlumatlarını (sms, zənglər, brauzer tarixçəsi) oğurlayan və ya reklam göstərən proqramlar.</li>
+  <li><strong>Ransomware:</strong> Faylları şifrələyən və pul tələb edən proqramlar.</li>
+  <li><strong>Rootkit:</strong> Sistemə gizli yolla daxil olub aşkar edilməyi çətinləşdirən komponentlər.</li>
+  <li><strong>Bootkit:</strong> Avadanlıq ətrafında vəya sistem başlanğıcında işləyən daha dərin səviyyəli zərərli kod.</li>
+</ul>
+
+<blockquote>
+  <p><strong>SEO açar sözlər:</strong> telefon virusu, komputer virusu, mobile malware, ransomware, spyware, trojan.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="2️⃣-telefon-necə-yoluxur-yüksək-səviyyəli-vektorlar"><span class="me-2">2️⃣ Telefon necə yoluxur? (Yüksək səviyyəli vektorlar)</span><a href="#2️⃣-telefon-necə-yoluxur-yüksək-səviyyəli-vektorlar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Mobil cihazlar üçün tipik yoluxma yolları belədir — <strong>təfərrüatlı exploit addımları yoxdur</strong>, yalnız istifadəçilərin bilməsi vacib olan vektorlar:</p>
+
+<ul>
+  <li><strong>Zərərli tətbiq mağazaları və sideloading:</strong> Rəsmi mağazaların xaricindən yüklənən tətbiqlər zərərli ola bilər.</li>
+  <li><strong>Fayl paylaşımı və APK sideload:</strong> İnamlı görünən APK və ya faylın yüklənməsi.</li>
+  <li><strong>Phishing SMS / SMS spoofing (smishing):</strong> Link klikləyərək zərərli veb və ya tətbiqə yönləndirmə.</li>
+  <li><strong>Malvertising:</strong> Reklam şəbəkələri vasitəsilə zərərli veb-səhifələrə yönləndirmə.</li>
+  <li><strong>İcazə sui-istifadəsi (excessive permissions):</strong> Tətbiqlər lazımsız icazə tələb edir (məs. SMS, zənglər, kamera).</li>
+  <li><strong>Public Wi-Fi və MITM:</strong> Açıq Wi-Fi üzərindən şəbəkə hücumları və məlumat ələ keçirilməsi.</li>
+  <li><strong>Zərərli QR kodlar:</strong> QR ilə yönləndirilən zərərli URL-lər.</li>
+  <li><strong>Köhnəlmiş əməliyyat sistemi və zəif təhlükəsizlik yamaları:</strong> Patch olunmamış sistemlərdə məlum zəifliklərdən istifadə oluna bilər.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Mühüm:</strong> iOS və Android platformalarında təhlükəsizlik mexanizmləri var; amma istifadəçinin davranışı və yardımçı paketlərin mənşəyi risk yarada bilər.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="3️⃣-kompüter-içində-virus-yayılma-yolları"><span class="me-2">3️⃣ Kompüter içində virus yayılma yolları</span><a href="#3️⃣-kompüter-içində-virus-yayılma-yolları" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><strong>E-mail phishing və zərərli attachment:</strong> Ən yayğın vektor.</li>
+  <li><strong>Downloads (torrent, qeyri-rəsmi proqramlar):</strong> Crack edilmiş proqram və yükləmələr risklidir.</li>
+  <li><strong>Malvertising və kompromit edilmiş veb-saytlar:</strong> Drive-by download halları.</li>
+  <li><strong>USB / Removable media:</strong> Fiziki media ilə yayılma (autorun kimi köhnəlmiş mexanizmlər).</li>
+  <li><strong>RDP zəif parametrləri və açıq xidmətlər:</strong> Parol zəifliyi və RDP açıq portları.</li>
+  <li><strong>Lua/Script injection, macro-enabled Office faylları:</strong> Makro vasitəsilə zərərli kod icrası.</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-telefon-və-kompüter-yoluxmasının-simptomları-nə-ilə-şübhələnmək-olar"><span class="me-2">4️⃣ Telefon və kompüter yoluxmasının simptomları (nə ilə şübhələnmək olar)</span><a href="#4️⃣-telefon-və-kompüter-yoluxmasının-simptomları-nə-ilə-şübhələnmək-olar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li>Avtomatik açılan reklamlar və ya brauzer pop-up-lar (adware əlaməti).</li>
+  <li>Batereyanın sürətlə boşalması və ya cihazın aşırı istiləşməsi.</li>
+  <li>Nadir tətbiqlərin yüklənməsi və ya tanımadığın proseslər.</li>
+  <li>Gözlənilməz SMS və ya e-maillər göndərilməsi (spam göndərən cihaz).</li>
+  <li>Faylların şifrələnməsi və ransom mesajı (ransomware).</li>
+  <li>Şəbəkə trafikin artması və ya şübhəli əlaqələr.</li>
+  <li>Kamera və mikrofonun icazəsiz istifadəsi (spyware).</li>
+  <li>Sistem performansının aşağı düşməsi, tez-tez çöküşlər.</li>
+</ul>
+
+<hr />
+
+<h2 id="5️⃣-msfconsole-nədir-etik-və-yüksək-səviyyəli-izah"><span class="me-2">5️⃣ msfconsole nədir? (etik və yüksək səviyyəli izah)</span><a href="#5️⃣-msfconsole-nədir-etik-və-yüksək-səviyyəli-izah" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p><strong>msfconsole</strong> — Metasploit Framework-un əsas interaktiv konsoludur.</p>
+<ul>
+  <li><strong>Nə üçündür:</strong> Etik pentesterlər və təhlükəsizlik tədqiqatçıları tərəfindən zəiflikləri tapmaq, PoC-ları (proof-of-concept) yaratmaq və müdafiə zəifliklərini test etmək üçün istifadə olunur.</li>
+  <li><strong>Həssaslıq:</strong> Alət güclü və eyni zamanda təhlükəli ola bilər; buna görə də onu yalnız <strong>icazəli və qanuni</strong> mühitdə (lab, pentest müqaviləsi ilə) işlətmək lazımdır.</li>
+  <li><strong>Təlim məqsədi:</strong> msfconsole haqqında biliklər təhlükəsizlik komandalarına zəifliklərin necə istismar edilə biləcəyini başa düşməyə və daha yaxşı müdafiə qurmağa kömək edir.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Vacib:</strong> Bu məqalədə msfconsole-un necə exploit işlətmək və ya cihaz yoluxdurmaq üçün istifadə olunacağına dair addım-addım təlimat yoxdur — yalnız etik istifadəyə fokuslanır.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="6️⃣-aşkarlama-və-ilk-tədbirlər-i̇ncident-response--yüksək-səviyyədə"><span class="me-2">6️⃣ Aşkarlama və ilk tədbirlər (İncident Response — yüksək səviyyədə)</span><a href="#6️⃣-aşkarlama-və-ilk-tədbirlər-i̇ncident-response--yüksək-səviyyədə" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="telefon-üçün"><span class="me-2">Telefon üçün:</span><a href="#telefon-üçün" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ol>
+  <li><strong>Şübhəli tətbiqləri yoxla:</strong> Ayarlar → Tətbiqlər bölməsindən tanımadığınları sil.</li>
+  <li><strong>İcazələri nəzarət et:</strong> Hər tətbiqin SMS, mikrofon, kamera və yeri istifadə icazəsini yoxla.</li>
+  <li><strong>Antivirus / Mobile EDR istifadə et:</strong> Məşhur və etibarlı mobil təhlükəsizlik tətbiqlərindən scan et.</li>
+  <li><strong>Şəbəkədən ayır:</strong> Wifi və mobil datanı söndür və şübhəli bağlantıları kəs.</li>
+  <li><strong>Backup və reset:</strong> Əgər təmizləmə mümkün deyilsə, məlumatları yedək et və fabrikə qaytar (factory reset).</li>
+  <li><strong>Mənbəyi araşdır:</strong> Zərərli tətbiqin nə vaxt yükləndiyini və hansı linkdən gəldiyini qeyd et.</li>
+</ol>
+
+<h3 id="kompüter-üçün"><span class="me-2">Kompüter üçün:</span><a href="#kompüter-üçün" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ol>
+  <li><strong>Şəbəkəni ayır:</strong> İnterneti kəs, artıq şəbəkə əlaqələrini blokla.</li>
+  <li><strong>Antivirus və antimalware scan:</strong> Tam sistem taraması apar.</li>
+  <li><strong>Disk image və log toplama:</strong> Forensik məqsədlə imaj və loglar topla (əgər biznes üçünsə).</li>
+  <li><strong>İzolyasiya və remediya:</strong> Zərərli faylları izolə et və lazım gəlsə sistem bərpası (reinstall) et.</li>
+  <li><strong>Password dəyişdir:</strong> Hər hansısa kompromit hesablar üçün parolları yenilə və MFA tətbiq et.</li>
+  <li><strong>PEP və raport:</strong> Hücumun mənbəyini və təsirini sənədləşdir.</li>
+</ol>
+
+<blockquote>
+  <p><strong>Qeyd:</strong> Hüquqi və təşkilati tələblərə uyğun olaraq insidentləri hesabatla. Korporativ mühitdə hüquq-mühafizə orqanları ilə əlaqə vacib ola bilər.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="7️⃣-təmizləmə-və-bərpa-saflaşma-addımları--ümumi"><span class="me-2">7️⃣ Təmizləmə və bərpa (saflaşma addımları — ümumi)</span><a href="#7️⃣-təmizləmə-və-bərpa-saflaşma-addımları--ümumi" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><strong>Məlumat yedəklə</strong> (backup) — əvvəlcə vacib faylları çıxart.</li>
+  <li><strong>Sistem yenidən quraşdırma (clean install)</strong> — ən etibarlı seçim: əməliyyat sistemini sıfırlayıb yenidən qur.</li>
+  <li><strong>Yamaqları tətbiq et</strong> — OS və proqramları yenilə.</li>
+  <li><strong>MFA aktiv et</strong> — hesablar üçün iki faktorlu autentifikasiya.</li>
+  <li><strong>Monitorinq qur</strong> — şübhəli qalan davranışları izləmək üçün log və SIEM/EDR konfiqurasiya et.</li>
+  <li><strong>Təlim və maarifləndirmə</strong> — istifadəçilərə phishing və sosial mühəndislik barədə təlim ver.</li>
+</ul>
+
+<hr />
+
+<h2 id="8️⃣-qarşısını-alma--uzunmüddətli-strategiyalar"><span class="me-2">8️⃣ Qarşısını alma — uzunmüddətli strategiyalar</span><a href="#8️⃣-qarşısını-alma--uzunmüddətli-strategiyalar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><strong>Güclü parollar və MFA</strong> — ən əsas müdafiə.</li>
+  <li><strong>Rəsmi mağazalardan yüklə</strong> — tətbiqləri yalnız rəsmi App Store / Play Store-dan götür.</li>
+  <li><strong>İcazələri minimal saxla</strong> — tətbiqlərə yalnız lazım olan icazələri ver.</li>
+  <li><strong>Patch management</strong> — cihaz və serverləri daimi yenilə.</li>
+  <li><strong>Şübhəli linklərə klikləmə</strong> — SMS və e-maildəki linklərə diqqətlə yanaş.</li>
+  <li><strong>Backup politikası</strong> — mühüm məlumatların offline/air-gapped yedəkləri olsun.</li>
+  <li><strong>EDR və WAF</strong> — endpoint detection və web application firewall kimi həllər tətbiq et.</li>
+  <li><strong>Pentest və red-team</strong> — sistemin zəif tərəflərini peşəkar komandalarla yoxla.</li>
+</ul>
+
+<hr />
+
+<h2 id="9️⃣-hüquqi-və-etik-məqamlar"><span class="me-2">9️⃣ Hüquqi və etik məqamlar</span><a href="#9️⃣-hüquqi-və-etik-məqamlar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>Malware və istismarların yayılması <strong>qanuna ziddir</strong>. Təhlükəsizlik tədqiqatlarını yalnız <strong>qaydalar çərçivəsində</strong>, müqavilə və ya icazə ilə aparın.</li>
+  <li>Belə hadisələrdə hüquq-mühafizə orqanlarına məlumat vermək vacibdir.</li>
+</ul>
+
+<hr />
+
+<h2 id="1️⃣0️⃣-nəticə--nə-etməliyik"><span class="me-2">1️⃣0️⃣ Nəticə — nə etməliyik?</span><a href="#1️⃣0️⃣-nəticə--nə-etməliyik" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li><strong>Məlumatlı ol:</strong> Telefon və kompüter virusları müxtəlif vektorlar vasitəsilə yayılır — istifadəçi davranışı əsas risk faktoru ola bilər.</li>
+  <li><strong>Süni təminat yox, praktik addımlar at:</strong> MFA, yamaqlar, etibarlı AV və ehtiyat nüsxələr əsas müdafiə qatlarıdır.</li>
+  <li><strong>Etik pentest-lərlə öyrən:</strong> Alətlər (məs. msfconsole) müdafiəni gücləndirmək üçün istifadə edilməlidir — zərər vermək deyil.</li>
+</ul>
+
+<hr />
+
+<h2 id="-əlavə-resurslar-və-oxu-materialı"><span class="me-2">🔗 Əlavə resurslar və oxu materialı</span><a href="#-əlavə-resurslar-və-oxu-materialı" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>OWASP Mobile Security Project — mobil tətbiq təhlükəsizliyi qaynaqları.</li>
+  <li>CERT/US və yerli CERT-lərin təhlükəsizlik advisory-ləri.</li>
+  <li>Məşhur antivirus və EDR vendorlarının təlimat səhifələri.</li>
+</ul>
+
+<hr />
+
+<h2 id="-əlaqə-və-yardım"><span class="me-2">📲 Əlaqə və yardım</span><a href="#-əlaqə-və-yardım" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Müxtəlif hücumlarla bağlı yardım və təlim üçün bizimlə əlaqə saxlayın:<br />
+📩 <a href="https://wa.me/994555182523?text=Salam%2C%20telefon%20və%20kompüter%20virusları%20haqqinda%20kompaniyaniza%20danismaq%20istəyirəm.">WhatsApp ilə əlaqə</a></p>
+
+<hr />
+
+<!-- SEO JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)",
+  "description": "Telefon və kompüter viruslarının necə işlədiyini, yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin.",
+  "image": "https://cybershieldy.com/assets/images/virus-mobil.webp",
+  "author": {
+    "@type": "Person",
+    "name": "CyberShieldy"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-10-18T12:00:00+04:00",
+  "dateModified": "2025-10-18T12:00:00+04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole"
+  }
+}
+</script>
+
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/kiber-t%C9%99hl%C3%BCk%C9%99sizlik/">kiber təhlükəsizlik</a>,
+          <a href="/categories/malware/">malware</a>,
+          <a href="/categories/mobil-t%C9%99hl%C3%BCk%C9%99sizlik/">mobil təhlükəsizlik</a>,
+          <a href="/categories/incident-response/">incident response</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/virus/"
+            class="post-tag no-text-decoration"
+          >virus</a>
+        
+          <a
+            href="/tags/mobile-malware/"
+            class="post-tag no-text-decoration"
+          >mobile malware</a>
+        
+          <a
+            href="/tags/telefon-virusu/"
+            class="post-tag no-text-decoration"
+          >telefon virusu</a>
+        
+          <a
+            href="/tags/komputer-virusu/"
+            class="post-tag no-text-decoration"
+          >komputer virusu</a>
+        
+          <a
+            href="/tags/msfconsole/"
+            class="post-tag no-text-decoration"
+          >msfconsole</a>
+        
+          <a
+            href="/tags/malware-analysis/"
+            class="post-tag no-text-decoration"
+          >malware analysis</a>
+        
+          <a
+            href="/tags/ransomware/"
+            class="post-tag no-text-decoration"
+          >ransomware</a>
+        
+          <a
+            href="/tags/spyware/"
+            class="post-tag no-text-decoration"
+          >spyware</a>
+        
+          <a
+            href="/tags/trojan/"
+            class="post-tag no-text-decoration"
+          >trojan</a>
+        
+          <a
+            href="/tags/phishing/"
+            class="post-tag no-text-decoration"
+          >phishing</a>
+        
+          <a
+            href="/tags/android-virus/"
+            class="post-tag no-text-decoration"
+          >android virus</a>
+        
+          <a
+            href="/tags/ios-security/"
+            class="post-tag no-text-decoration"
+          >ios security</a>
+        
+          <a
+            href="/tags/cyber-hygiene/"
+            class="post-tag no-text-decoration"
+          >cyber hygiene</a>
+        
+          <a
+            href="/tags/antivirus/"
+            class="post-tag no-text-decoration"
+          >antivirus</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=Telefon%20v%C9%99%20Komp%C3%BCter%20Viruslar%C4%B1:%20Yeni%20H%C3%BCcum%20N%C3%B6vl%C9%99ri,%20Yoluxma%20Yollar%C4%B1%20v%C9%99%20M%C3%BCdafi%C9%99%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fviruslar-telefon-hucumlari-msfconsole" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Telefon%20v%C9%99%20Komp%C3%BCter%20Viruslar%C4%B1:%20Yeni%20H%C3%BCcum%20N%C3%B6vl%C9%99ri,%20Yoluxma%20Yollar%C4%B1%20v%C9%99%20M%C3%BCdafi%C9%99%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov&u=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fviruslar-telefon-hucumlari-msfconsole" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fcybershieldy.com%2Fposts%2Fviruslar-telefon-hucumlari-msfconsole&text=Telefon%20v%C9%99%20Komp%C3%BCter%20Viruslar%C4%B1:%20Yeni%20H%C3%BCcum%20N%C3%B6vl%C9%99ri,%20Yoluxma%20Yollar%C4%B1%20v%C9%99%20M%C3%BCdafi%C9%99%20(2025)%20-%20Cybershieldy%20%E2%80%93%20Emin%20Savaylov" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy Link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
+
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
+
+
+            
+          </main>
+
+          <!-- panel -->
+          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
+            <div class="access">
+              <!-- Get 5 last posted/updated posts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="access-lastmod">
+    <h2 class="panel-heading">Last Updated</h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/viruslar-telefon-hucumlari-msfconsole">Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/sql-injection-2025">SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/osi-model-hucumlari-2025">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/sosial-m%C3%BCh%C9%99ndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/sebeke-hucumlari">MITM (Man-in-the-Middle) Hücumu Nədir? Şəbəkədəki Görünməz Düşmən (2025 Yenilənmiş)</a>
+        </li>
+      
+    </ul>
+  </section>
+  <!-- #access-lastmod -->
+
+
+              <!-- The trending tags list -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+
+
+  <section>
+    <h2 class="panel-heading">Trending Tags</h2>
+    <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/kibert%C9%99hl%C3%BCk%C9%99sizlik/">kibertəhlükəsizlik</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/red-team/">red team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/blue-team/">blue team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/penetration-testing/">penetration testing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/phishing/">phishing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sniffing/">sniffing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/cybersecurity-2025/">cybersecurity 2025</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/deauth-attack/">deauth attack</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/ethical-hacking/">ethical hacking</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/evil-twin/">evil twin</a>
+      
+    </div>
+  </section>
+
+
+            </div>
+
+            
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Table of Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
+          </aside>
+        </div>
+
+        <div class="row">
+          <!-- tail -->
+          <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Related Posts</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/kiber-cybersecurity-2025" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1757426400"
+  data-df="D MMMM YYYY"
+  
+>
+  09 September 2025
+</time>
+
+              <h4 class="pt-0 my-2">Kibertəhlükəsizlik 2025: Ən Tez-Tez Görülən Hücumlar və Müdafiə Yolları</h4>
+              <div class="text-muted">
+                <p>Phishing, ransomware, malware və Wi-Fi hücumlarına qarşı necə qorunmaq olar? 2025-ci ildə tələbələr və IT mütəxəssisləri üçün aktual kibertəhlükəsizlik strategiyaları.</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/evil-twin-hucumlari" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1758171600"
+  data-df="D MMMM YYYY"
+  
+>
+  18 September 2025
+</time>
+
+              <h4 class="pt-0 my-2">Evil Twin Hücumları nədir? Real Ssenari, Fəaliyyət Prinsipi və Qorunma Yolları (2025 Bələdçisi)</h4>
+              <div class="text-muted">
+                <p>Evil Twin hücumlarının necə işlədiyini, real dünya ssenarisində necə tətbiq edildiyini və bu hücumdan qorunma yollarını 2025-ci ilin təcrübəsinə əsasən öyrənin.</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/sosial-m%C3%BCh%C9%99ndislik" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1756792800"
+  data-df="D MMMM YYYY"
+  
+>
+  02 September 2025
+</time>
+
+              <h4 class="pt-0 my-2">Phishing Hücumu Nədir? Canlı Nümunələr və Tam Müdafiə Yolları (2025 Yenilənmiş)</h4>
+              <div class="text-muted">
+                <p>Phishing hücumlarının necə işlədiyini canlı nümunələrlə öyrənin. Sosial mühəndislik texnikaları və qorunma yolları – Emin Savaylov-un təhlükəsizlik bloqunda. 2025 Yenilənmiş məqalə.</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/sql-injection-2025"
+      class="btn btn-outline-primary"
+      aria-label="Previous"
+    >
+      <p>SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Next">
+      <p>-</p>
+    </div>
+  
+</nav>
+
+            
+
+            <footer>
+  <p>© 2025 Emin Savaylov. Bütün hüquqlar qorunur.</p>
+</footer>
+
+          </div>
+        </div>
+
+        <!-- The Search results -->
+
+<div id="search-result-wrapper" class="d-flex justify-content-center d-none">
+  <div class="col-11 content">
+    <div id="search-hints">
+      <!-- The trending tags list -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+
+
+  <section>
+    <h2 class="panel-heading">Trending Tags</h2>
+    <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/kibert%C9%99hl%C3%BCk%C9%99sizlik/">kibertəhlükəsizlik</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/red-team/">red team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/blue-team/">blue team</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/penetration-testing/">penetration testing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/phishing/">phishing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sniffing/">sniffing</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/cybersecurity-2025/">cybersecurity 2025</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/deauth-attack/">deauth attack</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/ethical-hacking/">ethical hacking</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/evil-twin/">evil twin</a>
+      
+    </div>
+  </section>
+
+
+    </div>
+    <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
+  </div>
+</div>
+
+      </div>
+
+      <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </aside>
+    </div>
+
+    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
+
+    
+      <aside
+  id="notification"
+  class="toast"
+  role="alert"
+  aria-live="assertive"
+  aria-atomic="true"
+  data-bs-animation="true"
+  data-bs-autohide="false"
+>
+  <div class="toast-header">
+    <button
+      type="button"
+      class="btn-close ms-auto"
+      data-bs-dismiss="toast"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="toast-body text-center pt-0">
+    <p class="px-2 mb-3">New content available.</p>
+    <button type="button" class="btn btn-primary" aria-label="Update">
+      Update
+    </button>
+  </div>
+</aside>
+
+    
+
+    <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
+
+    
+
+    <!--
+  Jekyll Simple Search loader
+  See: <https://github.com/christian-fei/Simple-Jekyll-Search>
+-->
+
+
+
+
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/assets/js/data/search.json',
+      searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{content}</p>  </article>',
+      noResultsText: '<p class="mt-5">Oops! No results found.</p>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'categories') {
+          if (value === '') {
+            return `${value}`;
+          } else {
+            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+          }
+        }
+
+        if (prop === 'tags') {
+          if (value === '') {
+            return `${value}`;
+          } else {
+            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+          }
+        }
+      }
+    });
+  });
+</script>
+
+  </body>
+</html>
+
