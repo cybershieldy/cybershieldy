@@ -6,7 +6,8 @@ order: 5
 description: "Kiber təhlükəsizlik və proqramlaşdırma kurslarını uğurla bitirən tələbələrimizin real nailiyyətləri. Full Stack Developer, Cybersecurity, BDU tələbələri və sertifikatlı mütəxəssislər."
 keywords: tələbə nailiyyətləri, kiber təhlükəsizlik, full stack developer, IT kursu, BDU, kibertəhlükəsizlik, proqramlaşdırma, developer, Azərbaycan, CompTIA, uğurlu tələbələr
 robots: index, follow
-canonical: https://sənin-sayt-adın.com/telebe-nailiyyetleri
+canonical: https://cybershieldy.com/telebe-nailiyyetleri
+
 ---
 
 # 🎓 Tələbə Nailiyyətləri
