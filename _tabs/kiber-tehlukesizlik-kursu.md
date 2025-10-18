@@ -1,12 +1,13 @@
 ---
-title: "Kiber Təhlükəsizlik Kursu və Təlimi | Red Team, Blue Team, OSCP, CompTIA++ Hazırlıq | CyberShieldy"
-description: "Kiber Təhlükəsizlik Kursu və Təlimi – Red Team və Blue Team praktiki dərsləri, OSCP və CompTIA++ hazırlığı, Ethical Hacking və Cybersecurity proqramı. Tam praktiki kiber kursu və təlimi Bakı və onlayn formatda — CyberShieldy."
-keywords: kiber təhlükəsizlik kursu, kiber təhlükəsizlik təlimi, kiber kursu, kiber təlim, red team kursu, red team təlimi, blue team kursu, blue team təlimi, oscp kursu, oscp təlimi, comptia++ kursu, comptia++ təlimi, cybersecurity kursu, ethical hacking kursu, oscp hazırlıq, pentest kursu, hacker kursu, cybersecurity bakı, ceh kursu
+title: "Kiber Təhlükəsizlik Kursu və Təlimi | Cybersecurity, Ethical Hacking, Red & Blue Team | OSCP, CompTIA++ Hazırlıq | CyberShieldy"
+description: "Kiber Təhlükəsizlik Kursu və Təlimi — Ethical Hacking, Red Team və Blue Team praktiki dərsləri, OSCP və CompTIA++ hazırlığı. Tam praktiki cybersecurity və kiber kursu Bakı və onlayn formatda — CyberShieldy."
+keywords: kiber təhlükəsizlik kursu, kiber kursu, kiber təhlükəsizlik təlimi, cybersecurity kursu, ethical hacking kursu, red team kursu, blue team kursu, pentest kursu, oscp hazırlıq, ceh kursu, cybersecurity bakı, cybersecurity tədrisi, ethical hacking təlimi, kiber kurs bakı, ceh hazırlıq, cybersecurity bootcamp, kiber təhlükəsizlik azərbaycan
 robots: index, follow
 canonical: https://cybershieldy.com/kiber-tehlukesizlik-kursu/
 image: /assets/images/cybershieldy_cyber.png
 icon: fas fa-bug
 ---
+
 
 
 # 🛡️ Kiber Təhlükəsizlik Kursu və Təlimi – Red Team, Blue Team, OSCP və CompTIA++ Hazırlıq
@@ -96,7 +97,7 @@ Təlimdə həm **şəbəkə təhlükəsizliyi**, həm də **etik hacking (Ethica
 
 ---
 
-### 🔹 Modul 9: Öz CTF Yaratmaq (Capture-The-Flag Platforması)
+### 🔹 Modul 8: Öz CTF Yaratmaq (Capture-The-Flag Platforması)
 Bu bölmədə tələbələr öz **CTF (Capture-The-Flag)** yarışını sıfırdan qurur və idarə etməyi öyrənir.
 
 - CTF növləri: Jeopardy və Attack-Defense  
@@ -109,7 +110,7 @@ Bu bölmədə tələbələr öz **CTF (Capture-The-Flag)** yarışını sıfırd
 
 ---
 
-### 🔹 Modul 10: Advanced Exploitation – Buffer Overflow və ROP Texnikaları
+### 🔹 Modul 9: Advanced Exploitation – Buffer Overflow və ROP Texnikaları
 
 Bu modul tələbələrə **low-level exploitation**, exploit development və qabaqcıl offensive security texnikalarını öyrədir. Məqsəd — təhlükəsizlik tədqiqatçısı və ya OSCP/advanced pentest mütəxəssisi səviyyəsinə yaxınlaşdırmaqdır. Kurs boyunca hər zaman **etik və qanuni çərçivə** vurğulanacaq.
 
