@@ -52,6 +52,24 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
 
 </div>
 
+<!-- 👨‍💻 3-cu tələbə - Efsane -->
+  <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
+    <img src="/assets/images/efsane.webp" alt="Əfsanə Məmmədli -  kiber təhlükəsizlik" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
+
+    <div style="color: #1e1e1e;">
+      <h3 style="font-weight: 700; margin-bottom: 5px;">Azad</h3>
+      <p><strong>kiber təhlükəsizlik</strong></p>
+
+      <p>Əfsanə Məmmədli – tədqiqatçı, media analitik. Akademik və əmək fəaliyyətim boyu daim yeniliklərlə açıq olmuşam. Çağdaş dövrümüzdə yeni texnologiyaların həyatımıza yaxından nüfuz etməsi ilə bu sahə ilə daha yaxından maraqlanmağa başladım.</p>
+
+      <p>Təsadüflər məni Emin Salahovun kiber təhlükəsizlik kursuna gətirib çıxardı. Bir illik dərs boyunca Emin müəllimin çox asan, anlaşıqlı tədris metodları sayəsində bu sahədə biliklərimi dərinləşdirdim, müxtəlif əməliyyatları sərbəst şəkildə icra etməyə başladım. Hazırda Google şirkətinin təsis etdiyi xüsusi kiber təhlükəsizlik kursuna davam edirəm. Onu da qeyd etməliyəm ki, Emin m. kursunda dərslər o qədər zəngin və hərtərəflidir ki, Google şirkətinin verdiyi təlimdə keçilənlər mənə sadə və asan gəlir. </p>
+
+      <p>Düşünürəm ki, bu günkü süni zəka dövründə ixtisasından asılı olmayaraq hər kəs bu sahədə biliklərə yiyələnməli, dünyagörüşünü genişləndirməlidir. Bunu ən asan şəkildə Emin m. dərs dediyi kurslarda çağdaş tədris metodları ilə daha sürətli və keyfiyyətli şəkildə əldə etmək olar.</p>
+    </div>
+  </div>
+
+</div>
+
 ---
 
 ## 🌟 SEO üçün Faydalı Açar Sözlər:
