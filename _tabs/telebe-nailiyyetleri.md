@@ -24,7 +24,7 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
 
     <div style="color: #1e1e1e;">
       <h3 style="font-weight: 700; margin-bottom: 5px;">Nərmin Əsədullayeva Sarvan qızı</h3>
-      <p><strong>Bakı Dövlət Universiteti</strong><br>
+      <p><strong>Kiber Təhlükəsizlik</strong><br>
       Tətbiqi Riyaziyyat və Kibernetika fakültəsi, Kompüter elmləri ixtisası, IV kurs tələbəsi</p>
 
       <p>Texnoloji yeniliklərə marağı olan və analitik düşünmə qabiliyyətinə malik gənc mütəxəssisdir. Kibertəhlükəsizlik və Full Stack Web Development sahələrində ixtisaslaşıb. Praktiki layihələrdə iştirak edib və müasir texnoloji platformalarla intensiv təcrübəyə malikdir.</p>
