@@ -51,7 +51,7 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
   </div>
 
 
-<!-- 👨‍💻 3-cu tələbə - Efsane -->
+  <!-- 👨‍💻 3-cu tələbə - Efsane -->
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
     <img src="/assets/images/efsane.webp" alt="Əfsanə Məmmədli -  kiber təhlükəsizlik" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
 
@@ -67,10 +67,10 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
     
     </div>
 
-</div>
+  </div>
 
 
-<!-- 👨‍💻 4-cu tələbə - Gunel -->
+  <!-- 👨‍💻 4-cu tələbə - Gunel -->
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
     <img src="/assets/images/gunel.webp" alt=" Günel Huseynova -  kiber təhlükəsizlik" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
 
@@ -90,13 +90,14 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
     
     </div>
 
-</div>
+   </div>
 
 <!-- 💡 Boş sətir vacibdir! -->
 
 
 
----
+
+
 
 ---
 
