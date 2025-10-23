@@ -88,7 +88,7 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
       <p>During my studies, I gained knowledge in areas such as analyzing cyber attacks, network security principles, system defense, and working with security tools. Through practical exercises, I developed skills in penetration testing, SOC operations, vulnerability assessment, and security monitoring.
       I want to turn my interest and efforts into practical skills and start my career as a junior pentester or SOC analyst. In the future, I aim to grow as a Cloud Security specialist, experienced pentester, or even Chief Information Security Officer (CISO). For me, cybersecurity is not just a career — it is a meaningful opportunity to innovate, solve complex problems, and make the digital world safer.</p>
     
-    </div>
+  </div>
 
 </div>
 ---
