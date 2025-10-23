@@ -34,3 +34,7 @@
 - type: medium
   icon: "fab fa-medium"
   url: "https://medium.com/@yourusername"
+
+- type: facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/profile.php?id=100080353357427"

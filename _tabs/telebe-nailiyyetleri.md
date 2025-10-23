@@ -50,7 +50,6 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
     </div>
   </div>
 
-</div>
 
 <!-- 👨‍💻 3-cu tələbə - Efsane -->
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
