@@ -1,4 +1,148 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-10-24T08:23:09+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole" rel="alternate" type="text/html" title="Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)" /><published>2025-10-18T09:00:00+04:00</published><updated>2025-10-18T17:39:21+04:00</updated><id>https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole-kiber-tehl%C3%BCkesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole"><![CDATA[<h1 id="-telefon-və-kompüter-virusları-yeni-hücum-növləri-yoluxma-yolları-və-müdafiə-2025">📱💻 Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-10-24T08:27:54+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</title><link href="https://cybershieldy.com/posts/hacker-kimdir" rel="alternate" type="text/html" title="Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)" /><published>2025-10-24T02:00:00+04:00</published><updated>2025-10-24T02:00:00+04:00</updated><id>https://cybershieldy.com/posts/hacker-kimdir</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-kimdir"><![CDATA[<h1 id="-hacker-kimdir--kimlər-hackerdir-nə-bilirlər-və-hansı-hücumları-həyata-keçirirlər-2025">🧑‍💻 Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</h1>
+
+<p><strong>Qısa xülasə:</strong> Bu məqalə “hacker” anlayışını, onların müxtəlif tiplərini (white hat, grey hat, black hat), bilik və bacarıq sahələrini, həmçinin müasir dövrdə həyata keçirdikləri hücum növlərini izah edir. Məqsəd — oxucunu məlumatlandırmaq və “hacker kimdir”, “xaker dərsləri”, “hacker dərsləri”, “hackerlər” kimi açar sözlərlə SEO baxımından ön sıralarda yer almaqdır.</p>
+
+<hr />
+
+<h2 id="-hacker-nə-deməkdir">🔍 Hacker nə deməkdir?</h2>
+
+<p><strong>Hacker</strong> — kompüter, şəbəkə və proqram sistemlərinin necə işlədiyini dərindən anlayan və onları analiz edə bilən şəxsdir. Bu termin həm <strong>etik</strong>, həm də <strong>qeyri-etik</strong> fəaliyyətləri ifadə edə bilər:</p>
+
+<ul>
+  <li>🟢 <strong>White Hat (Etik hacker):</strong> Zəiflikləri tapıb onları sistem sahibinə bildirən və müdafiə məqsədilə işləyən mütəxəssis.</li>
+  <li>⚫ <strong>Black Hat (Zərərli hacker):</strong> Qanunsuz məqsədlərlə sistemlərə daxil olan və məlumat oğurlayan şəxs.</li>
+  <li>⚪ <strong>Grey Hat (Orta xasiyyətli hacker):</strong> Bəzən qanuni, bəzən isə icazəsiz hərəkət edən, niyyəti qeyri-müəyyən hacker.</li>
+</ul>
+
+<blockquote>
+  <p><strong>SEO açar sözlər:</strong> hacker, xaker, hacker kimdir, xaker kimdir, hackerler, xaker dersleri, hacker dersleri.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-hackerlər-nəyi-bilirlər">🧠 Hackerlər nəyi bilirlər?</h2>
+
+<p>Hacker olmaq üçün bir çox sahələrdə bilik vacibdir. Ən əsas bacarıq istiqamətləri bunlardır:</p>
+
+<ul>
+  <li><strong>Şəbəkə əsasları və TCP/IP:</strong> Trafikin necə hərəkət etdiyini, firewall və router prinsiplərini anlamaq.</li>
+  <li><strong>Əməliyyat sistemləri:</strong> Linux, Windows və macOS üzərində sistem idarəçiliyi.</li>
+  <li><strong>Proqramlaşdırma:</strong> Python, Bash, PowerShell, JavaScript kimi dillər.</li>
+  <li><strong>Veb təhlükəsizliyi:</strong> SQL Injection, XSS, CSRF kimi zəiflikləri tanımaq.</li>
+  <li><strong>Kriptoqrafiya:</strong> Şifrələmə prinsipləri və TLS/SSL texnologiyaları.</li>
+  <li><strong>Sosial mühəndislik:</strong> İnsan psixologiyasını istifadə edərək məlumat əldə etmə üsulları.</li>
+  <li><strong>Forensika:</strong> Log analizləri və hücum izlərinin oxunması.</li>
+</ul>
+
+<hr />
+
+<h2 id="️-hackerlərin-həyata-keçirdiyi-hücum-növləri-yüksək-səviyyədə">⚔️ Hackerlərin həyata keçirdiyi hücum növləri (Yüksək səviyyədə)</h2>
+
+<p>Aşağıdakı hücumlar etik və ya qeyri-etik məqsədlərlə istifadə oluna bilər — burada yalnız <strong>məlumatlandırıcı izah</strong> verilir:</p>
+
+<ul>
+  <li><strong>Phishing / Smishing:</strong> E-mail və ya SMS ilə saxta linklər göndərməklə məlumat oğurlama.</li>
+  <li><strong>Malware hücumları:</strong> Ransomware, Spyware və Trojan vasitəsilə sistemə müdaxilə.</li>
+  <li><strong>Brute-force və credential stuffing:</strong> Sızdırılmış parollardan istifadə edərək hesabları ələ keçirmə.</li>
+  <li><strong>Man-in-the-middle (MITM):</strong> Şəbəkə trafikinə gizli şəkildə müdaxilə etmə.</li>
+  <li><strong>Web hücumları (SQLi, XSS, CSRF):</strong> Sayt zəifliklərindən istifadə edərək məlumat oğurlama və kod icrası.</li>
+  <li><strong>Supply-chain hücumları:</strong> Etibarlı proqram təminatında gizli kod yerləşdirərək zərərli təsir.</li>
+  <li><strong>IoT və mobil hücumlar:</strong> Zəif cihaz şifrələri və köhnəlmiş firmware vasitəsilə müdaxilə.</li>
+</ul>
+
+<hr />
+
+<h2 id="-hacker-düşüncə-tərzi-və-müdafiə">🧩 Hacker düşüncə tərzi və müdafiə</h2>
+
+<p>Etik hackerlər problemi <strong>sistemli və yaradıcı</strong> düşünərək həll edir. Müdafiə üçün onların düşüncə tərzini anlamaq vacibdir:</p>
+
+<ul>
+  <li><strong>Assume breach:</strong> Hər zaman sistemin pozula biləcəyini qəbul et.</li>
+  <li><strong>Minimum icazə prinsipi:</strong> İstifadəçilərə yalnız lazım olan icazələri ver.</li>
+  <li><strong>Müntəzəm yeniləmələr:</strong> Sistem və tətbiqləri daim yenilə.</li>
+  <li><strong>MFA və güclü autentifikasiya:</strong> İki faktorlu identifikasiya aktiv et.</li>
+  <li><strong>Maarifləndirmə:</strong> İşçiləri və istifadəçiləri phishing və sosial mühəndislik barədə təlimləndir.</li>
+</ul>
+
+<hr />
+
+<h2 id="️-hüquqi-və-etik-məqamlar">⚖️ Hüquqi və etik məqamlar</h2>
+
+<ul>
+  <li>Hacker alətlərindən qanunsuz istifadə cinayət məsuliyyəti yaradır.</li>
+  <li><strong>Etik hackerlik</strong> yalnız <strong>icazə və müqavilə çərçivəsində</strong> aparılmalıdır.</li>
+  <li>Zəiflik aşkarlananda məsuliyyətli <strong>disclosure (bildiriş)</strong> prinsiplərinə riayət edilməlidir.</li>
+</ul>
+
+<hr />
+
+<h2 id="-təhlükəsizlik-və-praktik-məsləhətlər">💡 Təhlükəsizlik və praktik məsləhətlər</h2>
+
+<ul>
+  <li>Güclü və unikal parollar istifadə et.</li>
+  <li>MFA aktiv et.</li>
+  <li>Ehtiyat nüsxələr (backup) saxla.</li>
+  <li>Rəsmi mənbələrdən proqram yüklə.</li>
+  <li>Endpoint qorunması (EDR) və antivirusdan istifadə et.</li>
+  <li>Təhlükəsizlik tədqiqatçıları üçün “security@domain” ünvanı saxla.</li>
+</ul>
+
+<hr />
+
+<h2 id="-seo-açar-sözlər">🔑 SEO açar sözlər</h2>
+
+<p><code class="language-plaintext highlighter-rouge">hacker</code>, <code class="language-plaintext highlighter-rouge">xaker</code>, <code class="language-plaintext highlighter-rouge">hacker kimdir</code>, <code class="language-plaintext highlighter-rouge">xaker kimdir</code>, <code class="language-plaintext highlighter-rouge">hackerler</code>, <code class="language-plaintext highlighter-rouge">xaker dersleri</code>, <code class="language-plaintext highlighter-rouge">hacker dersleri</code>, <code class="language-plaintext highlighter-rouge">ethical hacking</code>, <code class="language-plaintext highlighter-rouge">pentest</code>, <code class="language-plaintext highlighter-rouge">sosial mühəndislik</code></p>
+
+<hr />
+
+<h2 id="-nəticə">🧭 Nəticə</h2>
+
+<p>“Hacker” təkcə sistem sındıran şəxs deyil, həm də onu <strong>daha etibarlı edən</strong> mütəxəssisdir.<br />
+Əsas məsələ niyyətdir — etik və qanuni çərçivədə bilik təhlükəsizliyin qorunmasına xidmət edir.</p>
+
+<hr />
+
+<h2 id="-əlaqə-və-resurslar">📲 Əlaqə və resurslar</h2>
+
+<ul>
+  <li><a href="/posts/sosial-muhendislik">Sosial mühəndislik nədir?</a></li>
+  <li><a href="/posts/pentest-nedir">Pentest nədir və necə həyata keçirilir?</a></li>
+  <li><a href="/posts/siem-nedir">SIEM və log analizi nədir?</a></li>
+</ul>
+
+<p>Əlavə suallar və ya <strong>hacker dərsləri</strong> barədə öyrənmək üçün bizimlə əlaqə saxla:<br />
+📩 <a href="https://wa.me/994555182523?text=Salam%2C%20hacker%20dersleri%20haqqinda%20%C9%99trafli%20m%C9%99lumat%20%C9%99ldə%20etm%C9%99k%20ist%C9%99yir%C9%99m.">WhatsApp ilə əlaqə</a></p>
+
+<hr />
+
+<!-- SEO JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)",
+  "description": "Hacker kimdir? Hackerlərin növləri, bilik sahələri, günümüzdə rast gəlinən hücum növləri və müdafiə üsulları — etik və qanuni çərçivədə yüksək səviyyəli izah.",
+  "image": "https://cybershieldy.com/assets/images/hacker-kimdir.webp",
+  "author": {
+    "@type": "Person",
+    "name": "CyberShieldy"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-10-24T09:00:00+04:00",
+  "dateModified": "2025-10-24T09:00:00+04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/hacker-kimdir"
+  }
+}
+</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="hacker" /><category term="ethical hacking" /><category term="hacker" /><category term="xaker" /><category term="hacker kimdir" /><category term="hackerler" /><category term="xaker dersleri" /><category term="hacker dersleri" /><category term="cyber security" /><category term="pentest" /><category term="sosial mühəndislik" /><summary type="html"><![CDATA[Hacker kimdir? Hackerlərin növləri, bilik sahələri, günümüzdə rast gəlinən hücum növləri və müdafiə üsulları — etik və qanuni çərçivədə yüksək səviyyəli izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacker-kimdir.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacker-kimdir.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole" rel="alternate" type="text/html" title="Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)" /><published>2025-10-18T09:00:00+04:00</published><updated>2025-10-18T17:39:21+04:00</updated><id>https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole-kiber-tehl%C3%BCkesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole"><![CDATA[<h1 id="-telefon-və-kompüter-virusları-yeni-hücum-növləri-yoluxma-yolları-və-müdafiə-2025">📱💻 Telefon və Kompüter Virusları: Yeni Hücum Növləri, Yoluxma Yolları və Müdafiə (2025)</h1>
 
 <p><strong>Qısa xülasə:</strong> Bu məqalədə mobil və masaüstü cihazlarda rast gəlinən virus və zərərli proqram tipləri (ransomware, spyware, trojan və s.), telefonun necə yoluxduğu, kompüter içində virusun necə yayılması, simptomlar, aşkarlama və təmizləmə yolları, həmçinin <strong>msfconsole</strong> kimi pentest alətlərinin etik istifadə perspektivi yüksək səviyyədə izah olunur. Məqsəd — məlumatlandırma və müdafiə.</p>
 
@@ -1662,7 +1806,166 @@ typeNeon(neonMessages[neonIndex]);
 <hr />
 
 <p><strong>Müəllif:</strong> Emin Savaylov<br />
-<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:20:19+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
+<strong>Mənbə:</strong> <a href="https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir">CyberShieldy.com</a></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik alətləri" /><category term="SIEM" /><category term="Snort" /><category term="Suricata" /><category term="IDS" /><category term="IPS" /><category term="log analizi" /><category term="SIEM nədir" /><category term="SOC" /><category term="mərkəzləşdirilmiş monitorinq" /><category term="real-time təhlil" /><summary type="html"><![CDATA[SIEM texnologiyası nədir və necə işləyir? Snort və Suricata kimi məşhur açıq mənbəli alətlərlə SIEM sistemlərini necə qurmaq və idarə etmək olar – 2025-ci il üçün geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/siem.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/siem.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T21:58:32+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"><![CDATA[<blockquote>
+  <p><strong>🔎 SERP Preview (Google axtarış nəticəsində necə görünür):</strong><br />
+<strong>İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</strong><br />
+https://cybershieldy.com/posts/iki-faktorlu-identifikasiya
+İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.</p>
+</blockquote>
+
+<div id="terminal-neon"></div>
+
+<script>
+const neonMessages = [
+  "Verifying Password...",
+  "Sending Verification Code via SMS...",
+  "Authenticator App Code Required...",
+  "Biometric Verification in Progress...",
+  "Access Granted ✅ Two-Factor Auth Success",
+  "CyberShieldy.com | Stay Secure with 2FA"
+];
+
+let neonIndex = 0;
+const terminalNeon = document.getElementById('terminal-neon');
+const typingSpeed = 100;
+
+function typeNeon(msg, i = 0) {
+  if (i < msg.length) {
+    terminalNeon.textContent += msg.charAt(i);
+    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
+  } else {
+    setTimeout(() => eraseNeon(msg.length), 1500);
+  }
+}
+
+function eraseNeon(len) {
+  if (len > 0) {
+    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
+    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
+  } else {
+    neonIndex = (neonIndex + 1) % neonMessages.length;
+    typeNeon(neonMessages[neonIndex]);
+  }
+}
+
+typeNeon(neonMessages[neonIndex]);
+</script>
+
+<style>
+#terminal-neon {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  background-color: #000;
+  color: #39ff14;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  min-width: 350px;
+  height: auto;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+
+  box-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14;
+
+  text-shadow:
+    0 0 3px #39ff14,
+    0 0 6px #39ff14;
+
+  overflow: hidden;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım",
+  "description": "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.",
+  "author": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-09-11T12:00:00+04:00",
+  "dateModified": "2025-09-11T12:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/234.webp",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"
+  }
+}
+</script>
+
+<h1 id="-i̇ki-faktorlu-identifikasiya-nədir-və-niyə-vacibdir">🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?</h1>
+
+<p><img src="assets/images/234.webp" alt="İki Faktorlu Identifikasiya" title="2FA - İki Faktorlu Təhlükəsizlik" /></p>
+
+<h2 id="i̇ki-faktorlu-identifikasiya-2fa-nədir">İki Faktorlu Identifikasiya (2FA) nədir?</h2>
+
+<p><strong>İki faktorlu identifikasiya (2FA)</strong> — istifadəçinin bir hesabına daxil olmaq üçün <strong>iki fərqli doğrulama mərhələsi</strong> tələb olunan təhlükəsizlik üsuludur.</p>
+
+<p>Bu prosesdə istifadəçidən:</p>
+
+<ol>
+  <li><strong>Bildiriyi məlumat</strong> <em>(parol)</em></li>
+  <li><strong>Sahib olduğu və ya bildiyi əlavə faktor</strong> <em>(məsələn, mobil telefon, tətbiq və ya biometrik məlumat)</em></li>
+</ol>
+
+<p>tələb olunur.</p>
+
+<h2 id="2fa-nın-əsas-üstünlükləri">2FA-nın əsas üstünlükləri</h2>
+
+<ul>
+  <li>🔐 <strong>Artırılmış təhlükəsizlik:</strong> Tək parolla müqayisədə, əlavə faktor hesaba icazəsiz girişin qarşısını alır.</li>
+  <li>📵 <strong>Parol oğurluğuna qarşı qoruma:</strong> Phishing, keylogger və digər hücumlara qarşı təsirli vasitədir.</li>
+  <li>📈 <strong>Təşkilatlar üçün uyğunluq və etibar:</strong> ISO/IEC 27001, GDPR və digər təhlükəsizlik standartlarının tələblərini yerinə yetirməyə kömək edir.</li>
+</ul>
+
+<h2 id="2fa-hansı-üsullarla-tətbiq-olunur">2FA hansı üsullarla tətbiq olunur?</h2>
+
+<p>Aşağıda 2FA üçün ən çox istifadə edilən üsulları görə bilərsən:</p>
+
+<ul>
+  <li>📱 <strong>SMS doğrulama kodları</strong></li>
+  <li>🔒 <strong>Authenticator tətbiqləri</strong> (Google Authenticator, Microsoft Authenticator və s.)</li>
+  <li>🧬 <strong>Biometrik autentifikasiya</strong> (barmaq izi, üz tanıma)</li>
+  <li>🔐 <strong>Hardware token-lər</strong> (YubiKey və s.)</li>
+</ul>
+
+<h2 id="i̇ki-faktorlu-identifikasiya-kimlər-üçün-vacibdir">İki faktorlu identifikasiya kimlər üçün vacibdir?</h2>
+
+<ul>
+  <li>👤 <strong>Fərdi istifadəçilər</strong> — şəxsi e-poçt, sosial media, bank hesabları</li>
+  <li>🏢 <strong>Biznes və təşkilatlar</strong> — daxili sistemlər, işçi hesabları</li>
+  <li>🛡️ <strong>IT mütəxəssisləri və sistem adminləri</strong> — yüksək riskli girişlər</li>
+</ul>
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>İnternetdə təhlükəsizlik boşluqları artdığı bir dövrdə <strong>iki faktorlu identifikasiya tətbiq etmək sadəcə tövsiyə deyil, zərurətdir</strong>. Giriş sistemlərinə əlavə qoruma qatını əlavə etməklə, məlumatların və hesabların təhlükəsizliyini əhəmiyyətli dərəcədə artıra bilərsən.</p>
+
+<hr />
+
+<p>📞 <strong>Kibertəhlükəsizlik üzrə məsləhət almaq istəyirsiniz?</strong></p>
+
+<p>💬 <a href="https://wa.me/994555182523?text=Salam,%20kibertəhlükəsizlik%20haqqında%20məlumat%20almaq%20istəyirəm">WhatsApp üzərindən bizimlə əlaqə saxlayın</a> – sizi maraqlandıran məsələlərə cavab verməyə hazırıq.</p>
+
+<hr />
+
+<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:20:19+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1869,365 +2172,4 @@ typeNeon(neonMessages[neonIndex]);
 
 <h2 id="-açar-sözlər">🔑 Açar sözlər</h2>
 
-<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><category term="kiberhücum simulyasiyası" /><category term="purple team nədir" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası</title><link href="https://cybershieldy.com/posts/red-team-faliyyeti" rel="alternate" type="text/html" title="Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:46:25+04:00</updated><id>https://cybershieldy.com/posts/red-team-faliyyeti</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-faliyyeti"><![CDATA[<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Red Team Fəaliyyəti: 2025-ci İlin Ən Effektiv Kibertəhlükəsizlik Strategiyası",
-  "description": "Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.",
-  "author": {
-    "@type": "Person",
-    "name": "Emin Savaylov"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-11T12:00:00+04:00",
-  "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/read.webp",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/red-team-faliyyeti"
-  }
-}
-</script>
-
-<h1 id="-red-team-fəaliyyəti-və-kibertəhlükəsizlikdə-əhəmiyyəti">👨‍💻 Red Team Fəaliyyəti və Kibertəhlükəsizlikdə Əhəmiyyəti</h1>
-
-<p>Red Team (Qırmızı Komanda) kibertəhlükəsizlikdə şirkətlərin zəif nöqtələrini aşkarlayan və real kiberhücumları imitasiya edən mütəxəssislər qrupudur. Onların fəaliyyəti təşkilatların müdafiə sistemlərini gücləndirməyə və potensial təhlükələri vaxtında müəyyən etməyə kömək edir. Bu yanaşma xüsusilə penetrasiya testi və hücum simulyasiyaları sahəsində vacibdir.</p>
-
-<hr />
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
-  "Red Team Initiating Attack Simulation...",
-  "Scanning for Vulnerabilities...",
-  "Phishing Campaign in Progress...",
-  "Detecting Intrusions and Anomalies...",
-  "Blue Team Strengthening Defenses...",
-  "CyberShieldy.com | Secure Your Future"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: #000;
-  color: #39ff14;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 350px;
-  height: auto;
-  line-height: 1.6em;
-  margin-bottom: 25px;
-
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14;
-
-  text-shadow:
-    0 0 3px #39ff14,
-    0 0 6px #39ff14;
-
-  overflow: hidden;
-  user-select: none;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<h2 id="-red-team-nədir-və-niyə-vacibdir">🔍 Red Team Nədir və Niyə Vacibdir?</h2>
-
-<p>Red Team komandası müxtəlif hücum növlərindən istifadə etməklə təşkilatların zəif tərəflərini aşkarlayır:</p>
-
-<ul>
-  <li>Şəbəkə zəiflikləri (Network Vulnerabilities)</li>
-  <li>Proqram təminatı zəiflikləri (Application Vulnerabilities)</li>
-  <li>Sosial mühəndislik hücumları (Social Engineering Attacks)</li>
-  <li>Fiziki və daxili təhlükəsizlik boşluqları</li>
-</ul>
-
-<p>Bütün bu testlər sayəsində şirkətlərin <strong>kiberhücumlara qarşı davamlılığı</strong> artır və mümkün risklər vaxtında aradan qaldırılır.</p>
-
-<hr />
-
-<h2 id="-red-team-fəaliyyətinin-əsas-sahələri">🚀 Red Team Fəaliyyətinin Əsas Sahələri</h2>
-
-<ol>
-  <li>
-    <p><strong>Penetrasiya Testləri (Penetration Testing):</strong><br />
-Sistemlərdə olan zəiflikləri müəyyən etmək üçün genişmiqyaslı hücum ssenariləri həyata keçirilir.</p>
-  </li>
-  <li>
-    <p><strong>Sosial Mühəndislik Hücumları (Social Engineering Attacks):</strong><br />
-İnsan amilini hədəf alan fişinq, telefon zəngi və digər üsullar tətbiq olunur.</p>
-  </li>
-  <li>
-    <p><strong>Fiziki Təhlükəsizlik Testləri:</strong><br />
-Müəssisəyə fiziki giriş imkanı və avadanlıqların təhlükəsizliyi yoxlanılır.</p>
-  </li>
-  <li>
-    <p><strong>Red və Blue Team Əməkdaşlığı:</strong><br />
-Hücum və müdafiə komandaları birlikdə işləyərək təhlükəsizlik strategiyalarını təkmilləşdirir.</p>
-  </li>
-</ol>
-
-<hr />
-
-<h2 id="-red-team-in-təşkilatlara-gətirdiyi-üstünlüklər">🔐 Red Team-in Təşkilatlara Gətirdiyi Üstünlüklər</h2>
-
-<ul>
-  <li><strong>Zəifliklərin vaxtında aşkar olunması və aradan qaldırılması</strong></li>
-  <li><strong>Proaktiv müdafiə taktikalarının hazırlanması</strong></li>
-  <li><strong>Komanda təlimləri və təhlükəsizlik mədəniyyətinin formalaşması</strong></li>
-  <li><strong>Məlumatların və şəxsi verilənlərin qorunması</strong></li>
-  <li><strong>Şirkətin reputasiyası və maliyyə itkilərinin qarşısının alınması</strong></li>
-</ul>
-
-<p>Bu səbəbdən Red Team fəaliyyəti müasir bizneslər üçün əvəzolunmazdır.</p>
-
-<hr />
-
-<h2 id="-2025-ci-i̇ldə-red-team-və-kibertəhlükəsizlikdə-yeniliklər">📅 2025-ci İldə Red Team və Kibertəhlükəsizlikdə Yeniliklər</h2>
-
-<p>Kibertəhlükəsizlik sahəsində sürətli inkişafla birlikdə Red Team üsulları da təkmilləşir. 2025-ci ildə aşağıdakı istiqamətlər önə çıxır:</p>
-
-<ul>
-  <li>Süni intellekt (AI) və maşın öyrənməsi (ML) ilə təchiz edilmiş hücum simulyasiyaları</li>
-  <li>Avtomatlaşdırılmış penetration test alətləri</li>
-  <li>Yeni sosial mühəndislik texnikaları</li>
-  <li>Cloud təhlükəsizliyi və IoT cihazlarına yönəlmiş testlər</li>
-</ul>
-
-<p>Bu yeniliklər təşkilatların təhlükəsizlik səviyyəsini daha da yüksəldir.</p>
-
-<hr />
-
-<h2 id="-əlaqə-və-təlim-i̇mkanları">📞 Əlaqə və Təlim İmkanları</h2>
-
-<p>Kibertəhlükəsizlik sahəsində təlim və Red Team simulyasiyaları üçün bizimlə əlaqə saxlayın:</p>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a> — təlimlər və praktiki dəstək.</p>
-
-<hr />
-
-<h2 id="-şəkil-red-team-i̇ş-prosesi">📸 Şəkil: Red Team İş Prosesi</h2>
-
-<p><img src="assets/images/red2.webp" alt="Red Team Hücum Simulyasiyası" title="Red Team Hücum Simulyasiyası&quot; alt=&quot;Red Team hücum simulyasiyası" /></p>
-
-<hr />
-
-<h2 id="-nəticə">✅ Nəticə</h2>
-
-<p>Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının təməl daşıdır. Bu metodlarla şirkətlər zəiflikləri vaxtında müəyyən edir, mümkün hücumların qarşısını alır və təhlükəsizlik mədəniyyətini gücləndirirlər. 2025-ci ildə rəqabətdə ön sırada olmaq üçün Red Team simulyasiyaları zəruridir.</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li><a href="/posts/sosial-muhəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
-  <li><a href="/posts//sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
-</ul>
-
-<hr />
-
-<blockquote>
-  <p>Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:<br />
-📲 <a href="https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram">WhatsApp ilə əlaqə saxlayın</a></p>
-</blockquote>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="red team" /><category term="kibertəhlükəsizlik" /><category term="təhlükəsizlik testləri" /><category term="penetration testing" /><category term="sosial mühəndislik" /><category term="hücum simulyasiyası" /><category term="kibertəhlükəsizlik 2025" /><summary type="html"><![CDATA[Red Team fəaliyyəti ilə təşkilatınızın kibertəhlükəsizlik səviyyəsini yüksəldin. 2025-ci ilin qabaqcıl metodları, simulyasiya üsulları və müdafiə strategiyaları bu məqalədə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</title><link href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya" rel="alternate" type="text/html" title="İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T21:58:32+04:00</updated><id>https://cybershieldy.com/posts/iki-faktorlu-identifikasiya</id><content type="html" xml:base="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"><![CDATA[<blockquote>
-  <p><strong>🔎 SERP Preview (Google axtarış nəticəsində necə görünür):</strong><br />
-<strong>İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım</strong><br />
-https://cybershieldy.com/posts/iki-faktorlu-identifikasiya
-İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.</p>
-</blockquote>
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
-  "Verifying Password...",
-  "Sending Verification Code via SMS...",
-  "Authenticator App Code Required...",
-  "Biometric Verification in Progress...",
-  "Access Granted ✅ Two-Factor Auth Success",
-  "CyberShieldy.com | Stay Secure with 2FA"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: #000;
-  color: #39ff14;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 350px;
-  height: auto;
-  line-height: 1.6em;
-  margin-bottom: 25px;
-
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14;
-
-  text-shadow:
-    0 0 3px #39ff14,
-    0 0 6px #39ff14;
-
-  overflow: hidden;
-  user-select: none;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "İki Faktorlu Identifikasiya (2FA): 2025-ci İldə Hesab Təhlükəsizliyiniz Üçün Vacib Addım",
-  "description": "İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.",
-  "author": {
-    "@type": "Person",
-    "name": "Emin Savaylov"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-11T12:00:00+04:00",
-  "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/234.webp",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/iki-faktorlu-identifikasiya"
-  }
-}
-</script>
-
-<h1 id="-i̇ki-faktorlu-identifikasiya-nədir-və-niyə-vacibdir">🔐 İki Faktorlu Identifikasiya Nədir və Niyə Vacibdir?</h1>
-
-<p><img src="assets/images/234.webp" alt="İki Faktorlu Identifikasiya" title="2FA - İki Faktorlu Təhlükəsizlik" /></p>
-
-<h2 id="i̇ki-faktorlu-identifikasiya-2fa-nədir">İki Faktorlu Identifikasiya (2FA) nədir?</h2>
-
-<p><strong>İki faktorlu identifikasiya (2FA)</strong> — istifadəçinin bir hesabına daxil olmaq üçün <strong>iki fərqli doğrulama mərhələsi</strong> tələb olunan təhlükəsizlik üsuludur.</p>
-
-<p>Bu prosesdə istifadəçidən:</p>
-
-<ol>
-  <li><strong>Bildiriyi məlumat</strong> <em>(parol)</em></li>
-  <li><strong>Sahib olduğu və ya bildiyi əlavə faktor</strong> <em>(məsələn, mobil telefon, tətbiq və ya biometrik məlumat)</em></li>
-</ol>
-
-<p>tələb olunur.</p>
-
-<h2 id="2fa-nın-əsas-üstünlükləri">2FA-nın əsas üstünlükləri</h2>
-
-<ul>
-  <li>🔐 <strong>Artırılmış təhlükəsizlik:</strong> Tək parolla müqayisədə, əlavə faktor hesaba icazəsiz girişin qarşısını alır.</li>
-  <li>📵 <strong>Parol oğurluğuna qarşı qoruma:</strong> Phishing, keylogger və digər hücumlara qarşı təsirli vasitədir.</li>
-  <li>📈 <strong>Təşkilatlar üçün uyğunluq və etibar:</strong> ISO/IEC 27001, GDPR və digər təhlükəsizlik standartlarının tələblərini yerinə yetirməyə kömək edir.</li>
-</ul>
-
-<h2 id="2fa-hansı-üsullarla-tətbiq-olunur">2FA hansı üsullarla tətbiq olunur?</h2>
-
-<p>Aşağıda 2FA üçün ən çox istifadə edilən üsulları görə bilərsən:</p>
-
-<ul>
-  <li>📱 <strong>SMS doğrulama kodları</strong></li>
-  <li>🔒 <strong>Authenticator tətbiqləri</strong> (Google Authenticator, Microsoft Authenticator və s.)</li>
-  <li>🧬 <strong>Biometrik autentifikasiya</strong> (barmaq izi, üz tanıma)</li>
-  <li>🔐 <strong>Hardware token-lər</strong> (YubiKey və s.)</li>
-</ul>
-
-<h2 id="i̇ki-faktorlu-identifikasiya-kimlər-üçün-vacibdir">İki faktorlu identifikasiya kimlər üçün vacibdir?</h2>
-
-<ul>
-  <li>👤 <strong>Fərdi istifadəçilər</strong> — şəxsi e-poçt, sosial media, bank hesabları</li>
-  <li>🏢 <strong>Biznes və təşkilatlar</strong> — daxili sistemlər, işçi hesabları</li>
-  <li>🛡️ <strong>IT mütəxəssisləri və sistem adminləri</strong> — yüksək riskli girişlər</li>
-</ul>
-
-<h2 id="nəticə">Nəticə</h2>
-
-<p>İnternetdə təhlükəsizlik boşluqları artdığı bir dövrdə <strong>iki faktorlu identifikasiya tətbiq etmək sadəcə tövsiyə deyil, zərurətdir</strong>. Giriş sistemlərinə əlavə qoruma qatını əlavə etməklə, məlumatların və hesabların təhlükəsizliyini əhəmiyyətli dərəcədə artıra bilərsən.</p>
-
-<hr />
-
-<p>📞 <strong>Kibertəhlükəsizlik üzrə məsləhət almaq istəyirsiniz?</strong></p>
-
-<p>💬 <a href="https://wa.me/994555182523?text=Salam,%20kibertəhlükəsizlik%20haqqında%20məlumat%20almaq%20istəyirəm">WhatsApp üzərindən bizimlə əlaqə saxlayın</a> – sizi maraqlandıran məsələlərə cavab verməyə hazırıq.</p>
-
-<hr />
-
-<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><category term="kiberhücum simulyasiyası" /><category term="purple team nədir" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

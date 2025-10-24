@@ -1,7 +1,7 @@
 ---
 title: "Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)"
-date: 2025-10-24 09:00:00 +0400
-lastmod: 2025-10-24 09:00:00 +0400
+date: 2025-10-24 02:00:00 +0400
+lastmod: 2025-10-24 02:00:00 +0400
 categories: [kiber təhlükəsizlik, hacker, ethical hacking]
 tags: [hacker, xaker, hacker kimdir, hackerler, xaker dersleri, hacker dersleri, cyber security, pentest, sosial mühəndislik]
 description: "Hacker kimdir? Hackerlərin növləri, bilik sahələri, günümüzdə rast gəlinən hücum növləri və müdafiə üsulları — etik və qanuni çərçivədə yüksək səviyyəli izah."
