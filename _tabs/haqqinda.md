@@ -12,7 +12,7 @@ canonical: https://cybershieldy.com/haqqinda
 # Haqqımda – Emin Savaylov
 
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="/assets/images/emin.jpg" alt="Emin Savaylov - Kiber Təhlükəsizlik Mütəxəssisi" style="width: 140px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+  <img src="/assets/images/emin.webp" alt="Emin Savaylov - Kiber Təhlükəsizlik Mütəxəssisi" style="width: 140px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   
   <div>
   <p>Salam, mən <strong>Emin Savaylov</strong> — <strong>kiber təhlükəsizlik</strong>, <strong>web təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong> və <strong>praktiki təlimlər</strong> üzrə ixtisaslaşmış təlimatçı və mütəxəssisəm. Bu platforma tələbələr, IT sahəsinə yeni başlayanlar və peşəkarlar üçün <strong>real-world ssenarilər</strong>ə əsaslanan dərslər təqdim edir.</p>
