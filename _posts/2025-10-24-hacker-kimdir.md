@@ -5,10 +5,11 @@ lastmod: 2025-10-24 02:00:00 +0400
 categories: [kiber təhlükəsizlik, hacker, ethical hacking]
 tags: [hacker, xaker, hacker kimdir, hackerler, xaker dersleri, hacker dersleri, cyber security, pentest, sosial mühəndislik]
 description: "Hacker kimdir? Hackerlərin növləri, bilik sahələri, günümüzdə rast gəlinən hücum növləri və müdafiə üsulları — etik və qanuni çərçivədə yüksək səviyyəli izah."
-image: /assets/images/hacker-kimdir.webp
+image: /assets/images/hacker.webp
 canonical: https://cybershieldy.com/posts/hacker-kimdir
 permalink: /posts/hacker-kimdir
 ---
+
 
 # 🧑‍💻 Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)
 
@@ -102,9 +103,13 @@ Etik hackerlər problemi **sistemli və yaradıcı** düşünərək həll edir. 
 
 ## 📲 Əlaqə və resurslar
 
-- [Sosial mühəndislik nədir?](/posts/sosial-muhendislik)  
-- [Pentest nədir və necə həyata keçirilir?](/posts/pentest-nedir)  
-- [SIEM və log analizi nədir?](/posts/siem-nedir)  
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)  
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir)  
+- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik)  
+- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari)  
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
+
 
 Əlavə suallar və ya **hacker dərsləri** barədə öyrənmək üçün bizimlə əlaqə saxla:  
 📩 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20hacker%20dersleri%20haqqinda%20%C9%99trafli%20m%C9%99lumat%20%C9%99ldə%20etm%C9%99k%20ist%C9%99yir%C9%99m.)
