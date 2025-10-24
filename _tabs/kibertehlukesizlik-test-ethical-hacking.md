@@ -360,11 +360,40 @@ d;
 
 <!-- ... sual elave etsen eyni şablonla davam edir ... -->
 
+<style>
+.correct-answer {
+  background-color: #d4edda; /* açıq yaşıl */
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.wrong-answer {
+  background-color: #f8d7da; /* açıq qırmızı */
+  border: 2px solid #dc3545;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.unanswered {
+  background-color: #fff3cd; /* sarı xəbərdarlıq */
+  border: 2px dashed #ffc107;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+#score-result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+</style>
 
 <button type="button" onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
-
-</form>
 
 <script>
 function showResult() {
@@ -377,6 +406,7 @@ function showResult() {
     if (!questionDiv) continue;
 
     questionDiv.classList.remove("correct-answer", "wrong-answer", "unanswered");
+
     let question = document.getElementsByName('q' + i);
     let answered = false;
     let correctInput = null;
@@ -395,7 +425,7 @@ function showResult() {
       questionDiv.classList.add("unanswered");
     } else {
       if (userInput.value === "correct") {
-        score += 1;
+        score++;
         questionDiv.classList.add("correct-answer");
       } else {
         questionDiv.classList.add("wrong-answer");
@@ -408,8 +438,14 @@ function showResult() {
   if (unanswered > 0) {
     alert(`⚠️ ${unanswered} sual cavabsız qalıb. Zəhmət olmasa hamısını cavablandır.`);
   } else {
-    resultEl.innerHTML = `✅ Test tamamlandı! Nəticə: <strong>${score}/30</strong> düzgün cavab.`;
+    resultEl.innerHTML = `✅ Test tamamlandı! <br> Nəticə: <strong>${score}/30</strong> düzgün cavab.`;
+    if (score >= 25) {
+      resultEl.style.color = "#28a745";
+    } else if (score >= 15) {
+      resultEl.style.color = "#ffc107";
+    } else {
+      resultEl.style.color = "#dc3545";
+    }
   }
 }
 </script>
-
