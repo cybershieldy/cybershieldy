@@ -361,71 +361,9 @@ d;
 <!-- ... sual elave etsen eyni şablonla davam edir ... -->
 
 
-
 <button type="button" onclick="showResult()">Nəticəni Göstər</button>
-</form>
-<style>
-  #quiz-form {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  .question {
-    margin-bottom: 25px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background: #f9f9f9;
-    transition: background 0.4s;
-  }
-  .correct-answer {
-    background-color: #d4edda; /* yaşıl */
-    border-color: #28a745;
-  }
-  .wrong-answer {
-    background-color: #f8d7da; /* qırmızı */
-    border-color: #dc3545;
-  }
-  .unanswered {
-    background-color: #fff3cd; /* sarı */
-    border-color: #ffc107;
-  }
-  .question p {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .question label {
-    display: block;
-    margin-left: 10px;
-  }
-  button {
-    background: #0077cc;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  button:hover {
-    background: #005fa3;
-  }
-</style>
+<p id="score-result"></p>
 
-<form id="quiz-form">
-
-<!-- nümunə: 1 sual -->
-<div class="question">
-  <p>1. Hansı daha təhlükəsiz kompyuter əlaqəsidir?</p>
-  <label><input type="radio" name="q1" value="correct"> a) SSH</label>
-  <label><input type="radio" name="q1" value="incorrect"> b) FTP</label>
-  <label><input type="radio" name="q1" value="incorrect"> c) HTTPS</label>
-  <label><input type="radio" name="q1" value="incorrect"> d) SMTP</label>
-</div>
-
-<!-- burdan sonra sənin 30 sualın eyni qaydada gəlir -->
-
-<button type="button" onclick="showResult()">Nəticəni Göstər</button>
-<p id="score-result" style="font-weight:bold; margin-top:20px;"></p>
 </form>
 
 <script>
@@ -436,14 +374,14 @@ function showResult() {
 
   for (let i = 1; i <= totalQuestions; i++) {
     let questionDiv = document.querySelectorAll('.question')[i - 1];
-    questionDiv.classList.remove("correct-answer", "wrong-answer", "unanswered");
+    if (!questionDiv) continue;
 
+    questionDiv.classList.remove("correct-answer", "wrong-answer", "unanswered");
     let question = document.getElementsByName('q' + i);
     let answered = false;
     let correctInput = null;
     let userInput = null;
 
-    // tap: correct və seçilən variant
     for (let j = 0; j < question.length; j++) {
       if (question[j].value === "correct") correctInput = question[j];
       if (question[j].checked) {
@@ -457,7 +395,7 @@ function showResult() {
       questionDiv.classList.add("unanswered");
     } else {
       if (userInput.value === "correct") {
-        score += 10;
+        score += 1;
         questionDiv.classList.add("correct-answer");
       } else {
         questionDiv.classList.add("wrong-answer");
@@ -467,10 +405,11 @@ function showResult() {
 
   const resultEl = document.getElementById("score-result");
 
-  if (unanswered === 0) {
-    resultEl.innerHTML = `✅ Test tamamlandı! Nəticəniz: <strong>${score}</strong> bal (${score/10} / ${totalQuestions})`;
+  if (unanswered > 0) {
+    alert(`⚠️ ${unanswered} sual cavabsız qalıb. Zəhmət olmasa hamısını cavablandır.`);
   } else {
-    resultEl.innerHTML = `⚠️ Zəhmət olmasa bütün sualları cavablandırın. Cavabsız qalan: ${unanswered}`;
+    resultEl.innerHTML = `✅ Test tamamlandı! Nəticə: <strong>${score}/30</strong> düzgün cavab.`;
   }
 }
 </script>
+
