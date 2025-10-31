@@ -38,3 +38,12 @@
 - type: facebook
   icon: "fab fa-facebook"
   url: "https://www.facebook.com/profile.php?id=100080353357427"
+
+
+- type: telegram
+  icon: "fab fa-telegram"
+  url: "https://t.me/sizin_username"
+
+- type: instagram
+  icon: "fab fa-instagram"
+  url: "https://instagram.com/sizin_username"
