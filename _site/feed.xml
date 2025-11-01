@@ -1,4 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-11-01T19:38:16+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</title><link href="https://cybershieldy.com/posts/hacker-kimdir" rel="alternate" type="text/html" title="Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)" /><published>2025-10-24T02:00:00+04:00</published><updated>2025-10-24T09:05:16+04:00</updated><id>https://cybershieldy.com/posts/hacker-kimdir</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-kimdir"><![CDATA[<h1 id="-hacker-kimdir--kimlər-hackerdir-nə-bilirlər-və-hansı-hücumları-həyata-keçirirlər-2025">🧑‍💻 Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-11-01T22:31:58+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy – Emin Savaylov</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</title><link href="https://cybershieldy.com/posts/deep-vs-dark-web" rel="alternate" type="text/html" title="Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)" /><published>2025-11-01T12:10:00+04:00</published><updated>2025-11-01T12:10:00+04:00</updated><id>https://cybershieldy.com/posts/dark-web-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/deep-vs-dark-web"><![CDATA[<h1 id="-deep-web-vs-dark-web--fərqlər-risklər-və-necə-təhlükəsiz-davranmaq-olar-2025">🌐 Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</h1>
+
+<p><strong>Qısa xülasə:</strong> Bu məqalə Deep Web və Dark Web terminlərini aydınlaşdırır, onların necə fərqləndiyini, hansı risklərin mövcud olduğunu və şəxsi / korporativ səviyyədə necə təhlükəsiz qalmağın yollarını izah edir. Məqsəd — oxucuya aydın, hüquqi və praktik məsləhətlər vermək və “deep web nədir”, “dark web nədir”, “onion tor” kimi açar sözlərdə SEO performansını yaxşılaşdırmaqdır.</p>
+
+<hr />
+
+<h2 id="-deep-web-və-dark-web--əsas-fərq-nədir">🔎 Deep Web və Dark Web — əsas fərq nədir?</h2>
+
+<ul>
+  <li><strong>Surface Web (Səthi veb):</strong> Google, Bing və digər axtarış mühərriklərində indekslənən səhifələrdir — xəbərlər, bloglar, ictimai saytlar.</li>
+  <li><strong>Deep Web (Dərin veb):</strong> Axtarış motorları tərəfindən indekslənməyən, amma qanuni olan səhifələrin ümumi adı — bank hesab səhifələri, şəxsi email, məxfi arxivlər, ödənişlə gizlədilmiş resurslar.</li>
+  <li><strong>Dark Web / Darknet:</strong> Deep Web-in kiçik bir alt hissəsidir. Xüsusi şəbəkələr (Tor, I2P, Freenet) üzərində yerləşir və bir çox domen <code class="language-plaintext highlighter-rouge">*.onion</code> kimi görünür. Dark Web-də həm qanuni, həm də qanunsuz fəaliyyətlər mövcuddur.</li>
+</ul>
+
+<blockquote>
+  <p>Qısa: <em>Bütün dark web deep web-in içindədir, amma bütün deep web dark web deyil.</em></p>
+</blockquote>
+
+<hr />
+
+<h2 id="️-niyə-insanlar-dark-web-ə-maraq-göstərir">⚠️ Niyə insanlar Dark Web-ə maraq göstərir?</h2>
+
+<ul>
+  <li><strong>Anonimlik axtarışı:</strong> bəzi jurnalistlər, tədqiqatçılar və mənbəçilər anonim mühit tələb edir.</li>
+  <li><strong>Məxfi məlumat və qeyri-indekslənmiş resurslar:</strong> akademik arxivlər, hökumət sənədlərinin bəzi hissələri.</li>
+  <li><strong>Qanunsuz ticarət:</strong> narkotik, saxta sənədlər, oğurlanmış məlumatlar — risk və hüquqi məsuliyyət var.</li>
+  <li><strong>OSINT və kəşfiyyat tədqiqatları:</strong> təhlükəsizlik araşdırıcıları zəifliklər və məlumat sızmaları üçün dark web-i monitorinq edir.</li>
+</ul>
+
+<hr />
+
+<h2 id="-real-risklər-və-zərərlər">🔬 Real risklər və zərərlər</h2>
+
+<ol>
+  <li><strong>Məlumat sızmaları:</strong> şəxsi məlumatların (email, kredit kartı, şifrələr) darknet-də satılması.</li>
+  <li><strong>Maliyyə itkiləri / fırıldaqçılıq:</strong> bank və ya kripto hesablarına hücum riski.</li>
+  <li><strong>Malware və izləmə:</strong> zərərli proqram faylları və “watermarked” exploit-lər.</li>
+  <li><strong>Hüquqi məsuliyyət:</strong> qanunsuz tərkibə baxmaq və ya alış-veriş etmək cinayət məsuliyyəti yarada bilər.</li>
+  <li><strong>Təhlükəsizlik fəlakətləri:</strong> şəxsi cihazınızın kompromit edilməsi, hədəfli hücumlar.</li>
+</ol>
+
+<hr />
+
+<h2 id="️-necə-təhlükəsiz-davranmaq-olar-şəxsi-və-korporativ">🛡️ Necə təhlükəsiz davranmaq olar (şəxsi və korporativ)</h2>
+
+<p><strong>Aşağıdakı məsləhətlər informasiya təhlükəsizliyinə xidmət edir — onları icra etmək məcburidir.</strong></p>
+
+<h3 id="şəxsi-istifadəçi-üçün">Şəxsi istifadəçi üçün</h3>
+<ul>
+  <li><strong>Şifrələr və MFA:</strong> bütün hesablar üçün unikal şifrələr + iki faktorlu autentifikasiya.</li>
+  <li><strong>Qaranlıq vebdə adını yoxlamaq:</strong> sızma-check xidmətləri (Have I Been Pwned tipli etibarlı xidmətlər) ilə email/telefon yoxla.</li>
+  <li><strong>Antivirus / EDR:</strong> mobil və PC üçün etibarlı antivirus və davranışa əsaslanan qoruma.</li>
+  <li><strong>Təhlükəli faylları açma:</strong> heç vaxt tanımadığın faylları yükləmə və açma.</li>
+  <li><strong>Hüquqi maarifləndirmə:</strong> məlum olmayan təkliflərə reaksiya göstərmə — bank, iş və ya hüquqi məsələlərdə rəsmi kanallardan istifadə et.</li>
+</ul>
+
+<h3 id="korporativ--it-komandalar-üçün">Korporativ / IT komandalar üçün</h3>
+<ul>
+  <li><strong>Dark Web monitorinqi:</strong> sızmalara nəzarət üçün ödənişli təhlükəsizlik xidmətləri (Dark Web scanning) istifadə et.</li>
+  <li><strong>SIEM &amp; EDR inteqrasiyası:</strong> anomaliyaları avtomatik aşkar et və cavab ver.</li>
+  <li><strong>Məlumatların şifrələnməsi və DLP:</strong> kritik məlumatları şifrə ilə qoruyub, məlumat sızması önləyicilər (DLP) qur.</li>
+  <li><strong>İşçi təlimi:</strong> phishing və sosial mühəndislikə qarşı təlimlər keçirilir.</li>
+  <li><strong>İcazə və audit:</strong> minimal icazə, loglama və audit siyasətləri tətbiq et.</li>
+</ul>
+
+<hr />
+
+<h2 id="-dark-web-ə-girmək--nəyi-bilmək-olmaz-və-niyə-biz-təlimat-vermirik">❗ Dark Web-ə “girmək” — nəyi bilmək olmaz (və niyə biz təlimat vermirik)</h2>
+
+<p>Dark Web üzərinə necə giriş və konkret alətlər (marketplace, exploit linkləri, qanunsuz kateqoriyalar) barədə addım-addım məlumat vermək <strong>hüquqi və etik problemlər yarada bilər</strong>. Biz burada yalnız:</p>
+
+<ul>
+  <li><strong>Məqsədli təhlükəsizlik və maarifləndirmə</strong> mövzusunda məlumat veririk.</li>
+  <li>Qanunsuz əməliyyatlara yardım, qeydiyyat, ödəniş və ya necə gizlənmək barədə təlimat vermirik.</li>
+</ul>
+
+<p>Əgər tədqiqatçı və ya jurnalistsinizsə və həqiqətən Dark Web-də qanuni tədqiqat aparmaq niyyətindəsinizsə — <strong>rəsmi institutun rəhbərliyi, hüquqşünas və təşkilatınızın təhlükəsizlik komandası ilə koordinasiya</strong> edin.</p>
+
+<hr />
+
+<h2 id="-qısa-texniki-baxış-məsələn-üçün--heç-bir-təlimat-yoxdur">🔧 Qısa texniki baxış (məsələn üçün — heç bir təlimat yoxdur)</h2>
+
+<ul>
+  <li><strong>Tor (The Onion Router):</strong> Dark Web-in ən geniş istifadə olunan altyapılarından biridir; <code class="language-plaintext highlighter-rouge">*.onion</code> domenləri burada yerləşir. Tor istifadə anonimliyi artırır amma tam təhlükəsizlik təmin etmir.</li>
+  <li><strong>I2P və Freenet:</strong> alternativ anonim şəbəkə layihələri.</li>
+  <li><strong>Cryptocurrency:</strong> Dark Web əməliyyatlarında tez-tez kripto pullar istifadə olunur — bu da izləmə və hüquqi problemlərə səbəb olur.<br />
+<em>(Qeyd: yuxarıdakılar texniki terminoloji izahdır; heç bir şəkildə qanunsuz fəaliyyəti təşviq etmir.)</em></li>
+</ul>
+
+<hr />
+
+<h2 id="-hüquqi-və-etik-məqamlar">🧾 Hüquqi və etik məqamlar</h2>
+
+<ul>
+  <li>Dark Web-də fəaliyyət hüquqi məna daşıyır — bir çox ölkədə sadəcə “görmək” belə problem yarada bilər.</li>
+  <li><strong>Hüquqi məsuliyyət:</strong> satınalma, inanclı olmayan xidmətlərə müraciət, cinayət əməliyyatlarına yardım və s. cinayət məsuliyyəti yarada bilər.</li>
+  <li><strong>Etik tədqiqat:</strong> akademik və jurnalist araşdırmaları üçün də ciddi etik rəhbərlik tələb olunur.</li>
+</ul>
+
+<hr />
+
+<h2 id="-faydalı-resurslar-maarifləndirici-təhlükəsizlik-yönümlü">🧰 Faydalı resurslar (maarifləndirici, təhlükəsizlik yönümlü)</h2>
+
+<ul>
+  <li>Have I Been Pwned — email sızıntıları yoxlamaq</li>
+  <li>CVE və NVD — açıq zəifliklər üçün məlumat mənbələri</li>
+  <li>Rəsmi Tor Project saytında təhlükəsizlik və istifadə qaydaları</li>
+  <li>Etibarlı OSINT və təhlükəsizlik ölkə təlimatları</li>
+</ul>
+
+<hr />
+
+<h2 id="-tez-tez-verilən-suallar-faq">❓ Tez-tez verilən suallar (FAQ)</h2>
+
+<p><strong>Q: Deep Web ilə Dark Web eyni şeydirmi?</strong><br />
+A: Xeyr — deep web axtarış motorları tərəfindən indekslənməyən bütün veb resursları əhatə edir; dark web isə anonim şəbəkələrdə yerləşən və bəzən qanunsuz fəaliyyətə ev sahibliyi edən xüsusi bir alt qatdır.</p>
+
+<p><strong>Q: Dark Web-də məlumatım satılıbsa nə etməliyəm?</strong><br />
+A: Şifrələri dərhal dəyiş, MFA aktiv et, bankla əlaqə saxla və fişinq üçün hesabat ver. Korporativ haldırsa — DLP və IR (Incident Response) komandalarını aktiv et.</p>
+
+<p><strong>Q: Dark Web təhlükəsizdirmi?</strong><br />
+A: Tam təhlükəsiz desək yalnış olar. Anonimlik verə bilər, amma zərərli aktorlardan, izlənmədən və hüquqi riskdən qorunmağı təmin etmir.</p>
+
+<p><strong>Q: Dark Web-də tədqiqat aparmaq istəyirəm. Necə?</strong><br />
+A: Rəsmi etik komanda, hüquqi məsləhət və təşkilati icazə olmadan Dark Web tədqiqatı aparma; bunun üçün universitet, media və ya təhlükəsizlik təşkilatları çərçivəsində hərəkət et.</p>
+
+<hr />
+
+<h2 id="-nəticə--əsas-götürüləcək-məqamlar">🔑 Nəticə — əsas götürüləcək məqamlar</h2>
+
+<ul>
+  <li><strong>Deep Web</strong> gündəlik, amma indekslənməyən resursları ehtiva edir; <strong>Dark Web</strong> isə anonim, həm qanuni həm də qanunsuz məzmunlu xüsusi şəbəkələrdir.</li>
+  <li>Dark Web maraqlı və bəzən faydalı ola bilər (məsələn, jurnalistika), amma <strong>risk və hüquqi məsuliyyət</strong> daşıyır.</li>
+  <li>Şəxsi və korporativ təhlükəsizlik — şifrələr, MFA, EDR və dark web monitorinqi kimi tədbirlər önəmlidir.</li>
+  <li>Qanunsuz hərəkətlərə dəstək və ya necə “girmək” barədə təlimat vermirik — məqsəd informasiya və müdafiədir.</li>
+</ul>
+
+<hr />
+
+<h2 id="-əlaqəli-mövzular--sayt-daxili-keçidlər">📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər</h2>
+
+<ul>
+  <li><a href="/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
+  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
+  <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li><a href="/posts/sosial-mühəndislik">Phishing hücumu nədir? Müdafiə yolları</a></li>
+  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
+  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
+</ul>
+
+<h2 id="-əlaqə--kurs-təklifi">📲 Əlaqə / kurs təklifi</h2>
+
+<p>Əgər bu mövzu sənə maraqlıdırsa və <strong>peşəkar kiber təhlükəsizlik kursu</strong>, OSINT və ya dark web monitoring üzrə təlimlər almaq istəyirsənsə — bizdə həm praktiki kurslar, həm də şəxsi məsləhət sessiyaları mövcuddur. Yaz: 📩 <a href="https://wa.me/994555182523?text=Salam%2C%20dark%20web%20kursu%20bar%C9%99d%C9%99%20%C4%B0nformasiya%20ist%C9%99yir%C9%99m.">WhatsApp ilə əlaqə</a></p>
+
+<hr />
+
+<!-- SEO JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)",
+  "description": "Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq və 2025-də bu mövzuya yanaşma — sadə və aydın izah.",
+  "image": "https://cybershieldy.com/assets/images/deep-dark-web.webp",
+  "author": {
+    "@type": "Person",
+    "name": "CyberShieldy"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-11-01T22:10:00+04:00",
+  "dateModified": "2025-11-01T22:10:00+04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/deep-vs-dark-web"
+  }
+}
+</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="darknet" /><category term="deep web" /><category term="osint" /><category term="deep web" /><category term="dark web" /><category term="darknet" /><category term="tor" /><category term="onion" /><category term="deep web nədir" /><category term="dark web nədir" /><category term="kiber təhlükəsizlik" /><category term="hacker kurs" /><category term="necə qorunmaq" /><summary type="html"><![CDATA[Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq, hüquqi məqamlar və 2025-də bu mövzuya yanaşma — sadə və aydın izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/deep-dark-web.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/deep-dark-web.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</title><link href="https://cybershieldy.com/posts/hacker-kimdir" rel="alternate" type="text/html" title="Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)" /><published>2025-10-24T02:00:00+04:00</published><updated>2025-10-24T09:05:16+04:00</updated><id>https://cybershieldy.com/posts/hacker-kimdir</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-kimdir"><![CDATA[<h1 id="-hacker-kimdir--kimlər-hackerdir-nə-bilirlər-və-hansı-hücumları-həyata-keçirirlər-2025">🧑‍💻 Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</h1>
 
 <p><strong>Qısa xülasə:</strong> Bu məqalə “hacker” anlayışını, onların müxtəlif tiplərini (white hat, grey hat, black hat), bilik və bacarıq sahələrini, həmçinin müasir dövrdə həyata keçirdikləri hücum növlərini izah edir. Məqsəd — oxucunu məlumatlandırmaq və “hacker kimdir”, “xaker dərsləri”, “hacker dərsləri”, “hackerlər” kimi açar sözlərlə SEO baxımından ön sıralarda yer almaqdır.</p>
 
@@ -1968,211 +2151,4 @@ typeNeon(neonMessages[neonIndex]);
 
 <hr />
 
-<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər</title><link href="https://cybershieldy.com/posts/red-team-vs-blue-team" rel="alternate" type="text/html" title="Red Team və Blue Team Nədir? Kibertəhlükəsizlikdə Rollar və Fərqlər" /><published>2025-09-11T12:00:00+04:00</published><updated>2025-09-20T18:20:19+04:00</updated><id>https://cybershieldy.com/posts/red-team-ve-blue-team-nedir</id><content type="html" xml:base="https://cybershieldy.com/posts/red-team-vs-blue-team"><![CDATA[<!-- Structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Red Team və Blue Team Nədir? Rolları, Fərqləri və Kibertəhlükəsizlikdə Əhəmiyyəti (2025)",
-  "description": "Red Team və Blue Team nədir? Etik hakerlər və müdafiə mütəxəssisləri kibertəhlükəsizlikdə hansı rolu oynayır? 2025-ci ilin aktual yanaşmaları ilə öyrənin.",
-  "author": {
-    "@type": "Person",
-    "name": "Emin Savaylov"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-11T12:00:00+04:00",
-  "dateModified": "2025-09-11T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/red2.webp",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/red-team-vs-blue-team"
-  }
-}
-</script>
-
-<h1 id="️-red-team-və-blue-team-nədir-rolları-fərqləri-və-kibertəhlükəsizlikdə-əhəmiyyəti-2025">🛡️ Red Team və Blue Team Nədir? Rolları, Fərqləri və Kibertəhlükəsizlikdə Əhəmiyyəti (2025)</h1>
-
-<p><img src="https://cybershieldy.com/assets/images/red2.webp" alt="Red Team və Blue Team Fərqləri" title="Red Team və Blue Team İş Prosesi" /></p>
-
-<h2 id="-red-team-nədir-hücum-komandasının-rolu-və-alətləri">🔴 Red Team nədir? Hücum Komandasının Rolu və Alətləri</h2>
-
-<p><strong>Red Team</strong> — təşkilatın sistemlərinə və şəbəkələrinə <strong>real dünyadakı hakerlər kimi hücum edən etik mütəxəssislərdən</strong> ibarətdir. Məqsəd — zəif nöqtələri aşkara çıxarmaq və təhdidlərin təsirini test etməkdir.</p>
-
-<h3 id="red-team-fəaliyyətlərinə-daxildir">Red Team fəaliyyətlərinə daxildir:</h3>
-
-<ul>
-  <li>🔍 Sosial mühəndislik hücumları</li>
-  <li>🧠 Sızma testləri (penetration testing)</li>
-  <li>💣 Phishing kampaniyaları</li>
-  <li>🕵️‍♂️ Göstərilmədən hücum ssenariləri (stealth attacks)</li>
-  <li>⚔️ Hücum simulyasiyaları və qırmızı komanda ssenariləri</li>
-</ul>
-
-<hr />
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
-  "Red Team Launching Attack Simulation...",
-  "Blue Team Monitoring and Defending...",
-  "Phishing Simulation In Progress...",
-  "Intrusion Detection Activated...",
-  "Purple Team Collaborating for Security...",
-  "CyberShieldy.com | Stay Protected"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: #000;
-  color: #39ff14;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 350px;
-  height: auto;
-  line-height: 1.6em;
-  margin-bottom: 25px;
-
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14;
-
-  text-shadow:
-    0 0 3px #39ff14,
-    0 0 6px #39ff14;
-
-  overflow: hidden;
-  user-select: none;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<h2 id="-blue-team-nədir-müdafiə-komandası-və-tətbiqləri">🔵 Blue Team nədir? Müdafiə Komandası və Tətbiqləri</h2>
-
-<p><strong>Blue Team</strong> — Red Team-in və ya real kibertəhdidlərin qarşısını almaq üçün <strong>müdafiə tədbirləri görən komanda</strong>dır. Onlar sistemlərin qorunması və hücumların aşkar edilməsi üçün cavabdehdir.</p>
-
-<h3 id="blue-team-funksiyalarına-aiddir">Blue Team funksiyalarına aiddir:</h3>
-
-<ul>
-  <li>🛡️ Təhlükəsizlik monitorinqi və analiz</li>
-  <li>⚙️ SIEM sistemlərinin idarəsi</li>
-  <li>🧯 Hadisəyə cavab (incident response)</li>
-  <li>🧱 Firewall, EDR və antivirus sistemləri</li>
-  <li>📊 Log təhlili və təhdid ovçuluğu (threat hunting)</li>
-</ul>
-
-<hr />
-
-<h2 id="️-red-team-vs-blue-team-əsas-fərqlər-və-rollar">⚔️ Red Team vs Blue Team: Əsas Fərqlər və Rollar</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Xüsusiyyət</th>
-      <th>🔴 Red Team</th>
-      <th>🔵 Blue Team</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Rol</td>
-      <td>Hücum (Offensiv Təhlükəsizlik)</td>
-      <td>Müdafiə (Defensiv Təhlükəsizlik)</td>
-    </tr>
-    <tr>
-      <td>Məqsəd</td>
-      <td>Zəiflikləri tapmaq və istismar etmək</td>
-      <td>Hücumları aşkar edib qarşısını almaq</td>
-    </tr>
-    <tr>
-      <td>Alətlər</td>
-      <td>Kali Linux, Metasploit, Cobalt Strike</td>
-      <td>SIEM, EDR, Firewalls, IDS/IPS</td>
-    </tr>
-    <tr>
-      <td>Fəaliyyət növü</td>
-      <td>Proaktiv hücum ssenariləri</td>
-      <td>Reaktiv və davamlı monitorinq</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="-purple-team-nədir">🟣 Purple Team nədir?</h2>
-
-<p><strong>Purple Team</strong> — Red və Blue Team komandalarının <strong>əməkdaşlıq etdiyi hibrid yanaşmadır</strong>. Burada məqsəd həm hücum, həm də müdafiə komandalarının bir-birindən öyrənərək <strong>təhlükəsizlik səviyyəsini artırmasıdır</strong>.</p>
-
-<ul>
-  <li>🔄 Əməkdaşlıq → real-time test və cavab</li>
-  <li>🧠 Təcrübə mübadiləsi</li>
-  <li>📈 Təhlükəsizlik strategiyasının optimallaşdırılması</li>
-</ul>
-
-<hr />
-
-<h2 id="-nəticə">✅ Nəticə</h2>
-
-<p><strong>Red Team və Blue Team</strong> kibertəhlükəsizlikdə bir-birini tamamlayan əsas sütunlardır. Hücumların önlənməsi, zəifliklərin tapılması və sistemin davamlı qorunması üçün <strong>hər iki komanda vacibdir</strong>.</p>
-
-<p>🎯 Ən effektiv nəticə üçün — <strong>Purple Team yanaşmasını tətbiq edin.</strong></p>
-
-<hr />
-
-<h2 id="-kibertəhlükəsizlik-üzrə-məsləhət-almaq-istəyirsiniz">📞 Kibertəhlükəsizlik üzrə məsləhət almaq istəyirsiniz?</h2>
-
-<p>💬 <a href="https://wa.me/994555182523?text=Salam,%20Red%20Team%20və%20Blue%20Team%20haqqında%20məlumat%20almaq%20istəyirəm">WhatsApp üzərindən bizimlə əlaqə saxlayın</a> – sizi maraqlandıran məsələlərə cavab verməyə hazırıq.</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar yazılar</h2>
-
-<ul>
-  <li><a href="/posts/sosial-muhəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-açar-sözlər">🔑 Açar sözlər</h2>
-
-<p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="red team" /><category term="blue team" /><category term="red team" /><category term="blue team" /><category term="kibertəhlükəsizlik" /><category term="etik hakerlər" /><category term="müdafiə komandası" /><category term="hücum simulyasiyası" /><category term="penetration testing" /><category term="təhlükəsizlik testləri" /><category term="kiberhücum simulyasiyası" /><category term="purple team nədir" /><summary type="html"><![CDATA[Red Team və Blue Team anlayışları kibertəhlükəsizlikdə hansı rolu oynayır? Hücum və müdafiə komandalarının vəzifələri, yanaşmaları və aralarındakı əsas fərqləri öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/blue-read.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/blue-read.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>✅ <strong>Açar sözlər:</strong> <code class="language-plaintext highlighter-rouge">iki faktorlu identifikasiya</code>, <code class="language-plaintext highlighter-rouge">2FA nədir</code>, <code class="language-plaintext highlighter-rouge">giriş təhlükəsizliyi</code>, <code class="language-plaintext highlighter-rouge">SMS doğrulama</code>, <code class="language-plaintext highlighter-rouge">Authenticator tətbiqi</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik tədbirləri</code></p>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="autentifikasiya" /><category term="iki faktorlu identifikasiya" /><category term="2FA" /><category term="giriş təhlükəsizliyi" /><category term="kibertəhlükəsizlik" /><category term="sms doğrulama" /><category term="autentifikasiya metodları" /><category term="hesab qorunması" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[İki faktorlu identifikasiya (2FA) ilə hesablarınızı daha təhlükəsiz edin. 2025-ci ilin ən yaxşı giriş qoruma metodları və tətbiq üsulları bu yazıda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/12.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/12.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
