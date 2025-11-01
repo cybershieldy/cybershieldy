@@ -5,7 +5,7 @@ lastmod: 2025-11-01 12:10:00 +0400
 categories: [kiber təhlükəsizlik, darknet, deep web, osint]
 tags: [deep web, dark web, darknet, tor, onion, deep web nədir, dark web nədir, kiber təhlükəsizlik, hacker kurs, necə qorunmaq]
 description: "Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq, hüquqi məqamlar və 2025-də bu mövzuya yanaşma — sadə və aydın izah."
-image: /assets/images/deep-dark-web.webp
+image: /assets/images/dark-web.webp
 canonical: https://cybershieldy.com/posts/deep-vs-dark-web
 permalink: /posts/deep-vs-dark-web
 ---
