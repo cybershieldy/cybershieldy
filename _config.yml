@@ -22,9 +22,9 @@ exclude_from_localizations: ["assets", "images"]  # statik faylları tərcümə 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Cybershieldy – Emin Savaylov # saytın başlığı (title tag)
+title: Cybershieldy Academy — Cybersecurity & Web Development Training # saytın başlığı (title tag)
 
-tagline: Kiber Təhlükəsizlik və Praktiki Təlimlər
+tagline: Real Hacking & Web Development Skills
 
 description: >-
   Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.
