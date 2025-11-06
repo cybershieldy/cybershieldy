@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-11-06T17:05:01+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Ss7 Hucumlari Mobil Tehlukesizlik</title><link href="https://cybershieldy.com/posts/ss7-hucumlari-mobil-tehlukesizlik/" rel="alternate" type="text/html" title="Ss7 Hucumlari Mobil Tehlukesizlik" /><published>2025-11-06T00:00:00+04:00</published><updated>2025-11-06T00:00:00+04:00</updated><id>https://cybershieldy.com/posts/ss7-hucumlari-mobil-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/ss7-hucumlari-mobil-tehlukesizlik/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</title><link href="https://cybershieldy.com/posts/deep-vs-dark-web" rel="alternate" type="text/html" title="Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)" /><published>2025-11-01T12:10:00+04:00</published><updated>2025-11-01T22:47:39+04:00</updated><id>https://cybershieldy.com/posts/dark-web-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/deep-vs-dark-web"><![CDATA[<h1 id="-deep-web-vs-dark-web--fərqlər-risklər-və-necə-təhlükəsiz-davranmaq-olar-2025">🌐 Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-11-06T17:07:04+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)</title><link href="https://cybershieldy.com/posts/ss7-hucumlari" rel="alternate" type="text/html" title="SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)" /><published>2025-11-06T14:10:00+04:00</published><updated>2025-11-06T14:10:00+04:00</updated><id>https://cybershieldy.com/posts/ss7-hucumlari-mobil-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/ss7-hucumlari"><![CDATA[<h1 id="-ss7-hücumları--mobil-rabitə-zəifliyi-və-məlumatların-oğurlanması-2025">📱 SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)</h1>
+
+<p><strong>Qısa xülasə:</strong><br />
+SS7 (Signaling System No.7) — mobil operatorlar arasında rabitəni idarə edən protokoldur. Lakin bu sistemin köhnə quruluşu səbəbilə, hücumçular zəngləri izləyə, SMS mesajlarını ələ keçirə və istifadəçilərin yerini təyin edə bilirlər. Bu məqalə SS7 hücumlarının necə işlədiyini, real riskləri və onlardan qorunmaq yollarını izah edir.</p>
+
+<hr />
+
+<h2 id="-ss7-nədir-və-niyə-təhlükəlidir">🔍 SS7 nədir və niyə təhlükəlidir?</h2>
+
+<p><strong>SS7 (Signaling System No.7)</strong> — GSM, 3G və bəzi LTE şəbəkələrdə zənglərin və mesajların yönləndirilməsini təmin edən siqnal protokollar toplusudur.<br />
+Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxitektura”</strong> üzərində qurulub — yəni bir operator digər operatora avtomatik güvənir.</p>
+
+<p>Bu etimad mexanizmi isə müasir dövrdə böyük bir problem yaradır:</p>
+<blockquote>
+  <p>“Əgər hücumçu SS7 şəbəkəsinə çıxış əldə edirsə, istənilən mobil nömrə haqqında real zamanlı məlumat toplaya bilər.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="️-ss7-hücumu-ilə-nələr-mümkündür">⚠️ SS7 Hücumu ilə nələr mümkündür?</h2>
+
+<ol>
+  <li><strong>SMS interception:</strong> iki faktorlu autentifikasiya (MFA) üçün göndərilən SMS kodlarını ələ keçirmək.</li>
+  <li><strong>Call redirection:</strong> gələn zəngləri başqa nömrəyə yönləndirmək.</li>
+  <li><strong>Location tracking:</strong> istifadəçinin coğrafi yerini (cell ID və LAC vasitəsilə) təyin etmək.</li>
+  <li><strong>Data exfiltration:</strong> mobil trafikdə gizli məlumatların sızdırılması.</li>
+  <li><strong>Subscriber information theft:</strong> IMSI, IMEI və abunəçi məlumatlarını əldə etmək.</li>
+</ol>
+
+<hr />
+
+<h2 id="-ss7-hücum-mexanizmi-sadə-izah">🔬 SS7 Hücum Mexanizmi (Sadə izah)</h2>
+
+<ol>
+  <li>Hücumçu SS7 şəbəkəsinə çıxış əldə edir (tez-tez “leased access” və ya kompromit olunmuş operatorlar vasitəsilə).</li>
+  <li>“UpdateLocation” və “ProvideSubscriberInfo” sorğuları ilə hədəf abunəçinin IMSI və yer məlumatı əldə olunur.</li>
+  <li>“SendRoutingInfoForSM” mesajı ilə SMS yönləndirilə və ya tutulur.</li>
+  <li>Hücumçu SMS və zəng məlumatlarını öz serverinə yönləndirir.</li>
+</ol>
+
+<blockquote>
+  <p><strong>Nəticə:</strong> Hədəfin xəbəri olmadan zəng və SMS məlumatları sızdırıla bilər.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-real-həyatda-ss7-hücumlarının-nümunələri">🧠 Real həyatda SS7 hücumlarının nümunələri</h2>
+
+<ul>
+  <li><strong>2017 Almaniya Bank Hücumu:</strong> Hackerlər SS7 zəifliyindən istifadə edərək bank SMS təsdiqlərini ələ keçirdi və müştərilərin hesablarından pul köçürdülər.</li>
+  <li><strong>2019 İsrail Araşdırması:</strong> Telekom mütəxəssisləri SS7 üzərindən bütün ölkə üzrə abunəçilərin yerini izləməyə nail oldular.</li>
+  <li><strong>APT Hücumları:</strong> Dövlət səviyyəli hücum qrupları SS7 zəifliyindən kəşfiyyat və izləmə məqsədilə istifadə edir.</li>
+</ul>
+
+<hr />
+
+<h2 id="-müdafiə-və-təhlükəsizlik-tədbirləri">🧰 Müdafiə və Təhlükəsizlik Tədbirləri</h2>
+
+<h3 id="şəxsi-istifadəçi-üçün">Şəxsi istifadəçi üçün</h3>
+<ul>
+  <li><strong>SMS əvəzinə MFA tətbiqləri:</strong> Google Authenticator, Authy və ya hardware tokenlərdən istifadə et.</li>
+  <li><strong>VPN və şifrəli rabitə:</strong> Signal, Telegram Secret Chat kimi uçtan-uca şifrəli platformalardan istifadə et.</li>
+  <li><strong>Mobil operatorla əlaqə:</strong> mümkün olduqda SS7 filtrasiya dəstəkli operator seç.</li>
+  <li><strong>Şübhəli fəaliyyətləri izləmək:</strong> bank bildirişlərində və hesab girişlərində qəribə aktivlikləri yoxla.</li>
+</ul>
+
+<h3 id="operatorlar-və-şirkətlər-üçün">Operatorlar və şirkətlər üçün</h3>
+<ul>
+  <li><strong>SS7 firewall tətbiqi:</strong> anormal sorğuları analiz edən və bloklayan filtrasiya sistemləri.</li>
+  <li><strong>Diameter və LTE təhlükəsizlik təkmilləşdirmələri:</strong> müasir protokollarla SS7 zəifliklərini aradan qaldırmaq.</li>
+  <li><strong>Threat intelligence inteqrasiyası:</strong> hücum göstəricilərinin (IOC) toplanması və paylaşımı.</li>
+  <li><strong>Audit və pentest:</strong> telecom infrastrukturu üçün müntəzəm sızma testləri.</li>
+</ul>
+
+<hr />
+
+<h2 id="️-texniki-baxış-ss7-mesajnı-necə-manipulyasiya-etmək-olur">⚙️ Texniki baxış: SS7 mesajnı necə “manipulyasiya” etmək olur?</h2>
+
+<blockquote>
+  <p>Bu bölmə yalnız <strong>maarifləndirici və texniki izah məqsədi daşıyır</strong>, heç bir praktiki istismar təlimatı verilmir.</p>
+</blockquote>
+
+<ul>
+  <li><strong>MAP protokolu:</strong> <code class="language-plaintext highlighter-rouge">SendRoutingInfo</code>, <code class="language-plaintext highlighter-rouge">UpdateLocation</code>, <code class="language-plaintext highlighter-rouge">InsertSubscriberData</code> kimi mesajlar zəiflik nöqtəsidir.</li>
+  <li><strong>Global Title Translation (GTT):</strong> SS7 mesajlarının istiqamətini təyin edən sistem, səhv konfiqurasiyada zərərli manipulyasiyalara açıqdır.</li>
+  <li><strong>Firewalls və monitoring olmadan:</strong> hər hansı operator node-a daxil olan hücumçu, “trusted” əlaqə kimi görünür və sorğu göndərə bilir.</li>
+</ul>
+
+<hr />
+
+<h2 id="-hüquqi-və-etik-aspektlər">🧾 Hüquqi və etik aspektlər</h2>
+
+<ul>
+  <li>SS7 hücumlarını həyata keçirmək və ya belə sistemlərə icazəsiz çıxış <strong>cinayət əməlidir.</strong></li>
+  <li>Telekom infrastrukturuna müdaxilə ciddi hüquqi məsuliyyət yaradır.</li>
+  <li>Bu məqalə yalnız <strong>kiber təhlükəsizlik tədrisi və maarifləndirmə</strong> məqsədilə hazırlanmışdır.</li>
+</ul>
+
+<hr />
+
+<h2 id="-nəticə">🔑 Nəticə</h2>
+
+<ul>
+  <li>SS7 — mobil rabitənin “əski skeleti” olaraq qalır və müasir dövrdə <strong>ciddi zəifliklər</strong> daşıyır.</li>
+  <li>Hücumçular SMS və zəng məlumatlarını ələ keçirə bilər.</li>
+  <li>Təhlükəsizlik üçün SMS-based autentifikasiyadan uzaq durmaq, müasir operator seçmək və mobil təhlükəsizlik alətlərindən istifadə vacibdir.</li>
+  <li>Qorunmaq üçün həm <strong>fərdi</strong>, həm də <strong>korporativ səviyyədə</strong> tədbirlər görülməlidir.</li>
+</ul>
+
+<hr />
+
+<h2 id="-əlaqəli-mövzular--sayt-daxili-keçidlər">📎 Əlaqəli Mövzular — Sayt daxili keçidlər</h2>
+
+<ul>
+  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkə izlənməsi</a></li>
+  <li><a href="/posts/sim-swap-hucumu">SIM Swap hücumu nədir və necə qorunmalı</a></li>
+  <li><a href="/posts/sosial-muhendislik">Phishing və sosial mühəndislik hücumları</a></li>
+  <li><a href="/posts/iki-faktorlu-identifikasiya">MFA və identifikasiya üsulları</a></li>
+  <li><a href="/posts/5g-tehlukesizlik">Mobil təhlükəsizlik və 5G riskləri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-təlim-və-kurslar">📲 Təlim və kurslar</h2>
+
+<p>Əgər <strong>mobil rabitə təhlükəsizliyi, SS7 zəiflikləri və telecom protokolları</strong> haqqında daha dərindən öyrənmək istəyirsənsə —<br />
+<strong>CyberShieldy Academy</strong> real praktiki laboratoriyalar və ethical hacking kursları təklif edir.<br />
+📩 <a href="https://wa.me/994555182523?text=Salam%2C%20SS7%20h%C3%BCcumlar%C4%B1%20haqq%C4%B1nda%20kurs%20m%C9%99lumat%C4%B1%20ist%C9%99yir%C9%99m.">WhatsApp ilə əlaqə</a></p>
+
+<hr />
+
+<!-- SEO JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)",
+  "description": "SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? SS7 hücumlarının texniki tərəfləri, riskləri və qorunma yolları.",
+  "image": "https://cybershieldy.com/assets/images/ss7-attack.webp",
+  "author": { "@type": "Person", "name": "CyberShieldy" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CyberShieldy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cybershieldy.com/assets/images/logo.png"
+    }
+  },
+  "datePublished": "2025-11-06T14:10:00+04:00",
+  "dateModified": "2025-11-06T14:10:00+04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cybershieldy.com/posts/ss7-hucumlari"
+  }
+}
+</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="mobil şəbəkə" /><category term="exploit" /><category term="telecom" /><category term="ss7 attack" /><category term="ss7 nədir" /><category term="mobil rabitə hücumu" /><category term="telecom hack" /><category term="sms interception" /><category term="call tracking" /><category term="mobile exploit" /><category term="signaling system no.7" /><category term="gsm" /><category term="kiber təhlükəsizlik" /><category term="ethical hacking" /><category term="hacker kurs" /><category term="mobil təhlükəsizlik" /><summary type="html"><![CDATA[SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? Bu məqalə SS7 hücumlarının texniki tərəflərini, risklərini və onlardan qorunma yollarını izah edir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ss7-attack.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ss7-attack.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</title><link href="https://cybershieldy.com/posts/deep-vs-dark-web" rel="alternate" type="text/html" title="Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)" /><published>2025-11-01T12:10:00+04:00</published><updated>2025-11-01T22:47:39+04:00</updated><id>https://cybershieldy.com/posts/dark-web-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/deep-vs-dark-web"><![CDATA[<h1 id="-deep-web-vs-dark-web--fərqlər-risklər-və-necə-təhlükəsiz-davranmaq-olar-2025">🌐 Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</h1>
 
 <p><strong>Qısa xülasə:</strong> Bu məqalə Deep Web və Dark Web terminlərini aydınlaşdırır, onların necə fərqləndiyini, hansı risklərin mövcud olduğunu və şəxsi / korporativ səviyyədə necə təhlükəsiz qalmağın yollarını izah edir. Məqsəd — oxucuya aydın, hüquqi və praktik məsləhətlər vermək və “deep web nədir”, “dark web nədir”, “onion tor” kimi açar sözlərdə SEO performansını yaxşılaşdırmaqdır.</p>
 
