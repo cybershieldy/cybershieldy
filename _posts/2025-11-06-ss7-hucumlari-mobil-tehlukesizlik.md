@@ -5,7 +5,7 @@ lastmod: 2025-11-06 14:10:00 +0400
 categories: [kiber təhlükəsizlik, mobil şəbəkə, exploit, telecom]
 tags: [ss7 attack, ss7 nədir, mobil rabitə hücumu, telecom hack, sms interception, call tracking, mobile exploit, signaling system no.7, gsm, kiber təhlükəsizlik, ethical hacking, hacker kurs, mobil təhlükəsizlik]
 description: "SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? Bu məqalə SS7 hücumlarının texniki tərəflərini, risklərini və onlardan qorunma yollarını izah edir."
-image: /assets/images/ss7-attack.webp
+image: /assets/images/ss7.webp
 canonical: https://cybershieldy.com/posts/ss7-hucumlari
 permalink: /posts/ss7-hucumlari
 ---
