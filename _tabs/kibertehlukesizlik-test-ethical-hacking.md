@@ -456,13 +456,13 @@ d;
   color: green;
   font-weight: bold;
 }
-.wrong-answer {
+.incorrect-answer {
   background-color: #f8d7da; /* qırmızı fon */
   border: 2px solid #dc3545;
   border-radius: 5px;
   padding: 5px;
 }
-.wrong-answer::after {
+.incorrect-answer::after {
   content: " ✖";
   color: red;
   font-weight: bold;
@@ -497,7 +497,7 @@ function showResult() {
     let correctInput = null;
 
     // əvvəlki rəngləri sıfırla
-    inputs.forEach(inp => inp.closest('label').classList.remove('correct-answer', 'wrong-answer', 'unanswered'));
+    inputs.forEach(inp => inp.closest('label').classList.remove('correct-answer', 'incorrect-answer', 'unanswered'));
 
     inputs.forEach(inp => {
       if(inp.value === "correct") correctInput = inp;
@@ -515,7 +515,7 @@ function showResult() {
         userInput.closest('label').classList.add('correct-answer');
         score++;
       } else {
-        userInput.closest('label').classList.add('wrong-answer');
+        userInput.closest('label').classList.add('incorrect-answer');
         correctInput.closest('label').classList.add('correct-answer');
       }
     }
