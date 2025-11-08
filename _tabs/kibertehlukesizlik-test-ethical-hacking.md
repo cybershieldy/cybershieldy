@@ -454,13 +454,13 @@ d;
   color: green;
   font-weight: bold;
 }
-.wrong-answer {
+.incorrect-answer {
   background-color: #f8d7da; /* qırmızı fon */
   border: 2px solid #dc3545;
   border-radius: 5px;
   padding: 5px;
 }
-.wrong-answer::after {
+.incorrect-answer::after {
   content: " ✖";
   color: red;
   font-weight: bold;
@@ -478,13 +478,7 @@ label {
 }
 </style>
 
-<div class="question">
-  <p>2. Sistem quruluşu üzrə ardıcıllıq prinsipləri pozulubmu?</p>
-  <label><input type="radio" name="q2" value="incorrect"> a) FTP -> UFW -> Apache2 -> 80</label> 
-  <label><input type="radio" name="q2" value="incorrect"> b) UFW -> Apache2 -> Fail2ban -> 80</label> 
-  <label><input type="radio" name="q2" value="incorrect"> c) UFW -> SMTP -> Apache2 -> 80</label> 
-  <label><input type="radio" name="q2" value="correct"> d) Hamısının da pozulub</label>
-</div>
+
 
 <button onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
@@ -502,7 +496,7 @@ function showResult() {
     let correctInput = null;
 
     inputs.forEach(inp => {
-      inp.closest('label').classList.remove('correct-answer', 'wrong-answer', 'unanswered');
+      inp.closest('label').classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
       if(inp.value === "correct") correctInput = inp;
       if(inp.checked) {
         answered = true;
@@ -518,7 +512,7 @@ function showResult() {
         userInput.closest('label').classList.add('correct-answer');
         score++;
       } else {
-        userInput.closest('label').classList.add('wrong-answer');
+        userInput.closest('label').classList.add('incorrect-answer');
         correctInput.closest('label').classList.add('correct-answer');
       }
     }
