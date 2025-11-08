@@ -1,8 +1,8 @@
 ---
-title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
+title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)
 icon: fas fa-shield-alt
 order: 4
-description: 30 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
+description: 40 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
 keywords:
   - kibertəhlükəsizlik testi
   - ethical hacking sualları
@@ -43,15 +43,15 @@ robots: index, follow
 <link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 
 <!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)" />
-<meta property="og:description" content="30 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
+<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)" />
+<meta property="og:description" content="40 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 <meta property="og:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
 <!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)" />
+<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)" />
 <meta name="twitter:description" content="Ethical hacking, OWASP və SQLi biliklərinizi bu test ilə yoxlayın. CEH hazırlığı üçün uyğundur." />
 <meta name="twitter:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
@@ -94,9 +94,9 @@ robots: index, follow
   }
 </style>
 
-# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (30 Sual)
+# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)
 
-Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **30 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
+Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **40 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
 ### Təlimat:
 - Bütün suallara cavab verin.
@@ -110,7 +110,7 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 <!-- =================== SUALLAR =================== -->
 
 <div class="question">
-  <p>1. Hansi daha təhlükəsiz kompyuterler arası sistem bağlantısıdır?</p>
+  <p>1. Hansı daha təhlükəsiz kompüterlərarası sistem bağlantısıdır?</p>
   <label><input type="radio" name="q1" value="correct"> a) SSH</label>
   <label><input type="radio" name="q1" value="incorrect"> b) FTP</label>
   <label><input type="radio" name="q1" value="incorrect"> c) HTTPS</label>
@@ -118,78 +118,83 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 </div>
 
 <div class="question">
-  <p>2. Sıralama ardıcıllıq prinsipləri pozulub?</p>
-  <label><input type="radio" name="q2" value="incorrect"> a) FTP + UFW + Apache2 + 80</label>
-  <label><input type="radio" name="q2" value="incorrect"> b) UFW + Apache2 + Fail2ban + 80</label>
-  <label><input type="radio" name="q2" value="incorrect"> c) UFW + SMTP + Apache2 + 80</label>
-  <label><input type="radio" name="q2" value="correct"> d) Hamsının da pozulub</label>
+  <p>2. Sistem quruluşu üzrə ardıcıllıq prinsipləri pozulubmu?</p>
+  <label><input type="radio" name="q2" value="incorrect"> a) FTP -> UFW -> Apache2 -> 80</label> 
+  <label><input type="radio" name="q2" value="incorrect"> b) UFW -> Apache2 -> Fail2ban -> 80</label> 
+  <label><input type="radio" name="q2" value="incorrect"> c) UFW -> SMTP -> Apache2 -> 80</label> 
+  <label><input type="radio" name="q2" value="correct"> d) Hamısının da pozulub</label>
 </div>
 
+
 <div class="question">
-  <p>3. Bir Wi-Fi hücumunda brute force olmadan DDoS deauth edib parol tapmaq olarmı?</p>
+  <p>3. Brute-force istifadə etmədən DDoS deauth hücumu ilə Wi-Fi şifrəsini tapmaq olarmı?</p>
   <label><input type="radio" name="q3" value="correct"> a) Xeyir</label>
-  <label><input type="radio" name="q3" value="incorrect"> b) Olar, handshake et capture tap</label>
-  <label><input type="radio" name="q3" value="incorrect"> c) Evil twin et, parol əldə et</label>
-  <label><input type="radio" name="q3" value="incorrect"> d) Fikirlər hamsı düzgün</label>
+  <label><input type="radio" name="q3" value="incorrect"> b) Olar, handshake tutaraq parolu tapmaq</label>
+  <label><input type="radio" name="q3" value="incorrect"> c) Evil Twin hücumu ilə parolu əldə etmək</label>
+  <label><input type="radio" name="q3" value="incorrect"> d) Bütün fikirlər doğrudur</label>
 </div>
 
+
 <div class="question">
-  <p>4. Server üzərinə 22 SSH portu üzərindən hücum edirik. Serverdə fail2ban qurulub. Parolu tapmaq mümkün olacaqmı?</p>
-  <label><input type="radio" name="q4" value="incorrect"> a) Brute olmaz, fail2ban ban edir</label>
-  <label><input type="radio" name="q4" value="correct"> b) Limite bağlıdır, misal 4 şifrə</label>
-  <label><input type="radio" name="q4" value="incorrect"> c) Serverə fail2ban yükləmək olmur</label>
+  <p>4. Serverə 22 (SSH) portu üzərindən hücum edirik. Serverdə fail2ban quraşdırılıb. Parolu tapmaq mümkün olarmı?</p>
+  <label><input type="radio" name="q4" value="incorrect"> a) Brute-force mümkün deyil, fail2ban dərhal ban edir</label>
+  <label><input type="radio" name="q4" value="correct"> b) Limite bağlıdır; məsələn, maksimum 4 yanlış cəhd təyin edilibsə, parolu tapmaq çətinləşir</label>
+  <label><input type="radio" name="q4" value="incorrect"> c) Serverə fail2ban quraşdırmaq mümkün deyil</label>
   <label><input type="radio" name="q4" value="incorrect"> d) Fail2ban 80 portunu dinləyir</label>
 </div>
 
 <div class="question">
-  <p>5. Aşağıdakilerden hansının <code>nc -lvp 12345</code> komandasını işlətmək və bu portu dinləmək üçün uyğun olduğunu seçin:</p>
+  <p>5. Aşağıdakılardan hansının <code>nc -lvp 12345</code> komandasını işlətmək və bu portu dinləmək üçün uyğun olduğunu seçin:</p>
   <label><input type="radio" name="q5" value="correct"> a) ufw allow 12345</label>
   <label><input type="radio" name="q5" value="incorrect"> b) apache2 + 80 + 192.168.1.1:12345</label>
   <label><input type="radio" name="q5" value="incorrect"> c) ssh + 80 + 192.168.1.1:12345</label>
-  <label><input type="radio" name="q5" value="incorrect"> d) Hamsı səhvdir</label>
+  <label><input type="radio" name="q5" value="incorrect"> d) Hamısı səhvdir</label>
 </div>
 
 <div class="question">
-  <p>6. Aşağıdakilerden hansı OSINT (Open Source Intelligence) alətlərinin ardıcıllığının göstərir?</p>
-  <label><input type="radio" name="q6" value="incorrect"> a) windows-server + kali + bloodhound + SharpHound</label>
-  <label><input type="radio" name="q6" value="incorrect"> b) kali + SharpHound + windows-server + bloodhound</label>
-  <label><input type="radio" name="q6" value="correct"> c) kali + bloodhound + SharpHound + windows-server</label>
-  <label><input type="radio" name="q6" value="incorrect"> d) Hamsı düzgün</label>
+  <p>6. Aşağıdakılardan hansı OSINT (Open Source Intelligence) alətləri ardıcıllıqla göstərilmişdir?</p>
+  <label><input type="radio" name="q6" value="incorrect"> a) windows-server -> kali -> bloodhound -> SharpHound</label> 
+  <label><input type="radio" name="q6" value="incorrect"> b) kali -> SharpHound -> windows-server -> bloodhound</label> 
+  <label><input type="radio" name="q6" value="correct"> c) kali -> bloodhound -> SharpHound -> windows-server</label> 
+  <label><input type="radio" name="q6" value="incorrect"> d) Hamısı düzgün</label>
 </div>
+
 
 <div class="question">
   <p>7. Slowloris ilə VirtualBox-da test edirik, amma sistem niyə çökmür?</p>
-  <label><input type="radio" name="q7" value="incorrect"> a) Yeterli hücum piramidası yoxdur</label>
-  <label><input type="radio" name="q7" value="correct"> b) Local şəbəkə</label>
-  <label><input type="radio" name="q7" value="incorrect"> c) Slowloris sadədir</label>
-  <label><input type="radio" name="q7" value="incorrect"> d) Həmsi səhvdir</label>
+  <label><input type="radio" name="q7" value="incorrect"> a) Kifayət qədər hücum qaynağı yoxdur</label>
+  <label><input type="radio" name="q7" value="correct"> b) Test lokal şəbəkədə aparılır (distributed hücum deyil)</label>
+  <label><input type="radio" name="q7" value="incorrect"> c) Slowloris çox sadədir</label>
+  <label><input type="radio" name="q7" value="incorrect"> d) Hamısı səhvdir</label>
+</div>
+
+
+<div class="question">
+  <p>8. Ettercap ilə DNS resolve testi aparılarkən düzgün ardıcıllığı seçin:</p>
+  <label><input type="radio" name="q8" value="correct"> a) Ettercap → Apache2 → 443 → DNS → qurban</label>
+  <label><input type="radio" name="q8" value="incorrect"> b) DNS → Ettercap → qurban</label>
+  <label><input type="radio" name="q8" value="incorrect"> c) DNS → qurban → Ettercap → 443</label>
+  <label><input type="radio" name="q8" value="incorrect"> d) Hamısı düzgün</label>
 </div>
 
 <div class="question">
-  <p>8. Ettercap DNS resolve testi arxasında ardıcıllıq prinsipləri seç</p>
-  <label><input type="radio" name="q8" value="correct"> a) Ettercap + Apache2 + 443 + Dns + Qurban</label>
-  <label><input type="radio" name="q8" value="incorrect"> b) DNS + Ettercap + Qurban</label>
-  <label><input type="radio" name="q8" value="incorrect"> c) DNS + Qurban + Ettercap 443</label>
-  <label><input type="radio" name="q8" value="incorrect"> d) Həmsi düzgün</label>
-</div>
-<div class="question">
-  <p>9. Asterisk qurub SIP zəngi test edirik, şifrələmə varmı?</p>
-  <label><input type="radio" name="q9" value="incorrect"> a) Zənglər test etmək üçün HackRF lazımdır</label>
-  <label><input type="radio" name="q9" value="correct"> b) Wireshark test edir, SSL yoxdur</label>
-  <label><input type="radio" name="q9" value="incorrect"> c) Zənglər təhlükəli etmək olmaz, SS7</label>
-  <label><input type="radio" name="q9" value="incorrect"> d) Bütün suallar səhvdir</label>
+  <p>9. Asterisk qurub SIP zəngi test edirik — bu zənglərin şifrələnib-şifrələnmədiyini necə yoxlamaq olar?</p>
+  <label><input type="radio" name="q9" value="incorrect"> a) Zəngləri test etmək üçün HackRF lazımdır</label>
+  <label><input type="radio" name="q9" value="correct"> b) Wireshark ilə paketi tutub, SIP/TLS və ya SRTP istifadə olunub-olunmadığını yoxlamaq olar (defaultda adətən şifrələmə yoxdur)</label>
+  <label><input type="radio" name="q9" value="incorrect"> c) Zənglər heç vaxt təhlükəsiz edilə bilməz — SS7 səbəbindən</label>
+  <label><input type="radio" name="q9" value="incorrect"> d) Bütün variantlar yanlışdır</label>
 </div>
 
 <div class="question">
-  <p>10. FTP protokolu üzrə fayllar yüklənir, qorunalıq seçimi düzgündürmü?</p>
-  <label><input type="radio" name="q10" value="incorrect"> a) Səhvdir, FTP fayl yükləmir, şəkil yükləyir</label>
-  <label><input type="radio" name="q10" value="incorrect"> b) FTP şəkil fayl sayt yüklənir, qorunaqlıdır</label>
-  <label><input type="radio" name="q10" value="correct"> c) Hər şey yükləmək olar, exploit-də qorunaksızdır</label>
-  <label><input type="radio" name="q10" value="incorrect"> d) Bütün suallar doğru</label>
+  <p>10. FTP protokolu ilə fayllar yüklənir — qorunma səviyyəsi düzgündürmü?</p>
+  <label><input type="radio" name="q10" value="incorrect"> a) Səhvdir, FTP yalnız şəkil fayl yükləyir</label>
+  <label><input type="radio" name="q10" value="incorrect"> b) FTP ilə şəkil fayl yükləmək mümkündür və qorunur</label>
+  <label><input type="radio" name="q10" value="correct"> c) Hər növ fayl yükləmək olar; exploit zamanı qorunmasızdır</label>
+  <label><input type="radio" name="q10" value="incorrect"> d) Bütün variantlar doğrudur</label>
 </div>
 
 <div class="question">
-  <p>11. 3306 prinsipinə əsaslanmayıb?</p>
+  <p>11. 3306 portu ilə əlaqəli əmrlərdən hansı məlumat bazası əməliyyat prinsiplərinə əsaslanmır?</p>
   <label><input type="radio" name="q11" value="incorrect"> a) INSERT INTO</label>
   <label><input type="radio" name="q11" value="incorrect"> b) CREATE</label>
   <label><input type="radio" name="q11" value="incorrect"> c) DROP</label>
@@ -197,7 +202,7 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 </div>
 
 <div class="question">
-  <p>12. Buffer overflow prinsipinə görə kompüterdə hansı hissə hücuma məruz qalır?</p>
+  <p>12. Buffer overflow prinsipinə görə kompüterin hansı hissəsi hücuma məruz qalır?</p>
   <label><input type="radio" name="q12" value="incorrect"> a) CPU</label>
   <label><input type="radio" name="q12" value="correct"> b) RAM</label>
   <label><input type="radio" name="q12" value="incorrect"> c) Disk</label>
@@ -205,23 +210,25 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 </div>
 
 <div class="question">
-  <p>13. Bir SSH serverin üzərinə John the Ripper ilə hücum edildiyi bildirildi. Həmin vəziyyətdə nə etmək lazımdır?</p>
+  <p>13. Bir SSH serverə John the Ripper ilə sözlük/brute-force hücumu edildiyi bildirildi. Bu halda nə etmək lazımdır?</p>
   <label><input type="radio" name="q13" value="incorrect"> a) IDS/IPS quraşdırmaq</label>
-  <label><input type="radio" name="q13" value="correct"> b) Heç bir şey</label>
-  <label><input type="radio" name="q13" value="incorrect"> c) fail2ban qurmaq</label>
+  <label><input type="radio" name="q13" value="incorrect"> b) Heç bir şey</label>
+  <label><input type="radio" name="q13" value="correct"> c) fail2ban qurmaq</label>
   <label><input type="radio" name="q13" value="incorrect"> d) Wazuh quraşdırmaq</label>
 </div>
 
+
 <div class="question">
-  <p>14. Bu sistemdə saytları blok etmək, trafikə limit tətbiq etmək və ümumi nəzarəti tam təmin etmək mümkün olan hansı həllərdən biridir?</p>
+  <p>14. Hansı həll saytlara blok qoymaq, trafikə limit tətbiq etmək və ümumi şəbəkə nəzarətini təmin etmək üçün istifadə olunur?</p>
   <label><input type="radio" name="q14" value="incorrect"> a) GNS3</label>
   <label><input type="radio" name="q14" value="correct"> b) pfSense</label>
   <label><input type="radio" name="q14" value="incorrect"> c) Wazuh</label>
   <label><input type="radio" name="q14" value="incorrect"> d) fail2ban</label>
 </div>
 
+
 <div class="question">
-  <p>15. Bu sistem SSH prinsipinə oxşasa da fərqli bir əlaqə vasitəsidir. Hansıdır?</p>
+  <p>15. SSH prinsipi ilə oxşar, lakin fərqli bir uzaq bağlantı vasitəsi hansıdır?</p>
   <label><input type="radio" name="q15" value="correct"> a) RDP</label>
   <label><input type="radio" name="q15" value="incorrect"> b) FTP</label>
   <label><input type="radio" name="q15" value="incorrect"> c) MySQL</label>
@@ -229,12 +236,13 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 </div>
 
 <div class="question">
-  <p>16. Saytda görünməyən (gizli) fayl və qovluqları aşkar etmək üçün istifadə olunan alətlərdən hansı DEYİL?</p>
+  <p>16. Saytda görünməyən (gizli) fayl və qovluqları aşkar etmək üçün istifadə olunan alətlərdən hansı deyil?</p>
   <label><input type="radio" name="q16" value="incorrect"> a) gobuster</label>
   <label><input type="radio" name="q16" value="incorrect"> b) dirbuster</label>
   <label><input type="radio" name="q16" value="incorrect"> c) feroxbuster</label>
   <label><input type="radio" name="q16" value="correct"> d) zerobuster</label>
 </div>
+
 
 <div class="question">
   <p>17. Aşağıdakı JS funksional nəticəsi hansıdır?</p>
@@ -254,19 +262,19 @@ d;
 </div>
 
 <div class="question">
-  <p>18. Phishing hücumu / proqramı hazırlamaq üçün hansı bacarıq daha çox lazımdır?</p>
-  <label><input type="radio" name="q18" value="incorrect"> a) coding + robotexnika</label>
-  <label><input type="radio" name="q18" value="correct"> b) coding + mysql</label>
-  <label><input type="radio" name="q18" value="incorrect"> c) coding + sqlinjection</label>
-  <label><input type="radio" name="q18" value="incorrect"> d) coding + DDOS</label>
+  <p>18. Phishing hücumları hazırlamaq üçün hansı bacarıqlar daha çox tələb olunur?</p>
+  <label><input type="radio" name="q18" value="incorrect"> a) Proqramlaşdırma + robototexnika</label>
+  <label><input type="radio" name="q18" value="correct"> b) Proqramlaşdırma + MySQL</label>
+  <label><input type="radio" name="q18" value="incorrect"> c) Proqramlaşdırma + SQL injection</label>
+  <label><input type="radio" name="q18" value="incorrect"> d) Proqramlaşdırma + DDoS</label>
 </div>
 
 <div class="question">
-  <p>19. Günümüzdə ən uğurlu kiber hücum növünü seçin:</p>
+  <p>19. Günümüzdə ən çox istifadə olunan kiber hücum növünü seçin:</p>
   <label><input type="radio" name="q19" value="correct"> a) Phishing</label>
-  <label><input type="radio" name="q19" value="incorrect"> b) Virus ataka</label>
-  <label><input type="radio" name="q19" value="incorrect"> c) Reverse shell</label>
-  <label><input type="radio" name="q19" value="incorrect"> d) Exploit atak</label>
+  <label><input type="radio" name="q19" value="incorrect"> b) Virus hücumu</label>
+  <label><input type="radio" name="q19" value="incorrect"> c) Reverse shell (geri əlaqə)</label>
+  <label><input type="radio" name="q19" value="incorrect"> d) Exploit hücumu</label>
 </div>
 
 <div class="question">
@@ -278,12 +286,13 @@ d;
 </div>
 
 <div class="question">
-  <p>21. WordPress saytlarını zəiflik skan etmək üçün hansı proqram daha uyğundur?</p>
-  <label><input type="radio" name="q21" value="correct"> a) Wpscan</label>
+  <p>21. WordPress saytlarının zəifliklərini skan etmək üçün hansı proqram daha uyğundur?</p>
+  <label><input type="radio" name="q21" value="correct"> a) WPScan</label>
   <label><input type="radio" name="q21" value="incorrect"> b) ScanningWord</label>
   <label><input type="radio" name="q21" value="incorrect"> c) WordScanIn</label>
   <label><input type="radio" name="q21" value="incorrect"> d) WScan</label>
 </div>
+
 
 <div class="question">
   <p>22. Lokal domen (məsələn, example.local) yaratmaq və IP ilə əlaqələndirmək üçün hansı fayl və qovluqdan istifadə olunur?</p>
@@ -292,15 +301,13 @@ d;
   <label><input type="radio" name="q22" value="incorrect"> c) /etc/domain</label>
   <label><input type="radio" name="q22" value="incorrect"> d) Lokal domenlər olmur, yalnız qlobal domenlər olur</label>
 </div>
-
 <div class="question">
-  <p>23. python -c "import pty; pty.spawn('/bin/bash')" əmri nə üçün istifadə olunur?</p>
-  <label><input type="radio" name="q23" value="incorrect"> a) Yeni root istifadəçi əldə etmək və shellcode üçün</label>
+  <p>23. `python -c "import pty; pty.spawn('/bin/bash')"` əmri nə üçün istifadə olunur?</p>
+  <label><input type="radio" name="q23" value="incorrect"> a) Yeni root istifadəçi əldə etmək üçün və shellcode üçün</label>
   <label><input type="radio" name="q23" value="correct"> b) İnteraktiv PTY (pseudo-tty) shell yaratmaq üçün</label>
   <label><input type="radio" name="q23" value="incorrect"> c) Sistemi yenidən başlatmaq üçün</label>
   <label><input type="radio" name="q23" value="incorrect"> d) Şəbəkəni bloklamaq üçün</label>
 </div>
-
 <div class="question">
   <p>24. Sistemdə non-root istifadəçi olsan, ilk edəcəyin əməliyyatda hansı doğrudur?</p>
   <label><input type="radio" name="q24" value="incorrect"> a) Heç nə — cron yalnız root ilə idarə olunur</label>
@@ -313,8 +320,8 @@ d;
   <p>25. Telefona sızma (implantasiya / exploitation) prosesini çətinləşdirən mexanizm hansıdır?</p>
   <label><input type="radio" name="q25" value="incorrect"> a) GreenBox</label>
   <label><input type="radio" name="q25" value="correct"> b) Sandbox</label>
-  <label><input type="radio" name="q25" value="incorrect"> c) Heç bir maneə yoxdur — əgər virus atılıbsa, keçir</label>
-  <label><input type="radio" name="q25" value="incorrect"> d) Dinləmə metodu: nc -lvp</label>
+  <label><input type="radio" name="q25" value="incorrect"> c) Heç bir maneə yoxdur — əgər zərərli proqram atılıbsa, mütləq keçir</label>
+  <label><input type="radio" name="q25" value="incorrect"> d) Dinləmə metodu: <code>nc -lvp</code></label>
 </div>
 
 <div class="question">
@@ -326,21 +333,20 @@ d;
 </div>
 
 <div class="question">
-  <p>27. wget əmri hansı məqsədlə istifadə olunur?</p>
+  <p>27. `wget` əmri hansı məqsədlə istifadə olunur?</p>
   <label><input type="radio" name="q27" value="correct"> a) URL-dən faylları (HTTP/HTTPS/FTP vasitəsilə) yükləmək üçün</label>
   <label><input type="radio" name="q27" value="incorrect"> b) Sistəmə xüsusi priviləqiya (root) vermək üçün</label>
-  <label><input type="radio" name="q27" value="incorrect"> c) python3 -m modulunu işə salmaq üçün</label>
+  <label><input type="radio" name="q27" value="incorrect"> c) `python3 -m` modulunu işə salmaq üçün</label>
   <label><input type="radio" name="q27" value="incorrect"> d) Web server (məsələn, Nginx) qurmaq/işə salmaq üçün</label>
 </div>
 
 <div class="question">
-  <p>28. ssh-keygen -t rsa -b 4096 -m PEM -f cryptoKey əmri nə yaradır?</p>
+  <p>28. `ssh-keygen -t rsa -b 4096 -m PEM -f cryptoKey` əmri nə yaradır?</p>
   <label><input type="radio" name="q28" value="incorrect"> a) Yalnız cryptoKey adlı fayl yaradır</label>
   <label><input type="radio" name="q28" value="incorrect"> b) cryptoKey.pub adlı yalnız public açar yaradır</label>
   <label><input type="radio" name="q28" value="correct"> c) cryptoKey və cryptoKey.pub — private və public açar cütlüyü yaradır</label>
   <label><input type="radio" name="q28" value="incorrect"> d) cryptoKey_rsa_pub adlı fayl yaradır</label>
 </div>
-
 <div class="question">
   <p>29. Squid proxy serverinin əsas iş prinsipi nəyə əsaslanır?</p>
   <label><input type="radio" name="q29" value="incorrect"> a) SSH trafikinə nəzarət etmək</label>
@@ -357,6 +363,85 @@ d;
   <label><input type="radio" name="q30" value="incorrect"> d) Trafikə nəzarət etmir, yalnız bloklayır</label>
 </div>
 
+<div class="question">
+  <p>31. Vacib və gizli fayla yalnız sahibin icazəsi olmalıdır. Hansı seçim doğrudur?</p>
+  <label><input type="radio" name="q31" value="correct"> a) chmod 600</label>
+  <label><input type="radio" name="q31" value="incorrect"> b) chmod 777</label>
+  <label><input type="radio" name="q31" value="incorrect"> c) chmod 755</label>
+  <label><input type="radio" name="q31" value="incorrect"> d) chmod 644</label>
+</div>
+
+<div class="question">
+  <p>32. Sistemdə HSTS (HTTP Strict Transport Security) pozuntusu hijacking hücumuna yol aça bilərmi? Hansı seçim doğrudur?</p>
+  <label><input type="radio" name="q32" value="incorrect"> a) Sistemdə HSTS pozulsa təhlükəsizlik pozulmaz.</label>
+  <label><input type="radio" name="q32" value="correct"> b) HSTS pozularsa HTTPS bağlantısı pozular və HTTP olmasına şərait yaradar.</label>
+  <label><input type="radio" name="q32" value="incorrect"> c) DNS problemi yalnız lokal host faylında baş verə bilər, hijacklə əlaqəsi yoxdur.</label>
+  <label><input type="radio" name="q32" value="incorrect"> d) Server daxili sertifikatlar HSTS funksiyasını avtomatik təmin edir.</label>
+</div>
+
+<div class="question">
+  <p>33. Sayt üzərində həssas məlumatların təhlükəsiz saxlanılması prinsipi hansıdır?</p>
+  <label><input type="radio" name="q33" value="correct"> a) Sessions</label>
+  <label><input type="radio" name="q33" value="incorrect"> b) Cookie</label>
+  <label><input type="radio" name="q33" value="incorrect"> c) Hər ikisi</label>
+  <label><input type="radio" name="q33" value="incorrect"> d) Heç biri</label>
+</div>
+
+<div class="question">
+  <p>34. Netcat aləti hansı məqsədlər üçün istifadə olunur?</p>
+  <label><input type="radio" name="q34" value="incorrect"> a) Şəbəkədə aktiv hostları aşkar edir.</label>
+  <label><input type="radio" name="q34" value="correct"> b) Serverdə açıq portları kütləvi şəkildə skan edir.</label>
+  <label><input type="radio" name="q34" value="incorrect"> c) DNS sorğularını izləmək üçün nəzərdə tutulub.</label>
+  <label><input type="radio" name="q34" value="incorrect"> d) Web serverin versiyasını (banner) aşkar etmək üçün istifadə edilə bilər.</label>
+</div>
+
+<div class="question">
+  <p>35. Global domenin növünü seçin:</p>
+  <label><input type="radio" name="q35" value="incorrect"> a) Grey IP</label>
+  <label><input type="radio" name="q35" value="incorrect"> b) White IP</label>
+  <label><input type="radio" name="q35" value="incorrect"> c) Blue IP</label>
+  <label><input type="radio" name="q35" value="correct"> d) Red IP</label>
+</div>
+
+<div class="question">
+  <p>36. HTTP və HTTPS arasındakı fərqi istismar edərək trafiki ələ keçirən hücum növünü seçin:</p>
+  <label><input type="radio" name="q36" value="correct"> a) MITM (Man-in-the-Middle)</label>
+  <label><input type="radio" name="q36" value="incorrect"> b) Brute force</label>
+  <label><input type="radio" name="q36" value="incorrect"> c) SS7</label>
+  <label><input type="radio" name="q36" value="incorrect"> d) Phishing</label>
+</div>
+
+<div class="question">
+  <p>37. Apache2 üzərində serverə yönləndirmələri həyata keçirməyə kömək edən qovluq hansıdır?</p>
+  <label><input type="radio" name="q37" value="correct"> a) sites-available</label>
+  <label><input type="radio" name="q37" value="incorrect"> b) sites-resolv</label>
+  <label><input type="radio" name="q37" value="incorrect"> c) domain-resolv</label>
+  <label><input type="radio" name="q37" value="incorrect"> d) /etc/hosts</label>
+</div>
+
+<div class="question">
+  <p>38. Bir penetration test zamanı, hədəf serverdə SYN flood hücumu icra edirsiniz. Hədəf serverin firewall loglarında hansı davranışı gözləmək olar?</p>
+  <label><input type="radio" name="q38" value="incorrect"> a) TCP portları avtomatik bağlanır və ICMP paketi göndərilir</label>
+  <label><input type="radio" name="q38" value="correct"> b) Serverdə yarımçıq TCP bağlantılar (“half-open”) çoxalır və SYN backlog dolur</label>
+  <label><input type="radio" name="q38" value="incorrect"> c) UDP trafiki bloklanır</label>
+  <label><input type="radio" name="q38" value="incorrect"> d) Server SSH girişlərini avtomatik sıfırlayır</label>
+</div>
+
+<div class="question">
+  <p>39. Hədəf şəbəkədə ARP spoofing ilə trafik ələ keçirirsiniz. MitM hücumu zamanı SSL trafiki necə qorunur və hansı metodla analiz edilə bilər?</p>
+  <label><input type="radio" name="q39" value="incorrect"> a) Trafik tam plaintextdir, Wireshark ilə dərhal analiz edilə bilər</label>
+  <label><input type="radio" name="q39" value="incorrect"> b) SSL trafiki avtomatik dekod edilir, heç bir müdaxilə tələb olunmur</label>
+  <label><input type="radio" name="q39" value="correct"> c) SSL trafiki şifrəlidir, analiz üçün HTTPS sertifikatlarını qəbul etdirmək və SSL strip/mitmproxy istifadə etmək lazımdır</label>
+  <label><input type="radio" name="q39" value="incorrect"> d) Trafik yalnız DNS sorğularına məhdudlaşır, SSL təsir etmir</label>
+</div>
+
+<div class="question">
+  <p>40. Bir sistemdə buffer overflow hücumu ilə shellcode inject edirsiniz. Hədəf proqramın ASLR (Address Space Layout Randomization) aktivdirsə, hansı çətinlik ortaya çıxır?</p>
+  <label><input type="radio" name="q40" value="incorrect"> a) ASLR yalnız stack-i qoruyur, heap təsir etmir</label>
+  <label><input type="radio" name="q40" value="incorrect"> b) Shellcode avtomatik işləyir, çətinlik yoxdur</label>
+  <label><input type="radio" name="q40" value="correct"> c) Hədəf ünvanlar hər run zamanı dəyişir, istismar üçün dəqiq ünvan təxmin etmək çətinləşir</label>
+  <label><input type="radio" name="q40" value="incorrect"> d) ASLR yalnız Linux-da işləyir, Windows-da təsir etmir</label>
+</div>
 
 <!-- ... sual elave etsen eyni şablonla davam edir ... -->
 
@@ -398,19 +483,20 @@ d;
 <script>
 function showResult() {
   let score = 0;
-  let totalQuestions = 30;
+  let totalQuestions = 40; // 40 sual üçün dəyişdirildi
   let unanswered = 0;
 
   for (let i = 1; i <= totalQuestions; i++) {
     let questionDiv = document.querySelectorAll('.question')[i - 1];
     if (!questionDiv) continue;
 
-    questionDiv.classList.remove("correct-answer", "wrong-answer", "unanswered");
+    // əvvəlki rəngləri sıfırla
+    questionDiv.classList.remove("correct-answer", "wrong-answer");
 
     let question = document.getElementsByName('q' + i);
     let answered = false;
-    let correctInput = null;
     let userInput = null;
+    let correctInput = null;
 
     for (let j = 0; j < question.length; j++) {
       if (question[j].value === "correct") correctInput = question[j];
@@ -422,30 +508,37 @@ function showResult() {
 
     if (!answered) {
       unanswered++;
-      questionDiv.classList.add("unanswered");
     } else {
+      // Düz cavab yaşıl
       if (userInput.value === "correct") {
+        userInput.parentElement.style.backgroundColor = "#d4edda"; // açıq yaşıl
+        userInput.parentElement.style.color = "#155724";
         score++;
-        questionDiv.classList.add("correct-answer");
       } else {
-        questionDiv.classList.add("wrong-answer");
+        // Səhv cavab qırmızı
+        userInput.parentElement.style.backgroundColor = "#f8d7da"; // açıq qırmızı
+        userInput.parentElement.style.color = "#721c24";
+        // Düz cavabı göstərmək üçün
+        correctInput.parentElement.style.backgroundColor = "#d4edda";
+        correctInput.parentElement.style.color = "#155724";
       }
     }
   }
 
-  const resultEl = document.getElementById("score-result");
-
   if (unanswered > 0) {
-    alert(`⚠️ ${unanswered} sual cavabsız qalıb. Zəhmət olmasa hamısını cavablandır.`);
+    alert(`⚠️ ${unanswered} sual cavabsız qalıb. Zəhmət olmasa bütün sualları doldurun.`);
+    return; // doldurulana qədər nəticə göstərmə
+  }
+
+  const resultEl = document.getElementById("score-result");
+  resultEl.innerHTML = `✅ Test tamamlandı! <br> Nəticə: <strong>${score}/${totalQuestions}</strong> düzgün cavab.`;
+
+  if (score >= 30) {
+    resultEl.style.color = "#28a745";
+  } else if (score >= 20) {
+    resultEl.style.color = "#ffc107";
   } else {
-    resultEl.innerHTML = `✅ Test tamamlandı! <br> Nəticə: <strong>${score}/30</strong> düzgün cavab.`;
-    if (score >= 25) {
-      resultEl.style.color = "#28a745";
-    } else if (score >= 15) {
-      resultEl.style.color = "#ffc107";
-    } else {
-      resultEl.style.color = "#dc3545";
-    }
+    resultEl.style.color = "#dc3545";
   }
 }
 </script>
