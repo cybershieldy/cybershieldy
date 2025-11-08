@@ -212,8 +212,8 @@ Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing
 <div class="question">
   <p>13. Bir SSH serverə John the Ripper ilə sözlük/brute-force hücumu edildiyi bildirildi. Bu halda nə etmək lazımdır?</p>
   <label><input type="radio" name="q13" value="incorrect"> a) IDS/IPS quraşdırmaq</label>
-  <label><input type="radio" name="q13" value="incorrect"> b) Heç bir şey</label>
-  <label><input type="radio" name="q13" value="correct"> c) fail2ban qurmaq</label>
+  <label><input type="radio" name="q13" value="correct"> b) Heç bir şey</label>
+  <label><input type="radio" name="q13" value="incorret"> c) fail2ban qurmaq</label>
   <label><input type="radio" name="q13" value="incorrect"> d) Wazuh quraşdırmaq</label>
 </div>
 
@@ -390,17 +390,17 @@ d;
 <div class="question">
   <p>34. Netcat aləti hansı məqsədlər üçün istifadə olunur?</p>
   <label><input type="radio" name="q34" value="incorrect"> a) Şəbəkədə aktiv hostları aşkar edir.</label>
-  <label><input type="radio" name="q34" value="correct"> b) Serverdə açıq portları kütləvi şəkildə skan edir.</label>
+  <label><input type="radio" name="q34" value="incorrect"> b) Serverdə açıq portları kütləvi şəkildə skan edir.</label>
   <label><input type="radio" name="q34" value="incorrect"> c) DNS sorğularını izləmək üçün nəzərdə tutulub.</label>
-  <label><input type="radio" name="q34" value="incorrect"> d) Web serverin versiyasını (banner) aşkar etmək üçün istifadə edilə bilər.</label>
+  <label><input type="radio" name="q34" value="correct"> d) Web serverin versiyasını (banner) aşkar etmək üçün istifadə edilə bilər.</label>
 </div>
 
 <div class="question">
   <p>35. Global domenin növünü seçin:</p>
   <label><input type="radio" name="q35" value="incorrect"> a) Grey IP</label>
-  <label><input type="radio" name="q35" value="incorrect"> b) White IP</label>
+  <label><input type="radio" name="q35" value="correct"> b) White IP</label>
   <label><input type="radio" name="q35" value="incorrect"> c) Blue IP</label>
-  <label><input type="radio" name="q35" value="correct"> d) Red IP</label>
+  <label><input type="radio" name="q35" value="incorrect"> d) Red IP</label>
 </div>
 
 <div class="question">
