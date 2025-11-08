@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)",
+    "url": "/posts/kompyuter-viruslari-exploit",
+    "categories": "kiber təhlükəsizlik, malware, exploit, incident-response",
+    "tags": "kompyuter virusları, malware nədir, exploit nədir, ransomware qorunma, EDR, IDS, IPS, patch management",
+    "date": "2025-11-08 09:00:00 +0400",
+    "content": "Kompyuter virusları və exploitlər arasındakı əsas fərqlər, aşkarlama texnikaları və 2025 üçün praktik müdafiə addımları. Patch, backup və EDR tövsiyələri."
+  },
+  
+  {
     "title": "SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)",
     "url": "/posts/ss7-hucumlari",
     "categories": "kiber təhlükəsizlik, mobil şəbəkə, exploit, telecom",
