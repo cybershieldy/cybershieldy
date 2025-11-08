@@ -31,12 +31,12 @@
 <meta property="og:url" content="https://cybershieldy.com/kibertehlukesizlik-test-ethical-hacking/" />
 <meta property="og:site_name" content="Cybershieldy Academy — Cybersecurity &amp; Web Development Training" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-11-08T20:29:45+04:00" />
+<meta property="article:published_time" content="2025-11-08T20:34:34+04:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)" />
 <meta name="twitter:site" content="@cybershieldy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-11-08T20:29:45+04:00","datePublished":"2025-11-08T20:29:45+04:00","description":"40 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.","headline":"Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/kibertehlukesizlik-test-ethical-hacking/"},"url":"https://cybershieldy.com/kibertehlukesizlik-test-ethical-hacking/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-11-08T20:34:34+04:00","datePublished":"2025-11-08T20:34:34+04:00","description":"40 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.","headline":"Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/kibertehlukesizlik-test-ethical-hacking/"},"url":"https://cybershieldy.com/kibertehlukesizlik-test-ethical-hacking/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1198,12 +1198,14 @@ label {
   display: block;
   margin-bottom: 5px;
   padding: 5px;
-  cursor: pointer;
 }
 </style>
 
+
+
 <button onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
+
 <script>
 function showResult() {
   const questions = document.querySelectorAll('.question');
@@ -1216,10 +1218,8 @@ function showResult() {
     let userInput = null;
     let correctInput = null;
 
-    // əvvəlki rəngləri sıfırla
     inputs.forEach(inp => {
-      const lbl = inp.closest('label');
-      if(lbl) lbl.classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
+      inp.closest('label').classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
       if(inp.value === "correct") correctInput = inp;
       if(inp.checked) {
         answered = true;
@@ -1227,30 +1227,26 @@ function showResult() {
       }
     });
 
-    // cavabsız sualları sarı ilə işarələ
     if(!answered) {
       unanswered.push(idx + 1);
       inputs.forEach(inp => inp.closest('label').classList.add('unanswered'));
-    } 
-    else {
+    } else {
       if(userInput.value === "correct") {
         userInput.closest('label').classList.add('correct-answer');
         score++;
       } else {
         userInput.closest('label').classList.add('incorrect-answer');
-        if(correctInput) correctInput.closest('label').classList.add('correct-answer');
+        correctInput.closest('label').classList.add('correct-answer');
       }
     }
   });
 
-  // alert yalnız boş suallar varsa göstər
   if(unanswered.length > 0) {
     alert("⚠️ Boş qalan suallar: " + unanswered.join(", "));
     return;
   }
 
-  // nəticəni göstər
-  document.getElementById('score-result').textContent = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
+  document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
 </form>
