@@ -480,6 +480,7 @@ label {
 }
 </style>
 
+
 <button onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
 
@@ -487,16 +488,18 @@ label {
 function showResult() {
   const questions = document.querySelectorAll('.question');
   let score = 0;
-  let unanswered = [];
+  let unansweredQuestions = [];
 
-  questions.forEach((q, idx) => {
+  questions.forEach((q, index) => {
     const inputs = q.querySelectorAll('input[type="radio"]');
     let answered = false;
     let userInput = null;
     let correctInput = null;
 
+    // əvvəlki rəngləri sıfırla
+    inputs.forEach(inp => inp.closest('label').classList.remove('correct-answer', 'wrong-answer', 'unanswered'));
+
     inputs.forEach(inp => {
-      inp.closest('label').classList.remove('correct-answer', 'wrong-answer', 'unanswered');
       if(inp.value === "correct") correctInput = inp;
       if(inp.checked) {
         answered = true;
@@ -505,7 +508,7 @@ function showResult() {
     });
 
     if(!answered) {
-      unanswered.push(idx + 1);
+      unansweredQuestions.push(index + 1);
       inputs.forEach(inp => inp.closest('label').classList.add('unanswered'));
     } else {
       if(userInput.value === "correct") {
@@ -518,9 +521,9 @@ function showResult() {
     }
   });
 
-  if(unanswered.length > 0) {
-    alert("⚠️ Boş qalan suallar: " + unanswered.join(", "));
-    return;
+  if(unansweredQuestions.length > 0){
+    alert(`⚠️ Bu suallar cavabsız qalıb: ${unansweredQuestions.join(", ")}. Zəhmət olmasa doldurun!`);
+    return; // boş sual varsa nəticəni göstərmə
   }
 
   document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
