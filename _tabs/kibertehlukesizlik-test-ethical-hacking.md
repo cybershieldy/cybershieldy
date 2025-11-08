@@ -521,11 +521,12 @@ function showResult() {
     }
   });
 
+  // alert yalnız boş qalan suallar üçün
   if(unansweredQuestions.length > 0){
     alert(`⚠️ Bu suallar cavabsız qalıb: ${unansweredQuestions.join(", ")}. Zəhmət olmasa doldurun!`);
-    return; // boş sual varsa nəticəni göstərmə
   }
 
+  // nəticəni göstər
   document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
