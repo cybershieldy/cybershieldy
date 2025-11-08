@@ -444,14 +444,22 @@ d;
 </div>
 
 <!-- ... sual elave etsen eyni şablonla davam edir ... -->
-
 <style>
 .correct-answer {
   background-color: #d4edda; /* açıq yaşıl */
   border: 2px solid #28a745;
   border-radius: 10px;
   padding: 10px;
-  transition: 0.3s ease;
+  position: relative;
+}
+
+.correct-answer::after {
+  content: "✔";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #28a745;
+  font-weight: bold;
 }
 
 .wrong-answer {
@@ -459,7 +467,16 @@ d;
   border: 2px solid #dc3545;
   border-radius: 10px;
   padding: 10px;
-  transition: 0.3s ease;
+  position: relative;
+}
+
+.wrong-answer::after {
+  content: "✖";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #dc3545;
+  font-weight: bold;
 }
 
 .unanswered {
@@ -467,7 +484,6 @@ d;
   border: 2px dashed #ffc107;
   border-radius: 10px;
   padding: 10px;
-  transition: 0.3s ease;
 }
 
 #score-result {
@@ -483,7 +499,7 @@ d;
 <script>
 function showResult() {
   let score = 0;
-  let totalQuestions = 40;
+  let totalQuestions = 40; // testdəki sual sayı
   let unansweredQuestions = [];
 
   for (let i = 1; i <= totalQuestions; i++) {
@@ -492,7 +508,7 @@ function showResult() {
 
     // əvvəlki rəngləri sıfırla
     questionDiv.querySelectorAll('label').forEach(lbl => {
-        lbl.classList.remove("correct-answer", "wrong-answer");
+        lbl.classList.remove("correct-answer", "wrong-answer", "unanswered");
     });
 
     let question = document.getElementsByName('q' + i);
@@ -510,6 +526,8 @@ function showResult() {
 
     if (!answered) {
       unansweredQuestions.push(i);
+      // bütün label-ları sarıya boya
+      questionDiv.querySelectorAll('label').forEach(lbl => lbl.classList.add("unanswered"));
     } else {
       if (userInput.value === "correct") {
         userInput.closest('label').classList.add("correct-answer");
@@ -522,15 +540,15 @@ function showResult() {
   }
 
   if (unansweredQuestions.length > 0) {
-    alert(`⚠️ ${unansweredQuestions.length} sual cavabsız qalıb: ${unansweredQuestions.join(", ")}.`);
+    alert(`⚠️ Boş qalan suallar: ${unansweredQuestions.join(", ")}. Zəhmət olmasa hamısını doldurun.`);
     return;
   }
 
   const resultEl = document.getElementById("score-result");
   resultEl.innerHTML = `✅ Test tamamlandı! <br> Nəticə: <strong>${score}/${totalQuestions}</strong> düzgün cavab.`;
+
   if (score >= 30) resultEl.style.color = "#28a745";
   else if (score >= 20) resultEl.style.color = "#ffc107";
   else resultEl.style.color = "#dc3545";
 }
-
 </script>
