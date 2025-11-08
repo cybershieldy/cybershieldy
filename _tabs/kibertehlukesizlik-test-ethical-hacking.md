@@ -478,9 +478,8 @@ label {
 }
 </style>
 
-
-
-<button onclick="showResult()">Nəticəni Göstər</button>
+<!-- 🔧 Düzəliş buradadır: type="button" əlavə etdim -->
+<button type="button" onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
 
 <script>
