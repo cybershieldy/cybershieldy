@@ -446,109 +446,83 @@ d;
 <!-- ... sual elave etsen eyni şablonla davam edir ... -->
 <style>
 .correct-answer {
-  background-color: #d4edda; /* açıq yaşıl */
+  background-color: #d4edda; /* yaşıl fon */
   border: 2px solid #28a745;
-  border-radius: 10px;
-  padding: 10px;
-  position: relative;
+  border-radius: 5px;
+  padding: 5px;
 }
-
 .correct-answer::after {
-  content: "✔";
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  color: #28a745;
+  content: " ✔";
+  color: green;
   font-weight: bold;
 }
-
 .wrong-answer {
-  background-color: #f8d7da; /* açıq qırmızı */
+  background-color: #f8d7da; /* qırmızı fon */
   border: 2px solid #dc3545;
-  border-radius: 10px;
-  padding: 10px;
-  position: relative;
+  border-radius: 5px;
+  padding: 5px;
 }
-
 .wrong-answer::after {
-  content: "✖";
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  color: #dc3545;
+  content: " ✖";
+  color: red;
   font-weight: bold;
 }
-
 .unanswered {
-  background-color: #fff3cd; /* sarı xəbərdarlıq */
+  background-color: #fff3cd; /* sarı fon */
   border: 2px dashed #ffc107;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 5px;
 }
-
-#score-result {
-  margin-top: 20px;
-  font-size: 1.2em;
-  font-weight: bold;
+label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 </style>
 
-<button type="button" onclick="showResult()">Nəticəni Göstər</button>
+<button onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
 
 <script>
 function showResult() {
+  const questions = document.querySelectorAll('.question');
   let score = 0;
-  let totalQuestions = 40; // testdəki sual sayı
-  let unansweredQuestions = [];
+  let unanswered = [];
 
-  for (let i = 1; i <= totalQuestions; i++) {
-    let questionDiv = document.querySelectorAll('.question')[i - 1];
-    if (!questionDiv) continue;
-
-    // əvvəlki rəngləri sıfırla
-    questionDiv.querySelectorAll('label').forEach(lbl => {
-        lbl.classList.remove("correct-answer", "wrong-answer", "unanswered");
-    });
-
-    let question = document.getElementsByName('q' + i);
+  questions.forEach((q, idx) => {
+    const inputs = q.querySelectorAll('input[type="radio"]');
     let answered = false;
     let userInput = null;
     let correctInput = null;
 
-    for (let j = 0; j < question.length; j++) {
-      if (question[j].value === "correct") correctInput = question[j];
-      if (question[j].checked) {
+    inputs.forEach(inp => {
+      inp.closest('label').classList.remove('correct-answer', 'wrong-answer', 'unanswered');
+      if(inp.value === "correct") correctInput = inp;
+      if(inp.checked) {
         answered = true;
-        userInput = question[j];
+        userInput = inp;
       }
-    }
+    });
 
-    if (!answered) {
-      unansweredQuestions.push(i);
-      // bütün label-ları sarıya boya
-      questionDiv.querySelectorAll('label').forEach(lbl => lbl.classList.add("unanswered"));
+    if(!answered) {
+      unanswered.push(idx + 1);
+      inputs.forEach(inp => inp.closest('label').classList.add('unanswered'));
     } else {
-      if (userInput.value === "correct") {
-        userInput.closest('label').classList.add("correct-answer");
+      if(userInput.value === "correct") {
+        userInput.closest('label').classList.add('correct-answer');
         score++;
       } else {
-        userInput.closest('label').classList.add("wrong-answer");
-        correctInput.closest('label').classList.add("correct-answer");
+        userInput.closest('label').classList.add('wrong-answer');
+        correctInput.closest('label').classList.add('correct-answer');
       }
     }
-  }
+  });
 
-  if (unansweredQuestions.length > 0) {
-    alert(`⚠️ Boş qalan suallar: ${unansweredQuestions.join(", ")}. Zəhmət olmasa hamısını doldurun.`);
+  if(unanswered.length > 0) {
+    alert("⚠️ Boş qalan suallar: " + unanswered.join(", "));
     return;
   }
 
-  const resultEl = document.getElementById("score-result");
-  resultEl.innerHTML = `✅ Test tamamlandı! <br> Nəticə: <strong>${score}/${totalQuestions}</strong> düzgün cavab.`;
-
-  if (score >= 30) resultEl.style.color = "#28a745";
-  else if (score >= 20) resultEl.style.color = "#ffc107";
-  else resultEl.style.color = "#dc3545";
+  document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
