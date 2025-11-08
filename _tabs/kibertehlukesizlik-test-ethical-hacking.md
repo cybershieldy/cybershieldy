@@ -475,10 +475,12 @@ label {
   display: block;
   margin-bottom: 5px;
   padding: 5px;
+  cursor: pointer;
 }
 </style>
 
-
+<button onclick="showResult()">Nəticəni Göstər</button>
+<p id="score-result"></p>
 <script>
 function showResult() {
   const questions = document.querySelectorAll('.question');
