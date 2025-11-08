@@ -483,15 +483,17 @@ d;
 <script>
 function showResult() {
   let score = 0;
-  let totalQuestions = 40; // 40 sual üçün dəyişdirildi
-  let unanswered = 0;
+  let totalQuestions = 40;
+  let unansweredQuestions = [];
 
   for (let i = 1; i <= totalQuestions; i++) {
     let questionDiv = document.querySelectorAll('.question')[i - 1];
     if (!questionDiv) continue;
 
     // əvvəlki rəngləri sıfırla
-    questionDiv.classList.remove("correct-answer", "wrong-answer");
+    questionDiv.querySelectorAll('label').forEach(lbl => {
+        lbl.classList.remove("correct-answer", "wrong-answer");
+    });
 
     let question = document.getElementsByName('q' + i);
     let answered = false;
@@ -507,38 +509,28 @@ function showResult() {
     }
 
     if (!answered) {
-      unanswered++;
+      unansweredQuestions.push(i);
     } else {
-      // Düz cavab yaşıl
       if (userInput.value === "correct") {
-        userInput.parentElement.style.backgroundColor = "#d4edda"; // açıq yaşıl
-        userInput.parentElement.style.color = "#155724";
+        userInput.closest('label').classList.add("correct-answer");
         score++;
       } else {
-        // Səhv cavab qırmızı
-        userInput.parentElement.style.backgroundColor = "#f8d7da"; // açıq qırmızı
-        userInput.parentElement.style.color = "#721c24";
-        // Düz cavabı göstərmək üçün
-        correctInput.parentElement.style.backgroundColor = "#d4edda";
-        correctInput.parentElement.style.color = "#155724";
+        userInput.closest('label').classList.add("wrong-answer");
+        correctInput.closest('label').classList.add("correct-answer");
       }
     }
   }
 
-  if (unanswered > 0) {
-    alert(`⚠️ ${unanswered} sual cavabsız qalıb. Zəhmət olmasa bütün sualları doldurun.`);
-    return; // doldurulana qədər nəticə göstərmə
+  if (unansweredQuestions.length > 0) {
+    alert(`⚠️ ${unansweredQuestions.length} sual cavabsız qalıb: ${unansweredQuestions.join(", ")}.`);
+    return;
   }
 
   const resultEl = document.getElementById("score-result");
   resultEl.innerHTML = `✅ Test tamamlandı! <br> Nəticə: <strong>${score}/${totalQuestions}</strong> düzgün cavab.`;
-
-  if (score >= 30) {
-    resultEl.style.color = "#28a745";
-  } else if (score >= 20) {
-    resultEl.style.color = "#ffc107";
-  } else {
-    resultEl.style.color = "#dc3545";
-  }
+  if (score >= 30) resultEl.style.color = "#28a745";
+  else if (score >= 20) resultEl.style.color = "#ffc107";
+  else resultEl.style.color = "#dc3545";
 }
+
 </script>
