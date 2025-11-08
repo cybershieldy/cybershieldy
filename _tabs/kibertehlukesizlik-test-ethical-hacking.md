@@ -442,8 +442,6 @@ d;
   <label><input type="radio" name="q40" value="correct"> c) Hədəf ünvanlar hər run zamanı dəyişir, istismar üçün dəqiq ünvan təxmin etmək çətinləşir</label>
   <label><input type="radio" name="q40" value="incorrect"> d) ASLR yalnız Linux-da işləyir, Windows-da təsir etmir</label>
 </div>
-
-<!-- ... sual elave etsen eyni şablonla davam edir ... -->
 <style>
 .correct-answer {
   background-color: #d4edda; /* yaşıl fon */
@@ -456,19 +454,17 @@ d;
   color: green;
   font-weight: bold;
 }
-
-.incorrect-answer {
+.wrong-answer {
   background-color: #f8d7da; /* qırmızı fon */
   border: 2px solid #dc3545;
   border-radius: 5px;
   padding: 5px;
 }
-.incorrect-answer::after {
+.wrong-answer::after {
   content: " ✖";
   color: red;
   font-weight: bold;
 }
-
 .unanswered {
   background-color: #fff3cd; /* sarı fon */
   border: 2px dashed #ffc107;
@@ -482,6 +478,14 @@ label {
 }
 </style>
 
+<div class="question">
+  <p>2. Sistem quruluşu üzrə ardıcıllıq prinsipləri pozulubmu?</p>
+  <label><input type="radio" name="q2" value="incorrect"> a) FTP -> UFW -> Apache2 -> 80</label> 
+  <label><input type="radio" name="q2" value="incorrect"> b) UFW -> Apache2 -> Fail2ban -> 80</label> 
+  <label><input type="radio" name="q2" value="incorrect"> c) UFW -> SMTP -> Apache2 -> 80</label> 
+  <label><input type="radio" name="q2" value="correct"> d) Hamısının da pozulub</label>
+</div>
+
 <button onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
 
@@ -489,63 +493,42 @@ label {
 function showResult() {
   const questions = document.querySelectorAll('.question');
   let score = 0;
-  let unansweredQuestions = [];
+  let unanswered = [];
 
-  // 1) İlk keçid: boş qalanları tap və sarı ilə işarələ
-  questions.forEach((q, index) => {
+  questions.forEach((q, idx) => {
     const inputs = q.querySelectorAll('input[type="radio"]');
     let answered = false;
-
-    // əvvəlki rəngləri sıfırla
-    inputs.forEach(inp => {
-      const lbl = inp.closest('label');
-      if (lbl) lbl.classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
-    });
-
-    inputs.forEach(inp => {
-      if (inp.checked) answered = true;
-    });
-
-    if (!answered) {
-      unansweredQuestions.push(index + 1);
-      inputs.forEach(inp => {
-        const lbl = inp.closest('label');
-        if (lbl) lbl.classList.add('unanswered');
-      });
-    }
-  });
-
-  // 2) Əgər boş suallar varsa: alert ver və dayandır
-  if (unansweredQuestions.length > 0) {
-    alert(`⚠️ Bu suallar cavabsız qalıb: ${unansweredQuestions.join(", ")}. Zəhmət olmasa doldurun!`);
-    return;
-  }
-
-  // 3) Bütün suallar doludursa: hər sualı yoxla və rəngləri göstər
-  questions.forEach((q) => {
-    const inputs = q.querySelectorAll('input[type="radio"]');
     let userInput = null;
     let correctInput = null;
 
     inputs.forEach(inp => {
-      if (inp.value === "correct") correctInput = inp;
-      if (inp.checked) userInput = inp;
+      inp.closest('label').classList.remove('correct-answer', 'wrong-answer', 'unanswered');
+      if(inp.value === "correct") correctInput = inp;
+      if(inp.checked) {
+        answered = true;
+        userInput = inp;
+      }
     });
 
-    if (!userInput) return; // təhlükəsizlik üçün
-
-    const userLbl = userInput.closest('label');
-    const correctLbl = correctInput ? correctInput.closest('label') : null;
-
-    if (userInput.value === "correct") {
-      if (userLbl) userLbl.classList.add('correct-answer'), score++;
+    if(!answered) {
+      unanswered.push(idx + 1);
+      inputs.forEach(inp => inp.closest('label').classList.add('unanswered'));
     } else {
-      if (userLbl) userLbl.classList.add('incorrect-answer');
-      if (correctLbl) correctLbl.classList.add('correct-answer');
+      if(userInput.value === "correct") {
+        userInput.closest('label').classList.add('correct-answer');
+        score++;
+      } else {
+        userInput.closest('label').classList.add('wrong-answer');
+        correctInput.closest('label').classList.add('correct-answer');
+      }
     }
   });
 
-  // 4) Nəticəni göstər
+  if(unanswered.length > 0) {
+    alert("⚠️ Boş qalan suallar: " + unanswered.join(", "));
+    return;
+  }
+
   document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
