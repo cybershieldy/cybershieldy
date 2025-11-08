@@ -456,6 +456,7 @@ d;
   color: green;
   font-weight: bold;
 }
+
 .incorrect-answer {
   background-color: #f8d7da; /* qırmızı fon */
   border: 2px solid #dc3545;
@@ -467,6 +468,7 @@ d;
   color: red;
   font-weight: bold;
 }
+
 .unanswered {
   background-color: #fff3cd; /* sarı fon */
   border: 2px dashed #ffc107;
@@ -480,7 +482,6 @@ label {
 }
 </style>
 
-
 <button onclick="showResult()">Nəticəni Göstər</button>
 <p id="score-result"></p>
 
@@ -490,43 +491,61 @@ function showResult() {
   let score = 0;
   let unansweredQuestions = [];
 
+  // 1) İlk keçid: boş qalanları tap və sarı ilə işarələ
   questions.forEach((q, index) => {
     const inputs = q.querySelectorAll('input[type="radio"]');
     let answered = false;
-    let userInput = null;
-    let correctInput = null;
 
     // əvvəlki rəngləri sıfırla
-    inputs.forEach(inp => inp.closest('label').classList.remove('correct-answer', 'incorrect-answer', 'unanswered'));
-
     inputs.forEach(inp => {
-      if(inp.value === "correct") correctInput = inp;
-      if(inp.checked) {
-        answered = true;
-        userInput = inp;
-      }
+      const lbl = inp.closest('label');
+      if (lbl) lbl.classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
     });
 
-    if(!answered) {
+    inputs.forEach(inp => {
+      if (inp.checked) answered = true;
+    });
+
+    if (!answered) {
       unansweredQuestions.push(index + 1);
-      inputs.forEach(inp => inp.closest('label').classList.add('unanswered'));
-    } else {
-      if(userInput.value === "correct") {
-        userInput.closest('label').classList.add('correct-answer');
-        score++;
-      } else {
-        userInput.closest('label').classList.add('incorrect-answer');
-        correctInput.closest('label').classList.add('correct-answer');
-      }
+      inputs.forEach(inp => {
+        const lbl = inp.closest('label');
+        if (lbl) lbl.classList.add('unanswered');
+      });
     }
   });
 
-  // alert yalnız boş qalan suallar üçün
-  if(unansweredQuestions.length > 0){
+  // 2) Əgər boş suallar varsa: alert ver və dayandır
+  if (unansweredQuestions.length > 0) {
     alert(`⚠️ Bu suallar cavabsız qalıb: ${unansweredQuestions.join(", ")}. Zəhmət olmasa doldurun!`);
+    return;
   }
 
-  // nəticəni göstər
+  // 3) Bütün suallar doludursa: hər sualı yoxla və rəngləri göstər
+  questions.forEach((q) => {
+    const inputs = q.querySelectorAll('input[type="radio"]');
+    let userInput = null;
+    let correctInput = null;
+
+    inputs.forEach(inp => {
+      if (inp.value === "correct") correctInput = inp;
+      if (inp.checked) userInput = inp;
+    });
+
+    if (!userInput) return; // təhlükəsizlik üçün
+
+    const userLbl = userInput.closest('label');
+    const correctLbl = correctInput ? correctInput.closest('label') : null;
+
+    if (userInput.value === "correct") {
+      if (userLbl) userLbl.classList.add('correct-answer'), score++;
+    } else {
+      if (userLbl) userLbl.classList.add('incorrect-answer');
+      if (correctLbl) correctLbl.classList.add('correct-answer');
+    }
+  });
+
+  // 4) Nəticəni göstər
   document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
