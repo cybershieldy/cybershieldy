@@ -479,10 +479,6 @@ label {
 </style>
 
 
-
-<button onclick="showResult()">Nəticəni Göstər</button>
-<p id="score-result"></p>
-
 <script>
 function showResult() {
   const questions = document.querySelectorAll('.question');
@@ -495,8 +491,10 @@ function showResult() {
     let userInput = null;
     let correctInput = null;
 
+    // əvvəlki rəngləri sıfırla
     inputs.forEach(inp => {
-      inp.closest('label').classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
+      const lbl = inp.closest('label');
+      if(lbl) lbl.classList.remove('correct-answer', 'incorrect-answer', 'unanswered');
       if(inp.value === "correct") correctInput = inp;
       if(inp.checked) {
         answered = true;
@@ -504,25 +502,29 @@ function showResult() {
       }
     });
 
+    // cavabsız sualları sarı ilə işarələ
     if(!answered) {
       unanswered.push(idx + 1);
       inputs.forEach(inp => inp.closest('label').classList.add('unanswered'));
-    } else {
+    } 
+    else {
       if(userInput.value === "correct") {
         userInput.closest('label').classList.add('correct-answer');
         score++;
       } else {
         userInput.closest('label').classList.add('incorrect-answer');
-        correctInput.closest('label').classList.add('correct-answer');
+        if(correctInput) correctInput.closest('label').classList.add('correct-answer');
       }
     }
   });
 
+  // alert yalnız boş suallar varsa göstər
   if(unanswered.length > 0) {
     alert("⚠️ Boş qalan suallar: " + unanswered.join(", "));
     return;
   }
 
-  document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
+  // nəticəni göstər
+  document.getElementById('score-result').textContent = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
