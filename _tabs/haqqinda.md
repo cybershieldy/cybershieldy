@@ -15,7 +15,34 @@ canonical: https://cybershieldy.com/haqqinda
   <img src="/assets/images/emin.webp" alt="Emin Savaylov - Kiber Təhlükəsizlik Mütəxəssisi" style="width: 140px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   
   <div>
-  <p>Salam, mən <strong>Emin Savaylov</strong> — <strong>kiber təhlükəsizlik</strong>, <strong>web təhlükəsizlik</strong>, <strong>penetrasiya testləri</strong> və <strong>praktiki təlimlər</strong> üzrə ixtisaslaşmış təlimatçı və mütəxəssisəm. Bu platforma tələbələr, IT sahəsinə yeni başlayanlar və peşəkarlar üçün <strong>real-world ssenarilər</strong>ə əsaslanan dərslər təqdim edir.</p>
+ <p>Salam, mən <strong>Emin Savaylov</strong> — <strong>kiber təhlükəsizlik</strong>, <strong>web proqramlaşdırma</strong>, <strong>web tətbiqlərin təhlükəsizliyi</strong>, <strong>penetrasiya testləri</strong>, <strong>şəbəkə analizi</strong> və <strong>real hücum ssenariləri</strong> üzrə ixtisaslaşmış təlimçi və mütəxəssisəm. Dərslərim sadəcə nəzəriyyədən ibarət deyil — burada siz real dünyada necə işlədiyini addım-addım görəcəyiniz <strong>praktik laboratoriyalar</strong>, <strong>canlı test mühitləri</strong>, <strong>Red Team və Blue Team məşqləri</strong>, eləcə də peşəkar səviyyəli <strong>CTF tapşırıqları</strong> ilə təcrübə qazanırsınız.</p>
+
+<p>Bu platforma həm IT sahəsinə yeni başlayanlar, həm də biliklərini daha dərin səviyyəyə qaldırmaq istəyən peşəkarlar üçün xüsusi olaraq hazırlanıb. Burada siz yalnız anlayışları öyrənmirsiniz — <strong>real həyatda hücumların necə baş verdiyini</strong>, zəifliklərin necə aşkarlandığını, sistemlərin necə istismar olunduğunu və ən əsası bu hücumlara qarşı <strong>müdafiənin addım-addım necə qurulduğunu</strong> canlı şəkildə praktiki olaraq tətbiq edirsiniz.</p>
+
+<p>Kursda qurduğumuz laboratoriyalar şirkət infrastrukturuna maksimal yaxın şəkildə hazırlanmışdır. Bu lab mühitlərində siz həm hücum edən, həm də müdafiə edən tərəf kimi işləyərək <strong>peşəkar kiber təhlükəsizlik mütəxəssisinin düşüncə tərzini</strong> formalaşdırırsınız.</p>
+
+<p>Dərslərimdə sizi aşağıdakı kimi <strong>geniş, real-case ssenarilər</strong> gözləyir:</p>
+
+<ul>
+  <li><strong>Canlı sistemlər üzərində penetrasiya testləri</strong> — SQL Injection, XSS, CSRF, SSRF, SSTI, LFI/RFI, RCE, misconfigurations, privilege escalation və daha çox zəifliyin real laboratoriya üzərində praktiki öyrənilməsi.</li>
+
+  <li><strong>Web proqramlama + web təhlükəsizliyi</strong> — özünüz hazırladığınız backend və frontend kodlarda boşluqları tapıb, istismar edərək, sonra həmin zəiflikləri professional şəkildə bağlama təcrübəsi.</li>
+
+  <li><strong>Red Team vs Blue Team məşqləri</strong> — hücum komandasının reconnaissance, exploitation və post-exploitation addımlarını, müdafiə komandasının isə log analizi, SIEM qaydaları, IDS/IPS alertləri və insident cavab proseslərini real şəkildə simulyasiya etmək.</li>
+
+  <li><strong>Blue Team layihəsi (tam professional səviyyədə)</strong> — Suricata və Zeek ilə <strong>IDS/IPS</strong> sistemi qurmaq, ELK və Wazuh ilə <strong>SIEM</strong> mühitini hazırlamaq, trafik analizi aparmaq, insidentləri təhlil etmək və müdafiə qaydalarını real sistemlərdə tətbiq etmək.</li>
+
+  <li><strong>Öz CTF platformanın qurulması</strong> — CTFd üzərində şəxsi yarışma mühiti yaratmaq, flag strukturu, scoring sistemi, web, forensika və network mövzularında öz challenge-larını hazırlamaq və bununla bilikləri praktiki möhkəmləndirmək.</li>
+
+  <li><strong>CVE əsaslı təlim laboratoriyaları</strong> — təhlükəsiz, izolyasiya olunmuş labda real CVE-lərin davranışını analiz etmək, zəifliklərin nə səbəbdən yarandığını başa düşmək və onlara qarşı müdafiə strategiyalarını tətbiq etmək.</li>
+
+  <li><strong>Real şirkət infrastrukturlarına bənzər lab ssenariləri</strong> — Active Directory qurmaq, istifadəçi idarəçiliyi, GPO strukturu, Kerberos hücumlarının laboratoriya şəraitində öyrənilməsi, MITM və şəbəkə seqmentasiya analizləri.</li>
+
+  <li><strong>Digital forensika və insident cavab</strong> — logların korelyasiyası, anomaliya aşkarlanması, IOC-lərin təyin edilməsi, zərərli trafik nümunələrinin təhlili və tam insident hesabatının hazırlanması.</li>
+</ul>
+
+<p>Məqsədim sizə sadəcə nəzəri bilik öyrətmək deyil — sizi artıq real layihələrdə işləyə bilən, həm hücum, həm müdafiə proseslərini dərindən başa düşən, geniş praktiki təcrübəyə malik <strong>tam hazır kiber təhlükəsizlik mütəxəssisi</strong> səviyyəsinə çatdırmaqdır. Kurs çərçivəsində topladığınız təcrübə və layihələr birbaşa <strong>portfelinizdə</strong> yer ala biləcək real işlərdən ibarət olur.</p>
+
   
   <p>
     Bloqumu və dərslərimi ziyarət edin: 👉 
