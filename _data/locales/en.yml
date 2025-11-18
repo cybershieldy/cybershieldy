@@ -20,14 +20,6 @@ panel:
   trending_tags: "Trending Tags"
   toc: "Table of Contents"
 
-copyright:
-  license:
-    template: "This post is licensed under :LICENSE_NAME by the author."
-    name: "CC BY 4.0"
-    link: "https://creativecommons.org/licenses/by/4.0/"
-  brief: "Some rights reserved."
-  verbose: >-
-    Unless otherwise noted, all posts on this site are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 meta: ":PLATFORM theme used for :THEME."
 
