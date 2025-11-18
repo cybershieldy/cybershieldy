@@ -20,15 +20,6 @@ panel:
   trending_tags: "Популярные теги"
   toc: "Содержание"
 
-copyright:
-  license:
-    template: "Эта статья лицензирована под :LICENSE_NAME автором."
-    name: "CC BY 4.0"
-    link: "https://creativecommons.org/licenses/by/4.0/"
-  brief: "Все права защищены."
-  verbose: >-
-    Если не указано иное, все статьи на этом сайте лицензированы под Creative Commons Attribution 4.0 International (CC BY 4.0).
-
 meta: "Используется тема :THEME для :PLATFORM."
 
 not_found:

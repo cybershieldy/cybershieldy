@@ -21,15 +21,6 @@ panel:
   trending_tags: "Popüler Etiketler"
   toc: "İçindekiler"
 
-copyright:
-  license:
-    template: "Bu yazı yazar tarafından :LICENSE_NAME ile lisanslanmıştır."
-    name: "CC BY 4.0"
-    link: "https://creativecommons.org/licenses/by/4.0/"
-  brief: "Bazı haklar saklıdır."
-  verbose: >-
-    Aksi belirtilmediği sürece, bu sitedeki yazılar Creative Commons Attribution 4.0 International (CC BY 4.0) lisansı ile korunmaktadır.
-
 meta: ":PLATFORM için :THEME teması kullanılmıştır."
 
 not_found:

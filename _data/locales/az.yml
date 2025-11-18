@@ -24,15 +24,7 @@ panel:
   trending_tags: "Populyar Teqlər"
   toc: "Mündəricat"
 
-copyright:
-  license:
-    template: "Bu yazı müəllif tərəfindən :LICENSE_NAME ilə lisenziyalaşdırılıb."
-    name: "CC BY 4.0"
-    link: "https://creativecommons.org/licenses/by/4.0/"
-  brief: "Bəzi hüquqlar qorunur."
-  verbose: >-
-    Əks halda göstərilmədiyi təqdirdə, bu saytdakı yazılar müəllif tərəfindən
-    Creative Commons Attribution 4.0 International (CC BY 4.0) lisenziyası ilə qorunur.
+
 
 meta: ":PLATFORM üçün :THEME mövzusu istifadə olunur."
 
