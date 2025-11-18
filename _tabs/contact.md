@@ -64,7 +64,7 @@ order: 10
               `Telefon: ${phone}%0A` +
               `Xidmət: ${service}`;
 
-    let number = "994XXXXXXXXX"; // <-- BURADA ÖZ WHATSAPP NÖMRƏNİ YAZ
+    let number = "+994555182523"; // <-- BURADA ÖZ WHATSAPP NÖMRƏNİ YAZ
 
     window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
   }
