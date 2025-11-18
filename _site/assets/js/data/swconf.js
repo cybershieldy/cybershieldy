@@ -1,6 +1,6 @@
 const swconf = {
   
-    cacheName: 'chirpy-1763477126',resources: [
+    cacheName: 'chirpy-1763477661',resources: [
       '/assets/css/jekyll-theme-chirpy.css',
       '/',
       
@@ -19,6 +19,8 @@ const swconf = {
         '/telebe-nailiyyetleri/',
       
         '/video/',
+      
+        '/contact/',
       
         '/kiber-tehlukesizlik-kursu/',
       
