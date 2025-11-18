@@ -1,0 +1,31 @@
+<style>
+.header-whatsapp-btn {
+  background: #25D366;
+  color: white !important;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.header-whatsapp-btn:hover {
+  background: #1ebe5d;
+  text-decoration: none !important;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.querySelector(".topbar .menu"); // Chirpy-nin header menyusu
+
+  if (nav) {
+    const btn = document.createElement("a");
+    btn.href = "https://wa.me/994555182523?text=Salam%2C%20m%C9%99lumat%20almaq%20ist%C9%99yir%C9%99m";
+    btn.target = "_blank";
+    btn.className = "header-whatsapp-btn";
+    btn.innerText = "WhatsApp";
+
+    nav.appendChild(btn);
+  }
+});
+</script>
