@@ -128,7 +128,7 @@ Kursu bitirdikdən sonra:
 - **LinkedIn və GitHub** profilində paylaşıla bilən sertifikat  
 - **İş müsahibəsinə hazırlıq və CV dəstəyi**
 
-![Web Proqramlaşdırma Kursu Sertifikatı - Full Stack Developer Təlimi - CyberShieldy](/assets/images/web.webp "Web Proqramlaşdırma Kursu Sertifikatı - CyberShieldy")
+![Web Proqramlaşdırma Kursu Sertifikatı - Full Stack Developer Təlimi - CyberShieldy](/assets/images/web_qr.png "Web Proqramlaşdırma Kursu Sertifikatı - CyberShieldy")
 
 ---
 
