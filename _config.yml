@@ -38,8 +38,10 @@ url: "https://cybershieldy.com"
 baseurl: ""
 
 github:
-  main_user: cybershieldy       # əsas GitHub hesabın
-  pages_user: cybershieldycom   # GitHub Pages üçün istifadə etdiyin hesab
+  username: cybershieldy # buranı öz GitHub username-inlə əvəzlə
+
+github:
+  username: cybershieldycom # change to your GitHub username
 
 twitter:
   username: cybershieldy # change to your Twitter username
@@ -221,7 +223,6 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
-
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
@@ -230,7 +231,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-  
-custom_css: 
-  - /assets/css/custom.css
 
+custom_css:
+  - /assets/css/custom.css
