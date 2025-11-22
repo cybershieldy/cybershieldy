@@ -33,43 +33,31 @@
 }
 
 /* ===============================
-      CRITICAL MOBILE BREAKPOINT FIX
-      (480–560px arasında title sıxılması)
+      MOBILE BREAKPOINT FIX
+      (Mobilda başlığın yuxarı hissədə düzgün yerleşməsi)
    =============================== */
-@media (min-width: 460px) and (max-width: 560px) {
-
-  #topbar-wrapper {
-    padding-top: 0.6rem !important;
-    padding-bottom: 0.6rem !important;
-  }
-
-  .page-header {
-    margin-top: 2.4rem !important;
-  }
-
-  .page-header .page-title {
-    font-size: 1.15rem !important;
-    line-height: 1.3 !important;
-    text-align: center !important;
-  }
-}
-
-/* --- GENERAL MOBILE (<600px) --- */
 @media (max-width: 600px) {
 
+  /* Yuxarı margin-top və padding tənzimlənməsi */
+  #topbar-wrapper {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+
+  /* Səhifə başlığına uyğun ölçü və margin */
   .page-header {
-    margin-top: 2.2rem !important;
+    margin-top: 3rem !important; /* Topbar ilə arasında məsafəni artır */
     padding-top: 0.3rem !important;
   }
 
   .page-header .page-title {
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
+    text-align: center !important; /* Başlığı mərkəzləşdir */
   }
 }
 
 /* --- VERY SMALL PHONES (<400px) --- */
 @media (max-width: 400px) {
-
   #topbar-wrapper {
     padding-top: 0.75rem !important;
   }
@@ -85,7 +73,6 @@
 
 /* --- TABLET FIX (600–900px) --- */
 @media (min-width: 600px) and (max-width: 900px) {
-
   .page-header {
     margin-top: 2rem !important;
   }
@@ -97,7 +84,6 @@
 
 /* --- DESKTOP CLEANUP --- */
 @media (min-width: 900px) {
-
   .page-header {
     margin-top: 2rem !important;
   }
