@@ -38,10 +38,8 @@ url: "https://cybershieldy.com"
 baseurl: ""
 
 github:
-  username: cybershieldy # buranı öz GitHub username-inlə əvəzlə
-
-github:
-  username: cybershieldycom # change to your GitHub username
+  main_user: cybershieldy       # əsas GitHub hesabın
+  pages_user: cybershieldycom   # GitHub Pages üçün istifadə etdiyin hesab
 
 twitter:
   username: cybershieldy # change to your Twitter username
