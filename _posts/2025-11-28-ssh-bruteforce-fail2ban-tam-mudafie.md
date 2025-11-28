@@ -5,7 +5,7 @@ lastmod: 2025-11-28 12:30:00 +0400
 categories: [təhlükəsizlik, server, cybersecurity]
 tags: [ssh, brute force, fail2ban, linux təhlükəsizliyi, blue team, kiberhücum, cybersecurity kursu, ethical hacking, red team, penetration testing]
 description: "Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov."
-image: /assets/images/ssh-fail2ban.webp
+image: /assets/images/brute.webp
 canonical: https://cybershieldy.com/posts/ssh-bruteforce-fail2ban
 permalink: /posts/ssh-bruteforce-fail2ban
 ---
@@ -111,7 +111,7 @@ Brute-force hücumu — avtomatlaşdırılmış alətlərlə saysız-hesabsız p
 
 ## 🧪 Real Hydra Brute-Force Testi
 
-➡ **Bu şəkil yerinə öz real hücum screenshot-unu qoy:**
+
 
 ![Hydra SSH brute force sınağı](/assets/images/hydra.webp)
 
@@ -126,7 +126,7 @@ Fail2Ban `auth.log` faylını izləyərək kütləvi uğursuz giriş cəhdlərin
 fail2ban-client status sshd
 
 
-➡ **Bu şəkli də öz Fail2Ban ban screenshot-u ilə əvəz et:**
+
 
 ![Fail2Ban ban list output](/assets/images/fail2ban.webp)
 
