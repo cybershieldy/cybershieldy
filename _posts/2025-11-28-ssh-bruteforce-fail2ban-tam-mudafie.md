@@ -1,3 +1,4 @@
+---
 title: "SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)"
 date: 2025-11-28 12:00:00 +0400
 lastmod: 2025-11-28 12:30:00 +0400
@@ -112,7 +113,7 @@ Brute-force hücumu — avtomatlaşdırılmış alətlərlə saysız-hesabsız p
 
 ➡ **Bu şəkil yerinə öz real hücum screenshot-unu qoy:**
 
-![Hydra SSH brute force sınağı](/assets/images/ssh-hydra.webp)
+![Hydra SSH brute force sınağı](/assets/images/hydra.webp)
 
 Hydra qısa müddətdə yüzlərlə uğursuz giriş cəhdi edir və bu cəhdlər loglarda aydın görünür.
 
@@ -127,7 +128,7 @@ fail2ban-client status sshd
 
 ➡ **Bu şəkli də öz Fail2Ban ban screenshot-u ilə əvəz et:**
 
-![Fail2Ban ban list output](/assets/images/fail2ban-ban.webp)
+![Fail2Ban ban list output](/assets/images/fail2ban.webp)
 
 ---
 
@@ -162,10 +163,7 @@ Bu addımlar serverinizi brute-force hücumlarından maksimum qoruyur.
 
 ## 📞 Praktiki Təlim və Cyber Security Kursu
 
-Cybersecurity sahəsinə daxil olmaq istəyən tələbələr üçün:
-
-📲 WhatsApp: **https://wa.me/994555182523**
-
+📲 [WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — Kibertəhlükəsizlik təlimləri və praktik dəstək.
 ---
 
 ## 📚 Oxşar Məqalələr

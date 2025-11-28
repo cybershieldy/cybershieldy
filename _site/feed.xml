@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-11-28T23:16:25+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Ssh Bruteforce Fail2ban Tam Mudafie</title><link href="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie/" rel="alternate" type="text/html" title="Ssh Bruteforce Fail2ban Tam Mudafie" /><published>2025-11-28T00:00:00+04:00</published><updated>2025-11-28T00:00:00+04:00</updated><id>https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie</id><content type="html" xml:base="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie/"><![CDATA[<p>title: “SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)”
-date: 2025-11-28 12:00:00 +0400
-lastmod: 2025-11-28 12:30:00 +0400
-categories: [təhlükəsizlik, server, cybersecurity]
-tags: [ssh, brute force, fail2ban, linux təhlükəsizliyi, blue team, kiberhücum, cybersecurity kursu, ethical hacking, red team, penetration testing]
-description: “Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.”
-image: /assets/images/ssh-fail2ban.webp
-canonical: https://cybershieldy.com/posts/ssh-bruteforce-fail2ban
-permalink: /posts/ssh-bruteforce-fail2ban
-—</p>
-
-<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-11-28T23:44:24+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban" rel="alternate" type="text/html" title="SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)" /><published>2025-11-28T12:00:00+04:00</published><updated>2025-11-28T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie</id><content type="html" xml:base="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
@@ -114,7 +103,7 @@ typeNeon(neonMessages[neonIndex]);
 
 <p>➡ <strong>Bu şəkil yerinə öz real hücum screenshot-unu qoy:</strong></p>
 
-<p><img src="/assets/images/ssh-hydra.webp" alt="Hydra SSH brute force sınağı" /></p>
+<p><img src="/assets/images/hydra.webp" alt="Hydra SSH brute force sınağı" /></p>
 
 <p>Hydra qısa müddətdə yüzlərlə uğursuz giriş cəhdi edir və bu cəhdlər loglarda aydın görünür.</p>
 
@@ -128,7 +117,7 @@ typeNeon(neonMessages[neonIndex]);
 
 <p>➡ <strong>Bu şəkli də öz Fail2Ban ban screenshot-u ilə əvəz et:</strong></p>
 
-<p><img src="/assets/images/fail2ban-ban.webp" alt="Fail2Ban ban list output" /></p>
+<p><img src="/assets/images/fail2ban.webp" alt="Fail2Ban ban list output" /></p>
 
 <hr />
 
@@ -164,11 +153,7 @@ maxretry = 5</p>
 
 <h2 id="-praktiki-təlim-və-cyber-security-kursu">📞 Praktiki Təlim və Cyber Security Kursu</h2>
 
-<p>Cybersecurity sahəsinə daxil olmaq istəyən tələbələr üçün:</p>
-
-<p>📲 WhatsApp: <strong>https://wa.me/994555182523</strong></p>
-
-<hr />
+<h2 id="-whatsapp-ilə-əlaqə-saxlayın--kibertəhlükəsizlik-təlimləri-və-praktik-dəstək">📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</h2>
 
 <h2 id="-oxşar-məqalələr">📚 Oxşar Məqalələr</h2>
 
@@ -176,7 +161,7 @@ maxretry = 5</p>
   <li><a href="/posts/ufw-firewall">Linux-da UFW ilə FireWall Qurulumu</a></li>
   <li><a href="/posts/ssh-key-tutorial">SSH Key ilə Şifrəsiz Giriş</a></li>
   <li><a href="/posts/red-team-vs-blue-team">Red Team vs Blue Team — 2025</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[title: “SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)” date: 2025-11-28 12:00:00 +0400 lastmod: 2025-11-28 12:30:00 +0400 categories: [təhlükəsizlik, server, cybersecurity] tags: [ssh, brute force, fail2ban, linux təhlükəsizliyi, blue team, kiberhücum, cybersecurity kursu, ethical hacking, red team, penetration testing] description: “Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.” image: /assets/images/ssh-fail2ban.webp canonical: https://cybershieldy.com/posts/ssh-bruteforce-fail2ban permalink: /posts/ssh-bruteforce-fail2ban —]]></summary></entry><entry><title type="html">Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/kompyuter-viruslari-exploit" rel="alternate" type="text/html" title="Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)" /><published>2025-11-08T09:00:00+04:00</published><updated>2025-11-17T17:56:45+04:00</updated><id>https://cybershieldy.com/posts/kompyuter-viruslari-exploit-ferqi</id><content type="html" xml:base="https://cybershieldy.com/posts/kompyuter-viruslari-exploit"><![CDATA[<h1 id="-kompyuter-virusları-exploit-və-sızma-sistemləri--fərqlər-nümunələr-və-müdafiə-2025">🦠 Kompyuter Virusları, Exploit və Sızma Sistemləri — Fərqlər, Nümunələr və Müdafiə (2025)</h1>
+</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="server" /><category term="cybersecurity" /><category term="ssh" /><category term="brute force" /><category term="fail2ban" /><category term="linux təhlükəsizliyi" /><category term="blue team" /><category term="kiberhücum" /><category term="cybersecurity kursu" /><category term="ethical hacking" /><category term="red team" /><category term="penetration testing" /><summary type="html"><![CDATA[Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ssh-fail2ban.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ssh-fail2ban.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/kompyuter-viruslari-exploit" rel="alternate" type="text/html" title="Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)" /><published>2025-11-08T09:00:00+04:00</published><updated>2025-11-17T17:56:45+04:00</updated><id>https://cybershieldy.com/posts/kompyuter-viruslari-exploit-ferqi</id><content type="html" xml:base="https://cybershieldy.com/posts/kompyuter-viruslari-exploit"><![CDATA[<h1 id="-kompyuter-virusları-exploit-və-sızma-sistemləri--fərqlər-nümunələr-və-müdafiə-2025">🦠 Kompyuter Virusları, Exploit və Sızma Sistemləri — Fərqlər, Nümunələr və Müdafiə (2025)</h1>
 
 <p><strong>Qısa xülasə:</strong><br />
 Bu məqalədə kompüter viruslarının nə olduğu, exploitlərin necə işlədiyi və sızma aşkarlama / qarşısını alma (IDS/IPS/EDR) sistemlərinin bu təhlükələrə qarşı necə müdaxilə etdiyi ətraflı şəkildə izah edilir. Məqsəd — həm texniki oxuculara, həm də təhlükəsizlik üzrə qərar verənlərə praktik və aydın məlumat verməkdir.</p>
