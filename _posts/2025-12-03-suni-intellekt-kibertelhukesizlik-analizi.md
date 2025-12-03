@@ -5,7 +5,7 @@ lastmod: 2025-12-03 12:00:00 +0400
 categories: [kibertəhlükəsizlik, süni intellekt]
 tags: [AI security, cybersecurity, threat detection, machine learning, red team, blue team, kiber kurslar, kiber təlim]
 description: "Süni intellekt kibertəhlükəsizlikdə hansı rolu oynayır? 2025 və gələcəkdə AI əsaslı hücumlar, müdafiə metodları və kiber kurslara maraq artımı haqqında dərin təhlil."
-image: /assets/images/ai-security.webp
+image: /assets/images/ai.webp
 canonical: https://cybershieldy.com/posts/ai-kibertelhukesizlik
 permalink: /posts/ai-kibertelhukesizlik
 ---
@@ -167,11 +167,14 @@ Süni intellekt kibertəhlükəsizliyin həm ən böyük **tənzimləyicisi**, h
 
 ---
 
-# 📞 Kibertəhlükəsizlik Təlimlərinə Başlamaq
 
-AI dövründə kibertəhlükəsizlik öyrənmək istəyirsinizsə:
+## 📞 Praktiki Təlim və Cyber Security Kursu
 
-📲 **WhatsApp:**  
-https://wa.me/994555182523?text=Salam%2C%20kiber%20təhlükəsizlik%20kursları%20barədə%20məlumat%20istəyirəm.
+📲 [WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — Kibertəhlükəsizlik təlimləri və praktik dəstək.
+---
 
-Praktiki red team, blue team və real hücum ssenariləri üzrə sıfırdan peşəkar təlimlər.
+## 📚 Oxşar Məqalələr
+
+- [Linux-da UFW ilə FireWall Qurulumu](/posts/ufw-firewall)
+- [SSH Key ilə Şifrəsiz Giriş](/posts/ssh-key-tutorial)
+- [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
