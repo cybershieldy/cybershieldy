@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-03T21:14:11+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban" rel="alternate" type="text/html" title="SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)" /><published>2025-11-28T12:00:00+04:00</published><updated>2025-11-28T23:54:47+04:00</updated><id>https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie</id><content type="html" xml:base="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-03T21:24:50+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Süni İntellektin Kibertəhlükəsizlikdə Rolu: 2025 və Gələcək Trendlər</title><link href="https://cybershieldy.com/posts/ai-kibertelhukesizlik" rel="alternate" type="text/html" title="Süni İntellektin Kibertəhlükəsizlikdə Rolu: 2025 və Gələcək Trendlər" /><published>2025-12-03T12:00:00+04:00</published><updated>2025-12-03T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/suni-intellekt-kibertelhukesizlik-analizi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-kibertelhukesizlik"><![CDATA[<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Süni İntellektin Kibertəhlükəsizlikdə Rolu: 2025 və Gələcək Trendlər",
+  "description": "Süni intellekt (AI) kibertəhlükəsizliyi necə dəyişir? AI əsaslı hücumlar, müdafiə üsulları və təhlükəsizlik mütəxəssislərinin gələcəkdə hansı bacarıqlara sahib olması lazımdır?",
+  "author": { "@type": "Person", "name": "Emin Savaylov" },
+  "publisher": { "@type": "Organization", "name": "CyberShieldy", "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }},
+  "datePublished": "2025-12-03T12:00:00+04:00",
+  "dateModified": "2025-12-03T12:00:00+04:00",
+  "image": "https://cybershieldy.com/assets/images/ai-security.webp",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/ai-kibertelhukesizlik" }
+}
+</script>
+
+<h1 id="süni-i̇ntellektin-kibertəhlükəsizlikdə-rolu-2025-və-gələcək-trendlər">Süni İntellektin Kibertəhlükəsizlikdə Rolu: 2025 və Gələcək Trendlər</h1>
+
+<p>Süni intellekt (AI) son illərdə kibertəhlükəsizlik sahəsində həm <strong>çevik müdafiə</strong>, həm də <strong>daha ağıllı hücumlar</strong> üçün əsas transformasiya alətinə çevrilib. 2025-ci ildə artıq demək olar ki, hər böyük təşkilat AI əsaslı təhlükəsizlik alətlərindən istifadə edir — anomaliya aşkarlanması, zərərli fəaliyyətlərin avtomatik bloklanması və daha dəqiq təhdid analizi kimi.</p>
+
+<p>Bu yazıda <strong>AI-nin kibertəhlükəsizliyə təsirini</strong>, <strong>gələcək təhlükə ssenarilərini</strong>, <strong>red team və blue team fəaliyyətlərində AI-nin rolunu</strong> və ən əsası <strong>gələcəkdə bu sahədə işləmək istəyən tələbələr nələri bilməlidir?</strong> — hamısını geniş şəkildə izah edirəm.</p>
+
+<hr />
+
+<h1 id="-1-ai-kibertəhlükəsizliyə-niyə-bu-qədər-təsir-edir">🔥 1. AI Kibertəhlükəsizliyə Niyə Bu Qədər Təsir Edir?</h1>
+
+<p>AI ənənəvi təhlükəsizlik alətlərindən fərqli olaraq:</p>
+
+<ul>
+  <li>real vaxtda milyonlarla log-u analiz edə bilir,</li>
+  <li>insan gözündən qaçan nüansları aşkarlayır,</li>
+  <li>davranış əsaslı model qurur,</li>
+  <li>hücumları proqnozlaşdırır,</li>
+  <li>və ən əsası: <strong>özü-özünü öyrənir</strong>.</li>
+</ul>
+
+<p>Bu da blue team-ə inanılmaz üstünlük verir:<br />
+<strong>Təhdid hələ başlamamış avtomatik bloklama.</strong></p>
+
+<hr />
+
+<h1 id="️-2-ai-əsaslı-hücumlar-da-artır-red-team-perspektivi">⚠️ 2. AI Əsaslı Hücumlar da Artır (Red Team perspektivi)</h1>
+
+<p>Süni intellekt yalnız müdafiə üçün deyil. Artıq bir çox hücum texnikası AI tərəfindən gücləndirilir:</p>
+
+<h3 id="-ai-generated-phishing">🔴 <strong>AI-Generated Phishing</strong></h3>
+<ul>
+  <li>İnsan yazısına 99% bənzəyən phishing e-maillər.</li>
+  <li>Real şirkət üslubu və dil tonuna uyğunlaşdırılmış mesajlar.</li>
+  <li>Deepfake səs və video ilə CEO Fraud (Business Email Compromise).</li>
+</ul>
+
+<h3 id="-autonomous-malware">🔴 <strong>Autonomous Malware</strong></h3>
+<ul>
+  <li>Özünü gizlədən, davranışını dəyişən, sandbox-u bypass edən viruslar.</li>
+  <li>Hədəf mühitə uyğun kodunu dəyişən polymorphic malware.</li>
+</ul>
+
+<h3 id="-ai-reconnaissance">🔴 <strong>AI Reconnaissance</strong></h3>
+<ul>
+  <li>OSINT məlumatlarını avtomatik analiz edən sistemlər.</li>
+  <li>Hədəfin zəifliklərini insandan 20 dəfə tez tapır.</li>
+</ul>
+
+<p>Bu səbəbdən 2025–2030 dövrü red team bacarıqlarında <strong>AI-assisted offensive security</strong> dövrü sayılır.</p>
+
+<hr />
+
+<h1 id="️-3-müdafiədə-ai-blue-team-üçün-yeni-güc">🛡️ 3. Müdafiədə AI: Blue Team üçün Yeni Güc</h1>
+
+<p>AI əsasında işləyən müdafiə sistemləri artıq bir çox şirkətin standartıdır:</p>
+
+<h3 id="-davranış-əsaslı-təhlükə-aşkarlanması">🟦 <strong>Davranış əsaslı təhlükə aşkarlanması</strong></h3>
+<p>Sistem istifadəçi davranışlarını öyrənir və normadan kənarı dərhal işarələyir.</p>
+
+<h3 id="-siem--ai-inteqrasiyası">🟦 <strong>SIEM + AI inteqrasiyası</strong></h3>
+<ul>
+  <li>10.000+ logu saniyələr içində təhlil edir</li>
+  <li>False-positive hallarını azaldır</li>
+  <li>Təhdidin mənşəyini vizuallaşdırır</li>
+</ul>
+
+<h3 id="-ai-assisted-incident-response">🟦 <strong>AI-assisted Incident Response</strong></h3>
+<p>Hücum baş verən anda:</p>
+
+<ul>
+  <li>IP bloklama</li>
+  <li>sessiya sonlandırma</li>
+  <li>istifadəçi hesabı kilidləmə</li>
+  <li>şəbəkə karantinləmə</li>
+</ul>
+
+<p>tam avtomatik idarə olunur.</p>
+
+<hr />
+
+<h1 id="-4-gələcəkdə-bizi-nələr-gözləyir-20262030-proqnozu">🔮 4. Gələcəkdə Bizi Nələr Gözləyir? (2026–2030 Proqnozu)</h1>
+
+<p>Aşağıdakı trendlər 100% real şəkildə qarşımıza çıxacaq:</p>
+
+<h3 id="-1-ai-lə-idarə-olunan-soc-lar">🚀 <strong>1. AI-lə idarə olunan SOC-lar</strong></h3>
+<p>SOC analitiklərinin 60%-i AI ilə işləyən platformalara nəzarət edəcək.</p>
+
+<h3 id="-2-ağıllı-ransomware">🚀 <strong>2. Ağıllı Ransomware</strong></h3>
+<p>Ransomware artıq hədəf seçə biləcək:</p>
+<ul>
+  <li>yüksək dəyərli faylları tanıyacaq,</li>
+  <li>şifrələməni daha sürətli edəcək,</li>
+  <li>backup-ları avtomatik siləcək.</li>
+</ul>
+
+<h3 id="-3-zero-trust--ai-modelinin-yayılması">🚀 <strong>3. Zero Trust + AI modelinin yayılması</strong></h3>
+<p>İcazələrin verilməsi AI qərar mexanizmi ilə olacaq.</p>
+
+<h3 id="-4-ai-ilə-real-hücum-simulyasiyaları-ai-red-teaming">🚀 <strong>4. AI ilə real hücum simulyasiyaları (AI Red Teaming)</strong></h3>
+<p>Şirkətlər AI-əsaslı red team alətləri ilə öz zəifliklərini test edəcək.</p>
+
+<hr />
+
+<h1 id="-5-kibertəhlükəsizlik-öyrənmək-i̇stəyənlər-üçün-ai-çağında-nə-vacibdir">🎓 5. Kibertəhlükəsizlik Öyrənmək İstəyənlər üçün AI Çağında Nə Vacibdir?</h1>
+
+<p>Bu hissə <strong>tələbələri motivasiya etmək və kursa yönləndirmək üçün SEO-dost şəkildə optimizasiya olunub.</strong></p>
+
+<h3 id="-layihə-əsaslı-öyrənmə">✔ Layihə əsaslı öyrənmə</h3>
+<p>Süni intellekt dövründə sadəcə nəzəri bilik kifayət deyil — real ssenarilərlə işləmək şərtdir.</p>
+
+<h3 id="-red-team-və-blue-team-bacarıqları">✔ Red Team və Blue Team bacarıqları</h3>
+<p>Hər iki tərəfi bilməklə:</p>
+<ul>
+  <li>hücumları başa düşürsən,</li>
+  <li>müdafiəni daha möhkəm qurursan.</li>
+</ul>
+
+<h3 id="-ai-alətlərindən-istifadə">✔ AI alətlərindən istifadə</h3>
+<p>2025-də tələbələrin bilməsi vacibdir:</p>
+<ul>
+  <li>AI threat hunting</li>
+  <li>AI-assisted recon</li>
+  <li>anomaly detection tools</li>
+  <li>GPT Security Copilot</li>
+  <li>automated SOC tools</li>
+</ul>
+
+<h3 id="-süni-intellekt--kibertəhlükəsizlik-bilikləri-sənə-böyük-üstünlük-verir">✔ Süni intellekt + Kibertəhlükəsizlik bilikləri sənə böyük üstünlük verir:</h3>
+<ul>
+  <li>daha yüksək maaş</li>
+  <li>daha tez iş tapmaq</li>
+  <li>daha dərin analitik bacarıqlar</li>
+</ul>
+
+<hr />
+
+<h1 id="-6-canlı-ssenari-ai-necə-hücumu-aşkarlayır">🧠 6. Canlı Ssenari: AI necə hücumu aşkarlayır?</h1>
+
+<p><strong>Real nümunə (2025):</strong></p>
+
+<p>AI sistemləri 23:41-də istifadəçinin hesabında anomaliya aşkarladı:</p>
+
+<ul>
+  <li>İstifadəçi normalda Bakıdan daxil olur → bu dəfə Braziliyadan giriş</li>
+  <li>Bir dəqiqəyə 87 request</li>
+  <li>Admin panelə uğursuz giriş cəhdləri</li>
+  <li>Data export endpointlərinə sorğular</li>
+</ul>
+
+<p>AI 0.9 risk səviyyəsi çıxarıb <strong>avtomatik olaraq sessiyanı bağladı və IP-ni blokladı.</strong></p>
+
+<p>İnsan bunu görsəydi ən azı 5–10 dəqiqə gec olardı.</p>
+
+<hr />
+
+<h1 id="-nəticə">📌 Nəticə</h1>
+
+<p>Süni intellekt kibertəhlükəsizliyin həm ən böyük <strong>tənzimləyicisi</strong>, həm də <strong>ən böyük təhlükəsi</strong> olacaq.<br />
+2025 və sonrası üçün qəti olan budur:</p>
+
+<p><strong>AI + kibertəhlükəsizlik biliklərinə sahib mütəxəssislər ən tələb olunan kadrlar olacaq.</strong></p>
+
+<hr />
+
+<h1 id="-kibertəhlükəsizlik-təlimlərinə-başlamaq">📞 Kibertəhlükəsizlik Təlimlərinə Başlamaq</h1>
+
+<p>AI dövründə kibertəhlükəsizlik öyrənmək istəyirsinizsə:</p>
+
+<p>📲 <strong>WhatsApp:</strong><br />
+https://wa.me/994555182523?text=Salam%2C%20kiber%20təhlükəsizlik%20kursları%20barədə%20məlumat%20istəyirəm.</p>
+
+<p>Praktiki red team, blue team və real hücum ssenariləri üzrə sıfırdan peşəkar təlimlər.</p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="AI security" /><category term="cybersecurity" /><category term="threat detection" /><category term="machine learning" /><category term="red team" /><category term="blue team" /><category term="kiber kurslar" /><category term="kiber təlim" /><summary type="html"><![CDATA[Süni intellekt kibertəhlükəsizlikdə hansı rolu oynayır? 2025 və gələcəkdə AI əsaslı hücumlar, müdafiə metodları və kiber kurslara maraq artımı haqqında dərin təhlil.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ai-security.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ai-security.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban" rel="alternate" type="text/html" title="SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)" /><published>2025-11-28T12:00:00+04:00</published><updated>2025-11-28T23:54:47+04:00</updated><id>https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie</id><content type="html" xml:base="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
@@ -1805,213 +1992,4 @@ typeMessage(messages[idx]);
     "@id": "https://cybershieldy.com/vpn-firmware-wifi-tehlukesizlik"
   }
 }
-</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="şəxsi təhlükəsizlik" /><category term="vpn" /><category term="firmware yeniləmələri" /><category term="wifi təhlükəsizliyi" /><category term="router qorunması" /><category term="şifrləmə" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Wi-Fi təhlükəsizliyi üçün VPN istifadəsi və firmware yeniləmələrinin vacibliyini kəşf edin. 2025-ci ilin yenilənmiş tövsiyələri ilə şəxsi və korporativ şəbəkənizi qorumağın effektiv yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/vpn.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/vpn.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</title><link href="https://cybershieldy.com/posts/wifi-trafik-hucumlari" rel="alternate" type="text/html" title="Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)" /><published>2025-09-18T12:00:00+04:00</published><updated>2025-09-20T17:32:11+04:00</updated><id>https://cybershieldy.com/posts/wifi-trafik-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/wifi-trafik-hucumlari"><![CDATA[<h1 id="wi-fi-trafik-hücumları-deauth-sniffing-və-krack-taktikası-ilə-geniş-hücum-ssenarisi-2025">Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)</h1>
-
-<blockquote>
-  <p><strong>Son Yenilənmə:</strong> 18 Sentyabr 2025<br />
-<strong>Yazı tipi:</strong> Təhlükəsizlik Hücum Ssenarisi və Texniki Təhlil</p>
-</blockquote>
-
-<div id="terminal2"></div>
-
-<script>
-const messages2 = [
-  "Initializing Wi-Fi attack simulation...",
-  "Launching deauthentication packets...",
-  "Sniffing handshake traffic...",
-  "KRACK vulnerability being exploited...",
-  "Red Team active | Blue Team responding...",
-  "CyberShieldy.com | Defense starts here"
-];
-
-let idx2 = 0;
-const terminal2 = document.getElementById('terminal2');
-const typingSpeed2 = 100;
-
-function typeMessage2(msg, i = 0) {
-  if (i < msg.length) {
-    terminal2.textContent += msg.charAt(i);
-    setTimeout(() => typeMessage2(msg, i + 1), typingSpeed2);
-  } else {
-    setTimeout(() => {
-      eraseMessage2(msg.length);
-    }, 1200);
-  }
-}
-
-function eraseMessage2(len) {
-  if (len > 0) {
-    terminal2.textContent = terminal2.textContent.slice(0, -1);
-    setTimeout(() => eraseMessage2(len - 1), typingSpeed2 / 2);
-  } else {
-    idx2 = (idx2 + 1) % messages2.length;
-    typeMessage2(messages2[idx2]);
-  }
-}
-
-typeMessage2(messages2[idx2]);
-</script>
-
-<style>
-#terminal2 {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background: #000;
-  color: #00ffcc;
-  padding: 12px 18px;
-  border-radius: 5px;
-  width: max-content;
-  min-width: 340px;
-  height: 1.4em;
-  margin-bottom: 24px;
-  box-shadow: 0 0 12px #00ffcc;
-  text-shadow: 0 0 6px #00ffcc;
-}
-</style>
-
-<hr />
-
-<h2 id="-vizual-görüntü">📷 Vizual Görüntü</h2>
-
-<p><img src="/assets/images/deauth.webp" alt="Wi-Fi Trafik Hücumları - Deauth, Sniffing, KRACK" title="Wi-Fi Trafik Hücumları – Deauth, Packet Sniffing və KRACK birləşmiş hücumu" /></p>
-
-<hr />
-
-<h2 id="-hücumun-strukturu-üçtərəfli-taktika">🧠 Hücumun Strukturu: Üçtərəfli Taktika</h2>
-
-<p>Bu hücum modeli <strong>bir neçə mərhələdən</strong> ibarətdir və çox zaman <strong>Red Team simulyasiyalarında</strong> tətbiq olunur. Aşağıda bu hücumların birləşmiş şəkildə necə istifadə olunduğunu izah edirik.</p>
-
-<hr />
-
-<h3 id="1️⃣-deauthentication-attack--qurbanı-şəbəkədən-qoparma">1️⃣ <strong>Deauthentication Attack – Qurbanı şəbəkədən qoparma</strong></h3>
-
-<ul>
-  <li>Bu mərhələdə hücumçu <code class="language-plaintext highlighter-rouge">aireplay-ng</code>, <code class="language-plaintext highlighter-rouge">wifite</code>, və ya <code class="language-plaintext highlighter-rouge">mdk4</code> kimi alətlərdən istifadə edərək qurban cihazı mövcud Wi-Fi şəbəkəsindən qoparır.</li>
-  <li>Bu, IEEE 802.11 standartında zəiflikdən istifadə edərək həyata keçirilir.</li>
-</ul>
-
-<p>📌 <strong>Məqsəd:</strong> Qurbanın yenidən qoşulması zamanı <code class="language-plaintext highlighter-rouge">4-way handshake</code>-in tutulması.</p>
-
-<hr />
-
-<h3 id="2️⃣-packet-sniffing--trafikin-dinlənməsi-və-ələ-keçirilməsi">2️⃣ <strong>Packet Sniffing – Trafikin dinlənməsi və ələ keçirilməsi</strong></h3>
-
-<ul>
-  <li>Hücumçu qurban cihazı öz yaratdığı saxta AP-yə yönləndirir.</li>
-  <li>Burada <code class="language-plaintext highlighter-rouge">Wireshark</code>, <code class="language-plaintext highlighter-rouge">tcpdump</code>, və ya <code class="language-plaintext highlighter-rouge">airodump-ng</code> istifadə olunur.</li>
-  <li>Trafik analiz edilir: HTTP sorğuları, DNS sorğuları, şifrlənməmiş girişlər və hətta session cookie-lər ələ keçirilə bilər.</li>
-</ul>
-
-<p>📌 <strong>Ən təhlükəli hal:</strong> HTTPS istifadə olunmayan giriş formaları.</p>
-
-<hr />
-
-<h3 id="3️⃣-krack-attack--wpa2-protokol-zəifliyindən-istismar">3️⃣ <strong>KRACK Attack – WPA2 protokol zəifliyindən istismar</strong></h3>
-
-<ul>
-  <li><strong>KRACK (Key Reinstallation Attack)</strong> WPA2-PSK protokolunun <code class="language-plaintext highlighter-rouge">4-way handshake</code> mərhələsində kriptoqrafik açarın təkrar istifadəsinə əsaslanır.</li>
-  <li>Hücumçu, <code class="language-plaintext highlighter-rouge">reinstallation</code> mesajını təkrar göndərərək <strong>trafikin deşifrə edilməsinə</strong> nail olur.</li>
-</ul>
-
-<p>📌 <strong>Əlavə risk:</strong> Şəbəkə trafiki şifrələnmiş olsa da, <strong>KRACK</strong> ilə bu məlumatlar oxunaqlı hala gətirilə bilər.</p>
-
-<hr />
-
-<h2 id="-real-dünya-hücum-ssenarisi">🎯 Real Dünya Hücum Ssenarisi</h2>
-
-<h3 id="-ssenari">🔍 Ssenari:</h3>
-
-<blockquote>
-  <p>Təşkilatın əməkdaşı <code class="language-plaintext highlighter-rouge">Office_FreeWiFi</code> adlı şəbəkəyə qoşulub. Hücumçu bu şəbəkənin eynisini yaradaraq cihazı deauth hücumu ilə real AP-dən qoparır. Yenidən qoşulma zamanı həm <code class="language-plaintext highlighter-rouge">handshake</code> məlumatı toplanır, həm də istifadəçi trafiki sniff edilir. Əgər WPA2 istifadə olunursa, KRACK hücumu ilə şifrələnmiş paketlər deşifrə edilir.</p>
-</blockquote>
-
-<p><strong>Nəticə:</strong></p>
-<ul>
-  <li>İstifadəçinin daxil olduğu saytlarda şifrə və sessiya məlumatları ələ keçirilir.</li>
-  <li>Şəbəkəyə digər cihazların da aktivliyi izlənilir.</li>
-  <li>Şirkət məlumatları risk altına düşür.</li>
-</ul>
-
-<hr />
-
-<h2 id="️-müdafiə-yolları-2025-standartlarına-uyğun">🛡️ Müdafiə Yolları (2025 Standartlarına Uyğun)</h2>
-
-<p>✅ <strong>WPA3 dəstəyi olan cihazlardan istifadə edin</strong><br />
-✅ <strong>Firmware və şəbəkə avadanlığı müntəzəm yeniləyin</strong><br />
-✅ <strong>VPN tətbiqi ilə şəbəkə trafikinizi şifrələyin</strong><br />
-✅ <strong>HTTPS Everywhere və DNS over HTTPS istifadə edin</strong><br />
-✅ <strong>Wi-Fi monitorinq sistemləri qurun (Rogue AP Detection, IDS)</strong><br />
-✅ <strong>Cihazınızın Wi-Fi-ni istifadə etmədiyiniz zaman deaktiv edin</strong><br />
-✅ <strong>Red Team simulyasiyaları ilə şəbəkə zəifliklərini yoxlayın</strong></p>
-
-<hr />
-
-<h2 id="-red-team-tətbiqi">👨‍💻 Red Team Tətbiqi</h2>
-
-<p>Red Team ssenarilərində bu hücum taktikaları belə birləşdirilir:</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">Deauth + Evil Twin + Sniffing + KRACK</code></li>
-  <li>VPN istifadə etməyən qurumlarda məlumat sızması 90%-dən çox ehtimalla mümkündür</li>
-  <li>Test nəticələri rəhbərliyə təqdim edilir və Blue Team tədbirləri planlaşdırılır</li>
-</ul>
-
-<hr />
-
-<h2 id="-blue-team-müdafiəsi">🔵 Blue Team Müdafiəsi</h2>
-
-<p>Blue Team bu hücumlara qarşı aşağıdakı tədbirləri görür:</p>
-
-<ul>
-  <li><strong>WPA2-dən WPA3-ə keçid proqramı</strong></li>
-  <li><strong>Sniffing hücumlarına qarşı firewall və IDS-lər</strong></li>
-  <li><strong>Şirkət daxilində Wi-Fi şifrə siyasətinin dəyişməsi</strong></li>
-  <li><strong>Əməkdaşların maarifləndirilməsi və risk testləri</strong></li>
-</ul>
-
-<hr />
-
-<h2 id="-nəticə">📌 Nəticə</h2>
-
-<p>Wi-Fi trafikinə edilən hücumlar — xüsusilə <strong>Deauth</strong>, <strong>Packet Sniffing</strong> və <strong>KRACK</strong> — həm texniki, həm də praktiki baxımdan ciddi təhlükə yaradır. Bu hücumlar bir-biri ilə <strong>kombinə olunduqda</strong>, nəticələr daha dağıdıcı olur.</p>
-
-<p>📢 <strong>Tövsiyə:</strong><br />
-Əgər Wi-Fi şəbəkələrindən istifadə edirsinizsə, yalnız parol ilə deyil, <strong>protokol səviyyəsində təhlükəsizliklə</strong> özünüzü və təşkilatınızı qoruyun.</p>
-
-<hr />
-
-<h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>
-
-<hr />
-
-<!-- Strukturlaşdırılmış məlumat (JSON-LD) -->
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Wi-Fi Trafik Hücumları: Deauth, Sniffing və KRACK Taktikası ilə Geniş Hücum Ssenarisi (2025)",
-  "description": "Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.",
-  "image": "https://cybershieldy.com/assets/images/wifi-traffic-attacks.webp",
-  "author": {
-    "@type": "Person",
-    "name": "CyberShieldy"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-18T12:00:00+04:00",
-  "dateModified": "2025-09-18T12:00:00+04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/wifi-trafik-hucumlari-2025"
-  }
-}
-</script>]]></content><author><name></name></author><category term="wifi hücumları" /><category term="şəbəkə təhlükəsizliyi" /><category term="deauth attack" /><category term="sniffing" /><category term="krack" /><category term="wifi zəifliyi" /><category term="wpa2" /><category term="packet capture" /><category term="red team" /><category term="wifi trafik hücumları" /><summary type="html"><![CDATA[Wi-Fi şəbəkələrinə qarşı istifadə olunan Deauthentication, Packet Sniffing və KRACK hücumlarının necə işlədiyini ətraflı öyrənin. Real dünya ssenarisi və 2025-ci ilə uyğun müdafiə yolları ilə bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/snifing.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/snifing.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</script>]]></content><author><name></name></author><category term="şəbəkə təhlükəsizliyi" /><category term="şəxsi təhlükəsizlik" /><category term="vpn" /><category term="firmware yeniləmələri" /><category term="wifi təhlükəsizliyi" /><category term="router qorunması" /><category term="şifrləmə" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[Wi-Fi təhlükəsizliyi üçün VPN istifadəsi və firmware yeniləmələrinin vacibliyini kəşf edin. 2025-ci ilin yenilənmiş tövsiyələri ilə şəxsi və korporativ şəbəkənizi qorumağın effektiv yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/vpn.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/vpn.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
