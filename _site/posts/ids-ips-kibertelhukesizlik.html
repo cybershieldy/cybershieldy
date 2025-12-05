@@ -4958,6 +4958,10 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
   <p>© 2025 Emin Savaylov. Bütün hüquqlar qorunur.</p>
 </footer>
 
+<!-- ========================= -->
+<!-- 5 saniyə sonra açılan popup -->
+<!-- ========================= -->
+
 <!-- Popup HTML -->
 <div id="registerPopup" style="
   position: fixed;
@@ -4968,8 +4972,8 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  visibility: hidden;
   opacity: 0;
+  pointer-events: none;
   transition: 0.4s ease;
 ">
   <div style="
@@ -4984,7 +4988,6 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
   ">
     <h3 style="margin-top:0;">Kibertəhlükəsizlik Kursları</h3>
     <p>5 saniyə sonra qeydiyyat açıldı — sən də qoşula bilərsən.</p>
-
     <a href="/register" style="
       display:block;
       margin-top:12px;
@@ -4994,11 +4997,8 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
       border-radius:6px;
       text-decoration:none;
       font-weight:bold;
-    ">
-      Qeydiyyatdan keç
-    </a>
-
-    <span onclick="closePopup()" style="
+    ">Qeydiyyatdan keç</a>
+    <span id="closePopup" style="
       position:absolute;
       top:10px;
       right:12px;
@@ -5011,19 +5011,20 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
 <!-- Popup JS -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  function closePopup() {
-    const popup = document.getElementById('registerPopup');
-    popup.style.opacity = "0";
-    popup.style.visibility = "hidden";
-  }
+  const popup = document.getElementById("registerPopup");
+  const closeBtn = document.getElementById("closePopup");
 
-  window.closePopup = closePopup; // span onclick üçün global funksiya
-
+  // 5 saniyə sonra popup göstər
   setTimeout(function() {
-    const popup = document.getElementById('registerPopup');
     popup.style.opacity = "1";
-    popup.style.visibility = "visible";
-  }, 5000); // 5 saniyə
+    popup.style.pointerEvents = "auto";
+  }, 5000);
+
+  // Bağlama düyməsi
+  closeBtn.addEventListener("click", function() {
+    popup.style.opacity = "0";
+    popup.style.pointerEvents = "none";
+  });
 });
 </script>
 

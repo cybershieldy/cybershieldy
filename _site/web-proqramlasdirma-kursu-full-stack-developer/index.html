@@ -32,13 +32,13 @@
 <meta property="og:site_name" content="Cybershieldy Academy — Cybersecurity &amp; Web Development Training" />
 <meta property="og:image" content="https://cybershieldy.com/assets/images/web.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-12-05T19:19:59+04:00" />
+<meta property="article:published_time" content="2025-12-05T19:29:12+04:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://cybershieldy.com/assets/images/web.png" />
 <meta property="twitter:title" content="Web Proqramlaşdırma Kursu və Təlimi Full Stack Developer Bakı və Onlayn CyberShieldy" />
 <meta name="twitter:site" content="@cybershieldy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-12-05T19:19:59+04:00","datePublished":"2025-12-05T19:19:59+04:00","description":"Web Proqramlaşdırma Kursu — sıfırdan Full Stack Developer olmaq üçün praktiki təlim. HTML, CSS, JavaScript, React, Node.js, Python və SQL ilə real layihə əsaslı öyrənmə. Bakı və onlayn dərslər, sertifikat və işə hazırlıq dəstəyi — CyberShieldy.","headline":"Web Proqramlaşdırma Kursu və Təlimi Full Stack Developer Bakı və Onlayn CyberShieldy","image":"https://cybershieldy.com/assets/images/web.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer/"},"url":"https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-12-05T19:29:12+04:00","datePublished":"2025-12-05T19:29:12+04:00","description":"Web Proqramlaşdırma Kursu — sıfırdan Full Stack Developer olmaq üçün praktiki təlim. HTML, CSS, JavaScript, React, Node.js, Python və SQL ilə real layihə əsaslı öyrənmə. Bakı və onlayn dərslər, sertifikat və işə hazırlıq dəstəyi — CyberShieldy.","headline":"Web Proqramlaşdırma Kursu və Təlimi Full Stack Developer Bakı və Onlayn CyberShieldy","image":"https://cybershieldy.com/assets/images/web.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer/"},"url":"https://cybershieldy.com/web-proqramlasdirma-kursu-full-stack-developer/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -4432,6 +4432,10 @@ Bu kursda <strong>Front-end (HTML, CSS, JavaScript, React)</strong> və <strong>
   <p>© 2025 Emin Savaylov. Bütün hüquqlar qorunur.</p>
 </footer>
 
+<!-- ========================= -->
+<!-- 5 saniyə sonra açılan popup -->
+<!-- ========================= -->
+
 <!-- Popup HTML -->
 <div id="registerPopup" style="
   position: fixed;
@@ -4442,8 +4446,8 @@ Bu kursda <strong>Front-end (HTML, CSS, JavaScript, React)</strong> və <strong>
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  visibility: hidden;
   opacity: 0;
+  pointer-events: none;
   transition: 0.4s ease;
 ">
   <div style="
@@ -4458,7 +4462,6 @@ Bu kursda <strong>Front-end (HTML, CSS, JavaScript, React)</strong> və <strong>
   ">
     <h3 style="margin-top:0;">Kibertəhlükəsizlik Kursları</h3>
     <p>5 saniyə sonra qeydiyyat açıldı — sən də qoşula bilərsən.</p>
-
     <a href="/register" style="
       display:block;
       margin-top:12px;
@@ -4468,11 +4471,8 @@ Bu kursda <strong>Front-end (HTML, CSS, JavaScript, React)</strong> və <strong>
       border-radius:6px;
       text-decoration:none;
       font-weight:bold;
-    ">
-      Qeydiyyatdan keç
-    </a>
-
-    <span onclick="closePopup()" style="
+    ">Qeydiyyatdan keç</a>
+    <span id="closePopup" style="
       position:absolute;
       top:10px;
       right:12px;
@@ -4485,19 +4485,20 @@ Bu kursda <strong>Front-end (HTML, CSS, JavaScript, React)</strong> və <strong>
 <!-- Popup JS -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  function closePopup() {
-    const popup = document.getElementById('registerPopup');
-    popup.style.opacity = "0";
-    popup.style.visibility = "hidden";
-  }
+  const popup = document.getElementById("registerPopup");
+  const closeBtn = document.getElementById("closePopup");
 
-  window.closePopup = closePopup; // span onclick üçün global funksiya
-
+  // 5 saniyə sonra popup göstər
   setTimeout(function() {
-    const popup = document.getElementById('registerPopup');
     popup.style.opacity = "1";
-    popup.style.visibility = "visible";
-  }, 5000); // 5 saniyə
+    popup.style.pointerEvents = "auto";
+  }, 5000);
+
+  // Bağlama düyməsi
+  closeBtn.addEventListener("click", function() {
+    popup.style.opacity = "0";
+    popup.style.pointerEvents = "none";
+  });
 });
 </script>
 
