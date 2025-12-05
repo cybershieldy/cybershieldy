@@ -5,7 +5,7 @@ lastmod: 2025-12-05 12:00:00 +0400
 categories: [kibertəhlükəsizlik, şəbəkə təhlükəsizliyi]
 tags: [IDS, IPS, cybersecurity, network security, threat detection, kiber kurslar, hacking dərsləri, kiber dərslər, cybersecurity training]
 description: "IDS və IPS sistemləri nədir, necə işləyir və 2025-ci ildə kibertəhlükəsizlikdə niyə vacibdir? Kiber kurslar və hacking dərsləri üçün möhkəm baza yaradan geniş izah."
-image: /assets/images/ids-ips.webp
+image: /assets/images/ids.webp
 canonical: https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik
 permalink: /posts/ids-ips-kibertelhukesizlik
 ---
