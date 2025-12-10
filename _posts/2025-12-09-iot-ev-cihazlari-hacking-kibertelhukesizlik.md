@@ -5,6 +5,7 @@ lastmod: 2025-12-09 12:00:00 +0400
 categories: [kibertəhlükəsizlik, iot, hacking]
 tags: [iot hacking, ağıllı ev təhlükəsizliyi, robot tozsoran hack, hacking dərsləri, hacker kurslar, kiber kursları, kibertəhlükəsizlik dərsləri, ethical hacking, web təhlükəsizlik]
 description: "IoT ev cihazları necə hacklənir? Robot tozsoranlar, ağıllı ev sistemləri üzərindən real hacking ssenariləri, risklər və 2025 üçün peşəkar müdafiə yolları. SEO üçün optimallaşdırılmış kibertəhlükəsizlik bələdçisi."
+image: /assets/images/iota.webp
 canonical: https://cybershieldy.com/posts/iot-ev-cihazlari-hacking
 permalink: /posts/iot-ev-cihazlari-hacking
 ---
@@ -147,10 +148,9 @@ Robot tozsoranlar və ağıllı ev cihazları düzgün qorunmazsa, hackerlər ü
 
 ---
 
-## Kiber Kurslar və Təlimlər
+## 📞 Praktiki Təlim və Cyber Security Kursu
 
-📞 WhatsApp: https://wa.me/994555182523  
-
+📲 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20IDS%20IPS%20kiber%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — real təlimlər və şəxsi mentorluq.
 **CyberShieldy**  
 Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri
 
@@ -158,6 +158,6 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 
 ## Oxşar Məqalələr
 
-- IoT Botnet Hücumları və Mirai Virusları
-- Red Team və Blue Team Arasındakı Fərqlər
-- Web Təhlükəsizlik Dərslərinə Necə Başlamaq Olar?
+- [IoT Botnet Hücumları və Mirai Virusları](/posts/mirai)
+- [Red Team və Blue Team Arasındakı Fərqlər](/posts/read)
+- [Web Təhlükəsizlik Dərslərinə Necə Başlamaq Olar?](/posts/dersler)
