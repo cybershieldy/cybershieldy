@@ -1,4 +1,198 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-10T23:56:53+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu</title><link href="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik" rel="alternate" type="text/html" title="IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu" /><published>2025-12-05T12:00:00+04:00</published><updated>2025-12-05T19:02:20+04:00</updated><id>https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik"><![CDATA[<!-- Structured data -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-11T00:13:15+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</title><link href="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking" rel="alternate" type="text/html" title="IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)" /><published>2025-12-09T12:00:00+04:00</published><updated>2025-12-09T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/iot-ev-cihazlari-hacking-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking"><![CDATA[<h1 id="iot-ev-cihazları-necə-hacklənir">IoT Ev Cihazları Necə Hacklənir?</h1>
+<h2 id="robot-tozsoranlar-ağıllı-evlər-və-real-hacking-ssenariləri-2025">Robot Tozsoranlar, Ağıllı Evlər və Real Hacking Ssenariləri (2025)</h2>
+
+<p>Son illərdə <strong>IoT ev cihazları</strong> sürətlə yayılıb. Robot tozsoranlar, smart TV-lər, IP kameralar və ağıllı qapı kilidləri artıq adi ev avadanlığına çevrilib. Lakin bu rahatlıqla yanaşı, <strong>kibertəhlükəsizlik problemləri</strong> də eyni sürətlə artır.</p>
+
+<p>Ən təhlükəli məqam isə budur:<br />
+<strong>bir zəif IoT cihazı bütün ev şəbəkəsinin hacklənməsinə səbəb ola bilər.</strong></p>
+
+<hr />
+
+<h2 id="iot-ev-cihazları-nədir-və-niyə-hackerlər-üçün-cəlbedicidir">IoT Ev Cihazları Nədir və Niyə Hackerlər üçün Cəlbedicidir?</h2>
+
+<p>IoT (Internet of Things) ev cihazları internetə qoşulan və uzaqdan idarə olunan sistemlərdir:</p>
+
+<ul>
+  <li>Robot tozsoranlar (plesos)</li>
+  <li>Ağıllı kameralar</li>
+  <li>Smart televizorlar</li>
+  <li>Ağıllı prizlər və işıqlar</li>
+  <li>Ağıllı qapı kilidləri</li>
+</ul>
+
+<p>Bu cihazların əksəriyyəti:</p>
+<ul>
+  <li><strong>zəif təhlükəsizliklə istehsal olunur</strong></li>
+  <li><strong>default parollarla istifadə edilir</strong></li>
+  <li><strong>müntəzəm firmware yenilənmir</strong></li>
+</ul>
+
+<p>Məhz buna görə <strong>hacking dərsləri</strong>, <strong>hacker kurslar</strong> və <strong>kibertəhlükəsizlik kursları</strong> zamanı IoT cihazları real hədəf kimi öyrədilir.</p>
+
+<hr />
+
+<h2 id="robot-tozsoran-plesos-niyə-risklidir">Robot Tozsoran (Plesos) Niyə Risklidir?</h2>
+
+<p>Robot tozsoranlar sadəcə ev təmizləmir. Onlar:</p>
+
+<ul>
+  <li>Evin tam xəritəsini çıxarır</li>
+  <li>Hansı otağın harada olduğunu bilir</li>
+  <li>Günlük rutinləri analiz edir</li>
+  <li>Wi-Fi şəbəkəsinə daimi bağlı qalır</li>
+</ul>
+
+<p>Bu məlumatlar <strong>hücumçu üçün kritik dəyərə malikdir</strong>.<br />
+Bir hacker üçün robot tozsoran:</p>
+<blockquote>
+  <p>“Evin içindən məlumat toplayan səssiz sensor” rolunu oynayır.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="real-hacking-ssenarisi--red-team-baxışı">Real Hacking Ssenarisi – Red Team Baxışı</h2>
+
+<p><strong>Addım-addım hücum:</strong></p>
+
+<ol>
+  <li>Ev Wi-Fi şifrəsi zəifdir</li>
+  <li>IoT cihazda köhnə firmware istifadə olunur</li>
+  <li>Mobil tətbiq hesabında 2FA yoxdur</li>
+  <li>API endpoint-lər zəif qorunur</li>
+</ol>
+
+<p><strong>Hacker nələr edir?</strong></p>
+<ul>
+  <li>Robot tozsoranı ələ keçirir</li>
+  <li>Evin planını əldə edir</li>
+  <li>Evdə olmadığın saatları analiz edir</li>
+  <li>Şəbəkədə digər cihazlara lateral movement edir</li>
+</ul>
+
+<p>Bu ssenarilər <strong>kiber dərslər</strong>, <strong>ethical hacking kursları</strong> və <strong>praktik lab məşğələləri</strong> zamanı real nümunə kimi istifadə olunur.</p>
+
+<hr />
+
+<h2 id="həqiqi-hadisələr-iot-cihazlarının-hacklənməsi">Həqiqi Hadisələr: IoT Cihazlarının Hacklənməsi</h2>
+
+<p>Son illərdə:</p>
+<ul>
+  <li>robot tozsoranlardan icazəsiz səsli mesajlar göndərilib</li>
+  <li>ağıllı kameralar canlı yayımla izlənilib</li>
+  <li>smart ev sistemləri botnet-ə qoşulub</li>
+</ul>
+
+<p>Bu hadisələr sübut edir ki, <strong>IoT təhlükəsizliyi zəif qurularsa, eviniz bir kiber hücum platformasına çevrilə bilər.</strong></p>
+
+<hr />
+
+<h2 id="iot-cihazlarında-ən-çox-rast-gəlinən-təhlükəsizlik-boşluqları">IoT Cihazlarında Ən Çox Rast Gəlinən Təhlükəsizlik Boşluqları</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Zəiflik</th>
+      <th>Təhlükə</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default parollar</td>
+      <td>Kütləvi hack hücumları</td>
+    </tr>
+    <tr>
+      <td>Açıq portlar</td>
+      <td>Uzaqdan idarə</td>
+    </tr>
+    <tr>
+      <td>Şifrəsiz trafik</td>
+      <td>Man-in-the-Middle</td>
+    </tr>
+    <tr>
+      <td>Zəif API tokenləri</td>
+      <td>Hesab ələ keçirilməsi</td>
+    </tr>
+    <tr>
+      <td>Yenilənməyən firmware</td>
+      <td>Köhnə exploit-lər</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Bu mövzular <strong>web təhlükəsizlik dərsləri</strong> və <strong>kiber kursları</strong> üçün əsas praktik mövzulardandır.</p>
+
+<hr />
+
+<h2 id="blue-team--ağıllı-evlər-üçün-müdafiə-strategiyaları">Blue Team – Ağıllı Evlər üçün Müdafiə Strategiyaları</h2>
+
+<ul>
+  <li>IoT cihazları üçün ayrıca şəbəkə (VLAN) yaradın</li>
+  <li>Router firewall qaydalarını sərtləşdirin</li>
+  <li>Default parolları dərhal dəyişin</li>
+  <li>Firmware yeniləmələrini gecikdirməyin</li>
+  <li>Cloud hesablar üçün 2FA aktiv edin</li>
+  <li>Lazımsız portları bağlayın</li>
+</ul>
+
+<p><strong>Unutmayın:</strong><br />
+IoT cihazı = potensial hücum nöqtəsi.</p>
+
+<hr />
+
+<h2 id="bu-mövzular-niyə-kiber-kurslarında-öyrədilir">Bu Mövzular Niyə Kiber Kurslarında Öyrədilir?</h2>
+
+<p>Çünki real dünyada:</p>
+<ul>
+  <li>hackerlər IoT cihazları üzərindən hücum edir</li>
+  <li>şirkətlər və fərdi istifadəçilər ev səviyyəsində risk altındadır</li>
+</ul>
+
+<p>Buna görə:
+✅ <strong>kibertəhlükəsizlik dərsləri</strong><br />
+✅ <strong>hacking dərsləri</strong><br />
+✅ <strong>hacker kurslar</strong><br />
+təcrübə əsaslı şəkildə bu mövzular üzərində qurulur.</p>
+
+<hr />
+
+<h2 id="tez-tez-verilən-suallar-faq">Tez-Tez Verilən Suallar (FAQ)</h2>
+
+<p><strong>Robot tozsoran evimi izləyə bilərmi?</strong><br />
+Birbaşa yox, lakin hacklənərsə ev planı və davranışlar analiz edilə bilər.</p>
+
+<p><strong>IoT cihazı bütün şəbəkəni riskə atırmı?</strong><br />
+Bəli. Zəif bir cihaz bütün sistem üçün giriş qapısı ola bilər.</p>
+
+<p><strong>Bu bilikləri kimlər öyrənməlidir?</strong><br />
+İT mütəxəssisləri, təhlükəsizlik üzrə çalışanlar və kiber kurslara qatılan hər kəs.</p>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>IoT texnologiyası rahatlıqdır, lakin <strong>təhlükəsizliksiz rahatlıq riskdir</strong>.<br />
+Robot tozsoranlar və ağıllı ev cihazları düzgün qorunmazsa, hackerlər üçün açıq hədəfə çevrilir.</p>
+
+<p><strong>Ağıllı ev = güclü kibertəhlükəsizlik.</strong></p>
+
+<hr />
+
+<h2 id="kiber-kurslar-və-təlimlər">Kiber Kurslar və Təlimlər</h2>
+
+<p>📞 WhatsApp: https://wa.me/994555182523</p>
+
+<p><strong>CyberShieldy</strong><br />
+Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri</p>
+
+<hr />
+
+<h2 id="oxşar-məqalələr">Oxşar Məqalələr</h2>
+
+<ul>
+  <li>IoT Botnet Hücumları və Mirai Virusları</li>
+  <li>Red Team və Blue Team Arasındakı Fərqlər</li>
+  <li>Web Təhlükəsizlik Dərslərinə Necə Başlamaq Olar?</li>
+</ul>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="iot" /><category term="hacking" /><category term="iot hacking" /><category term="ağıllı ev təhlükəsizliyi" /><category term="robot tozsoran hack" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><summary type="html"><![CDATA[IoT ev cihazları necə hacklənir? Robot tozsoranlar, ağıllı ev sistemləri üzərindən real hacking ssenariləri, risklər və 2025 üçün peşəkar müdafiə yolları. SEO üçün optimallaşdırılmış kibertəhlükəsizlik bələdçisi.]]></summary></entry><entry><title type="html">IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu</title><link href="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik" rel="alternate" type="text/html" title="IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu" /><published>2025-12-05T12:00:00+04:00</published><updated>2025-12-05T19:02:20+04:00</updated><id>https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik"><![CDATA[<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1637,346 +1831,4 @@ Hücum və müdafiə simulyasiyalarının real ssenarilərlə izahı.</p>
     <p>📶 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a><br />
 Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.</p>
   </li>
-</ul>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="web təhlükəsizliyi" /><category term="sql injection" /><category term="sql injection" /><category term="sqli" /><category term="input validation" /><category term="parametrizasiya" /><category term="web təhlükəsizliyi" /><category term="kiber təlim" /><category term="kiber kurs" /><category term="web kurs" /><category term="backend təhlükəsizlik" /><category term="ethical hacking" /><category term="penetration testing" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[SQL Injection nədir, necə işləyir və ondan necə qorunmaq olar? 2025-ci ilə uyğun müdafiə texnikaları, təhlükəsiz kod nümunələri, parametrizasiya və real risk ssenariləri ilə tanış olun.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/sql.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/sql.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</title><link href="https://cybershieldy.com/posts/osi-model-hucumlari-2025" rel="alternate" type="text/html" title="OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)" /><published>2025-09-22T12:00:00+04:00</published><updated>2025-09-22T19:20:14+04:00</updated><id>https://cybershieldy.com/posts/osi-model-hucumlari-ve-mudafie-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/osi-model-hucumlari-2025"><![CDATA[<h1 id="osi-modelinə-görə-hücumlar-və-müdafiə-yolları--7-qatlı-təhlükəsizlik-analizi-2025">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</h1>
-
-<blockquote>
-  <p><strong>Son Yenilənmə:</strong> 22 Sentyabr 2025<br />
-<strong>Yazı tipi:</strong> OSI Modeli, Hücumlar və Real Dünya Təhlükəsizliyi</p>
-</blockquote>
-
-<hr />
-
-<h2 id="osi-modeli-nədir">OSI Modeli Nədir?</h2>
-
-<p>OSI (Open Systems Interconnection) modeli şəbəkə əlaqələrinin 7 təbəqədən ibarət konsepsiyasıdır:</p>
-
-<ol>
-  <li>Fiziki qat (Physical Layer)</li>
-  <li>Data Link qat (Layer 2)</li>
-  <li>Şəbəkə qat (Network Layer)</li>
-  <li>Nəqliyyat qat (Transport Layer)</li>
-  <li>Sessiya qat (Session Layer)</li>
-  <li>Təqdimat qat (Presentation Layer)</li>
-  <li>Tətbiq qat (Application Layer)</li>
-</ol>
-
-<p>Hər qat özünəməxsus protokollar və funksiyalar daşıyır, buna görə də hücumlar qatlara görə dəyişir.</p>
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
-"Analyzing OSI Layer 1: Physical Layer...",
-  "Detecting ARP Spoofing at Layer 2...",
-  "Inspecting IP packets on Layer 3...",
-  "Blocking TCP SYN Flood on Layer 4...",
-  "Securing session tokens (Layer 5)...",
-  "Validating MIME types (Layer 6)...",
-  "Preventing SQL Injection at Layer 7...",
-  "Welcome to CyberShieldy.com"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  white-space: nowrap;
-  background-color: #000;
-  color: #39ff14;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 350px;
-  height: auto;
-  line-height: 1.6em;
-  margin-bottom: 25px;
-
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14;
-
-  text-shadow:
-    0 0 3px #39ff14,
-    0 0 6px #39ff14;
-
-  overflow: hidden;
-  user-select: none;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<hr />
-
-<h2 id="1️⃣-fiziki-qat-hücumları-layer-1">1️⃣ Fiziki Qat Hücumları (Layer 1)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>Kabel kəsilməsi, fiziki müdaxilə</li>
-      <li>Jamming hücumu (Wi-Fi və ya radiosiqnalın pozulması)</li>
-      <li>Hardware manipulyasiyası</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> fiziki hücum, hardware sabotaj, jamming, kabel kəsilməsi</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>Fiziki təhlükəsizlik tədbirləri (kameralar, giriş nəzarəti)</li>
-      <li>Qoşulma nöqtələrinin fiziki qorunması</li>
-      <li>RF mühitinin monitorinqi</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="2️⃣-data-link-qat-hücumları-layer-2">2️⃣ Data Link Qat Hücumları (Layer 2)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>ARP Spoofing / Poisoning</li>
-      <li>MAC Spoofing</li>
-      <li>VLAN hopping</li>
-      <li>STP (Spanning Tree Protocol) hücumları</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> arp spoofing, mac spoofing, vlan hopping, stp attack, layer 2 attack</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>Dinamik ARP inspection (DAI)</li>
-      <li>Port security və MAC filtrasiya</li>
-      <li>VLAN segmentasiyası və ACL-lər</li>
-      <li>Şəbəkə monitorinqi və anomal davranış aşkarlanması</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="3️⃣-şəbəkə-qat-hücumları-layer-3">3️⃣ Şəbəkə Qat Hücumları (Layer 3)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>IP Spoofing</li>
-      <li>ICMP Flood (ping flood)</li>
-      <li>Routing hücumları (BGP hijacking)</li>
-      <li>Man-in-the-Middle (MITM)</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> ip spoofing, icmp flood, bgp hijacking, mitm attack, network layer attack</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>İntrusion Detection/Prevention Systems (IDS/IPS)</li>
-      <li>IP source guard</li>
-      <li>RPKI (Resource Public Key Infrastructure) BGP qorunması</li>
-      <li>Şəbəkə trafikinin şifrələnməsi (VPN, IPsec)</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="4️⃣-nəqliyyat-qat-hücumları-layer-4">4️⃣ Nəqliyyat Qat Hücumları (Layer 4)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>TCP SYN Flood (DDoS)</li>
-      <li>Port scanning</li>
-      <li>Session hijacking</li>
-      <li>UDP flood</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> tcp syn flood, ddos attack, session hijacking, port scanning, layer 4 attack</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>Firewall və DoS qorunması</li>
-      <li>SYN Cookies istifadəsi</li>
-      <li>Trafik limiti və anomaliya aşkarlanması</li>
-      <li>Sessiya idarəetmə protokollarının gücləndirilməsi</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="5️⃣-sessiya-qat-hücumları-layer-5">5️⃣ Sessiya Qat Hücumları (Layer 5)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>Session hijacking</li>
-      <li>Session fixation</li>
-      <li>Man-in-the-Middle sessiya hücumları</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> session hijacking, session fixation, mitm session, layer 5 attack</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>Sessiya tokenlərinin təhlükəsiz idarə olunması</li>
-      <li>HTTPS və TLS istifadəsi</li>
-      <li>Multi-factor authentication (MFA)</li>
-      <li>Sessiya müddəti və avtomatik logout</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="6️⃣-təqdimat-qat-hücumları-layer-6">6️⃣ Təqdimat Qat Hücumları (Layer 6)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>SSL stripping</li>
-      <li>MIME-based hücumlar</li>
-      <li>Kodlaşdırma və şifrələmə zəiflikləri</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> ssl stripping, mime attack, encoding vulnerabilities, layer 6 attack</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>TLS 1.3 və müasir şifrələmə standartları</li>
-      <li>HTTP Strict Transport Security (HSTS)</li>
-      <li>Data validation və sanitizasiya</li>
-      <li>Kodlaşdırma standartlarına riayət</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="7️⃣-tətbiq-qat-hücumları-layer-7">7️⃣ Tətbiq Qat Hücumları (Layer 7)</h2>
-
-<ul>
-  <li><strong>Hücum növləri:</strong>
-    <ul>
-      <li>SQL Injection</li>
-      <li>Cross-Site Scripting (XSS)</li>
-      <li>Cross-Site Request Forgery (CSRF)</li>
-      <li>Phishing və sosial mühəndislik</li>
-      <li>Remote Code Execution (RCE)</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Açar sözlər:</strong> sql injection, xss, csrf, phishing, rce, web application attack, layer 7 attack</p>
-  </li>
-  <li><strong>Müdafiə yolları:</strong>
-    <ul>
-      <li>Input validation və parametrizə edilmiş sorğular</li>
-      <li>Web Application Firewall (WAF)</li>
-      <li>User təlimləri və sosial mühəndislikdən müdafiə</li>
-      <li>Daima yenilənən təhlükəsizlik yamaqları və kod yoxlamaları</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="nəticə-və-tövsiyələr">Nəticə və Tövsiyələr</h2>
-
-<p>OSI modelinə əsaslanan bu qatlı yanaşma ilə hücumların növlərini və müdafiə metodlarını yaxşı başa düşmək mümkündür. Hər qat özünəməxsus zəifliklərə malikdir, buna görə də təhlükəsizlik qatlı və çoxsahəli olmalıdır.</p>
-
-<p><strong>Əlavə olaraq:</strong></p>
-
-<ul>
-  <li>Penetrasiya testləri ilə zəifliklərin aşkarlanması</li>
-  <li>Red Team və Blue Team əməliyyatlarının həyata keçirilməsi</li>
-  <li>Müntəzəm təhlükəsizlik auditləri</li>
-  <li>İstifadəçilərin maarifləndirilməsi və təlimlər</li>
-</ul>
-
-<hr />
-
-<h2 id="əlaqə-və-təlimlər">Əlaqə və Təlimlər</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20OSI%20modeli%20hücumlar%C4%B1%20v%C9%99%20təhlükəsizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kiber Təhlükəsizlik və OSI Model Hücumları üzrə təlim və mentorluq.</p>
-
-<hr />
-
-<!-- Strukturlaşdırılmış məlumat (SEO – JSON-LD) -->
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)",
-  "description": "OSI modelinin 7 qatına aid hücum növlərini və müdafiə üsullarını dərindən öyrənin. Şəbəkə hücumları, protokol zəiflikləri, tətbiqetmə qatındakı XSS, SQL Injection və sosial mühəndislik taktikaları ilə bağlı ən son təhlil.",
-  "image": "https://cybershieldy.com/assets/images/osi.webp",
-  "author": {
-    "@type": "Person",
-    "name": "CyberShieldy"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-09-22T12:00:00+04:00",
-  "dateModified": "2025-09-22T12:00:00+04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/osi-model-hucumlari-2025"
-  }
-}
-</script>
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li>
-    <p>🔐 <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a><br />
-Sosial mühəndislik və e-mail ilə gələn təhdidlərin analizi.</p>
-  </li>
-  <li>
-    <p>🥷 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a><br />
-Hücum və müdafiə simulyasiyalarının real ssenarilərlə izahı.</p>
-  </li>
-  <li>
-    <p>📶 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a><br />
-Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.</p>
-  </li>
-</ul>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="osi modeli" /><category term="hücumlar" /><category term="şəbəkə təhlükəsizliyi" /><category term="osi model" /><category term="network security" /><category term="penetration testing" /><category term="layer 1 attack" /><category term="layer 2 attack" /><category term="layer 3 attack" /><category term="layer 4 attack" /><category term="layer 5 attack" /><category term="layer 6 attack" /><category term="layer 7 attack" /><category term="ddos" /><category term="man in the middle" /><category term="arp spoofing" /><category term="session hijacking" /><category term="sql injection" /><category term="xss" /><category term="phishing" /><category term="cyber attacks" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[OSI modelinin 7 qatına aid hücum növlərini və müdafiə üsullarını dərindən öyrənin. Şəbəkə hücumları, protokol zəiflikləri, tətbiqetmə qatındakı XSS, SQL Injection və sosial mühəndislik taktikaları ilə bağlı ən son təhlil.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/osi.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/osi.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</ul>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="web təhlükəsizliyi" /><category term="sql injection" /><category term="sql injection" /><category term="sqli" /><category term="input validation" /><category term="parametrizasiya" /><category term="web təhlükəsizliyi" /><category term="kiber təlim" /><category term="kiber kurs" /><category term="web kurs" /><category term="backend təhlükəsizlik" /><category term="ethical hacking" /><category term="penetration testing" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[SQL Injection nədir, necə işləyir və ondan necə qorunmaq olar? 2025-ci ilə uyğun müdafiə texnikaları, təhlükəsiz kod nümunələri, parametrizasiya və real risk ssenariləri ilə tanış olun.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/sql.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/sql.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
