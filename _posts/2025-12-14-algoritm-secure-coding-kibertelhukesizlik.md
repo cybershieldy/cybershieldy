@@ -230,11 +230,17 @@ Kod:
 
 📞 **Praktiki Secure Coding və Kiber Təlimlər**
 
-📲 WhatsApp ilə əlaqə  
-**CyberShieldy Academy**  
-*Kibertəhlükəsizlik Kursları • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri*
+📲 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20IDS%20IPS%20kiber%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — real təlimlər və şəxsi mentorluq.
+**CyberShieldy**  
+Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri
 
 ---
+
+## 📚 Oxşar Yazılar
+
+- [İki faktorlu identifikasiya nədir və niyə vacibdir?](/posts/iki-faktorlu-identifikasiya)  
+- [Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri](/posts/red-team-vs-blue-team)
+
 
 İstəsən növbəti mərhələdə:
 - 🔥 SQL Injection (PHP PDO)

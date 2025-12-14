@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-14T12:45:10+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)</title><link href="https://cybershieldy.com/posts/secure-coding-algoritm" rel="alternate" type="text/html" title="Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)" /><published>2025-12-14T10:00:00+04:00</published><updated>2025-12-14T12:40:41+04:00</updated><id>https://cybershieldy.com/posts/algoritm-secure-coding-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/secure-coding-algoritm"><![CDATA[<h1 id="ağıllı-alqoritm-və-güclü-coding">Ağıllı Alqoritm və Güclü Coding</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-14T12:51:03+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)</title><link href="https://cybershieldy.com/posts/secure-coding-algoritm" rel="alternate" type="text/html" title="Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)" /><published>2025-12-14T10:00:00+04:00</published><updated>2025-12-14T12:45:16+04:00</updated><id>https://cybershieldy.com/posts/algoritm-secure-coding-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/secure-coding-algoritm"><![CDATA[<h1 id="ağıllı-alqoritm-və-güclü-coding">Ağıllı Alqoritm və Güclü Coding</h1>
 <h2 id="kibertəhlükəsizlikdə-kodlaşdırmanın-real-gücü-və-funksionallığı-2025">Kibertəhlükəsizlikdə Kodlaşdırmanın Real Gücü və Funksionallığı (2025)</h2>
 
 <p>Müasir <strong>kibertəhlükəsizlik</strong> artıq təkcə firewall və antivirusdan ibarət deyil.<br />
@@ -251,11 +251,18 @@
 
 <p>📞 <strong>Praktiki Secure Coding və Kiber Təlimlər</strong></p>
 
-<p>📲 WhatsApp ilə əlaqə<br />
-<strong>CyberShieldy Academy</strong><br />
-<em>Kibertəhlükəsizlik Kursları • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri</em></p>
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20IDS%20IPS%20kiber%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə</a> — real təlimlər və şəxsi mentorluq.
+<strong>CyberShieldy</strong><br />
+Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri</p>
 
 <hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir və niyə vacibdir?</a></li>
+  <li><a href="/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team vs Blue Team fərqləri</a></li>
+</ul>
 
 <p>İstəsən növbəti mərhələdə:</p>
 <ul>
