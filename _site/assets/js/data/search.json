@@ -37,6 +37,15 @@
   },
   
   {
+    "title": "Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)",
+    "url": "/posts/secure-coding-algoritm",
+    "categories": "kibertəhlükəsizlik, proqramlaşdırma, web təhlükəsizlik",
+    "tags": "kibertəhlükəsizlik kursları, kiber dərslər, hacking dərsləri, hacker kurslar, secure coding, javascript təhlükəsizlik, php təhlükəsizlik, xss hücumu, web hacking",
+    "date": "2025-11-13 16:00:00 +0400",
+    "content": "Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi."
+  },
+  
+  {
     "title": "Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)",
     "url": "/posts/kompyuter-viruslari-exploit",
     "categories": "kiber təhlükəsizlik, malware, exploit, incident-response",

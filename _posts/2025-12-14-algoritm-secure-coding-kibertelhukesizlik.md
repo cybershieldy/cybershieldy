@@ -1,7 +1,7 @@
 ---
 title: "Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)"
-date: 2025-12-14 16:00:00 +0400
-lastmod: 2025-12-14 16:00:00 +0400
+date: 2025-11-13 16:00:00 +0400
+lastmod: 2025-11-13 16:00:00 +0400
 categories: [kibertəhlükəsizlik, proqramlaşdırma, web təhlükəsizlik]
 tags:
   - kibertəhlükəsizlik kursları
