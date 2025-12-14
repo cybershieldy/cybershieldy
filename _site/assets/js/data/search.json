@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)",
+    "url": "/posts/secure-coding-algoritm",
+    "categories": "kibertəhlükəsizlik, proqramlaşdırma, web təhlükəsizlik",
+    "tags": "kibertəhlükəsizlik kursları, kiber dərslər, hacking dərsləri, hacker kurslar, secure coding, javascript təhlükəsizlik, php təhlükəsizlik, xss hücumu, web hacking",
+    "date": "2025-12-14 10:00:00 +0400",
+    "content": "Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi."
+  },
+  
+  {
     "title": "IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)",
     "url": "/posts/iot-ev-cihazlari-hacking",
     "categories": "kibertəhlükəsizlik, iot, hacking",
@@ -34,15 +43,6 @@
     "tags": "ssh, brute force, fail2ban, linux təhlükəsizliyi, blue team, kiberhücum, cybersecurity kursu, ethical hacking, red team, penetration testing",
     "date": "2025-11-28 12:00:00 +0400",
     "content": "Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov."
-  },
-  
-  {
-    "title": "Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)",
-    "url": "/posts/secure-coding-algoritm",
-    "categories": "kibertəhlükəsizlik, proqramlaşdırma, web təhlükəsizlik",
-    "tags": "kibertəhlükəsizlik kursları, kiber dərslər, hacking dərsləri, hacker kurslar, secure coding, javascript təhlükəsizlik, php təhlükəsizlik, xss hücumu, web hacking",
-    "date": "2025-11-13 16:00:00 +0400",
-    "content": "Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi."
   },
   
   {
