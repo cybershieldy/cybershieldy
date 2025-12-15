@@ -14,7 +14,7 @@ tags:
   - xss hücumu
   - web hacking
 description: "Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi."
-image: /assets/images/secure-coding.webp
+image: /assets/images/algo.webp
 canonical: https://cybershieldy.com/posts/secure-coding-algoritm
 permalink: /posts/secure-coding-algoritm
 ---
