@@ -19,7 +19,7 @@ tags: [
   real kiber hücumlar
 ]
 description: "Fiziki hücumlar necə həyata keçirilir? Flipper Zero, BadUSB, Physical + Flask Web Attack və real Red Team ssenariləri ilə 2025 üçün geniş kibertəhlükəsizlik bələdçisi. Kiber dərslər və hacker kurslar üçün ideal mənbə."
-image: /assets/images/physical-hacking.webp
+image: /assets/images/bad_usb.webp
 canonical: https://cybershieldy.com/posts/fiziki-hucumlar-genis
 permalink: /posts/fiziki-hucumlar-genis
 ---
