@@ -1,7 +1,7 @@
 ---
 title: "Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)"
-date: 2025-12-17 14:00:00 +0400
-lastmod: 2025-12-17 14:00:00 +0400
+date: 2025-12-17 08:00:00 +0400
+lastmod: 2025-12-17 08:00:00 +0400
 categories: [kibertəhlükəsizlik, hacking, physical-security]
 tags: [
   fiziki hücumlar,
