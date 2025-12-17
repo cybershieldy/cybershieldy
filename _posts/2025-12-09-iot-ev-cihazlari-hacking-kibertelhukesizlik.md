@@ -156,8 +156,9 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 
 ---
 
-## Oxşar Məqalələr
+## 📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər
 
-- [IoT Botnet Hücumları və Mirai Virusları](/posts/mirai)
-- [Red Team və Blue Team Arasındakı Fərqlər](/posts/read)
-- [Web Təhlükəsizlik Dərslərinə Necə Başlamaq Olar?](/posts/dersler)
+- [Wi‑Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari)
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)
