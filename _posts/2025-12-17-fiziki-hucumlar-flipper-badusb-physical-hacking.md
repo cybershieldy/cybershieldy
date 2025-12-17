@@ -242,9 +242,9 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 
 ---
 
-## Oxşar Məqalələr
 
-- [Flipper Zero ilə Real Physical Hacking](/posts/flipper-zero)
-- [BadUSB Hücumları və Müdafiə Yolları](/posts/badusb)
-- [Flask Web Təhlükəsizlik Dərsləri](/posts/flask-security)
-- [Red Team vs Blue Team Real Təlimlər](/posts/red-blue)
+## 📚 Oxşar Yazılar
+
+- [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
+- [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
+- [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
