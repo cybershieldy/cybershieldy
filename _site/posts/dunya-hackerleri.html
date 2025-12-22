@@ -1195,7 +1195,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="487 words"
+  title="499 words"
 >
   <em>2 min</em> read</span>
 
@@ -1438,6 +1438,54 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
   <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
   <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
 </ul>
+
+<p>&lt;div id=”cyber-popup” style=”display:none;”&gt;</p>
+<div id="popup-content">
+    <p id="popup-message">Salam! CyberShieldy kiber kurslarına qoşulmaq istəyirsiniz?</p>
+    <div id="popup-buttons">
+      <button id="popup-join">Qoşul</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+<p>&lt;/div&gt;</p>
+
+<style>
+#cyber-popup {
+  position: fixed; top:0; left:0; right:0; bottom:0;
+  display: flex; align-items:center; justify-content:center;
+  background: rgba(0,0,0,0.88); z-index: 9999;
+}
+#popup-content {
+  background: #0b1220; color:white; padding:20px;
+  border-radius:12px; text-align:center; max-width:400px; margin:auto;
+}
+#popup-buttons { margin-top:15px; display:flex; justify-content:space-around; }
+#popup-buttons button { padding:8px 15px; border:none; border-radius:6px; cursor:pointer; font-weight:bold; }
+#popup-join { background-color:#4caf50; color:white; }
+#popup-close { background-color:#f44336; color:white; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  if (localStorage.getItem("cyberPopupSeen")) return;
+  const popup = document.getElementById("cyber-popup");
+  setTimeout(() => { popup.style.display = "flex"; }, 5000);
+
+  document.getElementById("popup-join").addEventListener("click", () => {
+    const number = "994555182523";
+    const msg = encodeURIComponent("Salam, kiber kurslarınızla maraqlanıram!");
+    window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
+    popup.style.display = "none";
+    localStorage.setItem("cyberPopupSeen", "true");
+  });
+
+  document.getElementById("popup-close").addEventListener("click", () => {
+    popup.style.display = "none";
+    localStorage.setItem("cyberPopupSeen", "true");
+  });
+});
+</script>
+
 
   </div>
 
