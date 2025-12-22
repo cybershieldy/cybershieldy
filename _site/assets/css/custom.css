@@ -97,3 +97,60 @@
 #topbar-wrapper {
   backdrop-filter: blur(6px);
 }
+
+/* ===============================
+   CYBER POPUP – KIBER DERS REKLAMI
+   =============================== */
+
+.cyber-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.88);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.popup-box {
+  position: relative;
+  background: #0b1220;
+  border: 1px solid #00ff99;
+  padding: 30px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 30px #00ff99;
+}
+
+.popup-box h2 {
+  color: #00ff99;
+  margin-bottom: 10px;
+}
+
+.popup-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #00ff99;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.popup-btn:hover {
+  background: #00cc7a;
+}
+
+.popup-close {
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+}
