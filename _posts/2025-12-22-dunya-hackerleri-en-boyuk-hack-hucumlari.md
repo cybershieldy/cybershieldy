@@ -1,7 +1,7 @@
 ---
 title: "Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)"
-date: 2025-12-10 12:00:00 +0400
-lastmod: 2025-12-10 12:00:00 +0400
+date: 2025-12-22 12:00:00 +0400
+lastmod: 2025-12-22 12:00:00 +0400
 categories: [kibertəhlükəsizlik, hacking, cyberwar]
 tags: [dünya hackerləri, ən böyük hacklənmələr, hacking dərsləri, hacker kurslar, kiber kursları, kibertəhlükəsizlik dərsləri, red team, cyber attack, data breach, ethical hacking]
 description: "Dünya hackerləri kimlərdir? Tarixin ən böyük hack hücumları, sızdırılan milyardlarla məlumat, real kiber hücum xəbərləri və bu hücumların necə baş verdiyi. 2025 üçün SEO optimallaşdırılmış kibertəhlükəsizlik və hacking bələdçisi."
