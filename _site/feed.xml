@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-23T00:01:02+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-22T12:00:00+04:00</published><updated>2025-12-22T23:58:04+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-23T00:11:07+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-22T12:00:00+04:00</published><updated>2025-12-22T23:58:04+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
 <h2 id="real-kiber-saldırılar-data-sızıntıları-və-qlobal-təhlükəsizlik-böhranı-2025">Real Kiber Saldırılar, Data Sızıntıları və Qlobal Təhlükəsizlik Böhranı (2025)</h2>
 
 <p>Kibertəhlükəsizlik artıq sadəcə texniki məsələ deyil — bu, <strong>qlobal müharibə alətidir</strong>.<br />
@@ -210,9 +210,14 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 
 <div id="cyber-popup" style="display:none;">
   <div id="popup-content">
-    <p id="popup-message">Salam! CyberShieldy kiber kurslarına qoşulmaq istəyirsiniz?</p>
+    <p id="popup-message">Salam! CyberShieldy kiber kurslarına qoşulmaq üçün aşağıdakı formu doldurun:</p>
+    <div id="popup-form">
+      <input type="text" id="popup-name" placeholder="Ad" required="" />
+      <input type="text" id="popup-surname" placeholder="Soyad" required="" />
+      <input type="tel" id="popup-phone" placeholder="Mobil Nömrə" required="" />
+    </div>
     <div id="popup-buttons">
-      <button id="popup-join">Qoşul</button>
+      <button id="popup-join">Göndər</button>
       <button id="popup-close">Bağla</button>
     </div>
   </div>
@@ -220,13 +225,25 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 
 <style>
 #cyber-popup {
-  position: fixed; top:0; left:0; right:0; bottom:0;
-  display: flex; align-items:center; justify-content:center;
+  position: fixed;
+  left:50%; bottom:0;
+  transform: translateX(-50%) translateY(100%);
+  display:flex; align-items:center; justify-content:center;
   background: rgba(0,0,0,0.88); z-index: 9999;
+  transition: transform 0.5s ease;
+}
+#cyber-popup.show {
+  transform: translateX(-50%) translateY(0%);
 }
 #popup-content {
   background: #0b1220; color:white; padding:20px;
-  border-radius:12px; text-align:center; max-width:400px; margin:auto;
+  border-radius:12px; text-align:center; max-width:400px; width:90%;
+}
+#popup-form {
+  display:flex; flex-direction:column; gap:10px; margin-top:10px;
+}
+#popup-form input {
+  padding:8px; border-radius:6px; border:none;
 }
 #popup-buttons { margin-top:15px; display:flex; justify-content:space-around; }
 #popup-buttons button { padding:8px 15px; border:none; border-radius:6px; cursor:pointer; font-weight:bold; }
@@ -238,18 +255,52 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 document.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("cyberPopupSeen")) return;
   const popup = document.getElementById("cyber-popup");
-  setTimeout(() => { popup.style.display = "flex"; }, 5000);
 
+  let scrollTimeout;
+  let shown = false;
+
+  // Popup göstərmə funksiyası
+  function showPopup() {
+    popup.style.display = "flex";
+    setTimeout(() => popup.classList.add("show"), 50);
+    shown = true;
+  }
+
+  // 5 saniyə gecikmə ilə ilk açılış
+  setTimeout(() => showPopup(), 5000);
+
+  // Scroll hərəkətinə bağlı animasiya
+  window.addEventListener("scroll", () => {
+    if (!shown) return;
+    clearTimeout(scrollTimeout);
+    popup.classList.remove("show"); // scroll başlayanda gizlət
+    scrollTimeout = setTimeout(() => {
+      popup.classList.add("show"); // scroll bitəndə yenidən göstər
+    }, 300); // 0.3s scroll sonrası
+  });
+
+  // Göndər düyməsi
   document.getElementById("popup-join").addEventListener("click", () => {
-    const number = "994555182523";
-    const msg = encodeURIComponent("Salam, kiber kurslarınızla maraqlanıram!");
+    const name = document.getElementById("popup-name").value.trim();
+    const surname = document.getElementById("popup-surname").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if(!name || !surname || !phone){
+      alert("Zəhmət olmasa bütün sahələri doldurun!");
+      return;
+    }
+
+    const number = "994555182523"; // WhatsApp nömrən
+    const msg = encodeURIComponent(`Salam, CyberShieldy kiber kurslarına qoşulmaq istəyirəm. \nAd: ${name}\nSoyad: ${surname}\nMobil: ${phone}`);
     window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
-    popup.style.display = "none";
+
+    popup.classList.remove("show");
     localStorage.setItem("cyberPopupSeen", "true");
   });
 
+  // Bağla düyməsi
   document.getElementById("popup-close").addEventListener("click", () => {
-    popup.style.display = "none";
+    popup.classList.remove("show");
     localStorage.setItem("cyberPopupSeen", "true");
   });
 });
