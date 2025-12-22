@@ -165,6 +165,6 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 
 ## 📎 Əlaqəli Məqalələr
 
-- [Phishing hücumları və real nümunələr](/posts/phishing-hucumlari)
-- [Red Team və Blue Team fərqləri](/posts/red-team-blue-team)
-- [Sosial mühəndislik hücumları](/posts/sosial-muhendislik)
+- [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
+- [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
+- [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
