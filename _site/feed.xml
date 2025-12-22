@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-17T17:37:21+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)</title><link href="https://cybershieldy.com/posts/fiziki-hucumlar-genis" rel="alternate" type="text/html" title="Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)" /><published>2025-12-17T08:00:00+04:00</published><updated>2025-12-17T17:19:51+04:00</updated><id>https://cybershieldy.com/posts/fiziki-hucumlar-flipper-badusb-physical-hacking</id><content type="html" xml:base="https://cybershieldy.com/posts/fiziki-hucumlar-genis"><![CDATA[<h1 id="fiziki-hücumlar-physical-attacks-nədir">Fiziki Hücumlar (Physical Attacks) Nədir?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-22T21:58:43+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)</title><link href="https://cybershieldy.com/posts/fiziki-hucumlar-genis" rel="alternate" type="text/html" title="Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)" /><published>2025-12-17T08:00:00+04:00</published><updated>2025-12-17T17:19:51+04:00</updated><id>https://cybershieldy.com/posts/fiziki-hucumlar-flipper-badusb-physical-hacking</id><content type="html" xml:base="https://cybershieldy.com/posts/fiziki-hucumlar-genis"><![CDATA[<h1 id="fiziki-hücumlar-physical-attacks-nədir">Fiziki Hücumlar (Physical Attacks) Nədir?</h1>
 <h2 id="real-red-team-usb-flipper-zero-və-web-hücum-kombinasiyaları-2025">Real Red Team, USB, Flipper Zero və Web Hücum Kombinasiyaları (2025)</h2>
 
 <p>Əksər insanlar <strong>kiber hücumları</strong> yalnız internet üzərindən edilən proses kimi anlayır. Halbuki real dünyada ən təhlükəli hücumların böyük hissəsi <strong>fiziki girişlə</strong> başlayır.</p>
@@ -576,7 +576,215 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
   <li>🔥 Tam secure login alqoritmi (front + back)</li>
 </ul>
 
-<p>De hansını yazım, <strong>kurs səviyyəsində</strong> davam edək 🛡️💻</p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="proqramlaşdırma" /><category term="web təhlükəsizlik" /><category term="kibertəhlükəsizlik kursları" /><category term="kiber dərslər" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="secure coding" /><category term="javascript təhlükəsizlik" /><category term="php təhlükəsizlik" /><category term="xss hücumu" /><category term="web hacking" /><summary type="html"><![CDATA[Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/algo.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/algo.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</title><link href="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking" rel="alternate" type="text/html" title="IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)" /><published>2025-12-09T12:00:00+04:00</published><updated>2025-12-11T00:36:00+04:00</updated><id>https://cybershieldy.com/posts/iot-ev-cihazlari-hacking-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking"><![CDATA[<h1 id="iot-ev-cihazları-necə-hacklənir">IoT Ev Cihazları Necə Hacklənir?</h1>
+<p>De hansını yazım, <strong>kurs səviyyəsində</strong> davam edək 🛡️💻</p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="proqramlaşdırma" /><category term="web təhlükəsizlik" /><category term="kibertəhlükəsizlik kursları" /><category term="kiber dərslər" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="secure coding" /><category term="javascript təhlükəsizlik" /><category term="php təhlükəsizlik" /><category term="xss hücumu" /><category term="web hacking" /><summary type="html"><![CDATA[Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/algo.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/algo.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-10T12:00:00+04:00</published><updated>2025-12-10T12:00:00+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
+<h2 id="real-kiber-saldırılar-data-sızıntıları-və-qlobal-təhlükəsizlik-böhranı-2025">Real Kiber Saldırılar, Data Sızıntıları və Qlobal Təhlükəsizlik Böhranı (2025)</h2>
+
+<p>Kibertəhlükəsizlik artıq sadəcə texniki məsələ deyil — bu, <strong>qlobal müharibə alətidir</strong>.<br />
+Dünya üzrə məşhur hacker qrupları, dövlət dəstəkli kiber ordular və mütəşəkkil cyber crime şəbəkələri hər il <strong>milyardlarla dollar zərər</strong> vurur.</p>
+
+<p>Bu səbəbdən <strong>hacking dərsləri</strong>, <strong>hacker kurslar</strong>, <strong>kiber kursları</strong> və <strong>kibertəhlükəsizlik dərsləri</strong> real hücum nümunələri üzərindən öyrədilir.</p>
+
+<hr />
+
+<h2 id="dünya-səviyyəli-hackerlər-kimlərdir">Dünya Səviyyəli Hackerlər Kimlərdir?</h2>
+
+<p>Dünya hackerləri əsasən 4 kateqoriyaya bölünür:</p>
+
+<h3 id="-black-hat-hackerlər">🔴 Black Hat Hackerlər</h3>
+<ul>
+  <li>Qanunsuz data oğurluğu</li>
+  <li>Bank və kripto hücumları</li>
+  <li>Ransomware və extortion</li>
+</ul>
+
+<h3 id="-gray-hat-hackerlər">⚪ Gray Hat Hackerlər</h3>
+<ul>
+  <li>İcazəsiz testlər</li>
+  <li>Zəiflik tapıb yayımlama</li>
+  <li>Etik və qeyri-etik arasında sərhəd</li>
+</ul>
+
+<h3 id="-white-hat--ethical-hackerlər">🔵 White Hat / Ethical Hackerlər</h3>
+<ul>
+  <li>Şirkətlərin təhlükəsizlik testləri</li>
+  <li>Bug bounty proqramları</li>
+  <li>Red Team əməliyyatları</li>
+</ul>
+
+<h3 id="-dövlət-dəstəkli-hacker-qrupları">🟣 Dövlət Dəstəkli Hacker Qrupları</h3>
+<ul>
+  <li>Kiber casusluq</li>
+  <li>Enerji və dövlət sistemlərinə hücum</li>
+  <li>Kiber müharibə əməliyyatları</li>
+</ul>
+
+<p>Bu bölmələr <strong>kiber dərslər</strong> və <strong>ethical hacking kursları</strong> üçün fundamental biliklərdir.</p>
+
+<hr />
+
+<h2 id="tarixin-ən-böyük-hack-hücumları">Tarixin Ən Böyük Hack Hücumları</h2>
+
+<h3 id="-yahoo-data-breach">💥 Yahoo Data Breach</h3>
+<ul>
+  <li>3 milyard istifadəçi məlumatı sızdırıldı</li>
+  <li>Tarixin ən böyük data breach hadisəsi</li>
+  <li>Şifrələr, e-maillər, təhlükəsizlik sualları</li>
+</ul>
+
+<h3 id="-equifax-hücumu">💥 Equifax Hücumu</h3>
+<ul>
+  <li>147 milyon insanın maliyyə məlumatları</li>
+  <li>Social Security Number sızıntısı</li>
+  <li>Patch edilməmiş server zəifliyi</li>
+</ul>
+
+<h3 id="-facebook-meta-data-leak">💥 Facebook (Meta) Data Leak</h3>
+<ul>
+  <li>500+ milyon istifadəçi datası</li>
+  <li>Telefon nömrələri və profillər</li>
+  <li>Açıq API zəifliyi</li>
+</ul>
+
+<h3 id="-sony-pictures-hack">💥 Sony Pictures Hack</h3>
+<ul>
+  <li>Daxili e-maillər, filmlər, müqavilələr</li>
+  <li>Dövlət səviyyəli kiber hücum iddiaları</li>
+  <li>Korporativ nüfuz itkisi</li>
+</ul>
+
+<p>Bu hadisələr <strong>hacker dərsləri</strong> və <strong>kibertəhlükəsizlik kursları</strong> zamanı analiz olunur.</p>
+
+<hr />
+
+<h2 id="ransomware-hackerlərin-ən-gəlirli-silahı">Ransomware: Hackerlərin Ən Gəlirli Silahı</h2>
+
+<p>Son illərdə ransomware hücumları partlayış yaşadı:</p>
+
+<ul>
+  <li>Hospital sistemləri çökdürülür</li>
+  <li>Şirkət serverləri şifrələnir</li>
+  <li>Məlumatlar darknet-də satılır</li>
+</ul>
+
+<p>Ən məşhur ransomware qrupları:</p>
+<ul>
+  <li>LockBit</li>
+  <li>Conti</li>
+  <li>REvil</li>
+  <li>BlackCat</li>
+</ul>
+
+<p>Bu hücumlar <strong>red team / blue team</strong> dərslərinin əsas mövzusudur.</p>
+
+<hr />
+
+<h2 id="dünya-üzrə-ən-məşhur-hacker-qrupları">Dünya üzrə Ən Məşhur Hacker Qrupları</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Qrup</th>
+      <th>Fəaliyyət</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Anonymous</td>
+      <td>Hacktivism</td>
+    </tr>
+    <tr>
+      <td>LAPSUS$</td>
+      <td>Sosial mühəndislik</td>
+    </tr>
+    <tr>
+      <td>APT28</td>
+      <td>Dövlət casusluğu</td>
+    </tr>
+    <tr>
+      <td>Lazarus Group</td>
+      <td>Bank və kripto hücumları</td>
+    </tr>
+    <tr>
+      <td>DarkSide</td>
+      <td>Ransomware</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Bu qrupların metodları <strong>praktik hacking dərsləri</strong> zamanı real ssenari kimi öyrədilir.</p>
+
+<hr />
+
+<h2 id="hacker-hücumları-necə-başlayır">Hacker Hücumları Necə Başlayır?</h2>
+
+<p>Ən çox istifadə olunan metodlar:</p>
+
+<ul>
+  <li>Phishing e-maillər</li>
+  <li>Zəif parollar</li>
+  <li>Patch olunmamış serverlər</li>
+  <li>API zəiflikləri</li>
+  <li>Sosial mühəndislik</li>
+</ul>
+
+<p>Bu texnikalar <strong>hacker kurslar</strong> və <strong>kiber kursları</strong> çərçivəsində addım-addım izah edilir.</p>
+
+<hr />
+
+<h2 id="niyə-bu-mövzular-kiber-kurslarında-öyrədilir">Niyə Bu Mövzular Kiber Kurslarında Öyrədilir?</h2>
+
+<p>Çünki:</p>
+<ul>
+  <li>Real hücumlar real zərər verir</li>
+  <li>Şirkətlər mütəxəssis axtarır</li>
+  <li>Kiber təhlükəsizlik bazarı böyüyür</li>
+</ul>
+
+<p><strong>Hacking dərsləri + real ssenarilər = real mütəxəssis</strong></p>
+
+<hr />
+
+<h2 id="tez-tez-verilən-suallar-faq">Tez-Tez Verilən Suallar (FAQ)</h2>
+
+<p><strong>Dünya hackerləri kimlərdir?</strong><br />
+Texniki bilikləri yüksək olan fərdi və ya qrup şəklində fəaliyyət göstərən şəxslər.</p>
+
+<p><strong>Hackerlər ən çox nəyi hədəf alır?</strong><br />
+Məlumat, pul və infrastruktur sistemlərini.</p>
+
+<p><strong>Bu bilikləri kimlər öyrənməlidir?</strong><br />
+IT mütəxəssisləri, tələbələr və kiber kurslara qatılan hər kəs.</p>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>Dünya hackerləri artıq sadəcə fərdi şəxslər deyil —<br />
+onlar <strong>şirkətləri</strong>, <strong>dövlətləri</strong> və <strong>qlobal infrastrukturu</strong> hədəf alan güclü kiber ordulardır.</p>
+
+<p>Bu dünyada güclü qalmağın yolu:</p>
+<blockquote>
+  <p><strong>Bilik + təcrübə + kibertəhlükəsizlik düşüncəsi</strong></p>
+</blockquote>
+
+<hr />
+
+<h2 id="-praktiki-hacking-və-cyber-security-kursları">📞 Praktiki Hacking və Cyber Security Kursları</h2>
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20hacking%20d%C9%99rsl%C9%99ri%20v%C9%99%20kiber%20kurslar%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Red Team • Blue Team • Real Hücum Ssenariləri</p>
+
+<hr />
+
+<h2 id="-əlaqəli-məqalələr">📎 Əlaqəli Məqalələr</h2>
+
+<ul>
+  <li><a href="/posts/phishing-hucumlari">Phishing hücumları və real nümunələr</a></li>
+  <li><a href="/posts/red-team-blue-team">Red Team və Blue Team fərqləri</a></li>
+  <li><a href="/posts/sosial-muhendislik">Sosial mühəndislik hücumları</a></li>
+</ul>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="cyberwar" /><category term="dünya hackerləri" /><category term="ən böyük hacklənmələr" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="red team" /><category term="cyber attack" /><category term="data breach" /><category term="ethical hacking" /><summary type="html"><![CDATA[Dünya hackerləri kimlərdir? Tarixin ən böyük hack hücumları, sızdırılan milyardlarla məlumat, real kiber hücum xəbərləri və bu hücumların necə baş verdiyi. 2025 üçün SEO optimallaşdırılmış kibertəhlükəsizlik və hacking bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/world-hackers.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/world-hackers.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</title><link href="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking" rel="alternate" type="text/html" title="IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)" /><published>2025-12-09T12:00:00+04:00</published><updated>2025-12-17T17:37:27+04:00</updated><id>https://cybershieldy.com/posts/iot-ev-cihazlari-hacking-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking"><![CDATA[<h1 id="iot-ev-cihazları-necə-hacklənir">IoT Ev Cihazları Necə Hacklənir?</h1>
 <h2 id="robot-tozsoranlar-ağıllı-evlər-və-real-hacking-ssenariləri-2025">Robot Tozsoranlar, Ağıllı Evlər və Real Hacking Ssenariləri (2025)</h2>
 
 <p>Son illərdə <strong>IoT ev cihazları</strong> sürətlə yayılıb. Robot tozsoranlar, smart TV-lər, IP kameralar və ağıllı qapı kilidləri artıq adi ev avadanlığına çevrilib. Lakin bu rahatlıqla yanaşı, <strong>kibertəhlükəsizlik problemləri</strong> də eyni sürətlə artır.</p>
@@ -1859,151 +2067,4 @@ A: Rəsmi etik komanda, hüquqi məsləhət və təşkilati icazə olmadan Dark 
     "@id": "https://cybershieldy.com/posts/deep-vs-dark-web"
   }
 }
-</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="darknet" /><category term="deep web" /><category term="osint" /><category term="deep web" /><category term="dark web" /><category term="darknet" /><category term="tor" /><category term="onion" /><category term="deep web nədir" /><category term="dark web nədir" /><category term="kiber təhlükəsizlik" /><category term="hacker kurs" /><category term="necə qorunmaq" /><summary type="html"><![CDATA[Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq, hüquqi məqamlar və 2025-də bu mövzuya yanaşma — sadə və aydın izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/dark_web.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/dark_web.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</title><link href="https://cybershieldy.com/posts/hacker-kimdir" rel="alternate" type="text/html" title="Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)" /><published>2025-10-24T02:00:00+04:00</published><updated>2025-10-24T09:05:16+04:00</updated><id>https://cybershieldy.com/posts/hacker-kimdir</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-kimdir"><![CDATA[<h1 id="-hacker-kimdir--kimlər-hackerdir-nə-bilirlər-və-hansı-hücumları-həyata-keçirirlər-2025">🧑‍💻 Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)</h1>
-
-<p><strong>Qısa xülasə:</strong> Bu məqalə “hacker” anlayışını, onların müxtəlif tiplərini (white hat, grey hat, black hat), bilik və bacarıq sahələrini, həmçinin müasir dövrdə həyata keçirdikləri hücum növlərini izah edir. Məqsəd — oxucunu məlumatlandırmaq və “hacker kimdir”, “xaker dərsləri”, “hacker dərsləri”, “hackerlər” kimi açar sözlərlə SEO baxımından ön sıralarda yer almaqdır.</p>
-
-<hr />
-
-<h2 id="-hacker-nə-deməkdir">🔍 Hacker nə deməkdir?</h2>
-
-<p><strong>Hacker</strong> — kompüter, şəbəkə və proqram sistemlərinin necə işlədiyini dərindən anlayan və onları analiz edə bilən şəxsdir. Bu termin həm <strong>etik</strong>, həm də <strong>qeyri-etik</strong> fəaliyyətləri ifadə edə bilər:</p>
-
-<ul>
-  <li>🟢 <strong>White Hat (Etik hacker):</strong> Zəiflikləri tapıb onları sistem sahibinə bildirən və müdafiə məqsədilə işləyən mütəxəssis.</li>
-  <li>⚫ <strong>Black Hat (Zərərli hacker):</strong> Qanunsuz məqsədlərlə sistemlərə daxil olan və məlumat oğurlayan şəxs.</li>
-  <li>⚪ <strong>Grey Hat (Orta xasiyyətli hacker):</strong> Bəzən qanuni, bəzən isə icazəsiz hərəkət edən, niyyəti qeyri-müəyyən hacker.</li>
-</ul>
-
-<blockquote>
-  <p><strong>SEO açar sözlər:</strong> hacker, xaker, hacker kimdir, xaker kimdir, hackerler, xaker dersleri, hacker dersleri.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-hackerlər-nəyi-bilirlər">🧠 Hackerlər nəyi bilirlər?</h2>
-
-<p>Hacker olmaq üçün bir çox sahələrdə bilik vacibdir. Ən əsas bacarıq istiqamətləri bunlardır:</p>
-
-<ul>
-  <li><strong>Şəbəkə əsasları və TCP/IP:</strong> Trafikin necə hərəkət etdiyini, firewall və router prinsiplərini anlamaq.</li>
-  <li><strong>Əməliyyat sistemləri:</strong> Linux, Windows və macOS üzərində sistem idarəçiliyi.</li>
-  <li><strong>Proqramlaşdırma:</strong> Python, Bash, PowerShell, JavaScript kimi dillər.</li>
-  <li><strong>Veb təhlükəsizliyi:</strong> SQL Injection, XSS, CSRF kimi zəiflikləri tanımaq.</li>
-  <li><strong>Kriptoqrafiya:</strong> Şifrələmə prinsipləri və TLS/SSL texnologiyaları.</li>
-  <li><strong>Sosial mühəndislik:</strong> İnsan psixologiyasını istifadə edərək məlumat əldə etmə üsulları.</li>
-  <li><strong>Forensika:</strong> Log analizləri və hücum izlərinin oxunması.</li>
-</ul>
-
-<hr />
-
-<h2 id="️-hackerlərin-həyata-keçirdiyi-hücum-növləri-yüksək-səviyyədə">⚔️ Hackerlərin həyata keçirdiyi hücum növləri (Yüksək səviyyədə)</h2>
-
-<p>Aşağıdakı hücumlar etik və ya qeyri-etik məqsədlərlə istifadə oluna bilər — burada yalnız <strong>məlumatlandırıcı izah</strong> verilir:</p>
-
-<ul>
-  <li><strong>Phishing / Smishing:</strong> E-mail və ya SMS ilə saxta linklər göndərməklə məlumat oğurlama.</li>
-  <li><strong>Malware hücumları:</strong> Ransomware, Spyware və Trojan vasitəsilə sistemə müdaxilə.</li>
-  <li><strong>Brute-force və credential stuffing:</strong> Sızdırılmış parollardan istifadə edərək hesabları ələ keçirmə.</li>
-  <li><strong>Man-in-the-middle (MITM):</strong> Şəbəkə trafikinə gizli şəkildə müdaxilə etmə.</li>
-  <li><strong>Web hücumları (SQLi, XSS, CSRF):</strong> Sayt zəifliklərindən istifadə edərək məlumat oğurlama və kod icrası.</li>
-  <li><strong>Supply-chain hücumları:</strong> Etibarlı proqram təminatında gizli kod yerləşdirərək zərərli təsir.</li>
-  <li><strong>IoT və mobil hücumlar:</strong> Zəif cihaz şifrələri və köhnəlmiş firmware vasitəsilə müdaxilə.</li>
-</ul>
-
-<hr />
-
-<h2 id="-hacker-düşüncə-tərzi-və-müdafiə">🧩 Hacker düşüncə tərzi və müdafiə</h2>
-
-<p>Etik hackerlər problemi <strong>sistemli və yaradıcı</strong> düşünərək həll edir. Müdafiə üçün onların düşüncə tərzini anlamaq vacibdir:</p>
-
-<ul>
-  <li><strong>Assume breach:</strong> Hər zaman sistemin pozula biləcəyini qəbul et.</li>
-  <li><strong>Minimum icazə prinsipi:</strong> İstifadəçilərə yalnız lazım olan icazələri ver.</li>
-  <li><strong>Müntəzəm yeniləmələr:</strong> Sistem və tətbiqləri daim yenilə.</li>
-  <li><strong>MFA və güclü autentifikasiya:</strong> İki faktorlu identifikasiya aktiv et.</li>
-  <li><strong>Maarifləndirmə:</strong> İşçiləri və istifadəçiləri phishing və sosial mühəndislik barədə təlimləndir.</li>
-</ul>
-
-<hr />
-
-<h2 id="️-hüquqi-və-etik-məqamlar">⚖️ Hüquqi və etik məqamlar</h2>
-
-<ul>
-  <li>Hacker alətlərindən qanunsuz istifadə cinayət məsuliyyəti yaradır.</li>
-  <li><strong>Etik hackerlik</strong> yalnız <strong>icazə və müqavilə çərçivəsində</strong> aparılmalıdır.</li>
-  <li>Zəiflik aşkarlananda məsuliyyətli <strong>disclosure (bildiriş)</strong> prinsiplərinə riayət edilməlidir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-təhlükəsizlik-və-praktik-məsləhətlər">💡 Təhlükəsizlik və praktik məsləhətlər</h2>
-
-<ul>
-  <li>Güclü və unikal parollar istifadə et.</li>
-  <li>MFA aktiv et.</li>
-  <li>Ehtiyat nüsxələr (backup) saxla.</li>
-  <li>Rəsmi mənbələrdən proqram yüklə.</li>
-  <li>Endpoint qorunması (EDR) və antivirusdan istifadə et.</li>
-  <li>Təhlükəsizlik tədqiqatçıları üçün “security@domain” ünvanı saxla.</li>
-</ul>
-
-<hr />
-
-<h2 id="-seo-açar-sözlər">🔑 SEO açar sözlər</h2>
-
-<p><code class="language-plaintext highlighter-rouge">hacker</code>, <code class="language-plaintext highlighter-rouge">xaker</code>, <code class="language-plaintext highlighter-rouge">hacker kimdir</code>, <code class="language-plaintext highlighter-rouge">xaker kimdir</code>, <code class="language-plaintext highlighter-rouge">hackerler</code>, <code class="language-plaintext highlighter-rouge">xaker dersleri</code>, <code class="language-plaintext highlighter-rouge">hacker dersleri</code>, <code class="language-plaintext highlighter-rouge">ethical hacking</code>, <code class="language-plaintext highlighter-rouge">pentest</code>, <code class="language-plaintext highlighter-rouge">sosial mühəndislik</code></p>
-
-<hr />
-
-<h2 id="-nəticə">🧭 Nəticə</h2>
-
-<p>“Hacker” təkcə sistem sındıran şəxs deyil, həm də onu <strong>daha etibarlı edən</strong> mütəxəssisdir.<br />
-Əsas məsələ niyyətdir — etik və qanuni çərçivədə bilik təhlükəsizliyin qorunmasına xidmət edir.</p>
-
-<hr />
-
-<h2 id="-əlaqə-və-resurslar">📲 Əlaqə və resurslar</h2>
-
-<ul>
-  <li><a href="/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li><a href="/posts/sosial-mühəndislik">Phishing hücumu nədir? Müdafiə yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
-</ul>
-
-<p>Əlavə suallar və ya <strong>hacker dərsləri</strong> barədə öyrənmək üçün bizimlə əlaqə saxla:<br />
-📩 <a href="https://wa.me/994555182523?text=Salam%2C%20hacker%20dersleri%20haqqinda%20%C9%99trafli%20m%C9%99lumat%20%C9%99ldə%20etm%C9%99k%20ist%C9%99yir%C9%99m.">WhatsApp ilə əlaqə</a></p>
-
-<hr />
-
-<!-- SEO JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Hacker kimdir? — Kimlər hackerdir, nə bilirlər və hansı hücumları həyata keçirirlər (2025)",
-  "description": "Hacker kimdir? Hackerlərin növləri, bilik sahələri, günümüzdə rast gəlinən hücum növləri və müdafiə üsulları — etik və qanuni çərçivədə yüksək səviyyəli izah.",
-  "image": "https://cybershieldy.com/assets/images/hacker-kimdir.webp",
-  "author": {
-    "@type": "Person",
-    "name": "CyberShieldy"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-10-24T09:00:00+04:00",
-  "dateModified": "2025-10-24T09:00:00+04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/hacker-kimdir"
-  }
-}
-</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="hacker" /><category term="ethical hacking" /><category term="hacker" /><category term="xaker" /><category term="hacker kimdir" /><category term="hackerler" /><category term="xaker dersleri" /><category term="hacker dersleri" /><category term="cyber security" /><category term="pentest" /><category term="sosial mühəndislik" /><summary type="html"><![CDATA[Hacker kimdir? Hackerlərin növləri, bilik sahələri, günümüzdə rast gəlinən hücum növləri və müdafiə üsulları — etik və qanuni çərçivədə yüksək səviyyəli izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacker.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacker.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</script>]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="darknet" /><category term="deep web" /><category term="osint" /><category term="deep web" /><category term="dark web" /><category term="darknet" /><category term="tor" /><category term="onion" /><category term="deep web nədir" /><category term="dark web nədir" /><category term="kiber təhlükəsizlik" /><category term="hacker kurs" /><category term="necə qorunmaq" /><summary type="html"><![CDATA[Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq, hüquqi məqamlar və 2025-də bu mövzuya yanaşma — sadə və aydın izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/dark_web.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/dark_web.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
