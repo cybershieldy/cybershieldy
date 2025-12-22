@@ -1442,9 +1442,6 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 <div id="cyber-popup" style="display:none;">
   <div id="popup-content">
     <p id="popup-message">Salam! CyberShieldy kiber kurslarına qoşulmaq istəyirsiniz?</p>
-    <input type="text" id="user-name" placeholder="Adınız" style="padding:6px 10px; border-radius:5px; border:none; width:80%;" />
-    <input type="text" id="user-surname" placeholder="Soyadınız" style="padding:6px 10px; border-radius:5px; border:none; width:80%;" />
-    <input type="tel" id="user-phone" placeholder="Mobil nömrəniz" style="padding:6px 10px; border-radius:5px; border:none; width:80%;" />
     <div id="popup-buttons">
       <button id="popup-join">Qoşul</button>
       <button id="popup-close">Bağla</button>
@@ -1455,7 +1452,7 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 <style>
 #cyber-popup {
   position: fixed;
-  bottom: 20px;
+  bottom: 20px;       /* Alt mövqe */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -1489,12 +1486,6 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 }
 #popup-join { background-color: #4caf50; color: white; }
 #popup-close { background-color: #f44336; color: white; }
-
-#cyber-popup input {
-  width: 100%;
-  max-width: 300px;
-  text-align: center;
-}
 </style>
 
 <script>
@@ -1504,23 +1495,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const popup = document.getElementById("cyber-popup");
 
   // 5 saniyə sonra popup göstər
-  setTimeout(() => { popup.style.display = "flex"; }, 5000);
+  setTimeout(() => {
+    popup.style.display = "flex";
+  }, 5000);
 
   // Qoşul düyməsi
   document.getElementById("popup-join").addEventListener("click", () => {
-    const name = document.getElementById("user-name").value.trim();
-    const surname = document.getElementById("user-surname").value.trim();
-    const phone = document.getElementById("user-phone").value.trim();
-
-    if(!name || !surname || !phone){
-      alert("Zəhmət olmasa bütün xanaları doldurun!");
-      return;
-    }
-
     const number = "994555182523";
-    const msg = encodeURIComponent(`Salam! Mən kursa qoşulmaq istəyirəm.\nAd: ${name}\nSoyad: ${surname}\nMobil: ${phone}`);
+    const msg = encodeURIComponent("Salam, kiber kurslarınızla maraqlanıram!");
     window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
-
     popup.style.display = "none";
     localStorage.setItem("cyberPopupSeen", "true");
   });
@@ -1533,7 +1516,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Scroll ilə popup hərəkət etsin
   window.addEventListener("scroll", () => {
-    if(popup.style.display === "flex") popup.style.bottom = "20px";
+    const yOffset = window.scrollY;
+    // Yuxarı və ya alt mövqeyə scroll ilə düzəliş
+    if(popup.style.display === "flex") {
+      // Məsələn, 20px yuxarıda qalacaq
+      popup.style.bottom = "20px";
+    }
   });
 });
 </script>
