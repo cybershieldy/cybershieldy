@@ -66,41 +66,44 @@
 #popup-join { background: #4caf50; color: #fff; }
 #popup-close { background: #f44336; color: #fff; }
 </style>
-
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  if (localStorage.getItem("cyberPopupSeen")) return;
 
   const popup = document.getElementById("cyber-popup");
+  const STORAGE_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000; // 5 saniyə
 
+  const lastSeen = localStorage.getItem(STORAGE_KEY);
+  const now = new Date().getTime();
+
+  if (lastSeen) {
+    const diffDays = (now - parseInt(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  // 5 saniyə sonra göstər
   setTimeout(() => {
-    popup.style.display = "block";
-  }, 5000);
+    popup.style.display = "flex";
+  }, SHOW_DELAY);
 
+  function closePopup() {
+    popup.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, now.toString());
+  }
+
+  // Bağla
+  document.getElementById("popup-close").addEventListener("click", closePopup);
+
+  // Qoşul
   document.getElementById("popup-join").addEventListener("click", () => {
-    const name = document.getElementById("name").value.trim();
-    const surname = document.getElementById("surname").value.trim();
-    const email = document.getElementById("email").value.trim();
-
-    if (!name || !surname || !email) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
     const number = "994555182523";
-    const message = encodeURIComponent(
-      `🎓 Pulsuz sınaq dərs üçün qeydiyyat\n\nAd: ${name}\nSoyad: ${surname}\nEmail: ${email}`
+    const msg = encodeURIComponent(
+      "Salam! Pulsuz sınaq dərs üçün qeydiyyat olmaq istəyirəm."
     );
-
-    window.open(`https://wa.me/${number}?text=${message}`, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem("cyberPopupSeen", "true");
+    window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
+    closePopup();
   });
 
-  document.getElementById("popup-close").addEventListener("click", () => {
-    popup.style.display = "none";
-    localStorage.setItem("cyberPopupSeen", "true");
-  });
 });
 </script>
