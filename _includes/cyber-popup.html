@@ -1,7 +1,7 @@
 <!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup" style="display:none;">
-  <div id="popup-content">
-    <p id="popup-message">
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
       🎓 <strong>PULSUZ Sınaq Dərs</strong><br>
       CyberShieldy kiber kurslarına qoşul
     </p>
@@ -10,7 +10,7 @@
     <input type="email" id="popup-email" placeholder="Email">
     <input type="tel" id="popup-phone" placeholder="Mobil nömrə">
 
-    <div id="popup-buttons">
+    <div class="popup-buttons">
       <button id="popup-join">Qeydiyyat</button>
       <button id="popup-close">Bağla</button>
     </div>
@@ -19,48 +19,48 @@
 
 <style>
 #cyber-popup {
+  display: none;
   position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 9999;
-  max-width: 95%;
+  z-index: 99999;
 }
 
-#popup-content {
+.popup-content {
   background: rgba(11,18,32,0.97);
   color: #fff;
   padding: 18px 22px;
   border-radius: 14px;
   text-align: center;
   width: 340px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#popup-message {
+.popup-message {
   font-size: 15px;
   line-height: 1.4;
 }
 
-#popup-content input {
+.popup-content input {
   width: 100%;
-  padding: 8px 10px;
+  padding: 9px 10px;
   border-radius: 6px;
   border: none;
   outline: none;
   font-size: 14px;
 }
 
-#popup-buttons {
+.popup-buttons {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
 
-#popup-buttons button {
+.popup-buttons button {
   padding: 8px 14px;
   border-radius: 6px;
   border: none;
@@ -70,18 +70,17 @@
 
 #popup-join {
   background: #4caf50;
-  color: white;
+  color: #fff;
 }
 
 #popup-close {
   background: #f44336;
-  color: white;
+  color: #fff;
 }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-
+(function () {
   const POPUP_KEY = "cyberPopupLastSeen";
   const SHOW_AFTER_DAYS = 7;
   const SHOW_DELAY = 5000;
@@ -93,17 +92,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const now = Date.now();
 
   if (lastSeen) {
-    const diffDays = (now - parseInt(lastSeen)) / (1000 * 60 * 60 * 24);
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
     if (diffDays < SHOW_AFTER_DAYS) return;
   }
 
-  // 5 saniyə sonra popup göstər
-  setTimeout(() => {
+  setTimeout(function () {
     popup.style.display = "block";
   }, SHOW_DELAY);
 
-  // Qeydiyyat düyməsi
-  document.getElementById("popup-join").addEventListener("click", () => {
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
     const name = document.getElementById("popup-name").value.trim();
     const email = document.getElementById("popup-email").value.trim();
     const phone = document.getElementById("popup-phone").value.trim();
@@ -114,25 +116,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const number = "994555182523";
-    const msg = encodeURIComponent(
-      `PULSUZ Sınaq Dərs Qeydiyyatı:%0A` +
-      `Ad Soyad: ${name}%0A` +
-      `Email: ${email}%0A` +
-      `Telefon: ${phone}`
-    );
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
 
-    window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
 
     popup.style.display = "none";
     localStorage.setItem(POPUP_KEY, Date.now());
-  });
-
-  // Bağla düyməsi
-  document.getElementById("popup-close").addEventListener("click", () => {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  });
-
-});
+  };
+})();
 </script>
-<!-- ===== END POPUP ===== -->
+<!-- ===== END CYBERSHIELDY POPUP ===== -->
