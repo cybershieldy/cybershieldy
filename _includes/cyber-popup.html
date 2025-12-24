@@ -1,8 +1,14 @@
-<div id="cyber-popup" style="display:none;">
+<div id="cyber-popup">
   <div id="popup-content">
-    <p id="popup-message">Salam! CyberShieldy kiber kurslarına qoşulmaq istəyirsiniz?</p>
+    <h3>🎓 Pulsuz Sınaq Dərs</h3>
+    <p>CyberShieldy kiber kurslarına qeydiyyatdan keçin</p>
+
+    <input type="text" id="name" placeholder="Adınız">
+    <input type="text" id="surname" placeholder="Soyadınız">
+    <input type="email" id="email" placeholder="Email ünvanınız">
+
     <div id="popup-buttons">
-      <button id="popup-join">Qoşul</button>
+      <button id="popup-join">Qeydiyyat</button>
       <button id="popup-close">Bağla</button>
     </div>
   </div>
@@ -11,40 +17,54 @@
 <style>
 #cyber-popup {
   position: fixed;
-  bottom: 20px;       /* Alt mövqe */
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
+  display: none;
   z-index: 9999;
-  width: auto;
-  max-width: 95%;
-  pointer-events: auto;
 }
 
 #popup-content {
-  background: rgba(11, 18, 32, 0.95);
+  background: rgba(11,18,32,0.97);
   color: #fff;
-  padding: 15px 25px;
-  border-radius: 12px;
+  padding: 20px 25px;
+  border-radius: 14px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  width: 320px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 10px;
 }
 
-#popup-buttons { display: flex; gap: 10px; justify-content: center; width: 100%; }
+#popup-content h3 {
+  margin: 0;
+  color: #4caf50;
+}
+
+#popup-content input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+#popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 #popup-buttons button {
-  padding: 8px 18px;
+  padding: 8px 16px;
   border: none;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
 }
-#popup-join { background-color: #4caf50; color: white; }
-#popup-close { background-color: #f44336; color: white; }
+
+#popup-join { background: #4caf50; color: #fff; }
+#popup-close { background: #f44336; color: #fff; }
 </style>
 
 <script>
@@ -53,34 +73,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const popup = document.getElementById("cyber-popup");
 
-  // 5 saniyə sonra popup göstər
   setTimeout(() => {
-    popup.style.display = "flex";
+    popup.style.display = "block";
   }, 5000);
 
-  // Qoşul düyməsi
   document.getElementById("popup-join").addEventListener("click", () => {
+    const name = document.getElementById("name").value.trim();
+    const surname = document.getElementById("surname").value.trim();
+    const email = document.getElementById("email").value.trim();
+
+    if (!name || !surname || !email) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
     const number = "994555182523";
-    const msg = encodeURIComponent("Salam, kiber kurslarınızla maraqlanıram!");
-    window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
+    const message = encodeURIComponent(
+      `🎓 Pulsuz sınaq dərs üçün qeydiyyat\n\nAd: ${name}\nSoyad: ${surname}\nEmail: ${email}`
+    );
+
+    window.open(`https://wa.me/${number}?text=${message}`, "_blank");
+
     popup.style.display = "none";
     localStorage.setItem("cyberPopupSeen", "true");
   });
 
-  // Bağla düyməsi
   document.getElementById("popup-close").addEventListener("click", () => {
     popup.style.display = "none";
     localStorage.setItem("cyberPopupSeen", "true");
-  });
-
-  // Scroll ilə popup hərəkət etsin
-  window.addEventListener("scroll", () => {
-    const yOffset = window.scrollY;
-    // Yuxarı və ya alt mövqeyə scroll ilə düzəliş
-    if(popup.style.display === "flex") {
-      // Məsələn, 20px yuxarıda qalacaq
-      popup.style.bottom = "20px";
-    }
   });
 });
 </script>
