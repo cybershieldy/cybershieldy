@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-24T13:25:28+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-22T12:00:00+04:00</published><updated>2025-12-22T23:58:04+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-24T13:32:13+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-22T12:00:00+04:00</published><updated>2025-12-22T23:58:04+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
 <h2 id="real-kiber-saldırılar-data-sızıntıları-və-qlobal-təhlükəsizlik-böhranı-2025">Real Kiber Saldırılar, Data Sızıntıları və Qlobal Təhlükəsizlik Böhranı (2025)</h2>
 
 <p>Kibertəhlükəsizlik artıq sadəcə texniki məsələ deyil — bu, <strong>qlobal müharibə alətidir</strong>.<br />
@@ -208,14 +208,17 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
   <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
 </ul>
 
-<div id="cyber-popup">
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup" style="display:none;">
   <div id="popup-content">
-    <h3>🎓 Pulsuz Sınaq Dərs</h3>
-    <p>CyberShieldy kiber kurslarına qeydiyyatdan keçin</p>
+    <p id="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
 
-    <input type="text" id="name" placeholder="Adınız" />
-    <input type="text" id="surname" placeholder="Soyadınız" />
-    <input type="email" id="email" placeholder="Email ünvanınız" />
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
 
     <div id="popup-buttons">
       <button id="popup-join">Qeydiyyat</button>
@@ -230,33 +233,35 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  display: none;
   z-index: 9999;
+  max-width: 95%;
 }
 
 #popup-content {
   background: rgba(11,18,32,0.97);
   color: #fff;
-  padding: 20px 25px;
+  padding: 18px 22px;
   border-radius: 14px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,.5);
-  width: 320px;
+  width: 340px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#popup-content h3 {
-  margin: 0;
-  color: #4caf50;
+#popup-message {
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 #popup-content input {
+  width: 100%;
   padding: 8px 10px;
   border-radius: 6px;
   border: none;
   outline: none;
+  font-size: 14px;
 }
 
 #popup-buttons {
@@ -266,58 +271,82 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 }
 
 #popup-buttons button {
-  padding: 8px 16px;
-  border: none;
+  padding: 8px 14px;
   border-radius: 6px;
+  border: none;
   font-weight: bold;
   cursor: pointer;
 }
 
-#popup-join { background: #4caf50; color: #fff; }
-#popup-close { background: #f44336; color: #fff; }
+#popup-join {
+  background: #4caf50;
+  color: white;
+}
+
+#popup-close {
+  background: #f44336;
+  color: white;
+}
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-  const popup = document.getElementById("cyber-popup");
-  const STORAGE_KEY = "cyberPopupLastSeen";
+  const POPUP_KEY = "cyberPopupLastSeen";
   const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000; // 5 saniyə
+  const SHOW_DELAY = 5000;
 
-  const lastSeen = localStorage.getItem(STORAGE_KEY);
-  const now = new Date().getTime();
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
 
   if (lastSeen) {
     const diffDays = (now - parseInt(lastSeen)) / (1000 * 60 * 60 * 24);
     if (diffDays < SHOW_AFTER_DAYS) return;
   }
 
-  // 5 saniyə sonra göstər
+  // 5 saniyə sonra popup göstər
   setTimeout(() => {
-    popup.style.display = "flex";
+    popup.style.display = "block";
   }, SHOW_DELAY);
 
-  function closePopup() {
-    popup.style.display = "none";
-    localStorage.setItem(STORAGE_KEY, now.toString());
-  }
-
-  // Bağla
-  document.getElementById("popup-close").addEventListener("click", closePopup);
-
-  // Qoşul
+  // Qeydiyyat düyməsi
   document.getElementById("popup-join").addEventListener("click", () => {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
     const number = "994555182523";
     const msg = encodeURIComponent(
-      "Salam! Pulsuz sınaq dərs üçün qeydiyyat olmaq istəyirəm."
+      `PULSUZ Sınaq Dərs Qeydiyyatı:%0A` +
+      `Ad Soyad: ${name}%0A` +
+      `Email: ${email}%0A` +
+      `Telefon: ${phone}`
     );
+
     window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
-    closePopup();
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  });
+
+  // Bağla düyməsi
+  document.getElementById("popup-close").addEventListener("click", () => {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
   });
 
 });
-</script>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="cyberwar" /><category term="dünya hackerləri" /><category term="ən böyük hacklənmələr" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="red team" /><category term="cyber attack" /><category term="data breach" /><category term="ethical hacking" /><summary type="html"><![CDATA[Dünya hackerləri kimlərdir? Tarixin ən böyük hack hücumları, sızdırılan milyardlarla məlumat, real kiber hücum xəbərləri və bu hücumların necə baş verdiyi. 2025 üçün SEO optimallaşdırılmış kibertəhlükəsizlik və hacking bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/anonymous.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/anonymous.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)</title><link href="https://cybershieldy.com/posts/fiziki-hucumlar-genis" rel="alternate" type="text/html" title="Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)" /><published>2025-12-17T08:00:00+04:00</published><updated>2025-12-17T17:19:51+04:00</updated><id>https://cybershieldy.com/posts/fiziki-hucumlar-flipper-badusb-physical-hacking</id><content type="html" xml:base="https://cybershieldy.com/posts/fiziki-hucumlar-genis"><![CDATA[<h1 id="fiziki-hücumlar-physical-attacks-nədir">Fiziki Hücumlar (Physical Attacks) Nədir?</h1>
+</script>
+
+<!-- ===== END POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="cyberwar" /><category term="dünya hackerləri" /><category term="ən böyük hacklənmələr" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="red team" /><category term="cyber attack" /><category term="data breach" /><category term="ethical hacking" /><summary type="html"><![CDATA[Dünya hackerləri kimlərdir? Tarixin ən böyük hack hücumları, sızdırılan milyardlarla məlumat, real kiber hücum xəbərləri və bu hücumların necə baş verdiyi. 2025 üçün SEO optimallaşdırılmış kibertəhlükəsizlik və hacking bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/anonymous.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/anonymous.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)</title><link href="https://cybershieldy.com/posts/fiziki-hucumlar-genis" rel="alternate" type="text/html" title="Fiziki Hücumlar: Flipper Zero, BadUSB, Physical + Web Hücumlar və Real Red Team Ssenariləri (2025)" /><published>2025-12-17T08:00:00+04:00</published><updated>2025-12-17T17:19:51+04:00</updated><id>https://cybershieldy.com/posts/fiziki-hucumlar-flipper-badusb-physical-hacking</id><content type="html" xml:base="https://cybershieldy.com/posts/fiziki-hucumlar-genis"><![CDATA[<h1 id="fiziki-hücumlar-physical-attacks-nədir">Fiziki Hücumlar (Physical Attacks) Nədir?</h1>
 <h2 id="real-red-team-usb-flipper-zero-və-web-hücum-kombinasiyaları-2025">Real Red Team, USB, Flipper Zero və Web Hücum Kombinasiyaları (2025)</h2>
 
 <p>Əksər insanlar <strong>kiber hücumları</strong> yalnız internet üzərindən edilən proses kimi anlayır. Halbuki real dünyada ən təhlükəli hücumların böyük hissəsi <strong>fiziki girişlə</strong> başlayır.</p>

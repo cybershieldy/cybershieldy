@@ -1195,7 +1195,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="498 words"
+  title="497 words"
 >
   <em>2 min</em> read</span>
 
@@ -1439,14 +1439,17 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
   <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
 </ul>
 
-<div id="cyber-popup">
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup" style="display:none;">
   <div id="popup-content">
-    <h3>🎓 Pulsuz Sınaq Dərs</h3>
-    <p>CyberShieldy kiber kurslarına qeydiyyatdan keçin</p>
+    <p id="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
 
-    <input type="text" id="name" placeholder="Adınız" />
-    <input type="text" id="surname" placeholder="Soyadınız" />
-    <input type="email" id="email" placeholder="Email ünvanınız" />
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
 
     <div id="popup-buttons">
       <button id="popup-join">Qeydiyyat</button>
@@ -1461,33 +1464,35 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  display: none;
   z-index: 9999;
+  max-width: 95%;
 }
 
 #popup-content {
   background: rgba(11,18,32,0.97);
   color: #fff;
-  padding: 20px 25px;
+  padding: 18px 22px;
   border-radius: 14px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,.5);
-  width: 320px;
+  width: 340px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#popup-content h3 {
-  margin: 0;
-  color: #4caf50;
+#popup-message {
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 #popup-content input {
+  width: 100%;
   padding: 8px 10px;
   border-radius: 6px;
   border: none;
   outline: none;
+  font-size: 14px;
 }
 
 #popup-buttons {
@@ -1497,58 +1502,82 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • R
 }
 
 #popup-buttons button {
-  padding: 8px 16px;
-  border: none;
+  padding: 8px 14px;
   border-radius: 6px;
+  border: none;
   font-weight: bold;
   cursor: pointer;
 }
 
-#popup-join { background: #4caf50; color: #fff; }
-#popup-close { background: #f44336; color: #fff; }
+#popup-join {
+  background: #4caf50;
+  color: white;
+}
+
+#popup-close {
+  background: #f44336;
+  color: white;
+}
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-  const popup = document.getElementById("cyber-popup");
-  const STORAGE_KEY = "cyberPopupLastSeen";
+  const POPUP_KEY = "cyberPopupLastSeen";
   const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000; // 5 saniyə
+  const SHOW_DELAY = 5000;
 
-  const lastSeen = localStorage.getItem(STORAGE_KEY);
-  const now = new Date().getTime();
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
 
   if (lastSeen) {
     const diffDays = (now - parseInt(lastSeen)) / (1000 * 60 * 60 * 24);
     if (diffDays < SHOW_AFTER_DAYS) return;
   }
 
-  // 5 saniyə sonra göstər
+  // 5 saniyə sonra popup göstər
   setTimeout(() => {
-    popup.style.display = "flex";
+    popup.style.display = "block";
   }, SHOW_DELAY);
 
-  function closePopup() {
-    popup.style.display = "none";
-    localStorage.setItem(STORAGE_KEY, now.toString());
-  }
-
-  // Bağla
-  document.getElementById("popup-close").addEventListener("click", closePopup);
-
-  // Qoşul
+  // Qeydiyyat düyməsi
   document.getElementById("popup-join").addEventListener("click", () => {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
     const number = "994555182523";
     const msg = encodeURIComponent(
-      "Salam! Pulsuz sınaq dərs üçün qeydiyyat olmaq istəyirəm."
+      `PULSUZ Sınaq Dərs Qeydiyyatı:%0A` +
+      `Ad Soyad: ${name}%0A` +
+      `Email: ${email}%0A` +
+      `Telefon: ${phone}`
     );
+
     window.open(`https://wa.me/${number}?text=${msg}`, "_blank");
-    closePopup();
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  });
+
+  // Bağla düyməsi
+  document.getElementById("popup-close").addEventListener("click", () => {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
   });
 
 });
 </script>
+
+<!-- ===== END POPUP ===== -->
 
 
   </div>
