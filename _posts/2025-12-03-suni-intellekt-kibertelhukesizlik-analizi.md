@@ -175,6 +175,10 @@ Süni intellekt kibertəhlükəsizliyin həm ən böyük **tənzimləyicisi**, h
 
 ## 📚 Oxşar Məqalələr
 
-- [Linux-da UFW ilə FireWall Qurulumu](/posts/ufw-firewall)
-- [SSH Key ilə Şifrəsiz Giriş](/posts/ssh-key-tutorial)
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
 - [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
+
+
+
+{% include cyber-popup.html %}
