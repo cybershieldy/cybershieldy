@@ -162,3 +162,5 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 - [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)
 - [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)
 - [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)
+
+{% include cyber-popup.html %}
