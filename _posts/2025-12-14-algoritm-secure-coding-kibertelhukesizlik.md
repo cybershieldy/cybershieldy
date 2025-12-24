@@ -249,3 +249,5 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 - 🔥 Tam secure login alqoritmi (front + back)
 
 De hansını yazım, **kurs səviyyəsində** davam edək 🛡️💻
+
+{% include cyber-popup.html %}
