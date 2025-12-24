@@ -162,6 +162,7 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
 
 ## 📚 Oxşar Məqalələr
 
-- [UFW FireWall Qurulumu](/posts/ufw-firewall)
-- [Fail2Ban ilə Server Müdafiəsi](/posts/fail2ban-security)
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir)
 - [Red Team vs Blue Team (2025)](/posts/red-team-vs-blue-team)
+
+{% include cyber-popup.html %}
