@@ -286,3 +286,6 @@ OSI modelinə əsaslanan bu qatlı yanaşma ilə hücumların növlərini və m�
 
 - 📶 [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)  
   Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.
+
+
+{% include cyber-popup.html %}
