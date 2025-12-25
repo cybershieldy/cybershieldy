@@ -192,3 +192,6 @@ Müxtəlif hücumlarla bağlı yardım və təlim üçün bizimlə əlaqə saxla
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}
