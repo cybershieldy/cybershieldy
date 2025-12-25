@@ -103,7 +103,6 @@ Etik hackerlər problemi **sistemli və yaradıcı** düşünərək həll edir. 
 
 ## 📲 Əlaqə və resurslar
 
-- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)  
 - [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
 - [SIEM nədir və necə işləyir?](/posts/siem-nedir)  
 - [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik)  
@@ -144,3 +143,5 @@ Etik hackerlər problemi **sistemli və yaradıcı** düşünərək həll edir. 
   }
 }
 </script>
+
+{% include cyber-popup.html %}
