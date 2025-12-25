@@ -192,3 +192,6 @@ Wi-Fi şəbəkəsi texniki cəhətdən zəifdirsə, **VPN istifadəsi və firmwa
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}

@@ -1169,9 +1169,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="343 words"
+  title="360 words"
 >
-  <em>1 min</em> read</span>
+  <em>2 min</em> read</span>
 
         </div>
       </div>
@@ -1401,9 +1401,10 @@ typeNeon(neonMessages[neonIndex]);
 <h2 id="-oxşar-yazılar"><span class="me-2">📚 Oxşar yazılar</span><a href="#-oxşar-yazılar" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
-  <li><a href="/posts/sosial-muhəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
   <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
+  <li><a href="/posts/red-team-vs-blue-team">Red Team vs Blue Team — 2025</a></li>
+  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
 </ul>
 
 <hr />
@@ -1411,6 +1412,140 @@ typeNeon(neonMessages[neonIndex]);
 <h2 id="-açar-sözlər"><span class="me-2">🔑 Açar sözlər</span><a href="#-açar-sözlər" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p><code class="language-plaintext highlighter-rouge">red team nədir</code>, <code class="language-plaintext highlighter-rouge">blue team nədir</code>, <code class="language-plaintext highlighter-rouge">etik haker</code>, <code class="language-plaintext highlighter-rouge">sızma testi</code>, <code class="language-plaintext highlighter-rouge">penetration test</code>, <code class="language-plaintext highlighter-rouge">müdafiə komandası</code>, <code class="language-plaintext highlighter-rouge">SIEM</code>, <code class="language-plaintext highlighter-rouge">purple team nədir</code>, <code class="language-plaintext highlighter-rouge">red team vs blue team</code>, <code class="language-plaintext highlighter-rouge">kibertəhlükəsizlik rolları</code>, <code class="language-plaintext highlighter-rouge">kiberhücum simulyasiyası</code></p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->
 
   </div>
 
@@ -1584,6 +1719,13 @@ typeNeon(neonMessages[neonIndex]);
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/osi-model-hucumlari-2025">OSI Modelinə Görə Hücumlar və Müdafiə Yolları – 7 Qatlı Təhlükəsizlik Analizi (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/sql-injection-2025">SQL Injection Hücumları və Müdafiə Yolları – Veb Təhlükəsizlikdə Ən Böyük Risk (2025)</a>
         </li>
       
@@ -1606,13 +1748,6 @@ typeNeon(neonMessages[neonIndex]);
         
         <li class="text-truncate lh-lg">
           <a href="/posts/deep-vs-dark-web">Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/ss7-hucumlari">SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)</a>
         </li>
       
     </ul>

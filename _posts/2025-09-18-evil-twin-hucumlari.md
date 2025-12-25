@@ -209,3 +209,6 @@ Wi-Fi istifadə etdiyiniz hər məkanda öz təhlükəsizliyinizi prioritet tutu
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}

@@ -177,12 +177,18 @@ typeNeon(neonMessages[neonIndex]);
 
 ## 📚 Oxşar yazılar
 
-- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-muhəndislik)  
-- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+
 - [SIEM nədir və necə işləyir?](/posts/siem-nedir)
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+- [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
+
 
 ---
 
 ## 🔑 Açar sözlər
 
 `red team nədir`, `blue team nədir`, `etik haker`, `sızma testi`, `penetration test`, `müdafiə komandası`, `SIEM`, `purple team nədir`, `red team vs blue team`, `kibertəhlükəsizlik rolları`, `kiberhücum simulyasiyası`
+
+
+{% include cyber-popup.html %}

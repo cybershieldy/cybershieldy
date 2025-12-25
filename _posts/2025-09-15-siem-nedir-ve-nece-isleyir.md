@@ -237,3 +237,5 @@ Snort və Suricata aşağıdakı məşhur SIEM platformaları ilə inteqrasiya o
 **Müəllif:** Emin Savaylov  
 **Mənbə:** [CyberShieldy.com](https://cybershieldy.com/posts/siem-nedir-ve-nece-isleyir)
 
+
+{% include cyber-popup.html %}

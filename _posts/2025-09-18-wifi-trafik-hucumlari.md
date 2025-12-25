@@ -206,3 +206,6 @@ Wi-Fi trafikinə edilən hücumlar — xüsusilə **Deauth**, **Packet Sniffing*
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}
