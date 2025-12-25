@@ -171,3 +171,6 @@ A: Rəsmi etik komanda, hüquqi məsləhət və təşkilati icazə olmadan Dark 
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}
