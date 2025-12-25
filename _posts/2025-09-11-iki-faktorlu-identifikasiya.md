@@ -162,3 +162,5 @@ Aşağıda 2FA üçün ən çox istifadə edilən üsulları görə bilərsən:
 ---
 
 ✅ **Açar sözlər:** `iki faktorlu identifikasiya`, `2FA nədir`, `giriş təhlükəsizliyi`, `SMS doğrulama`, `Authenticator tətbiqi`, `kibertəhlükəsizlik tədbirləri`
+
+{% include cyber-popup.html %}

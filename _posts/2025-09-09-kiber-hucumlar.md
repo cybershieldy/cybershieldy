@@ -177,7 +177,7 @@ Kibertəhlükəsizlik və **cybersecurity** — tələbələr, IT peşəkarları
 ## 📚 Oxşar Yazılar
 
 - [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/sebeke-hucumlari)  
-- [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/sosial-muhəndislik)  
+- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik)  
 - [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari)
 
 ---
@@ -186,3 +186,6 @@ Kibertəhlükəsizlik və **cybersecurity** — tələbələr, IT peşəkarları
 
 📲 [WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.) — Kibertəhlükəsizlik təlimləri və praktik dəstək.
 
+
+
+{% include cyber-popup.html %}
