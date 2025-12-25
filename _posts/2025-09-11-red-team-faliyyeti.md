@@ -189,11 +189,14 @@ Red Team fəaliyyəti müasir kibertəhlükəsizlik strategiyalarının təməl 
 
 ## 📚 Oxşar Yazılar
 
-- [Phishing Hücumu Nədir? Canlı Nümunələr və Müdafiə Yolları](/posts/sosial-muhəndislik)  
-- [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari)  
-- [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts//sebeke-hucumlari)  
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)  
+- [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir)  
 
 ---
 
 > Təhlükəsizliyinizi artırmaq və peşəkar təlimlər almaq üçün bizimlə əlaqə saxlayın:  
 > 📲 [WhatsApp ilə əlaqə saxlayın](https://wa.me/994555182523?text=Kiber%20təhlükəsizlik%20dərsləri%20ilə%20maraqlanıram)
+
+
+{% include cyber-popup.html %}

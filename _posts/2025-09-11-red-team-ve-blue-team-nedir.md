@@ -178,11 +178,9 @@ typeNeon(neonMessages[neonIndex]);
 ## 📚 Oxşar yazılar
 
 
-- [SIEM nədir və necə işləyir?](/posts/siem-nedir)
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)  
 - [İki faktorlu identifikasiya nədir?](/posts/iki-faktorlu-identifikasiya)  
-- [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
-- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
-
+- [SIEM nədir və necə işləyir?](/posts/siem-nedir)  
 
 ---
 
