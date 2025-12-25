@@ -172,3 +172,4 @@ SQLi təhlükəlidir, amma qarşısı alınandır — düzgün kodlama və təhl
   Wi-Fi üzərindən edilən MITM, sniffing və spoofing hücumları.
 
 
+{% include cyber-popup.html %}
