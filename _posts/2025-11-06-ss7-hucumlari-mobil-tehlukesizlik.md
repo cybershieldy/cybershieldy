@@ -101,11 +101,8 @@ Bu etimad mexanizmi isə müasir dövrdə böyük bir problem yaradır:
 
 ## 📎 Əlaqəli Mövzular — Sayt daxili keçidlər
 
-- [MITM hücumu və şəbəkə izlənməsi](/posts/sebeke-hucumlari)  
-- [SIM Swap hücumu nədir və necə qorunmalı](/posts/sim-swap-hucumu)  
-- [Phishing və sosial mühəndislik hücumları](/posts/sosial-muhendislik)  
-- [MFA və identifikasiya üsulları](/posts/iki-faktorlu-identifikasiya)  
-- [Mobil təhlükəsizlik və 5G riskləri](/posts/5g-tehlukesizlik)  
+- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari)  
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
 
 ---
 
@@ -142,3 +139,7 @@ Bu etimad mexanizmi isə müasir dövrdə böyük bir problem yaradır:
   }
 }
 </script>
+
+
+
+{% include cyber-popup.html %}

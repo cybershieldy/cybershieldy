@@ -1118,7 +1118,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="615 words"
+  title="610 words"
 >
   <em>3 min</em> read</span>
 
@@ -1266,11 +1266,8 @@ Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxi
 <h2 id="-əlaqəli-mövzular--sayt-daxili-keçidlər"><span class="me-2">📎 Əlaqəli Mövzular — Sayt daxili keçidlər</span><a href="#-əlaqəli-mövzular--sayt-daxili-keçidlər" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkə izlənməsi</a></li>
-  <li><a href="/posts/sim-swap-hucumu">SIM Swap hücumu nədir və necə qorunmalı</a></li>
-  <li><a href="/posts/sosial-muhendislik">Phishing və sosial mühəndislik hücumları</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">MFA və identifikasiya üsulları</a></li>
-  <li><a href="/posts/5g-tehlukesizlik">Mobil təhlükəsizlik və 5G riskləri</a></li>
+  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
+  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
 </ul>
 
 <hr />
@@ -1308,6 +1305,140 @@ Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxi
   }
 }
 </script>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->
 
 
   </div>
@@ -1498,6 +1629,13 @@ Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxi
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/kompyuter-viruslari-exploit">Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/ssh-bruteforce-fail2ban">SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)</a>
         </li>
       
@@ -1520,13 +1658,6 @@ Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxi
         
         <li class="text-truncate lh-lg">
           <a href="/posts/iot-ev-cihazlari-hacking">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/secure-coding-algoritm">Ağıllı Alqoritm və Güclü Coding: Kibertəhlükəsizlikdə Kodlaşdırmanın Real Rolu və Təhlükəli Səhvlər (2025)</a>
         </li>
       
     </ul>
