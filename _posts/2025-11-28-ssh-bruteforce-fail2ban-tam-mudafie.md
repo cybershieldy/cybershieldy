@@ -167,7 +167,10 @@ Bu addımlar serverinizi brute-force hücumlarından maksimum qoruyur.
 ---
 
 ## 📚 Oxşar Məqalələr
-
-- [Linux-da UFW ilə FireWall Qurulumu](/posts/ufw-firewall)
-- [SSH Key ilə Şifrəsiz Giriş](/posts/ssh-key-tutorial)
+- [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik)  
+- [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](/posts/wifi-hucumlari)  
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
 - [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
+
+
+{% include cyber-popup.html %}
