@@ -198,3 +198,6 @@ Online Zoom dərsləri, video modullar, real-case laboratoriyalar və CTF-lərl�
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}

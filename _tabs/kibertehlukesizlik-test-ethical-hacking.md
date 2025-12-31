@@ -1,8 +1,8 @@
 ---
-title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)
+title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)
 icon: fas fa-shield-alt
 order: 4
-description: 40 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
+description: 51 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
 keywords:
   - kibertəhlükəsizlik testi
   - ethical hacking sualları
@@ -43,15 +43,15 @@ robots: index, follow
 <link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 
 <!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)" />
-<meta property="og:description" content="40 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
+<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)" />
+<meta property="og:description" content="51 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 <meta property="og:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
 <!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)" />
+<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)" />
 <meta name="twitter:description" content="Ethical hacking, OWASP və SQLi biliklərinizi bu test ilə yoxlayın. CEH hazırlığı üçün uyğundur." />
 <meta name="twitter:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
@@ -94,9 +94,9 @@ robots: index, follow
   }
 </style>
 
-# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (40 Sual)
+# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)
 
-Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **40 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
+Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **51 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
 ### Təlimat:
 - Bütün suallara cavab verin.
@@ -442,6 +442,95 @@ d;
   <label><input type="radio" name="q40" value="correct"> c) Hədəf ünvanlar hər run zamanı dəyişir, istismar üçün dəqiq ünvan təxmin etmək çətinləşir</label>
   <label><input type="radio" name="q40" value="incorrect"> d) ASLR yalnız Linux-da işləyir, Windows-da təsir etmir</label>
 </div>
+
+<div class="question">
+  <p>41. JSON formatında məlumat ötürülərkən istifadə olunan və məlumatın bütövlüyünü yoxlamaq üçün istifadə edilən anlayış hansıdır?</p>
+  <label><input type="radio" name="q41" value="incorrect"> a) JSON Schema</label>
+  <label><input type="radio" name="q41" value="correct"> b) JSON Token (JWT)</label>
+  <label><input type="radio" name="q41" value="incorrect"> c) XML Token</label>
+  <label><input type="radio" name="q41" value="incorrect"> d) SOAP Header</label>
+</div>
+
+<div class="question">
+  <p>42. Linux privilege escalation zamanı LinPEAS alətinin əsas rolu nədir?</p>
+  <label><input type="radio" name="q42" value="incorrect"> a) Şəbəkə trafikinə qulaq asmaq</label>
+  <label><input type="radio" name="q42" value="correct"> b) Sistemdə zəiflikləri avtomatik aşkar etmək</label>
+  <label><input type="radio" name="q42" value="incorrect"> c) Parol brute-force etmək</label>
+  <label><input type="radio" name="q42" value="incorrect"> d) Firewall qaydaları yazmaq</label>
+</div>
+
+<div class="question">
+  <p>43. Wazuh Manager-in əsas funksiyası hansıdır?</p>
+  <label><input type="radio" name="q43" value="incorrect"> a) Web tətbiqləri test etmək</label>
+  <label><input type="radio" name="q43" value="correct"> b) Log analizi və təhlükəsizlik monitorinqi</label>
+  <label><input type="radio" name="q43" value="incorrect"> c) Parol meneceri kimi işləmək</label>
+  <label><input type="radio" name="q43" value="incorrect"> d) VPN bağlantısı qurmaq</label>
+</div>
+
+<div class="question">
+  <p>44. Session cookie əsasən nə üçün istifadə olunur?</p>
+  <label><input type="radio" name="q44" value="incorrect"> a) Fayl yükləmək üçün</label>
+  <label><input type="radio" name="q44" value="correct"> b) İstifadəçi sessiyasını tanımaq üçün</label>
+  <label><input type="radio" name="q44" value="incorrect"> c) DNS sorğuları üçün</label>
+  <label><input type="radio" name="q44" value="incorrect"> d) Şifrələmə açarı saxlamaq üçün</label>
+</div>
+
+<div class="question">
+  <p>45. API-lərdə ən çox istifadə olunan autentifikasiya üsullarından biri hansıdır?</p>
+  <label><input type="radio" name="q45" value="incorrect"> a) FTP Auth</label>
+  <label><input type="radio" name="q45" value="correct"> b) API Key</label>
+  <label><input type="radio" name="q45" value="incorrect"> c) Telnet Login</label>
+  <label><input type="radio" name="q45" value="incorrect"> d) ICMP Auth</label>
+</div>
+
+<div class="question">
+  <p>46. curl aləti əsasən nə üçün istifadə olunur?</p>
+  <label><input type="radio" name="q46" value="incorrect"> a) Port scan etmək üçün</label>
+  <label><input type="radio" name="q46" value="correct"> b) HTTP sorğuları göndərmək üçün</label>
+  <label><input type="radio" name="q46" value="incorrect"> c) Fayl şifrələmək üçün</label>
+  <label><input type="radio" name="q46" value="incorrect"> d) Kernel exploit üçün</label>
+</div>
+
+<div class="question">
+  <p>47. Burp Suite əsasən hansı məqsədlə istifadə olunur?</p>
+  <label><input type="radio" name="q47" value="incorrect"> a) Virus analiz etmək</label>
+  <label><input type="radio" name="q47" value="correct"> b) Web tətbiqlərin təhlükəsizlik testləri</label>
+  <label><input type="radio" name="q47" value="incorrect"> c) Disk forensics</label>
+  <label><input type="radio" name="q47" value="incorrect"> d) Parol meneceri</label>
+</div>
+
+<div class="question">
+  <p>48. Wireshark alətinin əsas funksiyası hansıdır?</p>
+  <label><input type="radio" name="q48" value="incorrect"> a) Web exploit yazmaq</label>
+  <label><input type="radio" name="q48" value="correct"> b) Şəbəkə paketlərini analiz etmək</label>
+  <label><input type="radio" name="q48" value="incorrect"> c) Antivirus kimi işləmək</label>
+  <label><input type="radio" name="q48" value="incorrect"> d) VPN qurmaq</label>
+</div>
+
+<div class="question">
+  <p>49. Aşağıdakı funksiya arqumentsiz yazılıb və əsasən hansı proqramlaşdırma dilinə aiddir?<br><code>function test() { console.log("Hello"); }</code></p>
+  <label><input type="radio" name="q49" value="correct"> a) JavaScript</label>
+  <label><input type="radio" name="q49" value="incorrect"> b) Python</label>
+  <label><input type="radio" name="q49" value="incorrect"> c) C</label>
+  <label><input type="radio" name="q49" value="incorrect"> d) Bash</label>
+</div>
+
+<div class="question">
+  <p>50. Linux sistemlərdə cron (crontab) nə üçün istifadə olunur?</p>
+  <label><input type="radio" name="q50" value="incorrect"> a) İstifadəçi yaratmaq üçün</label>
+  <label><input type="radio" name="q50" value="correct"> b) Avtomatik planlaşdırılmış tapşırıqlar üçün</label>
+  <label><input type="radio" name="q50" value="incorrect"> c) Firewall qaydaları yazmaq üçün</label>
+  <label><input type="radio" name="q50" value="incorrect"> d) Kernel yükləmək üçün</label>
+</div>
+
+<div class="question">
+  <p>51. RSA alqoritmi əsasən hansı məqsədlə istifadə olunur?</p>
+  <label><input type="radio" name="q51" value="incorrect"> a) Hashing üçün</label>
+  <label><input type="radio" name="q51" value="correct"> b) Asimmetrik şifrələmə üçün</label>
+  <label><input type="radio" name="q51" value="incorrect"> c) Simmetrik şifrələmə üçün</label>
+  <label><input type="radio" name="q51" value="incorrect"> d) Data compression üçün</label>
+</div>
+
 <style>
 .correct-answer {
   background-color: #d4edda; /* yaşıl fon */
@@ -525,3 +614,5 @@ function showResult() {
   document.getElementById('score-result').innerHTML = `✅ Test tamamlandı! Nəticə: ${score}/${questions.length}`;
 }
 </script>
+
+{% include cyber-popup.html %}
