@@ -185,3 +185,6 @@ MITM hücumları — sadəcə texniki bir termin deyil. O, **real həyatda şəx
 - [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
 - [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
 - [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
+
+
+{% include cyber-popup.html %}
