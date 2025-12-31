@@ -205,3 +205,5 @@ Wi-Fi — rahat, amma riskli bir texnologiyadır. Hücumçular sadə üsullarla 
   }
 }
 </script>
+
+{% include cyber-popup.html %}
