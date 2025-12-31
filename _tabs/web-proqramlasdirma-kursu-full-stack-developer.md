@@ -186,3 +186,6 @@ Bəli, kursun sonunda “Career Preparation” və “GitHub Portfolio” modull
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}

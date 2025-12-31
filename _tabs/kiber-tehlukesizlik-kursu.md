@@ -226,3 +226,6 @@ Bəli. Kursun sonunda “Career Preparation” modulu vasitəsilə CV və müsah
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}

@@ -10,3 +10,5 @@ Bu bölmə **tezliklə** istifadəyə açılacaq.
 Hazırda ən faydalı mənbələri və PDF-ləri sizin üçün hazırlayırıq.
 
 > Gözləmədə qalın!
+
+{% include cyber-popup.html %}

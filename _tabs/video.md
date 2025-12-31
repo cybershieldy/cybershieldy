@@ -19,5 +19,7 @@ order: 6
 
 <div style="text-align: center; font-size: 1.1rem; margin-top: 15px;">
   🎬 <strong>Tezliklə bu bölmədə kibertəhlükəsizlik və təlimlərlə bağlı demo videolar yerləşdiriləcək.</strong><br>
-  Hazır olmaq üçün <a href="/about/">mənimlə əlaqə saxla</a> və ya <a href="https://wa.me/994555182523">WhatsApp-da yaz</a>!
+ 
 </div>
+
+{% include cyber-popup.html %}

@@ -151,3 +151,6 @@ Siz də bu səhifədə yer almaq istəyirsinizsə bizimlə əlaqə saxlayın �
   }
 }
 </script>
+
+
+{% include cyber-popup.html %}
