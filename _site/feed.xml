@@ -1,4 +1,407 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2025-12-31T16:00:35+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-22T12:00:00+04:00</published><updated>2025-12-22T23:58:04+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-02T10:21:16+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari" rel="alternate" type="text/html" title="Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)" /><published>2026-01-02T10:00:00+04:00</published><updated>2026-01-02T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/instagram-telegram-facebook-hacker-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari"><![CDATA[<h1 id="instagram-telegram-və-facebook-a-edilən-hacker-hücumlar-2026">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar (2026)</h1>
+<h2 id="real-hücum-metodları-sistem-zəiflikləri-və-qorunma-strategiyaları">Real Hücum Metodları, Sistem Zəiflikləri və Qorunma Strategiyaları</h2>
+
+<p>Sosial şəbəkələr artıq sadəcə ünsiyyət platforması deyil.<br />
+Bu gün <strong>Instagram</strong>, <strong>Telegram</strong> və <strong>Facebook</strong>:</p>
+
+<ul>
+  <li>şəxsi məlumatların</li>
+  <li>biznes səhifələrinin</li>
+  <li>kripto və reklam hesablarının</li>
+  <li>media və icma kanallarının</li>
+</ul>
+
+<p>mərkəzinə çevrilib.</p>
+
+<p>Məhz buna görə <strong>hacker hücumlarının əsas hədəfi</strong> bu platformalardır.</p>
+
+<p>Bu məqalə <strong>kibertəhlükəsizlik dərsləri</strong>, <strong>hacker kurslar</strong>, <strong>ethical hacking təlimləri</strong> və <strong>web developer kursları</strong> üçün maarifləndirici məqsədlə hazırlanıb.</p>
+
+<blockquote>
+  <p>⚠️ Qeyd: Buradakı məlumatlar yalnız <strong>təhlükəsizlik maarifləndirilməsi</strong> və <strong>etik hacking</strong> çərçivəsindədir. İcazəsiz giriş qanunsuzdur.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="hackerlər-niyə-sosial-şəbəkələri-hədəf-alır">Hackerlər Niyə Sosial Şəbəkələri Hədəf Alır?</h2>
+
+<p>Çünki sosial media hesabları:</p>
+<ul>
+  <li>real insanlara bağlıdır</li>
+  <li>parol intizamı zəifdir</li>
+  <li>phishing-ə açıqdır</li>
+  <li>çox vaxt 2FA aktiv deyil</li>
+</ul>
+
+<p><strong>Bir hesab =</strong></p>
+<ul>
+  <li>reputasiya itkisi</li>
+  <li>maddi zərər</li>
+  <li>data sızması</li>
+  <li>digər sistemlərə giriş imkanı</li>
+</ul>
+
+<hr />
+
+<h1 id="-instagram-a-edilən-hacker-hücumlar">🔥 Instagram-a Edilən Hacker Hücumlar</h1>
+
+<h2 id="instagram-hücumlarının-ən-çox-i̇stifadə-olunan-növləri">Instagram Hücumlarının Ən Çox İstifadə Olunan Növləri</h2>
+
+<h3 id="1-phishing-linkləri">1. Phishing Linkləri</h3>
+<p>Hacker istifadəçiyə:</p>
+<ul>
+  <li>“hesabın donduruldu”</li>
+  <li>“copyright pozuntusu”</li>
+  <li>“verified badge”</li>
+</ul>
+
+<p>mövzulu saxta link göndərir.</p>
+
+<p>İstifadəçi login olduqda:
+➡️ username + password hücumçuya ötürülür.</p>
+
+<hr />
+
+<h3 id="2-fake-business-support-hücumları">2. Fake Business Support Hücumları</h3>
+<p>Xüsusilə <strong>business və influencer</strong> hesabları hədəflənir.</p>
+
+<ul>
+  <li>Saxta Meta Support profili</li>
+  <li>DM üzərindən “təhlükəsizlik yoxlaması”</li>
+  <li>Hesab tam takeover edilir</li>
+</ul>
+
+<hr />
+
+<h3 id="3-session-hijacking">3. Session Hijacking</h3>
+<p>Əgər:</p>
+<ul>
+  <li>ictimai Wi-Fi</li>
+  <li>zəif brauzer təhlükəsizliyi</li>
+  <li>köhnə cihaz</li>
+</ul>
+
+<p>istifadə edilirsə, aktiv sessiya ələ keçirilə bilər.</p>
+
+<p>Bu hücumlar <strong>kiber təlimlər</strong> və <strong>hacker kurslar</strong> zamanı analiz edilən real nümunələrdir.</p>
+
+<hr />
+
+<h2 id="instagram-üçün-qorunma-yolları">Instagram üçün Qorunma Yolları</h2>
+
+<ul>
+  <li>2FA (Authenticator App)</li>
+  <li>Email təhlükəsizliyi</li>
+  <li>Şübhəli linklərə klik etməmək</li>
+  <li>Login activity yoxlanışı</li>
+  <li>Business hesab üçün əlavə admin nəzarəti</li>
+</ul>
+
+<hr />
+
+<h1 id="-telegram-a-edilən-hacker-hücumlar">🔥 Telegram-a Edilən Hacker Hücumlar</h1>
+
+<h2 id="telegram-niyə-risklidir">Telegram Niyə Risklidir?</h2>
+
+<p>Telegram <strong>cloud-based</strong> işləyir. Əgər hücumçu:</p>
+<ul>
+  <li>SMS kodu ələ keçirərsə</li>
+  <li>aktiv sessiyanı klonlayarsa</li>
+</ul>
+
+<p>➡️ hesab tam nəzarətə keçə bilər.</p>
+
+<hr />
+
+<h2 id="telegram-hücum-ssenariləri">Telegram Hücum Ssenariləri</h2>
+
+<h3 id="1-sim-swap-hücumu">1. SIM Swap Hücumu</h3>
+<ul>
+  <li>Operator üzərindən nömrə ələ keçirilir</li>
+  <li>Telegram login kodu hücumçuya gəlir</li>
+  <li>Hesab takeover olunur</li>
+</ul>
+
+<hr />
+
+<h3 id="2-fake-bot--channel-hücumları">2. Fake Bot &amp; Channel Hücumları</h3>
+<ul>
+  <li>“Premium aktivləşdirmə”</li>
+  <li>“Bot verification”</li>
+  <li>“Free crypto”</li>
+</ul>
+
+<p>istifadə edilərək istifadəçi aldadılır.</p>
+
+<hr />
+
+<h2 id="telegram-üçün-təhlükəsizlik-tövsiyələri">Telegram üçün Təhlükəsizlik Tövsiyələri</h2>
+
+<ul>
+  <li>Two-Step Verification</li>
+  <li>Active Sessions yoxlanışı</li>
+  <li>SMS yerinə cloud password</li>
+  <li>Naməlum botlardan uzaq durmaq</li>
+</ul>
+
+<p>Bu mövzular <strong>kibertəhlükəsizlik dərsləri</strong> və <strong>ethical hacking kursları</strong> üçün əsas moduldur.</p>
+
+<hr />
+
+<h1 id="-facebook-a-edilən-hacker-hücumlar">🔥 Facebook-a Edilən Hacker Hücumlar</h1>
+
+<h2 id="facebook-hücumlarının-xüsusiyyəti">Facebook Hücumlarının Xüsusiyyəti</h2>
+
+<p>Facebook hesabları çox vaxt:</p>
+<ul>
+  <li>digər platformalara bağlıdır</li>
+  <li>reklam hesablarına giriş verir</li>
+  <li>biznes səhifələri idarə edir</li>
+</ul>
+
+<p>Bu isə hücumu daha dəyərli edir.</p>
+
+<hr />
+
+<h2 id="facebook-hücum-metodları">Facebook Hücum Metodları</h2>
+
+<h3 id="1-oauth-abuse">1. OAuth Abuse</h3>
+<ul>
+  <li>Saxta tətbiq icazəsi</li>
+  <li>“Continue with Facebook”</li>
+  <li>Full account access</li>
+</ul>
+
+<hr />
+
+<h3 id="2-password-reuse-hücumları">2. Password Reuse Hücumları</h3>
+<p>Əgər eyni parol:</p>
+<ul>
+  <li>email</li>
+  <li>Facebook</li>
+  <li>digər platformalarda</li>
+</ul>
+
+<p>istifadə edilirsə, zəncirvari takeover baş verir.</p>
+
+<hr />
+
+<h2 id="facebook-üçün-qorunma-strategiyası">Facebook üçün Qorunma Strategiyası</h2>
+
+<ul>
+  <li>Güclü və unikal parol</li>
+  <li>2FA + Recovery codes</li>
+  <li>App permissions audit</li>
+  <li>Admin rolların məhdudlaşdırılması</li>
+</ul>
+
+<hr />
+
+<h1 id="-hackerlər-bu-hücumları-necə-planlayır-conceptual">🧠 Hackerlər Bu Hücumları Necə Planlayır? (Conceptual)</h1>
+
+<p><strong>Tipik hücum mərhələləri:</strong></p>
+
+<ol>
+  <li>Target analizi</li>
+  <li>Sosial mühəndislik</li>
+  <li>Phishing və ya session hücumu</li>
+  <li>Hesab takeover</li>
+  <li>Data və ya reputasiya istismarı</li>
+</ol>
+
+<p>Bu yanaşma <strong>real red team ssenariləri</strong> və <strong>hacker kurslar</strong> çərçivəsində tədris olunur.</p>
+
+<hr />
+
+<h1 id="️-sosial-media-təhlükəsizlik-checklist">🛡️ Sosial Media Təhlükəsizlik Checklist</h1>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />2FA aktivdir</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Email təhlükəsizdir</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Şübhəli linklər bloklanır</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Aktiv sessiyalar izlənir</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Backup codes saxlanılır</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Personal kiber təlim alıb</li>
+</ul>
+
+<hr />
+
+<h2 id="bu-mövzu-niyə-hacker-kurslarında-keçilir">Bu Mövzu Niyə Hacker Kurslarında Keçilir?</h2>
+
+<p>Çünki:</p>
+<ul>
+  <li>real hücumlar buradan başlayır</li>
+  <li>sosial mühəndislik öyrədilir</li>
+  <li>istifadəçi davranışı analiz olunur</li>
+  <li>red team və blue team yanaşması formalaşır</li>
+</ul>
+
+<p>Buna görə <strong>kiber təlimlər</strong>, <strong>hacker kurslar</strong>, <strong>web developer kursları</strong> bu mövzunu əsas baza kimi istifadə edir.</p>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>Instagram, Telegram və Facebook-a edilən hacker hücumlar göstərir ki:</p>
+
+<blockquote>
+  <p>Təhlükəsizlik yalnız texnologiya deyil — <strong>istifadəçi şüurudur.</strong></p>
+</blockquote>
+
+<p>Öyrənmək, qorunmaq və sistemləri düzgün anlamaq üçün <strong>etik hacking bilikləri</strong> vacibdir.</p>
+
+<hr />
+
+<h2 id="-kiber-təlimlər-və-hacker-kursları">📞 Kiber Təlimlər və Hacker Kursları</h2>
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20sosial%20media%20tehlukesizliyi%20ve%20hacker%20kurslari%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Analizləri</p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li><a href="https://cybershieldy.com/posts/sosial-muhendislik">Phishing Hücumları və Sosial Mühəndislik</a></li>
+  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team Fərqləri</a></li>
+  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a></li>
+</ul>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="social-media-security" /><category term="sosial media hacking" /><category term="instagram hacker hücumları" /><category term="telegram təhlükəsizlik" /><category term="facebook hesab oğurluğu" /><category term="kiber təlim" /><category term="hacker kurslar" /><category term="hacking dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><category term="real kiber hücumlar" /><summary type="html"><![CDATA[Instagram, Telegram və Facebook-a edilən hacker hücumlar necə baş verir? Real ssenarilər, hücum metodları və effektiv qorunma yolları. 2026 üçün geniş kibertəhlükəsizlik bələdçisi – kiber təlimlər və hacker kurslar üçün ideal mənbə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/social-media-hacking.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/social-media-hacking.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)</title><link href="https://cybershieldy.com/posts/dunya-hackerleri" rel="alternate" type="text/html" title="Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları: Real Saldırılar, Milyardlarla Zərər və Kiber Müharibənin Qaranlıq Üzü (2025)" /><published>2025-12-22T12:00:00+04:00</published><updated>2025-12-22T23:58:04+04:00</updated><id>https://cybershieldy.com/posts/dunya-hackerleri-en-boyuk-hack-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/dunya-hackerleri"><![CDATA[<h1 id="dünya-hackerləri-və-tarixin-ən-böyük-hack-hücumları">Dünya Hackerləri və Tarixin Ən Böyük Hack Hücumları</h1>
 <h2 id="real-kiber-saldırılar-data-sızıntıları-və-qlobal-təhlükəsizlik-böhranı-2025">Real Kiber Saldırılar, Data Sızıntıları və Qlobal Təhlükəsizlik Böhranı (2025)</h2>
 
 <p>Kibertəhlükəsizlik artıq sadəcə texniki məsələ deyil — bu, <strong>qlobal müharibə alətidir</strong>.<br />
@@ -3085,321 +3488,4 @@ Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxi
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="mobil şəbəkə" /><category term="exploit" /><category term="telecom" /><category term="ss7 attack" /><category term="ss7 nədir" /><category term="mobil rabitə hücumu" /><category term="telecom hack" /><category term="sms interception" /><category term="call tracking" /><category term="mobile exploit" /><category term="signaling system no.7" /><category term="gsm" /><category term="kiber təhlükəsizlik" /><category term="ethical hacking" /><category term="hacker kurs" /><category term="mobil təhlükəsizlik" /><summary type="html"><![CDATA[SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? Bu məqalə SS7 hücumlarının texniki tərəflərini, risklərini və onlardan qorunma yollarını izah edir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ss7.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ss7.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</title><link href="https://cybershieldy.com/posts/deep-vs-dark-web" rel="alternate" type="text/html" title="Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)" /><published>2025-11-01T12:10:00+04:00</published><updated>2025-12-25T13:16:00+04:00</updated><id>https://cybershieldy.com/posts/dark-web-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/deep-vs-dark-web"><![CDATA[<h1 id="-deep-web-vs-dark-web--fərqlər-risklər-və-necə-təhlükəsiz-davranmaq-olar-2025">🌐 Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)</h1>
-
-<p><strong>Qısa xülasə:</strong> Bu məqalə Deep Web və Dark Web terminlərini aydınlaşdırır, onların necə fərqləndiyini, hansı risklərin mövcud olduğunu və şəxsi / korporativ səviyyədə necə təhlükəsiz qalmağın yollarını izah edir. Məqsəd — oxucuya aydın, hüquqi və praktik məsləhətlər vermək və “deep web nədir”, “dark web nədir”, “onion tor” kimi açar sözlərdə SEO performansını yaxşılaşdırmaqdır.</p>
-
-<hr />
-
-<h2 id="-deep-web-və-dark-web--əsas-fərq-nədir">🔎 Deep Web və Dark Web — əsas fərq nədir?</h2>
-
-<ul>
-  <li><strong>Surface Web (Səthi veb):</strong> Google, Bing və digər axtarış mühərriklərində indekslənən səhifələrdir — xəbərlər, bloglar, ictimai saytlar.</li>
-  <li><strong>Deep Web (Dərin veb):</strong> Axtarış motorları tərəfindən indekslənməyən, amma qanuni olan səhifələrin ümumi adı — bank hesab səhifələri, şəxsi email, məxfi arxivlər, ödənişlə gizlədilmiş resurslar.</li>
-  <li><strong>Dark Web / Darknet:</strong> Deep Web-in kiçik bir alt hissəsidir. Xüsusi şəbəkələr (Tor, I2P, Freenet) üzərində yerləşir və bir çox domen <code class="language-plaintext highlighter-rouge">*.onion</code> kimi görünür. Dark Web-də həm qanuni, həm də qanunsuz fəaliyyətlər mövcuddur.</li>
-</ul>
-
-<blockquote>
-  <p>Qısa: <em>Bütün dark web deep web-in içindədir, amma bütün deep web dark web deyil.</em></p>
-</blockquote>
-
-<hr />
-
-<h2 id="️-niyə-insanlar-dark-web-ə-maraq-göstərir">⚠️ Niyə insanlar Dark Web-ə maraq göstərir?</h2>
-
-<ul>
-  <li><strong>Anonimlik axtarışı:</strong> bəzi jurnalistlər, tədqiqatçılar və mənbəçilər anonim mühit tələb edir.</li>
-  <li><strong>Məxfi məlumat və qeyri-indekslənmiş resurslar:</strong> akademik arxivlər, hökumət sənədlərinin bəzi hissələri.</li>
-  <li><strong>Qanunsuz ticarət:</strong> narkotik, saxta sənədlər, oğurlanmış məlumatlar — risk və hüquqi məsuliyyət var.</li>
-  <li><strong>OSINT və kəşfiyyat tədqiqatları:</strong> təhlükəsizlik araşdırıcıları zəifliklər və məlumat sızmaları üçün dark web-i monitorinq edir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-real-risklər-və-zərərlər">🔬 Real risklər və zərərlər</h2>
-
-<ol>
-  <li><strong>Məlumat sızmaları:</strong> şəxsi məlumatların (email, kredit kartı, şifrələr) darknet-də satılması.</li>
-  <li><strong>Maliyyə itkiləri / fırıldaqçılıq:</strong> bank və ya kripto hesablarına hücum riski.</li>
-  <li><strong>Malware və izləmə:</strong> zərərli proqram faylları və “watermarked” exploit-lər.</li>
-  <li><strong>Hüquqi məsuliyyət:</strong> qanunsuz tərkibə baxmaq və ya alış-veriş etmək cinayət məsuliyyəti yarada bilər.</li>
-  <li><strong>Təhlükəsizlik fəlakətləri:</strong> şəxsi cihazınızın kompromit edilməsi, hədəfli hücumlar.</li>
-</ol>
-
-<hr />
-
-<h2 id="️-necə-təhlükəsiz-davranmaq-olar-şəxsi-və-korporativ">🛡️ Necə təhlükəsiz davranmaq olar (şəxsi və korporativ)</h2>
-
-<p><strong>Aşağıdakı məsləhətlər informasiya təhlükəsizliyinə xidmət edir — onları icra etmək məcburidir.</strong></p>
-
-<h3 id="şəxsi-istifadəçi-üçün">Şəxsi istifadəçi üçün</h3>
-<ul>
-  <li><strong>Şifrələr və MFA:</strong> bütün hesablar üçün unikal şifrələr + iki faktorlu autentifikasiya.</li>
-  <li><strong>Qaranlıq vebdə adını yoxlamaq:</strong> sızma-check xidmətləri (Have I Been Pwned tipli etibarlı xidmətlər) ilə email/telefon yoxla.</li>
-  <li><strong>Antivirus / EDR:</strong> mobil və PC üçün etibarlı antivirus və davranışa əsaslanan qoruma.</li>
-  <li><strong>Təhlükəli faylları açma:</strong> heç vaxt tanımadığın faylları yükləmə və açma.</li>
-  <li><strong>Hüquqi maarifləndirmə:</strong> məlum olmayan təkliflərə reaksiya göstərmə — bank, iş və ya hüquqi məsələlərdə rəsmi kanallardan istifadə et.</li>
-</ul>
-
-<h3 id="korporativ--it-komandalar-üçün">Korporativ / IT komandalar üçün</h3>
-<ul>
-  <li><strong>Dark Web monitorinqi:</strong> sızmalara nəzarət üçün ödənişli təhlükəsizlik xidmətləri (Dark Web scanning) istifadə et.</li>
-  <li><strong>SIEM &amp; EDR inteqrasiyası:</strong> anomaliyaları avtomatik aşkar et və cavab ver.</li>
-  <li><strong>Məlumatların şifrələnməsi və DLP:</strong> kritik məlumatları şifrə ilə qoruyub, məlumat sızması önləyicilər (DLP) qur.</li>
-  <li><strong>İşçi təlimi:</strong> phishing və sosial mühəndislikə qarşı təlimlər keçirilir.</li>
-  <li><strong>İcazə və audit:</strong> minimal icazə, loglama və audit siyasətləri tətbiq et.</li>
-</ul>
-
-<hr />
-
-<h2 id="-dark-web-ə-girmək--nəyi-bilmək-olmaz-və-niyə-biz-təlimat-vermirik">❗ Dark Web-ə “girmək” — nəyi bilmək olmaz (və niyə biz təlimat vermirik)</h2>
-
-<p>Dark Web üzərinə necə giriş və konkret alətlər (marketplace, exploit linkləri, qanunsuz kateqoriyalar) barədə addım-addım məlumat vermək <strong>hüquqi və etik problemlər yarada bilər</strong>. Biz burada yalnız:</p>
-
-<ul>
-  <li><strong>Məqsədli təhlükəsizlik və maarifləndirmə</strong> mövzusunda məlumat veririk.</li>
-  <li>Qanunsuz əməliyyatlara yardım, qeydiyyat, ödəniş və ya necə gizlənmək barədə təlimat vermirik.</li>
-</ul>
-
-<p>Əgər tədqiqatçı və ya jurnalistsinizsə və həqiqətən Dark Web-də qanuni tədqiqat aparmaq niyyətindəsinizsə — <strong>rəsmi institutun rəhbərliyi, hüquqşünas və təşkilatınızın təhlükəsizlik komandası ilə koordinasiya</strong> edin.</p>
-
-<hr />
-
-<h2 id="-qısa-texniki-baxış-məsələn-üçün--heç-bir-təlimat-yoxdur">🔧 Qısa texniki baxış (məsələn üçün — heç bir təlimat yoxdur)</h2>
-
-<ul>
-  <li><strong>Tor (The Onion Router):</strong> Dark Web-in ən geniş istifadə olunan altyapılarından biridir; <code class="language-plaintext highlighter-rouge">*.onion</code> domenləri burada yerləşir. Tor istifadə anonimliyi artırır amma tam təhlükəsizlik təmin etmir.</li>
-  <li><strong>I2P və Freenet:</strong> alternativ anonim şəbəkə layihələri.</li>
-  <li><strong>Cryptocurrency:</strong> Dark Web əməliyyatlarında tez-tez kripto pullar istifadə olunur — bu da izləmə və hüquqi problemlərə səbəb olur.<br />
-<em>(Qeyd: yuxarıdakılar texniki terminoloji izahdır; heç bir şəkildə qanunsuz fəaliyyəti təşviq etmir.)</em></li>
-</ul>
-
-<hr />
-
-<h2 id="-hüquqi-və-etik-məqamlar">🧾 Hüquqi və etik məqamlar</h2>
-
-<ul>
-  <li>Dark Web-də fəaliyyət hüquqi məna daşıyır — bir çox ölkədə sadəcə “görmək” belə problem yarada bilər.</li>
-  <li><strong>Hüquqi məsuliyyət:</strong> satınalma, inanclı olmayan xidmətlərə müraciət, cinayət əməliyyatlarına yardım və s. cinayət məsuliyyəti yarada bilər.</li>
-  <li><strong>Etik tədqiqat:</strong> akademik və jurnalist araşdırmaları üçün də ciddi etik rəhbərlik tələb olunur.</li>
-</ul>
-
-<hr />
-
-<h2 id="-faydalı-resurslar-maarifləndirici-təhlükəsizlik-yönümlü">🧰 Faydalı resurslar (maarifləndirici, təhlükəsizlik yönümlü)</h2>
-
-<ul>
-  <li>Have I Been Pwned — email sızıntıları yoxlamaq</li>
-  <li>CVE və NVD — açıq zəifliklər üçün məlumat mənbələri</li>
-  <li>Rəsmi Tor Project saytında təhlükəsizlik və istifadə qaydaları</li>
-  <li>Etibarlı OSINT və təhlükəsizlik ölkə təlimatları</li>
-</ul>
-
-<hr />
-
-<h2 id="-tez-tez-verilən-suallar-faq">❓ Tez-tez verilən suallar (FAQ)</h2>
-
-<p><strong>Q: Deep Web ilə Dark Web eyni şeydirmi?</strong><br />
-A: Xeyr — deep web axtarış motorları tərəfindən indekslənməyən bütün veb resursları əhatə edir; dark web isə anonim şəbəkələrdə yerləşən və bəzən qanunsuz fəaliyyətə ev sahibliyi edən xüsusi bir alt qatdır.</p>
-
-<p><strong>Q: Dark Web-də məlumatım satılıbsa nə etməliyəm?</strong><br />
-A: Şifrələri dərhal dəyiş, MFA aktiv et, bankla əlaqə saxla və fişinq üçün hesabat ver. Korporativ haldırsa — DLP və IR (Incident Response) komandalarını aktiv et.</p>
-
-<p><strong>Q: Dark Web təhlükəsizdirmi?</strong><br />
-A: Tam təhlükəsiz desək yalnış olar. Anonimlik verə bilər, amma zərərli aktorlardan, izlənmədən və hüquqi riskdən qorunmağı təmin etmir.</p>
-
-<p><strong>Q: Dark Web-də tədqiqat aparmaq istəyirəm. Necə?</strong><br />
-A: Rəsmi etik komanda, hüquqi məsləhət və təşkilati icazə olmadan Dark Web tədqiqatı aparma; bunun üçün universitet, media və ya təhlükəsizlik təşkilatları çərçivəsində hərəkət et.</p>
-
-<hr />
-
-<h2 id="-nəticə--əsas-götürüləcək-məqamlar">🔑 Nəticə — əsas götürüləcək məqamlar</h2>
-
-<ul>
-  <li><strong>Deep Web</strong> gündəlik, amma indekslənməyən resursları ehtiva edir; <strong>Dark Web</strong> isə anonim, həm qanuni həm də qanunsuz məzmunlu xüsusi şəbəkələrdir.</li>
-  <li>Dark Web maraqlı və bəzən faydalı ola bilər (məsələn, jurnalistika), amma <strong>risk və hüquqi məsuliyyət</strong> daşıyır.</li>
-  <li>Şəxsi və korporativ təhlükəsizlik — şifrələr, MFA, EDR və dark web monitorinqi kimi tədbirlər önəmlidir.</li>
-  <li>Qanunsuz hərəkətlərə dəstək və ya necə “girmək” barədə təlimat vermirik — məqsəd informasiya və müdafiədir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-əlaqəli-mövzular--sayt-daxili-keçidlər">📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər</h2>
-
-<ul>
-  <li><a href="/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li><a href="/posts/sosial-mühəndislik">Phishing hücumu nədir? Müdafiə yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
-</ul>
-
-<h2 id="-əlaqə--kurs-təklifi">📲 Əlaqə / kurs təklifi</h2>
-
-<p>Əgər bu mövzu sənə maraqlıdırsa və <strong>peşəkar kiber təhlükəsizlik kursu</strong>, OSINT və ya dark web monitoring üzrə təlimlər almaq istəyirsənsə — bizdə həm praktiki kurslar, həm də şəxsi məsləhət sessiyaları mövcuddur. Yaz: 📩 <a href="https://wa.me/994555182523?text=Salam%2C%20dark%20web%20kursu%20bar%C9%99d%C9%99%20%C4%B0nformasiya%20ist%C9%99yir%C9%99m.">WhatsApp ilə əlaqə</a></p>
-
-<hr />
-
-<!-- SEO JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Deep Web vs Dark Web — Fərqlər, risklər və necə təhlükəsiz davranmaq olar (2025)",
-  "description": "Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq və 2025-də bu mövzuya yanaşma — sadə və aydın izah.",
-  "image": "https://cybershieldy.com/assets/images/deep-dark-web.webp",
-  "author": {
-    "@type": "Person",
-    "name": "CyberShieldy"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-11-01T22:10:00+04:00",
-  "dateModified": "2025-11-01T22:10:00+04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/deep-vs-dark-web"
-  }
-}
-</script>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="darknet" /><category term="deep web" /><category term="osint" /><category term="deep web" /><category term="dark web" /><category term="darknet" /><category term="tor" /><category term="onion" /><category term="deep web nədir" /><category term="dark web nədir" /><category term="kiber təhlükəsizlik" /><category term="hacker kurs" /><category term="necə qorunmaq" /><summary type="html"><![CDATA[Deep Web və Dark Web nədir? Onların fərqləri, real risklər, necə təhlükəsiz qalmaq, hüquqi məqamlar və 2025-də bu mövzuya yanaşma — sadə və aydın izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/dark_web.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/dark_web.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="mobil şəbəkə" /><category term="exploit" /><category term="telecom" /><category term="ss7 attack" /><category term="ss7 nədir" /><category term="mobil rabitə hücumu" /><category term="telecom hack" /><category term="sms interception" /><category term="call tracking" /><category term="mobile exploit" /><category term="signaling system no.7" /><category term="gsm" /><category term="kiber təhlükəsizlik" /><category term="ethical hacking" /><category term="hacker kurs" /><category term="mobil təhlükəsizlik" /><summary type="html"><![CDATA[SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? Bu məqalə SS7 hücumlarının texniki tərəflərini, risklərini və onlardan qorunma yollarını izah edir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ss7.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ss7.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
