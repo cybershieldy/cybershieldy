@@ -16,7 +16,7 @@ tags: [
   real kiber hücumlar
 ]
 description: "Instagram, Telegram və Facebook-a edilən hacker hücumlar necə baş verir? Real ssenarilər, hücum metodları və effektiv qorunma yolları. 2026 üçün geniş kibertəhlükəsizlik bələdçisi – kiber təlimlər və hacker kurslar üçün ideal mənbə."
-image: /assets/images/social-media-hacking.webp
+image: /assets/images/instagram.webp
 canonical: https://cybershieldy.com/posts/sosial-media-hacker-hucumlari
 permalink: /posts/sosial-media-hacker-hucumlari
 ---
@@ -246,7 +246,8 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 
 ## 📚 Oxşar Yazılar
 
-- [Phishing Hücumları və Sosial Mühəndislik](https://cybershieldy.com/posts/sosial-muhendislik)
+
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik)  
 - [Red Team və Blue Team Fərqləri](https://cybershieldy.com/posts/red-team-vs-blue-team)
 - [Public Wi-Fi Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
 
