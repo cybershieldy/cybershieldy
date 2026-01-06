@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)",
+    "url": "/posts/osint-arastirmalari",
+    "categories": "kibertəhlükəsizlik, osint, hacking",
+    "tags": "osint axtarış, osint alətləri, maltego osint, shodan hacking, kiber dərslər, hacker dərsləri, ethical hacking, web təhlükəsizlik, web proqramlama, kiber təlimlər",
+    "date": "2026-01-06 22:30:00 +0400",
+    "content": "OSINT nədir və necə işləyir? Maltego, Shodan və digər OSINT alətləri ilə açıq mənbələrdən informasiya toplama üsulları. Hacker dərsləri, kiber təlimlər və web təhlükəsizlik üçün 2026 bələdçisi."
+  },
+  
+  {
     "title": "Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)",
     "url": "/posts/sosial-media-hacker-hucumlari",
     "categories": "kibertəhlükəsizlik, hacking, social-media-security",

@@ -1,4 +1,399 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-02T11:12:29+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari" rel="alternate" type="text/html" title="Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)" /><published>2026-01-02T10:00:00+04:00</published><updated>2026-01-02T10:50:25+04:00</updated><id>https://cybershieldy.com/posts/instagram-telegram-facebook-hacker-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari"><![CDATA[<h1 id="instagram-telegram-və-facebook-a-edilən-hacker-hücumlar-2026">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar (2026)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-06T23:33:11+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)</title><link href="https://cybershieldy.com/posts/osint-arastirmalari" rel="alternate" type="text/html" title="OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)" /><published>2026-01-06T22:30:00+04:00</published><updated>2026-01-06T22:30:00+04:00</updated><id>https://cybershieldy.com/posts/osint-arastirmalari-maltego-shodan</id><content type="html" xml:base="https://cybershieldy.com/posts/osint-arastirmalari"><![CDATA[<h1 id="osint-araşdırmaları-2026">OSINT Araşdırmaları (2026)</h1>
+<h2 id="maltego-shodan-və-digər-alətlərlə-açıq-mənbə-kəşfiyyatı">Maltego, Shodan və Digər Alətlərlə Açıq Mənbə Kəşfiyyatı</h2>
+
+<p>Müasir kibertəhlükəsizlik dünyasında <strong>ilk hücum da, ilk müdafiə də informasiya ilə başlayır</strong>.<br />
+Bu informasiyanın böyük hissəsi isə artıq <strong>açıq mənbələrdə (Open Source)</strong> mövcuddur.</p>
+
+<p>Bu sahənin adı:</p>
+<blockquote>
+  <p><strong>OSINT – Open Source Intelligence</strong></p>
+</blockquote>
+
+<p>Bu məqalə <strong>kiber dərslər</strong>, <strong>hacker dərsləri</strong>, <strong>ethical hacking kursları</strong> və <strong>web proqramlama sahəsində təhlükəsizlik</strong> öyrənənlər üçün hazırlanıb.</p>
+
+<blockquote>
+  <p>⚠️ Qeyd: OSINT yalnız <strong>qanuni</strong>, <strong>etik</strong> və <strong>maarifləndirici</strong> məqsədlər üçün istifadə edilməlidir.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-osint-nədir">🧠 OSINT Nədir?</h2>
+
+<p><strong>OSINT</strong> – açıq və hamı üçün əlçatan mənbələrdən məlumat toplama və analiz etmə prosesidir.</p>
+
+<p>Bu mənbələrə daxildir:</p>
+<ul>
+  <li>veb saytlar</li>
+  <li>sosial şəbəkələr</li>
+  <li>domen və IP məlumatları</li>
+  <li>server bannerləri</li>
+  <li>metadata və leak edilmiş datalar</li>
+</ul>
+
+<p>Hackerlər üçün OSINT:</p>
+<ul>
+  <li>target tanıma</li>
+  <li>zəifliklərin tapılması</li>
+  <li>sosial mühəndisliyin planlanması</li>
+</ul>
+
+<p>deməkdir.</p>
+
+<p>Müdafiə tərəfi (Blue Team) üçün isə:</p>
+<ul>
+  <li>risk analizi</li>
+  <li>açıq sızıntıların aşkarlanması</li>
+  <li>reputasiya qorunması</li>
+</ul>
+
+<p>mənbəyidir.</p>
+
+<hr />
+
+<h2 id="-osint-niyə-hacker-dərslərində-keçilir">🔍 OSINT Niyə Hacker Dərslərində Keçilir?</h2>
+
+<p>Çünki real dünyada:</p>
+<ul>
+  <li>heç bir hücum “sıfırdan” başlamır</li>
+  <li>əvvəlcə <strong>kəşfiyyat (reconnaissance)</strong> aparılır</li>
+  <li>sistem haqqında maksimum informasiya toplanır</li>
+</ul>
+
+<p>Bu mərhələ <strong>ethical hacking</strong>, <strong>red team təlimləri</strong> və <strong>kiber kurslar</strong> üçün əsas fundamentdir.</p>
+
+<hr />
+
+<h1 id="-maltego-ilə-osint-araşdırmaları">🔥 Maltego ilə OSINT Araşdırmaları</h1>
+
+<h2 id="maltego-nədir">Maltego Nədir?</h2>
+
+<p><strong>Maltego</strong> – vizual OSINT və link analysis alətidir.<br />
+İnsanlar, domenlər, IP-lər, email-lər və şirkətlər arasında əlaqələri qrafik formada göstərir.</p>
+
+<p>Maltego əsasən:</p>
+<ul>
+  <li>kiber istintaqlar</li>
+  <li>sosial şəbəkə analizləri</li>
+  <li>korporativ OSINT</li>
+  <li>red team araşdırmaları</li>
+</ul>
+
+<p>üçün istifadə olunur.</p>
+
+<hr />
+
+<h2 id="maltego-ilə-nələr-tapmaq-olar">Maltego ilə Nələr Tapmaq Olar?</h2>
+
+<ul>
+  <li>Bir domenə bağlı:
+    <ul>
+      <li>subdomainlər</li>
+      <li>IP ünvanları</li>
+      <li>serverlər</li>
+    </ul>
+  </li>
+  <li>Email → sosial media profilləri</li>
+  <li>Şirkət → işçilər → platformalar</li>
+  <li>İnfrastruktur əlaqələri</li>
+</ul>
+
+<p>Bu yanaşma <strong>kiber dərslər</strong> və <strong>hacker kurslar</strong> zamanı real ssenarilər üzərindən öyrədilir.</p>
+
+<hr />
+
+<h2 id="maltego-niyə-güclüdür">Maltego Niyə Güclüdür?</h2>
+
+<p>Çünki:</p>
+<ul>
+  <li>məlumatı <strong>vizual düşünməyə</strong> imkan verir</li>
+  <li>manual OSINT-i avtomatlaşdırır</li>
+  <li>əlaqələri gizli şəkildə üzə çıxarır</li>
+</ul>
+
+<p>Bu bacarıq <strong>web təhlükəsizlik</strong> və <strong>pentest təlimləri</strong> üçün kritikdir.</p>
+
+<hr />
+
+<h1 id="-shodan-ilə-i̇nternetin-axtarışı">🌐 Shodan ilə İnternetin Axtarışı</h1>
+
+<h2 id="shodan-nədir">Shodan Nədir?</h2>
+
+<p><strong>Shodan</strong> – internetə qoşulu cihazlar üçün axtarış mühərrikidir.</p>
+
+<p>Google veb səhifələri indeksləyir,<br />
+Shodan isə:</p>
+<ul>
+  <li>serverləri</li>
+  <li>routerləri</li>
+  <li>IoT cihazlarını</li>
+  <li>firewall və kameraları</li>
+</ul>
+
+<p>görür.</p>
+
+<hr />
+
+<h2 id="shodan-ilə-hansı-məlumatlar-tapılır">Shodan ilə Hansı Məlumatlar Tapılır?</h2>
+
+<ul>
+  <li>Açıq portlar (22, 80, 443 və s.)</li>
+  <li>Server bannerləri</li>
+  <li>İstifadə olunan texnologiyalar</li>
+  <li>Köhnə və zəif sistemlər</li>
+  <li>Default config olan cihazlar</li>
+</ul>
+
+<p>Bu biliklər <strong>hacker dərsləri</strong>, <strong>kiber təlimlər</strong> və <strong>web proqramlama təhlükəsizliyi</strong> üçün real laboratoriya rolunu oynayır.</p>
+
+<hr />
+
+<h2 id="shodan-riskləri-və-dərsləri">Shodan Riskləri və Dərsləri</h2>
+
+<p>Shodan göstərir ki:</p>
+<ul>
+  <li>bir çox sistem səhv konfiqurasiya olunub</li>
+  <li>adminlər təhlükəsizliyi unudur</li>
+  <li>internetdə “görünməz” heç nə yoxdur</li>
+</ul>
+
+<p>Bu səbəbdən Shodan <strong>Blue Team</strong> üçün də vacib alətdir.</p>
+
+<hr />
+
+<h1 id="-digər-vacib-osint-alətləri">🧰 Digər Vacib OSINT Alətləri</h1>
+
+<h2 id="-google-dorks">🔹 Google Dorks</h2>
+<ul>
+  <li>gizli panellər</li>
+  <li>açıq fayllar</li>
+  <li>admin səhifələr</li>
+</ul>
+
+<h2 id="-theharvester">🔹 theHarvester</h2>
+<ul>
+  <li>email toplama</li>
+  <li>domain recon</li>
+  <li>subdomain aşkarlanması</li>
+</ul>
+
+<h2 id="-spiderfoot">🔹 SpiderFoot</h2>
+<ul>
+  <li>avtomatlaşdırılmış OSINT</li>
+  <li>IP, domain, leak analizi</li>
+</ul>
+
+<h2 id="-have-i-been-pwned">🔹 Have I Been Pwned</h2>
+<ul>
+  <li>data leak yoxlanışı</li>
+  <li>istifadəçi təhlükəsizliyi analizi</li>
+</ul>
+
+<p>Bu alətlər <strong>ethical hacking kursları</strong> və <strong>kiber dərslər</strong> üçün standartdır.</p>
+
+<hr />
+
+<h1 id="-osint-hücum-zənciri-conceptual">🧠 OSINT Hücum Zənciri (Conceptual)</h1>
+
+<p>Tipik OSINT mərhələləri:</p>
+
+<ol>
+  <li>Target müəyyənləşir</li>
+  <li>Açıq mənbələr analiz olunur</li>
+  <li>Texniki və sosial məlumatlar toplanır</li>
+  <li>Zəifliklər xəritələnir</li>
+  <li>Hücum və ya müdafiə planı qurulur</li>
+</ol>
+
+<p>Bu model <strong>real red team dərslərində</strong> istifadə edilir.</p>
+
+<hr />
+
+<h1 id="️-osint-ə-qarşı-müdafiə">🛡️ OSINT-ə Qarşı Müdafiə</h1>
+
+<p>Şirkətlər və fərdlər üçün:</p>
+
+<ul>
+  <li>Açıq dataların audit edilməsi</li>
+  <li>Metadata təmizlənməsi</li>
+  <li>Sosial media paylaşım nəzarəti</li>
+  <li>Server banner gizlədilməsi</li>
+  <li>OSINT footprint azaldılması</li>
+</ul>
+
+<p>Bu yanaşma <strong>kiber təhlükəsizlik dərsləri</strong> üçün əsas mövzudur.</p>
+
+<hr />
+
+<h2 id="nəticə">Nəticə</h2>
+
+<p>OSINT göstərir ki:</p>
+
+<blockquote>
+  <p>Hacker olmaq üçün ilk addım hücum deyil — <strong>informasiya toplamaqdır</strong>.</p>
+</blockquote>
+
+<p>OSINT bilikləri:</p>
+<ul>
+  <li>hacker dərsləri</li>
+  <li>kiber kurslar</li>
+  <li>web proqramlama təhlükəsizliyi</li>
+  <li>real dünya ssenariləri</li>
+</ul>
+
+<p>üçün vazkeçilməzdir.</p>
+
+<hr />
+
+<h2 id="-osint-və-kiber-təlimlər">📞 OSINT və Kiber Təlimlər</h2>
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20OSINT%20ve%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Dərslər • Hacker Dərsləri • OSINT Təlimləri • Ethical Hacking • Web Təhlükəsizlik • Real Ssenarilər</p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+<!--
+- [OSINT vs Social Engineering](/posts/osint-vs-social-engineering)  
+- [Red Team üçün Reconnaissance Texnikaları](/posts/red-team-recon)  
+- [Shodan ilə IoT Riskləri](/posts/shodan-iot-riskleri)
+
+-->
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="osint" /><category term="hacking" /><category term="osint axtarış" /><category term="osint alətləri" /><category term="maltego osint" /><category term="shodan hacking" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><category term="web proqramlama" /><category term="kiber təlimlər" /><summary type="html"><![CDATA[OSINT nədir və necə işləyir? Maltego, Shodan və digər OSINT alətləri ilə açıq mənbələrdən informasiya toplama üsulları. Hacker dərsləri, kiber təlimlər və web təhlükəsizlik üçün 2026 bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/osint.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/osint.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari" rel="alternate" type="text/html" title="Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)" /><published>2026-01-02T10:00:00+04:00</published><updated>2026-01-02T10:50:25+04:00</updated><id>https://cybershieldy.com/posts/instagram-telegram-facebook-hacker-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari"><![CDATA[<h1 id="instagram-telegram-və-facebook-a-edilən-hacker-hücumlar-2026">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar (2026)</h1>
 <h2 id="real-hücum-metodları-sistem-zəiflikləri-və-qorunma-strategiyaları">Real Hücum Metodları, Sistem Zəiflikləri və Qorunma Strategiyaları</h2>
 
 <p>Sosial şəbəkələr artıq sadəcə ünsiyyət platforması deyil.<br />
@@ -3202,290 +3597,4 @@ Bu məqalədə kompüter viruslarının nə olduğu, exploitlərin necə işləd
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="malware" /><category term="exploit" /><category term="incident-response" /><category term="kompyuter virusları" /><category term="malware nədir" /><category term="exploit nədir" /><category term="ransomware qorunma" /><category term="EDR" /><category term="IDS" /><category term="IPS" /><category term="patch management" /><summary type="html"><![CDATA[Kompyuter virusları və exploitlər arasındakı əsas fərqlər, aşkarlama texnikaları və 2025 üçün praktik müdafiə addımları. Patch, backup və EDR tövsiyələri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/exploit.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/exploit.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)</title><link href="https://cybershieldy.com/posts/ss7-hucumlari" rel="alternate" type="text/html" title="SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)" /><published>2025-11-06T14:10:00+04:00</published><updated>2025-12-25T13:10:30+04:00</updated><id>https://cybershieldy.com/posts/ss7-hucumlari-mobil-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/ss7-hucumlari"><![CDATA[<h1 id="-ss7-hücumları--mobil-rabitə-zəifliyi-və-məlumatların-oğurlanması-2025">📱 SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)</h1>
-
-<p><strong>Qısa xülasə:</strong><br />
-SS7 (Signaling System No.7) — mobil operatorlar arasında rabitəni idarə edən protokoldur. Lakin bu sistemin köhnə quruluşu səbəbilə, hücumçular zəngləri izləyə, SMS mesajlarını ələ keçirə və istifadəçilərin yerini təyin edə bilirlər. Bu məqalə SS7 hücumlarının necə işlədiyini, real riskləri və onlardan qorunmaq yollarını izah edir.</p>
-
-<hr />
-
-<h2 id="-ss7-nədir-və-niyə-təhlükəlidir">🔍 SS7 nədir və niyə təhlükəlidir?</h2>
-
-<p><strong>SS7 (Signaling System No.7)</strong> — GSM, 3G və bəzi LTE şəbəkələrdə zənglərin və mesajların yönləndirilməsini təmin edən siqnal protokollar toplusudur.<br />
-Bu sistem 1980-ci illərdə dizayn olunub və <strong>“etimada əsaslanan arxitektura”</strong> üzərində qurulub — yəni bir operator digər operatora avtomatik güvənir.</p>
-
-<p>Bu etimad mexanizmi isə müasir dövrdə böyük bir problem yaradır:</p>
-<blockquote>
-  <p>“Əgər hücumçu SS7 şəbəkəsinə çıxış əldə edirsə, istənilən mobil nömrə haqqında real zamanlı məlumat toplaya bilər.”</p>
-</blockquote>
-
-<hr />
-
-<h2 id="️-ss7-hücumu-ilə-nələr-mümkündür">⚠️ SS7 Hücumu ilə nələr mümkündür?</h2>
-
-<ol>
-  <li><strong>SMS interception:</strong> iki faktorlu autentifikasiya (MFA) üçün göndərilən SMS kodlarını ələ keçirmək.</li>
-  <li><strong>Call redirection:</strong> gələn zəngləri başqa nömrəyə yönləndirmək.</li>
-  <li><strong>Location tracking:</strong> istifadəçinin coğrafi yerini (cell ID və LAC vasitəsilə) təyin etmək.</li>
-  <li><strong>Data exfiltration:</strong> mobil trafikdə gizli məlumatların sızdırılması.</li>
-  <li><strong>Subscriber information theft:</strong> IMSI, IMEI və abunəçi məlumatlarını əldə etmək.</li>
-</ol>
-
-<hr />
-
-<h2 id="-ss7-hücum-mexanizmi-sadə-izah">🔬 SS7 Hücum Mexanizmi (Sadə izah)</h2>
-
-<ol>
-  <li>Hücumçu SS7 şəbəkəsinə çıxış əldə edir (tez-tez “leased access” və ya kompromit olunmuş operatorlar vasitəsilə).</li>
-  <li>“UpdateLocation” və “ProvideSubscriberInfo” sorğuları ilə hədəf abunəçinin IMSI və yer məlumatı əldə olunur.</li>
-  <li>“SendRoutingInfoForSM” mesajı ilə SMS yönləndirilə və ya tutulur.</li>
-  <li>Hücumçu SMS və zəng məlumatlarını öz serverinə yönləndirir.</li>
-</ol>
-
-<blockquote>
-  <p><strong>Nəticə:</strong> Hədəfin xəbəri olmadan zəng və SMS məlumatları sızdırıla bilər.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-real-həyatda-ss7-hücumlarının-nümunələri">🧠 Real həyatda SS7 hücumlarının nümunələri</h2>
-
-<ul>
-  <li><strong>2017 Almaniya Bank Hücumu:</strong> Hackerlər SS7 zəifliyindən istifadə edərək bank SMS təsdiqlərini ələ keçirdi və müştərilərin hesablarından pul köçürdülər.</li>
-  <li><strong>2019 İsrail Araşdırması:</strong> Telekom mütəxəssisləri SS7 üzərindən bütün ölkə üzrə abunəçilərin yerini izləməyə nail oldular.</li>
-  <li><strong>APT Hücumları:</strong> Dövlət səviyyəli hücum qrupları SS7 zəifliyindən kəşfiyyat və izləmə məqsədilə istifadə edir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-müdafiə-və-təhlükəsizlik-tədbirləri">🧰 Müdafiə və Təhlükəsizlik Tədbirləri</h2>
-
-<h3 id="şəxsi-istifadəçi-üçün">Şəxsi istifadəçi üçün</h3>
-<ul>
-  <li><strong>SMS əvəzinə MFA tətbiqləri:</strong> Google Authenticator, Authy və ya hardware tokenlərdən istifadə et.</li>
-  <li><strong>VPN və şifrəli rabitə:</strong> Signal, Telegram Secret Chat kimi uçtan-uca şifrəli platformalardan istifadə et.</li>
-  <li><strong>Mobil operatorla əlaqə:</strong> mümkün olduqda SS7 filtrasiya dəstəkli operator seç.</li>
-  <li><strong>Şübhəli fəaliyyətləri izləmək:</strong> bank bildirişlərində və hesab girişlərində qəribə aktivlikləri yoxla.</li>
-</ul>
-
-<h3 id="operatorlar-və-şirkətlər-üçün">Operatorlar və şirkətlər üçün</h3>
-<ul>
-  <li><strong>SS7 firewall tətbiqi:</strong> anormal sorğuları analiz edən və bloklayan filtrasiya sistemləri.</li>
-  <li><strong>Diameter və LTE təhlükəsizlik təkmilləşdirmələri:</strong> müasir protokollarla SS7 zəifliklərini aradan qaldırmaq.</li>
-  <li><strong>Threat intelligence inteqrasiyası:</strong> hücum göstəricilərinin (IOC) toplanması və paylaşımı.</li>
-  <li><strong>Audit və pentest:</strong> telecom infrastrukturu üçün müntəzəm sızma testləri.</li>
-</ul>
-
-<hr />
-
-<h2 id="️-texniki-baxış-ss7-mesajnı-necə-manipulyasiya-etmək-olur">⚙️ Texniki baxış: SS7 mesajnı necə “manipulyasiya” etmək olur?</h2>
-
-<blockquote>
-  <p>Bu bölmə yalnız <strong>maarifləndirici və texniki izah məqsədi daşıyır</strong>, heç bir praktiki istismar təlimatı verilmir.</p>
-</blockquote>
-
-<ul>
-  <li><strong>MAP protokolu:</strong> <code class="language-plaintext highlighter-rouge">SendRoutingInfo</code>, <code class="language-plaintext highlighter-rouge">UpdateLocation</code>, <code class="language-plaintext highlighter-rouge">InsertSubscriberData</code> kimi mesajlar zəiflik nöqtəsidir.</li>
-  <li><strong>Global Title Translation (GTT):</strong> SS7 mesajlarının istiqamətini təyin edən sistem, səhv konfiqurasiyada zərərli manipulyasiyalara açıqdır.</li>
-  <li><strong>Firewalls və monitoring olmadan:</strong> hər hansı operator node-a daxil olan hücumçu, “trusted” əlaqə kimi görünür və sorğu göndərə bilir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-hüquqi-və-etik-aspektlər">🧾 Hüquqi və etik aspektlər</h2>
-
-<ul>
-  <li>SS7 hücumlarını həyata keçirmək və ya belə sistemlərə icazəsiz çıxış <strong>cinayət əməlidir.</strong></li>
-  <li>Telekom infrastrukturuna müdaxilə ciddi hüquqi məsuliyyət yaradır.</li>
-  <li>Bu məqalə yalnız <strong>kiber təhlükəsizlik tədrisi və maarifləndirmə</strong> məqsədilə hazırlanmışdır.</li>
-</ul>
-
-<hr />
-
-<h2 id="-nəticə">🔑 Nəticə</h2>
-
-<ul>
-  <li>SS7 — mobil rabitənin “əski skeleti” olaraq qalır və müasir dövrdə <strong>ciddi zəifliklər</strong> daşıyır.</li>
-  <li>Hücumçular SMS və zəng məlumatlarını ələ keçirə bilər.</li>
-  <li>Təhlükəsizlik üçün SMS-based autentifikasiyadan uzaq durmaq, müasir operator seçmək və mobil təhlükəsizlik alətlərindən istifadə vacibdir.</li>
-  <li>Qorunmaq üçün həm <strong>fərdi</strong>, həm də <strong>korporativ səviyyədə</strong> tədbirlər görülməlidir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-əlaqəli-mövzular--sayt-daxili-keçidlər">📎 Əlaqəli Mövzular — Sayt daxili keçidlər</h2>
-
-<ul>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-təlim-və-kurslar">📲 Təlim və kurslar</h2>
-
-<p>Əgər <strong>mobil rabitə təhlükəsizliyi, SS7 zəiflikləri və telecom protokolları</strong> haqqında daha dərindən öyrənmək istəyirsənsə —<br />
-<strong>CyberShieldy Academy</strong> real praktiki laboratoriyalar və ethical hacking kursları təklif edir.<br />
-📩 <a href="https://wa.me/994555182523?text=Salam%2C%20SS7%20h%C3%BCcumlar%C4%B1%20haqq%C4%B1nda%20kurs%20m%C9%99lumat%C4%B1%20ist%C9%99yir%C9%99m.">WhatsApp ilə əlaqə</a></p>
-
-<hr />
-
-<!-- SEO JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "SS7 Hücumları — Mobil Rabitə Zəifliyi və Məlumatların Oğurlanması (2025)",
-  "description": "SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? SS7 hücumlarının texniki tərəfləri, riskləri və qorunma yolları.",
-  "image": "https://cybershieldy.com/assets/images/ss7-attack.webp",
-  "author": { "@type": "Person", "name": "CyberShieldy" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://cybershieldy.com/assets/images/logo.png"
-    }
-  },
-  "datePublished": "2025-11-06T14:10:00+04:00",
-  "dateModified": "2025-11-06T14:10:00+04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://cybershieldy.com/posts/ss7-hucumlari"
-  }
-}
-</script>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="mobil şəbəkə" /><category term="exploit" /><category term="telecom" /><category term="ss7 attack" /><category term="ss7 nədir" /><category term="mobil rabitə hücumu" /><category term="telecom hack" /><category term="sms interception" /><category term="call tracking" /><category term="mobile exploit" /><category term="signaling system no.7" /><category term="gsm" /><category term="kiber təhlükəsizlik" /><category term="ethical hacking" /><category term="hacker kurs" /><category term="mobil təhlükəsizlik" /><summary type="html"><![CDATA[SS7 zəifliyi mobil şəbəkələrdə zəng və SMS izlənməsini necə mümkün edir? Bu məqalə SS7 hücumlarının texniki tərəflərini, risklərini və onlardan qorunma yollarını izah edir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ss7.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ss7.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="malware" /><category term="exploit" /><category term="incident-response" /><category term="kompyuter virusları" /><category term="malware nədir" /><category term="exploit nədir" /><category term="ransomware qorunma" /><category term="EDR" /><category term="IDS" /><category term="IPS" /><category term="patch management" /><summary type="html"><![CDATA[Kompyuter virusları və exploitlər arasındakı əsas fərqlər, aşkarlama texnikaları və 2025 üçün praktik müdafiə addımları. Patch, backup və EDR tövsiyələri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/exploit.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/exploit.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
