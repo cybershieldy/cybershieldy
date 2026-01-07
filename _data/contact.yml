@@ -52,6 +52,12 @@
   url: "https://www.tiktok.com/@cybershieldycyber"
   icon: "fab fa-tiktok"
 
+
+- type: reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/CyberShieldyAcademy/"
+
 - type: reddit
   icon: "fab fa-reddit"
   url: "https://www.reddit.com/r/cybersecurity/"
+
