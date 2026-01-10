@@ -16,7 +16,7 @@ tags: [
   red team
 ]
 description: "2026-cı ildə hacking və kibertəhlükəsizlik sahəsində istifadə olunan əsas cihazlar. Flipper Zero, Wi-Fi adapterlər, RF alətləri və IoT hücum texnologiyaları. Hacker dərsləri və kiber kurslar üçün praktiki bələdçi."
-image: /assets/images/hacking-devices.webp
+image: /assets/images/hacker_tools.webp
 canonical: https://cybershieldy.com/posts/hacking-cihazlari
 permalink: /posts/hacking-cihazlari
 ---
@@ -174,9 +174,17 @@ Bu səbəbdən:
 
 ---
 
-## 📞 Əlaqə və Kiber Təlimlər
+
+📲 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20OSINT%20ve%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.)
 
 **CyberShieldy Academy**  
-🧠 Hacker Dərsləri • 🛡️ Kiber Təhlükəsizlik • 🌐 IoT Hacking • ⚔️ Ethical Hacking • 🔴 Red Team • 🧪 Real Laboratoriyalar
+Kiber Dərslər • Hacker Dərsləri • OSINT Təlimləri • Ethical Hacking • Web Təhlükəsizlik • Real Ssenarilər
 
+---
+
+## 📚 Oxşar Yazılar
+
+- [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
+- [IoT ev cihazları necə hacklənir?](https://cybershieldy.com/posts/iot-ev-cihazlari-hacking)  
+- [Fiziki Hücumlar: Flipper Zero, BadUSB](https://cybershieldy.com/posts/fiziki-hucumlar-genis)
 {% include cyber-popup.html %}
