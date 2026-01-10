@@ -1,4 +1,322 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-07T19:07:49+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)</title><link href="https://cybershieldy.com/posts/osint-arastirmalari" rel="alternate" type="text/html" title="OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)" /><published>2026-01-06T22:30:00+04:00</published><updated>2026-01-06T22:30:00+04:00</updated><id>https://cybershieldy.com/posts/osint-arastirmalari-maltego-shodan</id><content type="html" xml:base="https://cybershieldy.com/posts/osint-arastirmalari"><![CDATA[<h1 id="osint-araşdırmaları-2026">OSINT Araşdırmaları (2026)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-10T16:13:21+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)</title><link href="https://cybershieldy.com/posts/hacking-cihazlari" rel="alternate" type="text/html" title="Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)" /><published>2026-01-10T16:00:00+04:00</published><updated>2026-01-10T16:00:00+04:00</updated><id>https://cybershieldy.com/posts/hacking-cihazlari-flipper-zero-wifi-iot</id><content type="html" xml:base="https://cybershieldy.com/posts/hacking-cihazlari"><![CDATA[<h1 id="-hacking-üçün-i̇stifadə-olunan-cihazlar-2026">🧠 Hacking üçün İstifadə Olunan Cihazlar (2026)</h1>
+<h2 id="️-flipper-zero-wi-fi-adapterlər-və-iot-hücum-texnologiyaları">🛠️ Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Texnologiyaları</h2>
+
+<p>Müasir <strong>kibertəhlükəsizlik</strong> dünyasında hacking artıq yalnız kod yazmaqdan ibarət deyil.<br />
+Real hücum və müdafiə ssenarilərində <strong>fiziki cihazlar</strong>, <strong>radio tezlikləri (RF)</strong>, <strong>Wi-Fi protokolları</strong> və <strong>IoT sistemləri</strong> əsas rol oynayır.</p>
+
+<p>Bu səbəbdən <strong>hacker dərsləri</strong>, <strong>kiber təhlükəsizlik dərsləri</strong> və <strong>kiber kurslar</strong> artıq <strong>praktiki cihaz əsaslı</strong> yanaşma ilə tədris olunur.</p>
+
+<blockquote>
+  <p>⚠️ Qeyd: Bu məqalədə qeyd olunan bütün texnologiyalar yalnız <strong>qanuni</strong>, <strong>etik</strong> və <strong>təlim məqsədli</strong> istifadə üçün nəzərdə tutulur.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-flipper-zero--multi-tool-hacking-cihazı">🔥 Flipper Zero – Multi-Tool Hacking Cihazı</h2>
+
+<h3 id="-flipper-zero-nədir">📌 Flipper Zero nədir?</h3>
+
+<p><strong>Flipper Zero</strong> RF, NFC, RFID, IR, Bluetooth və GPIO dəstəyi olan portativ <strong>hacking multi-tool</strong> cihazıdır.<br />
+Xüsusilə <strong>physical security</strong>, <strong>IoT hacking</strong> və <strong>red team</strong> ssenarilərində istifadə olunur.</p>
+
+<h3 id="️-texniki-imkanlar">⚙️ Texniki imkanlar</h3>
+<ul>
+  <li>📡 Sub-GHz RF (433 / 868 / 915 MHz)</li>
+  <li>🪪 NFC / RFID oxuma və emulyasiya</li>
+  <li>📺 Infrared (IR) siqnal klonlama</li>
+  <li>💻 BadUSB &amp; HID emulyasiyası</li>
+  <li>🔌 GPIO üzərindən hardware testləri</li>
+</ul>
+
+<h3 id="-i̇stifadə-olunduğu-ssenarilər">🧪 İstifadə olunduğu ssenarilər</h3>
+<ul>
+  <li>🔓 Access control və kart sistemlərinin yoxlanması</li>
+  <li>🚪 Smart lock və ağıllı ev auditləri</li>
+  <li>💣 BadUSB hücum simulyasiyaları</li>
+  <li>📱 Bluetooth Low Energy (BLE) analizləri</li>
+  <li>📻 RF siqnalların tutulması və replay testləri</li>
+</ul>
+
+<p>Flipper Zero <strong>ethical hacking kursları</strong> və <strong>kiber təhlükəsizlik dərsləri</strong> üçün real laboratoriya rolunu oynayır.</p>
+
+<hr />
+
+<h2 id="-wi-fi-hacking-cihazları-və-adapterlər">📡 Wi-Fi Hacking Cihazları və Adapterlər</h2>
+
+<h3 id="-wi-fi-hacking-nə-üçün-vacibdir">📶 Wi-Fi hacking nə üçün vacibdir?</h3>
+
+<p>Wi-Fi şəbəkələr:</p>
+<ul>
+  <li>ən çox istifadə olunan</li>
+  <li>ən çox səhv konfiqurasiya edilən</li>
+  <li>ən çox hücuma məruz qalan</li>
+</ul>
+
+<p>sistemlərdəndir. Buna görə <strong>wireless security</strong> hacker dərslərinin əsas mövzusudur.</p>
+
+<hr />
+
+<h3 id="-tp-link-tl-wn722n-v1">⭐ TP-Link TL-WN722N (v1)</h3>
+
+<p><strong>TP-Link TL-WN722N v1</strong> hacking dünyasında klassik Wi-Fi adapter hesab olunur.</p>
+
+<h4 id="-üstünlükləri">🔧 Üstünlükləri</h4>
+<ul>
+  <li>📡 Monitor Mode dəstəyi</li>
+  <li>💉 Packet Injection imkanı</li>
+  <li>🐧 Kali Linux ilə stabil uyğunluq</li>
+</ul>
+
+<h4 id="-hücum-ssenariləri">🧪 Hücum ssenariləri</h4>
+<ul>
+  <li>WPA/WPA2 handshake tutma</li>
+  <li>Deauthentication testləri</li>
+  <li>Evil Twin (Fake AP) hücumları</li>
+  <li>Wi-Fi trafik analizi</li>
+  <li>Rogue Access Point aşkarlanması</li>
+</ul>
+
+<p>Bu ssenarilər <strong>hacker dərsləri</strong> və <strong>kiber kurslar</strong> zamanı real lab şəklində öyrədilir.</p>
+
+<hr />
+
+<h3 id="-alternativ-wi-fi-adapterlər">🔁 Alternativ Wi-Fi adapterlər</h3>
+<ul>
+  <li>📡 Alfa AWUS036NHA</li>
+  <li>📡 Alfa AWUS036ACH</li>
+  <li>📡 Panda Wireless adapterlər</li>
+</ul>
+
+<p>Bu cihazlar <strong>red team</strong> və <strong>advanced wireless hacking</strong> dərslərində istifadə olunur.</p>
+
+<hr />
+
+<h2 id="-rf-radio-frequency-hacking-cihazları">📻 RF (Radio Frequency) Hacking Cihazları</h2>
+
+<h3 id="-rf-hacking-nədir">📡 RF hacking nədir?</h3>
+
+<p>RF hacking — radio dalğaları üzərindən işləyən sistemlərin analiz və təhlükəsizlik testidir.</p>
+
+<h4 id="-target-nümunələri">🎯 Target nümunələri</h4>
+<ul>
+  <li>🚗 Avtomobil açarları</li>
+  <li>🚪 Qaraj qapıları</li>
+  <li>🎮 Simsiz pultlar</li>
+  <li>🌡️ Sensor və IoT modulları</li>
+</ul>
+
+<h3 id="-rf-hücum-texnikaları">💥 RF hücum texnikaları</h3>
+<ul>
+  <li>🔁 Replay attack</li>
+  <li>📶 Weak signal abuse</li>
+  <li>🧬 Protokol analizi</li>
+  <li>⚠️ Default frequency istismarı</li>
+</ul>
+
+<p>Bu mövzular <strong>physical security</strong> və <strong>IoT hacking dərslərində</strong> əsas yer tutur.</p>
+
+<hr />
+
+<h2 id="-iot-hacking-və-təhlükəsizlik-riskləri">🌐 IoT Hacking və Təhlükəsizlik Riskləri</h2>
+
+<h3 id="️-iot-niyə-risklidir">⚠️ IoT niyə risklidir?</h3>
+
+<p>IoT cihazlar çox zaman:</p>
+<ul>
+  <li>🔑 zəif və default parollarla</li>
+  <li>🧱 köhnə firmware ilə</li>
+  <li>🌍 açıq portlarla</li>
+  <li>🔓 şifrələnmə olmadan</li>
+</ul>
+
+<p>istifadə edilir.</p>
+
+<p>Bu isə onları hackerlər üçün <strong>asan hədəf</strong>, müdafiə tərəfi üçün <strong>kritik risk</strong> edir.</p>
+
+<hr />
+
+<h3 id="-iot-hacking-metodları">🧪 IoT hacking metodları</h3>
+<ul>
+  <li>📦 Firmware analizi</li>
+  <li>🕵️ Network traffic sniffing</li>
+  <li>🔑 Default credential testləri</li>
+  <li>🔌 API və servis abuse</li>
+  <li>🧠 Hardware interfeyslərin yoxlanması</li>
+</ul>
+
+<p>Bu mövzular <strong>kiber təhlükəsizlik üzrə kurslar</strong> üçün real ssenarilər təqdim edir.</p>
+
+<hr />
+
+<h2 id="️-müdafiə-tərəfi-blue-team-üçün-dərslər">🛡️ Müdafiə Tərəfi (Blue Team) üçün Dərslər</h2>
+
+<p>Bu cihazlar yalnız hücum üçün deyil, <strong>müdafiə məqsədilə</strong> də öyrədilir:</p>
+
+<ul>
+  <li>🛡️ Wi-Fi hardening</li>
+  <li>📵 RF risklərin azaldılması</li>
+  <li>🔐 IoT device security</li>
+  <li>🚷 Physical access risklərinin bağlanması</li>
+</ul>
+
+<p>Bu yanaşma <strong>kiber təhlükəsizlik dərslərinin əsas fəlsəfəsidir</strong>.</p>
+
+<hr />
+
+<h2 id="-nəticə">✅ Nəticə</h2>
+
+<p>Müasir hacking:</p>
+<ul>
+  <li>💻 laptopla məhdudlaşmır</li>
+  <li>🧰 real cihazlarla icra olunur</li>
+  <li>🌐 fiziki və rəqəmsal dünyanı birləşdirir</li>
+</ul>
+
+<p>Bu səbəbdən:</p>
+<blockquote>
+  <p><strong>Hacker dərsləri və kiber kurslar cihaz biliyi olmadan tamamlanmış sayılmır.</strong></p>
+</blockquote>
+
+<hr />
+
+<h2 id="-əlaqə-və-kiber-təlimlər">📞 Əlaqə və Kiber Təlimlər</h2>
+
+<p><strong>CyberShieldy Academy</strong><br />
+🧠 Hacker Dərsləri • 🛡️ Kiber Təhlükəsizlik • 🌐 IoT Hacking • ⚔️ Ethical Hacking • 🔴 Red Team • 🧪 Real Laboratoriyalar</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot" /><category term="hacking cihazları" /><category term="flipper zero" /><category term="wifi hacking" /><category term="tplink tl-wn722n" /><category term="iot hacking" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="kiber kurs" /><category term="ethical hacking" /><category term="red team" /><summary type="html"><![CDATA[2026-cı ildə hacking və kibertəhlükəsizlik sahəsində istifadə olunan əsas cihazlar. Flipper Zero, Wi-Fi adapterlər, RF alətləri və IoT hücum texnologiyaları. Hacker dərsləri və kiber kurslar üçün praktiki bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacking-devices.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacking-devices.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)</title><link href="https://cybershieldy.com/posts/osint-arastirmalari" rel="alternate" type="text/html" title="OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)" /><published>2026-01-06T22:30:00+04:00</published><updated>2026-01-06T22:30:00+04:00</updated><id>https://cybershieldy.com/posts/osint-arastirmalari-maltego-shodan</id><content type="html" xml:base="https://cybershieldy.com/posts/osint-arastirmalari"><![CDATA[<h1 id="osint-araşdırmaları-2026">OSINT Araşdırmaları (2026)</h1>
 <h2 id="maltego-shodan-və-digər-alətlərlə-açıq-mənbə-kəşfiyyatı">Maltego, Shodan və Digər Alətlərlə Açıq Mənbə Kəşfiyyatı</h2>
 
 <p>Müasir kibertəhlükəsizlik dünyasında <strong>ilk hücum da, ilk müdafiə də informasiya ilə başlayır</strong>.<br />
@@ -3260,341 +3578,4 @@ maxretry = 5</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="server" /><category term="cybersecurity" /><category term="ssh" /><category term="brute force" /><category term="fail2ban" /><category term="linux təhlükəsizliyi" /><category term="blue team" /><category term="kiberhücum" /><category term="cybersecurity kursu" /><category term="ethical hacking" /><category term="red team" /><category term="penetration testing" /><summary type="html"><![CDATA[Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/brute.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/brute.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)</title><link href="https://cybershieldy.com/posts/kompyuter-viruslari-exploit" rel="alternate" type="text/html" title="Kompyuter Virusları və Exploitlər — Fərqlər, Nümunələr və Müdafiə (2025)" /><published>2025-11-08T09:00:00+04:00</published><updated>2025-12-25T13:03:36+04:00</updated><id>https://cybershieldy.com/posts/kompyuter-viruslari-exploit-ferqi</id><content type="html" xml:base="https://cybershieldy.com/posts/kompyuter-viruslari-exploit"><![CDATA[<h1 id="-kompyuter-virusları-exploit-və-sızma-sistemləri--fərqlər-nümunələr-və-müdafiə-2025">🦠 Kompyuter Virusları, Exploit və Sızma Sistemləri — Fərqlər, Nümunələr və Müdafiə (2025)</h1>
-
-<p><strong>Qısa xülasə:</strong><br />
-Bu məqalədə kompüter viruslarının nə olduğu, exploitlərin necə işlədiyi və sızma aşkarlama / qarşısını alma (IDS/IPS/EDR) sistemlərinin bu təhlükələrə qarşı necə müdaxilə etdiyi ətraflı şəkildə izah edilir. Məqsəd — həm texniki oxuculara, həm də təhlükəsizlik üzrə qərar verənlərə praktik və aydın məlumat verməkdir.</p>
-
-<hr />
-
-<h2 id="-virus-nədir--əsas-anlayışlar">🔍 Virus nədir? — əsas anlayışlar</h2>
-
-<p><strong>Kompyuter virusu</strong> — özünü başqa fayla və ya sistemə yapışdıra bilən, şərt yerinə yetirildikdə reallaşan proqram və ya kod blokudur. Viruslar adətən istifadəçinin fayl açması, proqram işə salması və ya sistemdə müəyyən bir hadisənin baş verməsi ilə “aktivləşir”.</p>
-
-<p>Virus növləri (qısa):</p>
-<ul>
-  <li><strong>File infector (fayl yoluxdurucu):</strong> proqram fayllarına əlavə olunur.</li>
-  <li><strong>Boot-sector virus:</strong> sistemin başlanğıc sektoruna yerləşərək əməliyyat sisteminin yüklənməsi ilə aktivləşir.</li>
-  <li><strong>Macro virus:</strong> Office sənədlərindəki makrolara yerləşir (məsələn, .doc/.xls makroları).</li>
-  <li><strong>Polymorphic/Metamorphic viruslar:</strong> öz kodunu dəyişdirərək signature-dan gizlənməyə çalışır.</li>
-  <li><strong>Ransomware (xilasetmə proqramı):</strong> faylları şifrələyir və pul tələb edir — praktik olaraq müasir təhlükələrin əsas qrupudur.</li>
-  <li><strong>Worm (qurd):</strong> özünü şəbəkə vasitəsilə surətləndirən, faydalı fayl “qonşu”ya bağlanmadan yayıla bilən zərərli proqram.</li>
-</ul>
-
-<blockquote>
-  <p>Qeyd: “Virus” termini bəzən geniş şəkildə bütün zərərli proqramları (malware) ifadə etmək üçün istifadə olunur, amma texniki cəhətdən virus spesifik replicasiya davranışına malik proqramdır.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="exploit-nədir--zəiflikdən-istifadə-mexanizmi">Exploit nədir? — zəiflikdən istifadə mexanizmi</h2>
-
-<p><strong>Exploit</strong> — proqram təminatındakı (OS, tətbiq, protokol və ya avadanlıq) zəiflikdən istifadə edərək arzuolunmaz davranışı (kod icrası, imtiyaz yüksəldilməsi, məlumat sızması və s.) həyata keçirən kod və ya metodikadır. Exploit özü mütləq “zərərli” olmaya bilər — bəzən pentest alətləri də exploit kimi fəaliyyət göstərir — lakin təhlükə onun pis niyyətli istifadəsindədir.</p>
-
-<p>Exploit elementləri:</p>
-<ul>
-  <li><strong>Vulnerability (zəiflik):</strong> proqramdakı səhv (məs. buffer overflow, SQL injection, deserialization bug).</li>
-  <li><strong>Payload:</strong> exploitin çatdırmaq istədiyi kod (məs. reverse shell, ransomware dropper).</li>
-  <li><strong>Exploit chain:</strong> bir neçə zəiflikdən ardıcıl istifadə edərək kompleks hücum icra etmək.</li>
-</ul>
-
-<p><strong>Əsas fərq (sadə):</strong> virus — özünü çoxaldan və fayl/sistem daxilində zərər verən proqram; exploit — zəiflikdən istifadə edərək həmin zərərli proqramın və ya manipulyasiyanın icrasına şərait yaradan vasitədir.</p>
-
-<hr />
-
-<h2 id="-virus-və-exploit-necə-bir-birini-tamamlayır">🧩 Virus və exploit necə bir-birini tamamlayır?</h2>
-
-<p>Praktik hücum nümunəsi sxemi:</p>
-<ol>
-  <li>Hücumçu public-facing veb tətbiqdə SQL injection (vulnerability) tapır.</li>
-  <li>Bunun üzərindən exploit yazır və tətbiqə kod yeridir.</li>
-  <li>Exploit serverdə zərərli kod (payload) icra edir — məsələn, backdoor/qurd yükləyir.</li>
-  <li>Yüklənən malware (virus/trojan) daxili şəbəkəyə yayıla və məlumat oğurlaya bilər.</li>
-</ol>
-
-<p>Yəni exploit -&gt; zəiflikdən istifadə; virus/malware -&gt; zərərli nəticəni (məlumat sızması, şifrələmə və s.) yaradan komponentdir.</p>
-
-<hr />
-
-<h2 id="️-sızma-aşkar-edən-və-qarşısını-alan-sistemlər-ids--ips--edr--av">🛡️ Sızma aşkar edən və qarşısını alan sistemlər (IDS / IPS / EDR / AV)</h2>
-
-<h3 id="antivirus-av">Antivirus (AV)</h3>
-<ul>
-  <li><strong>İş prinsipi:</strong> fayl səviyyəsində signature və bəzi heuristik analiz.</li>
-  <li><strong>Güclü tərəfləri:</strong> tanınmış zərərli kodlara qarşı effektiv.</li>
-  <li><strong>Məhdudiyyətləri:</strong> yeni (0-day) və polymorphic nümunələri aşkar etmək çətindir.</li>
-</ul>
-
-<h3 id="endpoint-detection--response-edr">Endpoint Detection &amp; Response (EDR)</h3>
-<ul>
-  <li><strong>İş prinsipi:</strong> endpoint davranışlarını (proseslər, şəbəkə çağırışları, fayl əməliyyatları) real vaxtda izləyir və anomaliyaya reaksiya verir.</li>
-  <li><strong>Güclü tərəfləri:</strong> davranış əsaslı aşkarlama, forensik toplama, avtomatlaşdırılmış cavab.</li>
-  <li><strong>Məhdudiyyətləri:</strong> düzgün konfigurasiya və təlim datası tələb edir.</li>
-</ul>
-
-<h3 id="intrusion-detection-system-ids">Intrusion Detection System (IDS)</h3>
-<ul>
-  <li><strong>Nəsə aşkar edir, ancaq bloklamır.</strong></li>
-  <li><strong>Növ:</strong> network-based (NIDS) və host-based (HIDS).</li>
-  <li><strong>Metodlar:</strong> signature (Snort), anomaly-based.</li>
-</ul>
-
-<h3 id="intrusion-prevention-system-ips">Intrusion Prevention System (IPS)</h3>
-<ul>
-  <li><strong>IDS-in inkişaf etmiş forması:</strong> şübhəli trafiki bloklayır, aktiv müdaxilə edir.</li>
-  <li><strong>Diqqət:</strong> yanlış bloklamalar (false positives) əməliyyatlara təsir edə bilər — düzgün siyasət vacibdir.</li>
-</ul>
-
-<h3 id="sandboxing-və-threat-intelligence">Sandboxing və Threat Intelligence</h3>
-<ul>
-  <li><strong>Sandbox:</strong> şübhəli faylı izolyasiya olunmuş mühitdə çalışdıraraq davranışını müşahidə edir (məlum olmayan malware üçün faydalıdır).</li>
-  <li><strong>Threat Intel:</strong> IOCs (IPs, hashes, domains) paylaşmaqla aşkarlama sistemlərinin effektivliyini artırır.</li>
-</ul>
-
-<hr />
-
-<h2 id="aşkarlama-texnikaları--signature-vs-davranış-vs-heuristika">Aşkarlama texnikaları — signature vs davranış vs heuristika</h2>
-
-<ul>
-  <li><strong>Signature-based:</strong> faylın hash və ya kod nümunəsinə əsaslanır — sürətli, amma 0-day-lərə zəifdir.</li>
-  <li><strong>Heuristic/static analysis:</strong> kod strukturu və statik göstəricilərə baxır — dəyişən kodu müəyyən edə bilər.</li>
-  <li><strong>Behavioral/Runtime analysis:</strong> proseslərin, API çağırışlarının və şəbəkə fəaliyyətinin analizinə əsaslanır — modern EDR sistemlərinin gücü buradadır.</li>
-  <li><strong>Machine learning əsaslı metodlar:</strong> anomaliya aşkarlanmasında kömək edir, lakin yanlış pozitivi artırmamaq üçün yaxşı təlim tələb edir.</li>
-</ul>
-
-<hr />
-
-<h2 id="️-təhlükəsizlik-və-müdafiə--praktik-tövsiyələr">🛠️ Təhlükəsizlik və müdafiə — praktik tövsiyələr</h2>
-
-<blockquote>
-  <p>Aşağıdakı tövsiyələr həm fərdi istifadəçilər, həm də təşkilatlar üçün nəzərdə tutulub.</p>
-</blockquote>
-
-<ol>
-  <li><strong>Patch management:</strong> əməliyyat sistemi, tətbiq və kitabxanaları vaxtında yenilə. Exploitlərin böyük hissəsi məlum zərəifliklərdən istifadə edir.</li>
-  <li><strong>Endpoint təhlükəsizliyi (EDR + AV):</strong> hər iki yanaşma birlikdə istifadə edilməlidir — signature ilə başlanğıc, davranışla dərin analiz.</li>
-  <li><strong>Şəbəkə segmentasiyası:</strong> lateral hərəkəti məhdudlaşdırmaq üçün kritik sistemləri ayrılmış VLAN/zone-lara yerləşdir.</li>
-  <li><strong>Least privilege:</strong> istifadəçi və xidmət hesablarına minimal icazə ver. Exploit icrası uğrunda imtiyaz artırma kryteri olur.</li>
-  <li><strong>Email filtrasiya və sandboxing:</strong> phishing və zərərli attachment-ləri bloklamaq.</li>
-  <li><strong>Backuplar və recovery planı:</strong> ransomware hücumlarında tez bərpa olunma üçün offline və test edilmiş backup strategiyası.</li>
-  <li><strong>MFA (Çoxfaktorlu autentifikasiya):</strong> credential theft qarşısını alır.</li>
-  <li><strong>Threat hunting &amp; SIEM inteqrasiyası:</strong> IOCs və anomal davranışları proaktiv axtarmaq.</li>
-  <li><strong>Mütəmadi pentest və vuln scanning:</strong> zəiflikləri tapmaq və düzəltmək üçün.</li>
-  <li><strong>User awareness təlimi:</strong> phishing, sosial mühəndislik və təhlükəli vərdişlərə qarşı məlumatlılıq.</li>
-</ol>
-
-<hr />
-
-<h2 id="-i̇ndikatorlar-ioc-və-kompromitasiya-əlamətləri">🎯 İndikatorlar (IoC) və kompromitasiya əlamətləri</h2>
-
-<ul>
-  <li>Gözlənilməz şəbəkə əlaqələri (çoxlu outbound bağlantılar).</li>
-  <li>Yeni, izah edilməyən proseslər və ya autorun fayllar.</li>
-  <li>Faylların şifrələnməsi və ya .locked tipli fayl uzantıları.</li>
-  <li>E-poçtla göndərilən xahişlərdə ani və qeyri-adi davranış (billing, payroll).</li>
-  <li>Sistem performansının qəfil azalması və ya planlanmamış reboots.</li>
-</ul>
-
-<hr />
-
-<h2 id="️-hüquqi-və-etik-məqamlar">⚖️ Hüquqi və etik məqamlar</h2>
-
-<ul>
-  <li>Exploit yazmaq və zərərli proqram icra etmək qanunsuz aktivlik hesab oluna bilər. Məqalədə verilən məlumat <strong>maarifləndirmə və müdafiə məqsədi</strong> daşıyır.</li>
-  <li>Qanuni pentest və yoxlamalar üçün həmişə yazılı icazə alınmalı, şəxsi və təşkilati məlumatların qorunması təmin edilməlidir.</li>
-</ul>
-
-<hr />
-
-<h2 id="-hadisə-cavabı-incident-response--qısa-plan">🧾 Hadisə cavabı (Incident Response) — qısa plan</h2>
-
-<ol>
-  <li><strong>Detect:</strong> IDS/EDR vasitəsilə kompromiss müəyyən etmək.</li>
-  <li><strong>Contain:</strong> təsirlənmiş hostu şəbəkədən izolyasiya et.</li>
-  <li><strong>Eradicate:</strong> zərərli kodu təmizlə və zəifliyi bağla (patch).</li>
-  <li><strong>Recover:</strong> backup-dan bərpa və xidmətləri normala qaytar.</li>
-  <li><strong>Lessons Learned:</strong> root cause analizi və təhlükəsizlik tədbirlərinin təkmilləşdirilməsi.</li>
-</ol>
-
-<hr />
-
-<h2 id="-nəticə--əsas-mesajlar">🔑 Nəticə — əsas mesajlar</h2>
-
-<ul>
-  <li><strong>Virus</strong> və <strong>exploit</strong> fərqli anlayışlardır: virus özünü çoxaldan zərərli kod; exploit zəiflikdən istifadə edən vasitədir.</li>
-  <li>Modern hücumlar adətən exploitlər -&gt; payload (malware) ardıcıllığı ilə gedir.</li>
-  <li>Müdafiə üçün <strong>yaxşı patch siyasəti, EDR/IDS/IPS inteqrasiyası, backup və istifadəçi maarifləndirilməsi</strong> vacibdir.</li>
-  <li>Proaktiv tədbirlər (threat hunting, SIEM, pentest) təşkilatların riskini əhəmiyyətli dərəcədə azaldır.</li>
-</ul>
-
-<hr />
-
-<h2 id="-əlaqəli-məqalələr-sayt-daxilində">📎 Əlaqəli məqalələr (sayt daxilində)</h2>
-<ul>
-  <li><a href="/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li><a href="/posts/sosial-mühəndislik">Phishing hücumu nədir? Müdafiə yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-əlaqə-və-təlim">📞 Əlaqə və Təlim</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</p>
-
-<!-- SEO JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Kompyuter Virusları, Exploit və Sızma Sistemləri — Fərqlər, Nümunələr və Müdafiə (2025)",
-  "description": "Kompyuter virusları ilə exploit arasındakı əsas fərqlər nədir? Viruslar necə işləyir, exploitlərin rolu nədir və sızma aşkarlayan/preventiv sistemlər necə qoruyur.",
-  "image": "https://cybershieldy.com/assets/images/malware-vs-exploit.webp",
-  "author": { "@type": "Person", "name": "CyberShieldy" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }
-  },
-  "datePublished": "2025-11-08T15:00:00+04:00",
-  "dateModified": "2025-11-08T15:00:00+04:00",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/kompyuter-viruslari-exploit-sizma-sistemleri" }
-}
-</script>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kiber təhlükəsizlik" /><category term="malware" /><category term="exploit" /><category term="incident-response" /><category term="kompyuter virusları" /><category term="malware nədir" /><category term="exploit nədir" /><category term="ransomware qorunma" /><category term="EDR" /><category term="IDS" /><category term="IPS" /><category term="patch management" /><summary type="html"><![CDATA[Kompyuter virusları və exploitlər arasındakı əsas fərqlər, aşkarlama texnikaları və 2025 üçün praktik müdafiə addımları. Patch, backup və EDR tövsiyələri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/exploit.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/exploit.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="server" /><category term="cybersecurity" /><category term="ssh" /><category term="brute force" /><category term="fail2ban" /><category term="linux təhlükəsizliyi" /><category term="blue team" /><category term="kiberhücum" /><category term="cybersecurity kursu" /><category term="ethical hacking" /><category term="red team" /><category term="penetration testing" /><summary type="html"><![CDATA[Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/brute.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/brute.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
