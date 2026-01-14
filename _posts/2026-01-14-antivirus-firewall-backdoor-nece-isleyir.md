@@ -19,7 +19,7 @@ tags: [
   kiber kurslar
 ]
 description: "Antivirus və firewall sistemlərinin iş prinsipi. Viruslar, trojanlar və backdoor-lar necə aşkarlanır? ClamAV, Kaspersky və Avast nümunələri ilə real kibertəhlükəsizlik dərsi."
-image: /assets/images/antivirus-firewall.webp
+image: /assets/images/antivirus.webp
 canonical: https://cybershieldy.com/posts/antivirus-firewall-nece-isleyir
 permalink: /posts/antivirus-firewall-nece-isleyir
 ---
