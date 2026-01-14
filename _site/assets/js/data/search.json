@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)",
+    "url": "/posts/antivirus-firewall-nece-isleyir",
+    "categories": "kibertəhlükəsizlik, müdafiə, antivirus",
+    "tags": "antivirus dərsləri, firewall nədir, kibertəhlükəsizlik dərsləri, hacker dərsləri, virus necə işləyir, backdoor nədir, clamav, kaspersky firewall, avast antivirus, blue team, ethical hacking, web developer dərsləri, kiber kurslar",
+    "date": "2026-01-14 10:00:00 +0400",
+    "content": "Antivirus və firewall sistemlərinin iş prinsipi. Viruslar, trojanlar və backdoor-lar necə aşkarlanır? ClamAV, Kaspersky və Avast nümunələri ilə real kibertəhlükəsizlik dərsi."
+  },
+  
+  {
     "title": "Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)",
     "url": "/posts/hacking-cihazlari",
     "categories": "kibertəhlükəsizlik, hacking, iot",

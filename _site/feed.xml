@@ -1,4 +1,410 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-14T15:20:14+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)</title><link href="https://cybershieldy.com/posts/hacking-cihazlari" rel="alternate" type="text/html" title="Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)" /><published>2026-01-10T16:00:00+04:00</published><updated>2026-01-10T17:24:58+04:00</updated><id>https://cybershieldy.com/posts/hacking-cihazlari-flipper-zero-wifi-iot</id><content type="html" xml:base="https://cybershieldy.com/posts/hacking-cihazlari"><![CDATA[<h1 id="-hacking-üçün-i̇stifadə-olunan-cihazlar-2026">🧠 Hacking üçün İstifadə Olunan Cihazlar (2026)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-14T15:24:42+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)</title><link href="https://cybershieldy.com/posts/antivirus-firewall-nece-isleyir" rel="alternate" type="text/html" title="Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)" /><published>2026-01-14T10:00:00+04:00</published><updated>2026-01-14T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/antivirus-firewall-backdoor-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/antivirus-firewall-nece-isleyir"><![CDATA[<h1 id="️-antivirus-və-firewall-sistemləri-necə-i̇şləyir-2026">🛡️ Antivirus və Firewall Sistemləri Necə İşləyir? (2026)</h1>
+<h2 id="-viruslar-backdoor-lar-və-real-kibertəhlükəsizlik-müdafiəsi">🧠 Viruslar, Backdoor-lar və Real Kibertəhlükəsizlik Müdafiəsi</h2>
+
+<p>Müasir <strong>kibertəhlükəsizlik</strong> dünyasında yalnız hücum (hacking) bilikləri kifayət deyil.<br />
+Peşəkar <strong>hacker dərsləri</strong>, <strong>kiber dərslər</strong> və <strong>web developer kursları</strong> mütləq şəkildə:</p>
+
+<ul>
+  <li>🛡️ antivirus mexanizmlərini</li>
+  <li>🔥 firewall arxitekturasını</li>
+  <li>🦠 virus və backdoor davranışlarını</li>
+</ul>
+
+<p>dərindən izah etməlidir.</p>
+
+<p>Bu məqalə <strong>Blue Team</strong>, <strong>Ethical Hacking</strong>, <strong>System Security</strong> və <strong>Web təhlükəsizlik dərsləri</strong> üçün konsept dərs materialıdır.</p>
+
+<blockquote>
+  <p>⚠️ Qeyd: Buradakı bütün məlumatlar <strong>qanuni</strong>, <strong>etik</strong> və <strong>təlim məqsədi</strong> daşıyır.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-virus-nədir-və-sistemə-necə-yoluxur">🦠 Virus nədir və sistemə necə yoluxur?</h2>
+
+<p>Virus — istifadəçi xəbəri olmadan işləyən və sistemdə dəyişiklik edən <strong>zərərli proqram kodudur</strong>.</p>
+
+<h3 id="ən-çox-rast-gəlinən-yoluxma-yolları">Ən çox rast gəlinən yoluxma yolları:</h3>
+<ul>
+  <li>📎 Phishing email əlavələri</li>
+  <li>💾 Crack / warez proqramlar</li>
+  <li>🌐 Zərərli web saytlar</li>
+  <li>🔌 USB və BadUSB cihazları</li>
+  <li>📥 Script injection (XSS, RCE sonrası payload)</li>
+</ul>
+
+<p>Virusun əsas məqsədi:</p>
+<ul>
+  <li>məlumat oğurlamaq</li>
+  <li>sistemə nəzarət etmək</li>
+  <li>backdoor yerləşdirmək</li>
+  <li>botnet-ə qoşmaqdır</li>
+</ul>
+
+<hr />
+
+<h2 id="-backdoor-nədir-hacker-sistemdə-necə-gizlənir">🚪 Backdoor nədir? Hacker sistemdə necə gizlənir?</h2>
+
+<p><strong>Backdoor</strong> — sistemə gizli giriş nöqtəsidir.</p>
+
+<h3 id="backdoor-necə-yaranır">Backdoor necə yaranır?</h3>
+<ul>
+  <li>🔓 Zəif parol və ya default credential</li>
+  <li>💉 Exploit sonrası shell yerləşdirilməsi</li>
+  <li>📦 Zərərli library və ya service</li>
+  <li>⚙️ Startup və registry injection</li>
+</ul>
+
+<h3 id="backdoor-nə-edir">Backdoor nə edir?</h3>
+<ul>
+  <li>🕵️ sistemə səssiz giriş</li>
+  <li>🔁 C2 (Command &amp; Control) əlaqəsi</li>
+  <li>📡 məlumat ötürülməsi</li>
+  <li>🧨 əlavə payload yüklənməsi</li>
+</ul>
+
+<p>Backdoor-lar <strong>klassik antiviruslar üçün ən çətin aşkarlanan təhlükələrdəndir</strong>.</p>
+
+<hr />
+
+<h2 id="️-antivirus-nədir-və-necə-işləyir">🛡️ Antivirus nədir və necə işləyir?</h2>
+
+<p>Antivirus — sistemdə işləyən prosesləri, faylları və davranışları analiz edən <strong>təhlükəsizlik proqramıdır</strong>.</p>
+
+<h3 id="antivirusların-əsas-iş-prinsipləri">Antivirusların əsas iş prinsipləri:</h3>
+
+<h4 id="1️⃣-signature-based-detection">1️⃣ Signature-based Detection</h4>
+<ul>
+  <li>məlum virus imzaları ilə müqayisə</li>
+  <li>sürətli, lakin zero-day-a qarşı zəif</li>
+</ul>
+
+<h4 id="2️⃣-heuristic-analysis">2️⃣ Heuristic Analysis</h4>
+<ul>
+  <li>şübhəli kod davranışını analiz edir</li>
+  <li>yeni virusları aşkarlaya bilir</li>
+</ul>
+
+<h4 id="3️⃣-behavioral-detection">3️⃣ Behavioral Detection</h4>
+<ul>
+  <li>real vaxtda prosesləri izləyir</li>
+  <li>backdoor və RAT-ları tutmaq üçün effektivdir</li>
+</ul>
+
+<h4 id="4️⃣-sandbox-mexanizmi">4️⃣ Sandbox mexanizmi</h4>
+<ul>
+  <li>fayl izolə mühitdə işə salınır</li>
+  <li>real sistemə zərər vermədən analiz edilir</li>
+</ul>
+
+<hr />
+
+<h2 id="-clamav--open-source-antivirus-linux--server">🧪 ClamAV – Open Source Antivirus (Linux / Server)</h2>
+
+<p><strong>ClamAV</strong> əsasən:</p>
+<ul>
+  <li>Linux serverlər</li>
+  <li>Mail serverlər</li>
+  <li>Web hosting mühitləri</li>
+</ul>
+
+<p>üçün istifadə olunur.</p>
+
+<h3 id="clamav-xüsusiyyətləri">ClamAV xüsusiyyətləri:</h3>
+<ul>
+  <li>🐧 Linux üçün ideal</li>
+  <li>📧 Email attachment scan</li>
+  <li>📦 Fayl və arxiv analizi</li>
+  <li>🔓 Open Source və audit edilə bilən</li>
+</ul>
+
+<h3 id="i̇stifadə-ssenariləri">İstifadə ssenariləri:</h3>
+<ul>
+  <li>Web developer server security</li>
+  <li>Hosting və VPS qorunması</li>
+  <li>SOC və Blue Team lab-ları</li>
+</ul>
+
+<p>ClamAV <strong>kiber təhlükəsizlik dərsləri üçün mükəmməl laboratoriya alətidir</strong>.</p>
+
+<hr />
+
+<h2 id="-firewall-nədir-və-nə-üçün-vacibdir">🔥 Firewall nədir və nə üçün vacibdir?</h2>
+
+<p>Firewall — şəbəkəyə daxil olan və çıxan trafiki <strong>qaydalara əsasən idarə edən müdafiə qatıdır</strong>.</p>
+
+<p>Firewall olmadan:</p>
+<ul>
+  <li>virus rahat yayılır</li>
+  <li>backdoor C2 bağlantı qurur</li>
+  <li>data leak baş verir</li>
+</ul>
+
+<hr />
+
+<h2 id="-firewall-növləri">🧱 Firewall növləri</h2>
+
+<h3 id="-network-firewall">🔹 Network Firewall</h3>
+<ul>
+  <li>router və gateway səviyyəsində</li>
+  <li>IP, port və protokol filtrasiya</li>
+</ul>
+
+<h3 id="-host-based-firewall">🔹 Host-based Firewall</h3>
+<ul>
+  <li>birbaşa əməliyyat sistemində</li>
+  <li>proses əsaslı nəzarət</li>
+</ul>
+
+<h3 id="-application-firewall-waf">🔹 Application Firewall (WAF)</h3>
+<ul>
+  <li>web hücumlarına qarşı</li>
+  <li>SQLi, XSS, RCE bloklayır</li>
+</ul>
+
+<hr />
+
+<h2 id="️-kaspersky--avast-firewall-necə-işləyir">🛡️ Kaspersky &amp; Avast Firewall necə işləyir?</h2>
+
+<h3 id="-ağıllı-trafik-analizi">🧠 Ağıllı trafik analizi</h3>
+<ul>
+  <li>şübhəli outbound connection</li>
+  <li>C2 server davranışı</li>
+</ul>
+
+<h3 id="-application-control">🔐 Application control</h3>
+<ul>
+  <li>hansı proqram hara çıxır</li>
+  <li>backdoor-un internetə çıxışı bloklanır</li>
+</ul>
+
+<h3 id="-ids--ips-inteqrasiyası">📡 IDS / IPS inteqrasiyası</h3>
+<ul>
+  <li>hücum pattern-ləri aşkarlanır</li>
+  <li>real vaxtda bloklanır</li>
+</ul>
+
+<p>Bu firewall-lar <strong>Blue Team dərslərində real müdafiə ssenariləri üçün istifadə olunur</strong>.</p>
+
+<hr />
+
+<h2 id="-antivirus--firewall-birlikdə-necə-işləyir">🔗 Antivirus + Firewall birlikdə necə işləyir?</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Təhlükə</th>
+      <th>Antivirus</th>
+      <th>Firewall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Virus faylı</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Backdoor connection</td>
+      <td>⚠️</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Data exfiltration</td>
+      <td>❌</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Zero-day exploit</td>
+      <td>⚠️</td>
+      <td>⚠️</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>➡️ <strong>Tək antivirus kifayət deyil</strong><br />
+➡️ <strong>Firewall olmadan sistem açıqdır</strong></p>
+
+<hr />
+
+<h2 id="-hacker-və-web-developer-dərsləri-üçün-dərs-konsepti">🎓 Hacker və Web Developer dərsləri üçün dərs konsepti</h2>
+
+<p>Bu mövzu:</p>
+<ul>
+  <li>🧠 hacker dərsləri</li>
+  <li>🛡️ kiber təhlükəsizlik dərsləri</li>
+  <li>🌐 web developer kursları</li>
+  <li>🔵 blue team təlimləri</li>
+</ul>
+
+<p>üçün <strong>əsas fundamentdir</strong>.</p>
+
+<p>Hücum bilmədən müdafiə olmaz,<br />
+müdafiəni bilmədən peşəkar hacker olunmaz.</p>
+
+<hr />
+
+<h2 id="-nəticə">✅ Nəticə</h2>
+
+<p>Müasir kibertəhlükəsizlik:</p>
+<ul>
+  <li>yalnız hücum deyil</li>
+  <li>real müdafiə mexanizmlərini anlamaqdır</li>
+</ul>
+
+<blockquote>
+  <p><strong>Antivirus və firewall bilməyən hacker yarımçıqdır.</strong></p>
+</blockquote>
+
+<hr />
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Dərslər • Hacker Dərsləri • Web Security • Blue Team • Ethical Hacking • Real Lablar</p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+<ul>
+  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
+  <li><a href="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole">Viruslar və Telefon Hücumları: Metasploit (msfconsole) ilə Real Ssenarilər</a></li>
+  <li><a href="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik">IDS və IPS nədir? Kibertəhlükəsizlikdə Aşkarlama və Qarşısının Alınması</a></li>
+</ul>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="müdafiə" /><category term="antivirus" /><category term="antivirus dərsləri" /><category term="firewall nədir" /><category term="kibertəhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="virus necə işləyir" /><category term="backdoor nədir" /><category term="clamav" /><category term="kaspersky firewall" /><category term="avast antivirus" /><category term="blue team" /><category term="ethical hacking" /><category term="web developer dərsləri" /><category term="kiber kurslar" /><summary type="html"><![CDATA[Antivirus və firewall sistemlərinin iş prinsipi. Viruslar, trojanlar və backdoor-lar necə aşkarlanır? ClamAV, Kaspersky və Avast nümunələri ilə real kibertəhlükəsizlik dərsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/antivirus-firewall.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/antivirus-firewall.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)</title><link href="https://cybershieldy.com/posts/hacking-cihazlari" rel="alternate" type="text/html" title="Hacking üçün İstifadə Olunan Cihazlar: Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Alətləri (2026)" /><published>2026-01-10T16:00:00+04:00</published><updated>2026-01-10T17:24:58+04:00</updated><id>https://cybershieldy.com/posts/hacking-cihazlari-flipper-zero-wifi-iot</id><content type="html" xml:base="https://cybershieldy.com/posts/hacking-cihazlari"><![CDATA[<h1 id="-hacking-üçün-i̇stifadə-olunan-cihazlar-2026">🧠 Hacking üçün İstifadə Olunan Cihazlar (2026)</h1>
 <h2 id="️-flipper-zero-wi-fi-adapterlər-və-iot-hücum-texnologiyaları">🛠️ Flipper Zero, Wi-Fi Adapterlər və IoT Hücum Texnologiyaları</h2>
 
 <p>Müasir <strong>kibertəhlükəsizlik</strong> dünyasında hacking artıq yalnız kod yazmaqdan ibarət deyil.<br />
@@ -3294,297 +3700,4 @@ Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisl�
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="AI security" /><category term="cybersecurity" /><category term="threat detection" /><category term="machine learning" /><category term="red team" /><category term="blue team" /><category term="kiber kurslar" /><category term="kiber təlim" /><summary type="html"><![CDATA[Süni intellekt kibertəhlükəsizlikdə hansı rolu oynayır? 2025 və gələcəkdə AI əsaslı hücumlar, müdafiə metodları və kiber kurslara maraq artımı haqqında dərin təhlil.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)</title><link href="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban" rel="alternate" type="text/html" title="SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)" /><published>2025-11-28T12:00:00+04:00</published><updated>2025-12-25T12:57:26+04:00</updated><id>https://cybershieldy.com/posts/ssh-bruteforce-fail2ban-tam-mudafie</id><content type="html" xml:base="https://cybershieldy.com/posts/ssh-bruteforce-fail2ban"><![CDATA[<!-- Structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "BlogPosting",
-  "headline": "SSH Brute Force Hücumları və Fail2Ban ilə Tam Müdafiə (2025 Yenilənmiş)",
-  "description": "SSH brute-force hücumlarının real nümunəsi, Hydra ilə sınaq və Fail2Ban müdafiəsi haqqında geniş bələdçi.",
-  "author": { "@type": "Person", "name": "Emin Savaylov" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CyberShieldy",
-    "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }
-  },
-  "datePublished": "2025-11-28T12:00:00+04:00",
-  "dateModified": "2025-11-28T12:30:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/ssh-fail2ban.webp",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/ssh-bruteforce-fail2ban" }
-}
-</script>
-
-<h1 id="ssh-brute-force-hücumu-və-fail2ban-ilə-tam-müdafiə-2025">SSH Brute Force Hücumu və Fail2Ban ilə Tam Müdafiə (2025)</h1>
-
-<p>Bu məqalə <strong>cybersecurity kursu axtaran tələbələr</strong>, <strong>ethical hacking üzrə öyrənənlər</strong>, həmçinin <strong>Linux sistem administratorları</strong> üçün hazırlanmış real laboratoriya ssenarisidir.</p>
-
-<p>Burada real SSH brute-force hücumu göstərilir və Fail2Ban-ın bu hücumlara necə cavab verdiyi canlı şəkildə nümayiş olunur.</p>
-
-<hr />
-
-<h2 id="-canlı-terminal-animasiya--real-hücum-ssenarisi">💻 Canlı Terminal Animasiya – Real Hücum Ssenarisi</h2>
-
-<div id="terminal-neon"></div>
-
-<script>
-const neonMessages = [
- "🔥 Hydra brute-force hücumu başladılır...",
- "🔍 Trying username: root | password: summer2024...",
- "🚨 Uğursuz giriş cəhdləri artır!",
- "🛡️ Fail2Ban şübhəli IP-ni aşkar etdi...",
- "❌ IP 10 dəqiqəlik banlandı — hücum bloklandı.",
- "CyberShieldy.com | Linux təhlükəsizliyi təlimləri"
-];
-
-let neonIndex = 0;
-const terminalNeon = document.getElementById('terminal-neon');
-const typingSpeed = 100;
-
-function typeNeon(msg, i = 0) {
-  if (i < msg.length) {
-    terminalNeon.textContent += msg.charAt(i);
-    setTimeout(() => typeNeon(msg, i + 1), typingSpeed);
-  } else {
-    setTimeout(() => eraseNeon(msg.length), 1500);
-  }
-}
-
-function eraseNeon(len) {
-  if (len > 0) {
-    terminalNeon.textContent = terminalNeon.textContent.slice(0, -1);
-    setTimeout(() => eraseNeon(len - 1), typingSpeed / 2);
-  } else {
-    neonIndex = (neonIndex + 1) % neonMessages.length;
-    typeNeon(neonMessages[neonIndex]);
-  }
-}
-
-typeNeon(neonMessages[neonIndex]);
-</script>
-
-<style>
-#terminal-neon {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #000;
-  color: #39ff14;
-  padding: 12px 22px;
-  border-radius: 8px;
-  width: max-content;
-  min-width: 420px;
-  margin-bottom: 25px;
-  white-space: nowrap;
-  box-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
-  text-shadow: 0 0 3px #39ff14, 0 0 6px #39ff14;
-}
-</style>
-
-<hr />
-
-<h2 id="-ssh-brute-force-hücumu-nədir">🧨 SSH Brute-Force Hücumu Nədir?</h2>
-
-<p>Brute-force hücumu — avtomatlaşdırılmış alətlərlə saysız-hesabsız parol sınamaqla giriş əldə etməyə çalışmaqdır.</p>
-
-<h3 id="əsas-hədəflər">Əsas hədəflər:</h3>
-
-<ul>
-  <li>root və admin hesabları</li>
-  <li>serverdə tam nəzarət</li>
-  <li>sistemə zərərli kod yerləşdirmək</li>
-  <li>məlumat oğurluğu</li>
-</ul>
-
-<hr />
-
-<h2 id="-real-hydra-brute-force-testi">🧪 Real Hydra Brute-Force Testi</h2>
-
-<p><img src="/assets/images/hydra.webp" alt="Hydra SSH brute force sınağı" /></p>
-
-<p>Hydra qısa müddətdə yüzlərlə uğursuz giriş cəhdi edir və bu cəhdlər loglarda aydın görünür.</p>
-
-<hr />
-
-<h2 id="-fail2ban--hücumu-bloklayan-müdafiə-sistemi">🛑 Fail2Ban – Hücumu Bloklayan Müdafiə Sistemi</h2>
-
-<p>Fail2Ban <code class="language-plaintext highlighter-rouge">auth.log</code> faylını izləyərək kütləvi uğursuz giriş cəhdlərini aşkarlayır və IP-ni avtomatik bloklayır.</p>
-
-<p>fail2ban-client status sshd</p>
-
-<p><img src="/assets/images/fail2ban.webp" alt="Fail2Ban ban list output" /></p>
-
-<hr />
-
-<h2 id="️-fail2ban-ssh-konfiqurasiyası">⚙️ Fail2Ban SSH Konfiqurasiyası</h2>
-
-<p>[sshd]
-enabled = true
-port = ssh
-filter = sshd
-logpath = /var/log/auth.log
-bantime = 10m
-findtime = 2m
-maxretry = 5</p>
-
-<p>Bu konfiqurasiya hücum edən IP-ni 5 səhv cəhddən sonra 10 dəqiqəlik bloklayır.</p>
-
-<hr />
-
-<h2 id="-2025-ci-il-üzrə-blue-team-təhlükəsizlik-strategiyası">🔐 2025-ci il üzrə Blue Team Təhlükəsizlik Strategiyası</h2>
-
-<ul>
-  <li>Fail2Ban aktivləşdirin</li>
-  <li>SSH portunu dəyişin</li>
-  <li>Parol login-in bağlayın — yalnız <strong>SSH key</strong></li>
-  <li>UFW ilə whitelist tətbiq edin</li>
-  <li>Root login-i deaktiv edin</li>
-  <li>2FA (Google Authenticator + SSH) əlavə edin</li>
-</ul>
-
-<p>Bu addımlar serverinizi brute-force hücumlarından maksimum qoruyur.</p>
-
-<hr />
-
-<h2 id="-praktiki-təlim-və-cyber-security-kursu">📞 Praktiki Təlim və Cyber Security Kursu</h2>
-
-<h2 id="-whatsapp-ilə-əlaqə-saxlayın--kibertəhlükəsizlik-təlimləri-və-praktik-dəstək">📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kibert%C9%99hl%C3%BCk%C9%99sizlik%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə saxlayın</a> — Kibertəhlükəsizlik təlimləri və praktik dəstək.</h2>
-
-<h2 id="-oxşar-məqalələr">📚 Oxşar Məqalələr</h2>
-<ul>
-  <li><a href="/posts/sosial-mühəndislik">Phishing hücumu nədir? Müdafiə yolları</a></li>
-  <li><a href="/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
-  <li><a href="/posts/red-team-vs-blue-team">Red Team vs Blue Team — 2025</a></li>
-</ul>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="təhlükəsizlik" /><category term="server" /><category term="cybersecurity" /><category term="ssh" /><category term="brute force" /><category term="fail2ban" /><category term="linux təhlükəsizliyi" /><category term="blue team" /><category term="kiberhücum" /><category term="cybersecurity kursu" /><category term="ethical hacking" /><category term="red team" /><category term="penetration testing" /><summary type="html"><![CDATA[Real SSH brute-force hücumu, Hydra ilə canlı sınaq və Fail2Ban müdafiəsi. Öğrənmək istəyənlər üçün 2025 yenilənmiş cyber security tədris materialı — Emin Savaylov.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/brute.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/brute.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="AI security" /><category term="cybersecurity" /><category term="threat detection" /><category term="machine learning" /><category term="red team" /><category term="blue team" /><category term="kiber kurslar" /><category term="kiber təlim" /><summary type="html"><![CDATA[Süni intellekt kibertəhlükəsizlikdə hansı rolu oynayır? 2025 və gələcəkdə AI əsaslı hücumlar, müdafiə metodları və kiber kurslara maraq artımı haqqında dərin təhlil.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

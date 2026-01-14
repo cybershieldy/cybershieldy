@@ -1,7 +1,7 @@
 ---
 title: "Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)"
-date: 2026-01-14 16:00:00 +0400
-lastmod: 2026-01-14 16:00:00 +0400
+date: 2026-01-14 10:00:00 +0400
+lastmod: 2026-01-14 10:00:00 +0400
 categories: [kibertəhlükəsizlik, müdafiə, antivirus]
 tags: [
   antivirus dərsləri,
