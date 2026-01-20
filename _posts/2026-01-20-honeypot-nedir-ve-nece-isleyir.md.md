@@ -18,7 +18,7 @@ tags:
   - server security
   - web security dərsləri
 description: "Honeypot sistemləri nədir, necə işləyir və hacker hücumlarını necə tələyə salır? Real kiber hücum analizləri, Blue Team və Ethical Hacking dərsləri üçün peşəkar Honeypot təlimi (2026)."
-image: /assets/images/honeypot.webp
+image: /assets/images/honey.webp
 canonical: https://cybershieldy.com/posts/honeypot-nedir
 permalink: /posts/honeypot-nedir
 ---
@@ -156,6 +156,6 @@ https://wa.me/994555182523?text=Salam%2C%20honeypot%20ve%20kiber%20tehlukesizlik
 CyberShieldy Academy  
 Kiber Dərslər • Hacker Dərsləri • Kiber Kurslar • Honeypot Lab • Blue Team • Ethical Hacking
 
-
+---
 
 {% include cyber-popup.html %}
