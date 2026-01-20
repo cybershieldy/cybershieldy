@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)",
+    "url": "/posts/honeypot-nedir",
+    "categories": "kibertəhlükəsizlik, blue team, müdafiə sistemləri",
+    "tags": "honeypot nədir, honeypot dərsləri, kibertəhlükəsizlik dərsləri, hacker dərsləri, hacker kursları, kiber kurslar, ethical hacking, blue team dərsləri, intrusion detection, soc analyst, real kiber hücumlar, server security, web security dərsləri",
+    "date": "2026-01-20 10:00:00 +0400",
+    "content": "Honeypot sistemləri nədir, necə işləyir və hacker hücumlarını necə tələyə salır? Real kiber hücum analizləri, Blue Team və Ethical Hacking dərsləri üçün peşəkar Honeypot təlimi (2026)."
+  },
+  
+  {
     "title": "Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)",
     "url": "/posts/antivirus-firewall-nece-isleyir",
     "categories": "kibertəhlükəsizlik, müdafiə, antivirus",
