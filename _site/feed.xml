@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-20T13:29:23+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/honeypot-nedir" rel="alternate" type="text/html" title="Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-20T10:00:00+04:00</published><updated>2026-01-20T13:26:37+04:00</updated><id>https://cybershieldy.com/posts/honeypot-nedir-ve-nece-isleyir.md</id><content type="html" xml:base="https://cybershieldy.com/posts/honeypot-nedir"><![CDATA[<h1 id="-honeypot-nədir-hacker-ləri-tələyə-salan-ağıllı-təhlükəsizlik-sistemi">🍯 Honeypot Nədir? Hacker-ləri Tələyə Salan Ağıllı Təhlükəsizlik Sistemi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-20T13:37:55+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/honeypot-nedir" rel="alternate" type="text/html" title="Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-20T10:00:00+04:00</published><updated>2026-01-20T13:29:28+04:00</updated><id>https://cybershieldy.com/posts/honeypot-nedir-ve-nece-isleyir.md</id><content type="html" xml:base="https://cybershieldy.com/posts/honeypot-nedir"><![CDATA[<h1 id="-honeypot-nədir-hacker-ləri-tələyə-salan-ağıllı-təhlükəsizlik-sistemi">🍯 Honeypot Nədir? Hacker-ləri Tələyə Salan Ağıllı Təhlükəsizlik Sistemi</h1>
 
 <p>Müasir kibertəhlükəsizlik artıq təkcə firewall və antivirusdan ibarət deyil.<br />
 Peşəkar kiber dərslər, hacker dərsləri və kiber kurslar mütləq şəkildə Honeypot texnologiyasını əhatə etməlidir.</p>
@@ -158,11 +158,12 @@ bilməyən hacker isə kor qalır.</p>
 
 <hr />
 
-<p>📲 WhatsApp ilə əlaqə:<br />
-https://wa.me/994555182523?text=Salam%2C%20honeypot%20ve%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.</p>
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
 
-<p>CyberShieldy Academy<br />
-Kiber Dərslər • Hacker Dərsləri • Kiber Kurslar • Honeypot Lab • Blue Team • Ethical Hacking</p>
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Dərslər • Hacker Dərsləri • Web Security • Blue Team • Ethical Hacking • Real Lablar</p>
+
+<hr />
 
 <!-- ===== CYBERSHIELDY POPUP ===== -->
 <div id="cyber-popup">

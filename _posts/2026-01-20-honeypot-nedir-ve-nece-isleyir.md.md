@@ -150,11 +150,12 @@ bilməyən hacker isə kor qalır.
 
 ---
 
-📲 WhatsApp ilə əlaqə:  
-https://wa.me/994555182523?text=Salam%2C%20honeypot%20ve%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.
+📲 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.)
 
-CyberShieldy Academy  
-Kiber Dərslər • Hacker Dərsləri • Kiber Kurslar • Honeypot Lab • Blue Team • Ethical Hacking
+**CyberShieldy Academy**  
+Kiber Dərslər • Hacker Dərsləri • Web Security • Blue Team • Ethical Hacking • Real Lablar
+
+---
 
 
 
