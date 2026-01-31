@@ -1,4 +1,311 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-20T13:37:55+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/honeypot-nedir" rel="alternate" type="text/html" title="Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-20T10:00:00+04:00</published><updated>2026-01-20T13:29:28+04:00</updated><id>https://cybershieldy.com/posts/honeypot-nedir-ve-nece-isleyir.md</id><content type="html" xml:base="https://cybershieldy.com/posts/honeypot-nedir"><![CDATA[<h1 id="-honeypot-nədir-hacker-ləri-tələyə-salan-ağıllı-təhlükəsizlik-sistemi">🍯 Honeypot Nədir? Hacker-ləri Tələyə Salan Ağıllı Təhlükəsizlik Sistemi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-01-31T17:37:42+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/kameralar-nece-izleyir" rel="alternate" type="text/html" title="Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-31T10:00:00+04:00</published><updated>2026-01-31T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/kameralar-nece-izleyir-ve-hack-olur.md</id><content type="html" xml:base="https://cybershieldy.com/posts/kameralar-nece-izleyir"><![CDATA[<h1 id="-kameralar-necə-i̇zləyir-gizli-kamera-sistemləri-və-hacker-baxışı">🎥 Kameralar Necə İzləyir? Gizli Kamera Sistemləri və Hacker Baxışı</h1>
+
+<p>Bu gün kameralar sadəcə təhlükəsizlik üçün deyil.<br />
+Onlar <strong>məlumat toplayan</strong>, <strong>şəbəkəyə qoşulan</strong> və <strong>potensial kiber risk yaradan IoT cihazlarıdır</strong>.</p>
+
+<p>Kibertəhlükəsizlik dərsləri, hacker dərsləri və ethical hacking kursları üçün <strong>kamera sistemləri real hücum laboratoriyasıdır</strong>.</p>
+
+<blockquote>
+  <p>Kamera səni qoruduğunu düşündüyün anda, səni izləyən də ola bilər.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-kamera-sistemləri-necə-i̇şləyir">🧠 Kamera Sistemləri Necə İşləyir?</h2>
+
+<p>Müasir kamera sistemləri əsasən aşağıdakı komponentlərdən ibarətdir:</p>
+
+<ul>
+  <li>Kamera sensoru (video capture)</li>
+  <li>Embedded OS (Linux əsaslı firmware)</li>
+  <li>Network modul (Wi-Fi / Ethernet)</li>
+  <li>Web panel və API</li>
+  <li>Cloud storage və mobil tətbiqlər</li>
+</ul>
+
+<p>Bu arxitektura <strong>web security</strong>, <strong>network security</strong> və <strong>server security</strong> mövzularını birləşdirir.</p>
+
+<hr />
+
+<h2 id="-ip-kameralar-və-i̇nternet-riski">🌐 IP Kameralar və İnternet Riski</h2>
+
+<p>IP kameralar birbaşa internetə çıxışa malikdir.<br />
+Əgər düzgün konfiqurasiya olunmayıbsa:</p>
+
+<ul>
+  <li>Default password qalır</li>
+  <li>Port forwarding açıq olur</li>
+  <li>HTTPS yoxdur</li>
+  <li>Firmware köhnədir</li>
+</ul>
+
+<p>Bu isə hacker üçün <strong>açıq qapıdır</strong>.</p>
+
+<hr />
+
+<h2 id="-hacker-kameranı-necə-tapır">💀 Hacker Kameranı Necə Tapır?</h2>
+
+<p>Real hacker dərslərində istifadə olunan metodlar:</p>
+
+<ul>
+  <li>Shodan / Censys ilə IP camera axtarışı</li>
+  <li>Açıq port scan (RTSP, HTTP, HTTPS)</li>
+  <li>Banner grabbing</li>
+  <li>Default credential yoxlanışı</li>
+  <li>Web panel exploit-ləri</li>
+</ul>
+
+<p>Bu metodlar <strong>ethical hacking təlimləri</strong> üçün əsasdır.</p>
+
+<hr />
+
+<h2 id="-kamera-hack-ssenariləri">🔓 Kamera Hack Ssenariləri</h2>
+
+<h3 id="1️⃣-default-password-hücumu">1️⃣ Default Password Hücumu</h3>
+<p>İstifadəçi admin/admin saxlayır → kamera ələ keçirilir.</p>
+
+<h3 id="2️⃣-rtsp-stream-sızması">2️⃣ RTSP Stream Sızması</h3>
+<p>Video stream autentifikasiya olmadan açıqdır.</p>
+
+<h3 id="3️⃣-web-panel-exploit">3️⃣ Web Panel Exploit</h3>
+<p>XSS, RCE və ya command injection ilə tam nəzarət.</p>
+
+<h3 id="4️⃣-cloud-hesab-sızması">4️⃣ Cloud Hesab Sızması</h3>
+<p>Mobil tətbiq zəifdirsə, bütün kameralar ifşa olunur.</p>
+
+<hr />
+
+<h2 id="️-gizli-kamera-problemi-haradan-yaranır">🕵️ Gizli Kamera Problemi Haradan Yaranır?</h2>
+
+<p>Gizli kamera riski əsasən:</p>
+<ul>
+  <li>Kirayə evlər</li>
+  <li>Otellər</li>
+  <li>Ofislər</li>
+  <li>Soyunma otaqları</li>
+</ul>
+
+<p>Bu cihazlar çox vaxt:</p>
+<ul>
+  <li>ucuz IoT kameralar olur</li>
+  <li>heç vaxt update edilmir</li>
+  <li>lokal şəbəkədə gizlədilir</li>
+</ul>
+
+<hr />
+
+<h2 id="️-blue-team-kameraları-necə-qoruyur">🛡️ Blue Team Kameraları Necə Qoruyur?</h2>
+
+<p>Blue Team və SOC Analyst dərslərində:</p>
+
+<ul>
+  <li>Network segmentation</li>
+  <li>IDS/IPS qaydaları</li>
+  <li>Firewall rule-ları</li>
+  <li>Honeypot ilə IoT izləmə</li>
+  <li>Log analysis</li>
+</ul>
+
+<p>öyrədilir.</p>
+
+<p>Kamera təhlükəsizliyi <strong>IoT Security</strong> mövzusunun əsas hissəsidir.</p>
+
+<hr />
+
+<h2 id="-real-təlim-ssenariləri">🧪 Real Təlim Ssenariləri</h2>
+
+<ul>
+  <li>IP kamera brute-force aşkarlanması</li>
+  <li>RTSP stream monitorinqi</li>
+  <li>Kamera trafiki anomaly detection</li>
+  <li>Malware-in kamera üzərindən yayılması</li>
+  <li>CCTV sistemlərinə lateral movement</li>
+</ul>
+
+<p>Bunlar real kiber dərslərdə istifadə olunur.</p>
+
+<hr />
+
+<h2 id="️-kamera-təhlükəsizliyində-edilən-səhvlər">⚠️ Kamera Təhlükəsizliyində Edilən Səhvlər</h2>
+
+<ul>
+  <li>Kameranı birbaşa internetə açmaq</li>
+  <li>Default portları dəyişməmək</li>
+  <li>Firmware update etməmək</li>
+  <li>Eyni şəbəkədə server saxlamaq</li>
+  <li>Log-ları yoxlamamaq</li>
+</ul>
+
+<p>Bu səhvlər real hücumlara səbəb olur.</p>
+
+<hr />
+
+<h2 id="-hacker-dərsləri-üçün-kamera-sistemləri-niyə-vacibdir">🎓 Hacker Dərsləri üçün Kamera Sistemləri niyə Vacibdir?</h2>
+
+<p>Çünki kamera:</p>
+<ul>
+  <li>real sistemdir</li>
+  <li>real hədəfdir</li>
+  <li>real data ötürür</li>
+  <li>real risk yaradır</li>
+</ul>
+
+<p>Bu səbəbdən <strong>kiber dərslər</strong>, <strong>hacker kursları</strong> və <strong>ethical hacking təlimləri</strong> mütləq kamera ssenariləri ilə zənginləşdirilməlidir.</p>
+
+<hr />
+
+<h2 id="-nəticə">🚀 Nəticə</h2>
+
+<p>Kamera sadəcə baxan deyil.<br />
+O həm də <strong>şəbəkədə danışan</strong>, <strong>məlumat ötürən</strong> və <strong>hədəfə çevrilən cihazdır</strong>.</p>
+
+<blockquote>
+  <p>Kameranı qorumağı bilməyən,
+şəbəkəni də qoruya bilməz.</p>
+</blockquote>
+
+<hr />
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Dərslər • Hacker Dərsləri • Web Security • IoT Security • Blue Team • Ethical Hacking • Real Lablar</p>
+
+<hr />
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot təhlükəsizliyi" /><category term="kamera izləmə sistemi" /><category term="gizli kamera hack" /><category term="ip camera hacking" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik  təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="iot security" /><category term="web security dərsləri" /><category term="network hacking" /><category term="cctv hack" /><category term="blue team dərsləri" /><category term="real kiber hücumlar" /><category term="server security" /><summary type="html"><![CDATA[Kameralar necə izləyir, IP kameralar necə hacklənir və real hücum ssenariləri necə işləyir? Gizli kamera sızmaları, IoT və CCTV təhlükəsizliyi üzrə peşəkar kibertəhlükəsizlik və hacker dərsləri (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/camera-hack.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/camera-hack.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/honeypot-nedir" rel="alternate" type="text/html" title="Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-20T10:00:00+04:00</published><updated>2026-01-20T13:38:00+04:00</updated><id>https://cybershieldy.com/posts/honeypot-nedir-ve-nece-isleyir.md</id><content type="html" xml:base="https://cybershieldy.com/posts/honeypot-nedir"><![CDATA[<h1 id="-honeypot-nədir-hacker-ləri-tələyə-salan-ağıllı-təhlükəsizlik-sistemi">🍯 Honeypot Nədir? Hacker-ləri Tələyə Salan Ağıllı Təhlükəsizlik Sistemi</h1>
 
 <p>Müasir kibertəhlükəsizlik artıq təkcə firewall və antivirusdan ibarət deyil.<br />
 Peşəkar kiber dərslər, hacker dərsləri və kiber kurslar mütləq şəkildə Honeypot texnologiyasını əhatə etməlidir.</p>
@@ -3343,336 +3650,4 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="iot" /><category term="hacking" /><category term="iot hacking" /><category term="ağıllı ev təhlükəsizliyi" /><category term="robot tozsoran hack" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><summary type="html"><![CDATA[IoT ev cihazları necə hacklənir? Robot tozsoranlar, ağıllı ev sistemləri üzərindən real hacking ssenariləri, risklər və 2025 üçün peşəkar müdafiə yolları. SEO üçün optimallaşdırılmış kibertəhlükəsizlik bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iota.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iota.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu</title><link href="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik" rel="alternate" type="text/html" title="IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu" /><published>2025-12-05T12:00:00+04:00</published><updated>2025-12-24T15:03:57+04:00</updated><id>https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik"><![CDATA[<!-- Structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu",
-  "description": "IDS və IPS sistemlərinin işləmə prinsipləri, hücum aşkarlama metodları, şəbəkə təhlükəsizliyində rolu və kiber təlimlər üçün əhəmiyyəti.",
-  "author": { "@type": "Person", "name": "Emin Savaylov" },
-  "publisher": { "@type": "Organization", "name": "CyberShieldy", "logo": { "@type": "ImageObject", "url": "https://cybershieldy.com/assets/images/logo.png" }},
-  "datePublished": "2025-12-05T12:00:00+04:00",
-  "dateModified": "2025-12-05T12:00:00+04:00",
-  "image": "https://cybershieldy.com/assets/images/ids-ips.webp",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik" }
-}
-</script>
-
-<h1 id="ids-və-ips-sistemləri-2025-də-kibertəhlükəsizlikdə-həyati-rolu">IDS və IPS Sistemləri: 2025-də Kibertəhlükəsizlikdə Həyati Rolu</h1>
-
-<p>Şəbəkə hücumları hər il daha da mürəkkəbləşir və ənənəvi firewall-lar artıq kifayət etmir. Buna görə <strong>IDS (Intrusion Detection System)</strong> və <strong>IPS (Intrusion Prevention System)</strong> kimi təhlükəsizlik sistemləri 2025-də demək olar ki, hər SOC və hər şirkət üçün <strong>zəruri müdafiə qatına</strong> çevrilib.</p>
-
-<p>Bu yazıda modern nöqteyi-nəzərdən IDS/IPS-in rolu, işləmə prinsipləri, texniki üstünlükləri və <strong>kiber kurslar, hacking dərsləri və kiber dərslər</strong> öyrənən tələbələr üçün əhəmiyyəti geniş izah olunur.</p>
-
-<hr />
-
-<h1 id="-ids-nədir-və-necə-işləyir">🔍 IDS nədir və necə işləyir?</h1>
-
-<p><strong>IDS — Intrusion Detection System</strong> şəbəkədə və ya hostda baş verən şübhəli fəaliyyətləri aşkarlayan bir sistemdir. IDS hücumları dayandırmır, lakin:</p>
-
-<ul>
-  <li>real vaxtda anomaliya aşkarlayır,</li>
-  <li>logları təhlil edir,</li>
-  <li>administratorlara xəbərdarlıq göndərir,</li>
-  <li>şəbəkədə normadan kənar davranışları müəyyən edir.</li>
-</ul>
-
-<h3 id="ids-in-əsas-növləri">IDS-in əsas növləri:</h3>
-
-<h4 id="-nids-network-ids">🟦 <strong>NIDS (Network IDS)</strong></h4>
-<p>Şəbəkə trafiki üzərində işləyir. Snort, Suricata bu kateqoriyadadır.</p>
-
-<h4 id="-hids-host-ids">🟦 <strong>HIDS (Host IDS)</strong></h4>
-<p>Birbaşa cihazda və ya serverdə fəaliyyətləri izləyir.</p>
-
-<h3 id="ids-in-aşkarlama-üsulları">IDS-in aşkarlama üsulları:</h3>
-
-<ul>
-  <li><strong>Signature-based detection</strong> — artıq məlum olan hücum imzalarını tanıyır</li>
-  <li><strong>Anomaly-based detection</strong> — davranış fərqlərini tapır</li>
-  <li><strong>Hybrid detection</strong> — hər iki yöntəmi birləşdirir</li>
-</ul>
-
-<hr />
-
-<h1 id="️-ips-nədir-və-niyə-kritikdir">🛡️ IPS nədir və niyə kritikdir?</h1>
-
-<p><strong>IPS — Intrusion Prevention System</strong> yalnız aşkarlamır, həm də <strong>hücumları real vaxtda bloklayır</strong>.</p>
-
-<p>IPS sistemləri şəbəkədə hücum cəhdini gördükdə:</p>
-
-<ul>
-  <li>IP-ni bloklayır</li>
-  <li>Paketi drop edir</li>
-  <li>Sessiyanı kəsir</li>
-  <li>Qaydanı avtomatik tətbiq edir</li>
-</ul>
-
-<p>Yəni IPS real müdafiə qatıdır.</p>
-
-<hr />
-
-<h1 id="-ids-və-ips-birlikdə-necə-işləyir">🚀 IDS və IPS birlikdə necə işləyir?</h1>
-
-<p>Modern şəbəkə təhlükəsizliyi memarlığında ən doğru yanaşma <strong>IDS + IPS birlikdə</strong> istifadə etməkdir:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Funksiya</th>
-      <th>IDS</th>
-      <th>IPS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aşkarlama</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <td>Bloklama</td>
-      <td>✖</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <td>Analitik məlumat</td>
-      <td>✔</td>
-      <td>Çox yüksək</td>
-    </tr>
-    <tr>
-      <td>Real vaxt müdaxilə</td>
-      <td>✖</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <td>Yük balanslama</td>
-      <td>Orta</td>
-      <td>Yüksək</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>2025-də bir çox SOC-lar hər ikisini istifadə edir və SIEM-lə inteqrasiya edir.</p>
-
-<hr />
-
-<h1 id="-2025-də-idsips-niyə-daha-vacib-oldu">⚡ 2025-də IDS/IPS niyə daha vacib oldu?</h1>
-
-<h3 id="-ai-assisted-hücumlar-artır">🔸 AI-assisted hücumlar artır</h3>
-<p>Hücumçular AI ilə daha ağıllı phishing, recon və avtomatik exploit alətləri yaradır.</p>
-
-<h3 id="-zero-day-istismarlarının-sayı-yüksəlir">🔸 Zero-Day istismarlarının sayı yüksəlir</h3>
-<p>Anomaliya əsaslı IDS-lər bu boşluqları daha tez görür.</p>
-
-<h3 id="-şirkətlərdə-trafik-həcmi-10-dəfə-artıb">🔸 Şirkətlərdə trafik həcmi 10 dəfə artıb</h3>
-<p>Klassik firewall-lar hər şeyi tuta bilmir.</p>
-
-<h3 id="-soc-lar-daha-çox-avtomatlaşdırmaya-keçir">🔸 SOC-lar daha çox avtomatlaşdırmaya keçir</h3>
-<p>IPS real vaxt müdaxilə üçün əsas komponentdir.</p>
-
-<hr />
-
-<h1 id="-praktiki-ssenari-idsips-hücumu-necə-aşkarladı">🧪 Praktiki Ssenari: IDS/IPS hücumu necə aşkarladı?</h1>
-
-<p><strong>Real ssenari (2025):</strong></p>
-
-<ol>
-  <li>Şəbəkəyə saniyədə 1200 paketlik qəribə trafik daxil olur.</li>
-  <li>IDS bunu <strong>SQL Injection</strong> imzası kimi təyin edir.</li>
-  <li>SIEM-lə inteqrasiya → event dərhal SOC-a ötürülür.</li>
-  <li>IPS avtomatik olaraq həmin IP-ni bloklayır.</li>
-  <li>3 dəqiqə ərzində 27 hücum cəhdi tamamilə dayandırılır.</li>
-</ol>
-
-<p>Bu, manual müdaxiləyə ehtiyac olmadan tam avtomatik baş verir.</p>
-
-<hr />
-
-<h1 id="-idsips-öyrənmək-niyə-kiber-kurslar-və-hacking-dərsləri-üçün-vacibdir">🎓 IDS/IPS Öyrənmək niyə kiber kurslar və hacking dərsləri üçün vacibdir?</h1>
-
-<p>Əgər tələbə <strong>kibertəhlükəsizlik öyrənirsə</strong>, bu bilik mütləqdir.</p>
-
-<h3 id="-red-team-üçün">✔ Red Team üçün:</h3>
-<ul>
-  <li>Hücum zamanı IDS-i necə bypass etmək</li>
-  <li>Signature-based sistemləri çaşdırmaq</li>
-  <li>Trafiki gizlətmək (evasion techniques)</li>
-</ul>
-
-<h3 id="-blue-team-üçün">✔ Blue Team üçün:</h3>
-<ul>
-  <li>Traffic analysis</li>
-  <li>Anomaliya aşkarlanması</li>
-  <li>SIEM və SOC inteqrasiyası</li>
-  <li>Şəbəkə hücumlarına real müdaxilə</li>
-</ul>
-
-<h3 id="-kiber-dərslər-və-kiber-kurslar-üçün-mükəmməl-baza">✔ Kiber dərslər və kiber kurslar üçün mükəmməl baza:</h3>
-<ul>
-  <li>Şəbəkə modelinin anlaşılması</li>
-  <li>Log analizi</li>
-  <li>Praktiki laboratoriyalar</li>
-  <li>Snort, Suricata, Zeek kimi alətlə işləmək</li>
-</ul>
-
-<p>Bu bilik 2025–2030 üçün tələb olunan TOP 3 bacarıq arasındadır.</p>
-
-<hr />
-
-<h1 id="-nəticə">📌 Nəticə</h1>
-
-<p>IDS və IPS sistemləri modern şəbəkə təhlükəsizliyinin <strong>əsas dayaqlarıdır</strong>.<br />
-Həm şirkətlər, həm SOC-lar, həm də kiber təhlükəsizlik mütəxəssisləri üçün bu sistemlərin işləmə prinsiplərini bilmək <strong>artıq seçim yox, zərurətdir</strong>.</p>
-
-<p><strong>Kiber kurslar</strong>, <strong>hacking dərsləri</strong> və <strong>kiber dərslər</strong> öyrənən hər kəs IDS/IPS-i praktik şəkildə bilməlidir — çünki gələcəyin hücum və müdafiə sistemi tam şəkildə bu texnologiyaların üzərində qurulacaq.</p>
-
-<hr />
-
-<h2 id="-praktiki-təlim-və-cyber-security-kursu">📞 Praktiki Təlim və Cyber Security Kursu</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20IDS%20IPS%20kiber%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə</a> — real təlimlər və şəxsi mentorluq.</p>
-
-<hr />
-
-<h2 id="-oxşar-məqalələr">📚 Oxşar Məqalələr</h2>
-
-<ul>
-  <li><a href="/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li><a href="/posts/red-team-vs-blue-team">Red Team vs Blue Team (2025)</a></li>
-</ul>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="şəbəkə təhlükəsizliyi" /><category term="IDS" /><category term="IPS" /><category term="cybersecurity" /><category term="network security" /><category term="threat detection" /><category term="kiber kurslar" /><category term="hacking dərsləri" /><category term="kiber dərslər" /><category term="cybersecurity training" /><summary type="html"><![CDATA[IDS və IPS sistemləri nədir, necə işləyir və 2025-ci ildə kibertəhlükəsizlikdə niyə vacibdir? Kiber kurslar və hacking dərsləri üçün möhkəm baza yaradan geniş izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ids.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ids.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="iot" /><category term="hacking" /><category term="iot hacking" /><category term="ağıllı ev təhlükəsizliyi" /><category term="robot tozsoran hack" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><summary type="html"><![CDATA[IoT ev cihazları necə hacklənir? Robot tozsoranlar, ağıllı ev sistemləri üzərindən real hacking ssenariləri, risklər və 2025 üçün peşəkar müdafiə yolları. SEO üçün optimallaşdırılmış kibertəhlükəsizlik bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iota.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iota.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
