@@ -20,7 +20,7 @@ tags:
   - real kiber hücumlar
   - server security
 description: "Kameralar necə izləyir, IP kameralar necə hacklənir və real hücum ssenariləri necə işləyir? Gizli kamera sızmaları, IoT və CCTV təhlükəsizliyi üzrə peşəkar kibertəhlükəsizlik və hacker dərsləri (2026)."
-image: /assets/images/camera-hack.webp
+image: /assets/images/kamera.webp
 canonical: https://cybershieldy.com/posts/kameralar-nece-izleyir
 permalink: /posts/kameralar-nece-izleyir
 ---
