@@ -1,4 +1,370 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-02-07T09:23:24+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/kameralar-nece-izleyir" rel="alternate" type="text/html" title="Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-31T10:00:00+04:00</published><updated>2026-01-31T17:51:43+04:00</updated><id>https://cybershieldy.com/posts/kameralar-nece-izleyir-ve-hack-olur.md</id><content type="html" xml:base="https://cybershieldy.com/posts/kameralar-nece-izleyir"><![CDATA[<h1 id="-kameralar-necə-i̇zləyir-gizli-kamera-sistemləri-və-hacker-baxışı">🎥 Kameralar Necə İzləyir? Gizli Kamera Sistemləri və Hacker Baxışı</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-02-07T09:25:33+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Digital Forensics Nədir? Sistem İzləri, Hacker Sübutları və Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/digital-forensics-nedir" rel="alternate" type="text/html" title="Digital Forensics Nədir? Sistem İzləri, Hacker Sübutları və Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-02-07T01:00:00+04:00</published><updated>2026-02-07T01:00:00+04:00</updated><id>https://cybershieldy.com/posts/digital-forensika-nedir-ve-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/digital-forensics-nedir"><![CDATA[<h1 id="-digital-forensics-nədir-hacker-i̇zlərini-oxuyan-elmi-təhlükəsizlik-sahəsi">🧬 Digital Forensics Nədir? Hacker İzlərini Oxuyan Elmi Təhlükəsizlik Sahəsi</h1>
+
+<p>Digital Forensics — kibertəhlükəsizlik dünyasında <strong>hadisədən sonra həqiqəti üzə çıxaran</strong> sahədir.<br />
+Hacker hücum edir, iz buraxır və məhz həmin izləri <strong>forensiks oxuyur</strong>.</p>
+
+<p>Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber təlimlər üçün Digital Forensics <strong>əsas fundament</strong> sayılır.</p>
+
+<blockquote>
+  <p>Hücumu bloklamaq kifayət deyil,<br />
+baş verəni sübutla anlamaq lazımdır.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-digital-forensics-nə-üçün-lazımdır">🧠 Digital Forensics nə üçün lazımdır?</h2>
+
+<p>Digital Forensics aşağıdakı məqsədlər üçün istifadə olunur:</p>
+<ul>
+  <li>Hacker hücumundan sonra analiz</li>
+  <li>Məlumat sızmasının mənbəyini tapmaq</li>
+  <li>Malware və backdoor davranışını anlamaq</li>
+  <li>Hücumun zaman xəttini çıxarmaq (timeline)</li>
+  <li>Hüquqi və texniki sübut toplamaq</li>
+</ul>
+
+<p>Blue Team və SOC Analyst dərslərində forensiks <strong>praktik bacarıqdır</strong>, nəzəri mövzu deyil.</p>
+
+<hr />
+
+<h2 id="-digital-forensics-hacking-və-blue-team-əlaqəsi">🔍 Digital Forensics, Hacking və Blue Team əlaqəsi</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sahə</th>
+      <th>Rol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hacking</td>
+      <td>Zəifliyi tapır</td>
+    </tr>
+    <tr>
+      <td>Ethical Hacking</td>
+      <td>Hücumu simulyasiya edir</td>
+    </tr>
+    <tr>
+      <td>Blue Team</td>
+      <td>Hücumu aşkarlayır</td>
+    </tr>
+    <tr>
+      <td>Digital Forensics</td>
+      <td>Hücumu sübutla izah edir</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Yəni:</p>
+<ul>
+  <li>Hacker girir</li>
+  <li>Müdafiə reaksiya verir</li>
+  <li>Forensiks <strong>hər addımı danışdırır</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-disk-forensics-nədir">💾 Disk Forensics nədir?</h2>
+
+<p>Disk Forensics — HDD və SSD üzərində aparılan analizdir.</p>
+
+<p>Araşdırılan əsas elementlər:</p>
+<ul>
+  <li>Silinmiş fayllar</li>
+  <li>Gizli və şübhəli fayllar</li>
+  <li>Fayl metadata və timestamp-lar</li>
+  <li>Persistence mexanizmləri</li>
+  <li>Malware izləri</li>
+</ul>
+
+<p>Bu mövzu <strong>kiber dərslər</strong>, <strong>server security</strong> və <strong>hacker təlimləri</strong> üçün vacibdir.</p>
+
+<hr />
+
+<h2 id="-memory-ram-forensics-nədir">🧠 Memory (RAM) Forensics nədir?</h2>
+
+<p>RAM Forensics ən kritik sahələrdəndir, çünki:</p>
+<ul>
+  <li>Fileless malware RAM-da işləyir</li>
+  <li>Backdoor-lar diskə yazılmaya bilər</li>
+  <li>Aktiv C2 bağlantıları burada görünür</li>
+</ul>
+
+<p>Analiz edilənlər:</p>
+<ul>
+  <li>Running process-lər</li>
+  <li>Inject olunmuş kodlar</li>
+  <li>Network connection-lar</li>
+  <li>Credential izləri</li>
+</ul>
+
+<p>Advanced Blue Team təlimlərində RAM analizi mütləq öyrədilir.</p>
+
+<hr />
+
+<h2 id="-network-forensics">🌐 Network Forensics</h2>
+
+<p>Network Forensics hücum zamanı <strong>şəbəkə üzərindən keçən məlumatları</strong> analiz edir.</p>
+
+<p>İstifadə olunur:</p>
+<ul>
+  <li>PCAP faylları</li>
+  <li>DNS sorğuları</li>
+  <li>Şübhəli outbound traffic</li>
+  <li>Data exfiltration izləri</li>
+</ul>
+
+<p>Bu sahə <strong>web security dərsləri</strong> və <strong>network security</strong> ilə sıx bağlıdır.</p>
+
+<hr />
+
+<h2 id="-malware-forensics-nədir">🦠 Malware Forensics nədir?</h2>
+
+<p>Malware Forensics zamanı cavab tapılan suallar:</p>
+<ul>
+  <li>Zərərli proqram necə işləyir?</li>
+  <li>Backdoor haradan əlaqə yaradır?</li>
+  <li>C2 server haradadır?</li>
+  <li>Persistence necə qurulub?</li>
+</ul>
+
+<p>Bu mövzu <strong>ethical hacking</strong>, <strong>reverse engineering</strong> və <strong>blue team dərsləri</strong> ilə kəsişir.</p>
+
+<hr />
+
+<h2 id="️-log-analysis--sistem-danışır">🕵️ Log Analysis – Sistem danışır</h2>
+
+<p>Log-lar forensiks üçün <strong>ən dəyərli sübutdur</strong>.</p>
+
+<p>Analiz edilən log-lar:</p>
+<ul>
+  <li>Authentication log-ları</li>
+  <li>Web server log-ları</li>
+  <li>Firewall və IDS/IPS log-ları</li>
+  <li>Application event-lər</li>
+</ul>
+
+<p>Log oxumağı bilməyən mütəxəssis <strong>real kiber təhlükəsizlikçi sayıla bilməz</strong>.</p>
+
+<hr />
+
+<h2 id="️-digital-forensics-blue-team-üçün-niyə-vacibdir">🛡️ Digital Forensics Blue Team üçün niyə vacibdir?</h2>
+
+<p>Çünki:</p>
+<ul>
+  <li>IDS xəbərdarlıq verir</li>
+  <li>SIEM alarm yaradır</li>
+  <li>Amma forensiks <strong>sübut çıxarır</strong></li>
+</ul>
+
+<p>SOC Analyst və Blue Team təlimləri forensiks olmadan yarımçıq qalır.</p>
+
+<hr />
+
+<h2 id="-kiber-dərslər-və-hacker-təlimləri-üçün-forensiks">🎓 Kiber Dərslər və Hacker Təlimləri üçün Forensiks</h2>
+
+<p>Bu mövzu:</p>
+<ul>
+  <li>kibertəhlükəsizlik dərsləri</li>
+  <li>hacker dərsləri</li>
+  <li>ethical hacking kursları</li>
+  <li>blue team təlimləri</li>
+  <li>web və server security dərsləri</li>
+</ul>
+
+<p>üçün <strong>əsas baza bilikdir</strong>.</p>
+
+<p>Hücum edən kimi düşünməyən forensiks zəifdir,<br />
+iz buraxmağı bilməyən hacker isə gec-tez tutulur.</p>
+
+<hr />
+
+<h2 id="️-forensiks-zamanı-edilən-kritik-səhvlər">⚠️ Forensiks zamanı edilən kritik səhvlər</h2>
+
+<ul>
+  <li>Sistemi söndürmək (RAM məlumatı itir)</li>
+  <li>Sübutu dəyişmək</li>
+  <li>Snapshot almadan analizə başlamaq</li>
+  <li>Log-ları overwrite etmək</li>
+</ul>
+
+<p>Bir səhv bütün araşdırmanı yararsız edə bilər.</p>
+
+<hr />
+
+<h2 id="-nəticə">🚀 Nəticə</h2>
+
+<p>Digital Forensics — kibertəhlükəsizliyin yaddaşıdır.<br />
+Hücum bitə bilər, amma iz həmişə qalır.</p>
+
+<blockquote>
+  <p>Hacker sistemi sındırar,<br />
+Forensiks isə həqiqəti ortaya çıxarar.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li><a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbələrdən Kiber Kəşfiyyat</a></li>
+  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team Fərqləri</a></li>
+  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri və Hücum Ssenariləri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-əlaqəli-məqalələr">📎 Əlaqəli Məqalələr</h2>
+
+<ul>
+  <li><a href="https://cybershieldy.com/posts/sosial-mühəndislik">Sosial Mühəndislik Nədir və Real Hücum Nümunələri</a></li>
+  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team Nədir?</a></li>
+  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi İstifadə Edərkən Nələrə Diqqət Etməli?</a></li>
+</ul>
+
+<hr />
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar</p>
+
+<hr />
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="forensics" /><category term="blue team" /><category term="digital forensics" /><category term="forensiks nədir" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="blue team dərsləri" /><category term="soc analyst" /><category term="malware forensics" /><category term="disk forensics" /><category term="memory forensics" /><category term="log analysis" /><category term="web security dərsləri" /><category term="server security" /><summary type="html"><![CDATA[Digital Forensics nədir, sistem izləri necə analiz olunur və hacker hücumlarından sonra sübutlar necə tapılır? Blue Team, SOC Analyst və Ethical Hacking üçün real forensiks dərsi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/forensics.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/forensics.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/kameralar-nece-izleyir" rel="alternate" type="text/html" title="Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-31T10:00:00+04:00</published><updated>2026-01-31T17:51:43+04:00</updated><id>https://cybershieldy.com/posts/kameralar-nece-izleyir-ve-hack-olur.md</id><content type="html" xml:base="https://cybershieldy.com/posts/kameralar-nece-izleyir"><![CDATA[<h1 id="-kameralar-necə-i̇zləyir-gizli-kamera-sistemləri-və-hacker-baxışı">🎥 Kameralar Necə İzləyir? Gizli Kamera Sistemləri və Hacker Baxışı</h1>
 
 <p>Bu gün kameralar sadəcə təhlükəsizlik üçün deyil.<br />
 Onlar <strong>məlumat toplayan</strong>, <strong>şəbəkəyə qoşulan</strong> və <strong>potensial kiber risk yaradan IoT cihazlarıdır</strong>.</p>
@@ -3322,332 +3688,4 @@ Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • W
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="proqramlaşdırma" /><category term="web təhlükəsizlik" /><category term="kibertəhlükəsizlik kursları" /><category term="kiber dərslər" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="secure coding" /><category term="javascript təhlükəsizlik" /><category term="php təhlükəsizlik" /><category term="xss hücumu" /><category term="web hacking" /><summary type="html"><![CDATA[Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/algo.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/algo.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)</title><link href="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking" rel="alternate" type="text/html" title="IoT Ev Cihazları Necə Hacklənir? Robot Tozsoran Hücumları, Ağıllı Evlərdə Real Təhlükələr və Müdafiə Yolları (2025)" /><published>2025-12-09T12:00:00+04:00</published><updated>2025-12-24T14:59:00+04:00</updated><id>https://cybershieldy.com/posts/iot-ev-cihazlari-hacking-kibertelhukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/iot-ev-cihazlari-hacking"><![CDATA[<h1 id="iot-ev-cihazları-necə-hacklənir">IoT Ev Cihazları Necə Hacklənir?</h1>
-<h2 id="robot-tozsoranlar-ağıllı-evlər-və-real-hacking-ssenariləri-2025">Robot Tozsoranlar, Ağıllı Evlər və Real Hacking Ssenariləri (2025)</h2>
-
-<p>Son illərdə <strong>IoT ev cihazları</strong> sürətlə yayılıb. Robot tozsoranlar, smart TV-lər, IP kameralar və ağıllı qapı kilidləri artıq adi ev avadanlığına çevrilib. Lakin bu rahatlıqla yanaşı, <strong>kibertəhlükəsizlik problemləri</strong> də eyni sürətlə artır.</p>
-
-<p>Ən təhlükəli məqam isə budur:<br />
-<strong>bir zəif IoT cihazı bütün ev şəbəkəsinin hacklənməsinə səbəb ola bilər.</strong></p>
-
-<hr />
-
-<h2 id="iot-ev-cihazları-nədir-və-niyə-hackerlər-üçün-cəlbedicidir">IoT Ev Cihazları Nədir və Niyə Hackerlər üçün Cəlbedicidir?</h2>
-
-<p>IoT (Internet of Things) ev cihazları internetə qoşulan və uzaqdan idarə olunan sistemlərdir:</p>
-
-<ul>
-  <li>Robot tozsoranlar (plesos)</li>
-  <li>Ağıllı kameralar</li>
-  <li>Smart televizorlar</li>
-  <li>Ağıllı prizlər və işıqlar</li>
-  <li>Ağıllı qapı kilidləri</li>
-</ul>
-
-<p>Bu cihazların əksəriyyəti:</p>
-<ul>
-  <li><strong>zəif təhlükəsizliklə istehsal olunur</strong></li>
-  <li><strong>default parollarla istifadə edilir</strong></li>
-  <li><strong>müntəzəm firmware yenilənmir</strong></li>
-</ul>
-
-<p>Məhz buna görə <strong>hacking dərsləri</strong>, <strong>hacker kurslar</strong> və <strong>kibertəhlükəsizlik kursları</strong> zamanı IoT cihazları real hədəf kimi öyrədilir.</p>
-
-<hr />
-
-<h2 id="robot-tozsoran-plesos-niyə-risklidir">Robot Tozsoran (Plesos) Niyə Risklidir?</h2>
-
-<p>Robot tozsoranlar sadəcə ev təmizləmir. Onlar:</p>
-
-<ul>
-  <li>Evin tam xəritəsini çıxarır</li>
-  <li>Hansı otağın harada olduğunu bilir</li>
-  <li>Günlük rutinləri analiz edir</li>
-  <li>Wi-Fi şəbəkəsinə daimi bağlı qalır</li>
-</ul>
-
-<p>Bu məlumatlar <strong>hücumçu üçün kritik dəyərə malikdir</strong>.<br />
-Bir hacker üçün robot tozsoran:</p>
-<blockquote>
-  <p>“Evin içindən məlumat toplayan səssiz sensor” rolunu oynayır.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="real-hacking-ssenarisi--red-team-baxışı">Real Hacking Ssenarisi – Red Team Baxışı</h2>
-
-<p><strong>Addım-addım hücum:</strong></p>
-
-<ol>
-  <li>Ev Wi-Fi şifrəsi zəifdir</li>
-  <li>IoT cihazda köhnə firmware istifadə olunur</li>
-  <li>Mobil tətbiq hesabında 2FA yoxdur</li>
-  <li>API endpoint-lər zəif qorunur</li>
-</ol>
-
-<p><strong>Hacker nələr edir?</strong></p>
-<ul>
-  <li>Robot tozsoranı ələ keçirir</li>
-  <li>Evin planını əldə edir</li>
-  <li>Evdə olmadığın saatları analiz edir</li>
-  <li>Şəbəkədə digər cihazlara lateral movement edir</li>
-</ul>
-
-<p>Bu ssenarilər <strong>kiber dərslər</strong>, <strong>ethical hacking kursları</strong> və <strong>praktik lab məşğələləri</strong> zamanı real nümunə kimi istifadə olunur.</p>
-
-<hr />
-
-<h2 id="həqiqi-hadisələr-iot-cihazlarının-hacklənməsi">Həqiqi Hadisələr: IoT Cihazlarının Hacklənməsi</h2>
-
-<p>Son illərdə:</p>
-<ul>
-  <li>robot tozsoranlardan icazəsiz səsli mesajlar göndərilib</li>
-  <li>ağıllı kameralar canlı yayımla izlənilib</li>
-  <li>smart ev sistemləri botnet-ə qoşulub</li>
-</ul>
-
-<p>Bu hadisələr sübut edir ki, <strong>IoT təhlükəsizliyi zəif qurularsa, eviniz bir kiber hücum platformasına çevrilə bilər.</strong></p>
-
-<hr />
-
-<h2 id="iot-cihazlarında-ən-çox-rast-gəlinən-təhlükəsizlik-boşluqları">IoT Cihazlarında Ən Çox Rast Gəlinən Təhlükəsizlik Boşluqları</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Zəiflik</th>
-      <th>Təhlükə</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Default parollar</td>
-      <td>Kütləvi hack hücumları</td>
-    </tr>
-    <tr>
-      <td>Açıq portlar</td>
-      <td>Uzaqdan idarə</td>
-    </tr>
-    <tr>
-      <td>Şifrəsiz trafik</td>
-      <td>Man-in-the-Middle</td>
-    </tr>
-    <tr>
-      <td>Zəif API tokenləri</td>
-      <td>Hesab ələ keçirilməsi</td>
-    </tr>
-    <tr>
-      <td>Yenilənməyən firmware</td>
-      <td>Köhnə exploit-lər</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Bu mövzular <strong>web təhlükəsizlik dərsləri</strong> və <strong>kiber kursları</strong> üçün əsas praktik mövzulardandır.</p>
-
-<hr />
-
-<h2 id="blue-team--ağıllı-evlər-üçün-müdafiə-strategiyaları">Blue Team – Ağıllı Evlər üçün Müdafiə Strategiyaları</h2>
-
-<ul>
-  <li>IoT cihazları üçün ayrıca şəbəkə (VLAN) yaradın</li>
-  <li>Router firewall qaydalarını sərtləşdirin</li>
-  <li>Default parolları dərhal dəyişin</li>
-  <li>Firmware yeniləmələrini gecikdirməyin</li>
-  <li>Cloud hesablar üçün 2FA aktiv edin</li>
-  <li>Lazımsız portları bağlayın</li>
-</ul>
-
-<p><strong>Unutmayın:</strong><br />
-IoT cihazı = potensial hücum nöqtəsi.</p>
-
-<hr />
-
-<h2 id="bu-mövzular-niyə-kiber-kurslarında-öyrədilir">Bu Mövzular Niyə Kiber Kurslarında Öyrədilir?</h2>
-
-<p>Çünki real dünyada:</p>
-<ul>
-  <li>hackerlər IoT cihazları üzərindən hücum edir</li>
-  <li>şirkətlər və fərdi istifadəçilər ev səviyyəsində risk altındadır</li>
-</ul>
-
-<p>Buna görə:
-✅ <strong>kibertəhlükəsizlik dərsləri</strong><br />
-✅ <strong>hacking dərsləri</strong><br />
-✅ <strong>hacker kurslar</strong><br />
-təcrübə əsaslı şəkildə bu mövzular üzərində qurulur.</p>
-
-<hr />
-
-<h2 id="tez-tez-verilən-suallar-faq">Tez-Tez Verilən Suallar (FAQ)</h2>
-
-<p><strong>Robot tozsoran evimi izləyə bilərmi?</strong><br />
-Birbaşa yox, lakin hacklənərsə ev planı və davranışlar analiz edilə bilər.</p>
-
-<p><strong>IoT cihazı bütün şəbəkəni riskə atırmı?</strong><br />
-Bəli. Zəif bir cihaz bütün sistem üçün giriş qapısı ola bilər.</p>
-
-<p><strong>Bu bilikləri kimlər öyrənməlidir?</strong><br />
-İT mütəxəssisləri, təhlükəsizlik üzrə çalışanlar və kiber kurslara qatılan hər kəs.</p>
-
-<hr />
-
-<h2 id="nəticə">Nəticə</h2>
-
-<p>IoT texnologiyası rahatlıqdır, lakin <strong>təhlükəsizliksiz rahatlıq riskdir</strong>.<br />
-Robot tozsoranlar və ağıllı ev cihazları düzgün qorunmazsa, hackerlər üçün açıq hədəfə çevrilir.</p>
-
-<p><strong>Ağıllı ev = güclü kibertəhlükəsizlik.</strong></p>
-
-<hr />
-
-<h2 id="-praktiki-təlim-və-cyber-security-kursu">📞 Praktiki Təlim və Cyber Security Kursu</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20IDS%20IPS%20kiber%20d%C9%99rsl%C9%99ri%20il%C9%99%20maraqlan%C4%B1ram.">WhatsApp ilə əlaqə</a> — real təlimlər və şəxsi mentorluq.
-<strong>CyberShieldy</strong><br />
-Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Ssenariləri</p>
-
-<hr />
-
-<h2 id="-əlaqəli-mövzular--sayt-daxili-keçidlər">📎 Əlaqəli Mövzular – Sayt Daxili Keçidlər</h2>
-
-<ul>
-  <li><a href="/posts/wifi-hucumlari">Wi‑Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
-  <li><a href="/posts/sebeke-hucumlari">MITM hücumu və şəbəkədə müdaxilə halları</a></li>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li><a href="/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-</ul>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="iot" /><category term="hacking" /><category term="iot hacking" /><category term="ağıllı ev təhlükəsizliyi" /><category term="robot tozsoran hack" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="kiber kursları" /><category term="kibertəhlükəsizlik dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><summary type="html"><![CDATA[IoT ev cihazları necə hacklənir? Robot tozsoranlar, ağıllı ev sistemləri üzərindən real hacking ssenariləri, risklər və 2025 üçün peşəkar müdafiə yolları. SEO üçün optimallaşdırılmış kibertəhlükəsizlik bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iota.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iota.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="proqramlaşdırma" /><category term="web təhlükəsizlik" /><category term="kibertəhlükəsizlik kursları" /><category term="kiber dərslər" /><category term="hacking dərsləri" /><category term="hacker kurslar" /><category term="secure coding" /><category term="javascript təhlükəsizlik" /><category term="php təhlükəsizlik" /><category term="xss hücumu" /><category term="web hacking" /><summary type="html"><![CDATA[Ağıllı alqoritm və güclü coding kibertəhlükəsizlikdə niyə əsasdır? JavaScript və PHP kod səhvləri necə XSS və real hücumlara səbəb olur? 2025 üçün praktik və dərin secure coding bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/algo.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/algo.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

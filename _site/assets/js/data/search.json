@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Digital Forensics Nədir? Sistem İzləri, Hacker Sübutları və Real Kibertəhlükəsizlik Dərsi (2026)",
+    "url": "/posts/digital-forensics-nedir",
+    "categories": "kibertəhlükəsizlik, forensics, blue team",
+    "tags": "digital forensics, forensiks nədir, kibertəhlükəsizlik dərsləri, kibertəhlükəsizlik təlimləri, hacker dərsləri, hacker təlimləri, ethical hacking, blue team dərsləri, soc analyst, malware forensics, disk forensics, memory forensics, log analysis, web security dərsləri, server security",
+    "date": "2026-02-07 01:00:00 +0400",
+    "content": "Digital Forensics nədir, sistem izləri necə analiz olunur və hacker hücumlarından sonra sübutlar necə tapılır? Blue Team, SOC Analyst və Ethical Hacking üçün real forensiks dərsi (2026)."
+  },
+  
+  {
     "title": "Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)",
     "url": "/posts/kameralar-nece-izleyir",
     "categories": "kibertəhlükəsizlik, hacking, iot təhlükəsizliyi",

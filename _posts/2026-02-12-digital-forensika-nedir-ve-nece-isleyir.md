@@ -1,7 +1,7 @@
 ---
 title: "Digital Forensics Nədir? Sistem İzləri, Hacker Sübutları və Real Kibertəhlükəsizlik Dərsi (2026)"
-date: 2026-02-7 12:00:00 +0400
-lastmod: 2026-02-12 12:00:00 +0400
+date: 2026-02-7 01:00:00 +0400
+lastmod: 2026-02-12 01:00:00 +0400
 categories: [kibertəhlükəsizlik, forensics, blue team]
 tags:
   - digital forensics
