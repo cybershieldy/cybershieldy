@@ -20,7 +20,7 @@ tags:
   - web security dərsləri
   - server security
 description: "Digital Forensics nədir, sistem izləri necə analiz olunur və hacker hücumlarından sonra sübutlar necə tapılır? Blue Team, SOC Analyst və Ethical Hacking üçün real forensiks dərsi (2026)."
-image: /assets/images/forensics.webp
+image: /assets/images/forensi.webp
 canonical: https://cybershieldy.com/posts/digital-forensics-nedir
 permalink: /posts/digital-forensics-nedir
 ---
