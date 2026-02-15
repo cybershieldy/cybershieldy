@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)",
+    "url": "/posts/uz-tanima-gps-osint",
+    "categories": "kibertəhlükəsizlik, osint, digital forensics, red team",
+    "tags": "üz tanıma sistemi, insan axtarışı, şəkil ilə axtarış, gps metadata, osint dərsləri, kibertəhlükəsizlik dərsləri, hacker dərsləri, hacker təlimləri, kiber təlimlər, ethical hacking, red team dərsləri, blue team dərsləri, web kurs, web dərslər, shodan nədir, maltego nədir",
+    "date": "2026-02-15 01:00:00 +0400",
+    "content": "Üz tanıma sistemləri, şəkil metadata (GPS) analizi və OSINT vasitəsilə insan axtarışı necə aparılır? Red Team və Digital Forensics perspektivindən geniş kiber təhlükəsizlik dərsi (2026)."
+  },
+  
+  {
     "title": "Digital Forensics Nədir? Sistem İzləri, Hacker Sübutları və Real Kibertəhlükəsizlik Dərsi (2026)",
     "url": "/posts/digital-forensics-nedir",
     "categories": "kibertəhlükəsizlik, forensics, blue team",
