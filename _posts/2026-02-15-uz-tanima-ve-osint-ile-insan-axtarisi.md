@@ -21,7 +21,7 @@ tags:
   - shodan nədir
   - maltego nədir
 description: "Üz tanıma sistemləri, şəkil metadata (GPS) analizi və OSINT vasitəsilə insan axtarışı necə aparılır? Red Team və Digital Forensics perspektivindən geniş kiber təhlükəsizlik dərsi (2026)."
-image: /assets/images/osint-face-recognition.webp
+image: /assets/images/face.webp
 canonical: https://cybershieldy.com/posts/uz-tanima-gps-osint
 permalink: /posts/uz-tanima-gps-osint
 ---
