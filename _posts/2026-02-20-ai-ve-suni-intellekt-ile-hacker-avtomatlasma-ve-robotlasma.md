@@ -17,7 +17,7 @@ tags:
   - sistem avtomatlaşdırma
   - robotlaşma
 description: "Süni intellekt (AI) hackerlərə necə dəstək olur? Avtomatlaşdırma və robotlaşma sistemləri nə qədər inkişaf edib? 2026 perspektivindən geniş kiber təhlükəsizlik analizi."
-image: /assets/images/ai-hacker.webp
+image: /assets/images/aih.webp
 canonical: https://cybershieldy.com/posts/ai-hacker-avtomatlasma
 permalink: /posts/ai-hacker-avtomatlasma
 ---
