@@ -173,10 +173,10 @@ Texnologiyadan qorxan isə geridə qalacaq.
 
 ---
 
-📲 WhatsApp: https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.
+📲 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.)
 
 **CyberShieldy Academy**  
-Kiber Dərslər • Hacker Dərsləri • Ethical Hacking • Red Team • Blue Team • Real Lablar
+Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar
 
 ---
 
