@@ -31,7 +31,7 @@ Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber kurs proqramların
 **AI sürətlə inkişaf edərsə, insanları əvəz edə bilərmi?  
 Və bu proses qlobal kiber müharibəyə səbəb ola bilərmi?**  
 
-![AI War GIF](https://media.giphy.com/media/l3vR6GNFLv6bQHQvu/giphy.gif)  
+![Cyberpunk Hacking](https://media.giphy.com/media/l0MYu5fRag9I9j9oU/giphy.gif)
 
 ---
 
@@ -85,7 +85,7 @@ AI dövlət səviyyəsində istifadə edilərsə, risklər:
 🚨 Ən təhlükəli ssenari: AI sistemlərinin bir-birinə qarşı avtomatik qərar verməsi və insan nəzarətinin azalması.  
 **Bu artıq klassik müharibə deyil — algoritmik müharibədir.**
 
-![Cyber War GIF](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)  
+![Fast Coding](https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif)
 
 ---
 
@@ -158,6 +158,7 @@ qorxan isə geridə qalacaq.
 - ⚔ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)  
 - 📡 [Public Wi-Fi Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)  
 - 🤖 [AI & Kibertəhlükəsizlik](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
+- 🤖 [AI, Süni İntellekt və Hacker İnkişafı](https://cybershieldy.com/posts/ai-hacker-avtomatlasma)
 
 ---
 
