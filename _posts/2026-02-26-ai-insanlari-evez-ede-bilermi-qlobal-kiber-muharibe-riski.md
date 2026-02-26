@@ -16,7 +16,7 @@ tags:
   - avtomatlaşdırma sistemləri
   - robotlaşma
 description: "AI inkişaf edərsə insanları əvəz edə bilərmi? Süni intellekt iş bazarını necə dəyişir və bu proses qlobal kiber müharibəyə səbəb ola bilərmi? 2026 perspektivindən geniş analiz."
-image: /assets/images/_site/assets/images/cyber-ai.webp
+image: /assets/images/cyber-ai.webp
 canonical: https://cybershieldy.com/posts/ai-qlobal-kiber-risk
 permalink: /posts/ai-qlobal-kiber-risk
 ---
@@ -161,14 +161,10 @@ qorxan isə geridə qalacaq.
 
 ---
 
-📲 **WhatsApp ilə əlaqə:**  
-https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.
+📲 [WhatsApp ilə əlaqə](https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.)
 
----
-
-## 🚀 CyberShieldy Academy
-
-Kiber Dərslər • Hacker Dərsləri • Ethical Hacking • Red Team • Blue Team • Real Lablar  
+**CyberShieldy Academy**  
+Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar
 
 ---
 
