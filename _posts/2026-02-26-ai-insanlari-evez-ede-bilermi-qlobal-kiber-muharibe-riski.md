@@ -31,7 +31,6 @@ Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber kurs proqramların
 **AI sürətlə inkişaf edərsə, insanları əvəz edə bilərmi?  
 Və bu proses qlobal kiber müharibəyə səbəb ola bilərmi?**  
 
-![Cyberpunk Hacking](https://media.giphy.com/media/l0MYu5fRag9I9j9oU/giphy.gif)
 
 ---
 
@@ -85,7 +84,7 @@ AI dövlət səviyyəsində istifadə edilərsə, risklər:
 🚨 Ən təhlükəli ssenari: AI sistemlərinin bir-birinə qarşı avtomatik qərar verməsi və insan nəzarətinin azalması.  
 **Bu artıq klassik müharibə deyil — algoritmik müharibədir.**
 
-![Fast Coding](https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif)
+
 
 ---
 
@@ -148,7 +147,7 @@ AI insanlığı məhv etməyəcək, amma hazırlıqsız insanları sistemdən k�
 Teknologiyanı idarə edən qalib gələcək,  
 qorxan isə geridə qalacaq.
 
-![AI Hacker GIF](https://media.giphy.com/media/3o7aCVcZ3q3XJG8F3u/giphy.gif)  
+
 
 ---
 
