@@ -1,178 +1,169 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-02-26T14:02:14+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">AI İnsanları Əvəz Edəcəkmi? Süni İntellekt, İşsizlik Riski və Qlobal Kiber Müharibə Ssenarisi (2026 Analiz)</title><link href="https://cybershieldy.com/posts/ai-qlobal-kiber-risk" rel="alternate" type="text/html" title="AI İnsanları Əvəz Edəcəkmi? Süni İntellekt, İşsizlik Riski və Qlobal Kiber Müharibə Ssenarisi (2026 Analiz)" /><published>2026-02-26T01:00:00+04:00</published><updated>2026-02-26T13:54:47+04:00</updated><id>https://cybershieldy.com/posts/ai-insanlari-evez-ede-bilermi-qlobal-kiber-muharibe-riski</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-qlobal-kiber-risk"><![CDATA[<h1 id="ai-i̇nsanları-əvəz-edəcəkmi-süni-i̇ntellekt-i̇şsizlik-və-qlobal-kiber-müharibə-riski-2026">AI İnsanları Əvəz Edəcəkmi? Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə Riski (2026)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-02-26T14:10:06+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)</title><link href="https://cybershieldy.com/posts/ai-qlobal-kiber-risk" rel="alternate" type="text/html" title="AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)" /><published>2026-02-26T01:00:00+04:00</published><updated>2026-02-26T13:54:47+04:00</updated><id>https://cybershieldy.com/posts/ai-insanlari-evez-ede-bilermi-qlobal-kiber-muharibe-riski</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-qlobal-kiber-risk"><![CDATA[<h1 id="-ai-i̇nsanları-əvəz-edəcəkmi">🤖 AI İnsanları Əvəz Edəcəkmi?</h1>
+<p><strong>Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026)</strong></p>
 
-<p>Süni intellekt (AI) artıq gələcəyin texnologiyası deyil — bu günün reallığıdır.<br />
-Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber təhlükəsizlik kursu proqramlarında AI əsas mövzuya çevrilib.</p>
+<p>🌐 Süni intellekt (AI) artıq gələcəyin texnologiyası deyil — bu günün reallığıdır.<br />
+Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber kurs proqramlarında AI əsas modul halına gəlib.</p>
 
-<p>Əsas sual budur:</p>
-
-<p><strong>AI sürətlə inkişaf edərsə, insanları əvəz edə bilərmi?<br />
+<p>💡 Əsas sual:<br />
+<strong>AI sürətlə inkişaf edərsə, insanları əvəz edə bilərmi?<br />
 Və bu proses qlobal kiber müharibəyə səbəb ola bilərmi?</strong></p>
+
+<p><img src="https://media.giphy.com/media/l3vR6GNFLv6bQHQvu/giphy.gif" alt="AI War GIF" /></p>
 
 <hr />
 
-<h2 id="ai-i̇ş-bazarı-və-i̇nsan-faktoruna-təsiri">AI İş Bazarı və İnsan Faktoruna Təsiri</h2>
+<h2 id="-ai-i̇ş-bazarı-və-i̇nsan-faktoruna-təsiri">🏭 AI İş Bazarı və İnsan Faktoruna Təsiri</h2>
 
 <p>Avtomatlaşdırma və robotlaşma artıq bir çox sahədə insan əməyini əvəz edir:</p>
 
 <ul>
-  <li>Mühasibat və maliyyə analizləri</li>
-  <li>Müştəri dəstək botları</li>
-  <li>Log analizi və SOC monitorinq</li>
-  <li>Zəiflik skanları və penetration test avtomatlaşdırılması</li>
-  <li>Kontent generasiyası və məlumat analizi</li>
+  <li>💰 Mühasibat və maliyyə analizləri</li>
+  <li>🤖 Müştəri dəstək botları</li>
+  <li>🖥 Log analizi və SOC monitorinq</li>
+  <li>🔐 Zəiflik skanları və penetration test avtomatlaşdırılması</li>
+  <li>📝 Kontent generasiyası və məlumat analizi</li>
 </ul>
 
-<p>Xüsusilə kiber dərslər və red team dərsləri göstərir ki, artıq bir çox manual proses AI ilə saniyələr içində icra olunur.</p>
+<p>⏱ Red Team dərsləri göstərir ki, bir çox manual proses AI ilə saniyələr içində icra olunur.</p>
 
-<p>Bu isə iki nəticə yaradır:</p>
+<p><strong>Nəticə:</strong><br />
+1️⃣ Aşağı ixtisaslı iş yerləri azalır<br />
+2️⃣ Yüksək texniki bacarıqlar daha dəyərli olur</p>
 
-<ol>
-  <li>Aşağı ixtisaslı iş yerləri azalır</li>
-  <li>Yüksək texniki bacarıqlar daha dəyərli olur</li>
-</ol>
-
-<p>Yəni AI insanı tam əvəz etmir — amma zəif bacarıqları əvəz edir.</p>
+<p>AI insanı tam əvəz etmir — amma zəif bacarıqları əvəz edir.</p>
 
 <hr />
 
-<h2 id="hacker-dünyasında-ai-gücü">Hacker Dünyasında AI Gücü</h2>
+<h2 id="-hacker-dünyasında-ai-gücü">💻 Hacker Dünyasında AI Gücü</h2>
 
-<p>Hacker dərsləri və etik hacker kursu proqramlarında AI aşağıdakı məqsədlərlə istifadə olunur:</p>
+<p>Hacker dərsləri və etik hacker kurslarında AI istifadə olunur:</p>
 
 <ul>
-  <li>Avtomatik recon və məlumat toplama</li>
-  <li>Parol pattern analizi</li>
-  <li>Phishing ssenarilərinin optimallaşdırılması</li>
-  <li>Exploit ehtimallarının hesablanması</li>
-  <li>Şəbəkə davranış modellərinin çıxarılması</li>
+  <li>🕵️‍♂️ Avtomatik recon və məlumat toplama</li>
+  <li>🔑 Parol pattern analizi</li>
+  <li>🎯 Phishing ssenarilərinin optimallaşdırılması</li>
+  <li>💥 Exploit ehtimallarının hesablanması</li>
+  <li>🌐 Şəbəkə davranış modellərinin çıxarılması</li>
 </ul>
 
-<p>Red Team üçün AI hücumu sürətləndirir.<br />
-Blue Team üçün isə AI müdafiəni gücləndirir.</p>
+<p><strong>Red Team:</strong> AI hücumu sürətləndirir<br />
+<strong>Blue Team:</strong> AI müdafiəni gücləndirir</p>
 
-<p>Bu balans pozularsa, risk başlayır.</p>
+<p>⚠ Balans pozularsa, risk artır.</p>
 
 <hr />
 
-<h2 id="qlobal-kiber-müharibə-ssenarisi">Qlobal Kiber Müharibə Ssenarisi</h2>
+<h2 id="-qlobal-kiber-müharibə-ssenarisi">🌍 Qlobal Kiber Müharibə Ssenarisi</h2>
 
-<p>AI dövlət səviyyəsində istifadə edilərsə, aşağıdakı risklər yarana bilər:</p>
+<p>AI dövlət səviyyəsində istifadə edilərsə, risklər:</p>
 
 <ul>
-  <li>Avtomatlaşdırılmış hücum kampaniyaları</li>
-  <li>Enerji şəbəkələrinə qarşı koordinasiyalı hücumlar</li>
-  <li>Bank sistemlərinə AI əsaslı bot hücumları</li>
-  <li>Deepfake ilə siyasi manipulyasiya</li>
-  <li>İnformasiya müharibəsinin avtomatlaşdırılması</li>
+  <li>⚡ Avtomatlaşdırılmış hücum kampaniyaları</li>
+  <li>🔋 Enerji şəbəkələrinə koordinasiyalı hücumlar</li>
+  <li>🏦 Bank sistemlərinə AI bot hücumları</li>
+  <li>🎭 Deepfake ilə siyasi manipulyasiya</li>
+  <li>📰 İnformasiya müharibəsinin avtomatlaşdırılması</li>
 </ul>
 
-<p>Ən təhlükəli ssenari:</p>
+<p>🚨 Ən təhlükəli ssenari: AI sistemlərinin bir-birinə qarşı avtomatik qərar verməsi və insan nəzarətinin azalması.<br />
+<strong>Bu artıq klassik müharibə deyil — algoritmik müharibədir.</strong></p>
 
-<p>AI sistemlərinin bir-birinə qarşı avtomatik qərar verməsi və insan nəzarətinin azalması.</p>
-
-<p>Bu artıq klassik müharibə deyil — bu, algoritmik müharibədir.</p>
+<p><img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="Cyber War GIF" /></p>
 
 <hr />
 
-<h2 id="ai-i̇nsanları-tam-əvəz-edə-bilərmi">AI İnsanları Tam Əvəz Edə Bilərmi?</h2>
+<h2 id="-ai-i̇nsanları-tam-əvəz-edə-bilərmi">⚖ AI İnsanları Tam Əvəz Edə Bilərmi?</h2>
 
-<p>Texniki cavab: Xeyr.<br />
-Praktiki cavab: Qismən, bəli.</p>
+<p><strong>Texniki cavab:</strong> Xeyr<br />
+<strong>Praktiki cavab:</strong> Qismən, bəli</p>
 
-<p>AI:</p>
+<p>AI edə bilər:</p>
 
 <ul>
-  <li>Təkrarlanan işləri əvəz edə bilər</li>
-  <li>Analitik prosesləri sürətləndirə bilər</li>
-  <li>Böyük datanı insanlardan daha sürətli analiz edə bilər</li>
+  <li>🔄 Təkrarlanan işləri əvəz etmək</li>
+  <li>⚡ Analitik prosesləri sürətləndirmək</li>
+  <li>📊 Böyük datanı sürətli analiz etmək</li>
 </ul>
 
 <p>Amma:</p>
 
 <ul>
-  <li>Strateji düşüncə</li>
-  <li>Etik qərarvermə</li>
-  <li>Kreativ hücum və müdafiə dizaynı</li>
+  <li>🧠 Strateji düşüncə</li>
+  <li>⚖ Etik qərarvermə</li>
+  <li>🎨 Kreativ hücum/müdafiə dizaynı</li>
 </ul>
 
-<p>hələ də insan faktoruna bağlıdır.</p>
-
-<p>Kiber təhlükəsizlik kursu proqramlarında artıq əsas fokus AI istifadə edən mütəxəssis yetişdirməkdir — AI-dən qorxan deyil.</p>
+<p>Hələ də insan faktoruna bağlıdır.</p>
 
 <hr />
 
-<h2 id="gələcəyin-kiber-dünyası-2026-və-sonrası">Gələcəyin Kiber Dünyası (2026 və Sonrası)</h2>
-
-<p>Gözlənilən trendlər:</p>
+<h2 id="-gələcəyin-kiber-dünyası-2026">🔮 Gələcəyin Kiber Dünyası (2026+)</h2>
 
 <ul>
-  <li>AI əsaslı SOC mərkəzləri standart olacaq</li>
-  <li>Avtomatik playbook sistemləri yayılacaq</li>
-  <li>API və cloud təhlükəsizliyi əsas prioritet olacaq</li>
-  <li>Zero-day analizi AI ilə sürətlənəcək</li>
-  <li>Kiber dərslər proqramlarında AI modulu məcburi olacaq</li>
+  <li>🏢 AI əsaslı SOC mərkəzləri standart olacaq</li>
+  <li>🛠 Avtomatik playbook sistemləri yayılacaq</li>
+  <li>☁️ API &amp; Cloud təhlükəsizliyi prioritet olacaq</li>
+  <li>🕵️‍♂️ Zero-day analizi AI ilə sürətlənəcək</li>
+  <li>📚 Kiber dərslərdə AI modulu məcburi olacaq</li>
 </ul>
 
-<p>Web proqramlaşdırma kursu və sistem avtomatlaşdırma təlimlərində təhlükəsizlik artıq əsas mövzudur.</p>
-
-<p>Çünki təhlükəsiz kod yazmayan developer gələcəyin riskidir.</p>
+<p>Web kursları və sistem avtomatlaşdırmada təhlükəsizlik əsas mövzu olacaq.<br />
+💻 Təhlükəsiz kod yazmayan developer gələcəyin riskidir.</p>
 
 <hr />
 
-<h2 id="risk-haradadır">Risk Haradadır?</h2>
+<h2 id="-risk-haradadır">⚠ Risk Haradadır?</h2>
 
-<p>Risk AI-də deyil.<br />
-Risk nəzarətsiz AI istifadəsindədir.</p>
-
-<p>Əgər:</p>
+<p>Risk AI-də deyil, <strong>nəzarətsiz AI istifadəsindədir</strong>:</p>
 
 <ul>
-  <li>Hücum sistemləri tam avtomatlaşdırılarsa</li>
+  <li>Hücum sistemləri tam avtomatlaşdırılırsa</li>
   <li>Dövlətlər AI silahlanma yarışına girərsə</li>
   <li>Kiber müdafiə investisiyası geri qalarsa</li>
 </ul>
 
-<p>onda qlobal kiber balans pozula bilər.</p>
+<p>→ Qlobal kiber balans pozula bilər.</p>
 
 <hr />
 
-<h2 id="nəticə">Nəticə</h2>
+<h2 id="-nəticə">🏁 Nəticə</h2>
 
-<p>Süni intellekt insanlığı məhv etməyəcək.<br />
-Amma hazırlıqsız insanları sistemdən kənarda qoyacaq.</p>
+<p>AI insanlığı məhv etməyəcək, amma hazırlıqsız insanları sistemdən kənarda qoyacaq.</p>
 
-<p>Kibertəhlükəsizlik artıq seçim deyil — zərurətdir.</p>
-
-<p>AI dövründə güclü olmaq istəyirsənsə:</p>
-
+<p><strong>Güc əldə etmək üçün:</strong></p>
 <ul>
-  <li>Hacker dərsləri öyrən</li>
-  <li>Etik hacking prinsiplərini mənimsə</li>
-  <li>Red Team və Blue Team balansını başa düş</li>
-  <li>Avtomatlaşdırma sistemlərini idarə etməyi öyrən</li>
+  <li>🧑‍💻 Hacker dərsləri öyrən</li>
+  <li>🛡 Etik hacking prinsiplərini mənimsə</li>
+  <li>🔵🔴 Red Team / Blue Team balansını başa düş</li>
+  <li>⚙ Avtomatlaşdırma sistemlərini idarə etməyi öyrən</li>
 </ul>
 
-<p>Texnologiyanı idarə edən qalib gələcək.<br />
-Texnologiyadan qorxan isə geridə qalacaq.</p>
+<p>Teknologiyanı idarə edən qalib gələcək,<br />
+qorxan isə geridə qalacaq.</p>
+
+<p><img src="https://media.giphy.com/media/3o7aCVcZ3q3XJG8F3u/giphy.gif" alt="AI Hacker GIF" /></p>
 
 <hr />
 
 <h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
 
 <ul>
-  <li><a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbələrdən Kiber Kəşfiyyat</a></li>
-  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team Fərqləri</a></li>
-  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri və Hücum Ssenariləri</a></li>
-  <li><a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">Süni İntellektin Kibertəhlükəsizlikdə Rolu</a></li>
-  <li><a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">Süni İntellekt və Hacker İnkişafı</a></li>
+  <li>🔎 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları</a></li>
+  <li>⚔ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik</a></li>
 </ul>
 
 <hr />
 
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+<p>📲 <strong>WhatsApp ilə əlaqə:</strong><br />
+https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.</p>
 
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar</p>
+<hr />
+
+<h2 id="-cybershieldy-academy">🚀 CyberShieldy Academy</h2>
+
+<p>Kiber Dərslər • Hacker Dərsləri • Ethical Hacking • Red Team • Blue Team • Real Lablar</p>
 
 <hr />
 
@@ -308,7 +299,7 @@ Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Et
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="qlobal risklər" /><category term="avtomatlaşdırma" /><category term="ai təhlükəsizlik" /><category term="süni intellekt inkişafı" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="qlobal kiber müharibə" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="avtomatlaşdırma sistemləri" /><category term="robotlaşma" /><summary type="html"><![CDATA[AI inkişaf edərsə insanları əvəz edə bilərmi? Süni intellekt iş bazarını necə dəyişir və bu proses qlobal kiber müharibəyə səbəb ola bilərmi? 2026 perspektivindən geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ai-global.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ai-global.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI, Süni İntellekt və Hacker İnkişafı: Avtomatlaşdırma, Robotlaşma və Gələcəyin Kiber Dünyası (2026)</title><link href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma" rel="alternate" type="text/html" title="AI, Süni İntellekt və Hacker İnkişafı: Avtomatlaşdırma, Robotlaşma və Gələcəyin Kiber Dünyası (2026)" /><published>2026-02-20T01:00:00+04:00</published><updated>2026-02-26T13:54:47+04:00</updated><id>https://cybershieldy.com/posts/ai-ve-suni-intellekt-ile-hacker-avtomatlasma-ve-robotlasma</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-hacker-avtomatlasma"><![CDATA[<h1 id="-ai-süni-i̇ntellekt-və-hacker-i̇nkişafı-2026">🤖 AI, Süni İntellekt və Hacker İnkişafı (2026)</h1>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="qlobal risklər" /><category term="avtomatlaşdırma" /><category term="ai təhlükəsizlik" /><category term="süni intellekt inkişafı" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="qlobal kiber müharibə" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="avtomatlaşdırma sistemləri" /><category term="robotlaşma" /><summary type="html"><![CDATA[AI inkişaf edərsə insanları əvəz edə bilərmi? Süni intellekt iş bazarını necə dəyişir və bu proses qlobal kiber müharibəyə səbəb ola bilərmi? 2026 perspektivindən geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/_site/assets/images/cyber-ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/_site/assets/images/cyber-ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI, Süni İntellekt və Hacker İnkişafı: Avtomatlaşdırma, Robotlaşma və Gələcəyin Kiber Dünyası (2026)</title><link href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma" rel="alternate" type="text/html" title="AI, Süni İntellekt və Hacker İnkişafı: Avtomatlaşdırma, Robotlaşma və Gələcəyin Kiber Dünyası (2026)" /><published>2026-02-20T01:00:00+04:00</published><updated>2026-02-26T14:02:23+04:00</updated><id>https://cybershieldy.com/posts/ai-ve-suni-intellekt-ile-hacker-avtomatlasma-ve-robotlasma</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-hacker-avtomatlasma"><![CDATA[<h1 id="-ai-süni-i̇ntellekt-və-hacker-i̇nkişafı-2026">🤖 AI, Süni İntellekt və Hacker İnkişafı (2026)</h1>
 
 <p>📌 <strong>AI artıq gələcək deyil — bu günün reallığıdır.</strong><br />
 Kibertəhlükəsizlik dərsləri, hacker dərsləri və etik hacker kursu proqramlarında süni intellekt əsas modul halına gəlib.</p>
@@ -583,7 +574,7 @@ https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20il
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="avtomatlaşdırma" /><category term="red team" /><category term="ai təhlükəsizlik" /><category term="süni intellekt" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="web proqramlaşdırma kursu" /><category term="sistem avtomatlaşdırma" /><category term="robotlaşma" /><summary type="html"><![CDATA[Süni intellekt (AI) hackerlərə necə dəstək olur? Avtomatlaşdırma və robotlaşma sistemləri nə qədər inkişaf edib? 2026 perspektivindən geniş kiber təhlükəsizlik analizi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/cyber-ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/cyber-ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)</title><link href="https://cybershieldy.com/posts/uz-tanima-gps-osint" rel="alternate" type="text/html" title="Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)" /><published>2026-02-15T01:00:00+04:00</published><updated>2026-02-16T00:48:17+04:00</updated><id>https://cybershieldy.com/posts/uz-tanima-ve-osint-ile-insan-axtarisi</id><content type="html" xml:base="https://cybershieldy.com/posts/uz-tanima-gps-osint"><![CDATA[<h1 id="üz-tanıma-gps-metadata-və-i̇nsan-axtarışı-osint-və-hacker-perspektivi">Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT və Hacker Perspektivi</h1>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="avtomatlaşdırma" /><category term="red team" /><category term="ai təhlükəsizlik" /><category term="süni intellekt" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="web proqramlaşdırma kursu" /><category term="sistem avtomatlaşdırma" /><category term="robotlaşma" /><summary type="html"><![CDATA[Süni intellekt (AI) hackerlərə necə dəstək olur? Avtomatlaşdırma və robotlaşma sistemləri nə qədər inkişaf edib? 2026 perspektivindən geniş kiber təhlükəsizlik analizi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/aih.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/aih.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)</title><link href="https://cybershieldy.com/posts/uz-tanima-gps-osint" rel="alternate" type="text/html" title="Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)" /><published>2026-02-15T01:00:00+04:00</published><updated>2026-02-16T00:48:17+04:00</updated><id>https://cybershieldy.com/posts/uz-tanima-ve-osint-ile-insan-axtarisi</id><content type="html" xml:base="https://cybershieldy.com/posts/uz-tanima-gps-osint"><![CDATA[<h1 id="üz-tanıma-gps-metadata-və-i̇nsan-axtarışı-osint-və-hacker-perspektivi">Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT və Hacker Perspektivi</h1>
 
 <p>Müasir dünyada bir şəkil sadəcə şəkil deyil.<br />
 O — üz, məkan, zaman və bəzən bütün bir hekayədir.</p>
