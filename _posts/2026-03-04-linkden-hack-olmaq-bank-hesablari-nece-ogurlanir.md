@@ -17,7 +17,7 @@ tags:
   - sosial mühəndislik
   - malware hücumları
 description: "Linklərə klikləməklə necə hack olunurlar? Bank hesabı oğurluqları, phishing hücumları və bilinməyən proqram yükləmələrinin kiber təhlükəsizlik risklərini öyrənin."
-image: /assets/images/phishing-hacker.webp
+image: /assets/images/link.webp
 canonical: https://cybershieldy.com/posts/linkden-hack
 permalink: /posts/linkden-hack
 ---
