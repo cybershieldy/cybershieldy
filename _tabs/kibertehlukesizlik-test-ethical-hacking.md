@@ -1,8 +1,8 @@
 ---
-title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)
+title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)
 icon: fas fa-shield-alt
 order: 4
-description: 51 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
+description: 61 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
 keywords:
   - kibertəhlükəsizlik testi
   - ethical hacking sualları
@@ -44,14 +44,14 @@ robots: index, follow
 
 <!-- Open Graph Meta Tags -->
 <meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)" />
-<meta property="og:description" content="51 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
+<meta property="og:description" content="61 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 <meta property="og:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
 <!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)" />
+<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)" />
 <meta name="twitter:description" content="Ethical hacking, OWASP və SQLi biliklərinizi bu test ilə yoxlayın. CEH hazırlığı üçün uyğundur." />
 <meta name="twitter:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
@@ -529,6 +529,86 @@ d;
   <label><input type="radio" name="q51" value="correct"> b) Asimmetrik şifrələmə üçün</label>
   <label><input type="radio" name="q51" value="incorrect"> c) Simmetrik şifrələmə üçün</label>
   <label><input type="radio" name="q51" value="incorrect"> d) Data compression üçün</label>
+</div>
+
+<div class="question">
+  <p>52. Wazuh agent sistemdə baş verən hadisələri hansı komponentə göndərir?</p>
+  <label><input type="radio" name="q51" value="incorrect"> a) Elasticsearch</label>
+  <label><input type="radio" name="q51" value="correct"> b) Wazuh Manager</label>
+  <label><input type="radio" name="q51" value="incorrect"> c) Zeek sensor</label>
+  <label><input type="radio" name="q51" value="incorrect"> d) Kibana dashboard</label>
+</div>
+
+<div class="question">
+  <p>53. Wazuh SIEM sistemində agentdən gələn loglar analiz edildikdən sonra Telegram kimi xidmətlərə avtomatik bildiriş göndərmək üçün hansı avtomatlaşdırma aləti tez-tez istifadə olunur?</p>
+  <label><input type="radio" name="q52" value="incorrect"> a) Grafana</label>
+  <label><input type="radio" name="q52" value="correct"> b) n8n</label>
+  <label><input type="radio" name="q52" value="incorrect"> c) Wireshark</label>
+  <label><input type="radio" name="q52" value="incorrect"> d) Metasploit</label>
+</div>
+
+<div class="question">
+  <p>54. Zeek (əvvəlki adı Bro) əsasən hansı məqsəd üçün istifadə olunur?</p>
+  <label><input type="radio" name="q53" value="incorrect"> a) Firewall idarəsi</label>
+  <label><input type="radio" name="q53" value="correct"> b) Şəbəkə trafikinin analiz edilməsi</label>
+  <label><input type="radio" name="q53" value="incorrect"> c) Parol sındırmaq</label>
+  <label><input type="radio" name="q53" value="incorrect"> d) Kernel yeniləmək</label>
+</div>
+
+<div class="question">
+  <p>55. Wazuh arxitekturasında SIEM funksiyası əsasən hansı işi görür?</p>
+  <label><input type="radio" name="q54" value="incorrect"> a) Şəbəkə kabellərini idarə etmək</label>
+  <label><input type="radio" name="q54" value="correct"> b) Log toplamaq, analiz etmək və təhlükə aşkarlamaq</label>
+  <label><input type="radio" name="q54" value="incorrect"> c) CPU performansını artırmaq</label>
+  <label><input type="radio" name="q54" value="incorrect"> d) Router konfiqurasiyası etmək</label>
+</div>
+
+<div class="question">
+  <p>56. Windows sistemlərdə təhlükəsizlik hadisələrinin saxlandığı əsas log faylları hansı alətdə izlənilir?</p>
+  <label><input type="radio" name="q55" value="correct"> a) Event Viewer</label>
+  <label><input type="radio" name="q55" value="incorrect"> b) Task Manager</label>
+  <label><input type="radio" name="q55" value="incorrect"> c) Registry Editor</label>
+  <label><input type="radio" name="q55" value="incorrect"> d) Control Panel</label>
+</div>
+
+<div class="question">
+  <p>57. Sysmon Windows sistemində hansı məqsədlə istifadə olunur?</p>
+  <label><input type="radio" name="q56" value="incorrect"> a) Disk formatlamaq</label>
+  <label><input type="radio" name="q56" value="correct"> b) Sistem fəaliyyətini və prosesləri detallı loglamaq</label>
+  <label><input type="radio" name="q56" value="incorrect"> c) Antivirus yeniləmək</label>
+  <label><input type="radio" name="q56" value="incorrect"> d) RAM optimallaşdırmaq</label>
+</div>
+
+<div class="question">
+  <p>58. PowerShell loglarının SIEM sisteminə göndərilməsi hansı təhlükəsizlik məqsədi üçün vacibdir?</p>
+  <label><input type="radio" name="q57" value="incorrect"> a) Video faylları analiz etmək</label>
+  <label><input type="radio" name="q57" value="correct"> b) Zərərli skript və hücum fəaliyyətlərini aşkar etmək</label>
+  <label><input type="radio" name="q57" value="incorrect"> c) Printerləri idarə etmək</label>
+  <label><input type="radio" name="q57" value="incorrect"> d) Şəbəkə sürətini artırmaq</label>
+</div>
+
+<div class="question">
+  <p>59. Şəbəkə topologiyasında “star topology” (ulduz topologiyası) hansı xüsusiyyətə malikdir?</p>
+  <label><input type="radio" name="q58" value="incorrect"> a) Bütün cihazlar bir-birinə birbaşa bağlıdır</label>
+  <label><input type="radio" name="q58" value="correct"> b) Bütün cihazlar mərkəzi switch və ya hub-a qoşulur</label>
+  <label><input type="radio" name="q58" value="incorrect"> c) Halqa formasında işləyir</label>
+  <label><input type="radio" name="q58" value="incorrect"> d) İnternet olmadan işləyə bilmir</label>
+</div>
+
+<div class="question">
+  <p>60. Şəbəkədə NAT (Network Address Translation) əsasən hansı məqsədlə istifadə olunur?</p>
+  <label><input type="radio" name="q59" value="incorrect"> a) Virusları silmək üçün</label>
+  <label><input type="radio" name="q59" value="correct"> b) Private IP ünvanlarını public IP ilə əlaqələndirmək üçün</label>
+  <label><input type="radio" name="q59" value="incorrect"> c) Routerləri yeniləmək üçün</label>
+  <label><input type="radio" name="q59" value="incorrect"> d) Disk yaddaşını artırmaq üçün</label>
+</div>
+
+<div class="question">
+  <p>61. IDS və IPS sistemlərinin əsas məqsədi nədir?</p>
+  <label><input type="radio" name="q60" value="incorrect"> a) Şəbəkə sürətini artırmaq</label>
+  <label><input type="radio" name="q60" value="correct"> b) Hücumları aşkar etmək və qarşısını almaq</label>
+  <label><input type="radio" name="q60" value="incorrect"> c) Web sayt yaratmaq</label>
+  <label><input type="radio" name="q60" value="incorrect"> d) Router konfiqurasiya etmək</label>
 </div>
 
 <style>
