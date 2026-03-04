@@ -1,7 +1,7 @@
 ---
 title: "Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)"
-date: 2026-03-04 12:00:00 +0400
-lastmod: 2026-03-04 12:00:00 +0400
+date: 2026-03-04 08:00:00 +0400
+lastmod: 2026-03-04 08:00:00 +0400
 categories: [kibertəhlükəsizlik, hacker hücumları, internet təhlükəsizliyi]
 tags:
   - hacker hücumları
