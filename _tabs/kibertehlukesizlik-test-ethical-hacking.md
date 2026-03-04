@@ -96,7 +96,7 @@ robots: index, follow
 
 # 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)
 
-Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **51 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
+Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **61 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
 ### Təlimat:
 - Bütün suallara cavab verin.
