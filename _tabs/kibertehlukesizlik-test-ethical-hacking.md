@@ -43,7 +43,7 @@ robots: index, follow
 <link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 
 <!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)" />
+<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)" />
 <meta property="og:description" content="61 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
@@ -94,7 +94,7 @@ robots: index, follow
   }
 </style>
 
-# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (51 Sual)
+# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)
 
 Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **51 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
