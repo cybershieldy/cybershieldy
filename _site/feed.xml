@@ -1,4 +1,357 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-04T12:19:50+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)</title><link href="https://cybershieldy.com/posts/ai-qlobal-kiber-risk" rel="alternate" type="text/html" title="AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)" /><published>2026-02-26T01:00:00+04:00</published><updated>2026-02-26T14:30:48+04:00</updated><id>https://cybershieldy.com/posts/ai-insanlari-evez-ede-bilermi-qlobal-kiber-muharibe-riski</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-qlobal-kiber-risk"><![CDATA[<h1 id="-ai-i̇nsanları-əvəz-edəcəkmi">🤖 AI İnsanları Əvəz Edəcəkmi?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-04T12:31:45+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)</title><link href="https://cybershieldy.com/posts/linkden-hack" rel="alternate" type="text/html" title="Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)" /><published>2026-03-04T08:00:00+04:00</published><updated>2026-03-04T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/linkden-hack-olmaq-bank-hesablari-nece-ogurlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/linkden-hack"><![CDATA[<h1 id="-linkdən-hack-olmaq-hacker-hücumlarının-görünməyən-üzü">⚠ Linkdən Hack Olmaq: Hacker Hücumlarının Görünməyən Üzü</h1>
+
+<p>İnternet istifadəçilərinin böyük hissəsi düşünür ki hack olunmaq üçün sistemə çox mürəkkəb hücum lazımdır.<br />
+Amma müasir kiber hücumların böyük hissəsi <strong>sadə bir linkə klik etməklə başlayır</strong>.</p>
+
+<p>Kiber təhlükəsizlik analizləri göstərir ki:</p>
+
+<ul>
+  <li>bank hesabı oğurluqları</li>
+  <li>sosial media hesablarının hack olunması</li>
+  <li>kripto pul oğurluqları</li>
+  <li>email hesablarının ələ keçirilməsi</li>
+</ul>
+
+<p>hallarının böyük hissəsi <strong>phishing linkləri və saxta proqram yükləmələri ilə başlayır</strong>.</p>
+
+<p>Bu səbəbdən <strong>kiber təhlükəsizlik dərsləri və hacker dərsləri</strong> bu mövzunu ən kritik təhlükələrdən biri hesab edir.</p>
+
+<hr />
+
+<h1 id="-hacker-hücumlarının-ən-sadə-metodu-link">🎯 Hacker Hücumlarının Ən Sadə Metodu: Link</h1>
+
+<p>Bir çox hacker hücumları aşağıdakı kanallardan başlayır:</p>
+
+<p>📩 SMS mesajları<br />
+📩 WhatsApp və Telegram mesajları<br />
+📩 Email məktubları<br />
+📩 Sosial media DM mesajları</p>
+
+<p>Mesajların məzmunu isə adətən belə olur:</p>
+
+<ul>
+  <li>“Bank hesabınız bloklanıb”</li>
+  <li>“Təcili hesabınızı təsdiqləyin”</li>
+  <li>“Qazandığınız hədiyyəni götürün”</li>
+  <li>“Hesabınız təhlükədədir”</li>
+</ul>
+
+<p>Bu mesajlarda verilən <strong>linklər hacker serverlərinə yönləndirir</strong>.</p>
+
+<p>İstifadəçi klik etdikdə isə hücum prosesi başlayır.</p>
+
+<hr />
+
+<h1 id="️-phishing-hackerlərin-ən-güclü-silahı">🕵️ Phishing: Hackerlərin Ən Güclü Silahı</h1>
+
+<p>Phishing hücumları <strong>sosial mühəndislik texnikasına əsaslanır</strong>.</p>
+
+<p>Hackerlər insan psixologiyasından istifadə edərək istifadəçini aldadır və məlumat əldə edir.</p>
+
+<p>Məsələn saxta sayt belə görünə bilər:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bank-login-security.com
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>amma real bank saytı belədir:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>bank.com
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>İstifadəçi fərqi anlamadan login məlumatını daxil edir.</p>
+
+<p>Nəticədə:</p>
+
+<ul>
+  <li>bank login məlumatı</li>
+  <li>kart nömrəsi</li>
+  <li>SMS təsdiq kodları</li>
+</ul>
+
+<p>hamısı <strong>hacker serverinə ötürülür</strong>.</p>
+
+<p>Bu metod dünyada ən çox istifadə olunan <strong>kiber hücum texnikalarından biridir</strong>.</p>
+
+<hr />
+
+<h1 id="-bank-hesabları-necə-oğurlanır">💳 Bank Hesabları Necə Oğurlanır?</h1>
+
+<p>Hackerlər bank hesablarını oğurlamaq üçün bir neçə əsas metoddan istifadə edir.</p>
+
+<h3 id="1️⃣-phishing-saytları">1️⃣ Phishing saytları</h3>
+<p>Saxta bank login səhifələri yaradılır və istifadəçilər ora yönləndirilir.</p>
+
+<h3 id="2️⃣-zərərli-tətbiqlər">2️⃣ Zərərli tətbiqlər</h3>
+<p>Android APK və ya kompüter proqramı kimi malware yayılır.</p>
+
+<h3 id="3️⃣-fake-kampaniyalar">3️⃣ Fake kampaniyalar</h3>
+<p>“Hədiyyə qazandınız” və ya “bonus qazandınız” kimi mesajlar göndərilir.</p>
+
+<h3 id="4️⃣-saxta-bank-sms-ləri">4️⃣ Saxta bank SMS-ləri</h3>
+<p>Bank adı ilə göndərilən phishing mesajları.</p>
+
+<h3 id="5️⃣-cookie-və-session-oğurluğu">5️⃣ Cookie və session oğurluğu</h3>
+<p>Browser məlumatları oğurlanaraq hesablar ələ keçirilir.</p>
+
+<p>Bu metodlar <strong>red team simulyasiyalarında və hacker dərslərində tez-tez öyrədilən hücum modelləridir</strong>.</p>
+
+<hr />
+
+<h1 id="-bilinməyən-proqram-yükləmək-gizli-təhlükə">⚠ Bilinməyən Proqram Yükləmək: Gizli Təhlükə</h1>
+
+<p>Bir çox istifadəçi bilmədən zərərli proqram yükləyir.</p>
+
+<p>Bu proqramlar adətən belə təqdim olunur:</p>
+
+<ul>
+  <li>crack proqramlar</li>
+  <li>pulsuz oyunlar</li>
+  <li>saxta antiviruslar</li>
+  <li>“system optimizer” proqramları</li>
+</ul>
+
+<p>Bu proqramlar sistemə quraşdırıldıqdan sonra:</p>
+
+<ul>
+  <li>klaviatura məlumatlarını yazır (keylogger)</li>
+  <li>brauzer şifrələrini oğurlayır</li>
+  <li>bank məlumatlarını toplayır</li>
+  <li>uzaqdan sistemə giriş verir</li>
+</ul>
+
+<p>Bu tip proqramlar <strong>malware və trojan</strong> kimi tanınır.</p>
+
+<hr />
+
+<h1 id="-kiber-təhlükəsizlik-üçün-vacib-qaydalar">🔐 Kiber Təhlükəsizlik Üçün Vacib Qaydalar</h1>
+
+<p>Kiber təhlükəsizlik mütəxəssisləri aşağıdakı qaydalara əməl etməyi tövsiyə edir:</p>
+
+<p>✔ Şübhəli linklərə klik etmə<br />
+✔ Bank login məlumatını heç vaxt mesajla göndərmə<br />
+✔ Naməlum proqramları yükləmə<br />
+✔ İki mərhələli autentifikasiya (2FA) istifadə et<br />
+✔ Sistem və proqramları yenilə</p>
+
+<p>Bu qaydalar <strong>blue team müdafiə strategiyalarının əsasını təşkil edir</strong>.</p>
+
+<hr />
+
+<h1 id="-hackerlər-necə-düşünür">🧠 Hackerlər Necə Düşünür?</h1>
+
+<p>Hackerlər sistemə hücum edərkən texniki zəiflikdən çox <strong>insan səhvlərindən istifadə edir</strong>.</p>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>sistemlər güclü firewall ilə qorunur</li>
+  <li>serverlər təhlükəsizlik monitorinqindədir</li>
+</ul>
+
+<p>Amma insan faktorunda səhv ehtimalı həmişə var.</p>
+
+<p>Bu səbəbdən <strong>etik hacker kursları və kiber təhlükəsizlik dərsləri sosial mühəndislik mövzusuna xüsusi diqqət ayırır</strong>.</p>
+
+<hr />
+
+<h1 id="-kiber-təhlükəsizlik-niyə-vacibdir">🌐 Kiber Təhlükəsizlik Niyə Vacibdir?</h1>
+
+<p>İnternetdə hər gün milyonlarla kiber hücum baş verir.</p>
+
+<p>Hədəf ola bilər:</p>
+
+<ul>
+  <li>bank hesabları</li>
+  <li>sosial media hesabları</li>
+  <li>email sistemləri</li>
+  <li>şirkət serverləri</li>
+  <li>kripto pul cüzdanları</li>
+</ul>
+
+<p>Bu səbəbdən <strong>kiber təhlükəsizlik bilikləri artıq texniki sahə deyil, gündəlik həyat bacarığıdır</strong>.</p>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>Müasir hacker hücumları çox vaxt mürəkkəb exploitlərdən deyil, <strong>sadə insan səhvlərindən başlayır</strong>.</p>
+
+<p>Bir linkə klik etmək və ya bilinməyən proqram yükləmək bəzən:</p>
+
+<ul>
+  <li>bank hesabının itirilməsi</li>
+  <li>şəxsi məlumatların oğurlanması</li>
+  <li>sosial media hesablarının itirilməsi</li>
+</ul>
+
+<p>ilə nəticələnə bilər.</p>
+
+<p>Kiber dünyada təhlükəsizlik üçün ən vacib qayda:</p>
+
+<p><strong>Şübhəli linklərdən uzaq dur və məlumatlarını qorumağı öyrən.</strong></p>
+
+<hr />
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li>
+    <p>🕵️‍♂️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Sosial Mühəndislik Nədir və Real Hücum Nümunələri</a></p>
+  </li>
+  <li>
+    <p>🎣 <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></p>
+  </li>
+  <li>
+    <p>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></p>
+  </li>
+  <li>
+    <p>📶⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar</p>
+
+<hr />
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacker hücumları" /><category term="internet təhlükəsizliyi" /><category term="hacker hücumları" /><category term="linkdən hack" /><category term="bank hesabı oğurluğu" /><category term="phishing hücumları" /><category term="kiber təhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team müdafiəsi" /><category term="kiber təhlükəsizlik kursu" /><category term="sosial mühəndislik" /><category term="malware hücumları" /><summary type="html"><![CDATA[Linklərə klikləməklə necə hack olunurlar? Bank hesabı oğurluqları, phishing hücumları və bilinməyən proqram yükləmələrinin kiber təhlükəsizlik risklərini öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/phishing-hacker.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/phishing-hacker.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)</title><link href="https://cybershieldy.com/posts/ai-qlobal-kiber-risk" rel="alternate" type="text/html" title="AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)" /><published>2026-02-26T01:00:00+04:00</published><updated>2026-02-26T14:30:48+04:00</updated><id>https://cybershieldy.com/posts/ai-insanlari-evez-ede-bilermi-qlobal-kiber-muharibe-riski</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-qlobal-kiber-risk"><![CDATA[<h1 id="-ai-i̇nsanları-əvəz-edəcəkmi">🤖 AI İnsanları Əvəz Edəcəkmi?</h1>
 <p><strong>Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026)</strong></p>
 
 <p>🌐 Süni intellekt (AI) artıq gələcəyin texnologiyası deyil — bu günün reallığıdır.<br />
@@ -3001,407 +3354,4 @@ Kiber Dərslər • Hacker Dərsləri • OSINT Təlimləri • Ethical Hacking 
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="osint" /><category term="hacking" /><category term="osint axtarış" /><category term="osint alətləri" /><category term="maltego osint" /><category term="shodan hacking" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><category term="web proqramlama" /><category term="kiber təlimlər" /><summary type="html"><![CDATA[OSINT nədir və necə işləyir? Maltego, Shodan və digər OSINT alətləri ilə açıq mənbələrdən informasiya toplama üsulları. Hacker dərsləri, kiber təlimlər və web təhlükəsizlik üçün 2026 bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/osint.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/osint.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari" rel="alternate" type="text/html" title="Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar: Real Metodlar və Qorunma Yolları (2026)" /><published>2026-01-02T10:00:00+04:00</published><updated>2026-01-02T10:50:25+04:00</updated><id>https://cybershieldy.com/posts/instagram-telegram-facebook-hacker-hucumlari</id><content type="html" xml:base="https://cybershieldy.com/posts/sosial-media-hacker-hucumlari"><![CDATA[<h1 id="instagram-telegram-və-facebook-a-edilən-hacker-hücumlar-2026">Instagram, Telegram və Facebook-a Edilən Hacker Hücumlar (2026)</h1>
-<h2 id="real-hücum-metodları-sistem-zəiflikləri-və-qorunma-strategiyaları">Real Hücum Metodları, Sistem Zəiflikləri və Qorunma Strategiyaları</h2>
-
-<p>Sosial şəbəkələr artıq sadəcə ünsiyyət platforması deyil.<br />
-Bu gün <strong>Instagram</strong>, <strong>Telegram</strong> və <strong>Facebook</strong>:</p>
-
-<ul>
-  <li>şəxsi məlumatların</li>
-  <li>biznes səhifələrinin</li>
-  <li>kripto və reklam hesablarının</li>
-  <li>media və icma kanallarının</li>
-</ul>
-
-<p>mərkəzinə çevrilib.</p>
-
-<p>Məhz buna görə <strong>hacker hücumlarının əsas hədəfi</strong> bu platformalardır.</p>
-
-<p>Bu məqalə <strong>kibertəhlükəsizlik dərsləri</strong>, <strong>hacker kurslar</strong>, <strong>ethical hacking təlimləri</strong> və <strong>web developer kursları</strong> üçün maarifləndirici məqsədlə hazırlanıb.</p>
-
-<blockquote>
-  <p>⚠️ Qeyd: Buradakı məlumatlar yalnız <strong>təhlükəsizlik maarifləndirilməsi</strong> və <strong>etik hacking</strong> çərçivəsindədir. İcazəsiz giriş qanunsuzdur.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="hackerlər-niyə-sosial-şəbəkələri-hədəf-alır">Hackerlər Niyə Sosial Şəbəkələri Hədəf Alır?</h2>
-
-<p>Çünki sosial media hesabları:</p>
-<ul>
-  <li>real insanlara bağlıdır</li>
-  <li>parol intizamı zəifdir</li>
-  <li>phishing-ə açıqdır</li>
-  <li>çox vaxt 2FA aktiv deyil</li>
-</ul>
-
-<p><strong>Bir hesab =</strong></p>
-<ul>
-  <li>reputasiya itkisi</li>
-  <li>maddi zərər</li>
-  <li>data sızması</li>
-  <li>digər sistemlərə giriş imkanı</li>
-</ul>
-
-<hr />
-
-<h1 id="-instagram-a-edilən-hacker-hücumlar">🔥 Instagram-a Edilən Hacker Hücumlar</h1>
-
-<h2 id="instagram-hücumlarının-ən-çox-i̇stifadə-olunan-növləri">Instagram Hücumlarının Ən Çox İstifadə Olunan Növləri</h2>
-
-<h3 id="1-phishing-linkləri">1. Phishing Linkləri</h3>
-<p>Hacker istifadəçiyə:</p>
-<ul>
-  <li>“hesabın donduruldu”</li>
-  <li>“copyright pozuntusu”</li>
-  <li>“verified badge”</li>
-</ul>
-
-<p>mövzulu saxta link göndərir.</p>
-
-<p>İstifadəçi login olduqda:
-➡️ username + password hücumçuya ötürülür.</p>
-
-<hr />
-
-<h3 id="2-fake-business-support-hücumları">2. Fake Business Support Hücumları</h3>
-<p>Xüsusilə <strong>business və influencer</strong> hesabları hədəflənir.</p>
-
-<ul>
-  <li>Saxta Meta Support profili</li>
-  <li>DM üzərindən “təhlükəsizlik yoxlaması”</li>
-  <li>Hesab tam takeover edilir</li>
-</ul>
-
-<hr />
-
-<h3 id="3-session-hijacking">3. Session Hijacking</h3>
-<p>Əgər:</p>
-<ul>
-  <li>ictimai Wi-Fi</li>
-  <li>zəif brauzer təhlükəsizliyi</li>
-  <li>köhnə cihaz</li>
-</ul>
-
-<p>istifadə edilirsə, aktiv sessiya ələ keçirilə bilər.</p>
-
-<p>Bu hücumlar <strong>kiber təlimlər</strong> və <strong>hacker kurslar</strong> zamanı analiz edilən real nümunələrdir.</p>
-
-<hr />
-
-<h2 id="instagram-üçün-qorunma-yolları">Instagram üçün Qorunma Yolları</h2>
-
-<ul>
-  <li>2FA (Authenticator App)</li>
-  <li>Email təhlükəsizliyi</li>
-  <li>Şübhəli linklərə klik etməmək</li>
-  <li>Login activity yoxlanışı</li>
-  <li>Business hesab üçün əlavə admin nəzarəti</li>
-</ul>
-
-<hr />
-
-<h1 id="-telegram-a-edilən-hacker-hücumlar">🔥 Telegram-a Edilən Hacker Hücumlar</h1>
-
-<h2 id="telegram-niyə-risklidir">Telegram Niyə Risklidir?</h2>
-
-<p>Telegram <strong>cloud-based</strong> işləyir. Əgər hücumçu:</p>
-<ul>
-  <li>SMS kodu ələ keçirərsə</li>
-  <li>aktiv sessiyanı klonlayarsa</li>
-</ul>
-
-<p>➡️ hesab tam nəzarətə keçə bilər.</p>
-
-<hr />
-
-<h2 id="telegram-hücum-ssenariləri">Telegram Hücum Ssenariləri</h2>
-
-<h3 id="1-sim-swap-hücumu">1. SIM Swap Hücumu</h3>
-<ul>
-  <li>Operator üzərindən nömrə ələ keçirilir</li>
-  <li>Telegram login kodu hücumçuya gəlir</li>
-  <li>Hesab takeover olunur</li>
-</ul>
-
-<hr />
-
-<h3 id="2-fake-bot--channel-hücumları">2. Fake Bot &amp; Channel Hücumları</h3>
-<ul>
-  <li>“Premium aktivləşdirmə”</li>
-  <li>“Bot verification”</li>
-  <li>“Free crypto”</li>
-</ul>
-
-<p>istifadə edilərək istifadəçi aldadılır.</p>
-
-<hr />
-
-<h2 id="telegram-üçün-təhlükəsizlik-tövsiyələri">Telegram üçün Təhlükəsizlik Tövsiyələri</h2>
-
-<ul>
-  <li>Two-Step Verification</li>
-  <li>Active Sessions yoxlanışı</li>
-  <li>SMS yerinə cloud password</li>
-  <li>Naməlum botlardan uzaq durmaq</li>
-</ul>
-
-<p>Bu mövzular <strong>kibertəhlükəsizlik dərsləri</strong> və <strong>ethical hacking kursları</strong> üçün əsas moduldur.</p>
-
-<hr />
-
-<h1 id="-facebook-a-edilən-hacker-hücumlar">🔥 Facebook-a Edilən Hacker Hücumlar</h1>
-
-<h2 id="facebook-hücumlarının-xüsusiyyəti">Facebook Hücumlarının Xüsusiyyəti</h2>
-
-<p>Facebook hesabları çox vaxt:</p>
-<ul>
-  <li>digər platformalara bağlıdır</li>
-  <li>reklam hesablarına giriş verir</li>
-  <li>biznes səhifələri idarə edir</li>
-</ul>
-
-<p>Bu isə hücumu daha dəyərli edir.</p>
-
-<hr />
-
-<h2 id="facebook-hücum-metodları">Facebook Hücum Metodları</h2>
-
-<h3 id="1-oauth-abuse">1. OAuth Abuse</h3>
-<ul>
-  <li>Saxta tətbiq icazəsi</li>
-  <li>“Continue with Facebook”</li>
-  <li>Full account access</li>
-</ul>
-
-<hr />
-
-<h3 id="2-password-reuse-hücumları">2. Password Reuse Hücumları</h3>
-<p>Əgər eyni parol:</p>
-<ul>
-  <li>email</li>
-  <li>Facebook</li>
-  <li>digər platformalarda</li>
-</ul>
-
-<p>istifadə edilirsə, zəncirvari takeover baş verir.</p>
-
-<hr />
-
-<h2 id="facebook-üçün-qorunma-strategiyası">Facebook üçün Qorunma Strategiyası</h2>
-
-<ul>
-  <li>Güclü və unikal parol</li>
-  <li>2FA + Recovery codes</li>
-  <li>App permissions audit</li>
-  <li>Admin rolların məhdudlaşdırılması</li>
-</ul>
-
-<hr />
-
-<h1 id="-hackerlər-bu-hücumları-necə-planlayır-conceptual">🧠 Hackerlər Bu Hücumları Necə Planlayır? (Conceptual)</h1>
-
-<p><strong>Tipik hücum mərhələləri:</strong></p>
-
-<ol>
-  <li>Target analizi</li>
-  <li>Sosial mühəndislik</li>
-  <li>Phishing və ya session hücumu</li>
-  <li>Hesab takeover</li>
-  <li>Data və ya reputasiya istismarı</li>
-</ol>
-
-<p>Bu yanaşma <strong>real red team ssenariləri</strong> və <strong>hacker kurslar</strong> çərçivəsində tədris olunur.</p>
-
-<hr />
-
-<h1 id="️-sosial-media-təhlükəsizlik-checklist">🛡️ Sosial Media Təhlükəsizlik Checklist</h1>
-
-<ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />2FA aktivdir</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Email təhlükəsizdir</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Şübhəli linklər bloklanır</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Aktiv sessiyalar izlənir</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Backup codes saxlanılır</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Personal kiber təlim alıb</li>
-</ul>
-
-<hr />
-
-<h2 id="bu-mövzu-niyə-hacker-kurslarında-keçilir">Bu Mövzu Niyə Hacker Kurslarında Keçilir?</h2>
-
-<p>Çünki:</p>
-<ul>
-  <li>real hücumlar buradan başlayır</li>
-  <li>sosial mühəndislik öyrədilir</li>
-  <li>istifadəçi davranışı analiz olunur</li>
-  <li>red team və blue team yanaşması formalaşır</li>
-</ul>
-
-<p>Buna görə <strong>kiber təlimlər</strong>, <strong>hacker kurslar</strong>, <strong>web developer kursları</strong> bu mövzunu əsas baza kimi istifadə edir.</p>
-
-<hr />
-
-<h2 id="nəticə">Nəticə</h2>
-
-<p>Instagram, Telegram və Facebook-a edilən hacker hücumlar göstərir ki:</p>
-
-<blockquote>
-  <p>Təhlükəsizlik yalnız texnologiya deyil — <strong>istifadəçi şüurudur.</strong></p>
-</blockquote>
-
-<p>Öyrənmək, qorunmaq və sistemləri düzgün anlamaq üçün <strong>etik hacking bilikləri</strong> vacibdir.</p>
-
-<hr />
-
-<h2 id="-kiber-təlimlər-və-hacker-kursları">📞 Kiber Təlimlər və Hacker Kursları</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20sosial%20media%20tehlukesizliyi%20ve%20hacker%20kurslari%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kibertəhlükəsizlik Dərsləri • Hacking Dərsləri • Hacker Kurslar • Web Təhlükəsizlik • Real Hücum Analizləri</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li><a href="/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team Fərqləri</a></li>
-  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a></li>
-</ul>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="social-media-security" /><category term="sosial media hacking" /><category term="instagram hacker hücumları" /><category term="telegram təhlükəsizlik" /><category term="facebook hesab oğurluğu" /><category term="kiber təlim" /><category term="hacker kurslar" /><category term="hacking dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><category term="real kiber hücumlar" /><summary type="html"><![CDATA[Instagram, Telegram və Facebook-a edilən hacker hücumlar necə baş verir? Real ssenarilər, hücum metodları və effektiv qorunma yolları. 2026 üçün geniş kibertəhlükəsizlik bələdçisi – kiber təlimlər və hacker kurslar üçün ideal mənbə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/instagram.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/instagram.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="osint" /><category term="hacking" /><category term="osint axtarış" /><category term="osint alətləri" /><category term="maltego osint" /><category term="shodan hacking" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><category term="web proqramlama" /><category term="kiber təlimlər" /><summary type="html"><![CDATA[OSINT nədir və necə işləyir? Maltego, Shodan və digər OSINT alətləri ilə açıq mənbələrdən informasiya toplama üsulları. Hacker dərsləri, kiber təlimlər və web təhlükəsizlik üçün 2026 bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/osint.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/osint.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
