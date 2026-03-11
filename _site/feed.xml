@@ -1,4 +1,420 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-11T17:34:16+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)</title><link href="https://cybershieldy.com/posts/linkden-hack" rel="alternate" type="text/html" title="Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)" /><published>2026-03-04T08:00:00+04:00</published><updated>2026-03-04T12:52:41+04:00</updated><id>https://cybershieldy.com/posts/linkden-hack-olmaq-bank-hesablari-nece-ogurlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/linkden-hack"><![CDATA[<h1 id="-linkdən-hack-olmaq-hacker-hücumlarının-görünməyən-üzü">⚠ Linkdən Hack Olmaq: Hacker Hücumlarının Görünməyən Üzü</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-11T17:39:04+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Hacker Növləri və Cyber Team-lər: Red Team, Blue Team, Black Hat və Ethical Hacker Bələdçisi (2026)</title><link href="https://cybershieldy.com/posts/hacker-novleri" rel="alternate" type="text/html" title="Hacker Növləri və Cyber Team-lər: Red Team, Blue Team, Black Hat və Ethical Hacker Bələdçisi (2026)" /><published>2026-03-11T09:00:00+04:00</published><updated>2026-03-11T09:00:00+04:00</updated><id>https://cybershieldy.com/posts/hacker-novleri-red-team-blue-team-black-hat-white-hat</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-novleri"><![CDATA[<h1 id="-hacker-növləri-və-cyber-security-team-lər">🧠 Hacker Növləri və Cyber Security Team-lər</h1>
+
+<p>Kibertəhlükəsizlik dünyası çox genişdir və burada müxtəlif tip hackerlər və təhlükəsizlik komandaları fəaliyyət göstərir.</p>
+
+<p>İnsanların çoxu <strong>“hacker” sözünü yalnız cinayətkar kimi düşünür</strong>, amma əslində bu sahədə çox fərqli rollar var.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Ethical Hacker</li>
+  <li>Red Team mütəxəssisi</li>
+  <li>Blue Team müdafiə mütəxəssisi</li>
+  <li>Digital Forensics analitikləri</li>
+  <li>SOC analyst</li>
+</ul>
+
+<p>Bu sahə <strong>kiber təhlükəsizlik dərsləri və hacker kursları</strong> vasitəsilə öyrənilir və dünyada ən sürətlə inkişaf edən texnologiya sahələrindən biridir.</p>
+
+<hr />
+
+<h1 id="-hacker-növləri">🕶 Hacker Növləri</h1>
+
+<p>Kibertəhlükəsizlik dünyasında hackerlər əsasən <strong>niyyətlərinə və fəaliyyətlərinə görə</strong> fərqlənir.</p>
+
+<hr />
+
+<h1 id="-black-hat-hacker">⚫ Black Hat Hacker</h1>
+
+<p>Black Hat hackerlər <strong>qanunsuz kiber hücumlar edən şəxslərdir</strong>.</p>
+
+<p>Onların məqsədi:</p>
+
+<p>💰 pul oğurlamaq<br />
+💰 bank hesablarına giriş əldə etmək<br />
+💰 şirkət məlumatlarını satmaq<br />
+💰 ransomware hücumları etmək</p>
+
+<p>Black hat hackerlər istifadə edir:</p>
+
+<ul>
+  <li>malware</li>
+  <li>ransomware</li>
+  <li>phishing hücumları</li>
+  <li>exploitlər</li>
+  <li>botnetlər</li>
+</ul>
+
+<p>Bu tip hücumlar nəticəsində:</p>
+
+<ul>
+  <li>bank hesabları oğurlana bilər</li>
+  <li>sosial media hesabları ələ keçirilə bilər</li>
+  <li>şirkət serverləri sındırıla bilər</li>
+</ul>
+
+<p>Bu səbəbdən black hat fəaliyyətləri <strong>qanunsuz hesab olunur</strong>.</p>
+
+<hr />
+
+<h1 id="-white-hat-hacker-ethical-hacker">⚪ White Hat Hacker (Ethical Hacker)</h1>
+
+<p>White Hat hackerlər <strong>etik hackerlərdir</strong>.</p>
+
+<p>Onların işi:</p>
+
+<p>🔐 sistemlərdə təhlükəsizlik boşluqları tapmaq<br />
+🔐 serverləri test etmək<br />
+🔐 hücumların qarşısını almaq</p>
+
+<p>White hat hackerlər əsasən işləyir:</p>
+
+<ul>
+  <li>şirkətlərdə</li>
+  <li>banklarda</li>
+  <li>dövlət qurumlarında</li>
+  <li>kibertəhlükəsizlik şirkətlərində</li>
+</ul>
+
+<p>Onlar istifadə edir:</p>
+
+<ul>
+  <li>penetration testing</li>
+  <li>vulnerability scanning</li>
+  <li>security audit</li>
+  <li>exploit testing</li>
+</ul>
+
+<p>Bu sahə <strong>ethical hacking və kiber təhlükəsizlik kurslarında öyrədilir</strong>.</p>
+
+<hr />
+
+<h1 id="-grey-hat-hacker">🟡 Grey Hat Hacker</h1>
+
+<p>Grey Hat hackerlər <strong>iki dünya arasında olan hackerlərdir</strong>.</p>
+
+<p>Onlar:</p>
+
+<ul>
+  <li>bəzən icazəsiz test edə bilər</li>
+  <li>amma məqsədləri zərər vermək deyil</li>
+</ul>
+
+<p>Məsələn:</p>
+
+<p>Bir hacker saytın zəifliyini tapır və şirkətə bildirir.</p>
+
+<p>Bəzi hallarda isə xəbərdarlıq etmədən test edə bilər.</p>
+
+<p>Grey hat hackerlər bəzən <strong>bug bounty proqramlarında iştirak edir</strong>.</p>
+
+<hr />
+
+<h1 id="-red-team">🔴 Red Team</h1>
+
+<p>Red Team <strong>hücum komandasıdır</strong>.</p>
+
+<p>Onların işi real hacker kimi davranaraq sistemi test etməkdir.</p>
+
+<p>Red Team simulyasiya edir:</p>
+
+<ul>
+  <li>phishing hücumları</li>
+  <li>lateral movement</li>
+  <li>privilege escalation</li>
+  <li>credential theft</li>
+  <li>social engineering</li>
+</ul>
+
+<p>Red team istifadə edə bilər:</p>
+
+<ul>
+  <li>C2 framework</li>
+  <li>payload development</li>
+  <li>exploitlər</li>
+  <li>red team əməliyyatları</li>
+</ul>
+
+<p>Bu komandalar <strong>şirkətin müdafiə sistemlərini test edir</strong>.</p>
+
+<hr />
+
+<h1 id="-blue-team">🔵 Blue Team</h1>
+
+<p>Blue Team <strong>müdafiə komandasıdır</strong>.</p>
+
+<p>Onların işi sistemləri qorumaq və hücumları aşkar etməkdir.</p>
+
+<p>Blue team istifadə edir:</p>
+
+<p>🛡 SIEM sistemləri<br />
+🛡 log analizi<br />
+🛡 intrusion detection<br />
+🛡 threat hunting</p>
+
+<p>Blue Team alətləri:</p>
+
+<ul>
+  <li>Wazuh</li>
+  <li>Splunk</li>
+  <li>Suricata</li>
+  <li>Zeek</li>
+  <li>Sysmon</li>
+  <li>EDR sistemləri</li>
+</ul>
+
+<p>Onların məqsədi:</p>
+
+<p>⚠ hücumları erkən aşkar etmək<br />
+⚠ sistemləri qorumaq<br />
+⚠ log analiz etmək</p>
+
+<hr />
+
+<h1 id="-purple-team">🟣 Purple Team</h1>
+
+<p>Purple Team <strong>Red Team və Blue Team arasında əməkdaşlıq modelidir</strong>.</p>
+
+<p>Purple team:</p>
+
+<ul>
+  <li>hücum və müdafiəni birlikdə analiz edir</li>
+  <li>zəiflikləri daha tez aşkar edir</li>
+  <li>müdafiə strategiyalarını gücləndirir</li>
+</ul>
+
+<p>Purple team modeli böyük şirkətlərdə çox istifadə olunur.</p>
+
+<hr />
+
+<h1 id="-hackerlər-əslində-nə-i̇ş-görür">🧑‍💻 Hackerlər Əslində Nə İş Görür?</h1>
+
+<p>Professional hacker və kibertəhlükəsizlik mütəxəssisləri aşağıdakı işləri görür.</p>
+
+<h3 id="-penetration-testing">🔍 Penetration Testing</h3>
+<p>Sistemlərə icazəli hücum testləri.</p>
+
+<h3 id="-vulnerability-assessment">🔍 Vulnerability Assessment</h3>
+<p>Zəifliklərin analiz edilməsi.</p>
+
+<h3 id="-digital-forensics">🔍 Digital Forensics</h3>
+<p>Hücumdan sonra sistem analizləri.</p>
+
+<h3 id="-threat-hunting">🔍 Threat Hunting</h3>
+<p>Şəbəkədə gizli hücumların axtarılması.</p>
+
+<h3 id="-malware-analizi">🔍 Malware Analizi</h3>
+<p>Zərərli proqramların araşdırılması.</p>
+
+<p>Bu bacarıqlar <strong>kiber təhlükəsizlik dərsləri və hacker kursları</strong> vasitəsilə öyrənilir.</p>
+
+<hr />
+
+<h1 id="-kibertəhlükəsizlik-niyə-bu-qədər-vacibdir">🚀 Kibertəhlükəsizlik Niyə Bu Qədər Vacibdir?</h1>
+
+<p>Dünya hər gün milyonlarla kiber hücuma məruz qalır.</p>
+
+<p>Hədəflər:</p>
+
+<p>💳 bank sistemləri<br />
+📧 email serverləri<br />
+🏢 şirkət infrastrukturu<br />
+💰 kripto pul platformaları</p>
+
+<p>Bu səbəbdən kibertəhlükəsizlik sahəsində mütəxəssislərə böyük ehtiyac var.</p>
+
+<hr />
+
+<h1 id="-hacker-və-cyber-security-necə-öyrənilir">🎓 Hacker və Cyber Security Necə Öyrənilir?</h1>
+
+<p>Kibertəhlükəsizlik öyrənmək üçün əsas istiqamətlər:</p>
+
+<ul>
+  <li>Linux sistemləri</li>
+  <li>şəbəkə texnologiyaları</li>
+  <li>penetration testing</li>
+  <li>malware analizi</li>
+  <li>digital forensics</li>
+  <li>red team əməliyyatları</li>
+  <li>blue team müdafiəsi</li>
+</ul>
+
+<p>Real lablar və praktika bu sahədə ən vacib təcrübədir.</p>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>Hacker dünyası sadəcə hücum etməkdən ibarət deyil.</p>
+
+<p>Bu sahədə:</p>
+
+<p>🔴 Red Team hücum edir<br />
+🔵 Blue Team müdafiə edir<br />
+🟣 Purple Team əməkdaşlıq edir</p>
+
+<p>və ethical hackerlər sistemlərin təhlükəsizliyini təmin edir.</p>
+
+<p>Kibertəhlükəsizlik bilikləri artıq <strong>gələcəyin ən vacib texnologiya bacarıqlarından biridir</strong>.</p>
+
+<hr />
+
+<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+
+<ul>
+  <li>
+    <p>🔐 <a href="https://cybershieldy.com/posts/ethical-hacker">Ethical Hacker Nədir və Necə Olmaq Olar?</a></p>
+  </li>
+  <li>
+    <p>🕵️‍♂️ <a href="https://cybershieldy.com/posts/social-engineering">Sosial Mühəndislik Hücumları və Real Nümunələr</a></p>
+  </li>
+  <li>
+    <p>🔴🔵 <a href="https://cybershieldy.com/posts/red-blue">Red Team vs Blue Team Real Hücum Simulyasiyaları</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
+
+<p><strong>CyberShieldy Academy</strong><br />
+Kiber Təhlükəsizlik • Hacker Dərsləri • Ethical Hacking • Red Team • Blue Team • Real Lab Təlimləri</p>
+
+<hr />
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="hacker dərsləri" /><category term="hacker kursu" /><category term="kiber təhlükəsizlik dərsləri" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="black hat hacker" /><category term="white hat hacker" /><category term="grey hat hacker" /><category term="purple team" /><category term="penetration testing" /><category term="cyber security kursu" /><summary type="html"><![CDATA[Hacker növləri nədir? Black hat, white hat, grey hat hackerlər, Red Team və Blue Team rolları və kibertəhlükəsizlik dünyasında onların gördüyü işlər haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacker-teams.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacker-teams.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)</title><link href="https://cybershieldy.com/posts/linkden-hack" rel="alternate" type="text/html" title="Linkdən Hack Olmaq: Bank Hesabları Necə Oğurlanır? | Hacker Hücumları və Kiber Təhlükəsizlik Bələdçisi (2026)" /><published>2026-03-04T08:00:00+04:00</published><updated>2026-03-04T12:52:41+04:00</updated><id>https://cybershieldy.com/posts/linkden-hack-olmaq-bank-hesablari-nece-ogurlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/linkden-hack"><![CDATA[<h1 id="-linkdən-hack-olmaq-hacker-hücumlarının-görünməyən-üzü">⚠ Linkdən Hack Olmaq: Hacker Hücumlarının Görünməyən Üzü</h1>
 
 <p>İnternet istifadəçilərinin böyük hissəsi düşünür ki hack olunmaq üçün sistemə çox mürəkkəb hücum lazımdır.<br />
 Amma müasir kiber hücumların böyük hissəsi <strong>sadə bir linkə klik etməklə başlayır</strong>.</p>
@@ -2959,399 +3375,4 @@ Kiber Dərslər • Hacker Dərsləri • OSINT Təlimləri • Ethical Hacking 
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot" /><category term="hacking cihazları" /><category term="flipper zero" /><category term="wifi hacking" /><category term="tplink tl-wn722n" /><category term="iot hacking" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="kiber kurs" /><category term="ethical hacking" /><category term="red team" /><summary type="html"><![CDATA[2026-cı ildə hacking və kibertəhlükəsizlik sahəsində istifadə olunan əsas cihazlar. Flipper Zero, Wi-Fi adapterlər, RF alətləri və IoT hücum texnologiyaları. Hacker dərsləri və kiber kurslar üçün praktiki bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacker_tools.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacker_tools.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)</title><link href="https://cybershieldy.com/posts/osint-arastirmalari" rel="alternate" type="text/html" title="OSINT Araşdırmaları: Maltego, Shodan və Digər Alətlərlə Rəqəmsal İz Axtarışı (2026)" /><published>2026-01-06T22:30:00+04:00</published><updated>2026-01-06T22:30:00+04:00</updated><id>https://cybershieldy.com/posts/osint-arastirmalari-maltego-shodan</id><content type="html" xml:base="https://cybershieldy.com/posts/osint-arastirmalari"><![CDATA[<h1 id="osint-araşdırmaları-2026">OSINT Araşdırmaları (2026)</h1>
-<h2 id="maltego-shodan-və-digər-alətlərlə-açıq-mənbə-kəşfiyyatı">Maltego, Shodan və Digər Alətlərlə Açıq Mənbə Kəşfiyyatı</h2>
-
-<p>Müasir kibertəhlükəsizlik dünyasında <strong>ilk hücum da, ilk müdafiə də informasiya ilə başlayır</strong>.<br />
-Bu informasiyanın böyük hissəsi isə artıq <strong>açıq mənbələrdə (Open Source)</strong> mövcuddur.</p>
-
-<p>Bu sahənin adı:</p>
-<blockquote>
-  <p><strong>OSINT – Open Source Intelligence</strong></p>
-</blockquote>
-
-<p>Bu məqalə <strong>kiber dərslər</strong>, <strong>hacker dərsləri</strong>, <strong>ethical hacking kursları</strong> və <strong>web proqramlama sahəsində təhlükəsizlik</strong> öyrənənlər üçün hazırlanıb.</p>
-
-<blockquote>
-  <p>⚠️ Qeyd: OSINT yalnız <strong>qanuni</strong>, <strong>etik</strong> və <strong>maarifləndirici</strong> məqsədlər üçün istifadə edilməlidir.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-osint-nədir">🧠 OSINT Nədir?</h2>
-
-<p><strong>OSINT</strong> – açıq və hamı üçün əlçatan mənbələrdən məlumat toplama və analiz etmə prosesidir.</p>
-
-<p>Bu mənbələrə daxildir:</p>
-<ul>
-  <li>veb saytlar</li>
-  <li>sosial şəbəkələr</li>
-  <li>domen və IP məlumatları</li>
-  <li>server bannerləri</li>
-  <li>metadata və leak edilmiş datalar</li>
-</ul>
-
-<p>Hackerlər üçün OSINT:</p>
-<ul>
-  <li>target tanıma</li>
-  <li>zəifliklərin tapılması</li>
-  <li>sosial mühəndisliyin planlanması</li>
-</ul>
-
-<p>deməkdir.</p>
-
-<p>Müdafiə tərəfi (Blue Team) üçün isə:</p>
-<ul>
-  <li>risk analizi</li>
-  <li>açıq sızıntıların aşkarlanması</li>
-  <li>reputasiya qorunması</li>
-</ul>
-
-<p>mənbəyidir.</p>
-
-<hr />
-
-<h2 id="-osint-niyə-hacker-dərslərində-keçilir">🔍 OSINT Niyə Hacker Dərslərində Keçilir?</h2>
-
-<p>Çünki real dünyada:</p>
-<ul>
-  <li>heç bir hücum “sıfırdan” başlamır</li>
-  <li>əvvəlcə <strong>kəşfiyyat (reconnaissance)</strong> aparılır</li>
-  <li>sistem haqqında maksimum informasiya toplanır</li>
-</ul>
-
-<p>Bu mərhələ <strong>ethical hacking</strong>, <strong>red team təlimləri</strong> və <strong>kiber kurslar</strong> üçün əsas fundamentdir.</p>
-
-<hr />
-
-<h1 id="-maltego-ilə-osint-araşdırmaları">🔥 Maltego ilə OSINT Araşdırmaları</h1>
-
-<h2 id="maltego-nədir">Maltego Nədir?</h2>
-
-<p><strong>Maltego</strong> – vizual OSINT və link analysis alətidir.<br />
-İnsanlar, domenlər, IP-lər, email-lər və şirkətlər arasında əlaqələri qrafik formada göstərir.</p>
-
-<p>Maltego əsasən:</p>
-<ul>
-  <li>kiber istintaqlar</li>
-  <li>sosial şəbəkə analizləri</li>
-  <li>korporativ OSINT</li>
-  <li>red team araşdırmaları</li>
-</ul>
-
-<p>üçün istifadə olunur.</p>
-
-<hr />
-
-<h2 id="maltego-ilə-nələr-tapmaq-olar">Maltego ilə Nələr Tapmaq Olar?</h2>
-
-<ul>
-  <li>Bir domenə bağlı:
-    <ul>
-      <li>subdomainlər</li>
-      <li>IP ünvanları</li>
-      <li>serverlər</li>
-    </ul>
-  </li>
-  <li>Email → sosial media profilləri</li>
-  <li>Şirkət → işçilər → platformalar</li>
-  <li>İnfrastruktur əlaqələri</li>
-</ul>
-
-<p>Bu yanaşma <strong>kiber dərslər</strong> və <strong>hacker kurslar</strong> zamanı real ssenarilər üzərindən öyrədilir.</p>
-
-<hr />
-
-<h2 id="maltego-niyə-güclüdür">Maltego Niyə Güclüdür?</h2>
-
-<p>Çünki:</p>
-<ul>
-  <li>məlumatı <strong>vizual düşünməyə</strong> imkan verir</li>
-  <li>manual OSINT-i avtomatlaşdırır</li>
-  <li>əlaqələri gizli şəkildə üzə çıxarır</li>
-</ul>
-
-<p>Bu bacarıq <strong>web təhlükəsizlik</strong> və <strong>pentest təlimləri</strong> üçün kritikdir.</p>
-
-<hr />
-
-<h1 id="-shodan-ilə-i̇nternetin-axtarışı">🌐 Shodan ilə İnternetin Axtarışı</h1>
-
-<h2 id="shodan-nədir">Shodan Nədir?</h2>
-
-<p><strong>Shodan</strong> – internetə qoşulu cihazlar üçün axtarış mühərrikidir.</p>
-
-<p>Google veb səhifələri indeksləyir,<br />
-Shodan isə:</p>
-<ul>
-  <li>serverləri</li>
-  <li>routerləri</li>
-  <li>IoT cihazlarını</li>
-  <li>firewall və kameraları</li>
-</ul>
-
-<p>görür.</p>
-
-<hr />
-
-<h2 id="shodan-ilə-hansı-məlumatlar-tapılır">Shodan ilə Hansı Məlumatlar Tapılır?</h2>
-
-<ul>
-  <li>Açıq portlar (22, 80, 443 və s.)</li>
-  <li>Server bannerləri</li>
-  <li>İstifadə olunan texnologiyalar</li>
-  <li>Köhnə və zəif sistemlər</li>
-  <li>Default config olan cihazlar</li>
-</ul>
-
-<p>Bu biliklər <strong>hacker dərsləri</strong>, <strong>kiber təlimlər</strong> və <strong>web proqramlama təhlükəsizliyi</strong> üçün real laboratoriya rolunu oynayır.</p>
-
-<hr />
-
-<h2 id="shodan-riskləri-və-dərsləri">Shodan Riskləri və Dərsləri</h2>
-
-<p>Shodan göstərir ki:</p>
-<ul>
-  <li>bir çox sistem səhv konfiqurasiya olunub</li>
-  <li>adminlər təhlükəsizliyi unudur</li>
-  <li>internetdə “görünməz” heç nə yoxdur</li>
-</ul>
-
-<p>Bu səbəbdən Shodan <strong>Blue Team</strong> üçün də vacib alətdir.</p>
-
-<hr />
-
-<h1 id="-digər-vacib-osint-alətləri">🧰 Digər Vacib OSINT Alətləri</h1>
-
-<h2 id="-google-dorks">🔹 Google Dorks</h2>
-<ul>
-  <li>gizli panellər</li>
-  <li>açıq fayllar</li>
-  <li>admin səhifələr</li>
-</ul>
-
-<h2 id="-theharvester">🔹 theHarvester</h2>
-<ul>
-  <li>email toplama</li>
-  <li>domain recon</li>
-  <li>subdomain aşkarlanması</li>
-</ul>
-
-<h2 id="-spiderfoot">🔹 SpiderFoot</h2>
-<ul>
-  <li>avtomatlaşdırılmış OSINT</li>
-  <li>IP, domain, leak analizi</li>
-</ul>
-
-<h2 id="-have-i-been-pwned">🔹 Have I Been Pwned</h2>
-<ul>
-  <li>data leak yoxlanışı</li>
-  <li>istifadəçi təhlükəsizliyi analizi</li>
-</ul>
-
-<p>Bu alətlər <strong>ethical hacking kursları</strong> və <strong>kiber dərslər</strong> üçün standartdır.</p>
-
-<hr />
-
-<h1 id="-osint-hücum-zənciri-conceptual">🧠 OSINT Hücum Zənciri (Conceptual)</h1>
-
-<p>Tipik OSINT mərhələləri:</p>
-
-<ol>
-  <li>Target müəyyənləşir</li>
-  <li>Açıq mənbələr analiz olunur</li>
-  <li>Texniki və sosial məlumatlar toplanır</li>
-  <li>Zəifliklər xəritələnir</li>
-  <li>Hücum və ya müdafiə planı qurulur</li>
-</ol>
-
-<p>Bu model <strong>real red team dərslərində</strong> istifadə edilir.</p>
-
-<hr />
-
-<h1 id="️-osint-ə-qarşı-müdafiə">🛡️ OSINT-ə Qarşı Müdafiə</h1>
-
-<p>Şirkətlər və fərdlər üçün:</p>
-
-<ul>
-  <li>Açıq dataların audit edilməsi</li>
-  <li>Metadata təmizlənməsi</li>
-  <li>Sosial media paylaşım nəzarəti</li>
-  <li>Server banner gizlədilməsi</li>
-  <li>OSINT footprint azaldılması</li>
-</ul>
-
-<p>Bu yanaşma <strong>kiber təhlükəsizlik dərsləri</strong> üçün əsas mövzudur.</p>
-
-<hr />
-
-<h2 id="nəticə">Nəticə</h2>
-
-<p>OSINT göstərir ki:</p>
-
-<blockquote>
-  <p>Hacker olmaq üçün ilk addım hücum deyil — <strong>informasiya toplamaqdır</strong>.</p>
-</blockquote>
-
-<p>OSINT bilikləri:</p>
-<ul>
-  <li>hacker dərsləri</li>
-  <li>kiber kurslar</li>
-  <li>web proqramlama təhlükəsizliyi</li>
-  <li>real dünya ssenariləri</li>
-</ul>
-
-<p>üçün vazkeçilməzdir.</p>
-
-<hr />
-
-<h2 id="-osint-və-kiber-təlimlər">📞 OSINT və Kiber Təlimlər</h2>
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20OSINT%20ve%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • OSINT Təlimləri • Ethical Hacking • Web Təhlükəsizlik • Real Ssenarilər</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-<!--
-- [OSINT vs Social Engineering](/posts/osint-vs-social-engineering)  
-- [Red Team üçün Reconnaissance Texnikaları](/posts/red-team-recon)  
-- [Shodan ilə IoT Riskləri](/posts/shodan-iot-riskleri)
-
--->
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="osint" /><category term="hacking" /><category term="osint axtarış" /><category term="osint alətləri" /><category term="maltego osint" /><category term="shodan hacking" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="web təhlükəsizlik" /><category term="web proqramlama" /><category term="kiber təlimlər" /><summary type="html"><![CDATA[OSINT nədir və necə işləyir? Maltego, Shodan və digər OSINT alətləri ilə açıq mənbələrdən informasiya toplama üsulları. Hacker dərsləri, kiber təlimlər və web təhlükəsizlik üçün 2026 bələdçisi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/osint.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/osint.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot" /><category term="hacking cihazları" /><category term="flipper zero" /><category term="wifi hacking" /><category term="tplink tl-wn722n" /><category term="iot hacking" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="kiber kurs" /><category term="ethical hacking" /><category term="red team" /><summary type="html"><![CDATA[2026-cı ildə hacking və kibertəhlükəsizlik sahəsində istifadə olunan əsas cihazlar. Flipper Zero, Wi-Fi adapterlər, RF alətləri və IoT hücum texnologiyaları. Hacker dərsləri və kiber kurslar üçün praktiki bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacker_tools.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacker_tools.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

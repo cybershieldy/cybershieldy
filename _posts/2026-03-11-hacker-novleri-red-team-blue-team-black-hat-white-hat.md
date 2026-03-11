@@ -1,7 +1,7 @@
 ---
 title: "Hacker Növləri və Cyber Team-lər: Red Team, Blue Team, Black Hat və Ethical Hacker Bələdçisi (2026)"
-date: 2026-03-11 18:00:00 +0400
-lastmod: 2026-03-11 18:00:00 +0400
+date: 2026-03-11 09:00:00 +0400
+lastmod: 2026-03-11 09:00:00 +0400
 categories: [kibertəhlükəsizlik, hacker dərsləri, ethical hacking]
 tags:
   - hacker dərsləri
