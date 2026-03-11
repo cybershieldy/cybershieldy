@@ -263,11 +263,13 @@ Kibertəhlükəsizlik bilikləri artıq **gələcəyin ən vacib texnologiya bac
 
 ## 📚 Oxşar Yazılar
 
-- 🔐 [Ethical Hacker Nədir və Necə Olmaq Olar?](https://cybershieldy.com/posts/ethical-hacker)
+- [Red Team və Blue Team Fərqləri](https://cybershieldy.com/posts/red-team-vs-blue-team)
+- 🧑‍💻🔴🔵 [Hacker Kimdir? Red Team vs Blue Team və Real Kiber Hücum Simulyasiyaları](https://cybershieldy.com/posts/hacker-kimdir)
+- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik) 
+- [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
+- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
 
-- 🕵️‍♂️ [Sosial Mühəndislik Hücumları və Real Nümunələr](https://cybershieldy.com/posts/social-engineering)
 
-- 🔴🔵 [Red Team vs Blue Team Real Hücum Simulyasiyaları](https://cybershieldy.com/posts/red-blue)
 
 ---
 
