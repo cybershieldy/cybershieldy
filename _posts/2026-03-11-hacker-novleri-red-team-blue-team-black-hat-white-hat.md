@@ -17,7 +17,7 @@ tags:
   - penetration testing
   - cyber security kursu
 description: "Hacker növləri nədir? Black hat, white hat, grey hat hackerlər, Red Team və Blue Team rolları və kibertəhlükəsizlik dünyasında onların gördüyü işlər haqqında geniş bələdçi."
-image: /assets/images/hacker-teams.webp
+image: /assets/images/red-hacker.webp
 canonical: https://cybershieldy.com/posts/hacker-novleri
 permalink: /posts/hacker-novleri
 ---
@@ -263,12 +263,13 @@ Kibertəhlükəsizlik bilikləri artıq **gələcəyin ən vacib texnologiya bac
 
 ## 📚 Oxşar Yazılar
 
-- [Red Team və Blue Team Fərqləri](https://cybershieldy.com/posts/red-team-vs-blue-team)
-- 🧑‍💻🔴🔵 [Hacker Kimdir? Red Team vs Blue Team və Real Kiber Hücum Simulyasiyaları](https://cybershieldy.com/posts/hacker-kimdir)
-- [Sosial mühəndislik nədir və real nümunələr](/posts/sosial-mühəndislik) 
-- [Red Team vs Blue Team — 2025](/posts/red-team-vs-blue-team)
-- [MITM hücumu və şəbəkədə müdaxilə halları](/posts/sebeke-hucumlari)  
+- 🔴🔵🛡️ [Red Team və Blue Team Fərqləri](https://cybershieldy.com/posts/red-team-vs-blue-team)
 
+- 🧑‍💻🔴🔵⚡ [Hacker Kimdir? Red Team vs Blue Team və Real Kiber Hücum Simulyasiyaları](https://cybershieldy.com/posts/hacker-kimdir)
+
+- 🎭🎣💻 [Sosial Mühəndislik Nədir və Real Hücum Nümunələri](/posts/sosial-mühəndislik)
+
+- 🌐⚠️🕵️‍♂️ [MITM Hücumu və Şəbəkədə Müdaxilə Halları](/posts/sebeke-hucumlari)
 
 
 ---
