@@ -296,11 +296,11 @@ Bu isə yeni dövr deməkdir:
 
 ## 🔗 Daha Çox Öyrən
 
-🧠 **AI və Kiber Təhlükəsizlik** → https://cybershieldy.com/posts/ai-kibertelhukesizlik  
-🕵️‍♂️ **OSINT Araşdırmaları** → https://cybershieldy.com/posts/osint-arastirmalari  
-🎭 **Phishing Hücumları** → https://cybershieldy.com/posts/sosial-mühəndislik  
-🔴🔵 **Red vs Blue Team** → https://cybershieldy.com/posts/red-team-vs-blue-team  
-📶 **Wi-Fi Təhlükələri** → https://cybershieldy.com/posts/wifi-hucumlari  
+🧠 **AI və Kiber Təhlükəsizlik** → (https://cybershieldy.com/posts/ai-kibertelhukesizlik)
+🕵️‍♂️ **OSINT Araşdırmaları** → (https://cybershieldy.com/posts/osint-arastirmalari)
+🎭 **Phishing Hücumları** → (https://cybershieldy.com/posts/sosial-mühəndislik) 
+🔴🔵 **Red vs Blue Team** → (https://cybershieldy.com/posts/red-team-vs-blue-team) 
+📶 **Wi-Fi Təhlükələri** → (https://cybershieldy.com/posts/wifi-hucumlari)
 
 ---
 
