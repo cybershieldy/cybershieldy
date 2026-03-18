@@ -17,7 +17,7 @@ tags:
   - gələcək texnologiyalar
   - cyber təhlükə
 description: "İnsan beyni necə işləyir? Neyronlar və sinapslar nədir? Beyin chip ilə kompüterə bağlana bilərmi və hacklənə bilərmi? Gələcəyin kiber təhlükələri və tibbi imkanları haqqında geniş bələdçi."
-image: /assets/images/brain-neural-hacking.webp
+image: /assets/images/neyron.webp
 canonical: https://cybershieldy.com/posts/neural-hacking-future
 permalink: /posts/neural-hacking-future
 ---
