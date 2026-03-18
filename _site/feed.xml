@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-18T09:58:30+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)</title><link href="https://cybershieldy.com/posts/neural-hacking-future" rel="alternate" type="text/html" title="İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)" /><published>2026-03-18T09:00:00+04:00</published><updated>2026-03-18T09:00:00+04:00</updated><id>https://cybershieldy.com/posts/beyin-hacklenmesi-neural-chip-ve-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/neural-hacking-future"><![CDATA[<h1 id="-i̇nsan-beyni-neyronlar-və-cyber-gələcək">🧠 İnsan Beyni, Neyronlar və Cyber Gələcək</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-18T10:05:10+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)</title><link href="https://cybershieldy.com/posts/neural-hacking-future" rel="alternate" type="text/html" title="İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)" /><published>2026-03-18T09:00:00+04:00</published><updated>2026-03-18T09:58:40+04:00</updated><id>https://cybershieldy.com/posts/beyin-hacklenmesi-neural-chip-ve-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/neural-hacking-future"><![CDATA[<h1 id="-i̇nsan-beyni-neyronlar-və-cyber-gələcək">🧠 İnsan Beyni, Neyronlar və Cyber Gələcək</h1>
 
 <p>Texnologiya sürətlə inkişaf etdikcə artıq sual dəyişir:</p>
 
@@ -298,19 +298,13 @@
 
 <hr />
 
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
+<h2 id="-daha-çox-öyrən">🔗 Daha Çox Öyrən</h2>
 
-<ul>
-  <li>
-    <p>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team Fərqləri</a></p>
-  </li>
-  <li>
-    <p>🧑‍💻 <a href="https://cybershieldy.com/posts/hacker-kimdir">Ethical Hacking və Real Hücum Simulyasiyaları</a></p>
-  </li>
-  <li>
-    <p>🧠 <a href="/posts/osint-forensics">Digital Forensics və OSINT Araşdırmaları</a></p>
-  </li>
-</ul>
+<p>🧠 <strong>AI və Kiber Təhlükəsizlik</strong> → https://cybershieldy.com/posts/ai-kibertelhukesizlik<br />
+🕵️‍♂️ <strong>OSINT Araşdırmaları</strong> → https://cybershieldy.com/posts/osint-arastirmalari<br />
+🎭 <strong>Phishing Hücumları</strong> → https://cybershieldy.com/posts/sosial-mühəndislik<br />
+🔴🔵 <strong>Red vs Blue Team</strong> → https://cybershieldy.com/posts/red-team-vs-blue-team<br />
+📶 <strong>Wi-Fi Təhlükələri</strong> → https://cybershieldy.com/posts/wifi-hucumlari</p>
 
 <hr />
 
