@@ -1,7 +1,7 @@
 ---
 title: "İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)"
-date: 2026-03-18 01:00:00 +0400
-lastmod: 2026-03-18 01:00:00 +0400
+date: 2026-03-18 09:00:00 +0400
+lastmod: 2026-03-18 09:00:00 +0400
 categories: [kibertəhlükəsizlik, neyron texnologiya, gələcək texnologiyalar]
 tags:
   - insan beyni
