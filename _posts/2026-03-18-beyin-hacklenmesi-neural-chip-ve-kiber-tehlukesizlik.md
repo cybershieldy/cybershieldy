@@ -294,13 +294,17 @@ Bu isə yeni dövr deməkdir:
 
 ---
 
-## 🔗 Daha Çox Öyrən
+## 📚 Oxşar Yazılar
 
-🧠 **AI və Kiber Təhlükəsizlik** → (https://cybershieldy.com/posts/ai-kibertelhukesizlik)
-🕵️‍♂️ **OSINT Araşdırmaları** → (https://cybershieldy.com/posts/osint-arastirmalari)
-🎭 **Phishing Hücumları** → (https://cybershieldy.com/posts/sosial-mühəndislik) 
-🔴🔵 **Red vs Blue Team** → (https://cybershieldy.com/posts/red-team-vs-blue-team) 
-📶 **Wi-Fi Təhlükələri** → (https://cybershieldy.com/posts/wifi-hucumlari)
+- 🧠🤖⚡ [AI və Kibertəhlükəsizlik: Süni İntellekt Hücumları və Müdafiə Strategiyaları](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
+
+- 🕵️‍♂️🌐🔍 [OSINT Araşdırmaları: Açıq Mənbələrdən Məlumat Toplama və Analiz](https://cybershieldy.com/posts/osint-arastirmalari)
+
+- 🎭🎣💻 [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)
+
+- 🔴🔵🛡️ [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)
+
+- 📶⚠️🔐 [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
 
 ---
 
