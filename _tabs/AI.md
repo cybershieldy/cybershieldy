@@ -110,11 +110,16 @@ Bu bölmə <strong>kibertəhlükəsizlik, proqramlaşdırma, OSINT, forensics, s
   text-align: center;
 }
 
-.chatbot-image img {
+.chatbot-robot {
   width: 100%;
   max-width: 240px;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .chatbot-grid {
@@ -173,6 +178,25 @@ Bu bölmə <strong>kibertəhlükəsizlik, proqramlaşdırma, OSINT, forensics, s
 .chatbot-links p {
   margin: 10px 0;
 }
+
+@media (max-width: 768px) {
+  .chatbot-hero {
+    padding: 22px;
+  }
+
+  .chatbot-title {
+    font-size: 1.65rem;
+  }
+
+  .chatbot-desc {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .chatbot-robot {
+    max-width: 200px;
+  }
+}
 </style>
 
 <div class="chatbot-wrapper">
@@ -199,7 +223,10 @@ Bu bölmə <strong>kibertəhlükəsizlik, proqramlaşdırma, OSINT, forensics, s
     </div>
 
     <div class="chatbot-image">
-      <img src="/assets/images/chatbot-robot.gif" alt="CyberShieldy AI Chat Bot robot animasiyası">
+      <video class="chatbot-robot" autoplay muted loop playsinline poster="/assets/images/chatbot/robot-fallback.png">
+        <source src="/assets/images/transparent.webm" type="video/webm">
+        <img src="/assets/images/transparent.webm" alt="CyberShieldy AI Chat Bot robot animasiyası">
+      </video>
     </div>
   </div>
 
@@ -263,6 +290,7 @@ Bu bölmə <strong>kibertəhlükəsizlik, proqramlaşdırma, OSINT, forensics, s
 ---
 
 ## 📢 Tezliklə istifadədə
+
 CyberShieldy AI Chat Bot hazırda inkişaf mərhələsindədir.  
 Çox yaxında bu bölmə aktiv olacaq və istifadəçilər üçün daha rahat, daha ağıllı və daha sürətli rəqəmsal dəstək təqdim edəcək.
 
