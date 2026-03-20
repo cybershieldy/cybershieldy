@@ -222,12 +222,12 @@ Bu bölmə <strong>kibertəhlükəsizlik, proqramlaşdırma, OSINT, forensics, s
       </div>
     </div>
 
-    <div class="chatbot-image">
-      <video class="chatbot-robot" autoplay muted loop playsinline poster="/assets/images/transparent.webm">
-        <source src="/assets/images/transparent.webm" type="video/webm">
-        <img src="/assets/images/transparent.webm" alt="CyberShieldy AI Chat Bot robot animasiyası">
-      </video>
-    </div>
+     <div class="chatbot-image">
+     <video class="chatbot-robot" autoplay muted loop playsinline>
+    <source src="/assets/images/Ai.mp4" type="video/mp4">
+    Sizin brauzer video formatını dəstəkləmir.
+       </video>
+     </div>
   </div>
 
   <div class="chatbot-grid">
