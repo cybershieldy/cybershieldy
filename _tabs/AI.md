@@ -223,7 +223,7 @@ Bu bölmə <strong>kibertəhlükəsizlik, proqramlaşdırma, OSINT, forensics, s
     </div>
 
     <div class="chatbot-image">
-      <video class="chatbot-robot" autoplay muted loop playsinline poster="/assets/images/chatbot/robot-fallback.png">
+      <video class="chatbot-robot" autoplay muted loop playsinline poster="/assets/images/transparent.webm">
         <source src="/assets/images/transparent.webm" type="video/webm">
         <img src="/assets/images/transparent.webm" alt="CyberShieldy AI Chat Bot robot animasiyası">
       </video>
