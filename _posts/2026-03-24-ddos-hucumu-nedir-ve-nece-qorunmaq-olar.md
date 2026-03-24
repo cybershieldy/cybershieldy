@@ -584,11 +584,15 @@ Kiber təhlükəsizlik öyrənənlər, sistem adminləri, Blue Team, Red Team, S
 
 # 🔗 Oxşar mövzular
 
+# 🔗 Oxşar Mövzular
+
 - 🔴🔵 [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)
 - 🤖🛡️ [AI və Kibertəhlükəsizlik: Süni İntellekt Hücumları və Müdafiə Strategiyaları](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
 - 🕵️‍♂️🌐 [OSINT Araşdırmaları: Açıq Mənbələrdən Məlumat Toplama və Analiz](https://cybershieldy.com/posts/osint-arastirmalari)
 - 🎣⚠️ [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)
 - 📶🔐 [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
+- 👁️‍🗨️🛜 [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/sebeke-hucumlari)
+- 🛡️🔑 [İki Faktorlu Identifikasiya Nədir? Hesabları Daha Güclü Qoruma Yolu](/posts/iki-faktorlu-identifikasiya)
 
 ---
 
