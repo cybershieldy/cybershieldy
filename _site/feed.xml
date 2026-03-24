@@ -1,4 +1,797 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-24T10:40:46+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)</title><link href="https://cybershieldy.com/posts/neural-hacking-future" rel="alternate" type="text/html" title="İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)" /><published>2026-03-18T09:00:00+04:00</published><updated>2026-03-18T10:18:13+04:00</updated><id>https://cybershieldy.com/posts/beyin-hacklenmesi-neural-chip-ve-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/neural-hacking-future"><![CDATA[<h1 id="-i̇nsan-beyni-neyronlar-və-cyber-gələcək">🧠 İnsan Beyni, Neyronlar və Cyber Gələcək</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-24T10:46:02+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/ddos-hucumu-nedir" rel="alternate" type="text/html" title="DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)" /><published>2026-03-24T06:00:00+04:00</published><updated>2026-03-24T10:40:54+04:00</updated><id>https://cybershieldy.com/posts/ddos-hucumu-nedir-ve-nece-qorunmaq-olar</id><content type="html" xml:base="https://cybershieldy.com/posts/ddos-hucumu-nedir"><![CDATA[<h1 id="️-ddos-hücumu-nədir-sistem-necə-çökür-necə-baş-verir-və-necə-qorunmaq-olar">🌐⚠️ DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar?</h1>
+
+<p>İnternetdə bəzən bir saytın, serverin və ya tətbiqin qəfil yavaşladığını, cavab vermədiyini və ya tamamilə dayandığını görürük. Çox vaxt bunun arxasında sadə texniki nasazlıq yox, <strong>DDoS hücumu</strong> dayanır.</p>
+
+<p>Bu mövzu xüsusilə <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>hacker dərsləri</strong>, <strong>şəbəkə təhlükəsizliyi</strong>, <strong>cyber security</strong> və <strong>real hücum ssenariləri</strong> ilə maraqlananlar üçün çox vacibdir. Çünki DDoS həm texniki, həm də biznes baxımından ən dağıdıcı hücumlardan biridir.</p>
+
+<hr />
+
+<h2 id="-bu-yazıda-nələr-var">📌 Bu yazıda nələr var?</h2>
+
+<ul>
+  <li>🚨 DDoS nədir?</li>
+  <li>🔍 DoS və DDoS arasındakı fərq nədir?</li>
+  <li>⚙️ DDoS hücumu necə yaranır?</li>
+  <li>💥 Sistem necə çökür?</li>
+  <li>🤖 Botnet nədir?</li>
+  <li>🌊 DDoS hücumlarının əsas növləri hansılardır?</li>
+  <li>🖥️ Server və saytlar niyə cavab vermir?</li>
+  <li>🛡️ DDoS hücumundan necə qorunmaq olar?</li>
+  <li>🎯 Kibertəhlükəsizlik öyrənən biri bu mövzuda nə bilməlidir?</li>
+</ul>
+
+<hr />
+
+<h1 id="-dos-və-ddos-nədir">🧠 DoS və DDoS Nədir?</h1>
+
+<p>Əvvəlcə bu iki anlayışı ayıraq.</p>
+
+<h2 id="-dos-nədir">🔹 DoS nədir?</h2>
+
+<p><strong>DoS (Denial of Service)</strong> — bir sistemin xidmət verməsini dayandırmağa yönəlmiş hücumdur. Məqsəd odur ki, sayt, server, tətbiq və ya şəbəkə real istifadəçilərə xidmət göstərə bilməsin.</p>
+
+<p>Yəni sistem tam sındırılmasa da, <strong>işləməz hala gətirilə bilər</strong>.</p>
+
+<h2 id="-ddos-nədir">🔹 DDoS nədir?</h2>
+
+<p><strong>DDoS (Distributed Denial of Service)</strong> — eyni məqsədi daşıyan, amma bunu <strong>bir çox cihazdan eyni anda</strong> həyata keçirən hücum növüdür.</p>
+
+<p>Buradakı əsas söz <strong>distributed</strong>, yəni <strong>paylanmış</strong> deməkdir.</p>
+
+<h3 id="-bu-nə-deməkdir">📍 Bu nə deməkdir?</h3>
+
+<ul>
+  <li>bir hücumçu tək cihazdan gəlmir</li>
+  <li>çox sayda fərqli IP, cihaz və sistem eyni anda hədəfə trafik göndərir</li>
+  <li>nəticədə server yüklənir, resurslar tükənir və xidmət dayanır</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-hücumunun-məntiqi-nədir">⚡ DDoS Hücumunun Məntiqi Nədir?</h1>
+
+<p>DDoS hücumunun məntiqi sadədir:</p>
+
+<blockquote>
+  <p><strong>Hədəfə o qədər çox sorğu göndərilir ki, sistem artıq real istifadəçilərə cavab verə bilmir.</strong></p>
+</blockquote>
+
+<p>Bunu real həyat misalı ilə belə düşün:</p>
+
+<p>Bir mağazanın qapısından eyni anda 20 nəfər keçəndə problem olmur. Amma eyni anda 50 min nəfər qapıya yüklənsə:</p>
+
+<ul>
+  <li>giriş bağlanar</li>
+  <li>içəridə xidmət dayanır</li>
+  <li>kassalar işləməz</li>
+  <li>real müştərilər içəri girə bilməz</li>
+</ul>
+
+<p>DDoS da internetdə bunun texniki versiyasıdır.</p>
+
+<hr />
+
+<h1 id="️-ddos-hücumu-necə-baş-verir">⚙️ DDoS Hücumu Necə Baş Verir?</h1>
+
+<p>DDoS hücumu adətən bir neçə mərhələdə formalaşır.</p>
+
+<h2 id="1️⃣-hədəf-seçilir">1️⃣ Hədəf seçilir</h2>
+
+<p>Hücumçu bir sistemi hədəf seçir:</p>
+
+<ul>
+  <li>veb sayt</li>
+  <li>API</li>
+  <li>oyun serveri</li>
+  <li>bank sistemi</li>
+  <li>e-ticarət platforması</li>
+  <li>DNS xidməti</li>
+  <li>mail server</li>
+  <li>tətbiq infrastrukturu</li>
+</ul>
+
+<h2 id="2️⃣-hücum-üçün-cihazlar-hazırlanır">2️⃣ Hücum üçün cihazlar hazırlanır</h2>
+
+<p>Tək cihaz çox böyük təsir yaratmaya bilər. Ona görə hücumçu adətən çoxlu cihazdan istifadə edir.</p>
+
+<p>Burada <strong>botnet</strong> anlayışı ortaya çıxır.</p>
+
+<h2 id="3️⃣-eyni-anda-trafik-göndərilir">3️⃣ Eyni anda trafik göndərilir</h2>
+
+<p>Bu cihazlar eyni anda hədəfə:</p>
+
+<ul>
+  <li>paket</li>
+  <li>request</li>
+  <li>connection</li>
+  <li>yarımçıq bağlantı</li>
+  <li>saxta sorğu</li>
+  <li>təkrarlanan istəklər</li>
+</ul>
+
+<p>göndərirlər.</p>
+
+<h2 id="4️⃣-resurslar-dolur">4️⃣ Resurslar dolur</h2>
+
+<p>Serverin resursları məhduddur:</p>
+
+<ul>
+  <li>CPU</li>
+  <li>RAM</li>
+  <li>bandwidth</li>
+  <li>connection table</li>
+  <li>thread pool</li>
+  <li>firewall session</li>
+  <li>database pool</li>
+  <li>load balancer limitləri</li>
+</ul>
+
+<p>Bu resurslar dolduqda sistem normal istifadəçilərə xidmət verə bilmir.</p>
+
+<h2 id="5️⃣-xidmət-dayanır-və-ya-zəifləyir">5️⃣ Xidmət dayanır və ya zəifləyir</h2>
+
+<p>Nəticə belə olur:</p>
+
+<ul>
+  <li>sayt açılmır</li>
+  <li>tətbiq donur</li>
+  <li>server timeout verir</li>
+  <li>istifadəçi login ola bilmir</li>
+  <li>API cavab vermir</li>
+  <li>xidmət tam və ya qismən çökür</li>
+</ul>
+
+<hr />
+
+<h1 id="-botnet-nədir-və-ddos-da-niyə-vacibdir">🤖 Botnet Nədir və DDoS-da Niyə Vacibdir?</h1>
+
+<p><strong>Botnet</strong> — uzaqdan idarə olunan çoxlu cihaz toplusudur.</p>
+
+<p>Bu cihazlar bəzən belə olur:</p>
+
+<ul>
+  <li>zəif qorunan kompüterlər</li>
+  <li>IoT cihazları</li>
+  <li>kameralar</li>
+  <li>modemlər</li>
+  <li>routerlər</li>
+  <li>zəif parollu sistemlər</li>
+  <li>zərərli proqram yoluxmuş cihazlar</li>
+</ul>
+
+<p>Hücumçu bu cihazlara komanda verir və hamısı eyni anda bir hədəfə trafik göndərir.</p>
+
+<h3 id="-niyə-təhlükəlidir">🔥 Niyə təhlükəlidir?</h3>
+
+<ul>
+  <li>trafik bir IP-dən gəlmir</li>
+  <li>bloklamaq çətinləşir</li>
+  <li>normal trafikdən ayırmaq çətin ola bilir</li>
+  <li>hücumun həcmi böyüyür</li>
+</ul>
+
+<p>Yəni DDoS-un gücü təkcə hücumun özündə deyil, onun <strong>çox mənbədən gəlməsindədir</strong>.</p>
+
+<hr />
+
+<h1 id="-sistem-ddos-zamanı-necə-çökür">💥 Sistem DDoS Zamanı Necə Çökür?</h1>
+
+<p>Bu hissə çox vacibdir. Çünki çox adam düşünür ki, server sadəcə “internet dolduğuna görə” dayanır. Əslində isə bir neçə fərqli çökmə mexanizmi var.</p>
+
+<h2 id="1️⃣-bandwidth-dolur">1️⃣ Bandwidth dolur</h2>
+
+<p>Əgər serverə və ya şəbəkəyə çox böyük həcmdə trafik gəlirsə, internet xətti dolur.</p>
+
+<p>Nəticə:</p>
+
+<ul>
+  <li>normal istifadəçi paketi içəri keçə bilmir</li>
+  <li>router və firewall boğulur</li>
+  <li>xidmətə çatmaq olmur</li>
+</ul>
+
+<p>Bu daha çox <strong>volumetric DDoS</strong> ssenarisidir.</p>
+
+<h2 id="2️⃣-connection-limiti-tükənir">2️⃣ Connection limiti tükənir</h2>
+
+<p>Serverin eyni anda saxlaya biləcəyi bağlantı sayı məhduddur.</p>
+
+<p>Hücum çoxlu connection açdıqda:</p>
+
+<ul>
+  <li>yeni istifadəçi qoşula bilmir</li>
+  <li>TCP session-lar dolur</li>
+  <li>tətbiq növbələri şişir</li>
+</ul>
+
+<h2 id="3️⃣-cpu-və-ram-yüklənir">3️⃣ CPU və RAM yüklənir</h2>
+
+<p>Bəzi sorğular server üçün baha başa gəlir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>ağır HTTP request-lər</li>
+  <li>dinamik səhifə generation</li>
+  <li>database query-lər</li>
+  <li>axtarış sorğuları</li>
+  <li>login endpoint-ləri</li>
+</ul>
+
+<p>Əgər bunlardan minlərlə eyni anda gələrsə:</p>
+
+<ul>
+  <li>CPU yüksəlir</li>
+  <li>RAM istifadə artır</li>
+  <li>proseslər gecikir</li>
+  <li>tətbiq cavabsızlaşır</li>
+</ul>
+
+<h2 id="4️⃣-database-boğulur">4️⃣ Database boğulur</h2>
+
+<p>DDoS birbaşa databazaya da təsir edə bilər.</p>
+
+<p>Əgər tətbiq hər request-də databazaya müraciət edirsə, çoxlu sorğu:</p>
+
+<ul>
+  <li>DB pool-u doldura bilər</li>
+  <li>lock yarada bilər</li>
+  <li>query queue-nu artıra bilər</li>
+  <li>ümumi performansı öldürə bilər</li>
+</ul>
+
+<h2 id="5️⃣-app-layer-çökür">5️⃣ App layer çökür</h2>
+
+<p>Bəzən şəbəkə güclü olur, server ayaqda qalır, amma tətbiqin özü sıradan çıxır.</p>
+
+<p>Bu zaman:</p>
+
+<ul>
+  <li>login sistemi işləmir</li>
+  <li>səbət funksiyası çökür</li>
+  <li>admin panel açılmır</li>
+  <li>API endpoint-ləri timeout verir</li>
+</ul>
+
+<p>Bu, xüsusilə <strong>Layer 7 DDoS</strong> hücumlarında olur.</p>
+
+<hr />
+
+<h1 id="-ddos-hücumlarının-əsas-növləri">🌊 DDoS Hücumlarının Əsas Növləri</h1>
+
+<p>DDoS hücumlarını ümumi şəkildə 3 əsas qrupa bölmək olar.</p>
+
+<h2 id="1️⃣-volumetric-ddos">1️⃣ Volumetric DDoS</h2>
+
+<p>Bu növdə məqsəd <strong>şəbəkə xəttini trafiklə doldurmaqdır</strong>.</p>
+
+<h3 id="misallar">Misallar:</h3>
+<ul>
+  <li>UDP flood</li>
+  <li>ICMP flood</li>
+  <li>amplification hücumları</li>
+</ul>
+
+<h3 id="məqsəd">Məqsəd:</h3>
+<ul>
+  <li>bandwidth dolsun</li>
+  <li>trafik normal istifadəçini sıxsın</li>
+  <li>upstream link boğulsun</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-protocol-ddos">2️⃣ Protocol DDoS</h2>
+
+<p>Bu növdə şəbəkə protokollarının işləmə qaydası hədəf alınır.</p>
+
+<h3 id="misallar-1">Misallar:</h3>
+<ul>
+  <li>SYN flood</li>
+  <li>fragmented packet abuse</li>
+  <li>connection table exhaustion</li>
+</ul>
+
+<h3 id="məqsəd-1">Məqsəd:</h3>
+<ul>
+  <li>firewall-u yormaq</li>
+  <li>load balancer-i yükləmək</li>
+  <li>session state-ləri doldurmaq</li>
+  <li>TCP stack-i zəiflətmək</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-application-layer-ddos">3️⃣ Application Layer DDoS</h2>
+
+<p>Bu ən ağıllı və ən təhlükəli növlərdən biridir.</p>
+
+<h3 id="misallar-2">Misallar:</h3>
+<ul>
+  <li>HTTP GET flood</li>
+  <li>HTTP POST flood</li>
+  <li>login flood</li>
+  <li>search flood</li>
+  <li>cart flood</li>
+  <li>expensive API request flood</li>
+</ul>
+
+<p>Burada hücumçu adi istifadəçi kimi görünən request-lər göndərir. Ona görə bunları ayırmaq bəzən çətin olur.</p>
+
+<h3 id="ən-təhlükəli-tərəfi">Ən təhlükəli tərəfi:</h3>
+<ul>
+  <li>trafik az görünə bilər</li>
+  <li>amma hər request baha başa gəlir</li>
+  <li>serverin tətbiq səviyyəsi çökür</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-hücumları-niyə-bu-qədər-təhlükəlidir">🚨 DDoS Hücumları Niyə Bu Qədər Təhlükəlidir?</h1>
+
+<p>DDoS sadəcə “saytı yıxmaq” deyil. Onun nəticələri daha böyük ola bilər.</p>
+
+<h2 id="-biznes-zərərləri">💸 Biznes zərərləri</h2>
+
+<ul>
+  <li>satış dayanır</li>
+  <li>sifarişlər itir</li>
+  <li>müştəri etibarı azalır</li>
+  <li>reklam büdcəsi boşa gedir</li>
+  <li>marka imici zədələnir</li>
+</ul>
+
+<h2 id="-texniki-zərərlər">🧯 Texniki zərərlər</h2>
+
+<ul>
+  <li>server resursları tükənir</li>
+  <li>log həcmi şişir</li>
+  <li>monitoring sistemləri alarmla dolur</li>
+  <li>digər servisələr zəncirvari təsir edir</li>
+</ul>
+
+<h2 id="-təhlükəsizlik-baxımından">🎭 Təhlükəsizlik baxımından</h2>
+
+<p>Bəzən DDoS əsas hücum deyil, <strong>yayındırma hücumudur</strong>.</p>
+
+<p>Yəni hücumçu:</p>
+
+<ul>
+  <li>bir tərəfdən DDoS yaradır</li>
+  <li>müdafiə komandası diqqətini ora verir</li>
+  <li>digər tərəfdən fərqli hücum həyata keçirilir</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-hücumu-hansı-əlamətlərlə-özünü-göstərir">📉 DDoS Hücumu Hansı Əlamətlərlə Özünü Göstərir?</h1>
+
+<p>Aşağıdakı hallar DDoS şübhəsi yarada bilər:</p>
+
+<ul>
+  <li>sayt qəfil çox yavaşlayır</li>
+  <li>CPU və RAM yüksəlir</li>
+  <li>bandwidth usage kəskin artır</li>
+  <li>eyni endpoint-ə çoxlu request gəlir</li>
+  <li>çoxlu fərqli IP-lərdən eyni pattern görünür</li>
+  <li>firewall session-ları dolur</li>
+  <li>load balancer backend-ləri unhealthy olur</li>
+  <li>502, 503, 504 kimi xətalar artır</li>
+  <li>real istifadəçi daxil ola bilmir</li>
+</ul>
+
+<p>SOC və Blue Team baxımından bunlar çox vacib siqnallardır.</p>
+
+<hr />
+
+<h1 id="-ddos-hücumunda-loglarda-nələr-görünə-bilər">📜 DDoS Hücumunda Loglarda Nələr Görünə Bilər?</h1>
+
+<p>Mühitdən asılı olaraq bu izlər görünə bilər.</p>
+
+<h2 id="-web-server-loglarında">🌐 Web server loglarında</h2>
+
+<ul>
+  <li>eyni URL-ə həddindən artıq request</li>
+  <li>user-agent təkrarı</li>
+  <li>anormal IP paylanması</li>
+  <li>qısa vaxtda böyük həcm</li>
+</ul>
+
+<h2 id="-firewall-loglarında">🔥 Firewall loglarında</h2>
+
+<ul>
+  <li>SYN artımı</li>
+  <li>UDP flood pattern-ləri</li>
+  <li>connection spike</li>
+  <li>dropped packet sayı</li>
+</ul>
+
+<h2 id="️-idsips-sistemlərində">🛡️ IDS/IPS sistemlərində</h2>
+
+<ul>
+  <li>scan və flood imzaları</li>
+  <li>abnormal traffic signatures</li>
+  <li>policy violation-lar</li>
+</ul>
+
+<h2 id="-siem-də">📊 SIEM-də</h2>
+
+<ul>
+  <li>traffic anomaly</li>
+  <li>threshold breach</li>
+  <li>service unavailable alert</li>
+  <li>correlated flood event</li>
+</ul>
+
+<p>Bu səbəbdən DDoS mövzusu <strong>kiber dərslər</strong>, <strong>cyber security təlimləri</strong>, <strong>SOC analitikası</strong>, <strong>Blue Team dərsləri</strong> və <strong>etik hacking dərsləri</strong> üçün çox vacibdir.</p>
+
+<hr />
+
+<h1 id="️-ddos-dan-necə-qorunmaq-olar">🛡️ DDoS-dan Necə Qorunmaq Olar?</h1>
+
+<p>Tam “100% heç vaxt hücum olmayacaq” yanaşması real deyil. Amma düzgün memarlıq və müdafiə ilə təsiri ciddi azaltmaq olar.</p>
+
+<h2 id="1️⃣-cdn-və-reverse-proxy-istifadə-et">1️⃣ CDN və reverse proxy istifadə et</h2>
+
+<ul>
+  <li>trafiki paylayır</li>
+  <li>caching edir</li>
+  <li>origin serveri qoruyur</li>
+  <li>bəzi flood-ları udur</li>
+</ul>
+
+<h2 id="2️⃣-rate-limiting-tətbiq-et">2️⃣ Rate limiting tətbiq et</h2>
+
+<p>Bir IP və ya session üçün limit qoymaq:</p>
+
+<ul>
+  <li>login flood</li>
+  <li>search abuse</li>
+  <li>API abuse</li>
+</ul>
+
+<p>kimi hücumların təsirini azalda bilər.</p>
+
+<h2 id="3️⃣-waf-istifadə-et">3️⃣ WAF istifadə et</h2>
+
+<p>Web Application Firewall:</p>
+
+<ul>
+  <li>pattern əsaslı filtr tətbiq edir</li>
+  <li>bot davranışını ayırmağa kömək edir</li>
+  <li>bəzi Layer 7 hücumlarını bloklaya bilir</li>
+</ul>
+
+<h2 id="4️⃣-load-balancing-və-autoscaling">4️⃣ Load balancing və autoscaling</h2>
+
+<ul>
+  <li>load balancer</li>
+  <li>horizontal scaling</li>
+  <li>redundant node-lar</li>
+  <li>geo-distributed xidmət</li>
+</ul>
+
+<p>üzərində qurulan memarlıq daha dayanıqlı olur.</p>
+
+<h2 id="5️⃣-firewall-və-acl-optimizasiyası">5️⃣ Firewall və ACL optimizasiyası</h2>
+
+<ul>
+  <li>lazımsız portları bağla</li>
+  <li>ACL-lərlə filtr et</li>
+  <li>upstream provider ilə koordinasiya qur</li>
+  <li>connection threshold-ları tənzimlə</li>
+</ul>
+
+<h2 id="6️⃣-ddos-protection-xidməti-istifadə-et">6️⃣ DDoS protection xidməti istifadə et</h2>
+
+<p>Xüsusilə:</p>
+
+<ul>
+  <li>böyük e-ticarət</li>
+  <li>media platformaları</li>
+  <li>bank sistemləri</li>
+  <li>kritik servisələr</li>
+</ul>
+
+<p>üçün bu ciddi ehtiyacdır.</p>
+
+<h2 id="7️⃣-monitoring-və-siem-inteqrasiyası">7️⃣ Monitoring və SIEM inteqrasiyası</h2>
+
+<p>İzlənməli göstəricilər:</p>
+
+<ul>
+  <li>traffic baseline</li>
+  <li>request per second</li>
+  <li>failed request ratio</li>
+  <li>connection count</li>
+  <li>CPU, RAM, bandwidth</li>
+  <li>endpoint pattern-ləri</li>
+</ul>
+
+<h2 id="8️⃣-incident-response-plan-hazır-olmalıdır">8️⃣ Incident response plan hazır olmalıdır</h2>
+
+<p>Hazır olmalıdır:</p>
+
+<ul>
+  <li>kim xəbərdar ediləcək</li>
+  <li>hansı IP-lər bloklanacaq</li>
+  <li>hansı servis prioritetlidir</li>
+  <li>upstream provayderlə əlaqə necə qurulacaq</li>
+  <li>hansı sistemlər fallback-a keçəcək</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-mövzusu-kiber-dərslərdə-niyə-vacibdir">🎯 DDoS Mövzusu Kiber Dərslərdə Niyə Vacibdir?</h1>
+
+<p>Bu mövzu yalnız hücum kimi yox, <strong>müdafiə, monitorinq və memarlıq</strong> mövzusu kimi öyrənilməlidir.</p>
+
+<p>Çünki bu sahədə çalışan biri bunları anlamalıdır:</p>
+
+<ul>
+  <li>trafik necə işləyir</li>
+  <li>şəbəkə resursları necə tükənir</li>
+  <li>web server performansı necə düşür</li>
+  <li>bot ilə real istifadəçi trafiki necə ayırd edilir</li>
+  <li>SIEM və IDS/IPS bu hücumu necə görür</li>
+  <li>Blue Team necə reaksiya verir</li>
+  <li>Red Team bu riski necə modelləşdirir</li>
+</ul>
+
+<p>Yəni DDoS anlayışı <strong>hacker dərsləri</strong>, <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>cyber security kursları</strong>, <strong>Red Team</strong>, <strong>Blue Team</strong> və <strong>SOC analitikası</strong> üçün əsas mövzulardan biridir.</p>
+
+<hr />
+
+<h1 id="️-ddos-hücumuna-qarşı-güclü-i̇nfrastruktur-necə-qurulur">🏗️ DDoS Hücumuna Qarşı Güclü İnfrastruktur Necə Qurulur?</h1>
+
+<p>Güclü infrastruktur təkcə “güclü server” demək deyil.</p>
+
+<p>Əslində dayanıqlılıq bunların birləşməsidir:</p>
+
+<ul>
+  <li>düzgün şəbəkə memarlığı</li>
+  <li>cache</li>
+  <li>CDN</li>
+  <li>WAF</li>
+  <li>load balancing</li>
+  <li>failover</li>
+  <li>visibility</li>
+  <li>alerting</li>
+  <li>incident response</li>
+  <li>test və simulyasiya</li>
+</ul>
+
+<p>Əgər bunlar yoxdursa, ən güclü server də birdən-birə zəif görünə bilər.</p>
+
+<hr />
+
+<h1 id="-ddos-haqqında-ən-böyük-yanlış-anlayışlar">❌ DDoS Haqqında Ən Böyük Yanlış Anlayışlar</h1>
+
+<h2 id="ddos-yalnız-böyük-şirkətlərə-edilir">“DDoS yalnız böyük şirkətlərə edilir”</h2>
+<p>Xeyr. Kiçik saytlar, kurs platformaları, şəxsi layihələr, oyun serverləri və hətta test mühitləri də hədəf ola bilər.</p>
+
+<h2 id="sadəcə-internet-sürəti-artırsaq-həll-olar">“Sadəcə internet sürəti artırsaq, həll olar”</h2>
+<p>Hər zaman yox. Bəzi hücumlar bandwidth yox, application layer və connection state-i hədəf alır.</p>
+
+<h2 id="firewall-varsa-problem-yoxdur">“Firewall varsa, problem yoxdur”</h2>
+<p>Firewall vacibdir, amma təkbaşına kifayət etmir.</p>
+
+<h2 id="sayt-açılırsa-deməli-təhlükə-keçib">“Sayt açılırsa, deməli təhlükə keçib”</h2>
+<p>Bəzən hücum dalğalarla olur. Monitorinq davam etməlidir.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-kibertəhlükəsizlik-mütəxəssisi-ddos-haqqında-nə-bilməlidir">🚀 Gələcəyin Kibertəhlükəsizlik Mütəxəssisi DDoS Haqqında Nə Bilməlidir?</h1>
+
+<p>Gələcəyin güclü mütəxəssisi yalnız “hücum nədir?” sualını yox, bunları da bilməlidir:</p>
+
+<ul>
+  <li>şəbəkə təməli</li>
+  <li>TCP/IP davranışı</li>
+  <li>HTTP yük profili</li>
+  <li>Linux server performansı</li>
+  <li>firewall məntiqi</li>
+  <li>IDS/IPS siqnalları</li>
+  <li>SIEM korrelyasiyası</li>
+  <li>alert tuning</li>
+  <li>incident handling</li>
+  <li>memarlıq dayanıqlılığı</li>
+</ul>
+
+<p>Bu səbəbdən <strong>kiber təhlükəsizlik dərsləri</strong> alan hər kəs DDoS-u həm hücum, həm də müdafiə baxımından başa düşməlidir.</p>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p><strong>DDoS hücumu</strong> — bir sistemi məlumat oğurlamadan da sıradan çıxara bilən çox ciddi kiber təhlükədir.</p>
+
+<h3 id="bu-hücumun-məqsədi">Bu hücumun məqsədi:</h3>
+<ul>
+  <li>sistemi yükləmək</li>
+  <li>resursları tükətmək</li>
+  <li>xidməti dayandırmaq</li>
+  <li>real istifadəçini kənarda saxlamaq</li>
+</ul>
+
+<p>DDoS-un gücü onun çox mənbədən gəlməsində, sürətli yayılmasında və bəzən normal trafik kimi görünməsindədir.</p>
+
+<p>Bugünkü dünyada istər sayt sahibi ol, istər sistem inzibatçısı, istər SOC analitiki, istər Blue Team üzvü, istərsə də etik hacking öyrənən biri — bu mövzunu dərindən anlamaq vacibdir.</p>
+
+<blockquote>
+  <p><strong>Çünki kibertəhlükəsizlik yalnız sistemi qurmaq deyil, onu ayaqda saxlamaqdır.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-tez-tez-verilən-suallar">❓ Tez-tez verilən suallar</h1>
+
+<h2 id="ddos-ilə-dos-fərqi-nədir">DDoS ilə DoS fərqi nədir?</h2>
+<p>DoS bir mənbədən edilən xidmət dayandırma hücumudur. DDoS isə bir çox cihazdan eyni anda həyata keçirilən paylanmış hücumdur.</p>
+
+<h2 id="ddos-sistemə-necə-təsir-edir">DDoS sistemə necə təsir edir?</h2>
+<p>Bandwidth, CPU, RAM, connection table, web server, firewall və ya tətbiq səviyyəsində resursları tükəndirə bilər.</p>
+
+<h2 id="ddos-zamanı-sayt-niyə-açılmır">DDoS zamanı sayt niyə açılmır?</h2>
+<p>Çünki server və ya şəbəkə real istifadəçilərin sorğularına cavab verə bilmir, request-lər timeout olur və xidmət sıradan çıxır.</p>
+
+<h2 id="ddos-dan-qorunmaq-üçün-nə-lazımdır">DDoS-dan qorunmaq üçün nə lazımdır?</h2>
+<p>CDN, WAF, rate limiting, load balancing, monitoring, anti-DDoS xidmətləri və incident response plan vacibdir.</p>
+
+<h2 id="ddos-mövzusu-kimlər-üçün-vacibdir">DDoS mövzusu kimlər üçün vacibdir?</h2>
+<p>Kiber təhlükəsizlik öyrənənlər, sistem adminləri, Blue Team, Red Team, SOC analitikləri, DevOps və server sahibləri üçün çox vacibdir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar mövzular</h1>
+
+<ul>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik: Süni İntellekt Hücumları və Müdafiə Strategiyaları</a></li>
+  <li>🕵️‍♂️🌐 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbələrdən Məlumat Toplama və Analiz</a></li>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>📶🔐 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="şəbəkə təhlükəsizliyi" /><category term="hücum növləri" /><category term="ddos hücumu" /><category term="dos attack" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="etik hacking dərsləri" /><category term="cyber security" /><category term="kiber dərslər" /><category term="network security" /><category term="server təhlükəsizliyi" /><category term="botnet" /><category term="flood attack" /><category term="cyber attack" /><summary type="html"><![CDATA[DDoS hücumu nədir, necə işləyir, sistemləri necə çökdürür, hansı növləri var və necə qorunmaq olar? Kibertəhlükəsizlik, etik hacking dərsləri və cyber security öyrənənlər üçün geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ddos-cover.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ddos-cover.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)</title><link href="https://cybershieldy.com/posts/neural-hacking-future" rel="alternate" type="text/html" title="İnsan Beyni, Neyronlar və Cyber Gələcək: Beyin Hacklənə bilərmi? Neural Chip, AI və Kibertəhlükəsizlik (2026)" /><published>2026-03-18T09:00:00+04:00</published><updated>2026-03-18T10:18:13+04:00</updated><id>https://cybershieldy.com/posts/beyin-hacklenmesi-neural-chip-ve-kiber-tehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/neural-hacking-future"><![CDATA[<h1 id="-i̇nsan-beyni-neyronlar-və-cyber-gələcək">🧠 İnsan Beyni, Neyronlar və Cyber Gələcək</h1>
 
 <p>Texnologiya sürətlə inkişaf etdikcə artıq sual dəyişir:</p>
 
@@ -3106,410 +3899,4 @@ Kiber Dərslər • Hacker Dərsləri • Web Security • Blue Team • Ethical
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="blue team" /><category term="müdafiə sistemləri" /><category term="honeypot nədir" /><category term="honeypot dərsləri" /><category term="kibertəhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="hacker kursları" /><category term="kiber kurslar" /><category term="ethical hacking" /><category term="blue team dərsləri" /><category term="intrusion detection" /><category term="soc analyst" /><category term="real kiber hücumlar" /><category term="server security" /><category term="web security dərsləri" /><summary type="html"><![CDATA[Honeypot sistemləri nədir, necə işləyir və hacker hücumlarını necə tələyə salır? Real kiber hücum analizləri, Blue Team və Ethical Hacking dərsləri üçün peşəkar Honeypot təlimi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/honey.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/honey.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)</title><link href="https://cybershieldy.com/posts/antivirus-firewall-nece-isleyir" rel="alternate" type="text/html" title="Antivirus və Firewall Sistemləri Necə İşləyir? Viruslar, Backdoor-lar və Real Müdafiə Mexanizmləri (2026)" /><published>2026-01-14T10:00:00+04:00</published><updated>2026-01-14T15:34:51+04:00</updated><id>https://cybershieldy.com/posts/antivirus-firewall-backdoor-nece-isleyir</id><content type="html" xml:base="https://cybershieldy.com/posts/antivirus-firewall-nece-isleyir"><![CDATA[<h1 id="️-antivirus-və-firewall-sistemləri-necə-i̇şləyir-2026">🛡️ Antivirus və Firewall Sistemləri Necə İşləyir? (2026)</h1>
-<h2 id="-viruslar-backdoor-lar-və-real-kibertəhlükəsizlik-müdafiəsi">🧠 Viruslar, Backdoor-lar və Real Kibertəhlükəsizlik Müdafiəsi</h2>
-
-<p>Müasir <strong>kibertəhlükəsizlik</strong> dünyasında yalnız hücum (hacking) bilikləri kifayət deyil.<br />
-Peşəkar <strong>hacker dərsləri</strong>, <strong>kiber dərslər</strong> və <strong>web developer kursları</strong> mütləq şəkildə:</p>
-
-<ul>
-  <li>🛡️ antivirus mexanizmlərini</li>
-  <li>🔥 firewall arxitekturasını</li>
-  <li>🦠 virus və backdoor davranışlarını</li>
-</ul>
-
-<p>dərindən izah etməlidir.</p>
-
-<p>Bu məqalə <strong>Blue Team</strong>, <strong>Ethical Hacking</strong>, <strong>System Security</strong> və <strong>Web təhlükəsizlik dərsləri</strong> üçün konsept dərs materialıdır.</p>
-
-<blockquote>
-  <p>⚠️ Qeyd: Buradakı bütün məlumatlar <strong>qanuni</strong>, <strong>etik</strong> və <strong>təlim məqsədi</strong> daşıyır.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-virus-nədir-və-sistemə-necə-yoluxur">🦠 Virus nədir və sistemə necə yoluxur?</h2>
-
-<p>Virus — istifadəçi xəbəri olmadan işləyən və sistemdə dəyişiklik edən <strong>zərərli proqram kodudur</strong>.</p>
-
-<h3 id="ən-çox-rast-gəlinən-yoluxma-yolları">Ən çox rast gəlinən yoluxma yolları:</h3>
-<ul>
-  <li>📎 Phishing email əlavələri</li>
-  <li>💾 Crack / warez proqramlar</li>
-  <li>🌐 Zərərli web saytlar</li>
-  <li>🔌 USB və BadUSB cihazları</li>
-  <li>📥 Script injection (XSS, RCE sonrası payload)</li>
-</ul>
-
-<p>Virusun əsas məqsədi:</p>
-<ul>
-  <li>məlumat oğurlamaq</li>
-  <li>sistemə nəzarət etmək</li>
-  <li>backdoor yerləşdirmək</li>
-  <li>botnet-ə qoşmaqdır</li>
-</ul>
-
-<hr />
-
-<h2 id="-backdoor-nədir-hacker-sistemdə-necə-gizlənir">🚪 Backdoor nədir? Hacker sistemdə necə gizlənir?</h2>
-
-<p><strong>Backdoor</strong> — sistemə gizli giriş nöqtəsidir.</p>
-
-<h3 id="backdoor-necə-yaranır">Backdoor necə yaranır?</h3>
-<ul>
-  <li>🔓 Zəif parol və ya default credential</li>
-  <li>💉 Exploit sonrası shell yerləşdirilməsi</li>
-  <li>📦 Zərərli library və ya service</li>
-  <li>⚙️ Startup və registry injection</li>
-</ul>
-
-<h3 id="backdoor-nə-edir">Backdoor nə edir?</h3>
-<ul>
-  <li>🕵️ sistemə səssiz giriş</li>
-  <li>🔁 C2 (Command &amp; Control) əlaqəsi</li>
-  <li>📡 məlumat ötürülməsi</li>
-  <li>🧨 əlavə payload yüklənməsi</li>
-</ul>
-
-<p>Backdoor-lar <strong>klassik antiviruslar üçün ən çətin aşkarlanan təhlükələrdəndir</strong>.</p>
-
-<hr />
-
-<h2 id="️-antivirus-nədir-və-necə-işləyir">🛡️ Antivirus nədir və necə işləyir?</h2>
-
-<p>Antivirus — sistemdə işləyən prosesləri, faylları və davranışları analiz edən <strong>təhlükəsizlik proqramıdır</strong>.</p>
-
-<h3 id="antivirusların-əsas-iş-prinsipləri">Antivirusların əsas iş prinsipləri:</h3>
-
-<h4 id="1️⃣-signature-based-detection">1️⃣ Signature-based Detection</h4>
-<ul>
-  <li>məlum virus imzaları ilə müqayisə</li>
-  <li>sürətli, lakin zero-day-a qarşı zəif</li>
-</ul>
-
-<h4 id="2️⃣-heuristic-analysis">2️⃣ Heuristic Analysis</h4>
-<ul>
-  <li>şübhəli kod davranışını analiz edir</li>
-  <li>yeni virusları aşkarlaya bilir</li>
-</ul>
-
-<h4 id="3️⃣-behavioral-detection">3️⃣ Behavioral Detection</h4>
-<ul>
-  <li>real vaxtda prosesləri izləyir</li>
-  <li>backdoor və RAT-ları tutmaq üçün effektivdir</li>
-</ul>
-
-<h4 id="4️⃣-sandbox-mexanizmi">4️⃣ Sandbox mexanizmi</h4>
-<ul>
-  <li>fayl izolə mühitdə işə salınır</li>
-  <li>real sistemə zərər vermədən analiz edilir</li>
-</ul>
-
-<hr />
-
-<h2 id="-clamav--open-source-antivirus-linux--server">🧪 ClamAV – Open Source Antivirus (Linux / Server)</h2>
-
-<p><strong>ClamAV</strong> əsasən:</p>
-<ul>
-  <li>Linux serverlər</li>
-  <li>Mail serverlər</li>
-  <li>Web hosting mühitləri</li>
-</ul>
-
-<p>üçün istifadə olunur.</p>
-
-<h3 id="clamav-xüsusiyyətləri">ClamAV xüsusiyyətləri:</h3>
-<ul>
-  <li>🐧 Linux üçün ideal</li>
-  <li>📧 Email attachment scan</li>
-  <li>📦 Fayl və arxiv analizi</li>
-  <li>🔓 Open Source və audit edilə bilən</li>
-</ul>
-
-<h3 id="i̇stifadə-ssenariləri">İstifadə ssenariləri:</h3>
-<ul>
-  <li>Web developer server security</li>
-  <li>Hosting və VPS qorunması</li>
-  <li>SOC və Blue Team lab-ları</li>
-</ul>
-
-<p>ClamAV <strong>kiber təhlükəsizlik dərsləri üçün mükəmməl laboratoriya alətidir</strong>.</p>
-
-<hr />
-
-<h2 id="-firewall-nədir-və-nə-üçün-vacibdir">🔥 Firewall nədir və nə üçün vacibdir?</h2>
-
-<p>Firewall — şəbəkəyə daxil olan və çıxan trafiki <strong>qaydalara əsasən idarə edən müdafiə qatıdır</strong>.</p>
-
-<p>Firewall olmadan:</p>
-<ul>
-  <li>virus rahat yayılır</li>
-  <li>backdoor C2 bağlantı qurur</li>
-  <li>data leak baş verir</li>
-</ul>
-
-<hr />
-
-<h2 id="-firewall-növləri">🧱 Firewall növləri</h2>
-
-<h3 id="-network-firewall">🔹 Network Firewall</h3>
-<ul>
-  <li>router və gateway səviyyəsində</li>
-  <li>IP, port və protokol filtrasiya</li>
-</ul>
-
-<h3 id="-host-based-firewall">🔹 Host-based Firewall</h3>
-<ul>
-  <li>birbaşa əməliyyat sistemində</li>
-  <li>proses əsaslı nəzarət</li>
-</ul>
-
-<h3 id="-application-firewall-waf">🔹 Application Firewall (WAF)</h3>
-<ul>
-  <li>web hücumlarına qarşı</li>
-  <li>SQLi, XSS, RCE bloklayır</li>
-</ul>
-
-<hr />
-
-<h2 id="️-kaspersky--avast-firewall-necə-işləyir">🛡️ Kaspersky &amp; Avast Firewall necə işləyir?</h2>
-
-<h3 id="-ağıllı-trafik-analizi">🧠 Ağıllı trafik analizi</h3>
-<ul>
-  <li>şübhəli outbound connection</li>
-  <li>C2 server davranışı</li>
-</ul>
-
-<h3 id="-application-control">🔐 Application control</h3>
-<ul>
-  <li>hansı proqram hara çıxır</li>
-  <li>backdoor-un internetə çıxışı bloklanır</li>
-</ul>
-
-<h3 id="-ids--ips-inteqrasiyası">📡 IDS / IPS inteqrasiyası</h3>
-<ul>
-  <li>hücum pattern-ləri aşkarlanır</li>
-  <li>real vaxtda bloklanır</li>
-</ul>
-
-<p>Bu firewall-lar <strong>Blue Team dərslərində real müdafiə ssenariləri üçün istifadə olunur</strong>.</p>
-
-<hr />
-
-<h2 id="-antivirus--firewall-birlikdə-necə-işləyir">🔗 Antivirus + Firewall birlikdə necə işləyir?</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Təhlükə</th>
-      <th>Antivirus</th>
-      <th>Firewall</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Virus faylı</td>
-      <td>✅</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>Backdoor connection</td>
-      <td>⚠️</td>
-      <td>✅</td>
-    </tr>
-    <tr>
-      <td>Data exfiltration</td>
-      <td>❌</td>
-      <td>✅</td>
-    </tr>
-    <tr>
-      <td>Zero-day exploit</td>
-      <td>⚠️</td>
-      <td>⚠️</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>➡️ <strong>Tək antivirus kifayət deyil</strong><br />
-➡️ <strong>Firewall olmadan sistem açıqdır</strong></p>
-
-<hr />
-
-<h2 id="-hacker-və-web-developer-dərsləri-üçün-dərs-konsepti">🎓 Hacker və Web Developer dərsləri üçün dərs konsepti</h2>
-
-<p>Bu mövzu:</p>
-<ul>
-  <li>🧠 hacker dərsləri</li>
-  <li>🛡️ kiber təhlükəsizlik dərsləri</li>
-  <li>🌐 web developer kursları</li>
-  <li>🔵 blue team təlimləri</li>
-</ul>
-
-<p>üçün <strong>əsas fundamentdir</strong>.</p>
-
-<p>Hücum bilmədən müdafiə olmaz,<br />
-müdafiəni bilmədən peşəkar hacker olunmaz.</p>
-
-<hr />
-
-<h2 id="-nəticə">✅ Nəticə</h2>
-
-<p>Müasir kibertəhlükəsizlik:</p>
-<ul>
-  <li>yalnız hücum deyil</li>
-  <li>real müdafiə mexanizmlərini anlamaqdır</li>
-</ul>
-
-<blockquote>
-  <p><strong>Antivirus və firewall bilməyən hacker yarımçıqdır.</strong></p>
-</blockquote>
-
-<hr />
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Web Security • Blue Team • Ethical Hacking • Real Lablar</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-<ul>
-  <li><a href="/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li><a href="https://cybershieldy.com/posts/viruslar-telefon-hucumlari-msfconsole">Viruslar və Telefon Hücumları: Metasploit (msfconsole) ilə Real Ssenarilər</a></li>
-  <li><a href="https://cybershieldy.com/posts/ids-ips-kibertelhukesizlik">IDS və IPS nədir? Kibertəhlükəsizlikdə Aşkarlama və Qarşısının Alınması</a></li>
-</ul>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="müdafiə" /><category term="antivirus" /><category term="antivirus dərsləri" /><category term="firewall nədir" /><category term="kibertəhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="virus necə işləyir" /><category term="backdoor nədir" /><category term="clamav" /><category term="kaspersky firewall" /><category term="avast antivirus" /><category term="blue team" /><category term="ethical hacking" /><category term="web developer dərsləri" /><category term="kiber kurslar" /><summary type="html"><![CDATA[Antivirus və firewall sistemlərinin iş prinsipi. Viruslar, trojanlar və backdoor-lar necə aşkarlanır? ClamAV, Kaspersky və Avast nümunələri ilə real kibertəhlükəsizlik dərsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/antivirus.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/antivirus.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="blue team" /><category term="müdafiə sistemləri" /><category term="honeypot nədir" /><category term="honeypot dərsləri" /><category term="kibertəhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="hacker kursları" /><category term="kiber kurslar" /><category term="ethical hacking" /><category term="blue team dərsləri" /><category term="intrusion detection" /><category term="soc analyst" /><category term="real kiber hücumlar" /><category term="server security" /><category term="web security dərsləri" /><summary type="html"><![CDATA[Honeypot sistemləri nədir, necə işləyir və hacker hücumlarını necə tələyə salır? Real kiber hücum analizləri, Blue Team və Ethical Hacking dərsləri üçün peşəkar Honeypot təlimi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/honey.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/honey.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

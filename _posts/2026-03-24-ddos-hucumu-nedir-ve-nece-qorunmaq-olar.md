@@ -1,7 +1,7 @@
 ---
 title: "DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)"
-date: 2026-03-24 12:00:00 +0400
-lastmod: 2026-03-24 12:00:00 +0400
+date: 2026-03-24 06:00:00 +0400
+lastmod: 2026-03-24 06:00:00 +0400
 categories: [kibertəhlükəsizlik, şəbəkə təhlükəsizliyi, hücum növləri]
 tags:
   - ddos hücumu
