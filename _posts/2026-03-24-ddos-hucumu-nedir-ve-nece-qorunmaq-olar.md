@@ -18,7 +18,7 @@ tags:
   - cyber attack
 description: "DDoS hücumu nədir, necə işləyir, sistemləri necə çökdürür, hansı növləri var və necə qorunmaq olar? Kibertəhlükəsizlik, etik hacking dərsləri və cyber security öyrənənlər üçün geniş bələdçi."
 keywords: "ddos hücumu, kiber təhlükəsizlik, hacker dərsləri, etik hacking dərsləri, cyber security, kiber dərslər, dos attack, botnet, flood attack, server təhlükəsizliyi"
-image: /assets/images/ddos-cover.webp
+image: /assets/images/ddos.webp
 canonical: https://cybershieldy.com/posts/ddos-hucumu-nedir
 permalink: /posts/ddos-hucumu-nedir
 ---
