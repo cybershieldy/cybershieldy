@@ -239,14 +239,12 @@ USB istifadə qaydaları, endpoint security və monitorinq ilə.
 
 # 🔗 Oxşar Mövzular
 
-- 🔴🔵 [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)
-- 🤖🛡️ [AI və Kibertəhlükəsizlik: Süni İntellekt Hücumları və Müdafiə Strategiyaları](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
-- 🕵️‍♂️🌐 [OSINT Araşdırmaları: Açıq Mənbələrdən Məlumat Toplama və Analiz](https://cybershieldy.com/posts/osint-arastirmalari)
-- 🎣⚠️ [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)
-- 📶🔐 [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)
-- 👁️‍🗨️🛜 [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/sebeke-hucumlari)
-- 🛡️🔑 [İki Faktorlu Identifikasiya Nədir? Hesabları Daha Güclü Qoruma Yolu](/posts/iki-faktorlu-identifikasiya)
+## 🔗🔥 Oxşar Yazılar (Mütləq Bax!)
 
+- 🎣⚠️ [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
+- 🔴🔵🛡️ [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
+- 📶🔓⚠️ [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)  
+- 🔌💀🧠 [Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar](/posts/fiziki-hucumlar-genis)
 ---
 
 ## 📢 CyberShieldy Academy
