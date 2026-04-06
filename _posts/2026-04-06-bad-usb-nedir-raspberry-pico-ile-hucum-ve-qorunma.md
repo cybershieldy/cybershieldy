@@ -17,7 +17,7 @@ tags:
   - blue team
 description: "Bad USB nədir, Raspberry Pi Pico ilə necə işləyir, sistemə necə sızır və necə qorunmaq olar? Kibertəhlükəsizlik və hacking dərsləri üçün geniş bələdçi."
 keywords: "bad usb nədir, raspberry pi pico hacking, usb hücumları, kiber təhlükəsizlik, hacker dərsləri, etik hacking, cyber security, red team blue team"
-image: /assets/images/badusb.webp
+image: /assets/images/badusbs.webp
 canonical: https://cybershieldy.com/posts/bad-usb-nedir
 permalink: /posts/bad-usb-nedir
 ---
