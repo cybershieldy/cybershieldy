@@ -1,4 +1,410 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-03-24T12:36:46+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/ddos-hucumu-nedir" rel="alternate" type="text/html" title="DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)" /><published>2026-03-24T06:00:00+04:00</published><updated>2026-03-24T11:12:32+04:00</updated><id>https://cybershieldy.com/posts/ddos-hucumu-nedir-ve-nece-qorunmaq-olar</id><content type="html" xml:base="https://cybershieldy.com/posts/ddos-hucumu-nedir"><![CDATA[<h1 id="️-ddos-hücumu-nədir-sistem-necə-çökür-necə-baş-verir-və-necə-qorunmaq-olar">🌐⚠️ DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-06T16:00:45+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/bad-usb-nedir" rel="alternate" type="text/html" title="Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)" /><published>2026-04-06T06:00:00+04:00</published><updated>2026-04-06T06:00:00+04:00</updated><id>https://cybershieldy.com/posts/bad-usb-nedir-raspberry-pico-ile-hucum-ve-qorunma</id><content type="html" xml:base="https://cybershieldy.com/posts/bad-usb-nedir"><![CDATA[<h1 id="-bad-usb-nədir-raspberry-pi-pico-ilə-sistemə-necə-sızırlar">🔌💀 Bad USB Nədir? Raspberry Pi Pico ilə Sistemə Necə Sızırlar?</h1>
+
+<p>Bugünkü dünyada ən təhlükəli hücumlardan biri internet üzərindən deyil — birbaşa fiziki girişlə, yəni USB vasitəsilə edilir.</p>
+
+<p>Bu hücum növü <strong>Bad USB</strong> adlanır və xüsusilə <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>hacker dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>cyber security kursları</strong> və <strong>Red Team ssenariləri</strong> üçün kritik mövzudur.</p>
+
+<hr />
+
+<h2 id="-bu-yazıda-nələr-var">📌 Bu yazıda nələr var?</h2>
+
+<ul>
+  <li>Bad USB nədir?</li>
+  <li>Raspberry Pi Pico ilə necə işləyir?</li>
+  <li>Sistemə necə sızır?</li>
+  <li>USB daxilində necə gizlənir?</li>
+  <li>Real hücum ssenariləri</li>
+  <li>Necə qorunmaq olar?</li>
+  <li>Cyber security öyrənənlər üçün vacib biliklər</li>
+</ul>
+
+<hr />
+
+<h1 id="-bad-usb-nədir">🧠 Bad USB Nədir?</h1>
+
+<p><strong>Bad USB</strong> — USB cihazın özünü klaviatura və ya input cihazı kimi göstərərək sistemdə əmrlər icra etməsidir.</p>
+
+<p>Bu hücumun əsas xüsusiyyəti:</p>
+
+<blockquote>
+  <p>istifadəçi heç nə açmadan sistem özü əmrləri icra edir</p>
+</blockquote>
+
+<hr />
+
+<h1 id="️-raspberry-pi-pico-ilə-bad-usb">⚙️ Raspberry Pi Pico ilə Bad USB</h1>
+
+<h2 id="-pico-nədir">🔹 Pico nədir?</h2>
+
+<ul>
+  <li>ucuz microcontroller</li>
+  <li>USB HID kimi işləyə bilir</li>
+  <li>proqramlaşdırıla bilir</li>
+</ul>
+
+<h2 id="-niyə-təhlükəlidir">🔥 Niyə təhlükəlidir?</h2>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>klaviatura kimi görünür</li>
+  <li>avtomatik əmrlər yazır</li>
+  <li>antivirusdan yayınır</li>
+</ul>
+
+<hr />
+
+<h1 id="-hücum-necə-i̇şləyir">💻 Hücum Necə İşləyir?</h1>
+
+<p>Sadə ssenari:</p>
+
+<ol>
+  <li>USB taxılır</li>
+  <li>sistem onu keyboard kimi tanıyır</li>
+  <li>script işləyir</li>
+  <li>əmrlər avtomatik icra olunur</li>
+</ol>
+
+<hr />
+
+<h1 id="-bad-usb-ilə-nələr-etmək-olar">💥 Bad USB ilə Nələr Etmək Olar?</h1>
+
+<h2 id="-reverse-shell">🔴 Reverse Shell</h2>
+
+<ul>
+  <li>uzaqdan sistemə giriş</li>
+</ul>
+
+<h2 id="-zərərli-proqram-yükləmə">🔴 Zərərli proqram yükləmə</h2>
+
+<ul>
+  <li>PowerShell ilə payload</li>
+</ul>
+
+<h2 id="-şifrələri-çıxarma">🔴 Şifrələri çıxarma</h2>
+
+<ul>
+  <li>WiFi məlumatları</li>
+  <li>system info</li>
+</ul>
+
+<h2 id="-backdoor-yaratmaq">🔴 Backdoor yaratmaq</h2>
+
+<ul>
+  <li>yeni user</li>
+  <li>autorun script</li>
+</ul>
+
+<h2 id="-firewall-deaktiv-etmək">🔴 Firewall deaktiv etmək</h2>
+
+<ul>
+  <li>müdafiəni zəiflətmək</li>
+</ul>
+
+<hr />
+
+<h1 id="-usb-i̇çində-necə-gizlənir">🧬 USB İçində Necə Gizlənir?</h1>
+
+<p>Bad USB:</p>
+
+<ul>
+  <li>fayl deyil</li>
+  <li>firmware səviyyəsində işləyir</li>
+  <li>antivirus görə bilmir</li>
+  <li>istifadəçi heç nə klik etmir</li>
+</ul>
+
+<hr />
+
+<h1 id="-real-hücum-ssenarisi">🚨 Real Hücum Ssenarisi</h1>
+
+<p>Təsəvvür et:</p>
+
+<p>USB tapdın və taxdın…</p>
+
+<p>Nəticə:</p>
+
+<ul>
+  <li>cmd açılır</li>
+  <li>script işləyir</li>
+  <li>sistem kompromet olunur</li>
+</ul>
+
+<hr />
+
+<h1 id="-niyə-antivirus-tutmur">📉 Niyə Antivirus Tutmur?</h1>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>bu virus deyil</li>
+  <li>bu klaviatura kimi davranır</li>
+  <li>sistem özü icazə verir</li>
+</ul>
+
+<hr />
+
+<h1 id="️-bad-usb-hücumundan-necə-qorunmaq-olar">🛡️ Bad USB Hücumundan Necə Qorunmaq Olar?</h1>
+
+<h2 id="1️⃣-tanımadığın-usb-ni-taxma">1️⃣ Tanımadığın USB-ni taxma</h2>
+
+<p>Ən vacib qayda budur.</p>
+
+<hr />
+
+<h2 id="2️⃣-usb-portları-məhdudlaşdır">2️⃣ USB portları məhdudlaşdır</h2>
+
+<ul>
+  <li>şirkət mühitində blokla</li>
+  <li>policy tətbiq et</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-endpoint-security-istifadə-et">3️⃣ Endpoint Security istifadə et</h2>
+
+<ul>
+  <li>device control</li>
+  <li>USB monitoring</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-hid-cihazları-məhdudlaşdır">4️⃣ HID cihazları məhdudlaşdır</h2>
+
+<ul>
+  <li>yalnız icazəli cihazlar</li>
+</ul>
+
+<hr />
+
+<h2 id="5️⃣-siem-və-monitorinq">5️⃣ SIEM və monitorinq</h2>
+
+<ul>
+  <li>anormal davranışları izləmək</li>
+  <li>cmd / powershell alert</li>
+</ul>
+
+<hr />
+
+<h2 id="6️⃣-user-awareness">6️⃣ User awareness</h2>
+
+<ul>
+  <li>sosial mühəndislikdən qorunmaq</li>
+</ul>
+
+<hr />
+
+<h1 id="-cyber-security-üçün-niyə-vacibdir">🎯 Cyber Security üçün Niyə Vacibdir?</h1>
+
+<p>Bu mövzu:</p>
+
+<ul>
+  <li>Red Team hücum texnikasıdır</li>
+  <li>Blue Team üçün detection mövzusudur</li>
+  <li>SOC üçün alert ssenarisidir</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-böyük-yanlış-anlayışlar">❌ Ən Böyük Yanlış Anlayışlar</h1>
+
+<h2 id="usb-təhlükəli-deyil">“USB təhlükəli deyil”</h2>
+<p>Yanlışdır.</p>
+
+<h2 id="antivirus-qoruyur">“Antivirus qoruyur”</h2>
+<p>Həmişə yox.</p>
+
+<h2 id="klik-etməsəm-problem-yoxdur">“Klik etməsəm problem yoxdur”</h2>
+<p>Bad USB-də klik lazım deyil.</p>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>Bad USB — ən təhlükəli fiziki hücumlardan biridir.</p>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>səssiz işləyir</li>
+  <li>antivirusdan yayınır</li>
+  <li>sistemə tam giriş verə bilər</li>
+</ul>
+
+<blockquote>
+  <p>Kibertəhlükəsizlikdə ən zəif nöqtə çox vaxt istifadəçidir.</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-tez-tez-verilən-suallar">❓ Tez-tez verilən suallar</h1>
+
+<h2 id="bad-usb-nədir">Bad USB nədir?</h2>
+<p>USB cihazın klaviatura kimi davranaraq sistemdə əmrlər icra etməsidir.</p>
+
+<h2 id="pico-ilə-etmək-olur">Pico ilə etmək olur?</h2>
+<p>Bəli, Raspberry Pi Pico ilə mümkündür.</p>
+
+<h2 id="antivirus-niyə-tutmur">Antivirus niyə tutmur?</h2>
+<p>Çünki bu davranış sistem tərəfindən normal qəbul olunur.</p>
+
+<h2 id="necə-qorunmaq-olar">Necə qorunmaq olar?</h2>
+<p>USB istifadə qaydaları, endpoint security və monitorinq ilə.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik: Süni İntellekt Hücumları və Müdafiə Strategiyaları</a></li>
+  <li>🕵️‍♂️🌐 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbələrdən Məlumat Toplama və Analiz</a></li>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>📶🔐 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>👁️‍🗨️🛜 <a href="/posts/sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+  <li>🛡️🔑 <a href="/posts/iki-faktorlu-identifikasiya">İki Faktorlu Identifikasiya Nədir? Hesabları Daha Güclü Qoruma Yolu</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hardware hacking" /><category term="hücum növləri" /><category term="bad usb" /><category term="raspberry pi pico" /><category term="usb hacking" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="etik hacking dərsləri" /><category term="cyber security" /><category term="kiber dərslər" /><category term="hardware hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Bad USB nədir, Raspberry Pi Pico ilə necə işləyir, sistemə necə sızır və necə qorunmaq olar? Kibertəhlükəsizlik və hacking dərsləri üçün geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/badusb.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/badusb.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/ddos-hucumu-nedir" rel="alternate" type="text/html" title="DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)" /><published>2026-03-24T06:00:00+04:00</published><updated>2026-03-24T11:12:32+04:00</updated><id>https://cybershieldy.com/posts/ddos-hucumu-nedir-ve-nece-qorunmaq-olar</id><content type="html" xml:base="https://cybershieldy.com/posts/ddos-hucumu-nedir"><![CDATA[<h1 id="️-ddos-hücumu-nədir-sistem-necə-çökür-necə-baş-verir-və-necə-qorunmaq-olar">🌐⚠️ DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar?</h1>
 
 <p>İnternetdə bəzən bir saytın, serverin və ya tətbiqin qəfil yavaşladığını, cavab vermədiyini və ya tamamilə dayandığını görürük. Çox vaxt bunun arxasında sadə texniki nasazlıq yox, <strong>DDoS hücumu</strong> dayanır.</p>
 
@@ -3604,303 +4010,4 @@ Kiber Dərslər • Hacker Dərsləri • Web Security • IoT Security • Blue
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot təhlükəsizliyi" /><category term="kamera izləmə sistemi" /><category term="gizli kamera hack" /><category term="ip camera hacking" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik  təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="iot security" /><category term="web security dərsləri" /><category term="network hacking" /><category term="cctv hack" /><category term="blue team dərsləri" /><category term="real kiber hücumlar" /><category term="server security" /><summary type="html"><![CDATA[Kameralar necə izləyir, IP kameralar necə hacklənir və real hücum ssenariləri necə işləyir? Gizli kamera sızmaları, IoT və CCTV təhlükəsizliyi üzrə peşəkar kibertəhlükəsizlik və hacker dərsləri (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/kamera.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/kamera.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/honeypot-nedir" rel="alternate" type="text/html" title="Honeypot Nədir və Necə İşləyir? Hacker Hücumlarını Tələyə Salan Sistemlər | Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-20T10:00:00+04:00</published><updated>2026-01-20T13:38:00+04:00</updated><id>https://cybershieldy.com/posts/honeypot-nedir-ve-nece-isleyir.md</id><content type="html" xml:base="https://cybershieldy.com/posts/honeypot-nedir"><![CDATA[<h1 id="-honeypot-nədir-hacker-ləri-tələyə-salan-ağıllı-təhlükəsizlik-sistemi">🍯 Honeypot Nədir? Hacker-ləri Tələyə Salan Ağıllı Təhlükəsizlik Sistemi</h1>
-
-<p>Müasir kibertəhlükəsizlik artıq təkcə firewall və antivirusdan ibarət deyil.<br />
-Peşəkar kiber dərslər, hacker dərsləri və kiber kurslar mütləq şəkildə Honeypot texnologiyasını əhatə etməlidir.</p>
-
-<p>Honeypot — hacker üçün real sistem kimi görünən, amma əslində tam nəzarət altında olan tələ sistemidir.</p>
-
-<blockquote>
-  <p>Məqsəd hücumu bloklamaq yox, hücumçunu izləmək, analiz etmək və öyrənməkdir.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-honeypot-nə-üçün-yaradılır">🧠 Honeypot nə üçün yaradılır?</h2>
-
-<p>Honeypot sistemləri əsasən Blue Team, SOC Analyst və Ethical Hacking dərsləri üçün istifadə olunur.</p>
-
-<p>Əsas məqsədlər:</p>
-<ul>
-  <li>Hacker davranışını izləmək</li>
-  <li>Real hücum metodlarını öyrənmək</li>
-  <li>Zero-day və yeni exploit-ləri aşkar etmək</li>
-  <li>Hücum statistikası toplamaq</li>
-  <li>Real sistemləri qorumaq</li>
-</ul>
-
-<hr />
-
-<h2 id="-hacker-honeypot-u-niyə-real-sistem-sanır">🚨 Hacker Honeypot-u niyə real sistem sanır?</h2>
-
-<p>Yaxşı qurulmuş honeypot:</p>
-<ul>
-  <li>real server banner-i göstərir</li>
-  <li>real portlar açıqdır (22, 80, 443, 3306)</li>
-  <li>saxta login səhifələri var</li>
-  <li>zəifliklər qəsdən açıq buraxılır</li>
-</ul>
-
-<p>Hacker üçün bu sistem asan hədəf kimi görünür, amma bütün addımlar loglanır.</p>
-
-<hr />
-
-<h2 id="-honeypot-növləri">🧱 Honeypot Növləri</h2>
-
-<h3 id="low-interaction-honeypot">Low-Interaction Honeypot</h3>
-<p>Sadə, az riskli və əsasən hücum cəhdlərini toplamaq üçün istifadə olunur.<br />
-Kibertəhlükəsizlik dərsləri üçün idealdır.</p>
-
-<h3 id="high-interaction-honeypot">High-Interaction Honeypot</h3>
-<p>Tam real sistem kimi işləyir, hacker istədiyini edə bilir.<br />
-Advanced hacker kursları üçün uyğundur.</p>
-
-<h3 id="production-honeypot">Production Honeypot</h3>
-<p>Real şəbəkədə yerləşdirilir və real serverləri qorumaq məqsədi daşıyır.<br />
-SOC və şirkət mühitlərində istifadə olunur.</p>
-
-<h3 id="research-honeypot">Research Honeypot</h3>
-<p>APT və kompleks hücumların analizi üçün qurulur.<br />
-Peşəkar Blue Team təlimləri üçün istifadə edilir.</p>
-
-<hr />
-
-<h2 id="️-honeypot-da-hacker-nələr-edir">🕵️ Honeypot-da Hacker nələr edir?</h2>
-
-<p>Honeypot üzərində:</p>
-<ul>
-  <li>SSH brute force hücumları</li>
-  <li>Web exploit-lər (SQLi, XSS, RCE)</li>
-  <li>Malware yükləmə</li>
-  <li>Backdoor yerləşdirmə</li>
-  <li>C2 server bağlantısı</li>
-</ul>
-
-<p>Bütün bu hərəkətlər addım-addım qeydə alınır və real kiber dərslər üçün istifadə olunur.</p>
-
-<hr />
-
-<h2 id="️-honeypot-antivirus-və-firewall-fərqi">🛡️ Honeypot, Antivirus və Firewall fərqi</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Sistem</th>
-      <th>Funksiya</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Antivirus</td>
-      <td>Zərərli faylı silir</td>
-    </tr>
-    <tr>
-      <td>Firewall</td>
-      <td>Trafiki bloklayır</td>
-    </tr>
-    <tr>
-      <td>Honeypot</td>
-      <td>Hacker-i tələyə salır və izləyir</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Honeypot hücumu dayandırmır, hücumdan məlumat toplayır.</p>
-
-<hr />
-
-<h2 id="-honeypot-blue-team-üçün-niyə-vacibdir">🔥 Honeypot Blue Team üçün niyə vacibdir?</h2>
-
-<p>Blue Team üçün əsas məqsəd hücumçunun düşüncə tərzini anlamaqdır.<br />
-Honeypot olmadan real hücum datası əldə etmək mümkün deyil.</p>
-
-<p>Bu səbəbdən:</p>
-<ul>
-  <li>SOC təlimləri zəif qalır</li>
-  <li>IDS və IPS sistemləri effektiv olmur</li>
-  <li>Real ssenari analizi aparıla bilmir</li>
-</ul>
-
-<hr />
-
-<h2 id="-hacker-dərsləri-və-kiber-kurslar-üçün-honeypot">🎓 Hacker Dərsləri və Kiber Kurslar üçün Honeypot</h2>
-
-<p>Bu mövzu:</p>
-<ul>
-  <li>hacker dərsləri</li>
-  <li>kibertəhlükəsizlik dərsləri</li>
-  <li>ethical hacking kursları</li>
-  <li>blue team təlimləri</li>
-  <li>server və web security dərsləri</li>
-</ul>
-
-<p>üçün əsas fundamentdir.</p>
-
-<hr />
-
-<h2 id="️-honeypot-qurarkən-edilən-səhvlər">⚠️ Honeypot qurarkən edilən səhvlər</h2>
-
-<ul>
-  <li>Real serverlə eyni şəbəkədə yerləşdirmək</li>
-  <li>İzolyasiyanı düzgün etməmək</li>
-  <li>Log-ları qorumasız saxlamaq</li>
-  <li>İnternetə açıq admin panellər</li>
-</ul>
-
-<p>Yanlış qurulan honeypot risk yarada bilər.</p>
-
-<hr />
-
-<h2 id="-nəticə">✅ Nəticə</h2>
-
-<p>Müasir kibertəhlükəsizlik yalnız hücum etmək deyil, hücumu anlamaqdır.<br />
-Honeypot hücum və müdafiənin kəsişdiyi nöqtədir.</p>
-
-<blockquote>
-  <p>Honeypot bilməyən Blue Team yarımçıq,<br />
-bilməyən hacker isə kor qalır.</p>
-</blockquote>
-
-<hr />
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Web Security • Blue Team • Ethical Hacking • Real Lablar</p>
-
-<hr />
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="blue team" /><category term="müdafiə sistemləri" /><category term="honeypot nədir" /><category term="honeypot dərsləri" /><category term="kibertəhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="hacker kursları" /><category term="kiber kurslar" /><category term="ethical hacking" /><category term="blue team dərsləri" /><category term="intrusion detection" /><category term="soc analyst" /><category term="real kiber hücumlar" /><category term="server security" /><category term="web security dərsləri" /><summary type="html"><![CDATA[Honeypot sistemləri nədir, necə işləyir və hacker hücumlarını necə tələyə salır? Real kiber hücum analizləri, Blue Team və Ethical Hacking dərsləri üçün peşəkar Honeypot təlimi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/honey.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/honey.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot təhlükəsizliyi" /><category term="kamera izləmə sistemi" /><category term="gizli kamera hack" /><category term="ip camera hacking" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik  təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="iot security" /><category term="web security dərsləri" /><category term="network hacking" /><category term="cctv hack" /><category term="blue team dərsləri" /><category term="real kiber hücumlar" /><category term="server security" /><summary type="html"><![CDATA[Kameralar necə izləyir, IP kameralar necə hacklənir və real hücum ssenariləri necə işləyir? Gizli kamera sızmaları, IoT və CCTV təhlükəsizliyi üzrə peşəkar kibertəhlükəsizlik və hacker dərsləri (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/kamera.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/kamera.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

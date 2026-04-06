@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)",
+    "url": "/posts/bad-usb-nedir",
+    "categories": "kibertəhlükəsizlik, hardware hacking, hücum növləri",
+    "tags": "bad usb, raspberry pi pico, usb hacking, kiber təhlükəsizlik, hacker dərsləri, etik hacking dərsləri, cyber security, kiber dərslər, hardware hacking, red team, blue team",
+    "date": "2026-04-06 06:00:00 +0400",
+    "content": "Bad USB nədir, Raspberry Pi Pico ilə necə işləyir, sistemə necə sızır və necə qorunmaq olar? Kibertəhlükəsizlik və hacking dərsləri üçün geniş bələdçi."
+  },
+  
+  {
     "title": "DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)",
     "url": "/posts/ddos-hucumu-nedir",
     "categories": "kibertəhlükəsizlik, şəbəkə təhlükəsizliyi, hücum növləri",
