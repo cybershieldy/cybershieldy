@@ -1,4 +1,421 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-06T16:20:59+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/bad-usb-nedir" rel="alternate" type="text/html" title="Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)" /><published>2026-04-06T06:00:00+04:00</published><updated>2026-04-06T16:13:50+04:00</updated><id>https://cybershieldy.com/posts/bad-usb-nedir-raspberry-pico-ile-hucum-ve-qorunma</id><content type="html" xml:base="https://cybershieldy.com/posts/bad-usb-nedir"><![CDATA[<h1 id="-bad-usb-nədir-raspberry-pi-pico-ilə-sistemə-necə-sızırlar">🔌💀 Bad USB Nədir? Raspberry Pi Pico ilə Sistemə Necə Sızırlar?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-10T21:27:12+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🚦🌍 Şəhər Sistemləri Hack Oluna Bilərmi? İşıqforlar, Kameralar və Böyük Ekranlar Təhlükədədirmi? (2026)</title><link href="https://cybershieldy.com/posts/smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur/" rel="alternate" type="text/html" title="🚦🌍 Şəhər Sistemləri Hack Oluna Bilərmi? İşıqforlar, Kameralar və Böyük Ekranlar Təhlükədədirmi? (2026)" /><published>2026-04-10T06:00:00+04:00</published><updated>2026-04-10T06:00:00+04:00</updated><id>https://cybershieldy.com/posts/smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur</id><content type="html" xml:base="https://cybershieldy.com/posts/smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur/"><![CDATA[<h1 id="-şəhər-sistemləri-hack-oluna-bilərmi">🚦💻 Şəhər Sistemləri Hack Oluna Bilərmi?</h1>
+
+<p>Bugünkü dünyada artıq şəhərlər <strong>smart city</strong> sistemləri ilə idarə olunur:</p>
+
+<ul>
+  <li>🚦 işıqforlar</li>
+  <li>📹 müşahidə kameraları</li>
+  <li>📺 böyük reklam ekranları</li>
+  <li>📡 IoT cihazlar</li>
+</ul>
+
+<p>Bəs sual:</p>
+
+<blockquote>
+  <p>❗ Bunlar hack oluna bilərmi?</p>
+</blockquote>
+
+<h2 id="-cavab">🔥 Cavab:</h2>
+<p>➡️ <strong>BƏLİ — amma bu düşündüyün qədər sadə deyil</strong></p>
+
+<hr />
+
+<h1 id="-smart-city-sistemləri-necə-i̇şləyir">🧠 Smart City Sistemləri Necə İşləyir?</h1>
+
+<p>Smart şəhər sistemləri əsasən aşağı komponentlərdən ibarətdir:</p>
+
+<ul>
+  <li>IoT cihazlar (sensorlar)</li>
+  <li>Mərkəzi idarəetmə serverləri</li>
+  <li>Şəbəkə infrastrukturu</li>
+  <li>Web və ya SCADA panellər</li>
+</ul>
+
+<p>💡 Yəni bu sistemlər = <strong>şəbəkə + proqram + hardware</strong></p>
+
+<hr />
+
+<h1 id="️-potensial-hücum-nöqtələri">⚠️ Potensial Hücum Nöqtələri</h1>
+
+<h2 id="-1-şəbəkə-boşluqları">🔴 1. Şəbəkə Boşluqları</h2>
+
+<p>Əgər sistemdə:</p>
+
+<ul>
+  <li>açıq portlar varsa</li>
+  <li>firewall zəifdirsə</li>
+  <li>default konfiqurasiya qalırsa</li>
+</ul>
+
+<p>➡️ hacker giriş əldə edə bilər</p>
+
+<hr />
+
+<h2 id="-2-iot-zəiflikləri">🔴 2. IoT Zəiflikləri</h2>
+
+<p>IoT cihazların problemi:</p>
+
+<ul>
+  <li>default şifrələr</li>
+  <li>update olunmur</li>
+  <li>zəif firmware</li>
+</ul>
+
+<p>💥 Bu = ən zəif nöqtə</p>
+
+<hr />
+
+<h2 id="-3-web-panel-hücumları">🔴 3. Web Panel Hücumları</h2>
+
+<ul>
+  <li>bruteforce</li>
+  <li>SQL injection</li>
+  <li>auth bypass</li>
+</ul>
+
+<p>➡️ idarəetmə paneli ələ keçirilə bilər</p>
+
+<hr />
+
+<h2 id="-4-fiziki-hücumlar">🔴 4. Fiziki Hücumlar</h2>
+
+<ul>
+  <li>Bad USB</li>
+  <li>cihazlara birbaşa giriş</li>
+</ul>
+
+<p>💥 Bu ən təhlükəli ssenarilərdən biridir</p>
+
+<hr />
+
+<h1 id="-i̇şıqforlar-hack-oluna-bilərmi">🚦 İşıqforlar Hack Oluna Bilərmi?</h1>
+
+<p>✔️ Teorik olaraq mümkündür</p>
+
+<p>Necə?</p>
+
+<ul>
+  <li>SCADA sistemlərinə giriş</li>
+  <li>PLC exploit</li>
+  <li>şəbəkə manipulation</li>
+</ul>
+
+<p>💥 Nəticə:</p>
+
+<ul>
+  <li>trafik qarışır</li>
+  <li>qəzalar baş verə bilər</li>
+</ul>
+
+<hr />
+
+<h1 id="-böyük-reklam-ekranları">📺 Böyük Reklam Ekranları</h1>
+
+<p>Ən çox hack olunan sistemlərdən biri 😄</p>
+
+<p>Necə?</p>
+
+<ul>
+  <li>açıq admin panel</li>
+  <li>zəif login sistemi</li>
+  <li>remote access</li>
+</ul>
+
+<p>💥 Nəticə:</p>
+
+<ul>
+  <li>ekran dəyişir</li>
+  <li>mesajlar dəyişdirilir</li>
+</ul>
+
+<hr />
+
+<h1 id="-şəhər-kameraları">📹 Şəhər Kameraları</h1>
+
+<p>Ən kritik hissə 🔥</p>
+
+<p>Hack edilərsə:</p>
+
+<ul>
+  <li>izləmə sistemi deaktiv olur</li>
+  <li>məlumatlar oğurlanır</li>
+  <li>real-time manipulyasiya edilir</li>
+</ul>
+
+<hr />
+
+<h1 id="-bu-hücumlar-qlobal-ola-bilərmi">🌍 Bu Hücumlar Qlobal Ola Bilərmi?</h1>
+
+<p>✔️ BƏLİ, əgər:</p>
+
+<ul>
+  <li>sistem internetə açıqdır</li>
+  <li>eyni vendor istifadə olunur</li>
+  <li>patch yoxdur</li>
+</ul>
+
+<p>💡 Bir exploit → minlərlə cihaz</p>
+
+<hr />
+
+<h1 id="-niyə-hər-kəs-edə-bilmir">🧬 Niyə Hər Kəs Edə Bilmir?</h1>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>sistemlər çox vaxt daxili şəbəkədədir</li>
+  <li>ciddi firewall var</li>
+  <li>dövlət səviyyəsində qorunur</li>
+</ul>
+
+<hr />
+
+<h1 id="️-necə-qorunurlar">🛡️ Necə Qorunurlar?</h1>
+
+<h2 id="-network-segmentation">🔵 Network Segmentation</h2>
+<p>Sistemlər internetdən ayrılır</p>
+
+<h2 id="-firewall--idsips">🔵 Firewall + IDS/IPS</h2>
+<p>trafik izlənir</p>
+
+<h2 id="-siem-wazuh-və-s">🔵 SIEM (Wazuh və s.)</h2>
+<p>anomaliya detection</p>
+
+<h2 id="-access-control">🔵 Access Control</h2>
+<p>yalnız icazəli giriş</p>
+
+<h2 id="-monitoring">🔵 Monitoring</h2>
+<p>24/7 nəzarət</p>
+
+<hr />
+
+<h1 id="-hacker-necə-yanaşar-etik-perspektiv">⚡ Hacker Necə Yanaşar? (Etik Perspektiv)</h1>
+
+<ol>
+  <li>Recon</li>
+  <li>Port scanning</li>
+  <li>Service analysis</li>
+  <li>Exploit axtarışı</li>
+  <li>Access əldə etmə</li>
+</ol>
+
+<hr />
+
+<h1 id="-cyber-security-öyrənənlər-üçün">🎯 Cyber Security Öyrənənlər üçün</h1>
+
+<p>Bu mövzu sənə öyrədir:</p>
+
+<ul>
+  <li>real sistemlər necə işləyir</li>
+  <li>boşluqları necə tapmaq</li>
+  <li>Red Team düşüncə tərzi</li>
+  <li>Blue Team müdafiəsi</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-vacib-mesaj">❗ Ən Vacib Mesaj</h1>
+
+<blockquote>
+  <p>Ən zəif nöqtə sistem deyil — istifadəçidir</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>🚦 İşıqforlar<br />
+📺 Böyük ekranlar<br />
+📹 Kameralar</p>
+
+<p>➡️ <strong>Hack edilə bilər</strong><br />
+amma düzgün qorunma ilə minimuma endirilir</p>
+
+<hr />
+
+<h1 id="-faq">❓ FAQ</h1>
+
+<h2 id="smart-city-hack-edilə-bilər">Smart city hack edilə bilər?</h2>
+<p>Bəli, amma çətin və qorunan sistemlərdə risk azdır.</p>
+
+<h2 id="ən-zəif-nöqtə-nədir">Ən zəif nöqtə nədir?</h2>
+<p>İnsan faktoru və zəif konfiqurasiya.</p>
+
+<h2 id="iot-cihazlar-təhlükəlidirmi">IoT cihazlar təhlükəlidirmi?</h2>
+<p>Bəli, çox vaxt ən zəif halqadır.</p>
+
+<hr />
+
+<h1 id="-cta">🔥 CTA</h1>
+
+<p>📢 Öyrənmək istəyirsənsə:</p>
+
+<ul>
+  <li>💻 hacker dərsləri</li>
+  <li>🛡️ kiber təhlükəsizlik kursları</li>
+  <li>📱 mobil hacking</li>
+  <li>🌐 web developer kursları</li>
+</ul>
+
+<p>➡️ Real lab ilə öyrən!</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
+  <li>📹🧠👁️ <a href="https://cybershieldy.com/posts/kameralar-nece-izleyir">Şəhər Kameraları Necə İzləyir? AI və Nəzarət Sistemlərinin Sirri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="smart city" /><category term="kiber təhlükəsizlik kursları" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="cyber security" /><category term="smart city hacking" /><category term="iot security" /><category term="web developer kursları" /><category term="mobil hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[İşıqforlar, şəhər kameraları və böyük reklam ekranları hack oluna bilərmi? Smart city sistemlərində boşluqlar və real hücum ssenariləri.]]></summary></entry><entry><title type="html">Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/bad-usb-nedir" rel="alternate" type="text/html" title="Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)" /><published>2026-04-06T06:00:00+04:00</published><updated>2026-04-06T16:21:07+04:00</updated><id>https://cybershieldy.com/posts/bad-usb-nedir-raspberry-pico-ile-hucum-ve-qorunma</id><content type="html" xml:base="https://cybershieldy.com/posts/bad-usb-nedir"><![CDATA[<h1 id="-bad-usb-nədir-raspberry-pi-pico-ilə-sistemə-necə-sızırlar">🔌💀 Bad USB Nədir? Raspberry Pi Pico ilə Sistemə Necə Sızırlar?</h1>
 
 <p>Bugünkü dünyada ən təhlükəli hücumlardan biri internet üzərindən deyil — birbaşa fiziki girişlə, yəni USB vasitəsilə edilir.</p>
 
@@ -3700,311 +4117,4 @@ Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Et
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="forensics" /><category term="blue team" /><category term="digital forensics" /><category term="forensiks nədir" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="blue team dərsləri" /><category term="soc analyst" /><category term="malware forensics" /><category term="disk forensics" /><category term="memory forensics" /><category term="log analysis" /><category term="web security dərsləri" /><category term="server security" /><summary type="html"><![CDATA[Digital Forensics nədir, sistem izləri necə analiz olunur və hacker hücumlarından sonra sübutlar necə tapılır? Blue Team, SOC Analyst və Ethical Hacking üçün real forensiks dərsi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/forensi.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/forensi.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)</title><link href="https://cybershieldy.com/posts/kameralar-nece-izleyir" rel="alternate" type="text/html" title="Kameralar Necə İzləyir? Gizli Kamera Sızmaları, IP Camera Hack və Real Kibertəhlükəsizlik Dərsi (2026)" /><published>2026-01-31T10:00:00+04:00</published><updated>2026-01-31T17:51:43+04:00</updated><id>https://cybershieldy.com/posts/kameralar-nece-izleyir-ve-hack-olur.md</id><content type="html" xml:base="https://cybershieldy.com/posts/kameralar-nece-izleyir"><![CDATA[<h1 id="-kameralar-necə-i̇zləyir-gizli-kamera-sistemləri-və-hacker-baxışı">🎥 Kameralar Necə İzləyir? Gizli Kamera Sistemləri və Hacker Baxışı</h1>
-
-<p>Bu gün kameralar sadəcə təhlükəsizlik üçün deyil.<br />
-Onlar <strong>məlumat toplayan</strong>, <strong>şəbəkəyə qoşulan</strong> və <strong>potensial kiber risk yaradan IoT cihazlarıdır</strong>.</p>
-
-<p>Kibertəhlükəsizlik dərsləri, hacker dərsləri və ethical hacking kursları üçün <strong>kamera sistemləri real hücum laboratoriyasıdır</strong>.</p>
-
-<blockquote>
-  <p>Kamera səni qoruduğunu düşündüyün anda, səni izləyən də ola bilər.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="-kamera-sistemləri-necə-i̇şləyir">🧠 Kamera Sistemləri Necə İşləyir?</h2>
-
-<p>Müasir kamera sistemləri əsasən aşağıdakı komponentlərdən ibarətdir:</p>
-
-<ul>
-  <li>Kamera sensoru (video capture)</li>
-  <li>Embedded OS (Linux əsaslı firmware)</li>
-  <li>Network modul (Wi-Fi / Ethernet)</li>
-  <li>Web panel və API</li>
-  <li>Cloud storage və mobil tətbiqlər</li>
-</ul>
-
-<p>Bu arxitektura <strong>web security</strong>, <strong>network security</strong> və <strong>server security</strong> mövzularını birləşdirir.</p>
-
-<hr />
-
-<h2 id="-ip-kameralar-və-i̇nternet-riski">🌐 IP Kameralar və İnternet Riski</h2>
-
-<p>IP kameralar birbaşa internetə çıxışa malikdir.<br />
-Əgər düzgün konfiqurasiya olunmayıbsa:</p>
-
-<ul>
-  <li>Default password qalır</li>
-  <li>Port forwarding açıq olur</li>
-  <li>HTTPS yoxdur</li>
-  <li>Firmware köhnədir</li>
-</ul>
-
-<p>Bu isə hacker üçün <strong>açıq qapıdır</strong>.</p>
-
-<hr />
-
-<h2 id="-hacker-kameranı-necə-tapır">💀 Hacker Kameranı Necə Tapır?</h2>
-
-<p>Real hacker dərslərində istifadə olunan metodlar:</p>
-
-<ul>
-  <li>Shodan / Censys ilə IP camera axtarışı</li>
-  <li>Açıq port scan (RTSP, HTTP, HTTPS)</li>
-  <li>Banner grabbing</li>
-  <li>Default credential yoxlanışı</li>
-  <li>Web panel exploit-ləri</li>
-</ul>
-
-<p>Bu metodlar <strong>ethical hacking təlimləri</strong> üçün əsasdır.</p>
-
-<hr />
-
-<h2 id="-kamera-hack-ssenariləri">🔓 Kamera Hack Ssenariləri</h2>
-
-<h3 id="1️⃣-default-password-hücumu">1️⃣ Default Password Hücumu</h3>
-<p>İstifadəçi admin/admin saxlayır → kamera ələ keçirilir.</p>
-
-<h3 id="2️⃣-rtsp-stream-sızması">2️⃣ RTSP Stream Sızması</h3>
-<p>Video stream autentifikasiya olmadan açıqdır.</p>
-
-<h3 id="3️⃣-web-panel-exploit">3️⃣ Web Panel Exploit</h3>
-<p>XSS, RCE və ya command injection ilə tam nəzarət.</p>
-
-<h3 id="4️⃣-cloud-hesab-sızması">4️⃣ Cloud Hesab Sızması</h3>
-<p>Mobil tətbiq zəifdirsə, bütün kameralar ifşa olunur.</p>
-
-<hr />
-
-<h2 id="️-gizli-kamera-problemi-haradan-yaranır">🕵️ Gizli Kamera Problemi Haradan Yaranır?</h2>
-
-<p>Gizli kamera riski əsasən:</p>
-<ul>
-  <li>Kirayə evlər</li>
-  <li>Otellər</li>
-  <li>Ofislər</li>
-  <li>Soyunma otaqları</li>
-</ul>
-
-<p>Bu cihazlar çox vaxt:</p>
-<ul>
-  <li>ucuz IoT kameralar olur</li>
-  <li>heç vaxt update edilmir</li>
-  <li>lokal şəbəkədə gizlədilir</li>
-</ul>
-
-<hr />
-
-<h2 id="️-blue-team-kameraları-necə-qoruyur">🛡️ Blue Team Kameraları Necə Qoruyur?</h2>
-
-<p>Blue Team və SOC Analyst dərslərində:</p>
-
-<ul>
-  <li>Network segmentation</li>
-  <li>IDS/IPS qaydaları</li>
-  <li>Firewall rule-ları</li>
-  <li>Honeypot ilə IoT izləmə</li>
-  <li>Log analysis</li>
-</ul>
-
-<p>öyrədilir.</p>
-
-<p>Kamera təhlükəsizliyi <strong>IoT Security</strong> mövzusunun əsas hissəsidir.</p>
-
-<hr />
-
-<h2 id="-real-təlim-ssenariləri">🧪 Real Təlim Ssenariləri</h2>
-
-<ul>
-  <li>IP kamera brute-force aşkarlanması</li>
-  <li>RTSP stream monitorinqi</li>
-  <li>Kamera trafiki anomaly detection</li>
-  <li>Malware-in kamera üzərindən yayılması</li>
-  <li>CCTV sistemlərinə lateral movement</li>
-</ul>
-
-<p>Bunlar real kiber dərslərdə istifadə olunur.</p>
-
-<hr />
-
-<h2 id="️-kamera-təhlükəsizliyində-edilən-səhvlər">⚠️ Kamera Təhlükəsizliyində Edilən Səhvlər</h2>
-
-<ul>
-  <li>Kameranı birbaşa internetə açmaq</li>
-  <li>Default portları dəyişməmək</li>
-  <li>Firmware update etməmək</li>
-  <li>Eyni şəbəkədə server saxlamaq</li>
-  <li>Log-ları yoxlamamaq</li>
-</ul>
-
-<p>Bu səhvlər real hücumlara səbəb olur.</p>
-
-<hr />
-
-<h2 id="-hacker-dərsləri-üçün-kamera-sistemləri-niyə-vacibdir">🎓 Hacker Dərsləri üçün Kamera Sistemləri niyə Vacibdir?</h2>
-
-<p>Çünki kamera:</p>
-<ul>
-  <li>real sistemdir</li>
-  <li>real hədəfdir</li>
-  <li>real data ötürür</li>
-  <li>real risk yaradır</li>
-</ul>
-
-<p>Bu səbəbdən <strong>kiber dərslər</strong>, <strong>hacker kursları</strong> və <strong>ethical hacking təlimləri</strong> mütləq kamera ssenariləri ilə zənginləşdirilməlidir.</p>
-
-<hr />
-
-<h2 id="-nəticə">🚀 Nəticə</h2>
-
-<p>Kamera sadəcə baxan deyil.<br />
-O həm də <strong>şəbəkədə danışan</strong>, <strong>məlumat ötürən</strong> və <strong>hədəfə çevrilən cihazdır</strong>.</p>
-
-<blockquote>
-  <p>Kameranı qorumağı bilməyən,
-şəbəkəni də qoruya bilməz.</p>
-</blockquote>
-
-<hr />
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Web Security • IoT Security • Blue Team • Ethical Hacking • Real Lablar</p>
-
-<hr />
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="iot təhlükəsizliyi" /><category term="kamera izləmə sistemi" /><category term="gizli kamera hack" /><category term="ip camera hacking" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik  təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="iot security" /><category term="web security dərsləri" /><category term="network hacking" /><category term="cctv hack" /><category term="blue team dərsləri" /><category term="real kiber hücumlar" /><category term="server security" /><summary type="html"><![CDATA[Kameralar necə izləyir, IP kameralar necə hacklənir və real hücum ssenariləri necə işləyir? Gizli kamera sızmaları, IoT və CCTV təhlükəsizliyi üzrə peşəkar kibertəhlükəsizlik və hacker dərsləri (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/kamera.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/kamera.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="forensics" /><category term="blue team" /><category term="digital forensics" /><category term="forensiks nədir" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kibertəhlükəsizlik təlimləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="ethical hacking" /><category term="blue team dərsləri" /><category term="soc analyst" /><category term="malware forensics" /><category term="disk forensics" /><category term="memory forensics" /><category term="log analysis" /><category term="web security dərsləri" /><category term="server security" /><summary type="html"><![CDATA[Digital Forensics nədir, sistem izləri necə analiz olunur və hacker hücumlarından sonra sübutlar necə tapılır? Blue Team, SOC Analyst və Ethical Hacking üçün real forensiks dərsi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/forensi.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/forensi.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
