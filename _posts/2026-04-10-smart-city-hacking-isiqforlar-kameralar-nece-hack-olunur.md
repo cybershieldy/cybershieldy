@@ -16,6 +16,9 @@ tags:
   - blue team
 description: "İşıqforlar, şəhər kameraları və böyük reklam ekranları hack oluna bilərmi? Smart city sistemlərində boşluqlar və real hücum ssenariləri."
 keywords: "kiber dersler, hacker dersleri, hacking kurslari, kiber tehlukesizlik kurslari, smart city hacking, iot hacking, cyber security 2026"
+image: /assets/images/iot-sys.webp
+canonical: https://cybershieldy.com/posts/2026-04-10-smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur
+permalink: /posts/2026-04-10-smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur
 ---
 
 # 🚦💻 Şəhər Sistemləri Hack Oluna Bilərmi?
