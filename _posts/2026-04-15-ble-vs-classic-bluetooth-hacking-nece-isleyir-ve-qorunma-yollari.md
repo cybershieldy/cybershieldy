@@ -15,7 +15,7 @@ tags:
   - blue team
 description: "BLE və Classic Bluetooth fərqləri, necə işləyir, necə hack edilə bilər və qorunma yolları. Real ssenarilər və praktik izah."
 keywords: "ble nədir, bluetooth hacking, kiber dersler, hacker dersleri, bluetooth security, cyber security 2026"
-image: /assets/images/bluetooth-sec.webp
+image: /assets/images/ble.webp
 canonical: https://cybershieldy.com/posts/ble-vs-classic-bluetooth
 permalink: /posts/ble-vs-classic-bluetooth
 ---
