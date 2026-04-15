@@ -258,12 +258,16 @@ Bəli, ən zəif nöqtədir.
 
 ---
 
+
 # 🔗 Oxşar Mövzular
 
-- 🔴🔵 Red Team vs Blue Team  
-- 📡 IoT Security  
-- 💀 Bad USB hücumları  
-- 📶 WiFi hacking  
+
+- 🎣⚠️ [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)  
+- 🔴🔵🛡️ [Kibertəhlükəsizlikdə Red Team və Blue Team nədir?](https://cybershieldy.com/posts/red-team-vs-blue-team)  
+- 📶🔓⚠️ [İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?](https://cybershieldy.com/posts/wifi-hucumlari)  
+- 🔌💀🧠 [Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar](/posts/fiziki-hucumlar-genis)
+
+
 
 ---
 

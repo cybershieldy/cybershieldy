@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-15T09:15:38+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth" rel="alternate" type="text/html" title="📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)" /><published>2026-04-15T06:00:00+04:00</published><updated>2026-04-15T06:00:00+04:00</updated><id>https://cybershieldy.com/posts/ble-vs-classic-bluetooth-hacking-nece-isleyir-ve-qorunma-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/ble-vs-classic-bluetooth"><![CDATA[<h1 id="-ble-vs-classic-bluetooth--hackerlər-üçün-tam-analiz">📶🔵 BLE vs Classic Bluetooth – Hackerlər üçün tam analiz</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-15T09:38:29+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth" rel="alternate" type="text/html" title="📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)" /><published>2026-04-15T06:00:00+04:00</published><updated>2026-04-15T06:00:00+04:00</updated><id>https://cybershieldy.com/posts/ble-vs-classic-bluetooth-hacking-nece-isleyir-ve-qorunma-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/ble-vs-classic-bluetooth"><![CDATA[<h1 id="-ble-vs-classic-bluetooth--hackerlər-üçün-tam-analiz">📶🔵 BLE vs Classic Bluetooth – Hackerlər üçün tam analiz</h1>
 
 <p>Bluetooth artıq həyatımızın hər yerindədir:</p>
 
@@ -310,10 +310,10 @@
 <h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
 
 <ul>
-  <li>🔴🔵 Red Team vs Blue Team</li>
-  <li>📡 IoT Security</li>
-  <li>💀 Bad USB hücumları</li>
-  <li>📶 WiFi hacking</li>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
 </ul>
 
 <hr />
