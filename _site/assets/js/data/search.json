@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)",
+    "url": "/posts/ideaspark-esp32-siem-ssh-brute-force",
+    "categories": "kibertəhlükəsizlik, siem, iot security",
+    "tags": "kiber dersler, kiber təhlükəsizlik, kiber tehlukesizlik, hacker dersleri, xaker dersleri, cyber security, siber güvenlik, siem, wazuh, esp32, ideaspark, iot security, red team, blue team",
+    "date": "2026-04-20 10:00:00 +0400",
+    "content": "Ideaspark ESP32 modulu ilə SIEM inteqrasiyası, SSH brute force hücumunun real vaxtda aşkarlanması, monitorinq, alert və müdafiə yanaşmaları haqqında geniş SEO dostu məqalə."
+  },
+  
+  {
     "title": "📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)",
     "url": "/posts/ble-vs-classic-bluetooth",
     "categories": "kibertəhlükəsizlik, hacking, bluetooth",

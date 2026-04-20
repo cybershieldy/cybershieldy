@@ -1,4 +1,303 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-20T20:35:30+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth" rel="alternate" type="text/html" title="📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)" /><published>2026-04-15T06:00:00+04:00</published><updated>2026-04-15T10:49:04+04:00</updated><id>https://cybershieldy.com/posts/ble-vs-classic-bluetooth-hacking-nece-isleyir-ve-qorunma-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/ble-vs-classic-bluetooth"><![CDATA[<h1 id="-ble-vs-classic-bluetooth--hackerlər-üçün-tam-analiz">📶🔵 BLE vs Classic Bluetooth – Hackerlər üçün tam analiz</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-20T20:41:49+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)</title><link href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force" rel="alternate" type="text/html" title="📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)" /><published>2026-04-20T10:00:00+04:00</published><updated>2026-04-20T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/ideaspark-esp32-siem-inteqrasiyasi-ssh-brute-force-hucumu-nece-askarlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force"><![CDATA[<h1 id="️-ideaspark-esp32-ilə-siem-i̇nteqrasiyası-ssh-brute-force-hücumu-necə-aşkarlanır">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır?</h1>
+
+<p>Bugünkü kibertəhlükəsizlik dünyasında hücumlar artıq yalnız serverdə, firewall-da və ya log fayllarında görünən hadisələr deyil. Müasir müdafiə yanaşmalarında hadisələrin <strong>real vaxtda vizual izlənməsi</strong>, <strong>SIEM sistemlərinə inteqrasiya olunması</strong>, <strong>IoT cihazlar üzərindən xəbərdarlıq verilməsi</strong> və <strong>praktiki lab ssenarilərinin qurulması</strong> çox böyük əhəmiyyət daşıyır.</p>
+
+<p>Bu məqalədə mən <strong>Ideaspark ESP32</strong> modulu üzərində qurduğum mini təhlükəsizlik ekranı ilə <strong>SSH brute force</strong> hücumunun necə aşkarlanmasını, SIEM ilə necə işləməsini və bu yanaşmanın real dünyada necə tətbiq oluna biləcəyini izah edirəm.</p>
+
+<hr />
+
+<h1 id="-canlı-demo-və-sosial-media-paylaşımı">🎥 Canlı Demo və Sosial Media Paylaşımı</h1>
+
+<p><strong>Instagram paylaşımı:</strong><br />
+https://www.instagram.com/p/DXW6afYjPgi/</p>
+
+<iframe src="https://www.instagram.com/p/DXW6afYjPgi/embed" width="100%" height="650"></iframe>
+
+<hr />
+
+<h1 id="-ideaspark-esp32-nədir">⚡ Ideaspark ESP32 nədir?</h1>
+
+<p>Ideaspark ESP32 — WiFi dəstəyi olan, OLED ekranlı kompakt mikrokontrollerdir və kibertəhlükəsizlik lablarında vizual monitor kimi istifadə oluna bilər.</p>
+
+<hr />
+
+<h1 id="-ssh-brute-force-nədir">🚨 SSH Brute Force nədir?</h1>
+
+<p>SSH brute force — sistemə çoxsaylı parol cəhdləri ilə daxil olmağa çalışmaqdır. Bu zaman loglarda çoxsaylı uğursuz girişlər yaranır.</p>
+
+<hr />
+
+<h1 id="-siem-bu-layihədə-nə-edir">🧠 SIEM bu layihədə nə edir?</h1>
+
+<p>SIEM:</p>
+<ul>
+  <li>logları toplayır</li>
+  <li>analiz edir</li>
+  <li>qayda əsasında alert yaradır</li>
+  <li>digər sistemlərə ötürür</li>
+</ul>
+
+<hr />
+
+<h1 id="-hücumdan-vizual-alert-ə-qədər-tam-axın">🔗 Hücumdan Vizual Alert-ə qədər Tam Axın</h1>
+
+<h2 id="1-uğursuz-giriş">1. Uğursuz Giriş</h2>
+<p>Permission denied, please try again.</p>
+
+<hr />
+
+<h2 id="2-loglara-yazılır">2. Loglara Yazılır</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/var/log/auth.log</code></li>
+  <li><code class="language-plaintext highlighter-rouge">systemd journal</code></li>
+</ul>
+
+<hr />
+
+<h2 id="3-siem-analizi">3. SIEM Analizi</h2>
+
+<ul>
+  <li>brute force kimi qiymətləndirilir</li>
+  <li>alert yaranır</li>
+</ul>
+
+<hr />
+
+<h2 id="4-alert-yayılır">4. Alert Yayılır</h2>
+
+<ul>
+  <li>Wazuh dashboard</li>
+  <li>Telegram</li>
+  <li>n8n</li>
+  <li>ESP32</li>
+</ul>
+
+<hr />
+
+<h2 id="5-esp32-vizual-alert">5. ESP32 Vizual Alert</h2>
+
+<p>SSH-BRUTE
+sshd: authentication
+IP: 192.168.x.x
+Level: 5</p>
+
+<hr />
+
+<h1 id="-niyə-bu-sistem-güclüdür">💥 Niyə Bu Sistem Güclüdür?</h1>
+
+<ul>
+  <li>vizual və real-time</li>
+  <li>SOC düşüncəsi yaradır</li>
+  <li>praktiki öyrənmə verir</li>
+  <li>content üçün ideal</li>
+</ul>
+
+<hr />
+
+<h1 id="-red-team-baxışı">🔴 Red Team Baxışı</h1>
+
+<ul>
+  <li>brute force davranışı</li>
+  <li>detection limitləri</li>
+  <li>log izi</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-baxışı">🔵 Blue Team Baxışı</h1>
+
+<ul>
+  <li>monitorinq</li>
+  <li>alerting</li>
+  <li>response</li>
+</ul>
+
+<hr />
+
+<h1 id="-iot-ilə-inteqrasiya">🌐 IoT ilə inteqrasiya</h1>
+
+<p>ESP32 burada:
+➡️ vizual monitor rolundadır</p>
+
+<hr />
+
+<h1 id="️-komponentlər">🛠️ Komponentlər</h1>
+
+<ul>
+  <li>Ubuntu</li>
+  <li>Wazuh</li>
+  <li>Fail2Ban</li>
+  <li>n8n</li>
+  <li>ESP32</li>
+</ul>
+
+<hr />
+
+<h1 id="️-qorunma">🛡️ Qorunma</h1>
+
+<ul>
+  <li>güclü parol</li>
+  <li>SSH key</li>
+  <li>Fail2Ban</li>
+  <li>SIEM</li>
+</ul>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir?</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi təhlükələri</a></li>
+  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki hücumlar</a></li>
+  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth hücumları</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="siem" /><category term="iot security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="cyber security" /><category term="siber güvenlik" /><category term="siem" /><category term="wazuh" /><category term="esp32" /><category term="ideaspark" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Ideaspark ESP32 modulu ilə SIEM inteqrasiyası, SSH brute force hücumunun real vaxtda aşkarlanması, monitorinq, alert və müdafiə yanaşmaları haqqında geniş SEO dostu məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ideaspark-siem-ssh-brute.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ideaspark-siem-ssh-brute.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth" rel="alternate" type="text/html" title="📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)" /><published>2026-04-15T06:00:00+04:00</published><updated>2026-04-15T10:49:04+04:00</updated><id>https://cybershieldy.com/posts/ble-vs-classic-bluetooth-hacking-nece-isleyir-ve-qorunma-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/ble-vs-classic-bluetooth"><![CDATA[<h1 id="-ble-vs-classic-bluetooth--hackerlər-üçün-tam-analiz">📶🔵 BLE vs Classic Bluetooth – Hackerlər üçün tam analiz</h1>
 
 <p>Bluetooth artıq həyatımızın hər yerindədir:</p>
 
@@ -3871,344 +4170,4 @@ Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Et
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="avtomatlaşdırma" /><category term="red team" /><category term="ai təhlükəsizlik" /><category term="süni intellekt" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="web proqramlaşdırma kursu" /><category term="sistem avtomatlaşdırma" /><category term="robotlaşma" /><summary type="html"><![CDATA[Süni intellekt (AI) hackerlərə necə dəstək olur? Avtomatlaşdırma və robotlaşma sistemləri nə qədər inkişaf edib? 2026 perspektivindən geniş kiber təhlükəsizlik analizi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/aih.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/aih.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)</title><link href="https://cybershieldy.com/posts/uz-tanima-gps-osint" rel="alternate" type="text/html" title="Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT, Digital Forensics və Hacker Taktikaları (2026)" /><published>2026-02-15T01:00:00+04:00</published><updated>2026-02-16T00:48:17+04:00</updated><id>https://cybershieldy.com/posts/uz-tanima-ve-osint-ile-insan-axtarisi</id><content type="html" xml:base="https://cybershieldy.com/posts/uz-tanima-gps-osint"><![CDATA[<h1 id="üz-tanıma-gps-metadata-və-i̇nsan-axtarışı-osint-və-hacker-perspektivi">Üz Tanıma, GPS Metadata və İnsan Axtarışı: OSINT və Hacker Perspektivi</h1>
-
-<p>Müasir dünyada bir şəkil sadəcə şəkil deyil.<br />
-O — üz, məkan, zaman və bəzən bütün bir hekayədir.</p>
-
-<p>Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber təlimlərdə artıq insan axtarışı mövzusu OSINT və Digital Forensics ilə sıx bağlıdır.</p>
-
-<p>Bir foto paylaşılır.<br />
-Red Team onu analiz edir.<br />
-Blue Team isə həmin riski bağlamağı öyrədir.</p>
-
-<hr />
-
-<h2 id="üz-tanıma-sistemləri-necə-i̇şləyir">Üz Tanıma Sistemləri Necə İşləyir?</h2>
-
-<p>Üz tanıma sistemləri aşağıdakı prinsiplərlə işləyir:</p>
-
-<ul>
-  <li>Üzdəki biometrik nöqtələrin analizi</li>
-  <li>Göz, burun, çənə məsafələrinin ölçülməsi</li>
-  <li>Süni intellekt modeli ilə müqayisə</li>
-  <li>Oxşarlıq faizinin hesablanması</li>
-</ul>
-
-<p>Bu sistemlər aşağıdakı sahələrdə istifadə olunur:</p>
-
-<ul>
-  <li>Təhlükəsizlik kameraları</li>
-  <li>Sərhəd nəzarət sistemləri</li>
-  <li>Sosial media platformaları</li>
-  <li>Korporativ giriş sistemləri</li>
-</ul>
-
-<p>Red Team dərslərində bu sistemlərin zəif tərəfləri analiz edilir.<br />
-Blue Team dərslərində isə müdafiə mexanizmləri öyrədilir.</p>
-
-<hr />
-
-<h2 id="şəkillərdə-gps-metadata-nədir">Şəkillərdə GPS Metadata Nədir?</h2>
-
-<p>Şəkillər çox vaxt EXIF metadata saxlayır.</p>
-
-<p>Bu məlumatlara daxil ola bilər:</p>
-
-<ul>
-  <li>Çəkilmə vaxtı</li>
-  <li>Kamera modeli</li>
-  <li>GPS koordinatları</li>
-  <li>Proqram versiyası</li>
-</ul>
-
-<p>Əgər GPS aktivdirsə, şəkil:</p>
-
-<ul>
-  <li>Hansı şəhərdə</li>
-  <li>Hansı küçədə</li>
-  <li>Hansı koordinatda</li>
-</ul>
-
-<p>çəkildiyini göstərə bilər.</p>
-
-<p>Digital Forensics və OSINT dərslərində metadata analizi vacib praktik bacarıq hesab olunur.</p>
-
-<hr />
-
-<h2 id="şəkil-ilə-i̇nsan-axtarışı-osint-perspektivi">Şəkil ilə İnsan Axtarışı (OSINT Perspektivi)</h2>
-
-<p>Şəkil vasitəsilə analiz zamanı araşdırılan faktorlar:</p>
-
-<ul>
-  <li>Üz oxşarlığı</li>
-  <li>Arxa plan detalları</li>
-  <li>Geyim brendləri</li>
-  <li>Avtomobil nömrələri</li>
-  <li>Bina və obyekt identifikasiyası</li>
-</ul>
-
-<p>Bu proses OSINT (Open Source Intelligence) çərçivəsində aparılır və sosial mühəndislik risklərini göstərir.</p>
-
-<p>Burada məqsəd hücum deyil — riskləri başa düşmək və müdafiə qurmaqdır.</p>
-
-<hr />
-
-<h2 id="i̇nfrastruktur-axtarışı-və-osint-alətləri">İnfrastruktur Axtarışı və OSINT Alətləri</h2>
-
-<p>OSINT və Red Team mühitində aşağıdakılar analiz edilir:</p>
-
-<ul>
-  <li>İnternetə açıq sistemlər</li>
-  <li>Açıq portlar</li>
-  <li>Server identifikasiyası</li>
-  <li>Kamera və IoT cihazları</li>
-</ul>
-
-<p>Bu biliklər:</p>
-
-<ul>
-  <li>hacker dərsləri</li>
-  <li>ethical hacking kursları</li>
-  <li>kiber təlimlər</li>
-  <li>web security dərsləri</li>
-</ul>
-
-<p>üçün fundamental baza yaradır.</p>
-
-<hr />
-
-<h2 id="digital-forensics-və-şəkil-analizi">Digital Forensics və Şəkil Analizi</h2>
-
-<p>Forensik analiz zamanı aşağıdakı suallar cavablandırılır:</p>
-
-<ul>
-  <li>Şəkil manipulyasiya olunubmu?</li>
-  <li>Metadata dəyişdirilibmi?</li>
-  <li>Şəkil hansı cihazdan çıxıb?</li>
-  <li>Paylaşılma zənciri necə olub?</li>
-</ul>
-
-<p>Bu mövzu həm hüquqi, həm də texniki baxımdan vacibdir.</p>
-
-<hr />
-
-<h2 id="red-team-və-blue-team-perspektivi">Red Team və Blue Team Perspektivi</h2>
-
-<p>Red Team:</p>
-
-<ul>
-  <li>Açıq məlumat toplayır</li>
-  <li>Zəif nöqtələri müəyyən edir</li>
-  <li>OSINT metodlarından istifadə edir</li>
-</ul>
-
-<p>Blue Team:</p>
-
-<ul>
-  <li>Məlumat sızmasının qarşısını alır</li>
-  <li>Müdafiə mexanizmləri qurur</li>
-  <li>Sistem monitorinqi aparır</li>
-</ul>
-
-<p>Kibertəhlükəsizlik dərsləri bu balans üzərində qurulur.</p>
-
-<hr />
-
-<h2 id="real-risklər">Real Risklər</h2>
-
-<ul>
-  <li>Sosial mediada açıq profil</li>
-  <li>GPS aktiv kamera</li>
-  <li>Metadata silinmədən paylaşım</li>
-  <li>Korporativ şəkillərdə daxili məlumatların görünməsi</li>
-</ul>
-
-<p>Bir şəkil böyük məlumat sızmasına səbəb ola bilər.</p>
-
-<hr />
-
-<h2 id="bu-mövzu-kimlər-üçündür">Bu Mövzu Kimlər Üçündür?</h2>
-
-<p>Bu məqalə aşağıdakılar üçün uyğundur:</p>
-
-<ul>
-  <li>kibertəhlükəsizlik dərsləri ilə maraqlananlar</li>
-  <li>hacker təlimlərinə qoşulanlar</li>
-  <li>ethical hacking öyrənənlər</li>
-  <li>red team və blue team biliklərini artırmaq istəyənlər</li>
-  <li>web security sahəsində inkişaf etmək istəyənlər</li>
-</ul>
-
-<hr />
-
-<h2 id="nəticə">Nəticə</h2>
-
-<p>İnsan axtarışı artıq yalnız ad və soyadla aparılmur.<br />
-Bəzən bir şəkil, bir koordinat və bir açıq məlumat kifayət edir.</p>
-
-<p>Kibertəhlükəsizlikdə əsas məqsəd sistemi sındırmaq deyil — zəifliyi başa düşmək və onu qorumaqdır</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li><a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbələrdən Kiber Kəşfiyyat</a></li>
-  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team Fərqləri</a></li>
-  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri və Hücum Ssenariləri</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-əlaqəli-məqalələr">📎 Əlaqəli Məqalələr</h2>
-
-<ul>
-  <li><a href="https://cybershieldy.com/posts/sosial-mühəndislik">Sosial Mühəndislik Nədir və Real Hücum Nümunələri</a></li>
-  <li><a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team Nədir?</a></li>
-  <li><a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi İstifadə Edərkən Nələrə Diqqət Etməli?</a></li>
-  <li><a href="https://cybershieldy.com/posts/digital-forensics-nedir">digital-forensics-nedir</a></li>
-</ul>
-
-<hr />
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar</p>
-
-<hr />
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="osint" /><category term="digital forensics" /><category term="red team" /><category term="üz tanıma sistemi" /><category term="insan axtarışı" /><category term="şəkil ilə axtarış" /><category term="gps metadata" /><category term="osint dərsləri" /><category term="kibertəhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="hacker təlimləri" /><category term="kiber təlimlər" /><category term="ethical hacking" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="web kurs" /><category term="web dərslər" /><category term="shodan nədir" /><category term="maltego nədir" /><summary type="html"><![CDATA[Üz tanıma sistemləri, şəkil metadata (GPS) analizi və OSINT vasitəsilə insan axtarışı necə aparılır? Red Team və Digital Forensics perspektivindən geniş kiber təhlükəsizlik dərsi (2026).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/face.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/face.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="avtomatlaşdırma" /><category term="red team" /><category term="ai təhlükəsizlik" /><category term="süni intellekt" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="web proqramlaşdırma kursu" /><category term="sistem avtomatlaşdırma" /><category term="robotlaşma" /><summary type="html"><![CDATA[Süni intellekt (AI) hackerlərə necə dəstək olur? Avtomatlaşdırma və robotlaşma sistemləri nə qədər inkişaf edib? 2026 perspektivindən geniş kiber təhlükəsizlik analizi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/aih.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/aih.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
