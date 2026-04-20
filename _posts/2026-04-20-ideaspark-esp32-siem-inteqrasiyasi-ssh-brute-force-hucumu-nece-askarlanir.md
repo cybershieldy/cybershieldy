@@ -20,7 +20,7 @@ tags:
   - blue team
 description: "Ideaspark ESP32 modulu ilə SIEM inteqrasiyası, SSH brute force hücumunun real vaxtda aşkarlanması, monitorinq, alert və müdafiə yanaşmaları haqqında geniş SEO dostu məqalə."
 keywords: "ideaspark esp32, siem, wazuh, ssh brute force, kiber dersler, kiber təhlükəsizlik, hacker dersleri, cyber security, siber güvenlik, esp32 security, iot security"
-image: /assets/images/ideaspark-siem-ssh-brute.webp
+image: /assets/images/ideaspark.webp
 canonical: https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force
 permalink: /posts/ideaspark-esp32-siem-ssh-brute-force
 ---
