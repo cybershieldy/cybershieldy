@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)",
+    "url": "/posts/robotexnika-kiber-gelecek",
+    "categories": "kibertəhlükəsizlik, robotexnika, ai security",
+    "tags": "kiber dersler, kiber təhlükəsizlik, kiber tehlukesizlik, hacker dersleri, cyber security, robotexnika, ai security, iot security, smart systems, red team, blue team, future tech",
+    "date": "2026-04-30 08:00:00 +0400",
+    "content": "Robotexnika və kibertəhlükəsizliyin gələcəkdə necə birləşəcəyi, AI və IoT ilə ağıllı müdafiə sistemlərinin qurulması və real dünya tətbiqləri haqqında geniş analiz."
+  },
+  
+  {
     "title": "📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)",
     "url": "/posts/ideaspark-esp32-siem-ssh-brute-force",
     "categories": "kibertəhlükəsizlik, siem, iot security",

@@ -1,4 +1,245 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-20T22:30:12+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)</title><link href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force" rel="alternate" type="text/html" title="📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)" /><published>2026-04-20T10:00:00+04:00</published><updated>2026-04-20T20:52:07+04:00</updated><id>https://cybershieldy.com/posts/ideaspark-esp32-siem-inteqrasiyasi-ssh-brute-force-hucumu-nece-askarlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force"><![CDATA[<h1 id="️-ideaspark-esp32-ilə-siem-i̇nteqrasiyası-ssh-brute-force-hücumu-necə-aşkarlanır">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-30T18:45:12+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)</title><link href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" rel="alternate" type="text/html" title="🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)" /><published>2026-04-30T08:00:00+04:00</published><updated>2026-04-30T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/robotexnika-ve-kiber-tehlukesizlik-geleceyin-agilli-mudafie-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/robotexnika-kiber-gelecek"><![CDATA[<h1 id="️-robotexnika-və-kibertəhlükəsizlik-gələcəyin-müdafiə-dünyası">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Müdafiə Dünyası</h1>
+
+<p>Texnologiya sürətlə dəyişir…<br />
+Amma ən böyük dəyişiklik bir yerdə baş verir:</p>
+
+<p>⚡ <strong>Robotexnika + Kibertəhlükəsizlik</strong></p>
+
+<p>Artıq təhlükəsizlik yalnız <strong>server qorumaq deyil</strong><br />
+Artıq təhlükəsizlik:</p>
+
+<p>➡️ görür<br />
+➡️ hiss edir<br />
+➡️ analiz edir<br />
+➡️ qərar verir<br />
+➡️ cavab verir</p>
+
+<p>Bu isə o deməkdir ki, gələcəkdə sistemlər <strong>insan kimi düşünən müdafiə mexanizmlərinə çevriləcək</strong>.</p>
+
+<hr />
+
+<h1 id="-canlı-demo-sensor--real-sistem">🎥 Canlı Demo (Sensor + Real Sistem)</h1>
+
+<p>📲 Bax və sistemi canlı gör:<br />
+https://www.instagram.com/p/DXo7XYPDOlN/</p>
+
+<iframe src="https://www.instagram.com/p/DXo7XYPDOlN/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="-gələcəyin-təhlükəsizlik-konsepti">🌍 Gələcəyin Təhlükəsizlik Konsepti</h1>
+
+<p>Əvvəllər:</p>
+<ul>
+  <li>firewall qur</li>
+  <li>antivirus işə sal</li>
+  <li>loglara bax</li>
+</ul>
+
+<p>İndi isə:</p>
+
+<p>🤖 robot sistemlər<br />
+🧠 süni intellekt<br />
+📡 sensor şəbəkələri<br />
+🔗 SIEM platformalar</p>
+
+<p>➡️ hamısı bir yerdə işləyir</p>
+
+<p>Bu artıq:
+<strong>Cyber-Physical Security System</strong> adlanır.</p>
+
+<hr />
+
+<h1 id="-gələcək-sistem-necə-işləyəcək">🔗 Gələcək sistem necə işləyəcək?</h1>
+
+<h2 id="1-fiziki-dünya-izlənir">1. Fiziki dünya izlənir</h2>
+
+<ul>
+  <li>kameralar (face recognition)</li>
+  <li>sensorlar (motion, heat)</li>
+  <li>biometrik sistemlər</li>
+</ul>
+
+<hr />
+
+<h2 id="2-hadisə-baş-verir">2. Hadisə baş verir</h2>
+
+<p>Unknown person detected
+Unauthorized access attempt</p>
+
+<hr />
+
+<h2 id="3-siem--ai-analiz-edir">3. SIEM + AI analiz edir</h2>
+
+<ul>
+  <li>risk səviyyəsi təyin olunur</li>
+  <li>davranış analiz edilir</li>
+  <li>anomaly detection işləyir</li>
+</ul>
+
+<hr />
+
+<h2 id="4-sistem-qərar-verir">4. Sistem qərar verir</h2>
+
+<ul>
+  <li>qapı kilidlənir 🔒</li>
+  <li>kamera fokuslanır 📷</li>
+  <li>alarm aktivləşir 🚨</li>
+</ul>
+
+<hr />
+
+<h2 id="5-avtomatik-cavab">5. Avtomatik cavab</h2>
+
+<ul>
+  <li>adminə alert gedir</li>
+  <li>sistem hücumu bloklayır</li>
+  <li>hadisə loglanır</li>
+</ul>
+
+<hr />
+
+<h1 id="-bu-nə-deməkdir">💥 Bu nə deməkdir?</h1>
+
+<p>Bu artıq:</p>
+
+<p>❌ sadə təhlükəsizlik sistemi deyil<br />
+✅ <strong>özünü qoruyan ağıllı sistemdir</strong></p>
+
+<hr />
+
+<h1 id="-süni-intellektin-rolu">🧠 Süni intellektin rolu</h1>
+
+<p>AI gələcəkdə:</p>
+
+<ul>
+  <li>istifadəçi davranışını öyrənəcək</li>
+  <li>normal vs anormal fərqini anlayacaq</li>
+  <li>hücumu əvvəlcədən hiss edəcək</li>
+</ul>
+
+<p>➡️ bu isə <strong>predictive security</strong> deməkdir</p>
+
+<hr />
+
+<h1 id="-red-team-perspektivi">🔴 Red Team perspektivi</h1>
+
+<p>Gələcəkdə hücumlar:</p>
+
+<ul>
+  <li>AI bypass etməyə yönələcək</li>
+  <li>sensorları aldatmağa çalışacaq</li>
+  <li>deepfake identity istifadə edəcək</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-perspektivi">🔵 Blue Team perspektivi</h1>
+
+<p>Müdafiə isə:</p>
+
+<ul>
+  <li>multi-layer olacaq</li>
+  <li>real-time olacaq</li>
+  <li>avtomatik olacaq</li>
+  <li>AI ilə güclənəcək</li>
+</ul>
+
+<hr />
+
+<h1 id="-haralarda-istifadə-olunacaq">🌐 Haralarda istifadə olunacaq?</h1>
+
+<p>🏢 şirkətlərdə<br />
+🏠 smart evlərdə<br />
+🏙️ smart city layihələrində<br />
+🛡️ dövlət təhlükəsizlik sistemlərində</p>
+
+<hr />
+
+<h1 id="-gələcəyin-texnologiyaları">🚀 Gələcəyin texnologiyaları</h1>
+
+<p>⚡ AI Security<br />
+⚡ IoT Security<br />
+⚡ Autonomous Defense Systems<br />
+⚡ Smart Surveillance</p>
+
+<hr />
+
+<h1 id="️-real-lab-yanaşması">🛠️ Real lab yanaşması</h1>
+
+<p>Sənin qurduğun kimi sistemlər:</p>
+
+<ul>
+  <li>ESP32 (sensor + ekran)</li>
+  <li>Wazuh (SIEM)</li>
+  <li>n8n (automation)</li>
+  <li>Asterisk (VOIP alert)</li>
+</ul>
+
+<p>➡️ bu artıq:
+<strong>gələcəyin real prototipidir</strong></p>
+
+<hr />
+
+<h1 id="-nəticə">⚡ Nəticə</h1>
+
+<p>Robotexnika + Kibertəhlükəsizlik =</p>
+
+<p>🔥 ağıllı müdafiə<br />
+🔥 real-time qoruma<br />
+🔥 avtomatik cavab<br />
+🔥 AI ilə inkişaf</p>
+
+<p>➡️ gələcəkdə sistemlər:
+<strong>yalnız qorunmayacaq… özünü müdafiə edəcək</strong></p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🔴🔵 https://cybershieldy.com/posts/red-team-vs-blue-team</li>
+  <li>📡 https://cybershieldy.com/posts/ai-kibertelhukesizlik</li>
+  <li>🔌 https://cybershieldy.com/posts/wifi-hucumlari</li>
+</ul>
+
+<hr />
+
+<h1 id="-cybershieldy-academy">📢 CyberShieldy Academy</h1>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Real testlər</p>
+
+<hr />
+
+<h1 id="-reels--tiktok-altyazı">🎬 Reels / TikTok altyazı</h1>
+
+<p>🤖 Bu artıq robot deyil…<br />
+🛡️ Bu — təhlükəsizlik sistemidir</p>
+
+<p>📡 Görür<br />
+🧠 Düşünür<br />
+🚨 Reaksiya verir</p>
+
+<p>🔥 GƏLƏCƏK BURADIR</p>
+
+<hr />
+
+<h1 id="-youtube-başlıq">🎯 YouTube başlıq</h1>
+
+<p>🤖 Gələcəyin Kibertəhlükəsizliyi: Robotlar Səni Qoruyacaq!</p>
+
+<hr />
+
+<h1 id="-hashtaglar">📲 Hashtaglar</h1>
+
+<p>#kibertehlukesizlik #cybersecurity #robotexnika #iotsecurity<br />
+#ai #artificialintelligence #futuretech #smartsecurity<br />
+#hackerdersleri #kiberdersler #infosec #redteam #blueteam<br />
+#securitylab #cyberlab #azerbaijan #texnologiya</p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="robotexnika" /><category term="ai security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="cyber security" /><category term="robotexnika" /><category term="ai security" /><category term="iot security" /><category term="smart systems" /><category term="red team" /><category term="blue team" /><category term="future tech" /><summary type="html"><![CDATA[Robotexnika və kibertəhlükəsizliyin gələcəkdə necə birləşəcəyi, AI və IoT ilə ağıllı müdafiə sistemlərinin qurulması və real dünya tətbiqləri haqqında geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/future-cyber.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/future-cyber.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)</title><link href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force" rel="alternate" type="text/html" title="📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)" /><published>2026-04-20T10:00:00+04:00</published><updated>2026-04-20T20:52:07+04:00</updated><id>https://cybershieldy.com/posts/ideaspark-esp32-siem-inteqrasiyasi-ssh-brute-force-hucumu-nece-askarlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force"><![CDATA[<h1 id="️-ideaspark-esp32-ilə-siem-i̇nteqrasiyası-ssh-brute-force-hücumu-necə-aşkarlanır">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır?</h1>
 
 <p>Bugünkü kibertəhlükəsizlik dünyasında hücumlar artıq yalnız serverdə, firewall-da və ya log fayllarında görünən hadisələr deyil. Müasir müdafiə yanaşmalarında hadisələrin <strong>real vaxtda vizual izlənməsi</strong>, <strong>SIEM sistemlərinə inteqrasiya olunması</strong>, <strong>IoT cihazlar üzərindən xəbərdarlıq verilməsi</strong> və <strong>praktiki lab ssenarilərinin qurulması</strong> çox böyük əhəmiyyət daşıyır.</p>
 
@@ -3899,275 +4140,4 @@ Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Et
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="qlobal risklər" /><category term="avtomatlaşdırma" /><category term="ai təhlükəsizlik" /><category term="süni intellekt inkişafı" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="qlobal kiber müharibə" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="avtomatlaşdırma sistemləri" /><category term="robotlaşma" /><summary type="html"><![CDATA[AI inkişaf edərsə insanları əvəz edə bilərmi? Süni intellekt iş bazarını necə dəyişir və bu proses qlobal kiber müharibəyə səbəb ola bilərmi? 2026 perspektivindən geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/cyber-ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/cyber-ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI, Süni İntellekt və Hacker İnkişafı: Avtomatlaşdırma, Robotlaşma və Gələcəyin Kiber Dünyası (2026)</title><link href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma" rel="alternate" type="text/html" title="AI, Süni İntellekt və Hacker İnkişafı: Avtomatlaşdırma, Robotlaşma və Gələcəyin Kiber Dünyası (2026)" /><published>2026-02-20T01:00:00+04:00</published><updated>2026-02-26T14:16:33+04:00</updated><id>https://cybershieldy.com/posts/ai-ve-suni-intellekt-ile-hacker-avtomatlasma-ve-robotlasma</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-hacker-avtomatlasma"><![CDATA[<h1 id="-ai-süni-i̇ntellekt-və-hacker-i̇nkişafı-2026">🤖 AI, Süni İntellekt və Hacker İnkişafı (2026)</h1>
-
-<p>📌 <strong>AI artıq gələcək deyil — bu günün reallığıdır.</strong><br />
-Kibertəhlükəsizlik dərsləri, hacker dərsləri və etik hacker kursu proqramlarında süni intellekt əsas modul halına gəlib.</p>
-
-<p>AI həm hücum, həm də müdafiə tərəfdə istifadə olunur.<br />
-Bu isə o deməkdir ki, <strong>Red Team və Blue Team artıq AI-sız təsəvvür edilmir.</strong></p>
-
-<hr />
-
-<h1 id="-süni-i̇ntellekt-hackerlərə-necə-dəstək-olur">🧠 Süni İntellekt Hackerlərə Necə Dəstək Olur?</h1>
-
-<p>AI böyük datanı saniyələr içində analiz edir. Əsas istifadə sahələri:</p>
-
-<p>💻 Avtomatik zəiflik skanları<br />
-🌐 Şəbəkə trafik analizi<br />
-🔍 Anomaliya aşkarlanması<br />
-🔐 Parol pattern analizi<br />
-🎭 Sosial mühəndislik ssenarilərinin optimallaşdırılması</p>
-
-<p>⏳ Əvvəllər saatlarla davam edən proseslər indi dəqiqələr içində baş verir.</p>
-
-<hr />
-
-<h1 id="-avtomatlaşdırma-sistemləri-nə-qədər-i̇nkişaf-edib">⚙ Avtomatlaşdırma Sistemləri Nə Qədər İnkişaf Edib?</h1>
-
-<p>2026-da sistem avtomatlaşdırma artıq yeni mərhələdədir:</p>
-
-<p>🚀 AI əsaslı penetration test alətləri<br />
-📊 Real vaxt log analizi<br />
-🗺 Şəbəkə xəritəsinin avtomatik çıxarılması<br />
-📌 Zəiflik prioritetləşdirmə<br />
-📧 AI phishing analizləri</p>
-
-<p>Artıq manual analiz kifayət etmir.<br />
-AI ilə işləmək müasir kiber mütəxəssisin əsas bacarığıdır.</p>
-
-<hr />
-
-<h1 id="-robotlaşma-və-kiber-təhlükəsizlik">🤖 Robotlaşma və Kiber Təhlükəsizlik</h1>
-
-<p>Robotlaşma yalnız fiziki robot demək deyil.</p>
-
-<p>Buraya daxildir:</p>
-
-<p>🛠 RPA (Robotic Process Automation)<br />
-🛡 Avtomatik cavab sistemləri<br />
-🤖 Müdafiə botları<br />
-🏢 AI əsaslı SOC mərkəzləri</p>
-
-<p>Gələcəkdə SOC sistemləri böyük ölçüdə avtomatik qərar mexanizmləri ilə idarə olunacaq.</p>
-
-<hr />
-
-<h1 id="-ai--hacker-i̇ntegrasiyası-risklər">⚔ AI + Hacker İntegrasiyası: Risklər</h1>
-
-<p>AI həm etik, həm də qeyri-etik istifadə edilə bilər.</p>
-
-<p>⚠ Risklər:</p>
-
-<p>📨 Avtomatik phishing kampaniyaları<br />
-🎭 Deepfake sosial mühəndislik<br />
-💣 Avtomatik exploit generasiyası<br />
-🌍 Botnet optimizasiyası</p>
-
-<p>Bu səbəbdən kiber dərslər yalnız hücumu deyil, müdafiəni də öyrətməlidir.</p>
-
-<hr />
-
-<h1 id="-gələcək-trendlər-2026-və-sonrası">🔮 Gələcək Trendlər (2026 və Sonrası)</h1>
-
-<p>📌 AI əsaslı müdafiə sistemləri standart olacaq<br />
-📌 İnsan faktoru əsas zəif nöqtəyə çevriləcək<br />
-📌 Avtomatik təhlükəsizlik auditləri yayılacaq<br />
-📌 API və Cloud təhlükəsizliyi prioritet olacaq<br />
-📌 AI modulları kiber təhlükəsizlik kurslarında məcburi olacaq</p>
-
-<p>Təhlükəsiz kod yazmayan developer gələcəyin riskidir.</p>
-
-<hr />
-
-<h1 id="-red-team-vs--blue-team-ai-dövrü">🔴 Red Team vs 🔵 Blue Team (AI Dövrü)</h1>
-
-<h3 id="-red-team">🔴 Red Team</h3>
-<ul>
-  <li>AI ilə zəiflik analizi</li>
-  <li>Avtomatik recon</li>
-  <li>Hücum simulyasiyası</li>
-</ul>
-
-<h3 id="-blue-team">🔵 Blue Team</h3>
-<ul>
-  <li>Real vaxt anomaliya aşkarlanması</li>
-  <li>AI əsaslı SIEM</li>
-  <li>Avtomatik cavab playbook-ları</li>
-</ul>
-
-<p>Balans pozularsa risk yaranır.</p>
-
-<hr />
-
-<h1 id="-kimlər-üçün-uyğundur">🎯 Kimlər Üçün Uyğundur?</h1>
-
-<p>✔ Hacker dərsləri axtaranlar<br />
-✔ Etik hacker olmaq istəyənlər<br />
-✔ Red Team / Blue Team sahəsində inkişaf edənlər<br />
-✔ Web proqramlaşdırma kursu tələbələri<br />
-✔ Sistem avtomatlaşdırma ilə maraqlananlar</p>
-
-<hr />
-
-<h1 id="-nəticə">🏁 Nəticə</h1>
-
-<p>AI artıq seçim deyil — zərurətdir.</p>
-
-<p>Texnologiyanı idarə edən qalib gələcək.<br />
-Texnologiyadan qorxan isə geridə qalacaq.</p>
-
-<p>Kibertəhlükəsizlikdə məqsəd sistemi sındırmaq deyil —<br />
-<strong>zəifliyi tapmaq və qorumaqdır.</strong></p>
-
-<hr />
-
-<h1 id="-oxşar-yazılar">📚 Oxşar Yazılar</h1>
-
-<p>🔎 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları</a><br />
-⚔ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a><br />
-📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a><br />
-🤖 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik</a></p>
-
-<hr />
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar</p>
-
-<hr />
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="avtomatlaşdırma" /><category term="red team" /><category term="ai təhlükəsizlik" /><category term="süni intellekt" /><category term="hacker dərsləri" /><category term="kiber dərslər" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="web proqramlaşdırma kursu" /><category term="sistem avtomatlaşdırma" /><category term="robotlaşma" /><summary type="html"><![CDATA[Süni intellekt (AI) hackerlərə necə dəstək olur? Avtomatlaşdırma və robotlaşma sistemləri nə qədər inkişaf edib? 2026 perspektivindən geniş kiber təhlükəsizlik analizi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/aih.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/aih.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="qlobal risklər" /><category term="avtomatlaşdırma" /><category term="ai təhlükəsizlik" /><category term="süni intellekt inkişafı" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="qlobal kiber müharibə" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="avtomatlaşdırma sistemləri" /><category term="robotlaşma" /><summary type="html"><![CDATA[AI inkişaf edərsə insanları əvəz edə bilərmi? Süni intellekt iş bazarını necə dəyişir və bu proses qlobal kiber müharibəyə səbəb ola bilərmi? 2026 perspektivindən geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/cyber-ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/cyber-ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
