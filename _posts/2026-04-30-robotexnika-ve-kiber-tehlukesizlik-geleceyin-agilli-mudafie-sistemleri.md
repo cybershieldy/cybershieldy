@@ -175,14 +175,6 @@ Müdafiə isə:
 
 ---
 
-# 🛠️ Real lab yanaşması
-
-Sənin qurduğun kimi sistemlər:
-
-- ESP32 (sensor + ekran)
-- Wazuh (SIEM)
-- n8n (automation)
-- Asterisk (VOIP alert)
 
 ➡️ bu artıq:
 **gələcəyin real prototipidir**
