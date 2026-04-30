@@ -205,44 +205,33 @@ Robotexnika + Kibertəhlükəsizlik =
 
 # 🔗 Oxşar Mövzular
 
-- 🔴🔵 https://cybershieldy.com/posts/red-team-vs-blue-team  
-- 📡 https://cybershieldy.com/posts/ai-kibertelhukesizlik  
-- 🔌 https://cybershieldy.com/posts/wifi-hucumlari  
+💡 Bu sahədə daha dərinə getmək istəyirsənsə, aşağıdakı mövzulara da bax 👇
 
+- 🤖🛡️ [AI & Kibertəhlükəsizlik: Gələcəyin Müdafiə Sistemləri](https://cybershieldy.com/posts/ai-kibertelhukesizlik)  
+- 🤖⚡ [AI, Süni İntellekt və Hacker İnkişafı](https://cybershieldy.com/posts/ai-hacker-avtomatlasma)  
+
+- 🔴🔵🛡️ [Red Team vs Blue Team: Hücum və Müdafiə Strategiyaları](https://cybershieldy.com/posts/red-team-vs-blue-team)  
+
+- 📡🛡️ [SIEM + ESP32: SSH Brute Force Hücumunun Aşkarlanması](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)  
+
+- 🎣⚠️ [Phishing Hücumu Nədir və Necə Qorunmaq olar?](https://cybershieldy.com/posts/sosial-mühəndislik)  
+
+- 📶🔓⚠️ [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)  
+
+- 📡🔓⚠️ [BLE vs Classic Bluetooth: Gizli Təhlükələr](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)  
+
+- 🔎🧠 [OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat](https://cybershieldy.com/posts/osint-arastirmalari)  
+
+- 🔌💀🧠 [Fiziki Hücumlar: USB, BadUSB və Real Risklər](https://cybershieldy.com/posts/fiziki-hucumlar-genis)  
 ---
 
-# 📢 CyberShieldy Academy
+## 📢 CyberShieldy Academy
 
 **Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi  
 Red & Blue Team üzrə təlimçi**
 
 🚀 Real bilik > sertifikat  
-💻 Praktiki lablar • Real ssenarilər • Real testlər  
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər
 
----
+{% include cyber-popup.html %}
 
-# 🎬 Reels / TikTok altyazı
-
-🤖 Bu artıq robot deyil…  
-🛡️ Bu — təhlükəsizlik sistemidir  
-
-📡 Görür  
-🧠 Düşünür  
-🚨 Reaksiya verir  
-
-🔥 GƏLƏCƏK BURADIR  
-
----
-
-# 🎯 YouTube başlıq
-
-🤖 Gələcəyin Kibertəhlükəsizliyi: Robotlar Səni Qoruyacaq!
-
----
-
-# 📲 Hashtaglar
-
-#kibertehlukesizlik #cybersecurity #robotexnika #iotsecurity  
-#ai #artificialintelligence #futuretech #smartsecurity  
-#hackerdersleri #kiberdersler #infosec #redteam #blueteam  
-#securitylab #cyberlab #azerbaijan #texnologiya  

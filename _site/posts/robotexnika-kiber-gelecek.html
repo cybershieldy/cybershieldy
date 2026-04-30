@@ -1002,6 +1002,28 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -1120,7 +1142,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="422 words"
+  title="454 words"
 >
   <em>2 min</em> read</span>
 
@@ -1353,49 +1375,178 @@ Unauthorized access attempt</p>
 
 <h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
 
+<p>💡 Bu sahədə daha dərinə getmək istəyirsənsə, aşağıdakı mövzulara da bax 👇</p>
+
 <ul>
-  <li>🔴🔵 https://cybershieldy.com/posts/red-team-vs-blue-team</li>
-  <li>📡 https://cybershieldy.com/posts/ai-kibertelhukesizlik</li>
-  <li>🔌 https://cybershieldy.com/posts/wifi-hucumlari</li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik: Gələcəyin Müdafiə Sistemləri</a></li>
+  <li>
+    <p>🤖⚡ <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></p>
+  </li>
+  <li>
+    <p>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team: Hücum və Müdafiə Strategiyaları</a></p>
+  </li>
+  <li>
+    <p>📡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">SIEM + ESP32: SSH Brute Force Hücumunun Aşkarlanması</a></p>
+  </li>
+  <li>
+    <p>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir və Necə Qorunmaq olar?</a></p>
+  </li>
+  <li>
+    <p>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></p>
+  </li>
+  <li>
+    <p>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth: Gizli Təhlükələr</a></p>
+  </li>
+  <li>
+    <p>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></p>
+  </li>
+  <li>
+    <h2 id="-fiziki-hücumlar-usb-badusb-və-real-risklər"><span class="me-2">🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Real Risklər</a></span><a href="#-fiziki-hücumlar-usb-badusb-və-real-risklər" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+  </li>
 </ul>
 
-<hr />
-
-<h1 id="-cybershieldy-academy">📢 CyberShieldy Academy</h1>
+<h2 id="-cybershieldy-academy"><span class="me-2">📢 CyberShieldy Academy</span><a href="#-cybershieldy-academy" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
 Red &amp; Blue Team üzrə təlimçi</strong></p>
 
 <p>🚀 Real bilik &gt; sertifikat<br />
-💻 Praktiki lablar • Real ssenarilər • Real testlər</p>
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
 
-<hr />
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
 
-<h1 id="-reels--tiktok-altyazı">🎬 Reels / TikTok altyazı</h1>
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
 
-<p>🤖 Bu artıq robot deyil…<br />
-🛡️ Bu — təhlükəsizlik sistemidir</p>
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
 
-<p>📡 Görür<br />
-🧠 Düşünür<br />
-🚨 Reaksiya verir</p>
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
 
-<p>🔥 GƏLƏCƏK BURADIR</p>
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-<hr />
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
 
-<h1 id="-youtube-başlıq">🎯 YouTube başlıq</h1>
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
 
-<p>🤖 Gələcəyin Kibertəhlükəsizliyi: Robotlar Səni Qoruyacaq!</p>
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 
-<hr />
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
 
-<h1 id="-hashtaglar">📲 Hashtaglar</h1>
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
 
-<p>#kibertehlukesizlik #cybersecurity #robotexnika #iotsecurity<br />
-#ai #artificialintelligence #futuretech #smartsecurity<br />
-#hackerdersleri #kiberdersler #infosec #redteam #blueteam<br />
-#securitylab #cyberlab #azerbaijan #texnologiya</p>
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->
+
 
   </div>
 
