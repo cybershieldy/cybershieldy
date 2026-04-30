@@ -18,7 +18,7 @@ tags:
   - future tech
 description: "Robotexnika və kibertəhlükəsizliyin gələcəkdə necə birləşəcəyi, AI və IoT ilə ağıllı müdafiə sistemlərinin qurulması və real dünya tətbiqləri haqqında geniş analiz."
 keywords: "robotexnika cyber security, ai security systems, future cybersecurity, iot security, smart defense systems, kiber dersler, hacker dersleri"
-image: /assets/images/future-cyber.webp
+image: /assets/images/robota.webp
 canonical: https://cybershieldy.com/posts/robotexnika-kiber-gelecek
 permalink: /posts/robotexnika-kiber-gelecek
 ---
