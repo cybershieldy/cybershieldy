@@ -21,7 +21,7 @@ tags:
   - penetration testing
 description: "Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap."
 keywords: "hacker olmaq ucun ne lazimdir, kiber tehlukesizlik dersleri, ethical hacking roadmap, red team blue team, iot security, cyber security roadmap, hacker dersleri, xaker dersleri"
-image: /assets/images/hacker-roadmap.webp
+image: /assets/images/hackerss.webp
 canonical: https://cybershieldy.com/posts/hacker-nece-formalasir
 permalink: /posts/hacker-nece-formalasir
 ---
