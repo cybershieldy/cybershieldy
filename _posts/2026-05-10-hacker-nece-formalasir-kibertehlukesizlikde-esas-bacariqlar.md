@@ -319,12 +319,14 @@ və daim inkişaf edir.
 # 🔗 Oxşar Mövzular
 
 - 🔴🔵🛡️ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)
-- 📡🛡️ [SIEM və Threat Detection](https://cybershieldy.com/posts/siem-threat-detection)
-- 🎣⚠️ [Phishing Hücumları](https://cybershieldy.com/posts/sosial-muhendislik)
 - 📶🔓⚠️ [Wi-Fi Hücumları](https://cybershieldy.com/posts/wifi-hucumlari)
 - 🤖📡 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
 - 🔌💀🧠 [Fiziki hücumlar](https://cybershieldy.com/posts/fiziki-hucumlar-genis)  
 - 📡🔓⚠️ [BLE vs Classic Bluetooth hücumları](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
+- 🔎 [OSINT Araşdırmaları](https://cybershieldy.com/posts/osint-arastirmalari)   
+- 📡 [Public Wi-Fi Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)  
+- 🤖 [AI & Kibertəhlükəsizlik](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
+- 🤖 [AI, Süni İntellekt və Hacker İnkişafı](https://cybershieldy.com/posts/ai-hacker-avtomatlasma)
 
 ---
 
