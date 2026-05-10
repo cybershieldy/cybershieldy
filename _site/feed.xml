@@ -1,4 +1,481 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-04-30T19:17:14+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)</title><link href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" rel="alternate" type="text/html" title="🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)" /><published>2026-04-30T08:00:00+04:00</published><updated>2026-04-30T19:10:19+04:00</updated><id>https://cybershieldy.com/posts/robotexnika-ve-kiber-tehlukesizlik-geleceyin-agilli-mudafie-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/robotexnika-kiber-gelecek"><![CDATA[<h1 id="️-robotexnika-və-kibertəhlükəsizlik-gələcəyin-müdafiə-dünyası">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Müdafiə Dünyası</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-05-10T13:58:19+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)</title><link href="https://cybershieldy.com/posts/hacker-nece-formalasir" rel="alternate" type="text/html" title="💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)" /><published>2026-05-10T08:00:00+04:00</published><updated>2026-05-10T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/hacker-nece-formalasir-kibertehlukesizlikde-esas-bacariqlar</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-nece-formalasir"><![CDATA[<h1 id="-hacker-necə-formalaşır">💀 Hacker Necə Formalaşır?</h1>
+
+<p>Bir çox insan düşünür ki:</p>
+
+<p>❌ Hacker olmaq = proqram açmaq<br />
+❌ Bir düymə ilə sistemi sındırmaq<br />
+❌ Hazır tool istifadə etmək</p>
+
+<p>Amma reallıq tam fərqlidir.</p>
+
+<p>Əsl kibertəhlükəsizlik mütəxəssisi:</p>
+
+<p>🧠 düşünür<br />
+📡 analiz edir<br />
+⚡ sistemləri başa düşür<br />
+🛡️ müdafiəni öyrənir<br />
+💻 laboratoriya qurur<br />
+🔍 log analiz edir</p>
+
+<p>Yəni hacker olmaq:
+sadəcə “hack etmək” deyil…</p>
+
+<p>➡️ texnologiyanı dərindən anlamaqdır.</p>
+
+<hr />
+
+<h1 id="️-kibertəhlükəsizlikdə-ən-vacib-bacarıqlar">🛡️ Kibertəhlükəsizlikdə Ən Vacib Bacarıqlar</h1>
+
+<h2 id="-1-şəbəkə-bilikləri-networking">🌐 1. Şəbəkə Bilikləri (Networking)</h2>
+
+<p>Əgər şəbəkəni bilmirsənsə:</p>
+
+<p>➡️ hücumun necə işlədiyini də anlaya bilməzsən.</p>
+
+<p>Öyrənilməli mövzular:</p>
+
+<ul>
+  <li>IP Addressing</li>
+  <li>TCP / UDP</li>
+  <li>DNS</li>
+  <li>HTTP / HTTPS</li>
+  <li>VLAN</li>
+  <li>Routing</li>
+  <li>Switching</li>
+  <li>Firewall</li>
+</ul>
+
+<p>⚡ Hackerlər ilk olaraq trafiki analiz etməyi öyrənirlər.</p>
+
+<hr />
+
+<h1 id="-2-linux-bilikləri">🐧 2. Linux Bilikləri</h1>
+
+<p>Kibertəhlükəsizlik dünyasının əsas sistemi:</p>
+
+<p>🔥 Linux</p>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>serverlərin çoxu Linuxdur</li>
+  <li>təhlükəsizlik alətləri Linuxda işləyir</li>
+  <li>log analizləri Linux üzərində edilir</li>
+</ul>
+
+<p>Öyrənilməli mövzular:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="nb">cd
+ls
+grep
+chmod
+</span>systemctl
+journalctl
+ssh
+tcpdump
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>➡️ Linux bilmədən professional cyber security inkişafı çox çətindir.</p>
+
+<hr />
+
+<h1 id="-3-proqramlaşdırma-bacarıqları">💻 3. Proqramlaşdırma Bacarıqları</h1>
+
+<p>Ən vacib dillər:</p>
+
+<h2 id="-python">🐍 Python</h2>
+
+<ul>
+  <li>avtomatlaşdırma</li>
+  <li>log analizi</li>
+  <li>exploit development</li>
+  <li>API inteqrasiyası</li>
+</ul>
+
+<hr />
+
+<h2 id="-bash">⚡ Bash</h2>
+
+<p>Linux avtomatlaşdırmaları üçün.</p>
+
+<hr />
+
+<h2 id="-javascript">🌐 JavaScript</h2>
+
+<p>Web təhlükəsizliyi və browser dünyasını anlamaq üçün.</p>
+
+<hr />
+
+<h2 id="️-golang--c">⚙️ Golang / C</h2>
+
+<p>Advanced tool development və payload anlayışı üçün.</p>
+
+<hr />
+
+<h1 id="-red-team-nədir">🔴 Red Team Nədir?</h1>
+
+<p>Red Team:</p>
+
+<p>➡️ hücum tərəfidir.</p>
+
+<p>Məqsəd:</p>
+
+<ul>
+  <li>sistemdə zəiflik tapmaq</li>
+  <li>real hücum simulyasiyası etmək</li>
+  <li>şirkətin müdafiəsini test etmək</li>
+</ul>
+
+<p>İstifadə olunan sahələr:</p>
+
+<ul>
+  <li>penetration testing</li>
+  <li>phishing simulation</li>
+  <li>Active Directory attacks</li>
+  <li>lateral movement</li>
+  <li>privilege escalation</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-nədir">🔵 Blue Team Nədir?</h1>
+
+<p>Blue Team:</p>
+
+<p>🛡️ müdafiə tərəfidir.</p>
+
+<p>Onların işi:</p>
+
+<ul>
+  <li>log izləmək</li>
+  <li>SIEM analiz etmək</li>
+  <li>alertlərə baxmaq</li>
+  <li>hücumu aşkarlamaq</li>
+  <li>sistemi qorumaq</li>
+</ul>
+
+<p>İstifadə olunan texnologiyalar:</p>
+
+<ul>
+  <li>Wazuh</li>
+  <li>Splunk</li>
+  <li>ELK Stack</li>
+  <li>Suricata</li>
+  <li>Zeek</li>
+  <li>Sysmon</li>
+</ul>
+
+<hr />
+
+<h1 id="-iot-təhlükəsizliyi-niyə-vacibdir">📡 IoT Təhlükəsizliyi Niyə Vacibdir?</h1>
+
+<p>Gələcək:</p>
+
+<p>⚡ IoT + AI + Smart Systems</p>
+
+<p>deməkdir.</p>
+
+<p>IoT cihazları:</p>
+
+<ul>
+  <li>kameralar</li>
+  <li>sensorlar</li>
+  <li>smart evlər</li>
+  <li>RFID sistemləri</li>
+  <li>ESP32 layihələri</li>
+</ul>
+
+<p>hamısı potensial riskdir.</p>
+
+<hr />
+
+<h1 id="-iot-security-üçün-nələr-lazımdır">🤖 IoT Security üçün Nələr Lazımdır?</h1>
+
+<ul>
+  <li>Embedded systems anlayışı</li>
+  <li>ESP32 / Raspberry Pi bilikləri</li>
+  <li>MQTT</li>
+  <li>HTTP API</li>
+  <li>Sensor logic</li>
+  <li>Network monitoring</li>
+</ul>
+
+<hr />
+
+<h1 id="-hacker-necə-i̇nkişaf-edir">🧠 Hacker Necə İnkişaf Edir?</h1>
+
+<p>Əsl inkişaf belə olur:</p>
+
+<h2 id="1️⃣-əsas-sistemləri-öyrən">1️⃣ Əsas sistemləri öyrən</h2>
+
+<ul>
+  <li>Windows</li>
+  <li>Linux</li>
+  <li>Network</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-lab-qur">2️⃣ Lab qur</h2>
+
+<p>Praktika olmadan inkişaf yoxdur.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Wazuh SIEM</li>
+  <li>Suricata IDS</li>
+  <li>Kali Linux</li>
+  <li>Ubuntu Server</li>
+  <li>Active Directory lab</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-log-analiz-et">3️⃣ Log analiz et</h2>
+
+<p>Ən güclü bacarıqlardan biri:</p>
+
+<p>🔥 log oxumaqdır.</p>
+
+<p>Çünki real təhlükələr orada görünür.</p>
+
+<hr />
+
+<h2 id="4️⃣-real-ssenarilər-qur">4️⃣ Real ssenarilər qur</h2>
+
+<ul>
+  <li>phishing testləri</li>
+  <li>honeypot</li>
+  <li>brute force detection</li>
+  <li>SIEM alerting</li>
+  <li>USB detection</li>
+  <li>IoT monitoring</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-böyük-səhv">🚨 Ən Böyük Səhv</h1>
+
+<p>Bir çox insan:</p>
+
+<p>❌ yalnız tool istifadə edir.</p>
+
+<p>Amma professional cyber security üçün:</p>
+
+<p>✅ sistem məntiqini başa düşmək lazımdır.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-cyber-dünyası">🌍 Gələcəyin Cyber Dünyası</h1>
+
+<p>2026+ dövründə:</p>
+
+<p>⚡ AI Security<br />
+⚡ IoT Security<br />
+⚡ Autonomous Defense<br />
+⚡ Threat Hunting<br />
+⚡ SOC Automation</p>
+
+<p>ən vacib sahələr olacaq.</p>
+
+<hr />
+
+<h1 id="-kibertəhlükəsizlikdə-uğurun-sirri">🚀 Kibertəhlükəsizlikdə Uğurun Sirri</h1>
+
+<p>✅ davamlı praktika<br />
+✅ real lablar<br />
+✅ araşdırma<br />
+✅ analiz düşüncəsi<br />
+✅ texnologiyanı sevmək</p>
+
+<hr />
+
+<h1 id="-nəticə">💀 Nəticə</h1>
+
+<p>Hacker olmaq:</p>
+
+<p>❌ sadəcə tool işlətmək deyil</p>
+
+<p>✅ texnologiyanı başa düşməkdir.</p>
+
+<p>Əsl kibertəhlükəsizlik mütəxəssisi:</p>
+
+<p>🧠 analiz edir<br />
+⚡ araşdırır<br />
+🛡️ müdafiə qurur<br />
+📡 sistemləri izləyir<br />
+💻 real dünyanı öyrənir</p>
+
+<p>və daim inkişaf edir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>📡🛡️ <a href="https://cybershieldy.com/posts/siem-threat-detection">SIEM və Threat Detection</a></li>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-muhendislik">Phishing Hücumları</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
+  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki hücumlar</a></li>
+  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth hücumları</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-cybershieldy-academy">📢 CyberShieldy Academy</h1>
+
+<h2 id="-savaylov-emin">👨‍💻 Savaylov Emin</h2>
+<p>Kibertəhlükəsizlik mütəxəssisi<br />
+🔴 Red &amp; Blue Team üzrə təlimçi</p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<p>🚀 Real bilik • Praktiki lablar • Real ssenarilər • Cyber Security Təlimləri</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="ethical hacking" /><category term="cyber security" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="cyber security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="iot security" /><category term="linux security" /><category term="siem" /><category term="wazuh" /><category term="hacking" /><category term="penetration testing" /><summary type="html"><![CDATA[Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hacker-roadmap.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hacker-roadmap.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)</title><link href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" rel="alternate" type="text/html" title="🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)" /><published>2026-04-30T08:00:00+04:00</published><updated>2026-04-30T19:17:22+04:00</updated><id>https://cybershieldy.com/posts/robotexnika-ve-kiber-tehlukesizlik-geleceyin-agilli-mudafie-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/robotexnika-kiber-gelecek"><![CDATA[<h1 id="️-robotexnika-və-kibertəhlükəsizlik-gələcəyin-müdafiə-dünyası">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Müdafiə Dünyası</h1>
 
 <p>Texnologiya sürətlə dəyişir…<br />
 Amma ən böyük dəyişiklik bir yerdə baş verir:</p>
@@ -3965,296 +4442,4 @@ Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Et
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacker hücumları" /><category term="internet təhlükəsizliyi" /><category term="hacker hücumları" /><category term="linkdən hack" /><category term="bank hesabı oğurluğu" /><category term="phishing hücumları" /><category term="kiber təhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team müdafiəsi" /><category term="kiber təhlükəsizlik kursu" /><category term="sosial mühəndislik" /><category term="malware hücumları" /><summary type="html"><![CDATA[Linklərə klikləməklə necə hack olunurlar? Bank hesabı oğurluqları, phishing hücumları və bilinməyən proqram yükləmələrinin kiber təhlükəsizlik risklərini öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/link.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/link.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)</title><link href="https://cybershieldy.com/posts/ai-qlobal-kiber-risk" rel="alternate" type="text/html" title="AI İnsanları Əvəz Edəcəkmi? 🤖 Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026 Analiz)" /><published>2026-02-26T01:00:00+04:00</published><updated>2026-02-26T14:30:48+04:00</updated><id>https://cybershieldy.com/posts/ai-insanlari-evez-ede-bilermi-qlobal-kiber-muharibe-riski</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-qlobal-kiber-risk"><![CDATA[<h1 id="-ai-i̇nsanları-əvəz-edəcəkmi">🤖 AI İnsanları Əvəz Edəcəkmi?</h1>
-<p><strong>Süni İntellekt, İşsizlik və Qlobal Kiber Müharibə (2026)</strong></p>
-
-<p>🌐 Süni intellekt (AI) artıq gələcəyin texnologiyası deyil — bu günün reallığıdır.<br />
-Kibertəhlükəsizlik dərsləri, hacker dərsləri və kiber kurs proqramlarında AI əsas modul halına gəlib.</p>
-
-<p>💡 Əsas sual:<br />
-<strong>AI sürətlə inkişaf edərsə, insanları əvəz edə bilərmi?<br />
-Və bu proses qlobal kiber müharibəyə səbəb ola bilərmi?</strong></p>
-
-<hr />
-
-<h2 id="-ai-i̇ş-bazarı-və-i̇nsan-faktoruna-təsiri">🏭 AI İş Bazarı və İnsan Faktoruna Təsiri</h2>
-
-<p>Avtomatlaşdırma və robotlaşma artıq bir çox sahədə insan əməyini əvəz edir:</p>
-
-<ul>
-  <li>💰 Mühasibat və maliyyə analizləri</li>
-  <li>🤖 Müştəri dəstək botları</li>
-  <li>🖥 Log analizi və SOC monitorinq</li>
-  <li>🔐 Zəiflik skanları və penetration test avtomatlaşdırılması</li>
-  <li>📝 Kontent generasiyası və məlumat analizi</li>
-</ul>
-
-<p>⏱ Red Team dərsləri göstərir ki, bir çox manual proses AI ilə saniyələr içində icra olunur.</p>
-
-<p><strong>Nəticə:</strong><br />
-1️⃣ Aşağı ixtisaslı iş yerləri azalır<br />
-2️⃣ Yüksək texniki bacarıqlar daha dəyərli olur</p>
-
-<p>AI insanı tam əvəz etmir — amma zəif bacarıqları əvəz edir.</p>
-
-<hr />
-
-<h2 id="-hacker-dünyasında-ai-gücü">💻 Hacker Dünyasında AI Gücü</h2>
-
-<p>Hacker dərsləri və etik hacker kurslarında AI istifadə olunur:</p>
-
-<ul>
-  <li>🕵️‍♂️ Avtomatik recon və məlumat toplama</li>
-  <li>🔑 Parol pattern analizi</li>
-  <li>🎯 Phishing ssenarilərinin optimallaşdırılması</li>
-  <li>💥 Exploit ehtimallarının hesablanması</li>
-  <li>🌐 Şəbəkə davranış modellərinin çıxarılması</li>
-</ul>
-
-<p><strong>Red Team:</strong> AI hücumu sürətləndirir<br />
-<strong>Blue Team:</strong> AI müdafiəni gücləndirir</p>
-
-<p>⚠ Balans pozularsa, risk artır.</p>
-
-<hr />
-
-<h2 id="-qlobal-kiber-müharibə-ssenarisi">🌍 Qlobal Kiber Müharibə Ssenarisi</h2>
-
-<p>AI dövlət səviyyəsində istifadə edilərsə, risklər:</p>
-
-<ul>
-  <li>⚡ Avtomatlaşdırılmış hücum kampaniyaları</li>
-  <li>🔋 Enerji şəbəkələrinə koordinasiyalı hücumlar</li>
-  <li>🏦 Bank sistemlərinə AI bot hücumları</li>
-  <li>🎭 Deepfake ilə siyasi manipulyasiya</li>
-  <li>📰 İnformasiya müharibəsinin avtomatlaşdırılması</li>
-</ul>
-
-<p>🚨 Ən təhlükəli ssenari: AI sistemlərinin bir-birinə qarşı avtomatik qərar verməsi və insan nəzarətinin azalması.<br />
-<strong>Bu artıq klassik müharibə deyil — algoritmik müharibədir.</strong></p>
-
-<hr />
-
-<h2 id="-ai-i̇nsanları-tam-əvəz-edə-bilərmi">⚖ AI İnsanları Tam Əvəz Edə Bilərmi?</h2>
-
-<p><strong>Texniki cavab:</strong> Xeyr<br />
-<strong>Praktiki cavab:</strong> Qismən, bəli</p>
-
-<p>AI edə bilər:</p>
-
-<ul>
-  <li>🔄 Təkrarlanan işləri əvəz etmək</li>
-  <li>⚡ Analitik prosesləri sürətləndirmək</li>
-  <li>📊 Böyük datanı sürətli analiz etmək</li>
-</ul>
-
-<p>Amma:</p>
-
-<ul>
-  <li>🧠 Strateji düşüncə</li>
-  <li>⚖ Etik qərarvermə</li>
-  <li>🎨 Kreativ hücum/müdafiə dizaynı</li>
-</ul>
-
-<p>Hələ də insan faktoruna bağlıdır.</p>
-
-<hr />
-
-<h2 id="-gələcəyin-kiber-dünyası-2026">🔮 Gələcəyin Kiber Dünyası (2026+)</h2>
-
-<ul>
-  <li>🏢 AI əsaslı SOC mərkəzləri standart olacaq</li>
-  <li>🛠 Avtomatik playbook sistemləri yayılacaq</li>
-  <li>☁️ API &amp; Cloud təhlükəsizliyi prioritet olacaq</li>
-  <li>🕵️‍♂️ Zero-day analizi AI ilə sürətlənəcək</li>
-  <li>📚 Kiber dərslərdə AI modulu məcburi olacaq</li>
-</ul>
-
-<p>Web kursları və sistem avtomatlaşdırmada təhlükəsizlik əsas mövzu olacaq.<br />
-💻 Təhlükəsiz kod yazmayan developer gələcəyin riskidir.</p>
-
-<hr />
-
-<h2 id="-risk-haradadır">⚠ Risk Haradadır?</h2>
-
-<p>Risk AI-də deyil, <strong>nəzarətsiz AI istifadəsindədir</strong>:</p>
-
-<ul>
-  <li>Hücum sistemləri tam avtomatlaşdırılırsa</li>
-  <li>Dövlətlər AI silahlanma yarışına girərsə</li>
-  <li>Kiber müdafiə investisiyası geri qalarsa</li>
-</ul>
-
-<p>→ Qlobal kiber balans pozula bilər.</p>
-
-<hr />
-
-<h2 id="-nəticə">🏁 Nəticə</h2>
-
-<p>AI insanlığı məhv etməyəcək, amma hazırlıqsız insanları sistemdən kənarda qoyacaq.</p>
-
-<p><strong>Güc əldə etmək üçün:</strong></p>
-<ul>
-  <li>🧑‍💻 Hacker dərsləri öyrən</li>
-  <li>🛡 Etik hacking prinsiplərini mənimsə</li>
-  <li>🔵🔴 Red Team / Blue Team balansını başa düş</li>
-  <li>⚙ Avtomatlaşdırma sistemlərini idarə etməyi öyrən</li>
-</ul>
-
-<p>Teknologiyanı idarə edən qalib gələcək,<br />
-qorxan isə geridə qalacaq.</p>
-
-<hr />
-
-<h2 id="-oxşar-yazılar">📚 Oxşar Yazılar</h2>
-
-<ul>
-  <li>🔎 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları</a></li>
-  <li>⚔ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a></li>
-  <li>🤖 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik</a></li>
-  <li>🤖 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
-</ul>
-
-<hr />
-
-<p>📲 <a href="https://wa.me/994555182523?text=Salam%2C%20kiber%20tehlukesizlik%20dersleri%20ile%20maraqlaniram.">WhatsApp ilə əlaqə</a></p>
-
-<p><strong>CyberShieldy Academy</strong><br />
-Kiber Dərslər • Hacker Dərsləri • Digital Forensics • Blue Team • Ethical Hacking • Real Lablar</p>
-
-<hr />
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="qlobal risklər" /><category term="avtomatlaşdırma" /><category term="ai təhlükəsizlik" /><category term="süni intellekt inkişafı" /><category term="kiber dərslər" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="qlobal kiber müharibə" /><category term="red team dərsləri" /><category term="blue team dərsləri" /><category term="kiber təhlükəsizlik kursu" /><category term="avtomatlaşdırma sistemləri" /><category term="robotlaşma" /><summary type="html"><![CDATA[AI inkişaf edərsə insanları əvəz edə bilərmi? Süni intellekt iş bazarını necə dəyişir və bu proses qlobal kiber müharibəyə səbəb ola bilərmi? 2026 perspektivindən geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/cyber-ai.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/cyber-ai.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacker hücumları" /><category term="internet təhlükəsizliyi" /><category term="hacker hücumları" /><category term="linkdən hack" /><category term="bank hesabı oğurluğu" /><category term="phishing hücumları" /><category term="kiber təhlükəsizlik dərsləri" /><category term="hacker dərsləri" /><category term="etik hacker kursu" /><category term="red team dərsləri" /><category term="blue team müdafiəsi" /><category term="kiber təhlükəsizlik kursu" /><category term="sosial mühəndislik" /><category term="malware hücumları" /><summary type="html"><![CDATA[Linklərə klikləməklə necə hack olunurlar? Bank hesabı oğurluqları, phishing hücumları və bilinməyən proqram yükləmələrinin kiber təhlükəsizlik risklərini öyrənin.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/link.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/link.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
