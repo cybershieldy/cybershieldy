@@ -1,7 +1,7 @@
 ---
 title: "🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?"
-date: 2026-05-23 02:00:00 +0400
-lastmod: 2026-05-23 02:00:00 +0400
+date: 2026-05-23 08:00:00 +0400
+lastmod: 2026-05-23 08:00:00 +0400
 categories: [kibertəhlükəsizlik, phishing, sosial mühəndislik]
 tags:
   - kiber təhlükəsizlik
