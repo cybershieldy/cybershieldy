@@ -15,7 +15,7 @@ tags:
   - cyber security
 description: "Şübhəli linklərə daxil olduqda IP, cihaz məlumatları, brauzer metadata-sı, saxta Outlook/SMS bildirişləri və phishing riskləri necə yarana bilər?"
 keywords: "phishing link, zərərli link, ip tracking, metadata, outlook phishing, sms phishing, kiber təhlükəsizlik dərsləri"
-image: /assets/images/phishing-link-risk.webp
+image: /assets/images/phishings.webp
 canonical: https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler
 permalink: /posts/linklere-girdikde-ne-bas-vere-biler
 ---
