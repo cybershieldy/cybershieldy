@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-06-07T17:27:45+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html"></title><link href="https://cybershieldy.com/posts/2026-06-07-kibertehlukesizlik-artiq-layihe-esaslidir/" rel="alternate" type="text/html" title="" /><published>2026-06-07T17:27:45+04:00</published><updated>2026-06-07T17:27:45+04:00</updated><id>https://cybershieldy.com/posts/2026-06-07-kibertehlukesizlik-artiq-layihe-esaslidir</id><content type="html" xml:base="https://cybershieldy.com/posts/2026-06-07-kibertehlukesizlik-artiq-layihe-esaslidir/"><![CDATA[<h1 id="️-kibertəhlükəsizlik-dəyişir-90-cı-i̇llərin-yanaşması-artıq-kifayət-etmir">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-06-07T17:38:12+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</title><link href="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir" rel="alternate" type="text/html" title="🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir" /><published>2026-06-07T10:00:00+04:00</published><updated>2026-06-07T10:00:00+04:00</updated><id>https://cybershieldy.com/posts/kibertehlukesizlik-artiq-layihe-esaslidir</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir"><![CDATA[<h1 id="️-kibertəhlükəsizlik-dəyişir-90-cı-i̇llərin-yanaşması-artıq-kifayət-etmir">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</h1>
 
 <p>Uzun illər əvvəl insanlar “hacker” sözünü eşidəndə gözlərinin qarşısına qaranlıq otaqda oturan, qara ekranda yaşıl yazılar arasında kod yazan biri gəlirdi.</p>
 
@@ -83,12 +83,12 @@
 <p>Məsələn:</p>
 
 <ul>
-  <li>istifadəçi girişləri,</li>
-  <li>sistem dəyişiklikləri,</li>
-  <li>şəbəkə əlaqələri,</li>
-  <li>tətbiq fəaliyyətləri,</li>
-  <li>autentifikasiya cəhdləri,</li>
-  <li>xidmətlərin işə düşməsi və dayanması.</li>
+  <li>istifadəçi girişləri</li>
+  <li>sistem dəyişiklikləri</li>
+  <li>şəbəkə əlaqələri</li>
+  <li>tətbiq fəaliyyətləri</li>
+  <li>autentifikasiya cəhdləri</li>
+  <li>xidmətlərin işə düşməsi və dayanması</li>
 </ul>
 
 <p>Bəzən bir hücum tək bir hadisədən ibarət olmur.</p>
@@ -96,136 +96,6 @@
 <p>O, müxtəlif mənbələrdə görünən onlarla kiçik hadisənin birləşməsindən yaranır.</p>
 
 <p>Bu səbəbdən müasir kibertəhlükəsizlikdə hadisələri əlaqələndirmək bacarığı çox böyük əhəmiyyət daşıyır.</p>
-
-<hr />
-
-<h1 id="️-artıq-hər-şey-layihə-əsaslı-inkişaf-edir">⚙️ Artıq hər şey layihə əsaslı inkişaf edir</h1>
-
-<p>Kibertəhlükəsizlik sahəsində çalışan insanlar getdikcə daha çox real layihələr üzərində işləyirlər.</p>
-
-<p>Məqsəd yalnız hansısa funksiyanı yerinə yetirmək deyil.</p>
-
-<p>Məqsəd sistemin necə işlədiyini başa düşməkdir.</p>
-
-<p>Müxtəlif komponentlər arasında məlumat axını necə baş verir?</p>
-
-<p>Bir hadisə necə qeydə alınır?</p>
-
-<p>Necə analiz olunur?</p>
-
-<p>Necə araşdırılır?</p>
-
-<p>Necə cavab verilir?</p>
-
-<p>Bu sualların cavabı artıq müasir yanaşmanın əsasını təşkil edir.</p>
-
-<hr />
-
-<h1 id="-hücum-və-müdafiə-artıq-bir-birindən-ayrılmazdır">🔴 Hücum və müdafiə artıq bir-birindən ayrılmazdır</h1>
-
-<p>Bir çox insanlar düşünür ki, hücum tərəfi və müdafiə tərəfi tamamilə fərqli sahələrdir.</p>
-
-<p>Əslində isə onlar bir-birini tamamlayır.</p>
-
-<p>Sistemi qorumaq üçün əvvəlcə onun necə işlədiyini bilmək lazımdır.</p>
-
-<p>Bir hadisənin necə yarandığını başa düşmək isə həmin hadisəni daha tez aşkar etməyə kömək edir.</p>
-
-<p>Bu səbəbdən müasir kibertəhlükəsizlikdə əsas məqsəd balanslı düşüncə formalaşdırmaqdır.</p>
-
-<hr />
-
-<h1 id="-gələcəyin-mütəxəssisi-necə-olacaq">🚀 Gələcəyin mütəxəssisi necə olacaq?</h1>
-
-<p>Texnologiya hər gün dəyişir.</p>
-
-<p>Yeni xidmətlər yaranır.</p>
-
-<p>Yeni platformalar inkişaf edir.</p>
-
-<p>Yeni təhlükələr meydana çıxır.</p>
-
-<p>Amma bəzi bacarıqlar öz dəyərini heç vaxt itirmir.</p>
-
-<p>Gələcəyin mütəxəssisi:</p>
-
-<p>✅ Analitik düşünə biləcək.</p>
-
-<p>✅ Böyük sistemləri hissələrə ayıra biləcək.</p>
-
-<p>✅ Hadisələr arasındakı əlaqəni görə biləcək.</p>
-
-<p>✅ Problemləri araşdırmağı sevəcək.</p>
-
-<p>✅ Davamlı öyrənəcək.</p>
-
-<p>Çünki kibertəhlükəsizlik heç vaxt tam öyrənilib bitən sahə deyil.</p>
-
-<hr />
-
-<h1 id="-sertifikatlar-yoxsa-təcrübə">📚 Sertifikatlar yoxsa təcrübə?</h1>
-
-<p>Sertifikatlar faydalıdır.</p>
-
-<p>Onlar müəyyən bilik səviyyəsini göstərə bilər.</p>
-
-<p>Lakin real layihələr üzərində işləmək insana tamam başqa təcrübə qazandırır.</p>
-
-<p>Layihə zamanı insan:</p>
-
-<ul>
-  <li>araşdırır,</li>
-  <li>səhv edir,</li>
-  <li>düzəldir,</li>
-  <li>analiz edir,</li>
-  <li>yeni həll yolları tapır.</li>
-</ul>
-
-<p>Bu proses isə onu daha güclü mütəxəssisə çevirir.</p>
-
-<p>Məhz buna görə son illərdə layihə əsaslı öyrənmə daha çox ön plana çıxmağa başlayıb.</p>
-
-<hr />
-
-<h1 id="️-ən-böyük-yanlış-düşüncə">⚠️ Ən böyük yanlış düşüncə</h1>
-
-<p>İnternetdə tez-tez belə fikirlərlə rastlaşmaq olur:</p>
-
-<blockquote>
-  <p>“Bu proqramı öyrən, hacker ol.”</p>
-</blockquote>
-
-<p>Əslində isə peşəkarlıq bir proqramı işlətməkdən ibarət deyil.</p>
-
-<p>Alətlər dəyişəcək.</p>
-
-<p>Texnologiyalar yenilənəcək.</p>
-
-<p>Platformalar fərqli olacaq.</p>
-
-<p>Amma sistem düşüncəsi, analiz qabiliyyəti və problemləri həll etmək bacarığı həmişə aktual qalacaq.</p>
-
-<hr />
-
-<h1 id="️-nəticə">🛡️ Nəticə</h1>
-
-<p>90-cı illərin kibertəhlükəsizlik modeli öz dövrü üçün uğurlu idi.</p>
-
-<p>Lakin müasir rəqəmsal dünya tamamilə başqa istiqamətdə inkişaf edir.</p>
-
-<p>Bu gün əsas olan:</p>
-
-<p>🧠 Sistem düşüncəsi.</p>
-
-<p>📊 Hadisələrin analiz edilməsi.</p>
-
-<p>⚙️ Layihə əsaslı inkişaf.</p>
-
-<p>🔍 Araşdırma və öyrənmə bacarığı.</p>
-
-<p>🚀 Davamlı inkişaf.</p>
-
-<p>Çünki gələcəyin ən güclü kibertəhlükəsizlik mütəxəssisi ən çox proqram bilən yox, bütöv sistemi başa düşən insan olacaq.</p>
 
 <hr />
 
@@ -371,7 +241,7 @@
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author></entry><entry><title type="html">🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?</title><link href="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler" rel="alternate" type="text/html" title="🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?" /><published>2026-05-23T08:00:00+04:00</published><updated>2026-05-23T09:45:36+04:00</updated><id>https://cybershieldy.com/posts/tehlukeli-linkler-phishing-ip-ve-metadata-riskleri</id><content type="html" xml:base="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler"><![CDATA[<h1 id="️-linklərə-daxil-olanda-nə-baş-verə-bilər">🔗⚠️ Linklərə Daxil Olanda Nə Baş Verə Bilər?</h1>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="texnologiya" /><category term="gələcək" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><summary type="html"><![CDATA[Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/future-cybersecurity.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/future-cybersecurity.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?</title><link href="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler" rel="alternate" type="text/html" title="🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?" /><published>2026-05-23T08:00:00+04:00</published><updated>2026-05-23T09:45:36+04:00</updated><id>https://cybershieldy.com/posts/tehlukeli-linkler-phishing-ip-ve-metadata-riskleri</id><content type="html" xml:base="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler"><![CDATA[<h1 id="️-linklərə-daxil-olanda-nə-baş-verə-bilər">🔗⚠️ Linklərə Daxil Olanda Nə Baş Verə Bilər?</h1>
 
 <p>İnternetdə bir linkə klik etmək çox sadə görünür…</p>
 
