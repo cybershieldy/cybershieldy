@@ -298,7 +298,6 @@ Analiz edən.
 
 # 🔗 Oxşar Mövzular
 
-- 🎣⚠️ [Phishing Hücumu Nədir və Necə Qorunmaq olar?](https://cybershieldy.com/posts/sosial-muhendislik)
 - 🔎🧠 [OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat](https://cybershieldy.com/posts/osint-arastirmalari)
 - 📶🔓⚠️ [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
 - 🔴🔵🛡️ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)
@@ -307,9 +306,7 @@ Analiz edən.
 - 📡🔓⚠️ [BLE vs Classic Bluetooth Hücumları](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
 - 🤖🛡️ [AI və Kibertəhlükəsizlik](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
 - 🤖🚀 [AI, Süni İntellekt və Hacker İnkişafı](https://cybershieldy.com/posts/ai-hacker-avtomatlasma)
-- 📱🔓 [Android Təhlükəsizliyi və Mobil Pentest](https://cybershieldy.com/)
-- ☁️🛡️ [Bulud Təhlükəsizliyi və Müasir İnfrastruktur](https://cybershieldy.com/)
-- 🐧💻 [Linux Təhlükəsizliyi və Server Müdafiəsi](https://cybershieldy.com/)
+
 
 ---
 
