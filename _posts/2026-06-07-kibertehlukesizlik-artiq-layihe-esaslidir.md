@@ -40,7 +40,7 @@ tags:
 
 description: "Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib."
 keywords: "kiber təhlükəsizlik, hacker dərsləri, cyber security, ethical hacking, soc, siem, red team, blue team, log analizi, layihə əsaslı kibertəhlükəsizlik"
-image: /assets/images/future-cybersecurity.webp
+image: /assets/images/new-hacker.webp
 canonical: https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir
 permalink: /posts/kiber-tehlukesizlik-artiq-deyisir
 ---
