@@ -143,6 +143,175 @@ O, müxtəlif mənbələrdə görünən onlarla kiçik hadisənin birləşməsin
 Bu səbəbdən müasir kibertəhlükəsizlikdə hadisələri əlaqələndirmək bacarığı çox böyük əhəmiyyət daşıyır.
 
 ---
+---
+
+# ☁️ Bulud Texnologiyaları və Yeni Təhlükəsizlik Çağırışları
+
+90-cı illərdə şirkətlərin əksəriyyəti öz serverlərini fiziki olaraq idarə edirdi.
+
+Bu gün isə vəziyyət tamamilə fərqlidir.
+
+Bulud texnologiyaları milyonlarla istifadəçinin məlumatlarını eyni infrastruktur üzərində saxlayır.
+
+AWS.
+
+Azure.
+
+Google Cloud.
+
+Və digər platformalar artıq müasir biznesin ayrılmaz hissəsinə çevrilib.
+
+Bu dəyişiklik kibertəhlükəsizlik mütəxəssislərinin qarşısına yeni vəzifələr çıxarıb.
+
+Artıq yalnız bir serveri qorumaq kifayət etmir.
+
+Bulud mühitləri.
+
+API-lər.
+
+Konteynerlər.
+
+Virtual maşınlar.
+
+Mikroxidmətlər.
+
+Bütün bunların təhlükəsizliyi ayrıca diqqət tələb edir.
+
+---
+
+# 📱 Android və Mobil Təhlükəsizlik Niyə Önəmlidir?
+
+Müasir insanın rəqəmsal həyatı böyük ölçüdə smartfon üzərində qurulub.
+
+Bank hesabları.
+
+Sosial şəbəkələr.
+
+Elektron poçtlar.
+
+Şəxsi məlumatlar.
+
+İş sənədləri.
+
+Bütün bunlar mobil cihazlarda saxlanılır.
+
+Bu səbəbdən Android və mobil təhlükəsizlik son illərdə kibertəhlükəsizliyin ən vacib istiqamətlərindən birinə çevrilib.
+
+Bir çox hücum artıq kompüterlərə deyil, birbaşa istifadəçinin telefonuna yönəlir.
+
+---
+
+# 📲 Android Pentest və Mobil Tətbiq Təhlükəsizliyi
+
+Android təhlükəsizliyi sadəcə tətbiq quraşdırmaq və ya antivirus istifadə etməkdən ibarət deyil.
+
+Mobil tətbiqlərin arxasında mürəkkəb sistemlər fəaliyyət göstərir.
+
+Bu sahədə çalışan mütəxəssislər aşağıdakı istiqamətlərdə araşdırmalar aparırlar:
+
+- APK analizi
+- Reverse Engineering
+- API təhlükəsizliyi
+- Mobil tətbiq zəiflikləri
+- Trafik monitorinqi
+- Sertifikat və şifrələmə mexanizmləri
+- Mobil malware analizi
+- Android Permission təhlükəsizliyi
+
+Bugünkü bug bounty proqramlarında mobil tətbiqlər üzərində araşdırma aparan mütəxəssislərə böyük ehtiyac var.
+
+---
+
+# 🤖 Süni İntellekt Kibertəhlükəsizliyi Necə Dəyişir?
+
+Son illərdə süni intellekt texnologiyalarının inkişafı kibertəhlükəsizlik sahəsinə də ciddi təsir göstərib.
+
+Artıq təhlükələrin aşkarlanması.
+
+Log analizi.
+
+Anomaliya aşkarlanması.
+
+Hadisələrin korrelyasiyası.
+
+Təhlükə kəşfiyyatı.
+
+Kimi proseslərdə süni intellektdən istifadə edilir.
+
+Lakin bu texnologiya yalnız müdafiə tərəfinin əlində deyil.
+
+Hücumçular da avtomatlaşdırılmış sistemlərdən istifadə etməyə başlayırlar.
+
+Bu səbəbdən gələcəyin mütəxəssisi həm təhlükəsizliyi, həm də süni intellekt texnologiyalarını başa düşməlidir.
+
+---
+
+# 🌐 OSINT və Məlumat Kəşfiyyatının Artan Rolu
+
+İnformasiya müasir dövrün ən dəyərli resurslarından biridir.
+
+Bir çox hallarda sistemə daxil olmadan belə böyük həcmdə məlumat toplamaq mümkündür.
+
+OSINT (Open Source Intelligence) məhz bu məqsədlə istifadə olunur.
+
+Domen məlumatları.
+
+Sosial şəbəkələr.
+
+Açıq mənbələr.
+
+Texniki metadata.
+
+Sızmış məlumat bazaları.
+
+Bütün bunlar təhlükəsizlik araşdırmalarında mühüm rol oynayır.
+
+Peşəkar mütəxəssis yalnız sistemləri deyil, məlumat axınını da analiz etməyi bacarmalıdır.
+
+---
+
+# 🔮 Gələcəkdə Kibertəhlükəsizlik Hara Gedir?
+
+Texnologiyanın inkişaf sürəti hər il artır.
+
+IoT cihazları çoxalır.
+
+Süni intellekt inkişaf edir.
+
+Mobil platformalar böyüyür.
+
+Bulud sistemləri genişlənir.
+
+Bu dəyişikliklər kibertəhlükəsizlik mütəxəssislərinin də daim yenilənməsini tələb edir.
+
+Gələcəyin ən uğurlu mütəxəssisi yalnız bir aləti bilən deyil.
+
+Sistemi bütöv şəkildə görə bilən.
+
+Araşdıran.
+
+Analiz edən.
+
+Öyrənməyi dayandırmayan insan olacaq.
+
+---
+
+# 🔗 Oxşar Mövzular
+
+- 🎣⚠️ [Phishing Hücumu Nədir və Necə Qorunmaq olar?](https://cybershieldy.com/posts/sosial-muhendislik)
+- 🔎🧠 [OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat](https://cybershieldy.com/posts/osint-arastirmalari)
+- 📶🔓⚠️ [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
+- 🔴🔵🛡️ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)
+- 🤖📡 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
+- 🔌💀🧠 [Fiziki Hücumlar və Təhlükəsizlik Riskləri](https://cybershieldy.com/posts/fiziki-hucumlar-genis)
+- 📡🔓⚠️ [BLE vs Classic Bluetooth Hücumları](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
+- 🤖🛡️ [AI və Kibertəhlükəsizlik](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
+- 🤖🚀 [AI, Süni İntellekt və Hacker İnkişafı](https://cybershieldy.com/posts/ai-hacker-avtomatlasma)
+- 📱🔓 [Android Təhlükəsizliyi və Mobil Pentest](https://cybershieldy.com/)
+- ☁️🛡️ [Bulud Təhlükəsizliyi və Müasir İnfrastruktur](https://cybershieldy.com/)
+- 🐧💻 [Linux Təhlükəsizliyi və Server Müdafiəsi](https://cybershieldy.com/)
+
+---
 
 ## 📢 CyberShieldy Academy
 
