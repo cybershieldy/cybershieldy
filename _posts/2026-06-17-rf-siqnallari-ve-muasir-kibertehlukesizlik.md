@@ -376,6 +376,27 @@ Və kibertəhlükəsizlik də məhz həmin görünməyən dünyanı anlamaq sən
 ---
 
 
+## 🔗 Oxşar Mövzular
+
+* 🔎🧠🌐 [OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat](https://cybershieldy.com/posts/osint-arastirmalari)
+* 📶🔓⚠️📡 [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
+* 🔴🔵🛡️⚔️ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)
+* 🤖📡🏠🔐 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
+* 🔌💀🧠🚪 [Fiziki Hücumlar və Təhlükəsizlik Riskləri](https://cybershieldy.com/posts/fiziki-hucumlar-genis)
+* 📡🔓⚠️📱 [BLE vs Classic Bluetooth Hücumları](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
+* 🤖🛡️🚀 [AI və Kibertəhlükəsizlik](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
+* 🤖🚀🧠💻 [AI, Süni İntellekt və Hacker İnkişafı](https://cybershieldy.com/posts/ai-hacker-avtomatlasma)
+* 🎣📧⚠️ [Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları](https://cybershieldy.com/posts/sosial-mühəndislik)
+* 🕵️🎭🧠 [Sosial mühəndislik nədir və real nümunələr](https://cybershieldy.com/posts/sosial-mühəndislik)
+* 🔐📲🛡️ [İki faktorlu identifikasiya nədir?](https://cybershieldy.com/posts/iki-faktorlu-identifikasiya)
+* 📊🛡️🚨 [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
+* 📡🔍🚨 [RF Siqnalları və Müasir Kibertəhlükəsizlik](https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik)
+* 🌐🛡️📊 [Şəbəkə Təhlükəsizliyi və Monitorinqin Əsasları](https://cybershieldy.com/posts/sebeke-tehlukesizliyi)
+* 📱🔐🕵️ [Android Təhlükəsizliyi və Mobil Pentest](https://cybershieldy.com/posts/android-tehlukesizliyi)
+* 🚨🔍🎯 [Threat Hunting: Təhdidlərin Aktiv Axtarışı](https://cybershieldy.com/posts/threat-hunting)
+* 🛡️📈⚡ [Detection Engineering Nədir?](https://cybershieldy.com/posts/detection-engineering)
+ 
+
 
 ## 📢 CyberShieldy Academy
 
