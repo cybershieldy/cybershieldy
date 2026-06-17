@@ -1,163 +1,4482 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-06-17T11:28:01+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnologiyalar və Müasir Kibertəhlükəsizlik</title><link href="https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik" rel="alternate" type="text/html" title="📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnologiyalar və Müasir Kibertəhlükəsizlik" /><published>2026-06-17T07:00:00+04:00</published><updated>2026-06-17T11:24:48+04:00</updated><id>https://cybershieldy.com/posts/rf-siqnallari-ve-muasir-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik"><![CDATA[<h1 id="-görünməyən-dünyanın-i̇zində-rf-siqnalları-simsiz-texnologiyalar-və-müasir-kibertəhlükəsizlik">📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnologiyalar və Müasir Kibertəhlükəsizlik</h1>
 
+<p>Müasir dünyada insanların böyük hissəsi texnologiyadan istifadə edir, lakin həmin texnologiyanın arxasında işləyən görünməyən mexanizmlər haqqında çox az məlumat sahibidir.</p>
 
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://cybershieldy.com/</id>
-  <title>Cybershieldy Academy — Cybersecurity &amp; Web Development Training</title>
-  <subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle>
-  <updated>2026-06-17T11:24:39+04:00</updated>
-  <author>
-    <name>Emin Savaylov</name>
-    <uri>https://cybershieldy.com/</uri>
-  </author>
-  <link rel="self" type="application/atom+xml" href="https://cybershieldy.com/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang=""
-    href="https://cybershieldy.com/"/>
-  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2026 Emin Savaylov </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+<p>Telefonumuz internetə qoşulur.</p>
 
+<p>Routerlər məlumat ötürür.</p>
 
-  
-  <entry>
-    <title>📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnologiyalar və Müasir Kibertəhlükəsizlik</title>
-    <link href="https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik" rel="alternate" type="text/html" title="📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnologiyalar və Müasir Kibertəhlükəsizlik" />
-    <published>2026-06-17T07:00:00+04:00</published>
-  
-    <updated>2026-06-17T11:10:41+04:00</updated>
-  
-    <id>https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik</id>
-    <content type="text/html" src="https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik" />
-    <author>
-      <name>Emin Savaylov</name>
-    </author>
+<p>Bluetooth cihazları bir-biri ilə əlaqə yaradır.</p>
 
-  
-    
-    <category term="kibertəhlükəsizlik" />
-    
-    <category term="rf təhlükəsizliyi" />
-    
-    <category term="wireless security" />
-    
-  
+<p>Ağıllı saatlar bildiriş qəbul edir.</p>
 
-  <summary>Radio tezlikləri və görünməyən simsiz dünya müasir kibertəhlükəsizlikdə niyə vacibdir? RF siqnalları, IoT sistemləri, monitorinq və gələcəyin təhlükəsizlik mütəxəssisləri haqqında geniş bələdçi.</summary>
+<p>Sensorlar məlumat göndərir.</p>
 
-  </entry>
+<p>Ağıllı ev sistemləri uzaqdan idarə olunur.</p>
 
-  
-  <entry>
-    <title>🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</title>
-    <link href="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir" rel="alternate" type="text/html" title="🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir" />
-    <published>2026-06-07T10:00:00+04:00</published>
-  
-    <updated>2026-06-07T18:46:12+04:00</updated>
-  
-    <id>https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir</id>
-    <content type="text/html" src="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir" />
-    <author>
-      <name>Emin Savaylov</name>
-    </author>
+<p>Bütün bunların arxasında isə gözlə görünməyən bir dünya fəaliyyət göstərir:</p>
 
-  
-    
-    <category term="kibertəhlükəsizlik" />
-    
-    <category term="texnologiya" />
-    
-    <category term="gələcək" />
-    
-  
+<p><strong>Radio tezlikləri (RF - Radio Frequency).</strong></p>
 
-  <summary>Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib.</summary>
+<p>Bu görünməyən dünya artıq sadəcə texnologiyanın deyil, həm də kibertəhlükəsizliyin ayrılmaz hissəsinə çevrilib.</p>
 
-  </entry>
+<hr />
 
-  
-  <entry>
-    <title>🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?</title>
-    <link href="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler" rel="alternate" type="text/html" title="🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?" />
-    <published>2026-05-23T08:00:00+04:00</published>
-  
-    <updated>2026-05-23T09:45:36+04:00</updated>
-  
-    <id>https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler</id>
-    <content type="text/html" src="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler" />
-    <author>
-      <name>Emin Savaylov</name>
-    </author>
+<h1 id="-ətrafımızda-görünməyən-bir-i̇nformasiya-okeanı-mövcuddur">🌍 Ətrafımızda Görünməyən Bir İnformasiya Okeanı Mövcuddur</h1>
 
-  
-    
-    <category term="kibertəhlükəsizlik" />
-    
-    <category term="phishing" />
-    
-    <category term="sosial mühəndislik" />
-    
-  
+<p>Bu məqaləni oxuduğunuz anda ətrafınızda yüzlərlə, bəzən minlərlə müxtəlif siqnal hərəkət edir.</p>
 
-  <summary>Şübhəli linklərə daxil olduqda IP, cihaz məlumatları, brauzer metadata-sı, saxta Outlook/SMS bildirişləri və phishing riskləri necə yarana bilər?</summary>
+<p>Wi-Fi paketləri.</p>
 
-  </entry>
+<p>Bluetooth əlaqələri.</p>
 
-  
-  <entry>
-    <title>💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)</title>
-    <link href="https://cybershieldy.com/posts/hacker-nece-formalasir" rel="alternate" type="text/html" title="💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)" />
-    <published>2026-05-10T08:00:00+04:00</published>
-  
-    <updated>2026-05-10T14:41:39+04:00</updated>
-  
-    <id>https://cybershieldy.com/posts/hacker-nece-formalasir</id>
-    <content type="text/html" src="https://cybershieldy.com/posts/hacker-nece-formalasir" />
-    <author>
-      <name>Emin Savaylov</name>
-    </author>
+<p>Mobil operator siqnalları.</p>
 
-  
-    
-    <category term="kibertəhlükəsizlik" />
-    
-    <category term="ethical hacking" />
-    
-    <category term="cyber security" />
-    
-  
+<p>IoT cihazlarının ötürdüyü məlumatlar.</p>
 
-  <summary>Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap.</summary>
+<p>RFID sistemləri.</p>
 
-  </entry>
+<p>GPS siqnalları.</p>
 
-  
-  <entry>
-    <title>🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)</title>
-    <link href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" rel="alternate" type="text/html" title="🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)" />
-    <published>2026-04-30T08:00:00+04:00</published>
-  
-    <updated>2026-04-30T19:17:22+04:00</updated>
-  
-    <id>https://cybershieldy.com/posts/robotexnika-kiber-gelecek</id>
-    <content type="text/html" src="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" />
-    <author>
-      <name>Emin Savaylov</name>
-    </author>
+<p>Ağıllı ev texnologiyaları.</p>
 
-  
-    
-    <category term="kibertəhlükəsizlik" />
-    
-    <category term="robotexnika" />
-    
-    <category term="ai security" />
-    
-  
+<p>Sensor şəbəkələri.</p>
 
-  <summary>Robotexnika və kibertəhlükəsizliyin gələcəkdə necə birləşəcəyi, AI və IoT ilə ağıllı müdafiə sistemlərinin qurulması və real dünya tətbiqləri haqqında geniş analiz.</summary>
+<p>Bu siqnallar insan gözü ilə görünmür.</p>
 
-  </entry>
+<p>Lakin onlar daim məlumat daşıyırlar.</p>
 
-</feed>
+<p>Əslində yaşadığımız mühit görünməyən rəqəmsal fəaliyyətlərlə doludur.</p>
 
+<p>Bir çox hallarda insanlar yalnız cihazı görürlər.</p>
 
+<p>Təhlükəsizlik mütəxəssisləri isə cihazın yaratdığı izi görməyə çalışırlar.</p>
+
+<p>Çünki hər bir əlaqə məlumat yaradır.</p>
+
+<p>Hər məlumat bir hadisədir.</p>
+
+<p>Hər hadisə isə analiz edilə bilən iz buraxır.</p>
+
+<hr />
+
+<h1 id="-rf-siqnalları-nədir">📶 RF Siqnalları Nədir?</h1>
+
+<p>RF (Radio Frequency) elektromaqnit spektrinin radio dalğaları vasitəsilə məlumat ötürülən hissəsidir.</p>
+
+<p>Sadə dillə desək, cihazların kabelsiz ünsiyyət qurmasını təmin edən texnologiyaların böyük hissəsi radio tezliklərindən istifadə edir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Wi-Fi</li>
+  <li>Bluetooth</li>
+  <li>NFC</li>
+  <li>RFID</li>
+  <li>Zigbee</li>
+  <li>LoRa</li>
+  <li>Mobil rabitə şəbəkələri</li>
+  <li>Peyk rabitəsi</li>
+  <li>GPS sistemləri</li>
+</ul>
+
+<p>Bu texnologiyalar həyatımızı asanlaşdırır.</p>
+
+<p>Lakin eyni zamanda yeni təhlükəsizlik problemləri də yaradır.</p>
+
+<hr />
+
+<h1 id="-kibertəhlükəsizlik-artıq-təkcə-kompüterlərdən-i̇barət-deyil">🔍 Kibertəhlükəsizlik Artıq Təkcə Kompüterlərdən İbarət Deyil</h1>
+
+<p>Uzun illər kibertəhlükəsizlik dedikdə insanların ağlına aşağıdakılar gəlirdi:</p>
+
+<ul>
+  <li>Firewall</li>
+  <li>Antivirus</li>
+  <li>Server təhlükəsizliyi</li>
+  <li>Windows təhlükəsizliyi</li>
+  <li>Linux təhlükəsizliyi</li>
+  <li>Şəbəkə monitorinqi</li>
+</ul>
+
+<p>Bu yanaşma hələ də vacibdir.</p>
+
+<p>Lakin artıq kifayət deyil.</p>
+
+<p>Çünki rəqəmsal dünya dəyişib.</p>
+
+<p>Bu gün məlumat yalnız serverlərdə saxlanılmır.</p>
+
+<p>Məlumat:</p>
+
+<ul>
+  <li>sensorlarda mövcuddur,</li>
+  <li>ağıllı cihazlarda mövcuddur,</li>
+  <li>mobil telefonlarda mövcuddur,</li>
+  <li>avtomobillərdə mövcuddur,</li>
+  <li>sənaye sistemlərində mövcuddur.</li>
+</ul>
+
+<p>Buna görə də müasir təhlükəsizlik mütəxəssisi yalnız kompüterləri deyil, bütöv ekosistemi başa düşməlidir.</p>
+
+<hr />
+
+<h1 id="️-simsiz-sistemlər-yeni-hücum-səthləri-yaradır">🛰️ Simsiz Sistemlər Yeni Hücum Səthləri Yaradır</h1>
+
+<p>Kibertəhlükəsizlikdə məşhur anlayışlardan biri <strong>Attack Surface (Hücum Səthi)</strong> adlanır.</p>
+
+<p>Hər yeni texnologiya yeni imkanlar yaratdığı kimi, yeni risklər də yaradır.</p>
+
+<p>Məsələn:</p>
+
+<p>Bir müəssisədə:</p>
+
+<ul>
+  <li>Wi-Fi infrastrukturu,</li>
+  <li>Bluetooth cihazları,</li>
+  <li>IoT sensorları,</li>
+  <li>Ağıllı kameralar,</li>
+  <li>Giriş nəzarət sistemləri</li>
+</ul>
+
+<p>fəaliyyət göstərirsə, artıq hücum səthi yalnız server otağından ibarət deyil.</p>
+
+<p>İndi təşkilatın görünməyən radio mühiti də təhlükəsizlik baxımından əhəmiyyət daşıyır.</p>
+
+<hr />
+
+<h1 id="-iot-i̇nqilabı-və-təhlükəsizlik-problemləri">🏭 IoT İnqilabı və Təhlükəsizlik Problemləri</h1>
+
+<p>Dünyada milyardlarla IoT cihazı fəaliyyət göstərir.</p>
+
+<p>Bu cihazlara daxildir:</p>
+
+<ul>
+  <li>Sensorlar</li>
+  <li>Ağıllı lampalar</li>
+  <li>Termostatlar</li>
+  <li>Təhlükəsizlik kameraları</li>
+  <li>İstehsalat sistemləri</li>
+  <li>Sənaye nəzarət qurğuları</li>
+  <li>Smart Home platformaları</li>
+</ul>
+
+<p>Bu cihazların bir çoxu daimi olaraq məlumat ötürür.</p>
+
+<p>Problem ondadır ki, bir çox IoT cihazı təhlükəsizlik prioriteti nəzərə alınmadan hazırlanır.</p>
+
+<p>Nəticədə:</p>
+
+<ul>
+  <li>zəif şifrələr,</li>
+  <li>köhnə proqram təminatı,</li>
+  <li>təhlükəsiz olmayan protokollar,</li>
+  <li>zəif autentifikasiya mexanizmləri</li>
+</ul>
+
+<p>kimi problemlər yaranır.</p>
+
+<p>Bu səbəbdən IoT təhlükəsizliyi son illərdə kibertəhlükəsizlik sektorunun ən sürətlə inkişaf edən sahələrindən biridir.</p>
+
+<hr />
+
+<h1 id="-mobil-ekosistem-və-görünməyən-əlaqələr">📱 Mobil Ekosistem və Görünməyən Əlaqələr</h1>
+
+<p>Müasir insanın cibindəki smartfon əslində kiçik bir kompüterdir.</p>
+
+<p>Telefonlar eyni anda müxtəlif texnologiyalarla işləyir:</p>
+
+<ul>
+  <li>Wi-Fi</li>
+  <li>Bluetooth</li>
+  <li>NFC</li>
+  <li>GPS</li>
+  <li>Mobil operator şəbəkələri</li>
+  <li>Bulud xidmətləri</li>
+</ul>
+
+<p>Bu sistemlərin hamısı birlikdə böyük bir ekosistem yaradır.</p>
+
+<p>Mobil təhlükəsizlik mütəxəssisləri üçün yalnız tətbiqləri yoxlamaq kifayət etmir.</p>
+
+<p>Onlar həm də cihazın yaratdığı simsiz əlaqələri başa düşməlidirlər.</p>
+
+<hr />
+
+<h1 id="️-monitorinq-sadəcə-log-toplamaq-deyil">🛡️ Monitorinq Sadəcə Log Toplamaq Deyil</h1>
+
+<p>Bir çox insan SOC və ya SIEM sistemlərinin sadəcə log topladığını düşünür.</p>
+
+<p>Əslində isə monitorinq daha geniş anlayışdır.</p>
+
+<p>Peşəkar analitiklər aşağıdakı məlumatları əlaqələndirməyə çalışırlar:</p>
+
+<ul>
+  <li>Şəbəkə hadisələri</li>
+  <li>Sistem hadisələri</li>
+  <li>İstifadəçi fəaliyyətləri</li>
+  <li>Mobil fəaliyyətlər</li>
+  <li>Cihaz davranışları</li>
+  <li>Simsiz əlaqələr</li>
+</ul>
+
+<p>Bu məlumatlar birlikdə daha böyük mənzərə yaradır.</p>
+
+<p>Məhz buna görə müasir təhlükəsizlikdə korrelyasiya və analitika böyük rol oynayır.</p>
+
+<hr />
+
+<h1 id="-threat-hunting-və-analitik-düşüncə">🧠 Threat Hunting və Analitik Düşüncə</h1>
+
+<p>Texnologiyalar dəyişir.</p>
+
+<p>Alətlər dəyişir.</p>
+
+<p>Platformalar dəyişir.</p>
+
+<p>Lakin bir bacarıq dəyişmir:</p>
+
+<p><strong>Analitik düşüncə.</strong></p>
+
+<p>Ən güclü təhlükəsizlik mütəxəssisləri yalnız alətlərdən istifadə edən insanlar deyil.</p>
+
+<p>Onlar məlumatlar arasında əlaqə qura bilən insanlardır.</p>
+
+<p>Bir hadisəyə baxaraq:</p>
+
+<ul>
+  <li>səbəbi,</li>
+  <li>nəticəni,</li>
+  <li>əlaqəli sistemləri,</li>
+  <li>potensial riskləri</li>
+</ul>
+
+<p>müəyyən edə bilirlər.</p>
+
+<p>Məhz bu bacarıq gələcəyin SOC analitiklərini və Threat Hunter-lərini fərqləndirəcək.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-təhlükəsizlik-mütəxəssisi-hansı-bacarıqlara-sahib-olmalıdır">🚀 Gələcəyin Təhlükəsizlik Mütəxəssisi Hansı Bacarıqlara Sahib Olmalıdır?</h1>
+
+<p>Gələcəkdə texnologiya daha çox:</p>
+
+<ul>
+  <li>simsiz,</li>
+  <li>avtomatlaşdırılmış,</li>
+  <li>bulud əsaslı,</li>
+  <li>cihaz yönümlü</li>
+</ul>
+
+<p>olacaq.</p>
+
+<p>Bu səbəbdən müasir təhlükəsizlik mütəxəssisinin aşağıdakı sahələrdə bilik sahibi olması vacibdir:</p>
+
+<p>✅ Şəbəkə təhlükəsizliyi</p>
+
+<p>✅ Wi-Fi texnologiyaları</p>
+
+<p>✅ Mobil təhlükəsizlik</p>
+
+<p>✅ IoT təhlükəsizliyi</p>
+
+<p>✅ Bulud texnologiyaları</p>
+
+<p>✅ SIEM və SOC əməliyyatları</p>
+
+<p>✅ Threat Hunting</p>
+
+<p>✅ Detection Engineering</p>
+
+<p>✅ RF və simsiz kommunikasiya əsasları</p>
+
+<hr />
+
+<h1 id="-nəticə">🌐 Nəticə</h1>
+
+<p>İnsanlar adətən yalnız gördüklərinə diqqət yetirirlər.</p>
+
+<p>Lakin kibertəhlükəsizlik mütəxəssislərinin işi görünməyənləri anlamaqdır.</p>
+
+<p>Bu gün ətrafımız görünməyən radio siqnalları ilə doludur.</p>
+
+<p>Bu siqnallar:</p>
+
+<ul>
+  <li>cihazları birləşdirir,</li>
+  <li>məlumat daşıyır,</li>
+  <li>xidmətləri işlək saxlayır.</li>
+</ul>
+
+<p>Eyni zamanda onlar təhlükəsizlik baxımından yeni imkanlar və yeni risklər yaradır.</p>
+
+<p>Məhz buna görə RF dünyasını başa düşmək gələcəyin kibertəhlükəsizlik mütəxəssisləri üçün vacib bacarıqlardan birinə çevrilir.</p>
+
+<p>Görünməyən dünya artıq gələcəyin deyil.</p>
+
+<p>O, bu gün bizim ətrafımızda fəaliyyət göstərir.</p>
+
+<p>Və kibertəhlükəsizlik də məhz həmin görünməyən dünyanı anlamaq sənətidir.</p>
+
+<hr />
+
+<h1 id="-bu-mövzuda-hazırladığım-video">🎥 Bu Mövzuda Hazırladığım Video</h1>
+
+<p>📲 Instagram Reels:</p>
+
+<p>https://www.instagram.com/reel/DZpp90fM-k4/?igsh=NXA1d2Z2YXJtNjlu</p>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>Kibertəhlükəsizlik mütəxəssisi • Red Team • Blue Team • SOC • Threat Hunting</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat</p>
+
+<p>🛡️ Praktiki laboratoriyalar • Real ssenarilər • Müasir kibertəhlükəsizlik təlimləri</p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<blockquote>
+  <p>Gələcəyin təhlükəsizlik mütəxəssisi yalnız sistemləri deyil, görünməyən dünyanı da başa düşməlidir.</p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="rf təhlükəsizliyi" /><category term="wireless security" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><category term="rf security" /><category term="wireless security" /><category term="radio frequency" /><category term="wifi security" /><category term="bluetooth security" /><category term="iot security" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile security" /><category term="android security" /><category term="network security" /><category term="cyber lab" /><category term="cybersecurity training" /><category term="infosec" /><category term="wireless monitoring" /><category term="radio signals" /><category term="cybersecurity lessons" /><summary type="html"><![CDATA[Radio tezlikləri və görünməyən simsiz dünya müasir kibertəhlükəsizlikdə niyə vacibdir? RF siqnalları, IoT sistemləri, monitorinq və gələcəyin təhlükəsizlik mütəxəssisləri haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/rf-world.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/rf-world.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</title><link href="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir" rel="alternate" type="text/html" title="🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir" /><published>2026-06-07T10:00:00+04:00</published><updated>2026-06-07T18:46:12+04:00</updated><id>https://cybershieldy.com/posts/kibertehlukesizlik-artiq-layihe-esaslidir</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir"><![CDATA[<h1 id="️-kibertəhlükəsizlik-dəyişir-90-cı-i̇llərin-yanaşması-artıq-kifayət-etmir">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</h1>
+
+<p>Uzun illər əvvəl insanlar “hacker” sözünü eşidəndə gözlərinin qarşısına qaranlıq otaqda oturan, qara ekranda yaşıl yazılar arasında kod yazan biri gəlirdi.</p>
+
+<p>Filmlər, seriallar və internet mədəniyyəti də bu obrazı daha da məşhur etmişdi.</p>
+
+<p>Lakin zaman dəyişdi.</p>
+
+<p>İnternet dəyişdi.</p>
+
+<p>Texnologiya dəyişdi.</p>
+
+<p>Ən əsası isə kibertəhlükəsizlik sahəsinin özü tamamilə başqa istiqamətə keçdi.</p>
+
+<p>Bu gün artıq təkcə bir neçə proqramı işlədə bilmək və ya müəyyən alətlərlə tanış olmaq peşəkar mütəxəssis olmaq üçün kifayət etmir.</p>
+
+<p>Müasir kibertəhlükəsizlik layihə, analiz və sistem düşüncəsi üzərində qurulur.</p>
+
+<hr />
+
+<h1 id="-bu-mövzuda-hazırladığım-video">🎥 Bu mövzuda hazırladığım video</h1>
+
+<p>📲 Instagram Reels:</p>
+
+<p>https://www.instagram.com/reel/DZIMptjNhxm/?igsh=MWdwYzZxa3VrMTlnMg==</p>
+
+<iframe src="https://www.instagram.com/reel/DZIMptjNhxm/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="-90-cı-illərdə-kibertəhlükəsizlik-necə-görünürdü">🌍 90-cı illərdə kibertəhlükəsizlik necə görünürdü?</h1>
+
+<p>İlk internet dövrlərində sistemlər bugünkü qədər mürəkkəb deyildi.</p>
+
+<p>Şəbəkələr kiçik idi.</p>
+
+<p>Bulud texnologiyaları yox idi.</p>
+
+<p>Mobil tətbiqlər demək olar ki, mövcud deyildi.</p>
+
+<p>Bir çox sistem ayrıca işləyirdi və təhlükəsizlik yanaşması da daha sadə idi.</p>
+
+<p>O dövrdə əsas məqsəd sistemi tanımaq, zəiflikləri müəyyən etmək və onların necə işlədiyini başa düşmək idi.</p>
+
+<p>Bu yanaşma həmin dövr üçün kifayət qədər effektiv idi.</p>
+
+<p>Amma bu gün artıq milyonlarla cihaz, server, tətbiq və istifadəçi eyni anda bir-biri ilə əlaqə saxlayır.</p>
+
+<p>Belə bir mühitdə köhnə yanaşmalar təkbaşına kifayət etmir.</p>
+
+<hr />
+
+<h1 id="-müasir-kibertəhlükəsizlik-artıq-sistem-düşüncəsidir">🧠 Müasir kibertəhlükəsizlik artıq sistem düşüncəsidir</h1>
+
+<p>Bugünkü mütəxəssis yalnız bir hadisəyə baxmır.</p>
+
+<p>O, hadisənin haradan başladığını, hansı sistemlərə təsir etdiyini və hansı nəticələrə səbəb ola biləcəyini analiz edir.</p>
+
+<p>Bir istifadəçinin sistemə daxil olması…</p>
+
+<p>Bir tətbiqin serverə qoşulması…</p>
+
+<p>Bir cihazın şəbəkəyə bağlanması…</p>
+
+<p>Bir xidmətin dayanması…</p>
+
+<p>Bütün bunlar ayrı-ayrı hadisələr deyil.</p>
+
+<p>Onlar böyük bir zəncirin hissələridir.</p>
+
+<p>Peşəkar mütəxəssis isə həmin zənciri görə bilir.</p>
+
+<hr />
+
+<h1 id="-log-və-hadisə-analizinin-rolu">📊 Log və hadisə analizinin rolu</h1>
+
+<p>Rəqəmsal dünyada baş verən demək olar ki, hər bir əməliyyat öz arxasında müəyyən iz buraxır.</p>
+
+<p>Bu izlər bəzən sadə görünə bilər.</p>
+
+<p>Amma düzgün analiz olunduqda böyük mənzərəni göstərir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>istifadəçi girişləri</li>
+  <li>sistem dəyişiklikləri</li>
+  <li>şəbəkə əlaqələri</li>
+  <li>tətbiq fəaliyyətləri</li>
+  <li>autentifikasiya cəhdləri</li>
+  <li>xidmətlərin işə düşməsi və dayanması</li>
+</ul>
+
+<p>Bəzən bir hücum tək bir hadisədən ibarət olmur.</p>
+
+<p>O, müxtəlif mənbələrdə görünən onlarla kiçik hadisənin birləşməsindən yaranır.</p>
+
+<p>Bu səbəbdən müasir kibertəhlükəsizlikdə hadisələri əlaqələndirmək bacarığı çox böyük əhəmiyyət daşıyır.</p>
+
+<hr />
+<hr />
+
+<h1 id="️-bulud-texnologiyaları-və-yeni-təhlükəsizlik-çağırışları">☁️ Bulud Texnologiyaları və Yeni Təhlükəsizlik Çağırışları</h1>
+
+<p>90-cı illərdə şirkətlərin əksəriyyəti öz serverlərini fiziki olaraq idarə edirdi.</p>
+
+<p>Bu gün isə vəziyyət tamamilə fərqlidir.</p>
+
+<p>Bulud texnologiyaları milyonlarla istifadəçinin məlumatlarını eyni infrastruktur üzərində saxlayır.</p>
+
+<p>AWS.</p>
+
+<p>Azure.</p>
+
+<p>Google Cloud.</p>
+
+<p>Və digər platformalar artıq müasir biznesin ayrılmaz hissəsinə çevrilib.</p>
+
+<p>Bu dəyişiklik kibertəhlükəsizlik mütəxəssislərinin qarşısına yeni vəzifələr çıxarıb.</p>
+
+<p>Artıq yalnız bir serveri qorumaq kifayət etmir.</p>
+
+<p>Bulud mühitləri.</p>
+
+<p>API-lər.</p>
+
+<p>Konteynerlər.</p>
+
+<p>Virtual maşınlar.</p>
+
+<p>Mikroxidmətlər.</p>
+
+<p>Bütün bunların təhlükəsizliyi ayrıca diqqət tələb edir.</p>
+
+<hr />
+
+<h1 id="-android-və-mobil-təhlükəsizlik-niyə-önəmlidir">📱 Android və Mobil Təhlükəsizlik Niyə Önəmlidir?</h1>
+
+<p>Müasir insanın rəqəmsal həyatı böyük ölçüdə smartfon üzərində qurulub.</p>
+
+<p>Bank hesabları.</p>
+
+<p>Sosial şəbəkələr.</p>
+
+<p>Elektron poçtlar.</p>
+
+<p>Şəxsi məlumatlar.</p>
+
+<p>İş sənədləri.</p>
+
+<p>Bütün bunlar mobil cihazlarda saxlanılır.</p>
+
+<p>Bu səbəbdən Android və mobil təhlükəsizlik son illərdə kibertəhlükəsizliyin ən vacib istiqamətlərindən birinə çevrilib.</p>
+
+<p>Bir çox hücum artıq kompüterlərə deyil, birbaşa istifadəçinin telefonuna yönəlir.</p>
+
+<hr />
+
+<h1 id="-android-pentest-və-mobil-tətbiq-təhlükəsizliyi">📲 Android Pentest və Mobil Tətbiq Təhlükəsizliyi</h1>
+
+<p>Android təhlükəsizliyi sadəcə tətbiq quraşdırmaq və ya antivirus istifadə etməkdən ibarət deyil.</p>
+
+<p>Mobil tətbiqlərin arxasında mürəkkəb sistemlər fəaliyyət göstərir.</p>
+
+<p>Bu sahədə çalışan mütəxəssislər aşağıdakı istiqamətlərdə araşdırmalar aparırlar:</p>
+
+<ul>
+  <li>APK analizi</li>
+  <li>Reverse Engineering</li>
+  <li>API təhlükəsizliyi</li>
+  <li>Mobil tətbiq zəiflikləri</li>
+  <li>Trafik monitorinqi</li>
+  <li>Sertifikat və şifrələmə mexanizmləri</li>
+  <li>Mobil malware analizi</li>
+  <li>Android Permission təhlükəsizliyi</li>
+</ul>
+
+<p>Bugünkü bug bounty proqramlarında mobil tətbiqlər üzərində araşdırma aparan mütəxəssislərə böyük ehtiyac var.</p>
+
+<hr />
+
+<h1 id="-süni-i̇ntellekt-kibertəhlükəsizliyi-necə-dəyişir">🤖 Süni İntellekt Kibertəhlükəsizliyi Necə Dəyişir?</h1>
+
+<p>Son illərdə süni intellekt texnologiyalarının inkişafı kibertəhlükəsizlik sahəsinə də ciddi təsir göstərib.</p>
+
+<p>Artıq təhlükələrin aşkarlanması.</p>
+
+<p>Log analizi.</p>
+
+<p>Anomaliya aşkarlanması.</p>
+
+<p>Hadisələrin korrelyasiyası.</p>
+
+<p>Təhlükə kəşfiyyatı.</p>
+
+<p>Kimi proseslərdə süni intellektdən istifadə edilir.</p>
+
+<p>Lakin bu texnologiya yalnız müdafiə tərəfinin əlində deyil.</p>
+
+<p>Hücumçular da avtomatlaşdırılmış sistemlərdən istifadə etməyə başlayırlar.</p>
+
+<p>Bu səbəbdən gələcəyin mütəxəssisi həm təhlükəsizliyi, həm də süni intellekt texnologiyalarını başa düşməlidir.</p>
+
+<hr />
+
+<h1 id="-osint-və-məlumat-kəşfiyyatının-artan-rolu">🌐 OSINT və Məlumat Kəşfiyyatının Artan Rolu</h1>
+
+<p>İnformasiya müasir dövrün ən dəyərli resurslarından biridir.</p>
+
+<p>Bir çox hallarda sistemə daxil olmadan belə böyük həcmdə məlumat toplamaq mümkündür.</p>
+
+<p>OSINT (Open Source Intelligence) məhz bu məqsədlə istifadə olunur.</p>
+
+<p>Domen məlumatları.</p>
+
+<p>Sosial şəbəkələr.</p>
+
+<p>Açıq mənbələr.</p>
+
+<p>Texniki metadata.</p>
+
+<p>Sızmış məlumat bazaları.</p>
+
+<p>Bütün bunlar təhlükəsizlik araşdırmalarında mühüm rol oynayır.</p>
+
+<p>Peşəkar mütəxəssis yalnız sistemləri deyil, məlumat axınını da analiz etməyi bacarmalıdır.</p>
+
+<hr />
+
+<h1 id="-gələcəkdə-kibertəhlükəsizlik-hara-gedir">🔮 Gələcəkdə Kibertəhlükəsizlik Hara Gedir?</h1>
+
+<p>Texnologiyanın inkişaf sürəti hər il artır.</p>
+
+<p>IoT cihazları çoxalır.</p>
+
+<p>Süni intellekt inkişaf edir.</p>
+
+<p>Mobil platformalar böyüyür.</p>
+
+<p>Bulud sistemləri genişlənir.</p>
+
+<p>Bu dəyişikliklər kibertəhlükəsizlik mütəxəssislərinin də daim yenilənməsini tələb edir.</p>
+
+<p>Gələcəyin ən uğurlu mütəxəssisi yalnız bir aləti bilən deyil.</p>
+
+<p>Sistemi bütöv şəkildə görə bilən.</p>
+
+<p>Araşdıran.</p>
+
+<p>Analiz edən.</p>
+
+<p>Öyrənməyi dayandırmayan insan olacaq.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
+  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar və Təhlükəsizlik Riskləri</a></li>
+  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth Hücumları</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik</a></li>
+  <li>🤖🚀 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>Kibertəhlükəsizlik mütəxəssisi • Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat</p>
+
+<p>💻 Praktiki təcrübə • Real layihələr • Müasir yanaşma</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="texnologiya" /><category term="gələcək" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><summary type="html"><![CDATA[Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/new-hacker.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/new-hacker.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?</title><link href="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler" rel="alternate" type="text/html" title="🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?" /><published>2026-05-23T08:00:00+04:00</published><updated>2026-05-23T09:45:36+04:00</updated><id>https://cybershieldy.com/posts/tehlukeli-linkler-phishing-ip-ve-metadata-riskleri</id><content type="html" xml:base="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler"><![CDATA[<h1 id="️-linklərə-daxil-olanda-nə-baş-verə-bilər">🔗⚠️ Linklərə Daxil Olanda Nə Baş Verə Bilər?</h1>
+
+<p>İnternetdə bir linkə klik etmək çox sadə görünür…</p>
+
+<p>Amma bəzən həmin klik:</p>
+
+<p>⚠️ IP ünvanını göstərə bilər<br />
+⚠️ cihaz və brauzer məlumatlarını ötürə bilər<br />
+⚠️ saxta Outlook və SMS səhifəsinə yönləndirə bilər<br />
+⚠️ phishing hücumuna səbəb ola bilər<br />
+⚠️ metadata və davranış izlərini ortaya çıxara bilər</p>
+
+<p>Yəni problem təkcə “linkə girdim, nə olacaq ki?” deyil.</p>
+
+<p>Bəzən bir klik — hücumçunun səni analiz etməsi üçün kifayət edir.</p>
+
+<hr />
+
+<h1 id="-canlı-demo--reels">🎥 Canlı Demo / Reels</h1>
+
+<p>📲 Bu mövzunu real ssenari kimi göstərdiyim videoya bax:</p>
+
+<p>https://www.instagram.com/reel/DYhmsJMsf2-/?igsh=YjhuN2JrN3M1ajV5</p>
+
+<iframe src="https://www.instagram.com/reel/DYhmsJMsf2-/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="-linkə-daxil-olanda-ilk-nə-baş-verir">🧠 Linkə daxil olanda ilk nə baş verir?</h1>
+
+<p>Bir linkə klik etdikdə brauzer serverə sorğu göndərir.</p>
+
+<p>Bu sorğuda bəzi texniki məlumatlar görünə bilər:</p>
+
+<ul>
+  <li>IP ünvanı</li>
+  <li>cihaz tipi</li>
+  <li>əməliyyat sistemi</li>
+  <li>brauzer adı</li>
+  <li>ekran ölçüsü</li>
+  <li>dil ayarları</li>
+  <li>təxmini lokasiya</li>
+  <li>istifadəçi davranışı</li>
+</ul>
+
+<p>Bunların hamısı birlikdə hücumçuya profil çıxarmağa kömək edə bilər.</p>
+
+<hr />
+
+<h1 id="-ip-gizli-olsa-belə-risk-bitmir">🌍 IP gizli olsa belə risk bitmir</h1>
+
+<p>Çox adam düşünür:</p>
+
+<blockquote>
+  <p>“VPN istifadə edirəm, deməli təhlükəsizəm.”</p>
+</blockquote>
+
+<p>Amma bu tam doğru deyil.</p>
+
+<p>VPN IP-ni gizlədə bilər, amma:</p>
+
+<ul>
+  <li>brauzer fingerprint qala bilər</li>
+  <li>cookie məlumatları görünə bilər</li>
+  <li>login etdiyin hesablar səni tanıda bilər</li>
+  <li>metadata izləri qala bilər</li>
+  <li>cihaz davranışın analiz oluna bilər</li>
+</ul>
+
+<p>Yəni təkcə IP-ni gizlətmək tam anonimlik demək deyil.</p>
+
+<hr />
+
+<h1 id="-saxta-outlook-və-sms-ssenarisi">📩 Saxta Outlook və SMS ssenarisi</h1>
+
+<p>Phishing hücumlarında çox istifadə olunan üsullardan biri budur:</p>
+
+<ol>
+  <li>Sən linkə girirsən</li>
+  <li>Qarşına Outlook, Gmail və ya SMS doğrulama səhifəsi çıxır</li>
+  <li>Sən məlumatı real zənn edib daxil edirsən</li>
+  <li>Məlumat hücumçuya gedir</li>
+  <li>Sistem hesabını, cihazını və davranışını analiz edir</li>
+</ol>
+
+<p>Bu tip səhifələr çox vaxt real sayta bənzədilir.</p>
+
+<p>Logo real olur.<br />
+Dizayn real olur.<br />
+Amma arxada saxta sistem işləyir.</p>
+
+<hr />
+
+<h1 id="️-metadata-nədir">🕵️ Metadata nədir?</h1>
+
+<p>Metadata — görünməyən, amma sistemin oxuya bildiyi əlavə məlumatdır.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>hansı cihazdan girdin</li>
+  <li>hansı brauzerdən istifadə etdin</li>
+  <li>hansı saatda girdin</li>
+  <li>hansı ölkə/şəhərdən sorğu gəldi</li>
+  <li>linkə neçə dəfə klik edildi</li>
+  <li>hansı səhifədə nə qədər qaldın</li>
+</ul>
+
+<p>Bəzən hacker üçün paroldan əvvəl bu məlumatlar daha dəyərlidir.</p>
+
+<p>Çünki bu məlumatla sənin haqqında profil yaradılır.</p>
+
+<hr />
+
+<h1 id="-phishing-necə-işləyir">🎣 Phishing necə işləyir?</h1>
+
+<p>Phishing sadə dildə belədir:</p>
+
+<p>Sənə real kimi görünən saxta link göndərilir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>“Hesabın bloklanacaq”</li>
+  <li>“Outlook girişini təsdiqlə”</li>
+  <li>“SMS doğrulama lazımdır”</li>
+  <li>“Kuryer məlumatını yenilə”</li>
+  <li>“Şifrəni dəyiş”</li>
+</ul>
+
+<p>Məqsəd səni tələsdirməkdir.</p>
+
+<p>Çünki insan qorxanda, panikaya düşəndə və ya maraqlananda daha tez klik edir.</p>
+
+<hr />
+
+<h1 id="-red-team-baxışı">🔴 Red Team baxışı</h1>
+
+<p>Red Team tərəfdən belə testlər istifadə olunur:</p>
+
+<ul>
+  <li>istifadəçi maarifləndirməsi</li>
+  <li>phishing awareness təlimi</li>
+  <li>link davranış analizi</li>
+  <li>sosial mühəndislik ssenariləri</li>
+  <li>təhlükəsizlik monitorinqinin yoxlanması</li>
+</ul>
+
+<p>Amma bu yalnız icazəli lab və təlim mühitində edilməlidir.</p>
+
+<hr />
+
+<h1 id="-blue-team-baxışı">🔵 Blue Team baxışı</h1>
+
+<p>Blue Team bu tip hadisələri belə izləyə bilər:</p>
+
+<ul>
+  <li>SIEM logları</li>
+  <li>DNS sorğuları</li>
+  <li>proxy qeydləri</li>
+  <li>email gateway alertləri</li>
+  <li>endpoint detection</li>
+  <li>suspicious URL detection</li>
+  <li>SOC bildirişləri</li>
+</ul>
+
+<p>Yəni müdafiə tərəfi linkə klik hadisəsini belə analiz edə bilər:</p>
+
+<p>Kim klik etdi?<br />
+Haradan klik etdi?<br />
+Hansı cihazdan klik etdi?<br />
+Hansı məlumat ötürüldü?<br />
+Hadisə zərərli idi, yoxsa test?</p>
+
+<hr />
+
+<h1 id="️-özünü-necə-qorumalısan">🛡️ Özünü necə qorumalısan?</h1>
+
+<p>Ən sadə qaydalar:</p>
+
+<p>✅ tanımadığın linkə klik etmə<br />
+✅ Outlook/Gmail giriş səhifəsinin domeninə bax<br />
+✅ SMS-lə gələn linklərə ehtiyatla yanaş<br />
+✅ qısa linkləri yoxlamadan açma<br />
+✅ 2FA aktiv et<br />
+✅ brauzeri və sistemi yenilə<br />
+✅ şifrəni heç vaxt saxta səhifədə yazma<br />
+✅ linki açmadan əvvəl mənbəni yoxla</p>
+
+<p>Əgər link şübhəlidirsə, ən yaxşı müdafiə klik etməməkdir.</p>
+
+<hr />
+
+<h1 id="️-ən-təhlükəli-səhv">⚠️ Ən təhlükəli səhv</h1>
+
+<p>Ən böyük səhv budur:</p>
+
+<p>“Bu sadəcə linkdir, heç nə olmaz.”</p>
+
+<p>Kiber təhlükəsizlikdə bəzən hücum bir faylla yox, bir kliklə başlayır.</p>
+
+<p>Bir klik:</p>
+<ul>
+  <li>məlumat toplaya bilər</li>
+  <li>hesabı ələ keçirə bilər</li>
+  <li>cihazı analiz edə bilər</li>
+  <li>istifadəçini saxta giriş səhifəsinə sala bilər</li>
+</ul>
+
+<hr />
+
+<h1 id="-nəticə">⚡ Nəticə</h1>
+
+<p>Link təhlükəli ola bilər, çünki o sadəcə keçid deyil.</p>
+
+<p>Bəzən link:</p>
+
+<p>🔗 məlumat toplayır<br />
+🎣 phishing səhifəsinə aparır<br />
+🧠 istifadəçini analiz edir<br />
+📩 saxta Outlook/SMS ekranı göstərir<br />
+🛡️ SOC sistemlərində alert yaradır</p>
+
+<p>Ona görə də internetdə ən sadə klik belə təhlükəsizlik baxımından ciddi hadisə ola bilər.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir və Necə Qorunmaq olar?</a></li>
+  <li>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="phishing" /><category term="zərərli link" /><category term="sosial mühəndislik" /><category term="osint" /><category term="red team" /><category term="blue team" /><category term="cyber security" /><summary type="html"><![CDATA[Şübhəli linklərə daxil olduqda IP, cihaz məlumatları, brauzer metadata-sı, saxta Outlook/SMS bildirişləri və phishing riskləri necə yarana bilər?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/phishings.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/phishings.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)</title><link href="https://cybershieldy.com/posts/hacker-nece-formalasir" rel="alternate" type="text/html" title="💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)" /><published>2026-05-10T08:00:00+04:00</published><updated>2026-05-10T14:41:39+04:00</updated><id>https://cybershieldy.com/posts/hacker-nece-formalasir-kibertehlukesizlikde-esas-bacariqlar</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-nece-formalasir"><![CDATA[<h1 id="-hacker-necə-formalaşır">💀 Hacker Necə Formalaşır?</h1>
+
+<p>Bir çox insan düşünür ki:</p>
+
+<p>❌ Hacker olmaq = proqram açmaq<br />
+❌ Bir düymə ilə sistemi sındırmaq<br />
+❌ Hazır tool istifadə etmək</p>
+
+<p>Amma reallıq tam fərqlidir.</p>
+
+<p>Əsl kibertəhlükəsizlik mütəxəssisi:</p>
+
+<p>🧠 düşünür<br />
+📡 analiz edir<br />
+⚡ sistemləri başa düşür<br />
+🛡️ müdafiəni öyrənir<br />
+💻 laboratoriya qurur<br />
+🔍 log analiz edir</p>
+
+<p>Yəni hacker olmaq:
+sadəcə “hack etmək” deyil…</p>
+
+<p>➡️ texnologiyanı dərindən anlamaqdır.</p>
+
+<hr />
+
+<h1 id="️-kibertəhlükəsizlikdə-ən-vacib-bacarıqlar">🛡️ Kibertəhlükəsizlikdə Ən Vacib Bacarıqlar</h1>
+
+<h2 id="-1-şəbəkə-bilikləri-networking">🌐 1. Şəbəkə Bilikləri (Networking)</h2>
+
+<p>Əgər şəbəkəni bilmirsənsə:</p>
+
+<p>➡️ hücumun necə işlədiyini də anlaya bilməzsən.</p>
+
+<p>Öyrənilməli mövzular:</p>
+
+<ul>
+  <li>IP Addressing</li>
+  <li>TCP / UDP</li>
+  <li>DNS</li>
+  <li>HTTP / HTTPS</li>
+  <li>VLAN</li>
+  <li>Routing</li>
+  <li>Switching</li>
+  <li>Firewall</li>
+</ul>
+
+<p>⚡ Hackerlər ilk olaraq trafiki analiz etməyi öyrənirlər.</p>
+
+<hr />
+
+<h1 id="-2-linux-bilikləri">🐧 2. Linux Bilikləri</h1>
+
+<p>Kibertəhlükəsizlik dünyasının əsas sistemi:</p>
+
+<p>🔥 Linux</p>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>serverlərin çoxu Linuxdur</li>
+  <li>təhlükəsizlik alətləri Linuxda işləyir</li>
+  <li>log analizləri Linux üzərində edilir</li>
+</ul>
+
+<p>Öyrənilməli mövzular:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="nb">cd
+ls
+grep
+chmod
+</span>systemctl
+journalctl
+ssh
+tcpdump
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>➡️ Linux bilmədən professional cyber security inkişafı çox çətindir.</p>
+
+<hr />
+
+<h1 id="-3-proqramlaşdırma-bacarıqları">💻 3. Proqramlaşdırma Bacarıqları</h1>
+
+<p>Ən vacib dillər:</p>
+
+<h2 id="-python">🐍 Python</h2>
+
+<ul>
+  <li>avtomatlaşdırma</li>
+  <li>log analizi</li>
+  <li>exploit development</li>
+  <li>API inteqrasiyası</li>
+</ul>
+
+<hr />
+
+<h2 id="-bash">⚡ Bash</h2>
+
+<p>Linux avtomatlaşdırmaları üçün.</p>
+
+<hr />
+
+<h2 id="-javascript">🌐 JavaScript</h2>
+
+<p>Web təhlükəsizliyi və browser dünyasını anlamaq üçün.</p>
+
+<hr />
+
+<h2 id="️-golang--c">⚙️ Golang / C</h2>
+
+<p>Advanced tool development və payload anlayışı üçün.</p>
+
+<hr />
+
+<h1 id="-red-team-nədir">🔴 Red Team Nədir?</h1>
+
+<p>Red Team:</p>
+
+<p>➡️ hücum tərəfidir.</p>
+
+<p>Məqsəd:</p>
+
+<ul>
+  <li>sistemdə zəiflik tapmaq</li>
+  <li>real hücum simulyasiyası etmək</li>
+  <li>şirkətin müdafiəsini test etmək</li>
+</ul>
+
+<p>İstifadə olunan sahələr:</p>
+
+<ul>
+  <li>penetration testing</li>
+  <li>phishing simulation</li>
+  <li>Active Directory attacks</li>
+  <li>lateral movement</li>
+  <li>privilege escalation</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-nədir">🔵 Blue Team Nədir?</h1>
+
+<p>Blue Team:</p>
+
+<p>🛡️ müdafiə tərəfidir.</p>
+
+<p>Onların işi:</p>
+
+<ul>
+  <li>log izləmək</li>
+  <li>SIEM analiz etmək</li>
+  <li>alertlərə baxmaq</li>
+  <li>hücumu aşkarlamaq</li>
+  <li>sistemi qorumaq</li>
+</ul>
+
+<p>İstifadə olunan texnologiyalar:</p>
+
+<ul>
+  <li>Wazuh</li>
+  <li>Splunk</li>
+  <li>ELK Stack</li>
+  <li>Suricata</li>
+  <li>Zeek</li>
+  <li>Sysmon</li>
+</ul>
+
+<hr />
+
+<h1 id="-iot-təhlükəsizliyi-niyə-vacibdir">📡 IoT Təhlükəsizliyi Niyə Vacibdir?</h1>
+
+<p>Gələcək:</p>
+
+<p>⚡ IoT + AI + Smart Systems</p>
+
+<p>deməkdir.</p>
+
+<p>IoT cihazları:</p>
+
+<ul>
+  <li>kameralar</li>
+  <li>sensorlar</li>
+  <li>smart evlər</li>
+  <li>RFID sistemləri</li>
+  <li>ESP32 layihələri</li>
+</ul>
+
+<p>hamısı potensial riskdir.</p>
+
+<hr />
+
+<h1 id="-iot-security-üçün-nələr-lazımdır">🤖 IoT Security üçün Nələr Lazımdır?</h1>
+
+<ul>
+  <li>Embedded systems anlayışı</li>
+  <li>ESP32 / Raspberry Pi bilikləri</li>
+  <li>MQTT</li>
+  <li>HTTP API</li>
+  <li>Sensor logic</li>
+  <li>Network monitoring</li>
+</ul>
+
+<hr />
+
+<h1 id="-hacker-necə-i̇nkişaf-edir">🧠 Hacker Necə İnkişaf Edir?</h1>
+
+<p>Əsl inkişaf belə olur:</p>
+
+<h2 id="1️⃣-əsas-sistemləri-öyrən">1️⃣ Əsas sistemləri öyrən</h2>
+
+<ul>
+  <li>Windows</li>
+  <li>Linux</li>
+  <li>Network</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-lab-qur">2️⃣ Lab qur</h2>
+
+<p>Praktika olmadan inkişaf yoxdur.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Wazuh SIEM</li>
+  <li>Suricata IDS</li>
+  <li>Kali Linux</li>
+  <li>Ubuntu Server</li>
+  <li>Active Directory lab</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-log-analiz-et">3️⃣ Log analiz et</h2>
+
+<p>Ən güclü bacarıqlardan biri:</p>
+
+<p>🔥 log oxumaqdır.</p>
+
+<p>Çünki real təhlükələr orada görünür.</p>
+
+<hr />
+
+<h2 id="4️⃣-real-ssenarilər-qur">4️⃣ Real ssenarilər qur</h2>
+
+<ul>
+  <li>phishing testləri</li>
+  <li>honeypot</li>
+  <li>brute force detection</li>
+  <li>SIEM alerting</li>
+  <li>USB detection</li>
+  <li>IoT monitoring</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-böyük-səhv">🚨 Ən Böyük Səhv</h1>
+
+<p>Bir çox insan:</p>
+
+<p>❌ yalnız tool istifadə edir.</p>
+
+<p>Amma professional cyber security üçün:</p>
+
+<p>✅ sistem məntiqini başa düşmək lazımdır.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-cyber-dünyası">🌍 Gələcəyin Cyber Dünyası</h1>
+
+<p>2026+ dövründə:</p>
+
+<p>⚡ AI Security<br />
+⚡ IoT Security<br />
+⚡ Autonomous Defense<br />
+⚡ Threat Hunting<br />
+⚡ SOC Automation</p>
+
+<p>ən vacib sahələr olacaq.</p>
+
+<hr />
+
+<h1 id="-kibertəhlükəsizlikdə-uğurun-sirri">🚀 Kibertəhlükəsizlikdə Uğurun Sirri</h1>
+
+<p>✅ davamlı praktika<br />
+✅ real lablar<br />
+✅ araşdırma<br />
+✅ analiz düşüncəsi<br />
+✅ texnologiyanı sevmək</p>
+
+<hr />
+
+<h1 id="-nəticə">💀 Nəticə</h1>
+
+<p>Hacker olmaq:</p>
+
+<p>❌ sadəcə tool işlətmək deyil</p>
+
+<p>✅ texnologiyanı başa düşməkdir.</p>
+
+<p>Əsl kibertəhlükəsizlik mütəxəssisi:</p>
+
+<p>🧠 analiz edir<br />
+⚡ araşdırır<br />
+🛡️ müdafiə qurur<br />
+📡 sistemləri izləyir<br />
+💻 real dünyanı öyrənir</p>
+
+<p>və daim inkişaf edir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
+  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki hücumlar</a></li>
+  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth hücumları</a></li>
+  <li>🔎 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları</a></li>
+  <li>📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-cybershieldy-academy">📢 CyberShieldy Academy</h1>
+
+<h2 id="-savaylov-emin">👨‍💻 Savaylov Emin</h2>
+<p>Kibertəhlükəsizlik mütəxəssisi<br />
+🔴 Red &amp; Blue Team üzrə təlimçi</p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<p>🚀 Real bilik • Praktiki lablar • Real ssenarilər • Cyber Security Təlimləri</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="ethical hacking" /><category term="cyber security" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="cyber security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="iot security" /><category term="linux security" /><category term="siem" /><category term="wazuh" /><category term="hacking" /><category term="penetration testing" /><summary type="html"><![CDATA[Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hackerss.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hackerss.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)</title><link href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" rel="alternate" type="text/html" title="🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)" /><published>2026-04-30T08:00:00+04:00</published><updated>2026-04-30T19:17:22+04:00</updated><id>https://cybershieldy.com/posts/robotexnika-ve-kiber-tehlukesizlik-geleceyin-agilli-mudafie-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/robotexnika-kiber-gelecek"><![CDATA[<h1 id="️-robotexnika-və-kibertəhlükəsizlik-gələcəyin-müdafiə-dünyası">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Müdafiə Dünyası</h1>
+
+<p>Texnologiya sürətlə dəyişir…<br />
+Amma ən böyük dəyişiklik bir yerdə baş verir:</p>
+
+<p>⚡ <strong>Robotexnika + Kibertəhlükəsizlik</strong></p>
+
+<p>Artıq təhlükəsizlik yalnız <strong>server qorumaq deyil</strong><br />
+Artıq təhlükəsizlik:</p>
+
+<p>➡️ görür<br />
+➡️ hiss edir<br />
+➡️ analiz edir<br />
+➡️ qərar verir<br />
+➡️ cavab verir</p>
+
+<p>Bu isə o deməkdir ki, gələcəkdə sistemlər <strong>insan kimi düşünən müdafiə mexanizmlərinə çevriləcək</strong>.</p>
+
+<hr />
+
+<h1 id="-canlı-demo-sensor--real-sistem">🎥 Canlı Demo (Sensor + Real Sistem)</h1>
+
+<p>📲 Bax və sistemi canlı gör:<br />
+https://www.instagram.com/p/DXo7XYPDOlN/</p>
+
+<iframe src="https://www.instagram.com/p/DXo7XYPDOlN/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="-gələcəyin-təhlükəsizlik-konsepti">🌍 Gələcəyin Təhlükəsizlik Konsepti</h1>
+
+<p>Əvvəllər:</p>
+<ul>
+  <li>firewall qur</li>
+  <li>antivirus işə sal</li>
+  <li>loglara bax</li>
+</ul>
+
+<p>İndi isə:</p>
+
+<p>🤖 robot sistemlər<br />
+🧠 süni intellekt<br />
+📡 sensor şəbəkələri<br />
+🔗 SIEM platformalar</p>
+
+<p>➡️ hamısı bir yerdə işləyir</p>
+
+<p>Bu artıq:
+<strong>Cyber-Physical Security System</strong> adlanır.</p>
+
+<hr />
+
+<h1 id="-gələcək-sistem-necə-işləyəcək">🔗 Gələcək sistem necə işləyəcək?</h1>
+
+<h2 id="1-fiziki-dünya-izlənir">1. Fiziki dünya izlənir</h2>
+
+<ul>
+  <li>kameralar (face recognition)</li>
+  <li>sensorlar (motion, heat)</li>
+  <li>biometrik sistemlər</li>
+</ul>
+
+<hr />
+
+<h2 id="2-hadisə-baş-verir">2. Hadisə baş verir</h2>
+
+<p>Unknown person detected
+Unauthorized access attempt</p>
+
+<hr />
+
+<h2 id="3-siem--ai-analiz-edir">3. SIEM + AI analiz edir</h2>
+
+<ul>
+  <li>risk səviyyəsi təyin olunur</li>
+  <li>davranış analiz edilir</li>
+  <li>anomaly detection işləyir</li>
+</ul>
+
+<hr />
+
+<h2 id="4-sistem-qərar-verir">4. Sistem qərar verir</h2>
+
+<ul>
+  <li>qapı kilidlənir 🔒</li>
+  <li>kamera fokuslanır 📷</li>
+  <li>alarm aktivləşir 🚨</li>
+</ul>
+
+<hr />
+
+<h2 id="5-avtomatik-cavab">5. Avtomatik cavab</h2>
+
+<ul>
+  <li>adminə alert gedir</li>
+  <li>sistem hücumu bloklayır</li>
+  <li>hadisə loglanır</li>
+</ul>
+
+<hr />
+
+<h1 id="-bu-nə-deməkdir">💥 Bu nə deməkdir?</h1>
+
+<p>Bu artıq:</p>
+
+<p>❌ sadə təhlükəsizlik sistemi deyil<br />
+✅ <strong>özünü qoruyan ağıllı sistemdir</strong></p>
+
+<hr />
+
+<h1 id="-süni-intellektin-rolu">🧠 Süni intellektin rolu</h1>
+
+<p>AI gələcəkdə:</p>
+
+<ul>
+  <li>istifadəçi davranışını öyrənəcək</li>
+  <li>normal vs anormal fərqini anlayacaq</li>
+  <li>hücumu əvvəlcədən hiss edəcək</li>
+</ul>
+
+<p>➡️ bu isə <strong>predictive security</strong> deməkdir</p>
+
+<hr />
+
+<h1 id="-red-team-perspektivi">🔴 Red Team perspektivi</h1>
+
+<p>Gələcəkdə hücumlar:</p>
+
+<ul>
+  <li>AI bypass etməyə yönələcək</li>
+  <li>sensorları aldatmağa çalışacaq</li>
+  <li>deepfake identity istifadə edəcək</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-perspektivi">🔵 Blue Team perspektivi</h1>
+
+<p>Müdafiə isə:</p>
+
+<ul>
+  <li>multi-layer olacaq</li>
+  <li>real-time olacaq</li>
+  <li>avtomatik olacaq</li>
+  <li>AI ilə güclənəcək</li>
+</ul>
+
+<hr />
+
+<h1 id="-haralarda-istifadə-olunacaq">🌐 Haralarda istifadə olunacaq?</h1>
+
+<p>🏢 şirkətlərdə<br />
+🏠 smart evlərdə<br />
+🏙️ smart city layihələrində<br />
+🛡️ dövlət təhlükəsizlik sistemlərində</p>
+
+<hr />
+
+<h1 id="-gələcəyin-texnologiyaları">🚀 Gələcəyin texnologiyaları</h1>
+
+<p>⚡ AI Security<br />
+⚡ IoT Security<br />
+⚡ Autonomous Defense Systems<br />
+⚡ Smart Surveillance</p>
+
+<hr />
+
+<p>➡️ bu artıq:
+<strong>gələcəyin real prototipidir</strong></p>
+
+<hr />
+
+<h1 id="-nəticə">⚡ Nəticə</h1>
+
+<p>Robotexnika + Kibertəhlükəsizlik =</p>
+
+<p>🔥 ağıllı müdafiə<br />
+🔥 real-time qoruma<br />
+🔥 avtomatik cavab<br />
+🔥 AI ilə inkişaf</p>
+
+<p>➡️ gələcəkdə sistemlər:
+<strong>yalnız qorunmayacaq… özünü müdafiə edəcək</strong></p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<p>💡 Bu sahədə daha dərinə getmək istəyirsənsə, aşağıdakı mövzulara da bax 👇</p>
+
+<ul>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik: Gələcəyin Müdafiə Sistemləri</a></li>
+  <li>
+    <p>🤖⚡ <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></p>
+  </li>
+  <li>
+    <p>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team: Hücum və Müdafiə Strategiyaları</a></p>
+  </li>
+  <li>
+    <p>📡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">SIEM + ESP32: SSH Brute Force Hücumunun Aşkarlanması</a></p>
+  </li>
+  <li>
+    <p>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir və Necə Qorunmaq olar?</a></p>
+  </li>
+  <li>
+    <p>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></p>
+  </li>
+  <li>
+    <p>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth: Gizli Təhlükələr</a></p>
+  </li>
+  <li>
+    <p>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></p>
+  </li>
+  <li>
+    <h2 id="-fiziki-hücumlar-usb-badusb-və-real-risklər">🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Real Risklər</a></h2>
+  </li>
+</ul>
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="robotexnika" /><category term="ai security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="cyber security" /><category term="robotexnika" /><category term="ai security" /><category term="iot security" /><category term="smart systems" /><category term="red team" /><category term="blue team" /><category term="future tech" /><summary type="html"><![CDATA[Robotexnika və kibertəhlükəsizliyin gələcəkdə necə birləşəcəyi, AI və IoT ilə ağıllı müdafiə sistemlərinin qurulması və real dünya tətbiqləri haqqında geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/robota.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/robota.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)</title><link href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force" rel="alternate" type="text/html" title="📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır? (2026)" /><published>2026-04-20T10:00:00+04:00</published><updated>2026-04-20T20:52:07+04:00</updated><id>https://cybershieldy.com/posts/ideaspark-esp32-siem-inteqrasiyasi-ssh-brute-force-hucumu-nece-askarlanir</id><content type="html" xml:base="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force"><![CDATA[<h1 id="️-ideaspark-esp32-ilə-siem-i̇nteqrasiyası-ssh-brute-force-hücumu-necə-aşkarlanır">📡🛡️ Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır?</h1>
+
+<p>Bugünkü kibertəhlükəsizlik dünyasında hücumlar artıq yalnız serverdə, firewall-da və ya log fayllarında görünən hadisələr deyil. Müasir müdafiə yanaşmalarında hadisələrin <strong>real vaxtda vizual izlənməsi</strong>, <strong>SIEM sistemlərinə inteqrasiya olunması</strong>, <strong>IoT cihazlar üzərindən xəbərdarlıq verilməsi</strong> və <strong>praktiki lab ssenarilərinin qurulması</strong> çox böyük əhəmiyyət daşıyır.</p>
+
+<p>Bu məqalədə mən <strong>Ideaspark ESP32</strong> modulu üzərində qurduğum mini təhlükəsizlik ekranı ilə <strong>SSH brute force</strong> hücumunun necə aşkarlanmasını, SIEM ilə necə işləməsini və bu yanaşmanın real dünyada necə tətbiq oluna biləcəyini izah edirəm.</p>
+
+<hr />
+
+<h1 id="-canlı-demo-və-sosial-media-paylaşımı">🎥 Canlı Demo və Sosial Media Paylaşımı</h1>
+
+<p><strong>Instagram paylaşımı:</strong><br />
+https://www.instagram.com/p/DXW6afYjPgi/</p>
+
+<iframe src="https://www.instagram.com/p/DXW6afYjPgi/embed" width="100%" height="650"></iframe>
+
+<hr />
+
+<h1 id="-ideaspark-esp32-nədir">⚡ Ideaspark ESP32 nədir?</h1>
+
+<p>Ideaspark ESP32 — WiFi dəstəyi olan, OLED ekranlı kompakt mikrokontrollerdir və kibertəhlükəsizlik lablarında vizual monitor kimi istifadə oluna bilər.</p>
+
+<hr />
+
+<h1 id="-ssh-brute-force-nədir">🚨 SSH Brute Force nədir?</h1>
+
+<p>SSH brute force — sistemə çoxsaylı parol cəhdləri ilə daxil olmağa çalışmaqdır. Bu zaman loglarda çoxsaylı uğursuz girişlər yaranır.</p>
+
+<hr />
+
+<h1 id="-siem-bu-layihədə-nə-edir">🧠 SIEM bu layihədə nə edir?</h1>
+
+<p>SIEM:</p>
+<ul>
+  <li>logları toplayır</li>
+  <li>analiz edir</li>
+  <li>qayda əsasında alert yaradır</li>
+  <li>digər sistemlərə ötürür</li>
+</ul>
+
+<hr />
+
+<h1 id="-hücumdan-vizual-alert-ə-qədər-tam-axın">🔗 Hücumdan Vizual Alert-ə qədər Tam Axın</h1>
+
+<h2 id="1-uğursuz-giriş">1. Uğursuz Giriş</h2>
+<p>Permission denied, please try again.</p>
+
+<hr />
+
+<h2 id="2-loglara-yazılır">2. Loglara Yazılır</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/var/log/auth.log</code></li>
+  <li><code class="language-plaintext highlighter-rouge">systemd journal</code></li>
+</ul>
+
+<hr />
+
+<h2 id="3-siem-analizi">3. SIEM Analizi</h2>
+
+<ul>
+  <li>brute force kimi qiymətləndirilir</li>
+  <li>alert yaranır</li>
+</ul>
+
+<hr />
+
+<h2 id="4-alert-yayılır">4. Alert Yayılır</h2>
+
+<ul>
+  <li>Wazuh dashboard</li>
+  <li>Telegram</li>
+  <li>n8n</li>
+  <li>ESP32</li>
+</ul>
+
+<hr />
+
+<h2 id="5-esp32-vizual-alert">5. ESP32 Vizual Alert</h2>
+
+<p>SSH-BRUTE
+sshd: authentication
+IP: 192.168.x.x
+Level: 5</p>
+
+<hr />
+
+<h1 id="-niyə-bu-sistem-güclüdür">💥 Niyə Bu Sistem Güclüdür?</h1>
+
+<ul>
+  <li>vizual və real-time</li>
+  <li>SOC düşüncəsi yaradır</li>
+  <li>praktiki öyrənmə verir</li>
+  <li>content üçün ideal</li>
+</ul>
+
+<hr />
+
+<h1 id="-red-team-baxışı">🔴 Red Team Baxışı</h1>
+
+<ul>
+  <li>brute force davranışı</li>
+  <li>detection limitləri</li>
+  <li>log izi</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-baxışı">🔵 Blue Team Baxışı</h1>
+
+<ul>
+  <li>monitorinq</li>
+  <li>alerting</li>
+  <li>response</li>
+</ul>
+
+<hr />
+
+<h1 id="-iot-ilə-inteqrasiya">🌐 IoT ilə inteqrasiya</h1>
+
+<p>ESP32 burada:
+➡️ vizual monitor rolundadır</p>
+
+<hr />
+
+<h1 id="️-komponentlər">🛠️ Komponentlər</h1>
+
+<ul>
+  <li>Ubuntu</li>
+  <li>Wazuh</li>
+  <li>Fail2Ban</li>
+  <li>n8n</li>
+  <li>ESP32</li>
+</ul>
+
+<hr />
+
+<h1 id="️-qorunma">🛡️ Qorunma</h1>
+
+<ul>
+  <li>güclü parol</li>
+  <li>SSH key</li>
+  <li>Fail2Ban</li>
+  <li>SIEM</li>
+</ul>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir?</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi təhlükələri</a></li>
+  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki hücumlar</a></li>
+  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth hücumları</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="siem" /><category term="iot security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="cyber security" /><category term="siber güvenlik" /><category term="siem" /><category term="wazuh" /><category term="esp32" /><category term="ideaspark" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Ideaspark ESP32 modulu ilə SIEM inteqrasiyası, SSH brute force hücumunun real vaxtda aşkarlanması, monitorinq, alert və müdafiə yanaşmaları haqqında geniş SEO dostu məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ideaspark.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ideaspark.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth" rel="alternate" type="text/html" title="📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)" /><published>2026-04-15T06:00:00+04:00</published><updated>2026-04-15T10:49:04+04:00</updated><id>https://cybershieldy.com/posts/ble-vs-classic-bluetooth-hacking-nece-isleyir-ve-qorunma-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/ble-vs-classic-bluetooth"><![CDATA[<h1 id="-ble-vs-classic-bluetooth--hackerlər-üçün-tam-analiz">📶🔵 BLE vs Classic Bluetooth – Hackerlər üçün tam analiz</h1>
+
+<p>Bluetooth artıq həyatımızın hər yerindədir:</p>
+
+<ul>
+  <li>📱 telefonlar</li>
+  <li>⌚ smart saatlar</li>
+  <li>🎧 airpods və qulaqlıqlar</li>
+  <li>🧠 IoT cihazlar</li>
+</ul>
+
+<p>Amma əsas sual:</p>
+
+<blockquote>
+  <p>❗ BLE və Classic Bluetooth nə fərq var və hack edilə bilər?</p>
+</blockquote>
+
+<hr />
+
+<h1 id="--canli-demo-instagram-video">🎥 📱 CANLI DEMO (Instagram Video)</h1>
+
+<p>Aşağıdakı videoda real test mühiti 👇</p>
+
+<iframe src="https://www.instagram.com/reel/DW9OsotDHt_/embed" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+<blockquote>
+  <p>🔥 Bu videoda BLE və Classic davranış fərqini real cihazlarla görəcəksən</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-bluetooth-necə-işləyir">🧠 Bluetooth necə işləyir?</h1>
+
+<p>Bluetooth = <strong>wireless communication protokolu</strong></p>
+
+<p>İki əsas növ var:</p>
+
+<h2 id="-1-classic-bluetooth">🔵 1. Classic Bluetooth</h2>
+
+<ul>
+  <li>yüksək data transfer</li>
+  <li>stabil connection</li>
+  <li>pairing tələb edir</li>
+</ul>
+
+<p>📌 istifadə sahəsi:</p>
+<ul>
+  <li>qulaqlıqlar</li>
+  <li>keyboard/mouse</li>
+  <li>audio cihazlar</li>
+</ul>
+
+<hr />
+
+<h2 id="-2-ble-bluetooth-low-energy">🟢 2. BLE (Bluetooth Low Energy)</h2>
+
+<ul>
+  <li>az enerji sərf edir</li>
+  <li>tez scan olunur</li>
+  <li>çox vaxt pairing olmadan işləyir</li>
+</ul>
+
+<p>📌 istifadə sahəsi:</p>
+<ul>
+  <li>IoT cihazlar</li>
+  <li>smart saatlar</li>
+  <li>sensorlar</li>
+</ul>
+
+<hr />
+
+<h1 id="️-əsas-fərqlər">⚔️ Əsas Fərqlər</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Xüsusiyyət</th>
+      <th>Classic Bluetooth</th>
+      <th>BLE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Enerji</td>
+      <td>🔴 çox</td>
+      <td>🟢 az</td>
+    </tr>
+    <tr>
+      <td>Sürət</td>
+      <td>🟢 yüksək</td>
+      <td>🔴 aşağı</td>
+    </tr>
+    <tr>
+      <td>Qoşulma</td>
+      <td>pairing lazımdır</td>
+      <td>çox vaxt lazım deyil</td>
+    </tr>
+    <tr>
+      <td>Təhlükə</td>
+      <td>orta</td>
+      <td>🔥 yüksək</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="-hack-ssenariləri-etik-perspektiv">💀 Hack Ssenariləri (Etik Perspektiv)</h1>
+
+<h2 id="-1-ble-scan--tracking">🔴 1. BLE Scan &amp; Tracking</h2>
+
+<p>BLE cihazlar:</p>
+
+<ul>
+  <li>daim broadcast edir</li>
+  <li>MAC address yayır</li>
+</ul>
+
+<p>💥 nəticə:</p>
+<ul>
+  <li>istifadəçi izlənə bilər</li>
+  <li>location tracking</li>
+</ul>
+
+<hr />
+
+<h2 id="-2-fake-device-spoofing">🔴 2. Fake Device (Spoofing)</h2>
+
+<p>Hacker:</p>
+
+<ul>
+  <li>eyni device adı yaradır</li>
+  <li>istifadəçini aldadır</li>
+</ul>
+
+<p>📌 misal:</p>
+<ul>
+  <li>“AirPods Pro” fake cihaz</li>
+</ul>
+
+<hr />
+
+<h2 id="-3-mitm-man-in-the-middle">🔴 3. MITM (Man-in-the-Middle)</h2>
+
+<p>Classic Bluetooth-da:</p>
+
+<ul>
+  <li>pairing zamanı interception</li>
+</ul>
+
+<p>💥 nəticə:</p>
+<ul>
+  <li>data oğurluğu</li>
+</ul>
+
+<hr />
+
+<h2 id="-4-hid-attack-keyboard-injection">🔴 4. HID Attack (Keyboard Injection)</h2>
+
+<p>Xüsusilə:</p>
+
+<ul>
+  <li>ESP32</li>
+  <li>Raspberry Pi Pico</li>
+</ul>
+
+<p>ilə mümkündür</p>
+
+<p>💥 nəticə:</p>
+<ul>
+  <li>avtomatik komanda yazılır</li>
+  <li>sistemə giriş</li>
+</ul>
+
+<hr />
+
+<h2 id="-5-ble-spam-attack">🔴 5. BLE Spam Attack</h2>
+
+<ul>
+  <li>cihazlar flood edilir</li>
+  <li>notification spam</li>
+</ul>
+
+<p>💥 nəticə:</p>
+<ul>
+  <li>istifadəçi çaşdırılır</li>
+</ul>
+
+<hr />
+
+<h1 id="-sistem-niyə-zəif-olur">🧬 Sistem niyə zəif olur?</h1>
+
+<p>Əsas səbəblər:</p>
+
+<ul>
+  <li>default config</li>
+  <li>zəif encryption</li>
+  <li>user awareness yoxdur</li>
+  <li>auto-connect aktivdir</li>
+</ul>
+
+<hr />
+
+<h1 id="️-qorunma-yolları-blue-team">🛡️ Qorunma Yolları (Blue Team)</h1>
+
+<h2 id="-1-bluetooth-off-lazım-olmayanda">🔵 1. Bluetooth OFF (lazım olmayanda)</h2>
+<p>➡️ ən effektiv müdafiə</p>
+
+<hr />
+
+<h2 id="-2-unknown-device-reject">🔵 2. Unknown Device Reject</h2>
+<p>➡️ tanımadığın cihazlara qoşulma</p>
+
+<hr />
+
+<h2 id="-3-mac-randomization">🔵 3. MAC Randomization</h2>
+<p>➡️ tracking qarşısını alır</p>
+
+<hr />
+
+<h2 id="-4-firmware-update">🔵 4. Firmware Update</h2>
+<p>➡️ IoT cihazlar mütləq update olunmalıdır</p>
+
+<hr />
+
+<h2 id="-5-siem-monitoring-advanced">🔵 5. SIEM Monitoring (Advanced)</h2>
+
+<p>Sənin kimi lab quranlar üçün:</p>
+
+<ul>
+  <li>:contentReference[oaicite:2]{index=2}</li>
+  <li>log + alert</li>
+</ul>
+
+<hr />
+
+<h1 id="-real-həyatda-nə-baş-verir">⚡ Real Həyatda Nə Baş Verir?</h1>
+
+<p>Bugünkü hücumlar:</p>
+
+<ul>
+  <li>BLE tracking (marketlərdə)</li>
+  <li>fake device scam</li>
+  <li>smart cihaz exploit</li>
+</ul>
+
+<p>💥 xüsusilə IoT sahəsində risk böyükdür</p>
+
+<hr />
+
+<h1 id="-cyber-security-öyrənənlər-üçün">🎯 Cyber Security Öyrənənlər üçün</h1>
+
+<p>Bu mövzu sənə öyrədir:</p>
+
+<ul>
+  <li>wireless hacking əsasları</li>
+  <li>real attack ssenariləri</li>
+  <li>Red Team yanaşma</li>
+  <li>Blue Team müdafiə</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-vacib-mesaj">❗ Ən Vacib Mesaj</h1>
+
+<blockquote>
+  <p>Bluetooth təhlükəsi cihazda deyil — istifadəçidədir</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>🔵 Classic Bluetooth<br />
+🟢 BLE</p>
+
+<p>➡️ hər ikisi təhlükəli ola bilər<br />
+➡️ amma düzgün istifadə ilə təhlükəsizdir</p>
+
+<hr />
+
+<h1 id="-faq">❓ FAQ</h1>
+
+<h2 id="ble-daha-təhlükəlidir">BLE daha təhlükəlidir?</h2>
+<p>Bəli, çünki daha açıq və scan ediləndir.</p>
+
+<h2 id="bluetooth-hack-realdır">Bluetooth hack realdır?</h2>
+<p>Bəli, amma çox vaxt user səhvlərinə əsaslanır.</p>
+
+<h2 id="iot-cihazlar-risklidirmi">IoT cihazlar risklidirmi?</h2>
+<p>Bəli, ən zəif nöqtədir.</p>
+
+<hr />
+
+<h1 id="-cta">🔥 CTA</h1>
+
+<p>📢 Əgər öyrənmək istəyirsənsə:</p>
+
+<ul>
+  <li>💻 hacker dersleri</li>
+  <li>🛡️ kiber tehlukesizlik telim</li>
+  <li>📡 iot hacking</li>
+  <li>🔴🔵 red team vs blue team</li>
+</ul>
+
+<p>➡️ Real lab ilə öyrən!</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="bluetooth" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="hacking dersleri" /><category term="bluetooth hacking" /><category term="ble security" /><category term="cyber security" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[BLE və Classic Bluetooth fərqləri, necə işləyir, necə hack edilə bilər və qorunma yolları. Real ssenarilər və praktik izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ble.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ble.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🚦🌍 Şəhər Sistemləri Hack Oluna Bilərmi? İşıqforlar, Kameralar və Böyük Ekranlar Təhlükədədirmi? (2026)</title><link href="https://cybershieldy.com/posts/2026-04-10-smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur" rel="alternate" type="text/html" title="🚦🌍 Şəhər Sistemləri Hack Oluna Bilərmi? İşıqforlar, Kameralar və Böyük Ekranlar Təhlükədədirmi? (2026)" /><published>2026-04-10T06:00:00+04:00</published><updated>2026-04-10T23:37:26+04:00</updated><id>https://cybershieldy.com/posts/smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur</id><content type="html" xml:base="https://cybershieldy.com/posts/2026-04-10-smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur"><![CDATA[<h1 id="-şəhər-sistemləri-hack-oluna-bilərmi">🚦💻 Şəhər Sistemləri Hack Oluna Bilərmi?</h1>
+
+<p>Bugünkü dünyada artıq şəhərlər <strong>smart city</strong> sistemləri ilə idarə olunur:</p>
+
+<ul>
+  <li>🚦 işıqforlar</li>
+  <li>📹 müşahidə kameraları</li>
+  <li>📺 böyük reklam ekranları</li>
+  <li>📡 IoT cihazlar</li>
+</ul>
+
+<p>Bəs sual:</p>
+
+<blockquote>
+  <p>❗ Bunlar hack oluna bilərmi?</p>
+</blockquote>
+
+<h2 id="-cavab">🔥 Cavab:</h2>
+<p>➡️ <strong>BƏLİ — amma bu düşündüyün qədər sadə deyil</strong></p>
+
+<hr />
+
+<h1 id="-smart-city-sistemləri-necə-i̇şləyir">🧠 Smart City Sistemləri Necə İşləyir?</h1>
+
+<p>Smart şəhər sistemləri əsasən aşağı komponentlərdən ibarətdir:</p>
+
+<ul>
+  <li>IoT cihazlar (sensorlar)</li>
+  <li>Mərkəzi idarəetmə serverləri</li>
+  <li>Şəbəkə infrastrukturu</li>
+  <li>Web və ya SCADA panellər</li>
+</ul>
+
+<p>💡 Yəni bu sistemlər = <strong>şəbəkə + proqram + hardware</strong></p>
+
+<hr />
+
+<h1 id="️-potensial-hücum-nöqtələri">⚠️ Potensial Hücum Nöqtələri</h1>
+
+<h2 id="-1-şəbəkə-boşluqları">🔴 1. Şəbəkə Boşluqları</h2>
+
+<p>Əgər sistemdə:</p>
+
+<ul>
+  <li>açıq portlar varsa</li>
+  <li>firewall zəifdirsə</li>
+  <li>default konfiqurasiya qalırsa</li>
+</ul>
+
+<p>➡️ hacker giriş əldə edə bilər</p>
+
+<hr />
+
+<h2 id="-2-iot-zəiflikləri">🔴 2. IoT Zəiflikləri</h2>
+
+<p>IoT cihazların problemi:</p>
+
+<ul>
+  <li>default şifrələr</li>
+  <li>update olunmur</li>
+  <li>zəif firmware</li>
+</ul>
+
+<p>💥 Bu = ən zəif nöqtə</p>
+
+<hr />
+
+<h2 id="-3-web-panel-hücumları">🔴 3. Web Panel Hücumları</h2>
+
+<ul>
+  <li>bruteforce</li>
+  <li>SQL injection</li>
+  <li>auth bypass</li>
+</ul>
+
+<p>➡️ idarəetmə paneli ələ keçirilə bilər</p>
+
+<hr />
+
+<h2 id="-4-fiziki-hücumlar">🔴 4. Fiziki Hücumlar</h2>
+
+<ul>
+  <li>Bad USB</li>
+  <li>cihazlara birbaşa giriş</li>
+</ul>
+
+<p>💥 Bu ən təhlükəli ssenarilərdən biridir</p>
+
+<hr />
+
+<h1 id="-i̇şıqforlar-hack-oluna-bilərmi">🚦 İşıqforlar Hack Oluna Bilərmi?</h1>
+
+<p>✔️ Teorik olaraq mümkündür</p>
+
+<p>Necə?</p>
+
+<ul>
+  <li>SCADA sistemlərinə giriş</li>
+  <li>PLC exploit</li>
+  <li>şəbəkə manipulation</li>
+</ul>
+
+<p>💥 Nəticə:</p>
+
+<ul>
+  <li>trafik qarışır</li>
+  <li>qəzalar baş verə bilər</li>
+</ul>
+
+<hr />
+
+<h1 id="-böyük-reklam-ekranları">📺 Böyük Reklam Ekranları</h1>
+
+<p>Ən çox hack olunan sistemlərdən biri 😄</p>
+
+<p>Necə?</p>
+
+<ul>
+  <li>açıq admin panel</li>
+  <li>zəif login sistemi</li>
+  <li>remote access</li>
+</ul>
+
+<p>💥 Nəticə:</p>
+
+<ul>
+  <li>ekran dəyişir</li>
+  <li>mesajlar dəyişdirilir</li>
+</ul>
+
+<hr />
+
+<h1 id="-şəhər-kameraları">📹 Şəhər Kameraları</h1>
+
+<p>Ən kritik hissə 🔥</p>
+
+<p>Hack edilərsə:</p>
+
+<ul>
+  <li>izləmə sistemi deaktiv olur</li>
+  <li>məlumatlar oğurlanır</li>
+  <li>real-time manipulyasiya edilir</li>
+</ul>
+
+<hr />
+
+<h1 id="-bu-hücumlar-qlobal-ola-bilərmi">🌍 Bu Hücumlar Qlobal Ola Bilərmi?</h1>
+
+<p>✔️ BƏLİ, əgər:</p>
+
+<ul>
+  <li>sistem internetə açıqdır</li>
+  <li>eyni vendor istifadə olunur</li>
+  <li>patch yoxdur</li>
+</ul>
+
+<p>💡 Bir exploit → minlərlə cihaz</p>
+
+<hr />
+
+<h1 id="-niyə-hər-kəs-edə-bilmir">🧬 Niyə Hər Kəs Edə Bilmir?</h1>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>sistemlər çox vaxt daxili şəbəkədədir</li>
+  <li>ciddi firewall var</li>
+  <li>dövlət səviyyəsində qorunur</li>
+</ul>
+
+<hr />
+
+<h1 id="️-necə-qorunurlar">🛡️ Necə Qorunurlar?</h1>
+
+<h2 id="-network-segmentation">🔵 Network Segmentation</h2>
+<p>Sistemlər internetdən ayrılır</p>
+
+<h2 id="-firewall--idsips">🔵 Firewall + IDS/IPS</h2>
+<p>trafik izlənir</p>
+
+<h2 id="-siem-wazuh-və-s">🔵 SIEM (Wazuh və s.)</h2>
+<p>anomaliya detection</p>
+
+<h2 id="-access-control">🔵 Access Control</h2>
+<p>yalnız icazəli giriş</p>
+
+<h2 id="-monitoring">🔵 Monitoring</h2>
+<p>24/7 nəzarət</p>
+
+<hr />
+
+<h1 id="-hacker-necə-yanaşar-etik-perspektiv">⚡ Hacker Necə Yanaşar? (Etik Perspektiv)</h1>
+
+<ol>
+  <li>Recon</li>
+  <li>Port scanning</li>
+  <li>Service analysis</li>
+  <li>Exploit axtarışı</li>
+  <li>Access əldə etmə</li>
+</ol>
+
+<hr />
+
+<h1 id="-cyber-security-öyrənənlər-üçün">🎯 Cyber Security Öyrənənlər üçün</h1>
+
+<p>Bu mövzu sənə öyrədir:</p>
+
+<ul>
+  <li>real sistemlər necə işləyir</li>
+  <li>boşluqları necə tapmaq</li>
+  <li>Red Team düşüncə tərzi</li>
+  <li>Blue Team müdafiəsi</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-vacib-mesaj">❗ Ən Vacib Mesaj</h1>
+
+<blockquote>
+  <p>Ən zəif nöqtə sistem deyil — istifadəçidir</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>🚦 İşıqforlar<br />
+📺 Böyük ekranlar<br />
+📹 Kameralar</p>
+
+<p>➡️ <strong>Hack edilə bilər</strong><br />
+amma düzgün qorunma ilə minimuma endirilir</p>
+
+<hr />
+
+<h1 id="-faq">❓ FAQ</h1>
+
+<h2 id="smart-city-hack-edilə-bilər">Smart city hack edilə bilər?</h2>
+<p>Bəli, amma çətin və qorunan sistemlərdə risk azdır.</p>
+
+<h2 id="ən-zəif-nöqtə-nədir">Ən zəif nöqtə nədir?</h2>
+<p>İnsan faktoru və zəif konfiqurasiya.</p>
+
+<h2 id="iot-cihazlar-təhlükəlidirmi">IoT cihazlar təhlükəlidirmi?</h2>
+<p>Bəli, çox vaxt ən zəif halqadır.</p>
+
+<hr />
+
+<h1 id="-cta">🔥 CTA</h1>
+
+<p>📢 Öyrənmək istəyirsənsə:</p>
+
+<ul>
+  <li>💻 hacker dərsləri</li>
+  <li>🛡️ kiber təhlükəsizlik kursları</li>
+  <li>📱 mobil hacking</li>
+  <li>🌐 web developer kursları</li>
+</ul>
+
+<p>➡️ Real lab ilə öyrən!</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
+  <li>📹🧠👁️ <a href="https://cybershieldy.com/posts/kameralar-nece-izleyir">Şəhər Kameraları Necə İzləyir? AI və Nəzarət Sistemlərinin Sirri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
+Red &amp; Blue Team üzrə təlimçi</strong></p>
+
+<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
+
+<p>🚀 Real bilik &gt; sertifikat<br />
+💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="smart city" /><category term="kiber təhlükəsizlik kursları" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="cyber security" /><category term="smart city hacking" /><category term="iot security" /><category term="web developer kursları" /><category term="mobil hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[İşıqforlar, şəhər kameraları və böyük reklam ekranları hack oluna bilərmi? Smart city sistemlərində boşluqlar və real hücum ssenariləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iot-sys.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iot-sys.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/bad-usb-nedir" rel="alternate" type="text/html" title="Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)" /><published>2026-04-06T06:00:00+04:00</published><updated>2026-04-06T16:21:07+04:00</updated><id>https://cybershieldy.com/posts/bad-usb-nedir-raspberry-pico-ile-hucum-ve-qorunma</id><content type="html" xml:base="https://cybershieldy.com/posts/bad-usb-nedir"><![CDATA[<h1 id="-bad-usb-nədir-raspberry-pi-pico-ilə-sistemə-necə-sızırlar">🔌💀 Bad USB Nədir? Raspberry Pi Pico ilə Sistemə Necə Sızırlar?</h1>
+
+<p>Bugünkü dünyada ən təhlükəli hücumlardan biri internet üzərindən deyil — birbaşa fiziki girişlə, yəni USB vasitəsilə edilir.</p>
+
+<p>Bu hücum növü <strong>Bad USB</strong> adlanır və xüsusilə <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>hacker dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>cyber security kursları</strong> və <strong>Red Team ssenariləri</strong> üçün kritik mövzudur.</p>
+
+<hr />
+
+<h2 id="-bu-yazıda-nələr-var">📌 Bu yazıda nələr var?</h2>
+
+<ul>
+  <li>Bad USB nədir?</li>
+  <li>Raspberry Pi Pico ilə necə işləyir?</li>
+  <li>Sistemə necə sızır?</li>
+  <li>USB daxilində necə gizlənir?</li>
+  <li>Real hücum ssenariləri</li>
+  <li>Necə qorunmaq olar?</li>
+  <li>Cyber security öyrənənlər üçün vacib biliklər</li>
+</ul>
+
+<hr />
+
+<h1 id="-bad-usb-nədir">🧠 Bad USB Nədir?</h1>
+
+<p><strong>Bad USB</strong> — USB cihazın özünü klaviatura və ya input cihazı kimi göstərərək sistemdə əmrlər icra etməsidir.</p>
+
+<p>Bu hücumun əsas xüsusiyyəti:</p>
+
+<blockquote>
+  <p>istifadəçi heç nə açmadan sistem özü əmrləri icra edir</p>
+</blockquote>
+
+<hr />
+
+<h1 id="️-raspberry-pi-pico-ilə-bad-usb">⚙️ Raspberry Pi Pico ilə Bad USB</h1>
+
+<h2 id="-pico-nədir">🔹 Pico nədir?</h2>
+
+<ul>
+  <li>ucuz microcontroller</li>
+  <li>USB HID kimi işləyə bilir</li>
+  <li>proqramlaşdırıla bilir</li>
+</ul>
+
+<h2 id="-niyə-təhlükəlidir">🔥 Niyə təhlükəlidir?</h2>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>klaviatura kimi görünür</li>
+  <li>avtomatik əmrlər yazır</li>
+  <li>antivirusdan yayınır</li>
+</ul>
+
+<hr />
+
+<h1 id="-hücum-necə-i̇şləyir">💻 Hücum Necə İşləyir?</h1>
+
+<p>Sadə ssenari:</p>
+
+<ol>
+  <li>USB taxılır</li>
+  <li>sistem onu keyboard kimi tanıyır</li>
+  <li>script işləyir</li>
+  <li>əmrlər avtomatik icra olunur</li>
+</ol>
+
+<hr />
+
+<h1 id="-bad-usb-ilə-nələr-etmək-olar">💥 Bad USB ilə Nələr Etmək Olar?</h1>
+
+<h2 id="-reverse-shell">🔴 Reverse Shell</h2>
+
+<ul>
+  <li>uzaqdan sistemə giriş</li>
+</ul>
+
+<h2 id="-zərərli-proqram-yükləmə">🔴 Zərərli proqram yükləmə</h2>
+
+<ul>
+  <li>PowerShell ilə payload</li>
+</ul>
+
+<h2 id="-şifrələri-çıxarma">🔴 Şifrələri çıxarma</h2>
+
+<ul>
+  <li>WiFi məlumatları</li>
+  <li>system info</li>
+</ul>
+
+<h2 id="-backdoor-yaratmaq">🔴 Backdoor yaratmaq</h2>
+
+<ul>
+  <li>yeni user</li>
+  <li>autorun script</li>
+</ul>
+
+<h2 id="-firewall-deaktiv-etmək">🔴 Firewall deaktiv etmək</h2>
+
+<ul>
+  <li>müdafiəni zəiflətmək</li>
+</ul>
+
+<hr />
+
+<h1 id="-usb-i̇çində-necə-gizlənir">🧬 USB İçində Necə Gizlənir?</h1>
+
+<p>Bad USB:</p>
+
+<ul>
+  <li>fayl deyil</li>
+  <li>firmware səviyyəsində işləyir</li>
+  <li>antivirus görə bilmir</li>
+  <li>istifadəçi heç nə klik etmir</li>
+</ul>
+
+<hr />
+
+<h1 id="-real-hücum-ssenarisi">🚨 Real Hücum Ssenarisi</h1>
+
+<p>Təsəvvür et:</p>
+
+<p>USB tapdın və taxdın…</p>
+
+<p>Nəticə:</p>
+
+<ul>
+  <li>cmd açılır</li>
+  <li>script işləyir</li>
+  <li>sistem kompromet olunur</li>
+</ul>
+
+<hr />
+
+<h1 id="-niyə-antivirus-tutmur">📉 Niyə Antivirus Tutmur?</h1>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>bu virus deyil</li>
+  <li>bu klaviatura kimi davranır</li>
+  <li>sistem özü icazə verir</li>
+</ul>
+
+<hr />
+
+<h1 id="️-bad-usb-hücumundan-necə-qorunmaq-olar">🛡️ Bad USB Hücumundan Necə Qorunmaq Olar?</h1>
+
+<h2 id="1️⃣-tanımadığın-usb-ni-taxma">1️⃣ Tanımadığın USB-ni taxma</h2>
+
+<p>Ən vacib qayda budur.</p>
+
+<hr />
+
+<h2 id="2️⃣-usb-portları-məhdudlaşdır">2️⃣ USB portları məhdudlaşdır</h2>
+
+<ul>
+  <li>şirkət mühitində blokla</li>
+  <li>policy tətbiq et</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-endpoint-security-istifadə-et">3️⃣ Endpoint Security istifadə et</h2>
+
+<ul>
+  <li>device control</li>
+  <li>USB monitoring</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-hid-cihazları-məhdudlaşdır">4️⃣ HID cihazları məhdudlaşdır</h2>
+
+<ul>
+  <li>yalnız icazəli cihazlar</li>
+</ul>
+
+<hr />
+
+<h2 id="5️⃣-siem-və-monitorinq">5️⃣ SIEM və monitorinq</h2>
+
+<ul>
+  <li>anormal davranışları izləmək</li>
+  <li>cmd / powershell alert</li>
+</ul>
+
+<hr />
+
+<h2 id="6️⃣-user-awareness">6️⃣ User awareness</h2>
+
+<ul>
+  <li>sosial mühəndislikdən qorunmaq</li>
+</ul>
+
+<hr />
+
+<h1 id="-cyber-security-üçün-niyə-vacibdir">🎯 Cyber Security üçün Niyə Vacibdir?</h1>
+
+<p>Bu mövzu:</p>
+
+<ul>
+  <li>Red Team hücum texnikasıdır</li>
+  <li>Blue Team üçün detection mövzusudur</li>
+  <li>SOC üçün alert ssenarisidir</li>
+</ul>
+
+<hr />
+
+<h1 id="-ən-böyük-yanlış-anlayışlar">❌ Ən Böyük Yanlış Anlayışlar</h1>
+
+<h2 id="usb-təhlükəli-deyil">“USB təhlükəli deyil”</h2>
+<p>Yanlışdır.</p>
+
+<h2 id="antivirus-qoruyur">“Antivirus qoruyur”</h2>
+<p>Həmişə yox.</p>
+
+<h2 id="klik-etməsəm-problem-yoxdur">“Klik etməsəm problem yoxdur”</h2>
+<p>Bad USB-də klik lazım deyil.</p>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p>Bad USB — ən təhlükəli fiziki hücumlardan biridir.</p>
+
+<p>Çünki:</p>
+
+<ul>
+  <li>səssiz işləyir</li>
+  <li>antivirusdan yayınır</li>
+  <li>sistemə tam giriş verə bilər</li>
+</ul>
+
+<blockquote>
+  <p>Kibertəhlükəsizlikdə ən zəif nöqtə çox vaxt istifadəçidir.</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-tez-tez-verilən-suallar">❓ Tez-tez verilən suallar</h1>
+
+<h2 id="bad-usb-nədir">Bad USB nədir?</h2>
+<p>USB cihazın klaviatura kimi davranaraq sistemdə əmrlər icra etməsidir.</p>
+
+<h2 id="pico-ilə-etmək-olur">Pico ilə etmək olur?</h2>
+<p>Bəli, Raspberry Pi Pico ilə mümkündür.</p>
+
+<h2 id="antivirus-niyə-tutmur">Antivirus niyə tutmur?</h2>
+<p>Çünki bu davranış sistem tərəfindən normal qəbul olunur.</p>
+
+<h2 id="necə-qorunmaq-olar">Necə qorunmaq olar?</h2>
+<p>USB istifadə qaydaları, endpoint security və monitorinq ilə.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hardware hacking" /><category term="hücum növləri" /><category term="bad usb" /><category term="raspberry pi pico" /><category term="usb hacking" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="etik hacking dərsləri" /><category term="cyber security" /><category term="kiber dərslər" /><category term="hardware hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Bad USB nədir, Raspberry Pi Pico ilə necə işləyir, sistemə necə sızır və necə qorunmaq olar? Kibertəhlükəsizlik və hacking dərsləri üçün geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/badusbs.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/badusbs.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/ddos-hucumu-nedir" rel="alternate" type="text/html" title="DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar? (2026)" /><published>2026-03-24T06:00:00+04:00</published><updated>2026-03-24T11:12:32+04:00</updated><id>https://cybershieldy.com/posts/ddos-hucumu-nedir-ve-nece-qorunmaq-olar</id><content type="html" xml:base="https://cybershieldy.com/posts/ddos-hucumu-nedir"><![CDATA[<h1 id="️-ddos-hücumu-nədir-sistem-necə-çökür-necə-baş-verir-və-necə-qorunmaq-olar">🌐⚠️ DDoS Hücumu Nədir? Sistem Necə Çökür, Necə Baş Verir və Necə Qorunmaq Olar?</h1>
+
+<p>İnternetdə bəzən bir saytın, serverin və ya tətbiqin qəfil yavaşladığını, cavab vermədiyini və ya tamamilə dayandığını görürük. Çox vaxt bunun arxasında sadə texniki nasazlıq yox, <strong>DDoS hücumu</strong> dayanır.</p>
+
+<p>Bu mövzu xüsusilə <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>hacker dərsləri</strong>, <strong>şəbəkə təhlükəsizliyi</strong>, <strong>cyber security</strong> və <strong>real hücum ssenariləri</strong> ilə maraqlananlar üçün çox vacibdir. Çünki DDoS həm texniki, həm də biznes baxımından ən dağıdıcı hücumlardan biridir.</p>
+
+<hr />
+
+<h2 id="-bu-yazıda-nələr-var">📌 Bu yazıda nələr var?</h2>
+
+<ul>
+  <li>🚨 DDoS nədir?</li>
+  <li>🔍 DoS və DDoS arasındakı fərq nədir?</li>
+  <li>⚙️ DDoS hücumu necə yaranır?</li>
+  <li>💥 Sistem necə çökür?</li>
+  <li>🤖 Botnet nədir?</li>
+  <li>🌊 DDoS hücumlarının əsas növləri hansılardır?</li>
+  <li>🖥️ Server və saytlar niyə cavab vermir?</li>
+  <li>🛡️ DDoS hücumundan necə qorunmaq olar?</li>
+  <li>🎯 Kibertəhlükəsizlik öyrənən biri bu mövzuda nə bilməlidir?</li>
+</ul>
+
+<hr />
+
+<h1 id="-dos-və-ddos-nədir">🧠 DoS və DDoS Nədir?</h1>
+
+<p>Əvvəlcə bu iki anlayışı ayıraq.</p>
+
+<h2 id="-dos-nədir">🔹 DoS nədir?</h2>
+
+<p><strong>DoS (Denial of Service)</strong> — bir sistemin xidmət verməsini dayandırmağa yönəlmiş hücumdur. Məqsəd odur ki, sayt, server, tətbiq və ya şəbəkə real istifadəçilərə xidmət göstərə bilməsin.</p>
+
+<p>Yəni sistem tam sındırılmasa da, <strong>işləməz hala gətirilə bilər</strong>.</p>
+
+<h2 id="-ddos-nədir">🔹 DDoS nədir?</h2>
+
+<p><strong>DDoS (Distributed Denial of Service)</strong> — eyni məqsədi daşıyan, amma bunu <strong>bir çox cihazdan eyni anda</strong> həyata keçirən hücum növüdür.</p>
+
+<p>Buradakı əsas söz <strong>distributed</strong>, yəni <strong>paylanmış</strong> deməkdir.</p>
+
+<h3 id="-bu-nə-deməkdir">📍 Bu nə deməkdir?</h3>
+
+<ul>
+  <li>bir hücumçu tək cihazdan gəlmir</li>
+  <li>çox sayda fərqli IP, cihaz və sistem eyni anda hədəfə trafik göndərir</li>
+  <li>nəticədə server yüklənir, resurslar tükənir və xidmət dayanır</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-hücumunun-məntiqi-nədir">⚡ DDoS Hücumunun Məntiqi Nədir?</h1>
+
+<p>DDoS hücumunun məntiqi sadədir:</p>
+
+<blockquote>
+  <p><strong>Hədəfə o qədər çox sorğu göndərilir ki, sistem artıq real istifadəçilərə cavab verə bilmir.</strong></p>
+</blockquote>
+
+<p>Bunu real həyat misalı ilə belə düşün:</p>
+
+<p>Bir mağazanın qapısından eyni anda 20 nəfər keçəndə problem olmur. Amma eyni anda 50 min nəfər qapıya yüklənsə:</p>
+
+<ul>
+  <li>giriş bağlanar</li>
+  <li>içəridə xidmət dayanır</li>
+  <li>kassalar işləməz</li>
+  <li>real müştərilər içəri girə bilməz</li>
+</ul>
+
+<p>DDoS da internetdə bunun texniki versiyasıdır.</p>
+
+<hr />
+
+<h1 id="️-ddos-hücumu-necə-baş-verir">⚙️ DDoS Hücumu Necə Baş Verir?</h1>
+
+<p>DDoS hücumu adətən bir neçə mərhələdə formalaşır.</p>
+
+<h2 id="1️⃣-hədəf-seçilir">1️⃣ Hədəf seçilir</h2>
+
+<p>Hücumçu bir sistemi hədəf seçir:</p>
+
+<ul>
+  <li>veb sayt</li>
+  <li>API</li>
+  <li>oyun serveri</li>
+  <li>bank sistemi</li>
+  <li>e-ticarət platforması</li>
+  <li>DNS xidməti</li>
+  <li>mail server</li>
+  <li>tətbiq infrastrukturu</li>
+</ul>
+
+<h2 id="2️⃣-hücum-üçün-cihazlar-hazırlanır">2️⃣ Hücum üçün cihazlar hazırlanır</h2>
+
+<p>Tək cihaz çox böyük təsir yaratmaya bilər. Ona görə hücumçu adətən çoxlu cihazdan istifadə edir.</p>
+
+<p>Burada <strong>botnet</strong> anlayışı ortaya çıxır.</p>
+
+<h2 id="3️⃣-eyni-anda-trafik-göndərilir">3️⃣ Eyni anda trafik göndərilir</h2>
+
+<p>Bu cihazlar eyni anda hədəfə:</p>
+
+<ul>
+  <li>paket</li>
+  <li>request</li>
+  <li>connection</li>
+  <li>yarımçıq bağlantı</li>
+  <li>saxta sorğu</li>
+  <li>təkrarlanan istəklər</li>
+</ul>
+
+<p>göndərirlər.</p>
+
+<h2 id="4️⃣-resurslar-dolur">4️⃣ Resurslar dolur</h2>
+
+<p>Serverin resursları məhduddur:</p>
+
+<ul>
+  <li>CPU</li>
+  <li>RAM</li>
+  <li>bandwidth</li>
+  <li>connection table</li>
+  <li>thread pool</li>
+  <li>firewall session</li>
+  <li>database pool</li>
+  <li>load balancer limitləri</li>
+</ul>
+
+<p>Bu resurslar dolduqda sistem normal istifadəçilərə xidmət verə bilmir.</p>
+
+<h2 id="5️⃣-xidmət-dayanır-və-ya-zəifləyir">5️⃣ Xidmət dayanır və ya zəifləyir</h2>
+
+<p>Nəticə belə olur:</p>
+
+<ul>
+  <li>sayt açılmır</li>
+  <li>tətbiq donur</li>
+  <li>server timeout verir</li>
+  <li>istifadəçi login ola bilmir</li>
+  <li>API cavab vermir</li>
+  <li>xidmət tam və ya qismən çökür</li>
+</ul>
+
+<hr />
+
+<h1 id="-botnet-nədir-və-ddos-da-niyə-vacibdir">🤖 Botnet Nədir və DDoS-da Niyə Vacibdir?</h1>
+
+<p><strong>Botnet</strong> — uzaqdan idarə olunan çoxlu cihaz toplusudur.</p>
+
+<p>Bu cihazlar bəzən belə olur:</p>
+
+<ul>
+  <li>zəif qorunan kompüterlər</li>
+  <li>IoT cihazları</li>
+  <li>kameralar</li>
+  <li>modemlər</li>
+  <li>routerlər</li>
+  <li>zəif parollu sistemlər</li>
+  <li>zərərli proqram yoluxmuş cihazlar</li>
+</ul>
+
+<p>Hücumçu bu cihazlara komanda verir və hamısı eyni anda bir hədəfə trafik göndərir.</p>
+
+<h3 id="-niyə-təhlükəlidir">🔥 Niyə təhlükəlidir?</h3>
+
+<ul>
+  <li>trafik bir IP-dən gəlmir</li>
+  <li>bloklamaq çətinləşir</li>
+  <li>normal trafikdən ayırmaq çətin ola bilir</li>
+  <li>hücumun həcmi böyüyür</li>
+</ul>
+
+<p>Yəni DDoS-un gücü təkcə hücumun özündə deyil, onun <strong>çox mənbədən gəlməsindədir</strong>.</p>
+
+<hr />
+
+<h1 id="-sistem-ddos-zamanı-necə-çökür">💥 Sistem DDoS Zamanı Necə Çökür?</h1>
+
+<p>Bu hissə çox vacibdir. Çünki çox adam düşünür ki, server sadəcə “internet dolduğuna görə” dayanır. Əslində isə bir neçə fərqli çökmə mexanizmi var.</p>
+
+<h2 id="1️⃣-bandwidth-dolur">1️⃣ Bandwidth dolur</h2>
+
+<p>Əgər serverə və ya şəbəkəyə çox böyük həcmdə trafik gəlirsə, internet xətti dolur.</p>
+
+<p>Nəticə:</p>
+
+<ul>
+  <li>normal istifadəçi paketi içəri keçə bilmir</li>
+  <li>router və firewall boğulur</li>
+  <li>xidmətə çatmaq olmur</li>
+</ul>
+
+<p>Bu daha çox <strong>volumetric DDoS</strong> ssenarisidir.</p>
+
+<h2 id="2️⃣-connection-limiti-tükənir">2️⃣ Connection limiti tükənir</h2>
+
+<p>Serverin eyni anda saxlaya biləcəyi bağlantı sayı məhduddur.</p>
+
+<p>Hücum çoxlu connection açdıqda:</p>
+
+<ul>
+  <li>yeni istifadəçi qoşula bilmir</li>
+  <li>TCP session-lar dolur</li>
+  <li>tətbiq növbələri şişir</li>
+</ul>
+
+<h2 id="3️⃣-cpu-və-ram-yüklənir">3️⃣ CPU və RAM yüklənir</h2>
+
+<p>Bəzi sorğular server üçün baha başa gəlir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>ağır HTTP request-lər</li>
+  <li>dinamik səhifə generation</li>
+  <li>database query-lər</li>
+  <li>axtarış sorğuları</li>
+  <li>login endpoint-ləri</li>
+</ul>
+
+<p>Əgər bunlardan minlərlə eyni anda gələrsə:</p>
+
+<ul>
+  <li>CPU yüksəlir</li>
+  <li>RAM istifadə artır</li>
+  <li>proseslər gecikir</li>
+  <li>tətbiq cavabsızlaşır</li>
+</ul>
+
+<h2 id="4️⃣-database-boğulur">4️⃣ Database boğulur</h2>
+
+<p>DDoS birbaşa databazaya da təsir edə bilər.</p>
+
+<p>Əgər tətbiq hər request-də databazaya müraciət edirsə, çoxlu sorğu:</p>
+
+<ul>
+  <li>DB pool-u doldura bilər</li>
+  <li>lock yarada bilər</li>
+  <li>query queue-nu artıra bilər</li>
+  <li>ümumi performansı öldürə bilər</li>
+</ul>
+
+<h2 id="5️⃣-app-layer-çökür">5️⃣ App layer çökür</h2>
+
+<p>Bəzən şəbəkə güclü olur, server ayaqda qalır, amma tətbiqin özü sıradan çıxır.</p>
+
+<p>Bu zaman:</p>
+
+<ul>
+  <li>login sistemi işləmir</li>
+  <li>səbət funksiyası çökür</li>
+  <li>admin panel açılmır</li>
+  <li>API endpoint-ləri timeout verir</li>
+</ul>
+
+<p>Bu, xüsusilə <strong>Layer 7 DDoS</strong> hücumlarında olur.</p>
+
+<hr />
+
+<h1 id="-ddos-hücumlarının-əsas-növləri">🌊 DDoS Hücumlarının Əsas Növləri</h1>
+
+<p>DDoS hücumlarını ümumi şəkildə 3 əsas qrupa bölmək olar.</p>
+
+<h2 id="1️⃣-volumetric-ddos">1️⃣ Volumetric DDoS</h2>
+
+<p>Bu növdə məqsəd <strong>şəbəkə xəttini trafiklə doldurmaqdır</strong>.</p>
+
+<h3 id="misallar">Misallar:</h3>
+<ul>
+  <li>UDP flood</li>
+  <li>ICMP flood</li>
+  <li>amplification hücumları</li>
+</ul>
+
+<h3 id="məqsəd">Məqsəd:</h3>
+<ul>
+  <li>bandwidth dolsun</li>
+  <li>trafik normal istifadəçini sıxsın</li>
+  <li>upstream link boğulsun</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-protocol-ddos">2️⃣ Protocol DDoS</h2>
+
+<p>Bu növdə şəbəkə protokollarının işləmə qaydası hədəf alınır.</p>
+
+<h3 id="misallar-1">Misallar:</h3>
+<ul>
+  <li>SYN flood</li>
+  <li>fragmented packet abuse</li>
+  <li>connection table exhaustion</li>
+</ul>
+
+<h3 id="məqsəd-1">Məqsəd:</h3>
+<ul>
+  <li>firewall-u yormaq</li>
+  <li>load balancer-i yükləmək</li>
+  <li>session state-ləri doldurmaq</li>
+  <li>TCP stack-i zəiflətmək</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-application-layer-ddos">3️⃣ Application Layer DDoS</h2>
+
+<p>Bu ən ağıllı və ən təhlükəli növlərdən biridir.</p>
+
+<h3 id="misallar-2">Misallar:</h3>
+<ul>
+  <li>HTTP GET flood</li>
+  <li>HTTP POST flood</li>
+  <li>login flood</li>
+  <li>search flood</li>
+  <li>cart flood</li>
+  <li>expensive API request flood</li>
+</ul>
+
+<p>Burada hücumçu adi istifadəçi kimi görünən request-lər göndərir. Ona görə bunları ayırmaq bəzən çətin olur.</p>
+
+<h3 id="ən-təhlükəli-tərəfi">Ən təhlükəli tərəfi:</h3>
+<ul>
+  <li>trafik az görünə bilər</li>
+  <li>amma hər request baha başa gəlir</li>
+  <li>serverin tətbiq səviyyəsi çökür</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-hücumları-niyə-bu-qədər-təhlükəlidir">🚨 DDoS Hücumları Niyə Bu Qədər Təhlükəlidir?</h1>
+
+<p>DDoS sadəcə “saytı yıxmaq” deyil. Onun nəticələri daha böyük ola bilər.</p>
+
+<h2 id="-biznes-zərərləri">💸 Biznes zərərləri</h2>
+
+<ul>
+  <li>satış dayanır</li>
+  <li>sifarişlər itir</li>
+  <li>müştəri etibarı azalır</li>
+  <li>reklam büdcəsi boşa gedir</li>
+  <li>marka imici zədələnir</li>
+</ul>
+
+<h2 id="-texniki-zərərlər">🧯 Texniki zərərlər</h2>
+
+<ul>
+  <li>server resursları tükənir</li>
+  <li>log həcmi şişir</li>
+  <li>monitoring sistemləri alarmla dolur</li>
+  <li>digər servisələr zəncirvari təsir edir</li>
+</ul>
+
+<h2 id="-təhlükəsizlik-baxımından">🎭 Təhlükəsizlik baxımından</h2>
+
+<p>Bəzən DDoS əsas hücum deyil, <strong>yayındırma hücumudur</strong>.</p>
+
+<p>Yəni hücumçu:</p>
+
+<ul>
+  <li>bir tərəfdən DDoS yaradır</li>
+  <li>müdafiə komandası diqqətini ora verir</li>
+  <li>digər tərəfdən fərqli hücum həyata keçirilir</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-hücumu-hansı-əlamətlərlə-özünü-göstərir">📉 DDoS Hücumu Hansı Əlamətlərlə Özünü Göstərir?</h1>
+
+<p>Aşağıdakı hallar DDoS şübhəsi yarada bilər:</p>
+
+<ul>
+  <li>sayt qəfil çox yavaşlayır</li>
+  <li>CPU və RAM yüksəlir</li>
+  <li>bandwidth usage kəskin artır</li>
+  <li>eyni endpoint-ə çoxlu request gəlir</li>
+  <li>çoxlu fərqli IP-lərdən eyni pattern görünür</li>
+  <li>firewall session-ları dolur</li>
+  <li>load balancer backend-ləri unhealthy olur</li>
+  <li>502, 503, 504 kimi xətalar artır</li>
+  <li>real istifadəçi daxil ola bilmir</li>
+</ul>
+
+<p>SOC və Blue Team baxımından bunlar çox vacib siqnallardır.</p>
+
+<hr />
+
+<h1 id="-ddos-hücumunda-loglarda-nələr-görünə-bilər">📜 DDoS Hücumunda Loglarda Nələr Görünə Bilər?</h1>
+
+<p>Mühitdən asılı olaraq bu izlər görünə bilər.</p>
+
+<h2 id="-web-server-loglarında">🌐 Web server loglarında</h2>
+
+<ul>
+  <li>eyni URL-ə həddindən artıq request</li>
+  <li>user-agent təkrarı</li>
+  <li>anormal IP paylanması</li>
+  <li>qısa vaxtda böyük həcm</li>
+</ul>
+
+<h2 id="-firewall-loglarında">🔥 Firewall loglarında</h2>
+
+<ul>
+  <li>SYN artımı</li>
+  <li>UDP flood pattern-ləri</li>
+  <li>connection spike</li>
+  <li>dropped packet sayı</li>
+</ul>
+
+<h2 id="️-idsips-sistemlərində">🛡️ IDS/IPS sistemlərində</h2>
+
+<ul>
+  <li>scan və flood imzaları</li>
+  <li>abnormal traffic signatures</li>
+  <li>policy violation-lar</li>
+</ul>
+
+<h2 id="-siem-də">📊 SIEM-də</h2>
+
+<ul>
+  <li>traffic anomaly</li>
+  <li>threshold breach</li>
+  <li>service unavailable alert</li>
+  <li>correlated flood event</li>
+</ul>
+
+<p>Bu səbəbdən DDoS mövzusu <strong>kiber dərslər</strong>, <strong>cyber security təlimləri</strong>, <strong>SOC analitikası</strong>, <strong>Blue Team dərsləri</strong> və <strong>etik hacking dərsləri</strong> üçün çox vacibdir.</p>
+
+<hr />
+
+<h1 id="️-ddos-dan-necə-qorunmaq-olar">🛡️ DDoS-dan Necə Qorunmaq Olar?</h1>
+
+<p>Tam “100% heç vaxt hücum olmayacaq” yanaşması real deyil. Amma düzgün memarlıq və müdafiə ilə təsiri ciddi azaltmaq olar.</p>
+
+<h2 id="1️⃣-cdn-və-reverse-proxy-istifadə-et">1️⃣ CDN və reverse proxy istifadə et</h2>
+
+<ul>
+  <li>trafiki paylayır</li>
+  <li>caching edir</li>
+  <li>origin serveri qoruyur</li>
+  <li>bəzi flood-ları udur</li>
+</ul>
+
+<h2 id="2️⃣-rate-limiting-tətbiq-et">2️⃣ Rate limiting tətbiq et</h2>
+
+<p>Bir IP və ya session üçün limit qoymaq:</p>
+
+<ul>
+  <li>login flood</li>
+  <li>search abuse</li>
+  <li>API abuse</li>
+</ul>
+
+<p>kimi hücumların təsirini azalda bilər.</p>
+
+<h2 id="3️⃣-waf-istifadə-et">3️⃣ WAF istifadə et</h2>
+
+<p>Web Application Firewall:</p>
+
+<ul>
+  <li>pattern əsaslı filtr tətbiq edir</li>
+  <li>bot davranışını ayırmağa kömək edir</li>
+  <li>bəzi Layer 7 hücumlarını bloklaya bilir</li>
+</ul>
+
+<h2 id="4️⃣-load-balancing-və-autoscaling">4️⃣ Load balancing və autoscaling</h2>
+
+<ul>
+  <li>load balancer</li>
+  <li>horizontal scaling</li>
+  <li>redundant node-lar</li>
+  <li>geo-distributed xidmət</li>
+</ul>
+
+<p>üzərində qurulan memarlıq daha dayanıqlı olur.</p>
+
+<h2 id="5️⃣-firewall-və-acl-optimizasiyası">5️⃣ Firewall və ACL optimizasiyası</h2>
+
+<ul>
+  <li>lazımsız portları bağla</li>
+  <li>ACL-lərlə filtr et</li>
+  <li>upstream provider ilə koordinasiya qur</li>
+  <li>connection threshold-ları tənzimlə</li>
+</ul>
+
+<h2 id="6️⃣-ddos-protection-xidməti-istifadə-et">6️⃣ DDoS protection xidməti istifadə et</h2>
+
+<p>Xüsusilə:</p>
+
+<ul>
+  <li>böyük e-ticarət</li>
+  <li>media platformaları</li>
+  <li>bank sistemləri</li>
+  <li>kritik servisələr</li>
+</ul>
+
+<p>üçün bu ciddi ehtiyacdır.</p>
+
+<h2 id="7️⃣-monitoring-və-siem-inteqrasiyası">7️⃣ Monitoring və SIEM inteqrasiyası</h2>
+
+<p>İzlənməli göstəricilər:</p>
+
+<ul>
+  <li>traffic baseline</li>
+  <li>request per second</li>
+  <li>failed request ratio</li>
+  <li>connection count</li>
+  <li>CPU, RAM, bandwidth</li>
+  <li>endpoint pattern-ləri</li>
+</ul>
+
+<h2 id="8️⃣-incident-response-plan-hazır-olmalıdır">8️⃣ Incident response plan hazır olmalıdır</h2>
+
+<p>Hazır olmalıdır:</p>
+
+<ul>
+  <li>kim xəbərdar ediləcək</li>
+  <li>hansı IP-lər bloklanacaq</li>
+  <li>hansı servis prioritetlidir</li>
+  <li>upstream provayderlə əlaqə necə qurulacaq</li>
+  <li>hansı sistemlər fallback-a keçəcək</li>
+</ul>
+
+<hr />
+
+<h1 id="-ddos-mövzusu-kiber-dərslərdə-niyə-vacibdir">🎯 DDoS Mövzusu Kiber Dərslərdə Niyə Vacibdir?</h1>
+
+<p>Bu mövzu yalnız hücum kimi yox, <strong>müdafiə, monitorinq və memarlıq</strong> mövzusu kimi öyrənilməlidir.</p>
+
+<p>Çünki bu sahədə çalışan biri bunları anlamalıdır:</p>
+
+<ul>
+  <li>trafik necə işləyir</li>
+  <li>şəbəkə resursları necə tükənir</li>
+  <li>web server performansı necə düşür</li>
+  <li>bot ilə real istifadəçi trafiki necə ayırd edilir</li>
+  <li>SIEM və IDS/IPS bu hücumu necə görür</li>
+  <li>Blue Team necə reaksiya verir</li>
+  <li>Red Team bu riski necə modelləşdirir</li>
+</ul>
+
+<p>Yəni DDoS anlayışı <strong>hacker dərsləri</strong>, <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>cyber security kursları</strong>, <strong>Red Team</strong>, <strong>Blue Team</strong> və <strong>SOC analitikası</strong> üçün əsas mövzulardan biridir.</p>
+
+<hr />
+
+<h1 id="️-ddos-hücumuna-qarşı-güclü-i̇nfrastruktur-necə-qurulur">🏗️ DDoS Hücumuna Qarşı Güclü İnfrastruktur Necə Qurulur?</h1>
+
+<p>Güclü infrastruktur təkcə “güclü server” demək deyil.</p>
+
+<p>Əslində dayanıqlılıq bunların birləşməsidir:</p>
+
+<ul>
+  <li>düzgün şəbəkə memarlığı</li>
+  <li>cache</li>
+  <li>CDN</li>
+  <li>WAF</li>
+  <li>load balancing</li>
+  <li>failover</li>
+  <li>visibility</li>
+  <li>alerting</li>
+  <li>incident response</li>
+  <li>test və simulyasiya</li>
+</ul>
+
+<p>Əgər bunlar yoxdursa, ən güclü server də birdən-birə zəif görünə bilər.</p>
+
+<hr />
+
+<h1 id="-ddos-haqqında-ən-böyük-yanlış-anlayışlar">❌ DDoS Haqqında Ən Böyük Yanlış Anlayışlar</h1>
+
+<h2 id="ddos-yalnız-böyük-şirkətlərə-edilir">“DDoS yalnız böyük şirkətlərə edilir”</h2>
+<p>Xeyr. Kiçik saytlar, kurs platformaları, şəxsi layihələr, oyun serverləri və hətta test mühitləri də hədəf ola bilər.</p>
+
+<h2 id="sadəcə-internet-sürəti-artırsaq-həll-olar">“Sadəcə internet sürəti artırsaq, həll olar”</h2>
+<p>Hər zaman yox. Bəzi hücumlar bandwidth yox, application layer və connection state-i hədəf alır.</p>
+
+<h2 id="firewall-varsa-problem-yoxdur">“Firewall varsa, problem yoxdur”</h2>
+<p>Firewall vacibdir, amma təkbaşına kifayət etmir.</p>
+
+<h2 id="sayt-açılırsa-deməli-təhlükə-keçib">“Sayt açılırsa, deməli təhlükə keçib”</h2>
+<p>Bəzən hücum dalğalarla olur. Monitorinq davam etməlidir.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-kibertəhlükəsizlik-mütəxəssisi-ddos-haqqında-nə-bilməlidir">🚀 Gələcəyin Kibertəhlükəsizlik Mütəxəssisi DDoS Haqqında Nə Bilməlidir?</h1>
+
+<p>Gələcəyin güclü mütəxəssisi yalnız “hücum nədir?” sualını yox, bunları da bilməlidir:</p>
+
+<ul>
+  <li>şəbəkə təməli</li>
+  <li>TCP/IP davranışı</li>
+  <li>HTTP yük profili</li>
+  <li>Linux server performansı</li>
+  <li>firewall məntiqi</li>
+  <li>IDS/IPS siqnalları</li>
+  <li>SIEM korrelyasiyası</li>
+  <li>alert tuning</li>
+  <li>incident handling</li>
+  <li>memarlıq dayanıqlılığı</li>
+</ul>
+
+<p>Bu səbəbdən <strong>kiber təhlükəsizlik dərsləri</strong> alan hər kəs DDoS-u həm hücum, həm də müdafiə baxımından başa düşməlidir.</p>
+
+<hr />
+
+<h1 id="-nəticə">🏁 Nəticə</h1>
+
+<p><strong>DDoS hücumu</strong> — bir sistemi məlumat oğurlamadan da sıradan çıxara bilən çox ciddi kiber təhlükədir.</p>
+
+<h3 id="bu-hücumun-məqsədi">Bu hücumun məqsədi:</h3>
+<ul>
+  <li>sistemi yükləmək</li>
+  <li>resursları tükətmək</li>
+  <li>xidməti dayandırmaq</li>
+  <li>real istifadəçini kənarda saxlamaq</li>
+</ul>
+
+<p>DDoS-un gücü onun çox mənbədən gəlməsində, sürətli yayılmasında və bəzən normal trafik kimi görünməsindədir.</p>
+
+<p>Bugünkü dünyada istər sayt sahibi ol, istər sistem inzibatçısı, istər SOC analitiki, istər Blue Team üzvü, istərsə də etik hacking öyrənən biri — bu mövzunu dərindən anlamaq vacibdir.</p>
+
+<blockquote>
+  <p><strong>Çünki kibertəhlükəsizlik yalnız sistemi qurmaq deyil, onu ayaqda saxlamaqdır.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-tez-tez-verilən-suallar">❓ Tez-tez verilən suallar</h1>
+
+<h2 id="ddos-ilə-dos-fərqi-nədir">DDoS ilə DoS fərqi nədir?</h2>
+<p>DoS bir mənbədən edilən xidmət dayandırma hücumudur. DDoS isə bir çox cihazdan eyni anda həyata keçirilən paylanmış hücumdur.</p>
+
+<h2 id="ddos-sistemə-necə-təsir-edir">DDoS sistemə necə təsir edir?</h2>
+<p>Bandwidth, CPU, RAM, connection table, web server, firewall və ya tətbiq səviyyəsində resursları tükəndirə bilər.</p>
+
+<h2 id="ddos-zamanı-sayt-niyə-açılmır">DDoS zamanı sayt niyə açılmır?</h2>
+<p>Çünki server və ya şəbəkə real istifadəçilərin sorğularına cavab verə bilmir, request-lər timeout olur və xidmət sıradan çıxır.</p>
+
+<h2 id="ddos-dan-qorunmaq-üçün-nə-lazımdır">DDoS-dan qorunmaq üçün nə lazımdır?</h2>
+<p>CDN, WAF, rate limiting, load balancing, monitoring, anti-DDoS xidmətləri və incident response plan vacibdir.</p>
+
+<h2 id="ddos-mövzusu-kimlər-üçün-vacibdir">DDoS mövzusu kimlər üçün vacibdir?</h2>
+<p>Kiber təhlükəsizlik öyrənənlər, sistem adminləri, Blue Team, Red Team, SOC analitikləri, DevOps və server sahibləri üçün çox vacibdir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar mövzular</h1>
+
+<h1 id="-oxşar-mövzular-1">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik: Süni İntellekt Hücumları və Müdafiə Strategiyaları</a></li>
+  <li>🕵️‍♂️🌐 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbələrdən Məlumat Toplama və Analiz</a></li>
+  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
+  <li>📶🔐 <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
+  <li>👁️‍🗨️🛜 <a href="/posts/sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+  <li>🛡️🔑 <a href="/posts/iki-faktorlu-identifikasiya">İki Faktorlu Identifikasiya Nədir? Hesabları Daha Güclü Qoruma Yolu</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="şəbəkə təhlükəsizliyi" /><category term="hücum növləri" /><category term="ddos hücumu" /><category term="dos attack" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="etik hacking dərsləri" /><category term="cyber security" /><category term="kiber dərslər" /><category term="network security" /><category term="server təhlükəsizliyi" /><category term="botnet" /><category term="flood attack" /><category term="cyber attack" /><summary type="html"><![CDATA[DDoS hücumu nədir, necə işləyir, sistemləri necə çökdürür, hansı növləri var və necə qorunmaq olar? Kibertəhlükəsizlik, etik hacking dərsləri və cyber security öyrənənlər üçün geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ddos.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ddos.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
