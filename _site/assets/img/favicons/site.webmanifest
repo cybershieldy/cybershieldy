@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Kiber Təhlükəsizlik Bloqu",
-  "short_name": "Kiber Təhlükəsizlik Bloqu",
-  "description": "A minimal, responsive and feature-rich Jekyll theme for technical writing.",
+  "name": "Cybershieldy Academy — Cybersecurity & Web Development Training",
+  "short_name": "Cybershieldy Academy — Cybersecurity & Web Development Training",
+  "description": "Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",
