@@ -4,7 +4,6 @@ title: "📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnolog
 date: 2026-06-17 07:00:00 +0400
 lastmod: 2026-06-17 07:00:00 +0400
 categories: [kibertəhlükəsizlik, rf təhlükəsizliyi, wireless security]
-
 tags:
 - kiber təhlükəsizlik
   - kiber dersleri
@@ -155,12 +154,12 @@ Lakin eyni zamanda yeni təhlükəsizlik problemləri də yaradır.
 
 Uzun illər kibertəhlükəsizlik dedikdə insanların ağlına aşağıdakılar gəlirdi:
 
-* Firewall
-* Antivirus
-* Server təhlükəsizliyi
-* Windows təhlükəsizliyi
-* Linux təhlükəsizliyi
-* Şəbəkə monitorinqi
+- Firewall
+- Antivirus
+- Server təhlükəsizliyi
+- Windows təhlükəsizliyi
+- Linux təhlükəsizliyi
+- Şəbəkə monitorinqi
 
 Bu yanaşma hələ də vacibdir.
 
@@ -172,11 +171,11 @@ Bu gün məlumat yalnız serverlərdə saxlanılmır.
 
 Məlumat:
 
-* sensorlarda mövcuddur,
-* ağıllı cihazlarda mövcuddur,
-* mobil telefonlarda mövcuddur,
-* avtomobillərdə mövcuddur,
-* sənaye sistemlərində mövcuddur.
+- sensorlarda mövcuddur,
+- ağıllı cihazlarda mövcuddur,
+- mobil telefonlarda mövcuddur,
+- avtomobillərdə mövcuddur,
+- sənaye sistemlərində mövcuddur.
 
 Buna görə də müasir təhlükəsizlik mütəxəssisi yalnız kompüterləri deyil, bütöv ekosistemi başa düşməlidir.
 
@@ -192,11 +191,11 @@ Məsələn:
 
 Bir müəssisədə:
 
-* Wi-Fi infrastrukturu,
-* Bluetooth cihazları,
-* IoT sensorları,
-* Ağıllı kameralar,
-* Giriş nəzarət sistemləri
+- Wi-Fi infrastrukturu,
+- Bluetooth cihazları,
+- IoT sensorları,
+- Ağıllı kameralar,
+- Giriş nəzarət sistemləri
 
 fəaliyyət göstərirsə, artıq hücum səthi yalnız server otağından ibarət deyil.
 
@@ -210,13 +209,13 @@ Dünyada milyardlarla IoT cihazı fəaliyyət göstərir.
 
 Bu cihazlara daxildir:
 
-* Sensorlar
-* Ağıllı lampalar
-* Termostatlar
-* Təhlükəsizlik kameraları
-* İstehsalat sistemləri
-* Sənaye nəzarət qurğuları
-* Smart Home platformaları
+- Sensorlar
+- Ağıllı lampalar
+- Termostatlar
+- Təhlükəsizlik kameraları
+- İstehsalat sistemləri
+- Sənaye nəzarət qurğuları
+- Smart Home platformaları
 
 Bu cihazların bir çoxu daimi olaraq məlumat ötürür.
 
@@ -224,10 +223,10 @@ Problem ondadır ki, bir çox IoT cihazı təhlükəsizlik prioriteti nəzərə 
 
 Nəticədə:
 
-* zəif şifrələr,
-* köhnə proqram təminatı,
-* təhlükəsiz olmayan protokollar,
-* zəif autentifikasiya mexanizmləri
+- zəif şifrələr,
+- köhnə proqram təminatı,
+- təhlükəsiz olmayan protokollar,
+- zəif autentifikasiya mexanizmləri
 
 kimi problemlər yaranır.
 
@@ -241,12 +240,12 @@ Müasir insanın cibindəki smartfon əslində kiçik bir kompüterdir.
 
 Telefonlar eyni anda müxtəlif texnologiyalarla işləyir:
 
-* Wi-Fi
-* Bluetooth
-* NFC
-* GPS
-* Mobil operator şəbəkələri
-* Bulud xidmətləri
+- Wi-Fi
+- Bluetooth
+- NFC
+- GPS
+- Mobil operator şəbəkələri
+- Bulud xidmətləri
 
 Bu sistemlərin hamısı birlikdə böyük bir ekosistem yaradır.
 
@@ -264,12 +263,12 @@ Bir çox insan SOC və ya SIEM sistemlərinin sadəcə log topladığını düş
 
 Peşəkar analitiklər aşağıdakı məlumatları əlaqələndirməyə çalışırlar:
 
-* Şəbəkə hadisələri
-* Sistem hadisələri
-* İstifadəçi fəaliyyətləri
-* Mobil fəaliyyətlər
-* Cihaz davranışları
-* Simsiz əlaqələr
+- Şəbəkə hadisələri
+- Sistem hadisələri
+- İstifadəçi fəaliyyətləri
+- Mobil fəaliyyətlər
+- Cihaz davranışları
+- Simsiz əlaqələr
 
 Bu məlumatlar birlikdə daha böyük mənzərə yaradır.
 
@@ -295,10 +294,10 @@ Onlar məlumatlar arasında əlaqə qura bilən insanlardır.
 
 Bir hadisəyə baxaraq:
 
-* səbəbi,
-* nəticəni,
-* əlaqəli sistemləri,
-* potensial riskləri
+-  səbəbi,
+-  nəticəni,
+-  əlaqəli sistemləri,
+-  potensial riskləri
 
 müəyyən edə bilirlər.
 
@@ -310,10 +309,10 @@ Məhz bu bacarıq gələcəyin SOC analitiklərini və Threat Hunter-lərini fə
 
 Gələcəkdə texnologiya daha çox:
 
-* simsiz,
-* avtomatlaşdırılmış,
-* bulud əsaslı,
-* cihaz yönümlü
+-  simsiz,
+-  avtomatlaşdırılmış,
+-  bulud əsaslı,
+- cihaz yönümlü
 
 olacaq.
 
@@ -349,9 +348,9 @@ Bu gün ətrafımız görünməyən radio siqnalları ilə doludur.
 
 Bu siqnallar:
 
-* cihazları birləşdirir,
-* məlumat daşıyır,
-* xidmətləri işlək saxlayır.
+-  cihazları birləşdirir,
+-  məlumat daşıyır,
+- xidmətləri işlək saxlayır.
 
 Eyni zamanda onlar təhlükəsizlik baxımından yeni imkanlar və yeni risklər yaradır.
 
