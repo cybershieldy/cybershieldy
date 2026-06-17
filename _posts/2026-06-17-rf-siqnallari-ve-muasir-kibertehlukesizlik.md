@@ -57,7 +57,7 @@ tags:
 
 description: "Radio tezlikləri və görünməyən simsiz dünya müasir kibertəhlükəsizlikdə niyə vacibdir? RF siqnalları, IoT sistemləri, monitorinq və gələcəyin təhlükəsizlik mütəxəssisləri haqqında geniş bələdçi."
 
-image: /assets/images/rf-world.webp
+image: /assets/images/rf.webp
 canonical: https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik
 permalink: /posts/rf-siqnallari-ve-tehlukesizlik
 
@@ -390,12 +390,7 @@ Və kibertəhlükəsizlik də məhz həmin görünməyən dünyanı anlamaq sən
 * 🕵️🎭🧠 [Sosial mühəndislik nədir və real nümunələr](https://cybershieldy.com/posts/sosial-mühəndislik)
 * 🔐📲🛡️ [İki faktorlu identifikasiya nədir?](https://cybershieldy.com/posts/iki-faktorlu-identifikasiya)
 * 📊🛡️🚨 [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
-* 📡🔍🚨 [RF Siqnalları və Müasir Kibertəhlükəsizlik](https://cybershieldy.com/posts/rf-siqnallari-ve-tehlukesizlik)
-* 🌐🛡️📊 [Şəbəkə Təhlükəsizliyi və Monitorinqin Əsasları](https://cybershieldy.com/posts/sebeke-tehlukesizliyi)
-* 📱🔐🕵️ [Android Təhlükəsizliyi və Mobil Pentest](https://cybershieldy.com/posts/android-tehlukesizliyi)
-* 🚨🔍🎯 [Threat Hunting: Təhdidlərin Aktiv Axtarışı](https://cybershieldy.com/posts/threat-hunting)
-* 🛡️📈⚡ [Detection Engineering Nədir?](https://cybershieldy.com/posts/detection-engineering)
- 
+
 
 
 ## 📢 CyberShieldy Academy
