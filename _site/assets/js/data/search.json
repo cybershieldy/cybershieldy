@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik",
+    "url": "/posts/pin-code-mobile-security",
+    "categories": "kibertəhlükəsizlik, mobil təhlükəsizlik, android security",
+    "tags": "kiber təhlükəsizlik, hacker dərsləri, hacking, mobile pentest, android security, ethical hacking, red team, blue team, cybersecurity, penetration testing, mobile hacking, smartphone security, pin code, authentication, android pentest, mobile application security, android hacking, mobile forensics, digital forensics, cybersecurity training, infosec, threat hunting, detection engineering, mobile malware, application security, cyber lab, kali linux, burp suite, owasp, api security, mobile authentication, smartphone security, cyber lessons, cyber academy",
+    "date": "2026-06-28 08:00:00 +0400",
+    "content": "PIN kod təhlükəsizliyi nədir? Mobil cihazlarda autentifikasiya necə işləyir, mobil pentest zamanı hansı məqamlar yoxlanılır və təhlükəsizlik üçün nələrə diqqət edilməlidir?"
+  },
+  
+  {
     "title": "📡 Görünməyən Dünyanın İzində: RF Siqnalları, Simsiz Texnologiyalar və Müasir Kibertəhlükəsizlik",
     "url": "/posts/rf-siqnallari-ve-tehlukesizlik",
     "categories": "kibertəhlükəsizlik, rf təhlükəsizliyi, wireless security",
