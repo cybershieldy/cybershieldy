@@ -11,7 +11,6 @@ categories:
 tags:
   - ai
   - süni intellekt
-  - kiber təhlükəsizlik
   - cybersecurity
   - soc
   - siem
@@ -29,10 +28,44 @@ tags:
   - python
   - linux
   - web security
+  - kiber təhlükəsizlik
+  - hacker dərsləri
+  - hacking
+  - mobile pentest
+  - android security
+  - ethical hacking
+  - red team
+  - blue team
+  - cybersecurity
+  - penetration testing
+  - mobile hacking
+  - smartphone security
+  - pin code
+  - authentication
+  - android pentest
+  - mobile application security
+  - android hacking
+  - mobile forensics
+  - digital forensics
+  - cybersecurity training
+  - infosec
+  - threat hunting
+  - detection engineering
+  - mobile malware
+  - application security
+  - cyber lab
+  - kali linux
+  - burp suite
+  - owasp
+  - api security
+  - mobile authentication
+  - smartphone security
+  - cyber lessons
+  - cyber academy
 
 description: "AI və səs texnologiyalarının kibertəhlükəsizlik sistemlərinə inteqrasiyası, avtomatlaşdırılmış SOC mühitləri və gələcəyin ağıllı təhlükəsizlik platformaları haqqında geniş məqalə."
 
-image: /assets/images/ai-cybersecurity.webp
+image: /assets/images/AI_lab.webp
 canonical: https://cybershieldy.com/posts/ai-voice-cybersecurity
 permalink: /posts/ai-voice-cybersecurity
 ---
