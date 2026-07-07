@@ -1,4 +1,408 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-06-28T17:05:04+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik</title><link href="https://cybershieldy.com/posts/pin-code-mobile-security" rel="alternate" type="text/html" title="📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik" /><published>2026-06-28T08:00:00+04:00</published><updated>2026-06-28T16:37:39+04:00</updated><id>https://cybershieldy.com/posts/pin-kod-tehlukesizliyi-ve-mobil-pentest</id><content type="html" xml:base="https://cybershieldy.com/posts/pin-code-mobile-security"><![CDATA[<h1 id="-pin-kod-təhlükəsizliyi-mobil-pentest-və-müasir-kibertəhlükəsizlik">📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-07T16:44:10+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları</title><link href="https://cybershieldy.com/posts/ai-voice-cybersecurity" rel="alternate" type="text/html" title="🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları" /><published>2026-07-07T08:00:00+04:00</published><updated>2026-07-07T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/ai-ile-ses-idare-olunan-kibertehlukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-voice-cybersecurity"><![CDATA[<h1 id="-ai-ilə-səs-i̇darə-olunan-kibertəhlükəsizlik-sistemləri">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri</h1>
+
+<p>Kibertəhlükəsizlik son illərdə sürətlə inkişaf edən sahələrdən biridir. Hücumların sayı və mürəkkəbliyi artdıqca təhlükəsizlik komandaları da daha ağıllı həllərdən istifadə etməyə başlayırlar. Süni intellekt (AI) artıq yalnız mətn yazan və ya şəkil yaradan texnologiya deyil. O, təhlükəsizlik hadisələrinin analizində, risklərin qiymətləndirilməsində və qərar qəbulunda mühüm rol oynayır.</p>
+
+<p>Yaxın gələcəkdə təhlükəsizlik mütəxəssisi sadəcə klaviatura ilə deyil, səsli əmrlərlə də sistemlərini idarə edə biləcək.</p>
+
+<hr />
+
+<h1 id="-mövzu-ilə-bağlı-video">🎥 Mövzu ilə bağlı video</h1>
+
+<iframe src="https://www.instagram.com/reel/DaatvEcMbe8/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;">
+</iframe>
+
+<hr />
+
+<h1 id="ai-kibertəhlükəsizlikdə-nələri-dəyişir">AI Kibertəhlükəsizlikdə Nələri Dəyişir?</h1>
+
+<p>Ənənəvi təhlükəsizlik sistemləri əvvəlcədən yazılmış qaydalar əsasında işləyir. AI isə məlumatları analiz edərək yeni nümunələri aşkar edə, hadisələr arasında əlaqə qura və operatora qərar verməkdə kömək edə bilər.</p>
+
+<p>Məsələn, SIEM platformasına qısa müddətdə minlərlə hadisə daxil olduqda AI onların prioritetini müəyyən edə, oxşar hadisələri qruplaşdıra və təhlükəsizlik mütəxəssisinə yalnız vacib olanları təqdim edə bilər.</p>
+
+<hr />
+
+<h1 id="️-səsli-i̇darəetmə-mümkündürmü">🎙️ Səsli İdarəetmə Mümkündürmü?</h1>
+
+<p>Bəli. Müasir səs tanıma sistemləri müxtəlif proqramlarla inteqrasiya oluna bilir.</p>
+
+<p>Təsəvvür edin ki, SOC operatoru aşağıdakı əmrləri səslə verir:</p>
+
+<ul>
+  <li>“Son bir saatın kritik hadisələrini göstər.”</li>
+  <li>“SSH brute-force cəhdlərini filtrlə.”</li>
+  <li>“Bu IP haqqında məlumat topla.”</li>
+  <li>“Firewall qaydasını yenilə.”</li>
+  <li>“PDF hesabat hazırla.”</li>
+  <li>“Komandaya bildiriş göndər.”</li>
+</ul>
+
+<p>Belə sistemdə səs əvvəlcə mətnə çevrilir, sonra AI əmrin məqsədini müəyyən edir və yalnız icazə verilmiş funksiyaları icra edir.</p>
+
+<hr />
+
+<h1 id="ai-agentlər">AI Agentlər</h1>
+
+<p>Son dövrdə AI agent anlayışı sürətlə inkişaf edir. AI agent sadəcə suala cavab vermir, eyni zamanda ardıcıl tapşırıqları yerinə yetirə bilir.</p>
+
+<p>Məsələn:</p>
+
+<ol>
+  <li>Wazuh hadisəsini oxuyur.</li>
+  <li>IP ünvanını analiz edir.</li>
+  <li>Risk səviyyəsini hesablayır.</li>
+  <li>VirusTotal və digər mənbələrdən əlavə məlumat toplayır.</li>
+  <li>PDF hesabat hazırlayır.</li>
+  <li>Operator üçün qısa xülasə yaradır.</li>
+</ol>
+
+<p>Bu yanaşma SOC komandalarının iş yükünü azalda bilər.</p>
+
+<hr />
+
+<h1 id="wazuh-və-ai">Wazuh və AI</h1>
+
+<p>SIEM platformaları AI ilə birlikdə istifadə olunduqda hadisələrin araşdırılması daha sürətli ola bilər.</p>
+
+<p>Nümunə ssenari:</p>
+
+<ul>
+  <li>Wazuh SSH brute-force aşkar edir.</li>
+  <li>AI hadisəni oxuyur.</li>
+  <li>Oxşar hadisələrlə müqayisə aparır.</li>
+  <li>Təhlükə səviyyəsini qiymətləndirir.</li>
+  <li>Operator üçün sadə izah hazırlayır.</li>
+  <li>Lazım gələrsə bildiriş yaradır.</li>
+</ul>
+
+<p>Burada son qərar yenə də təhlükəsizlik mütəxəssisinə məxsus olur.</p>
+
+<hr />
+
+<h1 id="red-team-perspektivi">Red Team Perspektivi</h1>
+
+<p>Red Team mütəxəssisləri AI-dən laboratoriya mühitində aşağıdakı məqsədlər üçün istifadə edə bilərlər:</p>
+
+<ul>
+  <li>Log analizi</li>
+  <li>Skript yazılması</li>
+  <li>Pentest qeydlərinin hazırlanması</li>
+  <li>Hesabatların avtomatik formalaşdırılması</li>
+  <li>Təlim mühitlərinin qurulması</li>
+</ul>
+
+<p>AI insan təcrübəsini əvəz etmir, lakin gündəlik işləri sürətləndirə bilər.</p>
+
+<hr />
+
+<h1 id="blue-team-perspektivi">Blue Team Perspektivi</h1>
+
+<p>Blue Team üçün AI aşağıdakı istiqamətlərdə faydalı ola bilər:</p>
+
+<ul>
+  <li>Alert prioritetləşdirilməsi</li>
+  <li>Log xülasələrinin hazırlanması</li>
+  <li>Anomaliyaların aşkarlanması</li>
+  <li>Təhlükə ovçuluğuna dəstək</li>
+  <li>Təhlükəsizlik hesabatlarının avtomatlaşdırılması</li>
+  <li>SIEM qaydalarının təhlili</li>
+</ul>
+
+<p>Bu imkanlar analitiklərin daha mürəkkəb hadisələrə fokuslanmasına kömək edir.</p>
+
+<h2 id="md">```md</h2>
+
+<h1 id="-llm-və-kibertəhlükəsizlik">🧠 LLM və Kibertəhlükəsizlik</h1>
+
+<p>Böyük Dil Modelləri (Large Language Models - LLM) kibertəhlükəsizlik sahəsində yalnız suallara cavab vermək üçün deyil, həm də analitik köməkçi kimi istifadə oluna bilər. Onlar mürəkkəb log fayllarını oxuyaraq hadisələrin qısa xülasəsini hazırlaya, təhlükəsizlik qaydalarını izah edə və analitiklərə araşdırma prosesində dəstək göstərə bilər.</p>
+
+<p>Məsələn, minlərlə sətirdən ibarət log faylı AI tərəfindən emal edilərək aşağıdakı kimi nəticə təqdim oluna bilər:</p>
+
+<ul>
+  <li>Hücumun başlanğıc vaxtı</li>
+  <li>Şübhəli IP ünvanları</li>
+  <li>Təsirə məruz qalan sistemlər</li>
+  <li>Potensial risk səviyyəsi</li>
+  <li>Tövsiyə olunan növbəti addımlar</li>
+</ul>
+
+<p>Belə yanaşma SOC analitiklərinin hadisələri daha sürətli qiymətləndirməsinə kömək edə bilər.</p>
+
+<hr />
+
+<h1 id="-səsli-soc-operatoru-konsepti">🎤 Səsli SOC Operatoru Konsepti</h1>
+
+<p>Təsəvvür edin ki, gələcəyin SOC mərkəzində analitik yalnız klaviatura ilə deyil, səsli əmrlərlə də işləyir.</p>
+
+<p>Məsələn:</p>
+
+<p>“Son 24 saatın yüksək kritik hadisələrini göstər.”</p>
+
+<p>“Bu IP ünvanını yoxla.”</p>
+
+<p>“SSH brute-force cəhdlərini siyahıya al.”</p>
+
+<p>“Yeni PDF hesabat hazırla.”</p>
+
+<p>“Komandaya bildiriş göndər.”</p>
+
+<p>Bu cür sistemdə səs əvvəlcə tanınır, sonra AI əmrin məqsədini müəyyən edir və uyğun avtomatlaşdırılmış iş axınını başladır.</p>
+
+<hr />
+
+<h1 id="️-avtomatlaşdırılmış-i̇ş-axınları">⚙️ Avtomatlaşdırılmış İş Axınları</h1>
+
+<p>AI müxtəlif təhlükəsizlik platformalarını bir-biri ilə əlaqələndirə bilər.</p>
+
+<p>Nümunə iş axını:</p>
+
+<ol>
+  <li>SIEM platforması hadisəni aşkar edir.</li>
+  <li>AI hadisəni təhlil edir.</li>
+  <li>Risk səviyyəsini müəyyən edir.</li>
+  <li>Analitik üçün qısa izah hazırlayır.</li>
+  <li>Hesabat yaradır.</li>
+  <li>Komandaya bildiriş göndərir.</li>
+</ol>
+
+<p>Belə yanaşma təkrarlanan işləri azalda və qərar qəbulunu sürətləndirə bilər.</p>
+
+<hr />
+
+<h1 id="-təhlükə-ovçuluğunda-ai">🔍 Təhlükə Ovçuluğunda AI</h1>
+
+<p>Threat Hunting zamanı analitiklər böyük həcmdə məlumatı araşdırırlar.</p>
+
+<p>AI aşağıdakı işlərdə köməkçi ola bilər:</p>
+
+<ul>
+  <li>Oxşar hadisələrin qruplaşdırılması</li>
+  <li>Şübhəli davranışların seçilməsi</li>
+  <li>Zaman ardıcıllığının qurulması</li>
+  <li>Risklərin prioritetləşdirilməsi</li>
+  <li>Vizual xülasələrin hazırlanması</li>
+</ul>
+
+<p>Bu, araşdırma prosesini daha səmərəli edə bilər.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-təhlükəsizlik-platformaları">🌐 Gələcəyin Təhlükəsizlik Platformaları</h1>
+
+<p>Yaxın illərdə kibertəhlükəsizlik platformalarının daha ağıllı olması gözlənilir.</p>
+
+<p>Mümkün xüsusiyyətlər:</p>
+
+<ul>
+  <li>AI köməkçisi</li>
+  <li>Səsli idarəetmə</li>
+  <li>Avtomatik hesabatlar</li>
+  <li>Təhlükələrin prioritetləşdirilməsi</li>
+  <li>Təbii dildə sorğular</li>
+  <li>Hadisələrin vizual analizi</li>
+  <li>Tövsiyə sistemi</li>
+</ul>
+
+<p>Bu funksiyalar insan analitikini əvəz etmək üçün deyil, onun işini daha məhsuldar etmək üçün nəzərdə tutulur.</p>
+
+<hr />
+
+<h1 id="️-etik-məsələlər">⚖️ Etik Məsələlər</h1>
+
+<p>AI güclü texnologiyadır və onun istifadəsi məsuliyyət tələb edir.</p>
+
+<p>Kibertəhlükəsizlik sahəsində AI tətbiq edilərkən aşağıdakı prinsiplərə əməl olunmalıdır:</p>
+
+<ul>
+  <li>İnsan nəzarəti saxlanılmalıdır.</li>
+  <li>Vacib qərarlar yalnız AI tərəfindən verilməməlidir.</li>
+  <li>Məlumatların məxfiliyi qorunmalıdır.</li>
+  <li>Avtomatlaşdırılmış sistemlər mütəmadi yoxlanılmalıdır.</li>
+  <li>Hüquqi və etik normalara riayət edilməlidir.</li>
+</ul>
+
+<hr />
+
+<h1 id="-nəticə">🚀 Nəticə</h1>
+
+<p>Süni intellekt kibertəhlükəsizlik sahəsini sürətlə dəyişdirir. Səsli idarəetmə, avtomatlaşdırılmış analiz, ağıllı köməkçilər və AI agentləri gələcəyin SOC mərkəzlərinin əsas elementlərindən birinə çevrilə bilər.</p>
+
+<p>Bununla belə, AI insan mütəxəssisinin yerini tutmur. Təcrübə, analitik düşüncə və etik yanaşma hələ də kibertəhlükəsizliyin əsas dayaqlarıdır. AI isə bu prosesləri sürətləndirən və daha səmərəli edən güclü köməkçi rolunu oynaya bilər.</p>
+
+<hr />
+
+<h1 id="-mövzu-ilə-bağlı-video-1">🎥 Mövzu ilə bağlı video</h1>
+
+<p>Instagram Reels:</p>
+
+<p>https://www.instagram.com/reel/DaatvEcMbe8/?igsh=MXV6czQ3MGxrYnlvYg%3D%3D</p>
+
+<hr />
+
+<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
+
+<ul>
+  <li>AI və Kibertəhlükəsizlik</li>
+  <li>SIEM və SOC Platformaları</li>
+  <li>Wazuh ilə Təhlükəsizlik Monitorinqi</li>
+  <li>Threat Hunting</li>
+  <li>Detection Engineering</li>
+  <li>Red Team və Blue Team</li>
+  <li>Linux Təhlükəsizliyi</li>
+  <li>Windows Təhlükəsizliyi</li>
+  <li>Penetration Testing</li>
+  <li>Web Security</li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>Kibertəhlükəsizlik Mütəxəssisi • Red Team • Blue Team üzrə Təlimçi</strong></p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<p>📷 Instagram:
+https://www.instagram.com/reel/DaatvEcMbe8/?igsh=MXV6czQ3MGxrYnlvYg%3D%3D</p>
+
+<blockquote>
+  <p>“Gələcəyin kibertəhlükəsizlik mütəxəssisi yalnız alətlərdən istifadə etməyəcək, həm də süni intellektlə birlikdə işləməyi bacaracaq.”</p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="automation" /><category term="ai" /><category term="süni intellekt" /><category term="kiber təhlükəsizlik" /><category term="cybersecurity" /><category term="soc" /><category term="siem" /><category term="wazuh" /><category term="automation" /><category term="voice assistant" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="cyber automation" /><category term="llm" /><category term="ai agent" /><category term="threat hunting" /><category term="detection engineering" /><category term="python" /><category term="linux" /><category term="web security" /><summary type="html"><![CDATA[AI və səs texnologiyalarının kibertəhlükəsizlik sistemlərinə inteqrasiyası, avtomatlaşdırılmış SOC mühitləri və gələcəyin ağıllı təhlükəsizlik platformaları haqqında geniş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ai-cybersecurity.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ai-cybersecurity.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik</title><link href="https://cybershieldy.com/posts/pin-code-mobile-security" rel="alternate" type="text/html" title="📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik" /><published>2026-06-28T08:00:00+04:00</published><updated>2026-06-28T17:05:15+04:00</updated><id>https://cybershieldy.com/posts/pin-kod-tehlukesizliyi-ve-mobil-pentest</id><content type="html" xml:base="https://cybershieldy.com/posts/pin-code-mobile-security"><![CDATA[<h1 id="-pin-kod-təhlükəsizliyi-mobil-pentest-və-müasir-kibertəhlükəsizlik">📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik</h1>
 
 <p>Müasir dövrdə smartfonlar sadəcə zəng etmək və mesaj göndərmək üçün istifadə olunan cihazlar deyil. Onlar şəxsi məlumatlarımızı, bank hesablarımızı, elektron poçtlarımızı, sosial media hesablarımızı və gündəlik həyatımızın böyük hissəsini özündə saxlayan rəqəmsal platformalara çevriliblər.</p>
 
@@ -3633,407 +4037,4 @@ Red &amp; Blue Team üzrə təlimçi</strong></p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="smart city" /><category term="kiber təhlükəsizlik kursları" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="cyber security" /><category term="smart city hacking" /><category term="iot security" /><category term="web developer kursları" /><category term="mobil hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[İşıqforlar, şəhər kameraları və böyük reklam ekranları hack oluna bilərmi? Smart city sistemlərində boşluqlar və real hücum ssenariləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iot-sys.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iot-sys.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)</title><link href="https://cybershieldy.com/posts/bad-usb-nedir" rel="alternate" type="text/html" title="Bad USB Nədir? Raspberry Pi Pico ilə Hücum Necə İşləyir və Necə Qorunmaq Olar? (2026)" /><published>2026-04-06T06:00:00+04:00</published><updated>2026-04-06T16:21:07+04:00</updated><id>https://cybershieldy.com/posts/bad-usb-nedir-raspberry-pico-ile-hucum-ve-qorunma</id><content type="html" xml:base="https://cybershieldy.com/posts/bad-usb-nedir"><![CDATA[<h1 id="-bad-usb-nədir-raspberry-pi-pico-ilə-sistemə-necə-sızırlar">🔌💀 Bad USB Nədir? Raspberry Pi Pico ilə Sistemə Necə Sızırlar?</h1>
-
-<p>Bugünkü dünyada ən təhlükəli hücumlardan biri internet üzərindən deyil — birbaşa fiziki girişlə, yəni USB vasitəsilə edilir.</p>
-
-<p>Bu hücum növü <strong>Bad USB</strong> adlanır və xüsusilə <strong>kiber təhlükəsizlik dərsləri</strong>, <strong>hacker dərsləri</strong>, <strong>etik hacking dərsləri</strong>, <strong>cyber security kursları</strong> və <strong>Red Team ssenariləri</strong> üçün kritik mövzudur.</p>
-
-<hr />
-
-<h2 id="-bu-yazıda-nələr-var">📌 Bu yazıda nələr var?</h2>
-
-<ul>
-  <li>Bad USB nədir?</li>
-  <li>Raspberry Pi Pico ilə necə işləyir?</li>
-  <li>Sistemə necə sızır?</li>
-  <li>USB daxilində necə gizlənir?</li>
-  <li>Real hücum ssenariləri</li>
-  <li>Necə qorunmaq olar?</li>
-  <li>Cyber security öyrənənlər üçün vacib biliklər</li>
-</ul>
-
-<hr />
-
-<h1 id="-bad-usb-nədir">🧠 Bad USB Nədir?</h1>
-
-<p><strong>Bad USB</strong> — USB cihazın özünü klaviatura və ya input cihazı kimi göstərərək sistemdə əmrlər icra etməsidir.</p>
-
-<p>Bu hücumun əsas xüsusiyyəti:</p>
-
-<blockquote>
-  <p>istifadəçi heç nə açmadan sistem özü əmrləri icra edir</p>
-</blockquote>
-
-<hr />
-
-<h1 id="️-raspberry-pi-pico-ilə-bad-usb">⚙️ Raspberry Pi Pico ilə Bad USB</h1>
-
-<h2 id="-pico-nədir">🔹 Pico nədir?</h2>
-
-<ul>
-  <li>ucuz microcontroller</li>
-  <li>USB HID kimi işləyə bilir</li>
-  <li>proqramlaşdırıla bilir</li>
-</ul>
-
-<h2 id="-niyə-təhlükəlidir">🔥 Niyə təhlükəlidir?</h2>
-
-<p>Çünki:</p>
-
-<ul>
-  <li>klaviatura kimi görünür</li>
-  <li>avtomatik əmrlər yazır</li>
-  <li>antivirusdan yayınır</li>
-</ul>
-
-<hr />
-
-<h1 id="-hücum-necə-i̇şləyir">💻 Hücum Necə İşləyir?</h1>
-
-<p>Sadə ssenari:</p>
-
-<ol>
-  <li>USB taxılır</li>
-  <li>sistem onu keyboard kimi tanıyır</li>
-  <li>script işləyir</li>
-  <li>əmrlər avtomatik icra olunur</li>
-</ol>
-
-<hr />
-
-<h1 id="-bad-usb-ilə-nələr-etmək-olar">💥 Bad USB ilə Nələr Etmək Olar?</h1>
-
-<h2 id="-reverse-shell">🔴 Reverse Shell</h2>
-
-<ul>
-  <li>uzaqdan sistemə giriş</li>
-</ul>
-
-<h2 id="-zərərli-proqram-yükləmə">🔴 Zərərli proqram yükləmə</h2>
-
-<ul>
-  <li>PowerShell ilə payload</li>
-</ul>
-
-<h2 id="-şifrələri-çıxarma">🔴 Şifrələri çıxarma</h2>
-
-<ul>
-  <li>WiFi məlumatları</li>
-  <li>system info</li>
-</ul>
-
-<h2 id="-backdoor-yaratmaq">🔴 Backdoor yaratmaq</h2>
-
-<ul>
-  <li>yeni user</li>
-  <li>autorun script</li>
-</ul>
-
-<h2 id="-firewall-deaktiv-etmək">🔴 Firewall deaktiv etmək</h2>
-
-<ul>
-  <li>müdafiəni zəiflətmək</li>
-</ul>
-
-<hr />
-
-<h1 id="-usb-i̇çində-necə-gizlənir">🧬 USB İçində Necə Gizlənir?</h1>
-
-<p>Bad USB:</p>
-
-<ul>
-  <li>fayl deyil</li>
-  <li>firmware səviyyəsində işləyir</li>
-  <li>antivirus görə bilmir</li>
-  <li>istifadəçi heç nə klik etmir</li>
-</ul>
-
-<hr />
-
-<h1 id="-real-hücum-ssenarisi">🚨 Real Hücum Ssenarisi</h1>
-
-<p>Təsəvvür et:</p>
-
-<p>USB tapdın və taxdın…</p>
-
-<p>Nəticə:</p>
-
-<ul>
-  <li>cmd açılır</li>
-  <li>script işləyir</li>
-  <li>sistem kompromet olunur</li>
-</ul>
-
-<hr />
-
-<h1 id="-niyə-antivirus-tutmur">📉 Niyə Antivirus Tutmur?</h1>
-
-<p>Çünki:</p>
-
-<ul>
-  <li>bu virus deyil</li>
-  <li>bu klaviatura kimi davranır</li>
-  <li>sistem özü icazə verir</li>
-</ul>
-
-<hr />
-
-<h1 id="️-bad-usb-hücumundan-necə-qorunmaq-olar">🛡️ Bad USB Hücumundan Necə Qorunmaq Olar?</h1>
-
-<h2 id="1️⃣-tanımadığın-usb-ni-taxma">1️⃣ Tanımadığın USB-ni taxma</h2>
-
-<p>Ən vacib qayda budur.</p>
-
-<hr />
-
-<h2 id="2️⃣-usb-portları-məhdudlaşdır">2️⃣ USB portları məhdudlaşdır</h2>
-
-<ul>
-  <li>şirkət mühitində blokla</li>
-  <li>policy tətbiq et</li>
-</ul>
-
-<hr />
-
-<h2 id="3️⃣-endpoint-security-istifadə-et">3️⃣ Endpoint Security istifadə et</h2>
-
-<ul>
-  <li>device control</li>
-  <li>USB monitoring</li>
-</ul>
-
-<hr />
-
-<h2 id="4️⃣-hid-cihazları-məhdudlaşdır">4️⃣ HID cihazları məhdudlaşdır</h2>
-
-<ul>
-  <li>yalnız icazəli cihazlar</li>
-</ul>
-
-<hr />
-
-<h2 id="5️⃣-siem-və-monitorinq">5️⃣ SIEM və monitorinq</h2>
-
-<ul>
-  <li>anormal davranışları izləmək</li>
-  <li>cmd / powershell alert</li>
-</ul>
-
-<hr />
-
-<h2 id="6️⃣-user-awareness">6️⃣ User awareness</h2>
-
-<ul>
-  <li>sosial mühəndislikdən qorunmaq</li>
-</ul>
-
-<hr />
-
-<h1 id="-cyber-security-üçün-niyə-vacibdir">🎯 Cyber Security üçün Niyə Vacibdir?</h1>
-
-<p>Bu mövzu:</p>
-
-<ul>
-  <li>Red Team hücum texnikasıdır</li>
-  <li>Blue Team üçün detection mövzusudur</li>
-  <li>SOC üçün alert ssenarisidir</li>
-</ul>
-
-<hr />
-
-<h1 id="-ən-böyük-yanlış-anlayışlar">❌ Ən Böyük Yanlış Anlayışlar</h1>
-
-<h2 id="usb-təhlükəli-deyil">“USB təhlükəli deyil”</h2>
-<p>Yanlışdır.</p>
-
-<h2 id="antivirus-qoruyur">“Antivirus qoruyur”</h2>
-<p>Həmişə yox.</p>
-
-<h2 id="klik-etməsəm-problem-yoxdur">“Klik etməsəm problem yoxdur”</h2>
-<p>Bad USB-də klik lazım deyil.</p>
-
-<hr />
-
-<h1 id="-nəticə">🏁 Nəticə</h1>
-
-<p>Bad USB — ən təhlükəli fiziki hücumlardan biridir.</p>
-
-<p>Çünki:</p>
-
-<ul>
-  <li>səssiz işləyir</li>
-  <li>antivirusdan yayınır</li>
-  <li>sistemə tam giriş verə bilər</li>
-</ul>
-
-<blockquote>
-  <p>Kibertəhlükəsizlikdə ən zəif nöqtə çox vaxt istifadəçidir.</p>
-</blockquote>
-
-<hr />
-
-<h1 id="-tez-tez-verilən-suallar">❓ Tez-tez verilən suallar</h1>
-
-<h2 id="bad-usb-nədir">Bad USB nədir?</h2>
-<p>USB cihazın klaviatura kimi davranaraq sistemdə əmrlər icra etməsidir.</p>
-
-<h2 id="pico-ilə-etmək-olur">Pico ilə etmək olur?</h2>
-<p>Bəli, Raspberry Pi Pico ilə mümkündür.</p>
-
-<h2 id="antivirus-niyə-tutmur">Antivirus niyə tutmur?</h2>
-<p>Çünki bu davranış sistem tərəfindən normal qəbul olunur.</p>
-
-<h2 id="necə-qorunmaq-olar">Necə qorunmaq olar?</h2>
-<p>USB istifadə qaydaları, endpoint security və monitorinq ilə.</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
-  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
-  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hardware hacking" /><category term="hücum növləri" /><category term="bad usb" /><category term="raspberry pi pico" /><category term="usb hacking" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="etik hacking dərsləri" /><category term="cyber security" /><category term="kiber dərslər" /><category term="hardware hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Bad USB nədir, Raspberry Pi Pico ilə necə işləyir, sistemə necə sızır və necə qorunmaq olar? Kibertəhlükəsizlik və hacking dərsləri üçün geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/badusbs.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/badusbs.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="smart city" /><category term="kiber təhlükəsizlik kursları" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="cyber security" /><category term="smart city hacking" /><category term="iot security" /><category term="web developer kursları" /><category term="mobil hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[İşıqforlar, şəhər kameraları və böyük reklam ekranları hack oluna bilərmi? Smart city sistemlərində boşluqlar və real hücum ssenariləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iot-sys.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iot-sys.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

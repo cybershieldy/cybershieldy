@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları",
+    "url": "/posts/ai-voice-cybersecurity",
+    "categories": "kibertəhlükəsizlik, süni intellekt, automation",
+    "tags": "ai, süni intellekt, kiber təhlükəsizlik, cybersecurity, soc, siem, wazuh, automation, voice assistant, red team, blue team, ethical hacking, cyber automation, llm, ai agent, threat hunting, detection engineering, python, linux, web security",
+    "date": "2026-07-07 08:00:00 +0400",
+    "content": "AI və səs texnologiyalarının kibertəhlükəsizlik sistemlərinə inteqrasiyası, avtomatlaşdırılmış SOC mühitləri və gələcəyin ağıllı təhlükəsizlik platformaları haqqında geniş məqalə."
+  },
+  
+  {
     "title": "📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik",
     "url": "/posts/pin-code-mobile-security",
     "categories": "kibertəhlükəsizlik, mobil təhlükəsizlik, android security",
