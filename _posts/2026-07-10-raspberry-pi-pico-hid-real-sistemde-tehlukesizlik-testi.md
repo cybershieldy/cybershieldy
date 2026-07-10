@@ -181,7 +181,6 @@ Məhz bu cür laboratoriya testləri real sistemlərin daha təhlükəsiz qurulm
 * 🤖📡🏠🔐 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
 * ⚡🛡️ [ESP32 ilə SIEM İnteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
 * 📶🔓⚠️ [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
-* 🤖📡🏠🔐 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/)
 * 🔌💀🧠🚪 [Fiziki Hücumlar və Təhlükəsizlik Riskləri](https://cybershieldy.com/posts/fiziki-hucumlar-genis)
 * 📡🔓⚠️📱 [BLE vs Classic Bluetooth Hücumları](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
 
