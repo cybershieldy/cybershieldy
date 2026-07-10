@@ -1,4 +1,307 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-07T18:59:08+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları</title><link href="https://cybershieldy.com/posts/ai-voice-cybersecurity" rel="alternate" type="text/html" title="🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları" /><published>2026-07-07T08:00:00+04:00</published><updated>2026-07-07T18:39:03+04:00</updated><id>https://cybershieldy.com/posts/ai-ile-ses-idare-olunan-kibertehlukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-voice-cybersecurity"><![CDATA[<h1 id="-ai-ilə-səs-i̇darə-olunan-kibertəhlükəsizlik-sistemləri">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-10T19:02:42+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/raspberry-pi-pico-hid" rel="alternate" type="text/html" title="⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları" /><published>2026-07-10T08:00:00+04:00</published><updated>2026-07-10T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/raspberry-pi-pico-hid-real-sistemde-tehlukesizlik-testi</id><content type="html" xml:base="https://cybershieldy.com/posts/raspberry-pi-pico-hid"><![CDATA[<h1 id="️-raspberry-pi-pico-hid-nədir">⌨️ Raspberry Pi Pico HID Nədir?</h1>
+
+<p>USB cihazları gündəlik həyatımızın ayrılmaz hissəsidir. Klaviatura, siçan, oyun kontrolleri və bir çox digər qurğular kompüterə qoşulduqda <strong>Human Interface Device (HID)</strong> kimi tanınırlar.</p>
+
+<p>Raspberry Pi Pico isə proqramlaşdırıla bilən mikrokontrollerdir və uyğun proqram təminatı ilə müxtəlif HID cihazlarını təqlid edə bilir. Bu xüsusiyyət onu kibertəhlükəsizlik laboratoriyalarında, Red Team təlimlərində və təhlükəsizlik maarifləndirilməsi üçün maraqlı platformaya çevirir.</p>
+
+<p>Bu məqalədə Pico-nun HID imkanlarını, real laboratoriya testini və belə cihazlardan necə qorunmağın yollarını izah edəcəyik.</p>
+
+<hr />
+
+<h1 id="-mövzu-ilə-bağlı-video">🎥 Mövzu ilə bağlı video</h1>
+
+<iframe src="https://www.instagram.com/reel/Dak5LT4MJOg/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="raspberry-pi-pico-nədir">Raspberry Pi Pico Nədir?</h1>
+
+<p>Raspberry Pi Pico Raspberry Pi Foundation tərəfindən hazırlanmış kiçik ölçülü mikrokontrollerdir.</p>
+
+<p>Əsas xüsusiyyətləri:</p>
+
+<ul>
+  <li>RP2040 prosessoru</li>
+  <li>USB dəstəyi</li>
+  <li>GPIO pinləri</li>
+  <li>C/C++ və MicroPython proqramlaşdırması</li>
+  <li>Aşağı enerji sərfiyyatı</li>
+  <li>Kiçik ölçü və münasib qiymət</li>
+</ul>
+
+<p>Bu xüsusiyyətlər Pico-nu müxtəlif IoT və təhlükəsizlik laboratoriyaları üçün əlverişli edir.</p>
+
+<hr />
+
+<h1 id="hid-human-interface-device-nədir">HID (Human Interface Device) Nədir?</h1>
+
+<p>HID standartı kompüterlə istifadəçi arasında qarşılıqlı əlaqə yaradan cihazları təsvir edir.</p>
+
+<p>Bunlara daxildir:</p>
+
+<ul>
+  <li>⌨️ Klaviatura</li>
+  <li>🖱️ Siçan</li>
+  <li>🎮 Oyun kontrollerləri</li>
+  <li>🎛️ Digər giriş qurğuları</li>
+</ul>
+
+<p>Əməliyyat sistemi belə cihazları avtomatik tanıyır və əksər hallarda əlavə sürücü tələb olunmur.</p>
+
+<hr />
+
+<h1 id="mənim-laboratoriya-testim">Mənim Laboratoriya Testim</h1>
+
+<p>Bu videoda Raspberry Pi Pico ilə <strong>öz laboratoriya mühitimdə</strong> HID funksiyasını sınaqdan keçirdim.</p>
+
+<p>Testin məqsədi:</p>
+
+<ul>
+  <li>USB HID cihazlarının necə işlədiyini öyrənmək</li>
+  <li>Əməliyyat sisteminin yeni HID qurğusunu necə tanıdığını müşahidə etmək</li>
+  <li>Təhlükəsizlik monitorinq sistemlərinin belə hadisələri necə izləyə biləcəyini araşdırmaq</li>
+</ul>
+
+<p>Bu test yalnız mənə məxsus və icazəli sistem üzərində həyata keçirilib.</p>
+
+<hr />
+
+<h1 id="blue-team-üçün-niyə-vacibdir">Blue Team üçün Niyə Vacibdir?</h1>
+
+<p>Bir çox təşkilat USB təhlükəsizliyini yalnız antivirus səviyyəsində qiymətləndirir.</p>
+
+<p>Əslində isə təhlükəsizlik komandaları aşağıdakı hadisələri izləməlidirlər:</p>
+
+<ul>
+  <li>Yeni USB cihazının qoşulması</li>
+  <li>HID qurğularının aşkarlanması</li>
+  <li>Qeyri-adi USB fəaliyyətləri</li>
+  <li>Endpoint təhlükəsizlik hadisələri</li>
+  <li>Audit logları</li>
+</ul>
+
+<p>Belə monitorinq təhlükəsizlik komandalarına hadisələri daha tez araşdırmağa kömək edə bilər.</p>
+
+<hr />
+
+<h1 id="red-team-laboratoriyalarında-i̇stifadəsi">Red Team Laboratoriyalarında İstifadəsi</h1>
+
+<p>Red Team təlimlərində USB HID cihazları müxtəlif müdafiə mexanizmlərinin yoxlanılması üçün istifadə oluna bilər.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Endpoint monitorinqinin test edilməsi</li>
+  <li>USB təhlükəsizlik siyasətlərinin yoxlanılması</li>
+  <li>Təhlükəsizlik məlumatlandırma təlimləri</li>
+  <li>Detection qaydalarının sınaqdan keçirilməsi</li>
+</ul>
+
+<p>Bu cür fəaliyyətlər yalnız icazəli laboratoriya və təlim mühitlərində həyata keçirilməlidir.</p>
+
+<hr />
+
+<h1 id="pico-niyə-bu-qədər-populyardır">Pico Niyə Bu Qədər Populyardır?</h1>
+
+<p>Pico aşağıdakı səbəblərə görə kibertəhlükəsizlik həvəskarlarının diqqətini çəkir:</p>
+
+<ul>
+  <li>Kiçik ölçü</li>
+  <li>Açıq mənbəli ekosistem</li>
+  <li>Sadə proqramlaşdırma</li>
+  <li>USB imkanları</li>
+  <li>Aşağı qiymət</li>
+  <li>Geniş icma dəstəyi</li>
+</ul>
+
+<p>Buna görə həm IoT layihələrində, həm də təhlükəsizlik laboratoriyalarında tez-tez istifadə olunur.</p>
+
+<hr />
+
+<h1 id="usb-təhlükəsizliyini-necə-gücləndirmək-olar">USB Təhlükəsizliyini Necə Gücləndirmək Olar?</h1>
+
+<p>Təşkilatlarda aşağıdakı tədbirlər tövsiyə olunur:</p>
+
+<ul>
+  <li>USB Device Control tətbiq etmək</li>
+  <li>Endpoint Detection and Response (EDR) istifadə etmək</li>
+  <li>Audit loglarını izləmək</li>
+  <li>USB cihazlarını inventarlaşdırmaq</li>
+  <li>İstifadəçiləri təhlükəsizlik mövzusunda maarifləndirmək</li>
+  <li>Lazımsız USB portlarını məhdudlaşdırmaq</li>
+</ul>
+
+<p>Bu yanaşmalar USB əsaslı risklərin azaldılmasına kömək edir.</p>
+
+<hr />
+
+<h1 id="nəticə">Nəticə</h1>
+
+<p>Raspberry Pi Pico təkcə elektronika layihələri üçün deyil, həm də kibertəhlükəsizlik təlimləri və laboratoriya mühitləri üçün maraqlı platformadır.</p>
+
+<p>USB HID texnologiyasını başa düşmək həm Red Team, həm də Blue Team mütəxəssisləri üçün vacibdir. Müdafiə tərəfi bu cür cihazların yaratdığı riskləri izləməyi bacarmalı, hücum simulyasiyaları isə yalnız icazəli mühitlərdə aparılmalıdır.</p>
+
+<p>Məhz bu cür laboratoriya testləri real sistemlərin daha təhlükəsiz qurulmasına və təhlükəsizlik komandalarının hazırlığının artırılmasına kömək edir.</p>
+
+<hr />
+
+<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
+
+<ul>
+  <li>🔴🔵🛡️⚔️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>📊🛡️🚨 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🤖📡🏠🔐 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM İnteqrasiyası</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<blockquote>
+  <p>“Real təhlükəsizlik yalnız hücumları öyrənməklə deyil, onları necə aşkar edib qarşısını almağı bilməklə qurulur.”</p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hardware security" /><category term="red team" /><category term="raspberry pi pico" /><category term="pico" /><category term="hid" /><category term="usb hid" /><category term="badusb" /><category term="cybersecurity" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="penetration testing" /><category term="usb security" /><category term="windows security" /><category term="linux security" /><category term="hardware hacking" /><category term="cybersecurity training" /><category term="cyber lab" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="red team" /><category term="blue team" /><category term="usb attack" /><category term="hid device" /><category term="security awareness" /><summary type="html"><![CDATA[Raspberry Pi Pico HID nədir? Real laboratoriya mühitində təhlükəsizlik testləri, USB HID cihazlarının iş prinsipi və onlardan qorunma yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/pico-hid.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/pico-hid.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları</title><link href="https://cybershieldy.com/posts/ai-voice-cybersecurity" rel="alternate" type="text/html" title="🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları" /><published>2026-07-07T08:00:00+04:00</published><updated>2026-07-07T18:59:18+04:00</updated><id>https://cybershieldy.com/posts/ai-ile-ses-idare-olunan-kibertehlukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-voice-cybersecurity"><![CDATA[<h1 id="-ai-ilə-səs-i̇darə-olunan-kibertəhlükəsizlik-sistemləri">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri</h1>
 
 <p>Kibertəhlükəsizlik son illərdə sürətlə inkişaf edən sahələrdən biridir. Hücumların sayı və mürəkkəbliyi artdıqca təhlükəsizlik komandaları da daha ağıllı həllərdən istifadə etməyə başlayırlar. Süni intellekt (AI) artıq yalnız mətn yazan və ya şəkil yaradan texnologiya deyil. O, təhlükəsizlik hadisələrinin analizində, risklərin qiymətləndirilməsində və qərar qəbulunda mühüm rol oynayır.</p>
 
@@ -3611,421 +3914,4 @@ Red &amp; Blue Team üzrə təlimçi</strong></p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="bluetooth" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="hacking dersleri" /><category term="bluetooth hacking" /><category term="ble security" /><category term="cyber security" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[BLE və Classic Bluetooth fərqləri, necə işləyir, necə hack edilə bilər və qorunma yolları. Real ssenarilər və praktik izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ble.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ble.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🚦🌍 Şəhər Sistemləri Hack Oluna Bilərmi? İşıqforlar, Kameralar və Böyük Ekranlar Təhlükədədirmi? (2026)</title><link href="https://cybershieldy.com/posts/2026-04-10-smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur" rel="alternate" type="text/html" title="🚦🌍 Şəhər Sistemləri Hack Oluna Bilərmi? İşıqforlar, Kameralar və Böyük Ekranlar Təhlükədədirmi? (2026)" /><published>2026-04-10T06:00:00+04:00</published><updated>2026-04-10T23:37:26+04:00</updated><id>https://cybershieldy.com/posts/smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur</id><content type="html" xml:base="https://cybershieldy.com/posts/2026-04-10-smart-city-hacking-isiqforlar-kameralar-nece-hack-olunur"><![CDATA[<h1 id="-şəhər-sistemləri-hack-oluna-bilərmi">🚦💻 Şəhər Sistemləri Hack Oluna Bilərmi?</h1>
-
-<p>Bugünkü dünyada artıq şəhərlər <strong>smart city</strong> sistemləri ilə idarə olunur:</p>
-
-<ul>
-  <li>🚦 işıqforlar</li>
-  <li>📹 müşahidə kameraları</li>
-  <li>📺 böyük reklam ekranları</li>
-  <li>📡 IoT cihazlar</li>
-</ul>
-
-<p>Bəs sual:</p>
-
-<blockquote>
-  <p>❗ Bunlar hack oluna bilərmi?</p>
-</blockquote>
-
-<h2 id="-cavab">🔥 Cavab:</h2>
-<p>➡️ <strong>BƏLİ — amma bu düşündüyün qədər sadə deyil</strong></p>
-
-<hr />
-
-<h1 id="-smart-city-sistemləri-necə-i̇şləyir">🧠 Smart City Sistemləri Necə İşləyir?</h1>
-
-<p>Smart şəhər sistemləri əsasən aşağı komponentlərdən ibarətdir:</p>
-
-<ul>
-  <li>IoT cihazlar (sensorlar)</li>
-  <li>Mərkəzi idarəetmə serverləri</li>
-  <li>Şəbəkə infrastrukturu</li>
-  <li>Web və ya SCADA panellər</li>
-</ul>
-
-<p>💡 Yəni bu sistemlər = <strong>şəbəkə + proqram + hardware</strong></p>
-
-<hr />
-
-<h1 id="️-potensial-hücum-nöqtələri">⚠️ Potensial Hücum Nöqtələri</h1>
-
-<h2 id="-1-şəbəkə-boşluqları">🔴 1. Şəbəkə Boşluqları</h2>
-
-<p>Əgər sistemdə:</p>
-
-<ul>
-  <li>açıq portlar varsa</li>
-  <li>firewall zəifdirsə</li>
-  <li>default konfiqurasiya qalırsa</li>
-</ul>
-
-<p>➡️ hacker giriş əldə edə bilər</p>
-
-<hr />
-
-<h2 id="-2-iot-zəiflikləri">🔴 2. IoT Zəiflikləri</h2>
-
-<p>IoT cihazların problemi:</p>
-
-<ul>
-  <li>default şifrələr</li>
-  <li>update olunmur</li>
-  <li>zəif firmware</li>
-</ul>
-
-<p>💥 Bu = ən zəif nöqtə</p>
-
-<hr />
-
-<h2 id="-3-web-panel-hücumları">🔴 3. Web Panel Hücumları</h2>
-
-<ul>
-  <li>bruteforce</li>
-  <li>SQL injection</li>
-  <li>auth bypass</li>
-</ul>
-
-<p>➡️ idarəetmə paneli ələ keçirilə bilər</p>
-
-<hr />
-
-<h2 id="-4-fiziki-hücumlar">🔴 4. Fiziki Hücumlar</h2>
-
-<ul>
-  <li>Bad USB</li>
-  <li>cihazlara birbaşa giriş</li>
-</ul>
-
-<p>💥 Bu ən təhlükəli ssenarilərdən biridir</p>
-
-<hr />
-
-<h1 id="-i̇şıqforlar-hack-oluna-bilərmi">🚦 İşıqforlar Hack Oluna Bilərmi?</h1>
-
-<p>✔️ Teorik olaraq mümkündür</p>
-
-<p>Necə?</p>
-
-<ul>
-  <li>SCADA sistemlərinə giriş</li>
-  <li>PLC exploit</li>
-  <li>şəbəkə manipulation</li>
-</ul>
-
-<p>💥 Nəticə:</p>
-
-<ul>
-  <li>trafik qarışır</li>
-  <li>qəzalar baş verə bilər</li>
-</ul>
-
-<hr />
-
-<h1 id="-böyük-reklam-ekranları">📺 Böyük Reklam Ekranları</h1>
-
-<p>Ən çox hack olunan sistemlərdən biri 😄</p>
-
-<p>Necə?</p>
-
-<ul>
-  <li>açıq admin panel</li>
-  <li>zəif login sistemi</li>
-  <li>remote access</li>
-</ul>
-
-<p>💥 Nəticə:</p>
-
-<ul>
-  <li>ekran dəyişir</li>
-  <li>mesajlar dəyişdirilir</li>
-</ul>
-
-<hr />
-
-<h1 id="-şəhər-kameraları">📹 Şəhər Kameraları</h1>
-
-<p>Ən kritik hissə 🔥</p>
-
-<p>Hack edilərsə:</p>
-
-<ul>
-  <li>izləmə sistemi deaktiv olur</li>
-  <li>məlumatlar oğurlanır</li>
-  <li>real-time manipulyasiya edilir</li>
-</ul>
-
-<hr />
-
-<h1 id="-bu-hücumlar-qlobal-ola-bilərmi">🌍 Bu Hücumlar Qlobal Ola Bilərmi?</h1>
-
-<p>✔️ BƏLİ, əgər:</p>
-
-<ul>
-  <li>sistem internetə açıqdır</li>
-  <li>eyni vendor istifadə olunur</li>
-  <li>patch yoxdur</li>
-</ul>
-
-<p>💡 Bir exploit → minlərlə cihaz</p>
-
-<hr />
-
-<h1 id="-niyə-hər-kəs-edə-bilmir">🧬 Niyə Hər Kəs Edə Bilmir?</h1>
-
-<p>Çünki:</p>
-
-<ul>
-  <li>sistemlər çox vaxt daxili şəbəkədədir</li>
-  <li>ciddi firewall var</li>
-  <li>dövlət səviyyəsində qorunur</li>
-</ul>
-
-<hr />
-
-<h1 id="️-necə-qorunurlar">🛡️ Necə Qorunurlar?</h1>
-
-<h2 id="-network-segmentation">🔵 Network Segmentation</h2>
-<p>Sistemlər internetdən ayrılır</p>
-
-<h2 id="-firewall--idsips">🔵 Firewall + IDS/IPS</h2>
-<p>trafik izlənir</p>
-
-<h2 id="-siem-wazuh-və-s">🔵 SIEM (Wazuh və s.)</h2>
-<p>anomaliya detection</p>
-
-<h2 id="-access-control">🔵 Access Control</h2>
-<p>yalnız icazəli giriş</p>
-
-<h2 id="-monitoring">🔵 Monitoring</h2>
-<p>24/7 nəzarət</p>
-
-<hr />
-
-<h1 id="-hacker-necə-yanaşar-etik-perspektiv">⚡ Hacker Necə Yanaşar? (Etik Perspektiv)</h1>
-
-<ol>
-  <li>Recon</li>
-  <li>Port scanning</li>
-  <li>Service analysis</li>
-  <li>Exploit axtarışı</li>
-  <li>Access əldə etmə</li>
-</ol>
-
-<hr />
-
-<h1 id="-cyber-security-öyrənənlər-üçün">🎯 Cyber Security Öyrənənlər üçün</h1>
-
-<p>Bu mövzu sənə öyrədir:</p>
-
-<ul>
-  <li>real sistemlər necə işləyir</li>
-  <li>boşluqları necə tapmaq</li>
-  <li>Red Team düşüncə tərzi</li>
-  <li>Blue Team müdafiəsi</li>
-</ul>
-
-<hr />
-
-<h1 id="-ən-vacib-mesaj">❗ Ən Vacib Mesaj</h1>
-
-<blockquote>
-  <p>Ən zəif nöqtə sistem deyil — istifadəçidir</p>
-</blockquote>
-
-<hr />
-
-<h1 id="-nəticə">🏁 Nəticə</h1>
-
-<p>🚦 İşıqforlar<br />
-📺 Böyük ekranlar<br />
-📹 Kameralar</p>
-
-<p>➡️ <strong>Hack edilə bilər</strong><br />
-amma düzgün qorunma ilə minimuma endirilir</p>
-
-<hr />
-
-<h1 id="-faq">❓ FAQ</h1>
-
-<h2 id="smart-city-hack-edilə-bilər">Smart city hack edilə bilər?</h2>
-<p>Bəli, amma çətin və qorunan sistemlərdə risk azdır.</p>
-
-<h2 id="ən-zəif-nöqtə-nədir">Ən zəif nöqtə nədir?</h2>
-<p>İnsan faktoru və zəif konfiqurasiya.</p>
-
-<h2 id="iot-cihazlar-təhlükəlidirmi">IoT cihazlar təhlükəlidirmi?</h2>
-<p>Bəli, çox vaxt ən zəif halqadır.</p>
-
-<hr />
-
-<h1 id="-cta">🔥 CTA</h1>
-
-<p>📢 Öyrənmək istəyirsənsə:</p>
-
-<ul>
-  <li>💻 hacker dərsləri</li>
-  <li>🛡️ kiber təhlükəsizlik kursları</li>
-  <li>📱 mobil hacking</li>
-  <li>🌐 web developer kursları</li>
-</ul>
-
-<p>➡️ Real lab ilə öyrən!</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
-  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
-  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
-  <li>📹🧠👁️ <a href="https://cybershieldy.com/posts/kameralar-nece-izleyir">Şəhər Kameraları Necə İzləyir? AI və Nəzarət Sistemlərinin Sirri</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
-Red &amp; Blue Team üzrə təlimçi</strong></p>
-
-<p><strong>Kiber Təhlükəsizlik • Hacker Dərsləri • Etik Hacking Dərsləri • Red Team • Blue Team • Cyber Security Təlimləri</strong></p>
-
-<p>🚀 Real bilik &gt; sertifikat<br />
-💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="smart city" /><category term="kiber təhlükəsizlik kursları" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="cyber security" /><category term="smart city hacking" /><category term="iot security" /><category term="web developer kursları" /><category term="mobil hacking" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[İşıqforlar, şəhər kameraları və böyük reklam ekranları hack oluna bilərmi? Smart city sistemlərində boşluqlar və real hücum ssenariləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/iot-sys.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/iot-sys.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="bluetooth" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="hacking dersleri" /><category term="bluetooth hacking" /><category term="ble security" /><category term="cyber security" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[BLE və Classic Bluetooth fərqləri, necə işləyir, necə hack edilə bilər və qorunma yolları. Real ssenarilər və praktik izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ble.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ble.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

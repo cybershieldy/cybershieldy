@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları",
+    "url": "/posts/raspberry-pi-pico-hid",
+    "categories": "kibertəhlükəsizlik, hardware security, red team",
+    "tags": "raspberry pi pico, pico, hid, usb hid, badusb, cybersecurity, red team, blue team, ethical hacking, penetration testing, usb security, windows security, linux security, hardware hacking, cybersecurity training, cyber lab, kiber təhlükəsizlik, hacker dərsləri, red team, blue team, usb attack, hid device, security awareness",
+    "date": "2026-07-10 08:00:00 +0400",
+    "content": "Raspberry Pi Pico HID nədir? Real laboratoriya mühitində təhlükəsizlik testləri, USB HID cihazlarının iş prinsipi və onlardan qorunma yolları."
+  },
+  
+  {
     "title": "🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları",
     "url": "/posts/ai-voice-cybersecurity",
     "categories": "kibertəhlükəsizlik, süni intellekt, automation",
