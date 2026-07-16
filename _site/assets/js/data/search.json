@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🧪 Rəqəmsal Forensika Nədir? Telefon, HDD, SSD, NVMe Ekspertizası və Fayl Bərpası",
+    "url": "/posts/digital-forensics",
+    "categories": "kibertəhlükəsizlik, digital forensics, blue team",
+    "tags": "digital forensics, computer forensics, mobile forensics, file recovery, data recovery, hdd, ssd, nvme, autopsy, foremost, photorec, sleuthkit, dfir, incident response, blue team, cybersecurity, digital evidence, android forensics, iphone forensics, cyber lab, kibertəhlükəsizlik, ekspertiza, fayl bərpası",
+    "date": "2026-07-16 08:00:00 +0400",
+    "content": "Rəqəmsal forensika nədir? Telefon ekspertizası, HDD, SSD və NVMe disklərdən fayl bərpası, risklər, sübutların qorunması və DFIR prosesləri haqqında geniş bələdçi."
+  },
+  
+  {
     "title": "⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları",
     "url": "/posts/raspberry-pi-pico-hid",
     "categories": "kibertəhlükəsizlik, hardware security, red team",

@@ -1,11 +1,9 @@
 ---
-
 title: "🧪 Rəqəmsal Forensika Nədir? Telefon, HDD, SSD, NVMe Ekspertizası və Fayl Bərpası"
-date: 2026-07-16 18:00:00 +0400
-lastmod: 2026-07-16 18:00:00 +0400
+date: 2026-07-16 08:00:00 +0400
+lastmod: 2026-07-16 08:00:00 +0400
 
 categories:
-
 - kibertəhlükəsizlik
 - digital forensics
 - blue team
