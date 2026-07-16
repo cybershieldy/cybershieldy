@@ -1,4 +1,522 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-10T19:28:35+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/raspberry-pi-pico-hid" rel="alternate" type="text/html" title="⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları" /><published>2026-07-10T08:00:00+04:00</published><updated>2026-07-10T19:24:24+04:00</updated><id>https://cybershieldy.com/posts/raspberry-pi-pico-hid-real-sistemde-tehlukesizlik-testi</id><content type="html" xml:base="https://cybershieldy.com/posts/raspberry-pi-pico-hid"><![CDATA[<h1 id="️-raspberry-pi-pico-hid-nədir">⌨️ Raspberry Pi Pico HID Nədir?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-16T16:37:34+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html"></title><link href="https://cybershieldy.com/posts/2026-07-16-digital-forensics-telefon-hdd-ssd-nvme-ekspertiza-ve-fayl-berpasi/" rel="alternate" type="text/html" title="" /><published>2026-07-16T16:37:34+04:00</published><updated>2026-07-16T16:37:34+04:00</updated><id>https://cybershieldy.com/posts/2026-07-16-digital-forensics-telefon-hdd-ssd-nvme-ekspertiza-ve-fayl-berpasi</id><content type="html" xml:base="https://cybershieldy.com/posts/2026-07-16-digital-forensics-telefon-hdd-ssd-nvme-ekspertiza-ve-fayl-berpasi/"><![CDATA[<h1 id="-mövzu-ilə-bağlı-video">🎥 Mövzu ilə bağlı video</h1>
+
+<iframe src="https://www.instagram.com/reel/Dax7USmMzgi/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="digital-forensics-hansı-sahələri-əhatə-edir">Digital Forensics Hansı Sahələri Əhatə Edir?</h1>
+
+<p>Bugünkü DFIR (Digital Forensics &amp; Incident Response) çox geniş sahəni əhatə edir.</p>
+
+<p>Əsas istiqamətlər:</p>
+
+<ul>
+  <li>📱 Mobil telefon ekspertizası</li>
+  <li>💻 Kompüter ekspertizası</li>
+  <li>💾 HDD analizləri</li>
+  <li>⚡ SSD və NVMe ekspertizası</li>
+  <li>☁️ Cloud forensics</li>
+  <li>🌐 Network forensics</li>
+  <li>📧 Email forensics</li>
+  <li>🧠 Memory (RAM) forensics</li>
+  <li>🗂️ Log analizi</li>
+  <li>🦠 Malware forensics</li>
+</ul>
+
+<hr />
+
+<h1 id="telefon-forensikası">Telefon Forensikası</h1>
+
+<p>Telefon artıq insanın ikinci yaddaşı hesab olunur.</p>
+
+<p>Ekspertiza zamanı aşağıdakı məlumatlar araşdırıla bilər:</p>
+
+<ul>
+  <li>Kontaktlar</li>
+  <li>SMS</li>
+  <li>WhatsApp məlumatları</li>
+  <li>Telegram məlumatları</li>
+  <li>Şəkillər</li>
+  <li>Videolar</li>
+  <li>GPS tarixçəsi</li>
+  <li>Wi-Fi tarixçəsi</li>
+  <li>Bluetooth əlaqələri</li>
+  <li>Browser məlumatları</li>
+  <li>Tətbiq məlumatları</li>
+  <li>SIM kart məlumatları</li>
+  <li>IMEI</li>
+  <li>Quraşdırılmış proqramlar</li>
+  <li>Silinmiş fayllar</li>
+</ul>
+
+<p>Telefon ekspertizasında əsas məqsəd istifadəçinin fəaliyyətini zaman ardıcıllığı ilə bərpa etməkdir.</p>
+
+<hr />
+
+<h1 id="android-ekspertizası">Android Ekspertizası</h1>
+
+<p>Android cihazlarında araşdırılan məlumatlardan bəziləri:</p>
+
+<ul>
+  <li>SQLite verilənlər bazaları</li>
+  <li>tətbiq məlumatları</li>
+  <li>şəkillər</li>
+  <li>cache</li>
+  <li>log faylları</li>
+  <li>call history</li>
+  <li>location history</li>
+  <li>notifications</li>
+  <li>accounts</li>
+  <li>downloads</li>
+</ul>
+
+<p>Əgər cihaz şifrələnibsə və kilidlidirsə, əldə edilə bilən məlumatların həcmi modeldən və Android versiyasından asılı olaraq dəyişə bilər.</p>
+
+<hr />
+
+<h1 id="iphone-ekspertizası">iPhone Ekspertizası</h1>
+
+<p>iOS cihazlarında ekspertiza daha çətin ola bilər.</p>
+
+<p>Araşdırılan məlumatlar:</p>
+
+<ul>
+  <li>iMessage</li>
+  <li>Photos</li>
+  <li>Safari History</li>
+  <li>Health məlumatları</li>
+  <li>Call logs</li>
+  <li>Contacts</li>
+  <li>Notes</li>
+  <li>Calendar</li>
+  <li>tətbiq məlumatları</li>
+</ul>
+
+<p>Apple cihazlarında Secure Enclave və güclü şifrələmə səbəbindən məlumatlara çıxış imkanları cihazın modeli, iOS versiyası və hüquqi/icazəli əldəetmə üsullarından asılıdır.</p>
+
+<hr />
+
+<h1 id="hdd-forensikası">HDD Forensikası</h1>
+
+<p>Ən klassik ekspertiza sahələrindən biridir.</p>
+
+<p>HDD-də araşdırılan məlumatlar:</p>
+
+<ul>
+  <li>NTFS</li>
+  <li>FAT32</li>
+  <li>exFAT</li>
+  <li>EXT4</li>
+  <li>silinmiş fayllar</li>
+  <li>MFT</li>
+  <li>partition məlumatları</li>
+  <li>USB tarixçəsi</li>
+  <li>Registry</li>
+  <li>Event Logs</li>
+</ul>
+
+<p>Mexaniki disklərdə silinmiş məlumatlar üzərinə yeni məlumat yazılmayıbsa, bəzən bərpa olunma ehtimalı yüksək ola bilər.</p>
+
+<hr />
+
+<h1 id="ssd-və-nvme-ekspertizası">SSD və NVMe Ekspertizası</h1>
+
+<p>Bir çox istifadəçi düşünür ki, SSD-də silinən məlumatlar HDD kimi bərpa olunur.</p>
+
+<p>Əslində vəziyyət fərqlidir.</p>
+
+<p>SSD və NVMe disklərdə:</p>
+
+<ul>
+  <li>TRIM</li>
+  <li>Garbage Collection</li>
+  <li>Wear Leveling</li>
+</ul>
+
+<p>kimi texnologiyalar istifadə olunur.</p>
+
+<p>Bu mexanizmlər səbəbindən silinmiş məlumatların bərpası HDD ilə müqayisədə daha çətin və bəzən mümkün olmaya bilər.</p>
+
+<hr />
+
+<h1 id="trim-nədir">TRIM Nədir?</h1>
+
+<p>TRIM əmri əməliyyat sisteminə bildirir ki, müəyyən bloklar artıq istifadə olunmur.</p>
+
+<p>SSD həmin blokları sonradan təmizləyə bilər.</p>
+
+<p>Nəticədə:</p>
+
+<ul>
+  <li>fayl silinir</li>
+  <li>blok boş hesab olunur</li>
+  <li>məlumat sonradan fiziki olaraq silinə bilər</li>
+</ul>
+
+<p>Bu səbəbdən SSD-də vaxtında ekspertiza aparılması vacibdir.</p>
+
+<hr />
+
+<h1 id="nvme-disklərdə-risklər">NVMe Disklərdə Risklər</h1>
+
+<p>NVMe disklər çox yüksək sürətə malikdir.</p>
+
+<p>Lakin:</p>
+
+<ul>
+  <li>sürətli TRIM</li>
+  <li>controller optimizasiyası</li>
+  <li>wear leveling</li>
+</ul>
+
+<p>kimi xüsusiyyətlər səbəbindən məlumatların bərpası daha mürəkkəb ola bilər.</p>
+
+<p>Bu səbəbdən ilk addım kimi orijinal disk üzərində işləmək əvəzinə onun məhkəmə məqsədli surətinin (forensic image) yaradılması tövsiyə olunur.</p>
+
+<hr />
+
+<h1 id="silinmiş-fayllar-necə-bərpa-olunur">Silinmiş Fayllar Necə Bərpa Olunur?</h1>
+
+<p>Əgər məlumatın üzərinə yeni məlumat yazılmayıbsa, müxtəlif metodlardan istifadə edilə bilər.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>File Carving</li>
+  <li>Metadata analizi</li>
+  <li>Signature analizi</li>
+  <li>Partition Recovery</li>
+  <li>Journal analizi</li>
+</ul>
+
+<p>Bu metodlar müxtəlif fayl növlərinin bərpasına kömək edə bilər.</p>
+
+<hr />
+
+<h1 id="file-carving-nədir">File Carving Nədir?</h1>
+
+<p>File Carving fayl sistemi məlumatları olmasa belə, faylın başlanğıc və son imzalarına əsasən məlumatların axtarılması üsuludur.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>JPG</li>
+  <li>PNG</li>
+  <li>PDF</li>
+  <li>ZIP</li>
+  <li>DOCX</li>
+  <li>MP4</li>
+</ul>
+
+<p>kimi fayllar bəzən bu üsulla bərpa edilə bilər.</p>
+
+<hr />
+
+<h1 id="populyar-forensika-alətləri">Populyar Forensika Alətləri</h1>
+
+<p>Laboratoriyalarda və ekspertizalarda tez-tez istifadə olunan alətlər:</p>
+
+<ul>
+  <li>Autopsy</li>
+  <li>The Sleuth Kit</li>
+  <li>FTK Imager</li>
+  <li>PhotoRec</li>
+  <li>TestDisk</li>
+  <li>Foremost</li>
+  <li>Bulk Extractor</li>
+  <li>Volatility</li>
+  <li>Magnet AXIOM</li>
+  <li>Cellebrite (mobil ekspertiza)</li>
+  <li>Oxygen Forensic Detective</li>
+</ul>
+
+<p>Hər alətin öz üstünlükləri və istifadə sahəsi vardır.</p>
+
+<hr />
+
+<h1 id="mənim-laboratoriya-testlərim">Mənim Laboratoriya Testlərim</h1>
+
+<p>Laboratoriya mühitimdə müxtəlif ssenarilər üzərində sınaqlar aparmışam.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Foremost ilə silinmiş şəkillərin bərpası</li>
+  <li>Autopsy ilə disk analizləri</li>
+  <li>Wazuh vasitəsilə hadisələrin monitorinqi</li>
+  <li>Linux sistemlərində fayl bərpası testləri</li>
+  <li>Android laboratoriya analizləri</li>
+</ul>
+
+<p>Bu testlər yalnız mənə məxsus və icazəli laboratoriya mühitində həyata keçirilmişdir.</p>
+
+<hr />
+
+<h1 id="ekspertiza-prosesi">Ekspertiza Prosesi</h1>
+
+<p>Peşəkar ekspertiza adətən aşağıdakı mərhələlərdən ibarət olur:</p>
+
+<ol>
+  <li>Sübutun qəbul edilməsi</li>
+  <li>Write Blocker istifadə olunması</li>
+  <li>Forensic Image yaradılması</li>
+  <li>Hash hesablanması (SHA-256 və s.)</li>
+  <li>Analiz</li>
+  <li>Fayl bərpası</li>
+  <li>Timeline hazırlanması</li>
+  <li>Hesabatın tərtib olunması</li>
+</ol>
+
+<p>Bu yanaşma sübutların bütövlüyünün qorunmasına kömək edir.</p>
+
+<hr />
+
+<h1 id="sübutların-qorunması">Sübutların Qorunması</h1>
+
+<p>Ekspertiza zamanı ən vacib qaydalardan biri:</p>
+
+<p><strong>Orijinal sübut üzərində işləməməkdir.</strong></p>
+
+<p>Bunun üçün:</p>
+
+<ul>
+  <li>write blocker</li>
+  <li>forensic image</li>
+  <li>hash verification</li>
+  <li>chain of custody</li>
+</ul>
+
+<p>kimi prosedurlardan istifadə olunur.</p>
+
+<hr />
+
+<h1 id="fayl-bərpasında-risklər">Fayl Bərpasında Risklər</h1>
+
+<p>İstifadəçilərin ən çox etdiyi səhvlər:</p>
+
+<ul>
+  <li>Diskdən istifadə etməyə davam etmək</li>
+  <li>Yeni proqram quraşdırmaq</li>
+  <li>Faylları həmin diskin üzərinə bərpa etmək</li>
+  <li>SSD-də gecikmək</li>
+  <li>Diski formatlamağa çalışmaq</li>
+  <li>SMART xəbərdarlıqlarını nəzərə almamaq</li>
+</ul>
+
+<p>Bu addımlar məlumatların tam itirilməsinə səbəb ola bilər.</p>
+
+<hr />
+
+<h1 id="blue-team-üçün-forensikanın-əhəmiyyəti">Blue Team üçün Forensikanın Əhəmiyyəti</h1>
+
+<p>Blue Team üçün forensika:</p>
+
+<ul>
+  <li>Hadisənin səbəbini müəyyən etməyə</li>
+  <li>Hücumun necə başladığını anlamağa</li>
+  <li>IOC-ləri toplamağa</li>
+  <li>Logları əlaqələndirməyə</li>
+  <li>Təhlükəsizlik boşluqlarını aşkarlamağa</li>
+  <li>Gələcək hücumların qarşısını almağa</li>
+</ul>
+
+<p>kömək edir.</p>
+
+<hr />
+
+<h1 id="dfir-nədir">DFIR Nədir?</h1>
+
+<p>DFIR — <strong>Digital Forensics and Incident Response</strong> anlayışıdır.</p>
+
+<p>Bu sahədə mütəxəssislər:</p>
+
+<ul>
+  <li>hücumları araşdırırlar</li>
+  <li>sübutları qoruyurlar</li>
+  <li>logları analiz edirlər</li>
+  <li>zərərli proqramları araşdırırlar</li>
+  <li>təşkilatın normal fəaliyyətini bərpa etməyə kömək edirlər</li>
+</ul>
+
+<hr />
+
+<h1 id="nəticə">Nəticə</h1>
+
+<p>Rəqəmsal forensika yalnız silinmiş faylları geri qaytarmaq deyil.</p>
+
+<p>Bu sahə:</p>
+
+<ul>
+  <li>kiberhücumların araşdırılması,</li>
+  <li>rəqəmsal sübutların qorunması,</li>
+  <li>telefon ekspertizası,</li>
+  <li>HDD, SSD və NVMe analizləri,</li>
+  <li>hadisələrin zaman xəttinin qurulması,</li>
+  <li>və peşəkar hesabat hazırlanmasını əhatə edən geniş bir elmdir.</li>
+</ul>
+
+<p>İstər Blue Team mütəxəssisi, istər DFIR analitiki, istərsə də kibertəhlükəsizlik həvəskarı olun, forensika bilikləri real hadisələrin araşdırılmasında mühüm rol oynayır.</p>
+
+<hr />
+
+<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
+
+<ul>
+  <li>📊🛡️🚨 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🔴🔵🛡️⚔️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
+  <li>🖥️🧠🔍 <a href="https://cybershieldy.com/posts/windows-eventlog">Windows Event Log Analizi</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM İnteqrasiyası</a></li>
+  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
+  <li>🔌💀🧠🚪 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar və Təhlükəsizlik Riskləri</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<blockquote>
+  <p>“Rəqəmsal sübutlar danışmır, lakin düzgün ekspertiza onları danışdırmağı bacarır.”</p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author></entry><entry><title type="html">⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları</title><link href="https://cybershieldy.com/posts/raspberry-pi-pico-hid" rel="alternate" type="text/html" title="⌨️ Raspberry Pi Pico HID Nədir? Real Sistemdə Təhlükəsizlik Testi və Müdafiə Yolları" /><published>2026-07-10T08:00:00+04:00</published><updated>2026-07-10T19:28:47+04:00</updated><id>https://cybershieldy.com/posts/raspberry-pi-pico-hid-real-sistemde-tehlukesizlik-testi</id><content type="html" xml:base="https://cybershieldy.com/posts/raspberry-pi-pico-hid"><![CDATA[<h1 id="️-raspberry-pi-pico-hid-nədir">⌨️ Raspberry Pi Pico HID Nədir?</h1>
 
 <p>USB cihazları gündəlik həyatımızın ayrılmaz hissəsidir. Klaviatura, siçan, oyun kontrolleri və bir çox digər qurğular kompüterə qoşulduqda <strong>Human Interface Device (HID)</strong> kimi tanınırlar.</p>
 
@@ -3456,464 +3974,4 @@ Red &amp; Blue Team üzrə təlimçi</strong></p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="siem" /><category term="iot security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="cyber security" /><category term="siber güvenlik" /><category term="siem" /><category term="wazuh" /><category term="esp32" /><category term="ideaspark" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Ideaspark ESP32 modulu ilə SIEM inteqrasiyası, SSH brute force hücumunun real vaxtda aşkarlanması, monitorinq, alert və müdafiə yanaşmaları haqqında geniş SEO dostu məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ideaspark.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ideaspark.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)</title><link href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth" rel="alternate" type="text/html" title="📶🔵 BLE vs Classic Bluetooth: Fərqlər, Hack Ssenariləri və Qorunma Yolları (2026)" /><published>2026-04-15T06:00:00+04:00</published><updated>2026-04-15T10:49:04+04:00</updated><id>https://cybershieldy.com/posts/ble-vs-classic-bluetooth-hacking-nece-isleyir-ve-qorunma-yollari</id><content type="html" xml:base="https://cybershieldy.com/posts/ble-vs-classic-bluetooth"><![CDATA[<h1 id="-ble-vs-classic-bluetooth--hackerlər-üçün-tam-analiz">📶🔵 BLE vs Classic Bluetooth – Hackerlər üçün tam analiz</h1>
-
-<p>Bluetooth artıq həyatımızın hər yerindədir:</p>
-
-<ul>
-  <li>📱 telefonlar</li>
-  <li>⌚ smart saatlar</li>
-  <li>🎧 airpods və qulaqlıqlar</li>
-  <li>🧠 IoT cihazlar</li>
-</ul>
-
-<p>Amma əsas sual:</p>
-
-<blockquote>
-  <p>❗ BLE və Classic Bluetooth nə fərq var və hack edilə bilər?</p>
-</blockquote>
-
-<hr />
-
-<h1 id="--canli-demo-instagram-video">🎥 📱 CANLI DEMO (Instagram Video)</h1>
-
-<p>Aşağıdakı videoda real test mühiti 👇</p>
-
-<iframe src="https://www.instagram.com/reel/DW9OsotDHt_/embed" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-
-<blockquote>
-  <p>🔥 Bu videoda BLE və Classic davranış fərqini real cihazlarla görəcəksən</p>
-</blockquote>
-
-<hr />
-
-<h1 id="-bluetooth-necə-işləyir">🧠 Bluetooth necə işləyir?</h1>
-
-<p>Bluetooth = <strong>wireless communication protokolu</strong></p>
-
-<p>İki əsas növ var:</p>
-
-<h2 id="-1-classic-bluetooth">🔵 1. Classic Bluetooth</h2>
-
-<ul>
-  <li>yüksək data transfer</li>
-  <li>stabil connection</li>
-  <li>pairing tələb edir</li>
-</ul>
-
-<p>📌 istifadə sahəsi:</p>
-<ul>
-  <li>qulaqlıqlar</li>
-  <li>keyboard/mouse</li>
-  <li>audio cihazlar</li>
-</ul>
-
-<hr />
-
-<h2 id="-2-ble-bluetooth-low-energy">🟢 2. BLE (Bluetooth Low Energy)</h2>
-
-<ul>
-  <li>az enerji sərf edir</li>
-  <li>tez scan olunur</li>
-  <li>çox vaxt pairing olmadan işləyir</li>
-</ul>
-
-<p>📌 istifadə sahəsi:</p>
-<ul>
-  <li>IoT cihazlar</li>
-  <li>smart saatlar</li>
-  <li>sensorlar</li>
-</ul>
-
-<hr />
-
-<h1 id="️-əsas-fərqlər">⚔️ Əsas Fərqlər</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Xüsusiyyət</th>
-      <th>Classic Bluetooth</th>
-      <th>BLE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Enerji</td>
-      <td>🔴 çox</td>
-      <td>🟢 az</td>
-    </tr>
-    <tr>
-      <td>Sürət</td>
-      <td>🟢 yüksək</td>
-      <td>🔴 aşağı</td>
-    </tr>
-    <tr>
-      <td>Qoşulma</td>
-      <td>pairing lazımdır</td>
-      <td>çox vaxt lazım deyil</td>
-    </tr>
-    <tr>
-      <td>Təhlükə</td>
-      <td>orta</td>
-      <td>🔥 yüksək</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h1 id="-hack-ssenariləri-etik-perspektiv">💀 Hack Ssenariləri (Etik Perspektiv)</h1>
-
-<h2 id="-1-ble-scan--tracking">🔴 1. BLE Scan &amp; Tracking</h2>
-
-<p>BLE cihazlar:</p>
-
-<ul>
-  <li>daim broadcast edir</li>
-  <li>MAC address yayır</li>
-</ul>
-
-<p>💥 nəticə:</p>
-<ul>
-  <li>istifadəçi izlənə bilər</li>
-  <li>location tracking</li>
-</ul>
-
-<hr />
-
-<h2 id="-2-fake-device-spoofing">🔴 2. Fake Device (Spoofing)</h2>
-
-<p>Hacker:</p>
-
-<ul>
-  <li>eyni device adı yaradır</li>
-  <li>istifadəçini aldadır</li>
-</ul>
-
-<p>📌 misal:</p>
-<ul>
-  <li>“AirPods Pro” fake cihaz</li>
-</ul>
-
-<hr />
-
-<h2 id="-3-mitm-man-in-the-middle">🔴 3. MITM (Man-in-the-Middle)</h2>
-
-<p>Classic Bluetooth-da:</p>
-
-<ul>
-  <li>pairing zamanı interception</li>
-</ul>
-
-<p>💥 nəticə:</p>
-<ul>
-  <li>data oğurluğu</li>
-</ul>
-
-<hr />
-
-<h2 id="-4-hid-attack-keyboard-injection">🔴 4. HID Attack (Keyboard Injection)</h2>
-
-<p>Xüsusilə:</p>
-
-<ul>
-  <li>ESP32</li>
-  <li>Raspberry Pi Pico</li>
-</ul>
-
-<p>ilə mümkündür</p>
-
-<p>💥 nəticə:</p>
-<ul>
-  <li>avtomatik komanda yazılır</li>
-  <li>sistemə giriş</li>
-</ul>
-
-<hr />
-
-<h2 id="-5-ble-spam-attack">🔴 5. BLE Spam Attack</h2>
-
-<ul>
-  <li>cihazlar flood edilir</li>
-  <li>notification spam</li>
-</ul>
-
-<p>💥 nəticə:</p>
-<ul>
-  <li>istifadəçi çaşdırılır</li>
-</ul>
-
-<hr />
-
-<h1 id="-sistem-niyə-zəif-olur">🧬 Sistem niyə zəif olur?</h1>
-
-<p>Əsas səbəblər:</p>
-
-<ul>
-  <li>default config</li>
-  <li>zəif encryption</li>
-  <li>user awareness yoxdur</li>
-  <li>auto-connect aktivdir</li>
-</ul>
-
-<hr />
-
-<h1 id="️-qorunma-yolları-blue-team">🛡️ Qorunma Yolları (Blue Team)</h1>
-
-<h2 id="-1-bluetooth-off-lazım-olmayanda">🔵 1. Bluetooth OFF (lazım olmayanda)</h2>
-<p>➡️ ən effektiv müdafiə</p>
-
-<hr />
-
-<h2 id="-2-unknown-device-reject">🔵 2. Unknown Device Reject</h2>
-<p>➡️ tanımadığın cihazlara qoşulma</p>
-
-<hr />
-
-<h2 id="-3-mac-randomization">🔵 3. MAC Randomization</h2>
-<p>➡️ tracking qarşısını alır</p>
-
-<hr />
-
-<h2 id="-4-firmware-update">🔵 4. Firmware Update</h2>
-<p>➡️ IoT cihazlar mütləq update olunmalıdır</p>
-
-<hr />
-
-<h2 id="-5-siem-monitoring-advanced">🔵 5. SIEM Monitoring (Advanced)</h2>
-
-<p>Sənin kimi lab quranlar üçün:</p>
-
-<ul>
-  <li>:contentReference[oaicite:2]{index=2}</li>
-  <li>log + alert</li>
-</ul>
-
-<hr />
-
-<h1 id="-real-həyatda-nə-baş-verir">⚡ Real Həyatda Nə Baş Verir?</h1>
-
-<p>Bugünkü hücumlar:</p>
-
-<ul>
-  <li>BLE tracking (marketlərdə)</li>
-  <li>fake device scam</li>
-  <li>smart cihaz exploit</li>
-</ul>
-
-<p>💥 xüsusilə IoT sahəsində risk böyükdür</p>
-
-<hr />
-
-<h1 id="-cyber-security-öyrənənlər-üçün">🎯 Cyber Security Öyrənənlər üçün</h1>
-
-<p>Bu mövzu sənə öyrədir:</p>
-
-<ul>
-  <li>wireless hacking əsasları</li>
-  <li>real attack ssenariləri</li>
-  <li>Red Team yanaşma</li>
-  <li>Blue Team müdafiə</li>
-</ul>
-
-<hr />
-
-<h1 id="-ən-vacib-mesaj">❗ Ən Vacib Mesaj</h1>
-
-<blockquote>
-  <p>Bluetooth təhlükəsi cihazda deyil — istifadəçidədir</p>
-</blockquote>
-
-<hr />
-
-<h1 id="-nəticə">🏁 Nəticə</h1>
-
-<p>🔵 Classic Bluetooth<br />
-🟢 BLE</p>
-
-<p>➡️ hər ikisi təhlükəli ola bilər<br />
-➡️ amma düzgün istifadə ilə təhlükəsizdir</p>
-
-<hr />
-
-<h1 id="-faq">❓ FAQ</h1>
-
-<h2 id="ble-daha-təhlükəlidir">BLE daha təhlükəlidir?</h2>
-<p>Bəli, çünki daha açıq və scan ediləndir.</p>
-
-<h2 id="bluetooth-hack-realdır">Bluetooth hack realdır?</h2>
-<p>Bəli, amma çox vaxt user səhvlərinə əsaslanır.</p>
-
-<h2 id="iot-cihazlar-risklidirmi">IoT cihazlar risklidirmi?</h2>
-<p>Bəli, ən zəif nöqtədir.</p>
-
-<hr />
-
-<h1 id="-cta">🔥 CTA</h1>
-
-<p>📢 Əgər öyrənmək istəyirsənsə:</p>
-
-<ul>
-  <li>💻 hacker dersleri</li>
-  <li>🛡️ kiber tehlukesizlik telim</li>
-  <li>📡 iot hacking</li>
-  <li>🔴🔵 red team vs blue team</li>
-</ul>
-
-<p>➡️ Real lab ilə öyrən!</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
-  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Kibertəhlükəsizlikdə Red Team və Blue Team nədir?</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">İctimai Wi-Fi istifadə edərkən nələrə diqqət etməli?</a></li>
-  <li>🔌💀🧠 <a href="/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Hardware əsaslı sızmalar</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
-Red &amp; Blue Team üzrə təlimçi</strong></p>
-
-<p>🚀 Real bilik &gt; sertifikat<br />
-💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hacking" /><category term="bluetooth" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="hacking dersleri" /><category term="bluetooth hacking" /><category term="ble security" /><category term="cyber security" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[BLE və Classic Bluetooth fərqləri, necə işləyir, necə hack edilə bilər və qorunma yolları. Real ssenarilər və praktik izah.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ble.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ble.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="siem" /><category term="iot security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="cyber security" /><category term="siber güvenlik" /><category term="siem" /><category term="wazuh" /><category term="esp32" /><category term="ideaspark" /><category term="iot security" /><category term="red team" /><category term="blue team" /><summary type="html"><![CDATA[Ideaspark ESP32 modulu ilə SIEM inteqrasiyası, SSH brute force hücumunun real vaxtda aşkarlanması, monitorinq, alert və müdafiə yanaşmaları haqqında geniş SEO dostu məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/ideaspark.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/ideaspark.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
