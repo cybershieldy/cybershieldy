@@ -41,7 +41,7 @@ description: "Rəqəmsal forensika nədir? Telefon ekspertizası, HDD, SSD və N
 image: /assets/images/forensics.webp
 canonical: https://cybershieldy.com/posts/digital-forensics
 permalink: /posts/digital-forensics
------------------------------------
+---
 
 # 🧪 Rəqəmsal Forensika Nədir?
 
