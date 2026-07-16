@@ -36,7 +36,7 @@ tags:
 
 description: "Rəqəmsal forensika nədir? Telefon ekspertizası, HDD, SSD və NVMe disklərdən fayl bərpası, risklər, sübutların qorunması və DFIR prosesləri haqqında geniş bələdçi."
 
-image: /assets/images/forensics.webp
+image: /assets/images/forenzika.webp
 canonical: https://cybershieldy.com/posts/digital-forensics
 permalink: /posts/digital-forensics
 ---
@@ -282,7 +282,7 @@ Məsələn:
 
 - Foremost ilə silinmiş şəkillərin bərpası
 - Autopsy ilə disk analizləri
-- Wazuh vasitəsilə hadisələrin monitorinqi
+- Siem vasitəsilə hadisələrin monitorinqi
 - Linux sistemlərində fayl bərpası testləri
 - Android laboratoriya analizləri
 
@@ -389,11 +389,11 @@ Bu sahə:
 
 * 📊🛡️🚨 [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
 * 🔴🔵🛡️⚔️ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)
-* 🖥️🧠🔍 [Windows Event Log Analizi](https://cybershieldy.com/posts/windows-eventlog)
+* 🤖📡🏠🔐 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
 * ⚡🛡️ [ESP32 ilə SIEM İnteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
 * 📶🔓⚠️ [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
 * 🔌💀🧠🚪 [Fiziki Hücumlar və Təhlükəsizlik Riskləri](https://cybershieldy.com/posts/fiziki-hucumlar-genis)
-
+* 🧪📱💾🔍 [Rəqəmsal Forensika: Telefon, HDD, SSD və NVMe Ekspertizası](https://cybershieldy.com/posts/digital-forensics-nedir)
 ---
 
 ## 📢 CyberShieldy Academy
