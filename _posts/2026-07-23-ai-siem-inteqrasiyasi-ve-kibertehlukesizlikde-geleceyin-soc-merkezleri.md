@@ -34,7 +34,7 @@ tags:
 
 description: "SIEM və Süni İntellekt (AI) inteqrasiyası kibertəhlükəsizlikdə necə istifadə olunur? Üstünlükləri, riskləri, SOC komandalarına təsiri və gələcəyin təhlükəsizlik yanaşmaları haqqında geniş bələdçi."
 
-image: /assets/images/ai-siem.webp
+image: /assets/images/claude.webp
 canonical: https://cybershieldy.com/posts/ai-siem-integration
 permalink: /posts/ai-siem-integration
 ---
@@ -278,6 +278,8 @@ Gələcəkdə SIEM, AI və avtomatlaşdırma texnologiyalarının birlikdə isti
 * ⚡🛡️ [ESP32 ilə SIEM İnteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
 * 🧪📱💾🔍 [Rəqəmsal Forensika](https://cybershieldy.com/posts/digital-forensics)
 * 📶🔓⚠️ [Wi-Fi Hücumları və Public Şəbəkə Riskləri](https://cybershieldy.com/posts/wifi-hucumlari)
+* 📡🔓⚠️📱 [BLE vs Classic Bluetooth Hücumları](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
+* 🤖🛡️🚀 [AI və Kibertəhlükəsizlik](https://cybershieldy.com/posts/ai-kibertelhukesizlik)
 
 ---
 
