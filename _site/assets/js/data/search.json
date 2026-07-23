@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü",
+    "url": "/posts/ai-siem-integration",
+    "categories": "kibertəhlükəsizlik, artificial intelligence, blue team",
+    "tags": "ai, artificial intelligence, machine learning, siem, soc, security operations center, blue team, red team, automation, soar, incident response, threat detection, threat hunting, cyber defense, log analysis, anomaly detection, wazuh, splunk, microsoft sentinel, elastic security, cybersecurity, kibertəhlükəsizlik",
+    "date": "2026-07-23 06:00:00 +0400",
+    "content": "SIEM və Süni İntellekt (AI) inteqrasiyası kibertəhlükəsizlikdə necə istifadə olunur? Üstünlükləri, riskləri, SOC komandalarına təsiri və gələcəyin təhlükəsizlik yanaşmaları haqqında geniş bələdçi."
+  },
+  
+  {
     "title": "🧪 Rəqəmsal Forensika Nədir? Telefon, HDD, SSD, NVMe Ekspertizası və Fayl Bərpası",
     "url": "/posts/digital-forensics",
     "categories": "kibertəhlükəsizlik, digital forensics, blue team",
