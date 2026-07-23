@@ -273,7 +273,6 @@ Gələcəkdə SIEM, AI və avtomatlaşdırma texnologiyalarının birlikdə isti
 
 * 📊🛡️🚨 [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
 * 🔴🔵🛡️⚔️ [Red Team vs Blue Team](https://cybershieldy.com/posts/red-team-vs-blue-team)
-* ⚡🤖🛡️ [SOAR nədir və necə işləyir?](https://cybershieldy.com/posts/soar-nedir)
 * 🤖📡🏠🔐 [IoT Security və Smart Sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
 * ⚡🛡️ [ESP32 ilə SIEM İnteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
 * 🧪📱💾🔍 [Rəqəmsal Forensika](https://cybershieldy.com/posts/digital-forensics)
