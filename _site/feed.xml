@@ -1,4 +1,971 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-25T11:33:12+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü</title><link href="https://cybershieldy.com/posts/ai-siem-integration" rel="alternate" type="text/html" title="🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü" /><published>2026-07-23T06:00:00+04:00</published><updated>2026-07-23T15:43:49+04:00</updated><id>https://cybershieldy.com/posts/ai-siem-inteqrasiyasi-ve-kibertehlukesizlikde-geleceyin-soc-merkezleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-siem-integration"><![CDATA[<h1 id="-siem-və-süni-i̇ntellekt-ai-i̇nteqrasiyası">🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-30T10:56:36+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası</title><link href="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri" rel="alternate" type="text/html" title="🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası" /><published>2026-07-30T10:30:00+04:00</published><updated>2026-07-30T10:30:00+04:00</updated><id>https://cybershieldy.com/posts/biometrik-tehlukesizlik-barmaq-izi-uz-tanima-siem-ve-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri"><![CDATA[<h1 id="-biometrik-təhlükəsizlik-sistemləri">🔐 Biometrik Təhlükəsizlik Sistemləri</h1>
+
+<p>Rəqəmsal sistemlərdə istifadəçinin kimliyini müəyyən etmək üçün uzun illər əsasən istifadəçi adı və şifrə kombinasiyasından istifadə olunub.</p>
+
+<p>Lakin şifrələr:</p>
+
+<ul>
+  <li>Unudula bilər</li>
+  <li>Başqaları ilə paylaşıla bilər</li>
+  <li>Zəif seçilə bilər</li>
+  <li>Fişinq vasitəsilə oğurlana bilər</li>
+  <li>Eyni formada bir neçə platformada istifadə oluna bilər</li>
+  <li>Məlumat sızması zamanı ələ keçirilə bilər</li>
+</ul>
+
+<p>Bu səbəbdən müasir təhlükəsizlik sistemlərində insanın fiziki və davranış xüsusiyyətlərindən istifadə edən <strong>biometrik autentifikasiya texnologiyaları</strong> geniş yayılmağa başlayıb.</p>
+
+<p>Barmaq izi, üz tanıma, göz skanı, səs analizi, ovuc damarları və davranış biometrikası kimi üsullar istifadəçinin kimliyini daha sürətli və praktik formada yoxlamağa imkan verir.</p>
+
+<p>Lakin biometrik texnologiya yalnız rahatlıq demək deyil.</p>
+
+<p>Biometrik məlumatların qorunması, saxta görüntülərin aşkarlanması, sistemlərin aldadılmasının qarşısının alınması, logların toplanması və hadisələrin SIEM üzərindən izlənməsi də mühüm təhlükəsizlik məsələləridir.</p>
+
+<hr />
+
+<h1 id="-barmaq-izi-android-qr-code-və-siem-laboratoriyası">🎥 Barmaq izi, Android, QR Code və SIEM laboratoriyası</h1>
+
+<p>Aşağıdakı videoda barmaq izi sensoru, ESP32-S3, Android telefon, Termux, QR Code, Wazuh SIEM, n8n və Telegram bildiriş sistemi vahid təhlükəsizlik zəncirində birləşdirilib.</p>
+
+<iframe src="https://www.instagram.com/reel/DbYZQans3Uf/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<hr />
+
+<h1 id="-biometrik-autentifikasiya-nədir">🧬 Biometrik Autentifikasiya Nədir?</h1>
+
+<p>Biometrik autentifikasiya insanın unikal fiziki və ya davranış xüsusiyyətlərinə əsaslanan kimlik yoxlama üsuludur.</p>
+
+<p>Bu sistem istifadəçinin təqdim etdiyi biometrik məlumatı əvvəlcədən qeydiyyata alınmış nümunə ilə müqayisə edir.</p>
+
+<p>Sadə iş prinsipi belədir:</p>
+
+<ol>
+  <li>İstifadəçinin biometrik məlumatı sensordan alınır.</li>
+  <li>Məlumat emal edilərək rəqəmsal nümunəyə çevrilir.</li>
+  <li>Sistem həmin nümunəni bazadakı məlumatlarla müqayisə edir.</li>
+  <li>Uyğunluq faizi hesablanır.</li>
+  <li>Müəyyən edilmiş hədd keçilərsə giriş təsdiqlənir.</li>
+  <li>Nəticə log şəklində təhlükəsizlik sisteminə ötürülür.</li>
+</ol>
+
+<p>Biometrik sistemlər adətən görüntünün özünü deyil, ondan çıxarılan xüsusi riyazi xüsusiyyətləri müqayisə edir.</p>
+
+<hr />
+
+<h1 id="-barmaq-i̇zi-ilə-tanınma">👆 Barmaq İzi ilə Tanınma</h1>
+
+<p>Barmaq izi ən geniş istifadə edilən biometrik identifikasiya üsullarından biridir.</p>
+
+<p>Hər insanın barmağında fərqli:</p>
+
+<ul>
+  <li>Xətt strukturları</li>
+  <li>Birləşmə nöqtələri</li>
+  <li>Ayrılma nöqtələri</li>
+  <li>Dairəvi formalar</li>
+  <li>Qövs strukturları</li>
+  <li>Xüsusi naxışlar</li>
+</ul>
+
+<p>mövcuddur.</p>
+
+<p>Barmaq izi sensoru bu xüsusiyyətləri oxuyaraq rəqəmsal şablon yaradır.</p>
+
+<h2 id="barmaq-izi-sensorlarının-növləri">Barmaq izi sensorlarının növləri</h2>
+
+<h3 id="optik-sensor">Optik sensor</h3>
+
+<p>Barmaq izinin vizual görüntüsünü çəkir.</p>
+
+<p>Üstünlükləri:</p>
+
+<ul>
+  <li>Sadə quruluş</li>
+  <li>Münasib qiymət</li>
+  <li>Tədris layihələri üçün uyğunluq</li>
+</ul>
+
+<p>Çatışmazlıqları:</p>
+
+<ul>
+  <li>İşıqdan təsirlənə bilər</li>
+  <li>Çirkli və yaş barmaqda nəticə zəifləyə bilər</li>
+  <li>Bəzi sadə modellər saxta nümunələrə qarşı zəif ola bilər</li>
+</ul>
+
+<h3 id="kapasitiv-sensor">Kapasitiv sensor</h3>
+
+<p>Barmaq səthindəki elektrik fərqlərini ölçür.</p>
+
+<p>Bu texnologiya mobil telefonlarda geniş istifadə edilir.</p>
+
+<p>Üstünlükləri:</p>
+
+<ul>
+  <li>Daha kompakt quruluş</li>
+  <li>Sürətli tanınma</li>
+  <li>Optik sistemlərlə müqayisədə daha çətin aldadılma</li>
+</ul>
+
+<h3 id="ultrasəs-sensoru">Ultrasəs sensoru</h3>
+
+<p>Barmaq izinin strukturunu ultrasəs dalğaları ilə oxuyur.</p>
+
+<p>Üstünlükləri:</p>
+
+<ul>
+  <li>Daha dərin struktur analizi</li>
+  <li>Yaş və ya müəyyən qədər çirkli səthlərdə daha yaxşı nəticə</li>
+  <li>Yüksək təhlükəsizlik potensialı</li>
+</ul>
+
+<hr />
+
+<h1 id="-üz-tanıma-sistemləri">🙂 Üz Tanıma Sistemləri</h1>
+
+<p>Üz tanıma sistemləri kamera vasitəsilə insanın üz xüsusiyyətlərini analiz edir.</p>
+
+<p>Sistem aşağıdakı nöqtələri müqayisə edə bilər:</p>
+
+<ul>
+  <li>Gözlər arasındakı məsafə</li>
+  <li>Burun quruluşu</li>
+  <li>Çənə xətti</li>
+  <li>Üzün ümumi forması</li>
+  <li>Qaşların yerləşməsi</li>
+  <li>Dodaq strukturu</li>
+  <li>Üzün dərinlik xəritəsi</li>
+  <li>Dərinin teksturası</li>
+</ul>
+
+<p>Müasir sistemlər sadəcə şəkil müqayisəsi aparmır. Onlar üzdən çıxarılan çoxsaylı rəqəmsal xüsusiyyətləri analiz edir.</p>
+
+<h2 id="2d-üz-tanıma">2D üz tanıma</h2>
+
+<p>Adi kamera görüntüsündən istifadə edir.</p>
+
+<p>Üstünlükləri:</p>
+
+<ul>
+  <li>Mövcud kameralarda işləyə bilər</li>
+  <li>Daha ucuz tətbiq edilir</li>
+  <li>Sürətli analiz imkanı verir</li>
+</ul>
+
+<p>Riskləri:</p>
+
+<ul>
+  <li>Fotoşəkillə aldatma riski</li>
+  <li>İşıq dəyişikliklərindən təsirlənmə</li>
+  <li>Kamera bucağından asılılıq</li>
+</ul>
+
+<h2 id="3d-üz-tanıma">3D üz tanıma</h2>
+
+<p>Üzün dərinlik xəritəsini yaradır.</p>
+
+<p>Bu sistem:</p>
+
+<ul>
+  <li>Üzün həcmini</li>
+  <li>Burun çıxıntısını</li>
+  <li>Göz çuxurlarını</li>
+  <li>Çənənin dərinliyini</li>
+  <li>Ümumi üçölçülü quruluşu</li>
+</ul>
+
+<p>analiz edə bilər.</p>
+
+<p>3D analiz adi fotoşəkillə aldatma cəhdlərini azaltmağa kömək edir.</p>
+
+<hr />
+
+<h1 id="️-i̇ris-və-retina-skanları">👁️ İris və Retina Skanları</h1>
+
+<p>Göz əsaslı biometrik sistemlər yüksək dəqiqliyə malik yoxlama üsulları arasında yer alır.</p>
+
+<h2 id="i̇ris-tanıma">İris tanıma</h2>
+
+<p>İris gözün rəngli hissəsidir.</p>
+
+<p>İris üzərindəki naxışlar insanlarda fərqli olur və xüsusi kamera vasitəsilə analiz edilə bilər.</p>
+
+<p>Üstünlükləri:</p>
+
+<ul>
+  <li>Yüksək dəqiqlik</li>
+  <li>Təmassız yoxlama</li>
+  <li>Uzunmüddətli sabit biometrik xüsusiyyət</li>
+</ul>
+
+<h2 id="retina-skanı">Retina skanı</h2>
+
+<p>Retina gözün daxili hissəsində yerləşən damar strukturudur.</p>
+
+<p>Retina skanı damar şəbəkəsini analiz edir.</p>
+
+<p>Bu üsul yüksək dəqiqlik təmin edə bilər, lakin istifadəçi üçün daha mürəkkəb və bahalı avadanlıq tələb edir.</p>
+
+<hr />
+
+<h1 id="️-səs-tanıma">🗣️ Səs Tanıma</h1>
+
+<p>Səs biometrikası insanın danışıq xüsusiyyətlərini analiz edir.</p>
+
+<p>Sistem yalnız deyilən sözü deyil, aşağıdakı xüsusiyyətləri də qiymətləndirə bilər:</p>
+
+<ul>
+  <li>Səs tonu</li>
+  <li>Danışıq ritmi</li>
+  <li>Tezlik diapazonu</li>
+  <li>Tələffüz</li>
+  <li>Nəfəs intervalı</li>
+  <li>Səs tellərinin xüsusiyyətləri</li>
+  <li>Danışıq sürəti</li>
+</ul>
+
+<p>Səs tanıma aşağıdakı sahələrdə istifadə oluna bilər:</p>
+
+<ul>
+  <li>Çağrı mərkəzləri</li>
+  <li>Bank xidmətləri</li>
+  <li>Telefonla identifikasiya</li>
+  <li>Səsli köməkçilər</li>
+  <li>Uzaqdan giriş sistemləri</li>
+</ul>
+
+<p>Lakin səs yazıları, süni səs texnologiyaları və deepfake audio sistemləri əlavə risk yarada bilər.</p>
+
+<p>Bu səbəbdən səs autentifikasiyası zamanı canlılıq yoxlaması və əlavə təhlükəsizlik faktoru vacibdir.</p>
+
+<hr />
+
+<h1 id="-ovuc-damar-və-əl-həndəsəsi">✋ Ovuc, Damar və Əl Həndəsəsi</h1>
+
+<p>Bəzi sistemlər istifadəçinin:</p>
+
+<ul>
+  <li>Ovuc izini</li>
+  <li>Əl ölçüsünü</li>
+  <li>Barmaqların uzunluğunu</li>
+  <li>Ovuc damarlarını</li>
+  <li>Barmaq damarlarını</li>
+</ul>
+
+<p>analiz edir.</p>
+
+<p>Damar tanıma sistemləri infraqırmızı işıq vasitəsilə dərinin altındakı damar quruluşunu müəyyən edə bilər.</p>
+
+<p>Bu məlumat adi kamera ilə asanlıqla görünmədiyi üçün daha güclü biometrik üsullardan biri hesab olunur.</p>
+
+<hr />
+
+<h1 id="-davranış-biometrikası">🚶 Davranış Biometrikası</h1>
+
+<p>Davranış biometrikası insanın fiziki görüntüsündən çox, sistemdən necə istifadə etdiyini analiz edir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Klaviaturada yazma sürəti</li>
+  <li>Düymələr arasında zaman fərqi</li>
+  <li>Siçanın hərəkəti</li>
+  <li>Telefonu tutma forması</li>
+  <li>Ekrana toxunma təzyiqi</li>
+  <li>Yerimə tərzi</li>
+  <li>Mobil cihazın hərəkət sensorları</li>
+  <li>İstifadəçinin sistemdə keçdiyi yollar</li>
+  <li>Giriş vaxtları</li>
+  <li>Normal iş saatları</li>
+</ul>
+
+<p>Davranış biometrikası istifadəçi sistemə daxil olduqdan sonra da işləyə bilər.</p>
+
+<p>Məsələn, hesab düzgün şifrə ilə açılsa belə, davranış əvvəlki istifadəçi davranışından ciddi fərqlənirsə, sistem əlavə yoxlama tələb edə bilər.</p>
+
+<hr />
+
+<h1 id="-kamera-əsaslı-təhlükəsizlik-sistemləri">📷 Kamera Əsaslı Təhlükəsizlik Sistemləri</h1>
+
+<p>Kameralar artıq yalnız görüntü yazmaq üçün istifadə edilmir.</p>
+
+<p>Müasir kamera analitikası aşağıdakı funksiyaları yerinə yetirə bilər:</p>
+
+<ul>
+  <li>Üz tanıma</li>
+  <li>İnsan aşkarlama</li>
+  <li>Hərəkət aşkarlama</li>
+  <li>Nömrə nişanı tanıma</li>
+  <li>Obyekt izləmə</li>
+  <li>İcazəsiz zonaya girişin aşkarlanması</li>
+  <li>İnsan sayının hesablanması</li>
+  <li>Qeyri-adi davranışların müəyyən edilməsi</li>
+  <li>Maska və qoruyucu vasitələrin yoxlanması</li>
+  <li>Perimetr təhlükəsizliyi</li>
+  <li>Tərk edilmiş obyektlərin aşkarlanması</li>
+</ul>
+
+<p>Kamera sistemləri fiziki təhlükəsizlik ilə kibertəhlükəsizlik arasında mühüm əlaqə yaradır.</p>
+
+<p>Lakin şəbəkəyə qoşulan kameraların özləri də qorunmalıdır.</p>
+
+<hr />
+
+<h1 id="️-ip-kamera-və-cctv-riskləri">⚠️ IP Kamera və CCTV Riskləri</h1>
+
+<p>Şəbəkəyə qoşulan kamera təhlükəsiz konfiqurasiya olunmazsa, özü təhlükə mənbəyinə çevrilə bilər.</p>
+
+<p>Mümkün risklər:</p>
+
+<ul>
+  <li>Standart istifadəçi adı və şifrə</li>
+  <li>Köhnə firmware</li>
+  <li>Açıq internet portları</li>
+  <li>Şifrələnməmiş görüntü axını</li>
+  <li>Zəif mobil tətbiq</li>
+  <li>Təhlükəsiz olmayan bulud xidməti</li>
+  <li>Yanlış giriş icazələri</li>
+  <li>Kamera hesabının ələ keçirilməsi</li>
+  <li>Daxili şəbəkəyə keçid nöqtəsi kimi istifadə</li>
+  <li>Görüntülərin icazəsiz izlənməsi</li>
+</ul>
+
+<p>Bu səbəbdən kamera sistemləri ayrıca VLAN-da yerləşdirilə, firewall qaydaları ilə məhdudlaşdırıla və SIEM üzərindən izlənilə bilər.</p>
+
+<hr />
+
+<h1 id="-liveness-detection-nədir">🧠 Liveness Detection Nədir?</h1>
+
+<p>Liveness Detection sistem qarşısındakı biometrik nümunənin canlı insana aid olub-olmadığını yoxlamağa çalışır.</p>
+
+<p>Bu texnologiya aşağıdakı saxta nümunələrə qarşı istifadə edilir:</p>
+
+<ul>
+  <li>Çap edilmiş şəkil</li>
+  <li>Telefonda göstərilən foto</li>
+  <li>Ekranda oynadılan video</li>
+  <li>Süni üz maskası</li>
+  <li>Saxta barmaq izi forması</li>
+  <li>Səs yazısı</li>
+  <li>Süni yaradılmış səs</li>
+  <li>Deepfake video</li>
+</ul>
+
+<p>Üz tanıma sistemində canlılıq yoxlaması üçün:</p>
+
+<ul>
+  <li>Göz qırpma</li>
+  <li>Başın hərəkəti</li>
+  <li>Dərinlik analizi</li>
+  <li>Dərinin teksturası</li>
+  <li>İşığın üzə təsiri</li>
+  <li>Təsadüfi verilən komandanın yerinə yetirilməsi</li>
+</ul>
+
+<p>kimi üsullardan istifadə edilə bilər.</p>
+
+<p>Məsələn, sistem istifadəçidən başını sağa çevirməsini, gözünü qırpmasını və ya ekranda göstərilən təsadüfi rəqəmi oxumasını tələb edə bilər.</p>
+
+<hr />
+
+<h1 id="-deepfake-və-biometrik-sistemlər">🎭 Deepfake və Biometrik Sistemlər</h1>
+
+<p>Süni intellekt texnologiyalarının inkişafı biometrik təhlükəsizlik üçün yeni risklər yaradıb.</p>
+
+<p>Deepfake vasitəsilə:</p>
+
+<ul>
+  <li>Saxta üz videosu hazırlana bilər</li>
+  <li>Başqa insanın səsi təqlid edilə bilər</li>
+  <li>Video görüşdə saxta görüntü təqdim edilə bilər</li>
+  <li>Kimlik yoxlama prosesi manipulyasiya edilə bilər</li>
+</ul>
+
+<p>Buna görə müasir biometrik sistemlər yalnız üz və ya səs uyğunluğuna əsaslanmamalıdır.</p>
+
+<p>Daha təhlükəsiz yanaşma:</p>
+
+<ul>
+  <li>Liveness Detection</li>
+  <li>Cihaz doğrulaması</li>
+  <li>Davranış analizi</li>
+  <li>Risk balı</li>
+  <li>MFA</li>
+  <li>SIEM monitorinqi</li>
+  <li>Sessiya analizi</li>
+  <li>Anomaliya aşkarlanması</li>
+</ul>
+
+<p>kimi metodların birlikdə istifadəsidir.</p>
+
+<hr />
+
+<h1 id="-biometrika-şifrələri-tam-əvəz-edirmi">🔑 Biometrika Şifrələri Tam Əvəz Edirmi?</h1>
+
+<p>Biometrik autentifikasiya güclü vasitədir, lakin hər sistemdə təkbaşına istifadə edilməsi doğru olmaya bilər.</p>
+
+<p>Ən təhlükəsiz yanaşmalardan biri çoxfaktorlu autentifikasiyadır.</p>
+
+<p>Məsələn:</p>
+
+<ol>
+  <li>İstifadəçinin bildiyi məlumat — şifrə və ya PIN</li>
+  <li>İstifadəçinin sahib olduğu cihaz — telefon və ya təhlükəsizlik açarı</li>
+  <li>İstifadəçinin bioloji xüsusiyyəti — barmaq izi və ya üz</li>
+</ol>
+
+<p>Bu faktorlar birlikdə istifadə ediləndə hesabın qorunması daha güclü ola bilər.</p>
+
+<hr />
+
+<h1 id="-biometrik-məlumatların-xüsusi-riski">🔐 Biometrik Məlumatların Xüsusi Riski</h1>
+
+<p>Şifrə oğurlandıqda dəyişdirilə bilər.</p>
+
+<p>Lakin insan:</p>
+
+<ul>
+  <li>Barmaq izini</li>
+  <li>Üz strukturunu</li>
+  <li>Göz irisinin naxışını</li>
+  <li>Səs quruluşunu</li>
+</ul>
+
+<p>asanlıqla dəyişə bilməz.</p>
+
+<p>Bu səbəbdən biometrik məlumatların sızması adi şifrə sızmasından daha ciddi nəticələr yarada bilər.</p>
+
+<p>Biometrik sistem aşağıdakı prinsiplərə uyğun qurulmalıdır:</p>
+
+<ul>
+  <li>Məlumat minimum səviyyədə saxlanmalıdır</li>
+  <li>Xam görüntü əvəzinə təhlükəsiz şablon istifadə edilməlidir</li>
+  <li>Şablonlar şifrələnməlidir</li>
+  <li>Giriş icazələri məhdudlaşdırılmalıdır</li>
+  <li>Audit logları yaradılmalıdır</li>
+  <li>Saxlanma müddəti müəyyən edilməlidir</li>
+  <li>Məlumatın silinmə prosesi olmalıdır</li>
+  <li>İstifadəçi məlumatlandırılmalıdır</li>
+  <li>Məxfilik qaydalarına əməl edilməlidir</li>
+</ul>
+
+<hr />
+
+<h1 id="️-biometrik-sistemlərdə-red-team-yanaşması">🛡️ Biometrik Sistemlərdə Red Team Yanaşması</h1>
+
+<p>Red Team qiymətləndirməsi biometrik sistemin zəif nöqtələrini nəzarətli laboratoriya mühitində araşdırır.</p>
+
+<p>Yoxlanıla bilən sahələr:</p>
+
+<ul>
+  <li>Saxta biometrik nümunələrə qarşı dayanıqlıq</li>
+  <li>Sensor ilə server arasındakı əlaqə</li>
+  <li>Mobil tətbiqin təhlükəsizliyi</li>
+  <li>API autentifikasiyası</li>
+  <li>Sessiya idarəetməsi</li>
+  <li>Replay riskləri</li>
+  <li>Şifrələmə</li>
+  <li>Logların dəyişdirilməsi</li>
+  <li>İcazə nəzarəti</li>
+  <li>Cihaz identifikasiyası</li>
+  <li>Firmware təhlükəsizliyi</li>
+  <li>Fiziki müdaxilə riskləri</li>
+</ul>
+
+<p>Belə qiymətləndirmələr yalnız icazəli sistemlərdə və nəzarətli laboratoriya şəraitində aparılmalıdır.</p>
+
+<hr />
+
+<h1 id="-blue-team-yanaşması">🔵 Blue Team Yanaşması</h1>
+
+<p>Blue Team biometrik sistemdə baş verən hadisələri izləyir və şübhəli aktivlikləri müəyyən etməyə çalışır.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Ardıcıl uğursuz barmaq izi cəhdləri</li>
+  <li>Eyni cihazdan çoxsaylı naməlum girişlər</li>
+  <li>Qeyri-adi saatda biometrik giriş</li>
+  <li>Birdən çox məkanda eyni istifadəçi</li>
+  <li>Sensorun bağlantısının kəsilməsi</li>
+  <li>Cihazın yenidən başladılması</li>
+  <li>Şablon bazasına müdaxilə</li>
+  <li>Yeni biometrik istifadəçinin əlavə edilməsi</li>
+  <li>Administrator fəaliyyətləri</li>
+  <li>Kamera görüntüsündə qeyri-adi davranış</li>
+</ul>
+
+<p>Bu hadisələr SIEM platformasında qaydalarla əlaqələndirilə bilər.</p>
+
+<hr />
+
+<h1 id="-biometrik-sistem-və-siem-i̇nteqrasiyası">📊 Biometrik Sistem və SIEM İnteqrasiyası</h1>
+
+<p>Biometrik cihaz yalnız qapını açmaqla kifayətlənməməlidir.</p>
+
+<p>Hər hadisə təhlükəsizlik loguna çevrilməlidir.</p>
+
+<p>Məsələn:</p>
+
+<p>```json
+{
+  “integration”: “cybershieldy_fingerkey”,
+  “event”: “fingerprint_authorized”,
+  “device”: “CyberShieldy-FingerKey”,
+  “finger_id”: 1,
+  “status”: “AUTHORIZED_ACCESS”,
+  “source”: “ESP32-S3”,
+  “android_device”: “Galaxy-A12”,
+  “transport”: “adb_file_stream”
+}</p>
+<h1 id="-siem-bu-məlumat-əsasında-nə-edir">📊 SIEM Bu Məlumat Əsasında Nə Edir?</h1>
+
+<p>SIEM biometrik sistemdən daxil olan məlumat əsasında:</p>
+
+<ul>
+  <li>Hadisəni qeydə alır</li>
+  <li>İstifadəçi və cihazı müəyyən edir</li>
+  <li>Risk səviyyəsini hesablayır</li>
+  <li>Xüsusi təhlükəsizlik qaydasını işə salır</li>
+  <li>Hadisəni dashboard üzərində göstərir</li>
+  <li>Telegram bildirişi göndərir</li>
+  <li>Avtomatlaşdırılmış cavab prosesini başladır</li>
+</ul>
+
+<hr />
+
+<h1 id="️-laboratoriya-axını">⚙️ Laboratoriya Axını</h1>
+
+<p>Hazırladığım laboratoriya ssenarisində təhlükəsizlik zənciri aşağıdakı formada işləyir:</p>
+
+<p>```text
+Fingerprint Sensor
+        ↓
+     ESP32-S3
+        ↓
+ Android Telefon
+        ↓
+      Termux
+        ↓
+ QR Code və Log
+        ↓
+   ADB Stream
+        ↓
+Ubuntu Wazuh Agent
+        ↓
+  Wazuh Manager
+        ↓
+    Local Rule
+        ↓
+       n8n
+        ↓
+Telegram Bildirişi</p>
+
+<h1 id="-barmaq-i̇zi-uğurla-tanındıqda-sistem-necə-i̇şləyir">🔐 Barmaq İzi Uğurla Tanındıqda Sistem Necə İşləyir?</h1>
+
+<p>Bu sistemdə barmaq izi uğurla tanındıqda:</p>
+
+<ol>
+  <li>ESP32-S3 biometrik hadisəni yaradır.</li>
+  <li>Məlumat Android telefona ötürülür.</li>
+  <li>Termux məlumatı qəbul edir.</li>
+  <li>QR Code və giriş məlumatı göstərilir.</li>
+  <li>Hadisə JSON log formatına çevrilir.</li>
+  <li>Wazuh agent log faylını oxuyur.</li>
+  <li>Wazuh manager xüsusi qaydanı işə salır.</li>
+  <li>n8n webhook hadisəni qəbul edir.</li>
+  <li>Telegram-a real vaxt təhlükəsizlik bildirişi göndərilir.</li>
+</ol>
+
+<hr />
+
+<h1 id="-qr-code-niyə-i̇stifadə-olunur">📱 QR Code Niyə İstifadə Olunur?</h1>
+
+<p>QR Code biometrik identifikasiyadan sonra əlavə keçid və ya təsdiq mexanizmi kimi istifadə oluna bilər.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Müvəqqəti giriş səhifəsi</li>
+  <li>Birdəfəlik token</li>
+  <li>Sessiya təsdiqi</li>
+  <li>Ziyarətçi qeydiyyatı</li>
+  <li>Mobil cihazla əlavə yoxlama</li>
+  <li>Fiziki giriş ilə rəqəmsal sessiyanın əlaqələndirilməsi</li>
+</ul>
+
+<p>Təhlükəsiz QR Code sistemi üçün:</p>
+
+<ul>
+  <li>Token qısa müddətli olmalıdır</li>
+  <li>Təkrar istifadə məhdudlaşdırılmalıdır</li>
+  <li>HTTPS istifadə edilməlidir</li>
+  <li>Token loglarda açıq saxlanmamalıdır</li>
+  <li>Sessiya konkret cihazla əlaqələndirilməlidir</li>
+  <li>Uğursuz cəhdlər SIEM sisteminə göndərilməlidir</li>
+</ul>
+
+<hr />
+
+<h1 id="-siem-hansı-biometrik-hadisələri-aşkarlaya-bilər">🚨 SIEM Hansı Biometrik Hadisələri Aşkarlaya Bilər?</h1>
+
+<p>SIEM üçün aşağıdakı qaydalar hazırlana bilər:</p>
+
+<ul>
+  <li>Uğurlu biometrik giriş</li>
+  <li>Uğursuz biometrik giriş</li>
+  <li>Ardıcıl uğursuz cəhdlər</li>
+  <li>Naməlum barmaq izi</li>
+  <li>Yeni istifadəçinin qeydiyyatı</li>
+  <li>Biometrik şablonun silinməsi</li>
+  <li>Sensorun əlaqəsinin kəsilməsi</li>
+  <li>ADB bağlantısının dayanması</li>
+  <li>Android gateway cihazının offline olması</li>
+  <li>Qeyri-adi vaxtda giriş</li>
+  <li>Eyni Finger ID ilə çoxsaylı cihazlardan istifadə</li>
+  <li>Qısa müddətdə çoxsaylı giriş cəhdləri</li>
+  <li>Kamera canlılıq yoxlamasının uğursuz olması</li>
+  <li>Deepfake ehtimalının aşkarlanması</li>
+  <li>Şübhəli QR token istifadəsi</li>
+</ul>
+
+<hr />
+
+<h1 id="-n8n-və-telegram-avtomatlaşdırması">🤖 n8n və Telegram Avtomatlaşdırması</h1>
+
+<p>SIEM alerti n8n platformasına göndərildikdən sonra müxtəlif əməliyyatlar avtomatlaşdırıla bilər.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Telegram bildirişi</li>
+  <li>E-poçt göndərilməsi</li>
+  <li>SMS bildirişi</li>
+  <li>Telefon zəngi</li>
+  <li>PDF hesabatın yaradılması</li>
+  <li>Ticket açılması</li>
+  <li>Dashboard yenilənməsi</li>
+  <li>Cihaz statusunun dəyişdirilməsi</li>
+  <li>Operator təsdiqinin alınması</li>
+</ul>
+
+<p>Telegram bildirişi aşağıdakı məlumatları daşıya bilər:</p>
+
+<p>```text
+🔐 FINGERKEY ACCESS ALERT</p>
+
+<p>Rule: FINGERKEY AUTHORIZED ACCESS
+Severity: 8
+Agent: emin-VirtualBox
+Finger ID: 1
+Device: CyberShieldy-FingerKey
+Status: AUTHORIZED ACCESS
+Source: ESP32-S3
+Android Gateway: Galaxy-A12
+Transport: ADB File Stream</p>
+
+<p>Beləliklə fiziki giriş hadisəsi bir neçə saniyə ərzində SOC analitikinə çatdırılır.</p>
+
+<hr />
+
+<h1 id="-biometrik-sistemlərin-üstünlükləri">✅ Biometrik Sistemlərin Üstünlükləri</h1>
+
+<p>Biometrik autentifikasiyanın əsas üstünlükləri:</p>
+
+<ul>
+  <li>Sürətli istifadə</li>
+  <li>Şifrə yadda saxlama ehtiyacının azalması</li>
+  <li>İstifadəçi təcrübəsinin yaxşılaşması</li>
+  <li>Fiziki giriş sistemlərinə uyğunluq</li>
+  <li>Mobil cihazlarla inteqrasiya</li>
+  <li>Təkrarolunmaz xüsusiyyətlərdən istifadə</li>
+  <li>Hadisələrin avtomatik loglaşdırılması</li>
+  <li>MFA sistemlərinə əlavə təhlükəsizlik</li>
+  <li>SIEM və SOC inteqrasiyası</li>
+  <li>Real vaxt monitorinqi</li>
+</ul>
+
+<hr />
+
+<h1 id="️-biometrik-sistemlərin-mənfi-tərəfləri">⚠️ Biometrik Sistemlərin Mənfi Tərəfləri</h1>
+
+<p>Mümkün çatışmazlıqlar:</p>
+
+<ul>
+  <li>Biometrik məlumatın asanlıqla dəyişdirilə bilməməsi</li>
+  <li>Məxfilik riskləri</li>
+  <li>Saxta pozitiv nəticələr</li>
+  <li>Saxta neqativ nəticələr</li>
+  <li>Sensor keyfiyyətindən asılılıq</li>
+  <li>İşıq və mühit təsirləri</li>
+  <li>Barmaq zədəsi və ya üz dəyişikliyi</li>
+  <li>Deepfake təhlükəsi</li>
+  <li>Məlumat bazasının qorunması ehtiyacı</li>
+  <li>Bahalı avadanlıq</li>
+  <li>Hüquqi və etik məsələlər</li>
+  <li>İstifadəçinin razılığının vacibliyi</li>
+</ul>
+
+<hr />
+
+<h1 id="-false-acceptance-və-false-rejection">📉 False Acceptance və False Rejection</h1>
+
+<p>Biometrik sistemlərdə iki mühüm anlayış mövcuddur.</p>
+
+<h2 id="false-acceptance">False Acceptance</h2>
+
+<p>Sistem yanlış şəxsi doğru istifadəçi kimi qəbul edir.</p>
+
+<p>Bu, təhlükəsizlik baxımından ciddi riskdir.</p>
+
+<h2 id="false-rejection">False Rejection</h2>
+
+<p>Sistem doğru istifadəçini qəbul etmir.</p>
+
+<p>Bu isə istifadəçi rahatlığını və sistemə əlçatanlığı azaldır.</p>
+
+<p>Təhlükəsizlik sisteminin həssaslıq səviyyəsi bu iki göstərici arasında balans yaratmalıdır.</p>
+
+<p>Çox aşağı həssaslıq həddi yanlış girişləri artıra bilər.</p>
+
+<p>Çox yüksək həssaslıq həddi isə doğru istifadəçilərin girişini çətinləşdirə bilər.</p>
+
+<hr />
+
+<h1 id="-biometrik-sistemlərin-i̇stifadə-sahələri">🏢 Biometrik Sistemlərin İstifadə Sahələri</h1>
+
+<p>Biometrik yoxlama texnologiyalarından aşağıdakı sahələrdə istifadə olunur:</p>
+
+<ul>
+  <li>İş yerləri</li>
+  <li>Data mərkəzləri</li>
+  <li>Banklar</li>
+  <li>Hava limanları</li>
+  <li>Sərhəd keçid məntəqələri</li>
+  <li>Xəstəxanalar</li>
+  <li>Təhsil müəssisələri</li>
+  <li>Mobil telefonlar</li>
+  <li>Kompüterlər</li>
+  <li>Ağıllı ev sistemləri</li>
+  <li>Avtomobillər</li>
+  <li>Dövlət xidmətləri</li>
+  <li>Elektron imza sistemləri</li>
+  <li>Fiziki giriş nəzarəti</li>
+  <li>Uzaqdan kimlik təsdiqi</li>
+</ul>
+
+<hr />
+
+<h1 id="-tədris-laboratoriyasında-nələr-öyrənilir">🧪 Tədris Laboratoriyasında Nələr Öyrənilir?</h1>
+
+<p>Belə layihələr tələbələrə yalnız sensor qoşmağı deyil, bütöv təhlükəsizlik sisteminin necə qurulduğunu öyrədir.</p>
+
+<p>Tədris zamanı aşağıdakı mövzular praktiki olaraq göstərilə bilər:</p>
+
+<ul>
+  <li>ESP32-S3 proqramlaşdırılması</li>
+  <li>Sensor bağlantıları</li>
+  <li>Serial kommunikasiya</li>
+  <li>Android və Termux</li>
+  <li>ADB bağlantısı</li>
+  <li>JSON log formatı</li>
+  <li>Linux log idarəetməsi</li>
+  <li>Wazuh agent və manager</li>
+  <li>Custom decoder və rules</li>
+  <li>SIEM analizi</li>
+  <li>n8n workflow qurulması</li>
+  <li>Telegram inteqrasiyası</li>
+  <li>IoT təhlükəsizliyi</li>
+  <li>Fiziki təhlükəsizlik</li>
+  <li>Red Team və Blue Team yanaşmaları</li>
+  <li>Hadisəyə cavab prosesi</li>
+  <li>SOC monitorinqi</li>
+</ul>
+
+<hr />
+
+<h1 id="-niyə-praktiki-kibertəhlükəsizlik-təhsili-vacibdir">🎓 Niyə Praktiki Kibertəhlükəsizlik Təhsili Vacibdir?</h1>
+
+<p>Kibertəhlükəsizlik yalnız nəzəri terminlərdən ibarət deyil.</p>
+
+<p>Real bacarıq aşağıdakı prosesləri praktiki formada öyrənməklə formalaşır:</p>
+
+<ul>
+  <li>Sistem qurmaq</li>
+  <li>Log yaratmaq</li>
+  <li>Logu analiz etmək</li>
+  <li>Qayda yazmaq</li>
+  <li>Hadisəni aşkarlamaq</li>
+  <li>Bildiriş göndərmək</li>
+  <li>Problemi araşdırmaq</li>
+  <li>Təhlükəsizliyi təkmilləşdirmək</li>
+</ul>
+
+<p>CyberShieldy tədris yanaşmasında tələbələr Red Team və Blue Team mövzularını ayrı-ayrılıqda deyil, vahid təhlükəsizlik sisteminin hissələri kimi öyrənirlər.</p>
+
+<p>Məqsəd yalnız sistemi test etmək deyil, həmin hadisəni aşkarlamaq, loglaşdırmaq, analiz etmək və düzgün cavab tədbiri hazırlamaqdır.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-biometrik-təhlükəsizlik-sistemləri">🚀 Gələcəyin Biometrik Təhlükəsizlik Sistemləri</h1>
+
+<p>Gələcəkdə biometrik autentifikasiya aşağıdakı texnologiyalarla daha sıx inteqrasiya olunacaq:</p>
+
+<ul>
+  <li>Süni intellekt</li>
+  <li>Davranış analizi</li>
+  <li>SIEM</li>
+  <li>SOAR</li>
+  <li>IoT</li>
+  <li>Edge Computing</li>
+  <li>Zero Trust</li>
+  <li>Passwordless Authentication</li>
+  <li>Mobil identifikasiya</li>
+  <li>Deepfake Detection</li>
+  <li>Risk əsaslı autentifikasiya</li>
+  <li>Cloud Security</li>
+  <li>Cyber Physical Security</li>
+</ul>
+
+<p>Gələcəyin sistemi yalnız “barmaq uyğun gəldi” qərarı verməyəcək.</p>
+
+<p>Sistem eyni zamanda aşağıdakı sualları da qiymətləndirəcək:</p>
+
+<ul>
+  <li>Cihaz etibarlıdırmı?</li>
+  <li>İstifadəçinin davranışı normaldırmı?</li>
+  <li>Giriş vaxtı uyğundurmu?</li>
+  <li>Məkan doğrudurmu?</li>
+  <li>Kamera qarşısındakı şəxs canlıdırmı?</li>
+  <li>Sessiyada anomaliya varmı?</li>
+  <li>Hadisə başqa təhlükəsizlik alertləri ilə əlaqəlidirmi?</li>
+</ul>
+
+<hr />
+
+<h1 id="️-təhlükəsiz-biometrik-sistem-üçün-tövsiyələr">🛡️ Təhlükəsiz Biometrik Sistem üçün Tövsiyələr</h1>
+
+<p>Biometrik sistem qurarkən:</p>
+
+<ul>
+  <li>Biometrikanı tək faktor kimi istifadə etməyin</li>
+  <li>MFA tətbiq edin</li>
+  <li>Məlumatları şifrələyin</li>
+  <li>Xam biometrik görüntünü lazımsız saxlamayın</li>
+  <li>Liveness Detection istifadə edin</li>
+  <li>Cihazları ayrıca şəbəkədə yerləşdirin</li>
+  <li>Firmware yeniləmələrini tətbiq edin</li>
+  <li>Audit loglarını aktiv edin</li>
+  <li>SIEM inteqrasiyası qurun</li>
+  <li>Administrator fəaliyyətlərini izləyin</li>
+  <li>Təkrar uğursuz cəhdlər üçün limit tətbiq edin</li>
+  <li>İstifadəçi razılığını alın</li>
+  <li>Məlumatın silinmə prosedurunu müəyyən edin</li>
+  <li>Sistemə mütəmadi təhlükəsizlik testi tətbiq edin</li>
+</ul>
+
+<hr />
+
+<h1 id="-red-team---blue-team--daha-güclü-müdafiə">🔴 Red Team + 🔵 Blue Team = Daha Güclü Müdafiə</h1>
+
+<p>Biometrik sistemlərdə Red Team və Blue Team birlikdə işlədikdə daha güclü təhlükəsizlik nəticəsi əldə edilir.</p>
+
+<p>🔴 <strong>Red Team</strong> sistemin hansı yollarla aldadıla, manipulyasiya edilə və ya yanlış istifadə oluna biləcəyini araşdırır.</p>
+
+<p>🔵 <strong>Blue Team</strong> həmin cəhdləri loglarda aşkarlayır, qaydalar hazırlayır və hadisəyə cavab verir.</p>
+
+<p>Bu yanaşma Purple Team əməkdaşlığına çevrildikdə:</p>
+
+<ul>
+  <li>Zəifliklər daha tez müəyyən edilir</li>
+  <li>Aşkarlama qaydaları təkmilləşdirilir</li>
+  <li>Logların keyfiyyəti artırılır</li>
+  <li>Hadisəyə cavab prosesi sürətlənir</li>
+  <li>Təhlükəsizlik sistemi real ssenarilərlə yoxlanılır</li>
+</ul>
+
+<hr />
+
+<h1 id="-nəticə">🧩 Nəticə</h1>
+
+<p>Barmaq izi, üz tanıma, iris, səs, damar analizi və kamera əsaslı yoxlama sistemləri müasir identifikasiya texnologiyalarının əsas hissəsinə çevrilib.</p>
+
+<p>Bu sistemlər sürətli və rahat giriş təqdim etsə də, onları yalnız sensor səviyyəsində qiymətləndirmək kifayət deyil.</p>
+
+<p>Təhlükəsiz biometrik ekosistem aşağıdakı komponentləri birlikdə birləşdirməlidir:</p>
+
+<ul>
+  <li>Təhlükəsiz sensor</li>
+  <li>Etibarlı cihaz</li>
+  <li>Şifrəli məlumat ötürülməsi</li>
+  <li>Canlılıq yoxlaması</li>
+  <li>Çoxfaktorlu autentifikasiya</li>
+  <li>Mərkəzləşdirilmiş log sistemi</li>
+  <li>SIEM analizi</li>
+  <li>Avtomatlaşdırılmış bildiriş</li>
+  <li>Hadisəyə cavab prosesi</li>
+  <li>İnsan nəzarəti</li>
+</ul>
+
+<p>Hazırladığım laboratoriya layihəsində barmaq izi sensorundan başlayan hadisə ESP32-S3, Android, Termux, QR Code, ADB, Wazuh SIEM, n8n və Telegram üzərindən tam təhlükəsizlik zəncirinə çevrilir.</p>
+
+<p>Bu yanaşma göstərir ki, kiçik bir IoT sensoru düzgün inteqrasiya edildikdə real SOC monitorinq sisteminin bir hissəsinə çevrilə bilər.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></li>
+  <li>📱🔍 <a href="https://cybershieldy.com/posts/android-security">Android təhlükəsizliyi və mobil laboratoriyalar</a></li>
+  <li>📡🔐 <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE və Bluetooth təhlükəsizliyi</a></li>
+  <li>🧪💾 <a href="https://cybershieldy.com/posts/digital-forensics">Rəqəmsal forensika və məlumat bərpası</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-cybershieldy-academy">🎓 CyberShieldy Academy</h1>
+
+<p>Praktiki kibertəhlükəsizlik təlimlərində aşağıdakı istiqamətlər öyrədilir:</p>
+
+<ul>
+  <li>🔴 Red Team əsasları</li>
+  <li>🔵 Blue Team və SOC analizi</li>
+  <li>📊 Wazuh SIEM</li>
+  <li>🖥️ Linux və Windows təhlükəsizliyi</li>
+  <li>🌐 Şəbəkə təhlükəsizliyi</li>
+  <li>📱 Android və Termux laboratoriyaları</li>
+  <li>🤖 ESP32 və IoT Security</li>
+  <li>⚙️ n8n təhlükəsizlik avtomatlaşdırması</li>
+  <li>🚨 Real vaxt alert və bildiriş sistemləri</li>
+  <li>🧪 Praktiki laboratoriya ssenariləri</li>
+  <li>🔍 Log analizi və Incident Response</li>
+  <li>🛡️ Fiziki və biometrik təhlükəsizlik</li>
+</ul>
+
+<p>Kibertəhlükəsizliyi yalnız nəzəri deyil, real laboratoriyalar, sensorlar, serverlər, loglar və SIEM sistemləri üzərindən praktiki öyrənmək istəyənlər təlimlərə qoşula bilərlər.</p>
+
+<hr />
+
+<h1 id="-müəllif">👨‍💻 Müəllif</h1>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi</strong></p>
+
+<p><strong>🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<p>📱 Instagram: https://www.instagram.com/cyber_shieldy</p>
+
+<p>🎥 Fingerprint laboratoriyası:</p>
+
+<p>https://www.instagram.com/reel/DbYZQans3Uf/</p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="biometrik təhlükəsizlik" /><category term="blue team" /><category term="iot security" /><category term="biometrics" /><category term="biometric security" /><category term="fingerprint" /><category term="fingerprint sensor" /><category term="face recognition" /><category term="facial recognition" /><category term="iris recognition" /><category term="retina scan" /><category term="voice recognition" /><category term="palm recognition" /><category term="access control" /><category term="identity verification" /><category term="authentication" /><category term="multifactor authentication" /><category term="mfa" /><category term="passwordless authentication" /><category term="physical security" /><category term="cyber physical security" /><category term="camera security" /><category term="cctv" /><category term="video analytics" /><category term="liveness detection" /><category term="anti spoofing" /><category term="deepfake detection" /><category term="esp32" /><category term="esp32 s3" /><category term="android security" /><category term="termux" /><category term="qr code" /><category term="wazuh" /><category term="siem" /><category term="soc" /><category term="n8n" /><category term="telegram" /><category term="security automation" /><category term="incident response" /><category term="log analysis" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="iot security" /><category term="embedded security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="siber güvenlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[Barmaq izi, üz tanıma, iris, səs, kamera analitikası və digər biometrik yoxlama üsulları necə işləyir? Biometrik sistemlərin üstünlükləri, riskləri, SIEM inteqrasiyası və real laboratoriya nümunəsi haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/biometric-security.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/biometric-security.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü</title><link href="https://cybershieldy.com/posts/ai-siem-integration" rel="alternate" type="text/html" title="🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü" /><published>2026-07-23T06:00:00+04:00</published><updated>2026-07-23T15:43:49+04:00</updated><id>https://cybershieldy.com/posts/ai-siem-inteqrasiyasi-ve-kibertehlukesizlikde-geleceyin-soc-merkezleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-siem-integration"><![CDATA[<h1 id="-siem-və-süni-i̇ntellekt-ai-i̇nteqrasiyası">🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası</h1>
 
 <p>Kibertəhlükəsizlik sahəsi son illərdə sürətlə dəyişir. Minlərlə cihaz, milyonlarla hadisə (event) və hər saniyə yaranan yeni hücum üsulları səbəbindən təhlükəsizlik komandalarının işi əvvəlki illərlə müqayisədə daha mürəkkəbləşib.</p>
 
@@ -3752,362 +4719,4 @@ tcpdump
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="ethical hacking" /><category term="cyber security" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="cyber security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="iot security" /><category term="linux security" /><category term="siem" /><category term="wazuh" /><category term="hacking" /><category term="penetration testing" /><summary type="html"><![CDATA[Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hackerss.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hackerss.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)</title><link href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek" rel="alternate" type="text/html" title="🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Ağıllı Müdafiə Sistemləri (2026+)" /><published>2026-04-30T08:00:00+04:00</published><updated>2026-04-30T19:17:22+04:00</updated><id>https://cybershieldy.com/posts/robotexnika-ve-kiber-tehlukesizlik-geleceyin-agilli-mudafie-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/robotexnika-kiber-gelecek"><![CDATA[<h1 id="️-robotexnika-və-kibertəhlükəsizlik-gələcəyin-müdafiə-dünyası">🤖🛡️ Robotexnika və Kibertəhlükəsizlik: Gələcəyin Müdafiə Dünyası</h1>
-
-<p>Texnologiya sürətlə dəyişir…<br />
-Amma ən böyük dəyişiklik bir yerdə baş verir:</p>
-
-<p>⚡ <strong>Robotexnika + Kibertəhlükəsizlik</strong></p>
-
-<p>Artıq təhlükəsizlik yalnız <strong>server qorumaq deyil</strong><br />
-Artıq təhlükəsizlik:</p>
-
-<p>➡️ görür<br />
-➡️ hiss edir<br />
-➡️ analiz edir<br />
-➡️ qərar verir<br />
-➡️ cavab verir</p>
-
-<p>Bu isə o deməkdir ki, gələcəkdə sistemlər <strong>insan kimi düşünən müdafiə mexanizmlərinə çevriləcək</strong>.</p>
-
-<hr />
-
-<h1 id="-canlı-demo-sensor--real-sistem">🎥 Canlı Demo (Sensor + Real Sistem)</h1>
-
-<p>📲 Bax və sistemi canlı gör:<br />
-https://www.instagram.com/p/DXo7XYPDOlN/</p>
-
-<iframe src="https://www.instagram.com/p/DXo7XYPDOlN/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<hr />
-
-<h1 id="-gələcəyin-təhlükəsizlik-konsepti">🌍 Gələcəyin Təhlükəsizlik Konsepti</h1>
-
-<p>Əvvəllər:</p>
-<ul>
-  <li>firewall qur</li>
-  <li>antivirus işə sal</li>
-  <li>loglara bax</li>
-</ul>
-
-<p>İndi isə:</p>
-
-<p>🤖 robot sistemlər<br />
-🧠 süni intellekt<br />
-📡 sensor şəbəkələri<br />
-🔗 SIEM platformalar</p>
-
-<p>➡️ hamısı bir yerdə işləyir</p>
-
-<p>Bu artıq:
-<strong>Cyber-Physical Security System</strong> adlanır.</p>
-
-<hr />
-
-<h1 id="-gələcək-sistem-necə-işləyəcək">🔗 Gələcək sistem necə işləyəcək?</h1>
-
-<h2 id="1-fiziki-dünya-izlənir">1. Fiziki dünya izlənir</h2>
-
-<ul>
-  <li>kameralar (face recognition)</li>
-  <li>sensorlar (motion, heat)</li>
-  <li>biometrik sistemlər</li>
-</ul>
-
-<hr />
-
-<h2 id="2-hadisə-baş-verir">2. Hadisə baş verir</h2>
-
-<p>Unknown person detected
-Unauthorized access attempt</p>
-
-<hr />
-
-<h2 id="3-siem--ai-analiz-edir">3. SIEM + AI analiz edir</h2>
-
-<ul>
-  <li>risk səviyyəsi təyin olunur</li>
-  <li>davranış analiz edilir</li>
-  <li>anomaly detection işləyir</li>
-</ul>
-
-<hr />
-
-<h2 id="4-sistem-qərar-verir">4. Sistem qərar verir</h2>
-
-<ul>
-  <li>qapı kilidlənir 🔒</li>
-  <li>kamera fokuslanır 📷</li>
-  <li>alarm aktivləşir 🚨</li>
-</ul>
-
-<hr />
-
-<h2 id="5-avtomatik-cavab">5. Avtomatik cavab</h2>
-
-<ul>
-  <li>adminə alert gedir</li>
-  <li>sistem hücumu bloklayır</li>
-  <li>hadisə loglanır</li>
-</ul>
-
-<hr />
-
-<h1 id="-bu-nə-deməkdir">💥 Bu nə deməkdir?</h1>
-
-<p>Bu artıq:</p>
-
-<p>❌ sadə təhlükəsizlik sistemi deyil<br />
-✅ <strong>özünü qoruyan ağıllı sistemdir</strong></p>
-
-<hr />
-
-<h1 id="-süni-intellektin-rolu">🧠 Süni intellektin rolu</h1>
-
-<p>AI gələcəkdə:</p>
-
-<ul>
-  <li>istifadəçi davranışını öyrənəcək</li>
-  <li>normal vs anormal fərqini anlayacaq</li>
-  <li>hücumu əvvəlcədən hiss edəcək</li>
-</ul>
-
-<p>➡️ bu isə <strong>predictive security</strong> deməkdir</p>
-
-<hr />
-
-<h1 id="-red-team-perspektivi">🔴 Red Team perspektivi</h1>
-
-<p>Gələcəkdə hücumlar:</p>
-
-<ul>
-  <li>AI bypass etməyə yönələcək</li>
-  <li>sensorları aldatmağa çalışacaq</li>
-  <li>deepfake identity istifadə edəcək</li>
-</ul>
-
-<hr />
-
-<h1 id="-blue-team-perspektivi">🔵 Blue Team perspektivi</h1>
-
-<p>Müdafiə isə:</p>
-
-<ul>
-  <li>multi-layer olacaq</li>
-  <li>real-time olacaq</li>
-  <li>avtomatik olacaq</li>
-  <li>AI ilə güclənəcək</li>
-</ul>
-
-<hr />
-
-<h1 id="-haralarda-istifadə-olunacaq">🌐 Haralarda istifadə olunacaq?</h1>
-
-<p>🏢 şirkətlərdə<br />
-🏠 smart evlərdə<br />
-🏙️ smart city layihələrində<br />
-🛡️ dövlət təhlükəsizlik sistemlərində</p>
-
-<hr />
-
-<h1 id="-gələcəyin-texnologiyaları">🚀 Gələcəyin texnologiyaları</h1>
-
-<p>⚡ AI Security<br />
-⚡ IoT Security<br />
-⚡ Autonomous Defense Systems<br />
-⚡ Smart Surveillance</p>
-
-<hr />
-
-<p>➡️ bu artıq:
-<strong>gələcəyin real prototipidir</strong></p>
-
-<hr />
-
-<h1 id="-nəticə">⚡ Nəticə</h1>
-
-<p>Robotexnika + Kibertəhlükəsizlik =</p>
-
-<p>🔥 ağıllı müdafiə<br />
-🔥 real-time qoruma<br />
-🔥 avtomatik cavab<br />
-🔥 AI ilə inkişaf</p>
-
-<p>➡️ gələcəkdə sistemlər:
-<strong>yalnız qorunmayacaq… özünü müdafiə edəcək</strong></p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<p>💡 Bu sahədə daha dərinə getmək istəyirsənsə, aşağıdakı mövzulara da bax 👇</p>
-
-<ul>
-  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik: Gələcəyin Müdafiə Sistemləri</a></li>
-  <li>
-    <p>🤖⚡ <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></p>
-  </li>
-  <li>
-    <p>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team: Hücum və Müdafiə Strategiyaları</a></p>
-  </li>
-  <li>
-    <p>📡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">SIEM + ESP32: SSH Brute Force Hücumunun Aşkarlanması</a></p>
-  </li>
-  <li>
-    <p>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir və Necə Qorunmaq olar?</a></p>
-  </li>
-  <li>
-    <p>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></p>
-  </li>
-  <li>
-    <p>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth: Gizli Təhlükələr</a></p>
-  </li>
-  <li>
-    <p>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></p>
-  </li>
-  <li>
-    <h2 id="-fiziki-hücumlar-usb-badusb-və-real-risklər">🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar: USB, BadUSB və Real Risklər</a></h2>
-  </li>
-</ul>
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
-Red &amp; Blue Team üzrə təlimçi</strong></p>
-
-<p>🚀 Real bilik &gt; sertifikat<br />
-💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="robotexnika" /><category term="ai security" /><category term="kiber dersler" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="hacker dersleri" /><category term="cyber security" /><category term="robotexnika" /><category term="ai security" /><category term="iot security" /><category term="smart systems" /><category term="red team" /><category term="blue team" /><category term="future tech" /><summary type="html"><![CDATA[Robotexnika və kibertəhlükəsizliyin gələcəkdə necə birləşəcəyi, AI və IoT ilə ağıllı müdafiə sistemlərinin qurulması və real dünya tətbiqləri haqqında geniş analiz.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/robota.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/robota.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="ethical hacking" /><category term="cyber security" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="cyber security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="iot security" /><category term="linux security" /><category term="siem" /><category term="wazuh" /><category term="hacking" /><category term="penetration testing" /><summary type="html"><![CDATA[Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hackerss.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hackerss.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
