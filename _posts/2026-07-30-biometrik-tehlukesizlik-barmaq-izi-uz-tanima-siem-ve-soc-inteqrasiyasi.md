@@ -39,7 +39,6 @@ tags:
 - android security
 - termux
 - qr code
-- wazuh
 - siem
 - soc
 - n8n
@@ -92,7 +91,7 @@ Biometrik məlumatların qorunması, saxta görüntülərin aşkarlanması, sist
 
 # 🎥 Barmaq izi, Android, QR Code və SIEM laboratoriyası
 
-Aşağıdakı videoda barmaq izi sensoru, ESP32-S3, Android telefon, Termux, QR Code, Wazuh SIEM, n8n və Telegram bildiriş sistemi vahid təhlükəsizlik zəncirində birləşdirilib.
+Aşağıdakı videoda barmaq izi sensoru, ESP32, Android telefon, Termux, QR Code, SIEM,və Telegram bildiriş sistemi vahid təhlükəsizlik zəncirində birləşdirilib.
 
 <iframe src="https://www.instagram.com/reel/DbYZQans3Uf/embed"
 width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
@@ -523,7 +522,7 @@ Hər hadisə təhlükəsizlik loguna çevrilməlidir.
 
 Məsələn:
 
-```json
+
 {
   "integration": "cybershieldy_fingerkey",
   "event": "fingerprint_authorized",
@@ -548,48 +547,6 @@ SIEM biometrik sistemdən daxil olan məlumat əsasında:
 
 ---
 
-# ⚙️ Laboratoriya Axını
-
-Hazırladığım laboratoriya ssenarisində təhlükəsizlik zənciri aşağıdakı formada işləyir:
-
-```text
-Fingerprint Sensor
-        ↓
-     ESP32-S3
-        ↓
- Android Telefon
-        ↓
-      Termux
-        ↓
- QR Code və Log
-        ↓
-   ADB Stream
-        ↓
-Ubuntu Wazuh Agent
-        ↓
-  Wazuh Manager
-        ↓
-    Local Rule
-        ↓
-       n8n
-        ↓
-Telegram Bildirişi
-
-# 🔐 Barmaq İzi Uğurla Tanındıqda Sistem Necə İşləyir?
-
-Bu sistemdə barmaq izi uğurla tanındıqda:
-
-1. ESP32-S3 biometrik hadisəni yaradır.
-2. Məlumat Android telefona ötürülür.
-3. Termux məlumatı qəbul edir.
-4. QR Code və giriş məlumatı göstərilir.
-5. Hadisə JSON log formatına çevrilir.
-6. Wazuh agent log faylını oxuyur.
-7. Wazuh manager xüsusi qaydanı işə salır.
-8. n8n webhook hadisəni qəbul edir.
-9. Telegram-a real vaxt təhlükəsizlik bildirişi göndərilir.
-
----
 
 # 📱 QR Code Niyə İstifadə Olunur?
 
@@ -637,25 +594,7 @@ SIEM üçün aşağıdakı qaydalar hazırlana bilər:
 
 ---
 
-# 🤖 n8n və Telegram Avtomatlaşdırması
 
-SIEM alerti n8n platformasına göndərildikdən sonra müxtəlif əməliyyatlar avtomatlaşdırıla bilər.
-
-Məsələn:
-
-- Telegram bildirişi
-- E-poçt göndərilməsi
-- SMS bildirişi
-- Telefon zəngi
-- PDF hesabatın yaradılması
-- Ticket açılması
-- Dashboard yenilənməsi
-- Cihaz statusunun dəyişdirilməsi
-- Operator təsdiqinin alınması
-
-Telegram bildirişi aşağıdakı məlumatları daşıya bilər:
-
-```text
 🔐 FINGERKEY ACCESS ALERT
 
 Rule: FINGERKEY AUTHORIZED ACCESS
@@ -664,7 +603,7 @@ Agent: emin-VirtualBox
 Finger ID: 1
 Device: CyberShieldy-FingerKey
 Status: AUTHORIZED ACCESS
-Source: ESP32-S3
+Source: ESP32
 Android Gateway: Galaxy-A12
 Transport: ADB File Stream
 
@@ -754,31 +693,6 @@ Biometrik yoxlama texnologiyalarından aşağıdakı sahələrdə istifadə olun
 
 ---
 
-# 🧪 Tədris Laboratoriyasında Nələr Öyrənilir?
-
-Belə layihələr tələbələrə yalnız sensor qoşmağı deyil, bütöv təhlükəsizlik sisteminin necə qurulduğunu öyrədir.
-
-Tədris zamanı aşağıdakı mövzular praktiki olaraq göstərilə bilər:
-
-- ESP32-S3 proqramlaşdırılması
-- Sensor bağlantıları
-- Serial kommunikasiya
-- Android və Termux
-- ADB bağlantısı
-- JSON log formatı
-- Linux log idarəetməsi
-- Wazuh agent və manager
-- Custom decoder və rules
-- SIEM analizi
-- n8n workflow qurulması
-- Telegram inteqrasiyası
-- IoT təhlükəsizliyi
-- Fiziki təhlükəsizlik
-- Red Team və Blue Team yanaşmaları
-- Hadisəyə cavab prosesi
-- SOC monitorinqi
-
----
 
 # 🎓 Niyə Praktiki Kibertəhlükəsizlik Təhsili Vacibdir?
 
@@ -891,58 +805,36 @@ Təhlükəsiz biometrik ekosistem aşağıdakı komponentləri birlikdə birlə�
 - Hadisəyə cavab prosesi
 - İnsan nəzarəti
 
-Hazırladığım laboratoriya layihəsində barmaq izi sensorundan başlayan hadisə ESP32-S3, Android, Termux, QR Code, ADB, Wazuh SIEM, n8n və Telegram üzərindən tam təhlükəsizlik zəncirinə çevrilir.
+Hazırladığım laboratoriya layihəsində barmaq izi sensorundan başlayan hadisə ESP32-S3, Android, Termux, QR Code, ADB, SIEM,  və Telegram üzərindən tam təhlükəsizlik zəncirinə çevrilir.
 
 Bu yanaşma göstərir ki, kiçik bir IoT sensoru düzgün inteqrasiya edildikdə real SOC monitorinq sisteminin bir hissəsinə çevrilə bilər.
 
 ---
 
-# 🔗 Oxşar Mövzular
 
+
+
+## 🔗 Oxşar Mövzular
 - 📊🛡️ [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
 - 🔴🔵 [Red Team və Blue Team arasındakı fərqlər](https://cybershieldy.com/posts/red-team-vs-blue-team)
 - 🤖🛡️ [SIEM və Süni İntellekt inteqrasiyası](https://cybershieldy.com/posts/ai-siem-integration)
 - 🤖📡 [IoT Security və ağıllı sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
 - ⚡🛡️ [ESP32 ilə SIEM inteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
-- 📱🔍 [Android təhlükəsizliyi və mobil laboratoriyalar](https://cybershieldy.com/posts/android-security)
 - 📡🔐 [BLE və Bluetooth təhlükəsizliyi](https://cybershieldy.com/posts/ble-vs-classic-bluetooth)
 - 🧪💾 [Rəqəmsal forensika və məlumat bərpası](https://cybershieldy.com/posts/digital-forensics)
 
 ---
 
-# 🎓 CyberShieldy Academy
-
-Praktiki kibertəhlükəsizlik təlimlərində aşağıdakı istiqamətlər öyrədilir:
-
-- 🔴 Red Team əsasları
-- 🔵 Blue Team və SOC analizi
-- 📊 Wazuh SIEM
-- 🖥️ Linux və Windows təhlükəsizliyi
-- 🌐 Şəbəkə təhlükəsizliyi
-- 📱 Android və Termux laboratoriyaları
-- 🤖 ESP32 və IoT Security
-- ⚙️ n8n təhlükəsizlik avtomatlaşdırması
-- 🚨 Real vaxt alert və bildiriş sistemləri
-- 🧪 Praktiki laboratoriya ssenariləri
-- 🔍 Log analizi və Incident Response
-- 🛡️ Fiziki və biometrik təhlükəsizlik
-
-Kibertəhlükəsizliyi yalnız nəzəri deyil, real laboratoriyalar, sensorlar, serverlər, loglar və SIEM sistemləri üzərindən praktiki öyrənmək istəyənlər təlimlərə qoşula bilərlər.
-
----
-
-# 👨‍💻 Müəllif
+## 📢 CyberShieldy Academy
 
 **Savaylov Emin**
 
-**🛡️ Kibertəhlükəsizlik Mütəxəssisi**
-
-**🔴 Red Team • 🔵 Blue Team üzrə Təlimçi**
+**🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi**
 
 🌐 https://cybershieldy.com
 
 📱 Instagram: https://www.instagram.com/cyber_shieldy
 
-🎥 Fingerprint laboratoriyası:
+> "Süni intellekt təhlükəsizlik analitikini əvəz etmir; ona daha sürətli qərar vermək üçün güclü dəstək verir."
 
-https://www.instagram.com/reel/DbYZQans3Uf/
+{% include cyber-popup.html %}
