@@ -61,7 +61,7 @@ tags:
 
 description: "Barmaq izi, üz tanıma, iris, səs, kamera analitikası və digər biometrik yoxlama üsulları necə işləyir? Biometrik sistemlərin üstünlükləri, riskləri, SIEM inteqrasiyası və real laboratoriya nümunəsi haqqında geniş bələdçi."
 
-image: /assets/images/biometric-security.webp
+image: /assets/images/fingerprint.webp
 canonical: https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri
 permalink: /posts/biometrik-tehlukesizlik-sistemleri
 ---
