@@ -1,4 +1,1204 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-07-30T12:52:06+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası</title><link href="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri" rel="alternate" type="text/html" title="🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası" /><published>2026-07-30T10:30:00+04:00</published><updated>2026-07-30T11:41:26+04:00</updated><id>https://cybershieldy.com/posts/biometrik-tehlukesizlik-barmaq-izi-uz-tanima-siem-ve-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri"><![CDATA[<h1 id="-biometrik-təhlükəsizlik-sistemləri">🔐 Biometrik Təhlükəsizlik Sistemləri</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-10T12:25:24+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html"></title><link href="https://cybershieldy.com/posts/2026-08-10-ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi/" rel="alternate" type="text/html" title="" /><published>2026-08-10T12:25:24+04:00</published><updated>2026-08-10T12:25:24+04:00</updated><id>https://cybershieldy.com/posts/2026-08-10-ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/2026-08-10-ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi/"><![CDATA[<h1 id="-ai-cybersecurity-assistant--praktiki-demo">🎥 AI Cybersecurity Assistant – Praktiki Demo</h1>
+
+<p>Hazırladığım danışan kibertəhlükəsizlik köməkçisinin real laboratoriya demosunu aşağıdakı videoda görə bilərsiniz:</p>
+
+<iframe src="https://www.instagram.com/reel/DbvjiAvsPxb/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
+
+<p>📱 <strong>Instagram Reel:</strong></p>
+
+<p>https://www.instagram.com/reel/DbvjiAvsPxb/?igsh=OHZyczkwbTA0M3Bw</p>
+
+<hr />
+
+<h1 id="-ai-kibertəhlükəsizlik-köməkçisi-nədir">🧠 AI Kibertəhlükəsizlik Köməkçisi Nədir?</h1>
+
+<p>AI kibertəhlükəsizlik köməkçisi təhlükəsizlik sistemləri ilə insan arasında ağıllı interfeys rolunu oynayan proqram təminatı və süni intellekt qatıdır.</p>
+
+<p>Ənənəvi sistemdə analitik:</p>
+
+<ol>
+  <li>SIEM dashboard-a daxil olur.</li>
+  <li>Alertləri araşdırır.</li>
+  <li>Logları açır.</li>
+  <li>IP ünvanlarını yoxlayır.</li>
+  <li>Hadisələri müqayisə edir.</li>
+  <li>Risk səviyyəsini müəyyən edir.</li>
+  <li>Qərar verir.</li>
+  <li>Lazım gəldikdə cavab tədbiri başladır.</li>
+</ol>
+
+<p>AI əsaslı sistemdə isə bu proseslərin müəyyən hissələri avtomatlaşdırıla bilər.</p>
+
+<p>Məsələn istifadəçi sadəcə soruşa bilər:</p>
+
+<p><strong>“Şəbəkədə təhlükəli hadisə varmı?”</strong></p>
+
+<p>AI təhlükəsizlik köməkçisi isə müxtəlif təhlükəsizlik mənbələrindən gələn məlumatları analiz edərək daha anlaşıqlı cavab yarada bilər.</p>
+
+<hr />
+
+<h1 id="️-niyə-səsli-kibertəhlükəsizlik-assistent">🗣️ Niyə Səsli Kibertəhlükəsizlik Assistent?</h1>
+
+<p>Kibertəhlükəsizlik sistemlərinin böyük hissəsi klaviatura, terminal və dashboard əsaslıdır.</p>
+
+<p>Lakin gələcəkdə təhlükəsizlik analitikinin sistemlə ünsiyyəti daha təbii ola bilər.</p>
+
+<p>Məsələn:</p>
+
+<p>🗣️ <strong>Analitik:</strong>
+“Son kritik alerti göstər.”</p>
+
+<p>🤖 <strong>AI Assistant:</strong>
+“Son kritik təhlükəsizlik hadisəsi aşkarlandı. Hadisənin analizinə başlayıram.”</p>
+
+<p>və ya:</p>
+
+<p>🗣️ <strong>Analitik:</strong>
+“SIEM vəziyyəti necədir?”</p>
+
+<p>🤖 <strong>AI Assistant:</strong>
+“SIEM aktivdir və təhlükəsizlik hadisələri monitorinq olunur.”</p>
+
+<p>Bu yanaşmada səs sadəcə rahatlıq elementi deyil.</p>
+
+<p>Səsli interfeys insan ilə mürəkkəb təhlükəsizlik infrastrukturu arasında <strong>yeni idarəetmə qatı</strong> yaradır.</p>
+
+<hr />
+
+<h1 id="-vizual-reaksiya-verən-ai">👀 Vizual Reaksiya Verən AI</h1>
+
+<p>Layihənin maraqlı tərəflərindən biri köməkçinin yalnız danışması deyil.</p>
+
+<p>Sistem müxtəlif vəziyyətlərə vizual reaksiya da verə bilər.</p>
+
+<p>Məsələn:</p>
+
+<p>🟢 <strong>Normal vəziyyət</strong>
+Sistem sakit vizual rejimdə işləyir.</p>
+
+<p>🔵 <strong>Listening Mode</strong>
+İstifadəçinin səsini dinləyir.</p>
+
+<p>🟡 <strong>Thinking Mode</strong>
+Sorğunu analiz edir.</p>
+
+<p>🔴 <strong>Security Alert</strong>
+Kritik hadisə baş verdikdə vizual xəbərdarlıq verir.</p>
+
+<p>😊 <strong>Normal/HAPPY vəziyyəti</strong>
+Sistem istifadəçi ilə daha təbii qarşılıqlı əlaqə yaradır.</p>
+
+<p>Beləliklə kibertəhlükəsizlik sistemi sadəcə proqram interfeysi deyil, müəyyən mənada <strong>fiziki və vizual SOC assistentinə</strong> çevrilir.</p>
+
+<hr />
+
+<h1 id="️-ai--siem">🛡️ AI + SIEM</h1>
+
+<p>AI kibertəhlükəsizlik köməkçisinin ən güclü istifadə sahələrindən biri SIEM sistemləri ilə inteqrasiyadır.</p>
+
+<p>SIEM platformaları müxtəlif sistemlərdən log toplayır.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Serverlər</li>
+  <li>Windows sistemləri</li>
+  <li>Linux sistemləri</li>
+  <li>Firewall</li>
+  <li>IDS/IPS</li>
+  <li>Endpoint sistemləri</li>
+  <li>Veb serverlər</li>
+  <li>Mobil cihazlar</li>
+  <li>IoT cihazları</li>
+  <li>Şəbəkə avadanlıqları</li>
+  <li>Autentifikasiya sistemləri</li>
+</ul>
+
+<p>Bu məlumatların hamısı SOC mərkəzinə daxil ola bilər.</p>
+
+<p>Problem isə məlumatın həddindən artıq çox olmasıdır.</p>
+
+<p>AI burada analitikə kömək edə bilər.</p>
+
+<hr />
+
+<h1 id="-ai-siem-də-nə-edə-bilər">📊 AI SIEM-də Nə Edə Bilər?</h1>
+
+<p>Süni intellekt SIEM məlumatları üzərində aşağıdakı funksiyalarda istifadə edilə bilər:</p>
+
+<ul>
+  <li>Alertlərin izah edilməsi</li>
+  <li>Logların qruplaşdırılması</li>
+  <li>Oxşar hadisələrin əlaqələndirilməsi</li>
+  <li>Riskli fəaliyyətlərin seçilməsi</li>
+  <li>Anomaliyaların aşkarlanması</li>
+  <li>Hadisənin prioritetləşdirilməsi</li>
+  <li>Təhlükəsizlik hadisəsinin xülasəsinin hazırlanması</li>
+  <li>Analitik üçün araşdırma istiqamətlərinin təklif edilməsi</li>
+  <li>Hadisə hesabatının hazırlanması</li>
+  <li>Təkrar proseslərin avtomatlaşdırılması</li>
+</ul>
+
+<p>Əsas məqsəd analitiki sistemdən çıxarmaq deyil.</p>
+
+<p>Əksinə, analitikin qarşısındakı böyük məlumat kütləsini daha sürətli anlaşılan formaya çevirməkdir.</p>
+
+<hr />
+
+<h1 id="-təsəvvür-edək-ki-hücum-baş-verir">🚨 Təsəvvür Edək ki, Hücum Baş Verir</h1>
+
+<p>Ənənəvi təhlükəsizlik sistemində:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>Attack
+   ↓
+Log
+   ↓
+SIEM
+   ↓
+Alert
+   ↓
+Dashboard
+   ↓
+SOC Analyst
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Ağıllı təhlükəsizlik ekosistemində isə proses daha fərqli ola bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>Security Event
+      ↓
+Logs / Sensors
+      ↓
+SIEM
+      ↓
+Correlation
+      ↓
+AI Analysis
+      ↓
+Risk Assessment
+      ↓
+Voice / Visual Assistant
+      ↓
+SOC Analyst
+      ↓
+Response
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə təhlükəsizlik hadisəsi sadəcə dashboard-da görünmür.</p>
+
+<p>Sistem həmin hadisəni <strong>analiz edilə bilən, danışıq dilində təqdim olunan təhlükəsizlik məlumatına</strong> çevirir.</p>
+
+<hr />
+
+<h1 id="-hücum-aşkarlandı">🔊 “Hücum Aşkarlandı”</h1>
+
+<p>Gələcək SOC sistemlərində analitik hər saniyə dashboard-a baxmaq məcburiyyətində olmaya bilər.</p>
+
+<p>Məsələn kritik hadisə baş verdikdə sistem:</p>
+
+<p>🔴 vizual xəbərdarlıq verə,</p>
+
+<p>🔊 səsli şəkildə hadisəni bildirə,</p>
+
+<p>📊 SIEM məlumatını göstərə,</p>
+
+<p>📱 mobil sistemə məlumat ötürə,</p>
+
+<p>📄 hesabat hazırlaya,</p>
+
+<p>və təhlükəsizlik analitikindən qərar gözləyə bilər.</p>
+
+<p>Bu, təhlükəsizlik infrastrukturu ilə insan arasında daha aktiv qarşılıqlı əlaqə yaradır.</p>
+
+<hr />
+
+<h1 id="-ai-agent-konsepsiyası">🤖 AI Agent Konsepsiyası</h1>
+
+<p>Ənənəvi chatbot əsasən suala cavab verir.</p>
+
+<p>AI agent isə müəyyən sistemlərlə işləyə və verilmiş məqsədə uyğun prosesləri idarə edə bilər.</p>
+
+<p>Kibertəhlükəsizlik kontekstində AI agent:</p>
+
+<ul>
+  <li>SIEM-dən məlumat ala bilər</li>
+  <li>Sistemin vəziyyətini yoxlaya bilər</li>
+  <li>Logları analiz edə bilər</li>
+  <li>Müəyyən təhlükəsizlik alətlərindən nəticə ala bilər</li>
+  <li>Hadisələri əlaqələndirə bilər</li>
+  <li>Hesabat hazırlaya bilər</li>
+  <li>İnsan üçün qərar dəstəyi yarada bilər</li>
+</ul>
+
+<p>Lakin burada çox vacib prinsip mövcuddur:</p>
+
+<p><strong>AI-yə verilən səlahiyyət nə qədər böyükdürsə, təhlükəsizlik nəzarəti də bir o qədər güclü olmalıdır.</strong></p>
+
+<hr />
+
+<h1 id="-ai-yə-niyə-limitsiz-səlahiyyət-vermək-olmaz">🔐 AI-yə Niyə Limitsiz Səlahiyyət Vermək Olmaz?</h1>
+
+<p>AI təhlükəsizlik köməkçisi sistemə qoşulduqda onun hansı əməliyyatları yerinə yetirə bilməsi ciddi şəkildə məhdudlaşdırılmalıdır.</p>
+
+<p>Əks halda səhv qərar:</p>
+
+<ul>
+  <li>Lazımi servisi dayandıra bilər</li>
+  <li>Şəbəkə bağlantısını bloklaya bilər</li>
+  <li>Yanlış sistemi təhlükəli hesab edə bilər</li>
+  <li>Vacib məlumatın itirilməsinə səbəb ola bilər</li>
+  <li>Normal istifadəçini bloklaya bilər</li>
+</ul>
+
+<p>Bu səbəbdən AI agent sistemlərində aşağıdakı prinsiplər vacibdir:</p>
+
+<ul>
+  <li>Least Privilege</li>
+  <li>Role Based Access Control</li>
+  <li>Allowlist</li>
+  <li>Audit Logging</li>
+  <li>Human Approval</li>
+  <li>Scope Control</li>
+  <li>Rate Limiting</li>
+  <li>Command Validation</li>
+  <li>Authentication</li>
+  <li>Authorization</li>
+</ul>
+
+<p>AI hər şeyi edə bilən “super administrator” olmamalıdır.</p>
+
+<hr />
+
+<h1 id="-human-in-the-loop">👤 Human-in-the-Loop</h1>
+
+<p>AI əsaslı kibertəhlükəsizlik sistemlərinin ən vacib prinsiplərindən biri <strong>Human-in-the-Loop</strong> yanaşmasıdır.</p>
+
+<p>Yəni kritik əməliyyatlarda son qərar insanda qalır.</p>
+
+<p>Məsələn AI deyə bilər:</p>
+
+<blockquote>
+  <p>“Bu IP ünvanından şübhəli aktivlik aşkarlanıb. Bloklama tövsiyə olunur.”</p>
+</blockquote>
+
+<p>Lakin bloklama əməliyyatından əvvəl SOC analitikinin təsdiqi tələb oluna bilər.</p>
+
+<p>Bu yanaşma AI-nin sürətini insan təcrübəsi ilə birləşdirir.</p>
+
+<hr />
+
+<h1 id="-blue-team-üçün-ai">🔵 Blue Team üçün AI</h1>
+
+<p>Blue Team üçün süni intellekt xüsusilə böyük potensiala malikdir.</p>
+
+<p>Blue Team analitikləri çox vaxt minlərlə log və alert arasında həqiqi təhlükəni tapmağa çalışırlar.</p>
+
+<p>AI aşağıdakı sahələrdə kömək edə bilər:</p>
+
+<h3 id="-alert-triage">📊 Alert Triage</h3>
+
+<p>Alertləri risk səviyyəsinə görə prioritetləşdirmək.</p>
+
+<h3 id="-log-analysis">🔎 Log Analysis</h3>
+
+<p>Çoxsaylı log arasında əlaqəni müəyyən etməyə kömək etmək.</p>
+
+<h3 id="-threat-correlation">🧠 Threat Correlation</h3>
+
+<p>Fərqli təhlükəsizlik sistemlərindən gələn hadisələri birləşdirmək.</p>
+
+<h3 id="-incident-summary">📝 Incident Summary</h3>
+
+<p>Uzun logları qısa və anlaşıqlı hadisə xülasəsinə çevirmək.</p>
+
+<h3 id="-response-assistance">⚡ Response Assistance</h3>
+
+<p>Analitikə mümkün cavab addımları təqdim etmək.</p>
+
+<h3 id="️-voice-interface">🗣️ Voice Interface</h3>
+
+<p>Analitikin sistemlə təbii dildə danışmasına imkan vermək.</p>
+
+<hr />
+
+<h1 id="-red-team-üçün-ai">🔴 Red Team üçün AI</h1>
+
+<p>Süni intellekt Red Team və təhlükəsizlik testlərində də köməkçi rol oynaya bilər.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Test nəticələrinin qruplaşdırılması</li>
+  <li>Böyük scan nəticələrinin izah edilməsi</li>
+  <li>Servislərin təsnifatı</li>
+  <li>Tapıntıların sənədləşdirilməsi</li>
+  <li>Risklərin prioritetləşdirilməsi</li>
+  <li>Təhlükəsizlik hesabatının hazırlanması</li>
+</ul>
+
+<p>Lakin bütün testlər yalnız:</p>
+
+<p><strong>icazəli sistemlərdə, laboratoriya mühitində və müəyyən edilmiş scope daxilində aparılmalıdır.</strong></p>
+
+<p>AI təhlükəsizlik alətini daha sürətli edə bilər, amma etik və hüquqi sərhədləri aradan qaldırmır.</p>
+
+<hr />
+
+<h1 id="-----purple-team">🔴 + 🔵 = 🟣 Purple Team</h1>
+
+<p>Ən maraqlı istiqamətlərdən biri AI-nin Red Team və Blue Team arasında əlaqə yaratmasıdır.</p>
+
+<p>Məsələn Red Team laboratoriyada müəyyən ssenarini test edir.</p>
+
+<p>Blue Team həmin hadisəni aşkarlamağa çalışır.</p>
+
+<p>AI isə:</p>
+
+<ul>
+  <li>Red Team nəticəsini izah edə bilər</li>
+  <li>SIEM alertlərini müqayisə edə bilər</li>
+  <li>Aşkarlanmanın olub-olmadığını müəyyənləşdirməyə kömək edə bilər</li>
+  <li>Detection qaydalarının yaxşılaşdırılması üçün məlumat hazırlaya bilər</li>
+</ul>
+
+<p>Beləliklə AI Purple Team prosesində də bir növ <strong>analitik körpü</strong> rolunu oynaya bilər.</p>
+
+<hr />
+
+<h1 id="-ai--mcp">🧩 AI + MCP</h1>
+
+<p>Müasir AI sistemlərində maraqlı istiqamətlərdən biri də <strong>Model Context Protocol – MCP</strong> kimi yanaşmalardır.</p>
+
+<p>Sadə formada desək, MCP AI modelinin xarici sistemlər və alətlərlə daha strukturlaşdırılmış şəkildə işləməsinə imkan verən yanaşmadır.</p>
+
+<p>Bu konsepsiya kibertəhlükəsizlikdə xüsusilə maraqlıdır.</p>
+
+<p>Çünki gələcəkdə AI köməkçisi ayrı-ayrı təhlükəsizlik xidmətləri ilə standart interfeyslər vasitəsilə əlaqə qura bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>AI Assistant
+     │
+     ├── SIEM
+     ├── Log Analysis
+     ├── Network Monitoring
+     ├── Endpoint Security
+     ├── IoT Security
+     ├── Incident Response
+     └── Reporting
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Ancaq təhlükəsizlik səbəbindən belə arxitekturalarda autentifikasiya, scope və əməliyyat məhdudiyyətləri əsas şərtlərdən olmalıdır.</p>
+
+<hr />
+
+<h1 id="-bir-köməkçi--bir-neçə-sistem">🌐 Bir Köməkçi – Bir Neçə Sistem</h1>
+
+<p>Layihənin gələcək konsepsiyası yalnız bir kompüter üzərində işləyən assistant yaratmaq deyil.</p>
+
+<p>Təsəvvür edin:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>            🤖 AI Cyber Assistant
+                    │
+       ┌────────────┼────────────┐
+       │            │            │
+      PC          Mobile       SIEM
+       │            │            │
+       ├──────── Network ─────────┤
+       │            │            │
+      IoT         Servers      Sensors
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>AI təhlükəsizlik köməkçisi müxtəlif cihazlarda işləyən təhlükəsizlik sistemlərini bir nöqtədən anlamağa kömək edə bilər.</p>
+
+<p>Məqsəd bütün şəbəkəni kor-koranə idarə edən AI yaratmaq deyil.</p>
+
+<p>Məqsəd analitikin müxtəlif sistemlərdən gələn məlumatı <strong>vahid ağıllı interfeysdə görməsidir.</strong></p>
+
+<hr />
+
+<h1 id="-mobil-ai-kibertəhlükəsizlik-assistent">📱 Mobil AI Kibertəhlükəsizlik Assistent</h1>
+
+<p>Mobil cihaz bu konsepsiyada xüsusi rol oynaya bilər.</p>
+
+<p>Telefon:</p>
+
+<ul>
+  <li>Mikrofon</li>
+  <li>Dinamik</li>
+  <li>Ekran</li>
+  <li>Şəbəkə bağlantısı</li>
+  <li>Sensorlar</li>
+  <li>Bildiriş sistemi</li>
+</ul>
+
+<p>kimi imkanlara malikdir.</p>
+
+<p>Bu səbəbdən mobil cihaz təhlükəsizlik infrastrukturu üçün portativ AI interfeysinə çevrilə bilər.</p>
+
+<p>Analitik kompüter qarşısında olmadıqda belə sistem vəziyyəti haqqında məlumat ala bilər.</p>
+
+<hr />
+
+<h1 id="-iot--ai--cybersecurity">📡 IoT + AI + Cybersecurity</h1>
+
+<p>IoT cihazları AI təhlükəsizlik köməkçisi ilə birləşdirildikdə daha maraqlı imkanlar yaranır.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Fiziki giriş sensorları</li>
+  <li>Biometrik sistemlər</li>
+  <li>Temperatur sensorları</li>
+  <li>Kamera sistemləri</li>
+  <li>RF sensorları</li>
+  <li>Şəbəkə cihazları</li>
+  <li>Mikrocontroller əsaslı təhlükəsizlik modulları</li>
+</ul>
+
+<p>hadisə yarada bilər.</p>
+
+<p>Bu hadisələr təhlükəsizlik sisteminə daxil olduqdan sonra AI onları daha geniş kontekstdə analiz edə bilər.</p>
+
+<p>Beləliklə <strong>fiziki təhlükəsizlik və kibertəhlükəsizlik arasındakı sərhəd getdikcə azalır.</strong></p>
+
+<hr />
+
+<h1 id="-gələcəyin-soc-mərkəzi-necə-görünə-bilər">🏢 Gələcəyin SOC Mərkəzi Necə Görünə Bilər?</h1>
+
+<p>Bu gün SOC mərkəzlərini adətən böyük monitorlar və çoxsaylı dashboard-larla təsəvvür edirik.</p>
+
+<p>Gələcəkdə isə SOC analitiki sistemlə belə danışa bilər:</p>
+
+<blockquote>
+  <p>“Son bir saatın vəziyyətini göstər.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Ən riskli üç hadisə hansıdır?”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Bu alert digər hadisələrlə əlaqəlidirmi?”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Bu cihaz əvvəllər də belə davranıb?”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Hadisə üçün qısa hesabat hazırla.”</p>
+</blockquote>
+
+<p>AI isə müxtəlif məlumatları analiz edib cavabı təqdim edə bilər.</p>
+
+<p>Dashboard yox olmayacaq.</p>
+
+<p>Terminal da yox olmayacaq.</p>
+
+<p>Əksinə, AI onların üzərində əlavə <strong>intellektual interfeys</strong> yaradacaq.</p>
+
+<hr />
+
+<h1 id="-ai-soc-analitikini-əvəz-edəcək">⚡ AI SOC Analitikini Əvəz Edəcək?</h1>
+
+<p>Bu mövzuda tez-tez verilən suallardan biri budur.</p>
+
+<p><strong>AI SOC analitikini tam əvəz edəcəkmi?</strong></p>
+
+<p>Məncə gələcəyin daha real modeli belədir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>Human Analyst
+      +
+Artificial Intelligence
+      +
+Automation
+      =
+Next Generation SOC
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>AI:</p>
+
+<ul>
+  <li>daha sürətli məlumat emal edə bilər,</li>
+  <li>minlərlə logu müqayisə edə bilər,</li>
+  <li>müəyyən patternləri aşkar edə bilər,</li>
+  <li>hesabat hazırlaya bilər.</li>
+</ul>
+
+<p>Lakin insan:</p>
+
+<ul>
+  <li>konteksti anlayır,</li>
+  <li>biznes riskini qiymətləndirir,</li>
+  <li>etik qərar verir,</li>
+  <li>qeyri-standart vəziyyəti analiz edir,</li>
+  <li>kritik qərarın məsuliyyətini daşıyır.</li>
+</ul>
+
+<p>Bu səbəbdən AI analitikin rəqibi deyil.</p>
+
+<p><strong>AI analitikin gücünü artıran vasitədir.</strong></p>
+
+<hr />
+
+<h1 id="-copilot-yanaşması">🧠 “Copilot” Yanaşması</h1>
+
+<p>Gələcəyin kibertəhlükəsizlik sistemləri üçün ən uyğun anlayışlardan biri <strong>Security Copilot</strong> konsepsiyasıdır.</p>
+
+<p>Pilot təyyarəni idarə edir.</p>
+
+<p>Copilot isə:</p>
+
+<ul>
+  <li>məlumat verir,</li>
+  <li>vəziyyəti izləyir,</li>
+  <li>riski göstərir,</li>
+  <li>qərara dəstək olur.</li>
+</ul>
+
+<p>AI kibertəhlükəsizlik sistemində də buna bənzər rol oynaya bilər.</p>
+
+<p>Son qərar analitikdə qalır.</p>
+
+<p>AI isə onun yanında işləyən ikinci ağıllı beyin kimi fəaliyyət göstərir.</p>
+
+<hr />
+
+<h1 id="️-ai-nin-özünün-də-təhlükəsizliyi-vacibdir">⚠️ AI-nin Özünün də Təhlükəsizliyi Vacibdir</h1>
+
+<p>AI təhlükəsizlik sisteminə qoşulduqda artıq özü də qorunmalı sistemə çevrilir.</p>
+
+<p>Mümkün risklər:</p>
+
+<ul>
+  <li>İcazəsiz komandalar</li>
+  <li>Prompt manipulation</li>
+  <li>Yanlış məlumat</li>
+  <li>Saxta log</li>
+  <li>Access token sızması</li>
+  <li>API açarlarının qorunmaması</li>
+  <li>Lazımsız yüksək səlahiyyətlər</li>
+  <li>AI-nin səhv qərarı</li>
+  <li>Audit mexanizminin olmaması</li>
+  <li>Xarici sistemdən manipulyasiya</li>
+</ul>
+
+<p>Bu səbəbdən AI Security Assistant yaradarkən yalnız “AI necə işləyir?” sualını vermək kifayət deyil.</p>
+
+<p>Digər əsas sual budur:</p>
+
+<p><strong>AI-nin özünü necə təhlükəsiz saxlayırıq?</strong></p>
+
+<hr />
+
+<h1 id="️-zero-trust-ai">🛡️ Zero Trust AI</h1>
+
+<p>AI sistemlərinə də Zero Trust prinsipi tətbiq edilə bilər.</p>
+
+<p>Yəni:</p>
+
+<p><strong>Never Trust, Always Verify.</strong></p>
+
+<p>AI müəyyən sistemə sorğu göndərmək istəyirsə:</p>
+
+<ul>
+  <li>Kimlik yoxlanmalıdır</li>
+  <li>Səlahiyyət yoxlanmalıdır</li>
+  <li>Hədəf yoxlanmalıdır</li>
+  <li>Əmrin tipi yoxlanmalıdır</li>
+  <li>Hadisə loglaşdırılmalıdır</li>
+</ul>
+
+<p>Beləliklə AI tərəfindən yaradılan hər əməliyyat izlənilə bilən olur.</p>
+
+<hr />
+
+<h1 id="-audit-log-niyə-vacibdir">📝 Audit Log Niyə Vacibdir?</h1>
+
+<p>AI sistemdə nə etdiyini gizli şəkildə həyata keçirməməlidir.</p>
+
+<p>Hər vacib əməliyyat audit logda saxlanmalıdır.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>Timestamp
+AI Agent
+Requested Action
+Target System
+Authorization Status
+Result
+Analyst Approval
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu məlumatlar sonradan:</p>
+
+<ul>
+  <li>Incident Response</li>
+  <li>Forensics</li>
+  <li>Audit</li>
+  <li>Compliance</li>
+  <li>Troubleshooting</li>
+</ul>
+
+<p>üçün istifadə edilə bilər.</p>
+
+<hr />
+
+<h1 id="-layihənin-bütün-texniki-detalları-niyə-paylaşılmır">🔐 Layihənin Bütün Texniki Detalları Niyə Paylaşılmır?</h1>
+
+<p>Kibertəhlükəsizlik layihəsinin arxitekturasını izah etmək faydalıdır.</p>
+
+<p>Lakin real sistemdə istifadə edilən:</p>
+
+<ul>
+  <li>daxili təhlükəsizlik mexanizmləri,</li>
+  <li>autentifikasiya məlumatları,</li>
+  <li>konkret giriş nöqtələri,</li>
+  <li>həssas konfiqurasiyalar,</li>
+  <li>API açarları,</li>
+  <li>tokenlər,</li>
+  <li>idarəetmə komandaları,</li>
+  <li>təhlükəsizlik bypass mexanizmləri</li>
+</ul>
+
+<p>ictimai şəkildə paylaşılmamalıdır.</p>
+
+<p>Security by obscurity təkbaşına müdafiə üsulu deyil.</p>
+
+<p>Amma <strong>operational security – OPSEC</strong> səbəbindən real infrastrukturun həssas detalları qorunmalıdır.</p>
+
+<p>Bu məqalədə də layihənin konsepsiyası təqdim olunur, lakin təhlükəsizlik baxımından kritik daxili mexanizmlər açıqlanmır.</p>
+
+<hr />
+
+<h1 id="-kibertəhlükəsizlik-təhsilində-ai">🎓 Kibertəhlükəsizlik Təhsilində AI</h1>
+
+<p>AI yalnız SOC üçün deyil, kibertəhlükəsizlik təhsili üçün də maraqlı imkanlar yaradır.</p>
+
+<p>Tələbə laboratoriyada təhlükəsizlik hadisəsi yaradır.</p>
+
+<p>Sistem həmin hadisəni loglaşdırır.</p>
+
+<p>SIEM alert yaradır.</p>
+
+<p>AI isə tələbəyə izah edir:</p>
+
+<ul>
+  <li>Nə baş verdi?</li>
+  <li>Hansı log yarandı?</li>
+  <li>SIEM niyə alert verdi?</li>
+  <li>Risk nədir?</li>
+  <li>Blue Team nə etməlidir?</li>
+  <li>Hansı əlavə məlumatlar araşdırılmalıdır?</li>
+</ul>
+
+<p>Beləliklə laboratoriya daha interaktiv öyrənmə mühitinə çevrilir.</p>
+
+<hr />
+
+<h1 id="-red-team---blue-team---ai">🔴 Red Team + 🔵 Blue Team + 🤖 AI</h1>
+
+<p>Mənim üçün gələcəyin kibertəhlükəsizlik təhsil modeli aşağıdakı üç istiqamətin birlikdə öyrənilməsidir:</p>
+
+<p>🔴 <strong>Red Team</strong>
+Sistemin necə test edildiyini öyrənmək.</p>
+
+<p>🔵 <strong>Blue Team</strong>
+Hadisənin necə aşkarlanacağını və analiz ediləcəyini öyrənmək.</p>
+
+<p>🤖 <strong>Artificial Intelligence</strong>
+Böyük məlumatın necə avtomatlaşdırılmış şəkildə analiz və təqdim edilə biləcəyini öyrənmək.</p>
+
+<p>Bu üç istiqamət birlikdə daha real kibertəhlükəsizlik düşüncəsi yaradır.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-ai-security-assistant-sistemləri">🚀 Gələcəyin AI Security Assistant Sistemləri</h1>
+
+<p>Gələcəkdə belə sistemlərin daha geniş imkanlara sahib olacağını düşünmək mümkündür.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Continuous Security Monitoring</li>
+  <li>AI Threat Hunting</li>
+  <li>Voice Controlled SOC</li>
+  <li>Automated Incident Summary</li>
+  <li>Behavioral Analysis</li>
+  <li>Anomaly Detection</li>
+  <li>Threat Intelligence Correlation</li>
+  <li>IoT Security Monitoring</li>
+  <li>Digital Forensics Assistance</li>
+  <li>Automated Reporting</li>
+  <li>Multimodal Security Analysis</li>
+  <li>Natural Language Investigation</li>
+  <li>Human Approval Workflows</li>
+</ul>
+
+<p>AI yalnız yazılı məlumatla məhdudlaşmaya bilər.</p>
+
+<p>Səs, görüntü, log, şəbəkə məlumatları və sensor hadisələri eyni analitik sistemdə birləşdirilə bilər.</p>
+
+<hr />
+
+<h1 id="-multimodal-cybersecurity">🌍 Multimodal Cybersecurity</h1>
+
+<p>Gələcəyin təhlükəsizlik köməkçisi müxtəlif məlumat növlərini eyni vaxtda analiz edə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="rouge-code"><pre>            🤖 AI
+             │
+ ┌───────────┼────────────┐
+ │           │            │
+Logs       Voice        Video
+ │           │            │
+Network    Commands     Camera
+ │           │            │
+SIEM       Analyst      Sensors
+ └───────────┼────────────┘
+             │
+      Security Context
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu konsepsiya <strong>Multimodal Cybersecurity</strong> istiqamətinin əsaslarından biri ola bilər.</p>
+
+<hr />
+
+<h1 id="-ai--fiziki-robot">🤖 AI + Fiziki Robot?</h1>
+
+<p>Bu konsepsiyanı daha da irəli aparsaq, gələcəkdə SOC köməkçisi yalnız ekranda işləyən proqram olmaya bilər.</p>
+
+<p>AI:</p>
+
+<ul>
+  <li>Mobil cihazda</li>
+  <li>Masaüstü sistemdə</li>
+  <li>IoT cihazında</li>
+  <li>Robot platformasında</li>
+  <li>SOC terminalında</li>
+</ul>
+
+<p>eyni identikliklə işləyə bilər.</p>
+
+<p>Belə sistem şəbəkənin müxtəlif nöqtələrindən məlumat alaraq analitiklə səs və görüntü vasitəsilə əlaqə yarada bilər.</p>
+
+<p>Burada artıq klassik chatbotdan yox, <strong>kiber-fiziki AI təhlükəsizlik köməkçisindən</strong> danışırıq.</p>
+
+<hr />
+
+<h1 id="-əsas-məqsəd">🧠 Əsas Məqsəd</h1>
+
+<p>Bu layihənin məqsədi sadəcə danışan robot yaratmaq deyil.</p>
+
+<p>Əsas ideya budur:</p>
+
+<blockquote>
+  <p><strong>İnsan ilə kibertəhlükəsizlik infrastrukturu arasındakı əlaqəni daha ağıllı, sürətli və təbii etmək.</strong></p>
+</blockquote>
+
+<p>Əgər sistem minlərlə log yaradırsa, insan bunların hamısını əl ilə oxumamalıdır.</p>
+
+<p>AI həmin məlumatı filtrdən keçirib analitikin diqqətini ən vacib hadisələrə yönəltməlidir.</p>
+
+<hr />
+
+<h1 id="-ai-security-assistant-in-üstünlükləri">✅ AI Security Assistant-in Üstünlükləri</h1>
+
+<p>Belə sistemlərin potensial üstünlükləri:</p>
+
+<ul>
+  <li>Daha sürətli alert analizi</li>
+  <li>Daha rahat SIEM idarəetməsi</li>
+  <li>Böyük log məlumatının xülasəsi</li>
+  <li>Səsli interfeys</li>
+  <li>Avtomatlaşdırılmış hesabat</li>
+  <li>Analitik üçün qərar dəstəyi</li>
+  <li>Təhlükəsizlik məlumatlarının korrelyasiyası</li>
+  <li>Mobil idarəetmə imkanı</li>
+  <li>IoT sistemləri ilə inteqrasiya</li>
+  <li>Real vaxt xəbərdarlıqları</li>
+  <li>Təhsil laboratoriyalarında interaktivlik</li>
+  <li>SOC analitikinin iş yükünün azaldılması</li>
+</ul>
+
+<hr />
+
+<h1 id="️-risklər-və-məhdudiyyətlər">⚠️ Risklər və Məhdudiyyətlər</h1>
+
+<p>AI sistemi ideal deyil.</p>
+
+<p>Mümkün problemlər:</p>
+
+<ul>
+  <li>Yanlış analiz</li>
+  <li>False Positive</li>
+  <li>False Negative</li>
+  <li>Hallucination</li>
+  <li>Yanlış kontekst</li>
+  <li>Səlahiyyət problemi</li>
+  <li>Məxfilik riski</li>
+  <li>API təhlükəsizliyi</li>
+  <li>Prompt injection</li>
+  <li>İnsan nəzarətinin azalması</li>
+  <li>Həddindən artıq avtomatlaşdırma</li>
+  <li>AI nəticəsinə kor-koranə etibar</li>
+</ul>
+
+<p>Bu səbəbdən AI cavabı təhlükəsizlik faktı kimi avtomatik qəbul edilməməlidir.</p>
+
+<p>Kritik qərarlar əlavə mənbələrlə təsdiqlənməlidir.</p>
+
+<hr />
+
+<h1 id="️-ai-security-üçün-əsas-prinsiplər">🛡️ AI Security üçün Əsas Prinsiplər</h1>
+
+<p>AI əsaslı kibertəhlükəsizlik sistemi yaradarkən:</p>
+
+<ul>
+  <li>AI-yə minimum lazım olan səlahiyyət verin</li>
+  <li>Kritik əməliyyatlarda insan təsdiqi tələb edin</li>
+  <li>Audit loglarını aktiv edin</li>
+  <li>API açarlarını qoruyun</li>
+  <li>Şifrəli rabitədən istifadə edin</li>
+  <li>Allowlist tətbiq edin</li>
+  <li>Scope müəyyən edin</li>
+  <li>İstifadəçi autentifikasiyası tətbiq edin</li>
+  <li>AI nəticəsini əlavə mənbələrlə yoxlayın</li>
+  <li>Avtomatik əməliyyatlara limit qoyun</li>
+  <li>Prompt Injection riskini nəzərə alın</li>
+  <li>SIEM vasitəsilə AI fəaliyyətini də monitorinq edin</li>
+</ul>
+
+<hr />
+
+<h1 id="-ai-və-kibertəhlükəsizliyin-gələcəyi">🌐 AI və Kibertəhlükəsizliyin Gələcəyi</h1>
+
+<p>Əvvəllər kibertəhlükəsizlik sistemləri əsasən belə işləyirdi:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Log → Alert → İnsan
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>İndi isə model dəyişir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>Log
+ ↓
+SIEM
+ ↓
+Automation
+ ↓
+AI
+ ↓
+Analyst
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Gələcək model isə daha kompleks ola bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>Network + Endpoint + Cloud + IoT + Physical Security
+                       ↓
+                     SIEM
+                       ↓
+                     SOAR
+                       ↓
+                  AI Security
+                       ↓
+             Human SOC Analyst
+                       ↓
+                    Response
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu dəyişiklik SOC mərkəzlərini daha ağıllı və daha interaktiv edə bilər.</p>
+
+<hr />
+
+<h1 id="-nəticə">🧩 Nəticə</h1>
+
+<p>Süni intellekt kibertəhlükəsizlikdə yalnız chatbot kimi düşünülməməlidir.</p>
+
+<p>AI:</p>
+
+<ul>
+  <li>Log analizçisi</li>
+  <li>SOC köməkçisi</li>
+  <li>Threat Hunting assistenti</li>
+  <li>Hadisə xülasələyicisi</li>
+  <li>Səsli idarəetmə interfeysi</li>
+  <li>Təhlükəsizlik avtomatlaşdırma qatı</li>
+  <li>Təhsil köməkçisi</li>
+  <li>Qərar dəstək sistemi</li>
+</ul>
+
+<p>rolunu oynaya bilər.</p>
+
+<p>Hazırladığım <strong>CyberShieldy AI Cybersecurity Assistant</strong> laboratoriya layihəsinin məqsədi də məhz bu istiqaməti praktiki formada araşdırmaqdır.</p>
+
+<p>Layihədə süni intellekt, səsli qarşılıqlı əlaqə, mobil sistemlər, SIEM və kibertəhlükəsizlik avtomatlaşdırması vahid konsepsiya daxilində birləşdirilir.</p>
+
+<p>Bütün həssas texniki mexanizmləri açıq şəkildə paylaşmadan layihənin göstərdiyi əsas fikir budur:</p>
+
+<blockquote>
+  <p><strong>Gələcəyin təhlükəsizlik sistemi yalnız hücumu görməyəcək — onu anlayacaq, əlaqələndirəcək, analitikə izah edəcək və insanla birlikdə qərar prosesində iştirak edəcək.</strong></p>
+</blockquote>
+
+<p>Süni intellekt kibertəhlükəsizlik mütəxəssisini əvəz etməyə deyil, onun imkanlarını genişləndirməyə xidmət etməlidir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></li>
+  <li>🧪💾 <a href="https://cybershieldy.com/posts/digital-forensics">Rəqəmsal forensika və məlumat bərpası</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
+
+<p>🌐 https://cybershieldy.com</p>
+
+<p>📱 Instagram:
+https://www.instagram.com/cyber_shieldy</p>
+
+<p>🎥 AI Cybersecurity Assistant Demo:
+https://www.instagram.com/reel/DbvjiAvsPxb/?igsh=OHZyczkwbTA0M3Bw</p>
+
+<blockquote>
+  <p><strong>“Gələcəyin SOC analitiki süni intellektlə yarışmayacaq — onunla birlikdə işləyəcək.”</strong></p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author></entry><entry><title type="html">🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası</title><link href="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri" rel="alternate" type="text/html" title="🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası" /><published>2026-07-30T10:30:00+04:00</published><updated>2026-07-30T12:52:18+04:00</updated><id>https://cybershieldy.com/posts/biometrik-tehlukesizlik-barmaq-izi-uz-tanima-siem-ve-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri"><![CDATA[<h1 id="-biometrik-təhlükəsizlik-sistemləri">🔐 Biometrik Təhlükəsizlik Sistemləri</h1>
 
 <p>Rəqəmsal sistemlərdə istifadəçinin kimliyini müəyyən etmək üçün uzun illər əsasən istifadəçi adı və şifrə kombinasiyasından istifadə olunub.</p>
 
@@ -4252,483 +5452,4 @@ Red &amp; Blue Team üzrə təlimçi</strong></p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="phishing" /><category term="zərərli link" /><category term="sosial mühəndislik" /><category term="osint" /><category term="red team" /><category term="blue team" /><category term="cyber security" /><summary type="html"><![CDATA[Şübhəli linklərə daxil olduqda IP, cihaz məlumatları, brauzer metadata-sı, saxta Outlook/SMS bildirişləri və phishing riskləri necə yarana bilər?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/phishings.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/phishings.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)</title><link href="https://cybershieldy.com/posts/hacker-nece-formalasir" rel="alternate" type="text/html" title="💀 Hacker Necə Formalaşır? | Kibertəhlükəsizlikdə Əsas Bacarıqlar və Gələcəyin Cyber Dünyası (2026)" /><published>2026-05-10T08:00:00+04:00</published><updated>2026-05-10T14:41:39+04:00</updated><id>https://cybershieldy.com/posts/hacker-nece-formalasir-kibertehlukesizlikde-esas-bacariqlar</id><content type="html" xml:base="https://cybershieldy.com/posts/hacker-nece-formalasir"><![CDATA[<h1 id="-hacker-necə-formalaşır">💀 Hacker Necə Formalaşır?</h1>
-
-<p>Bir çox insan düşünür ki:</p>
-
-<p>❌ Hacker olmaq = proqram açmaq<br />
-❌ Bir düymə ilə sistemi sındırmaq<br />
-❌ Hazır tool istifadə etmək</p>
-
-<p>Amma reallıq tam fərqlidir.</p>
-
-<p>Əsl kibertəhlükəsizlik mütəxəssisi:</p>
-
-<p>🧠 düşünür<br />
-📡 analiz edir<br />
-⚡ sistemləri başa düşür<br />
-🛡️ müdafiəni öyrənir<br />
-💻 laboratoriya qurur<br />
-🔍 log analiz edir</p>
-
-<p>Yəni hacker olmaq:
-sadəcə “hack etmək” deyil…</p>
-
-<p>➡️ texnologiyanı dərindən anlamaqdır.</p>
-
-<hr />
-
-<h1 id="️-kibertəhlükəsizlikdə-ən-vacib-bacarıqlar">🛡️ Kibertəhlükəsizlikdə Ən Vacib Bacarıqlar</h1>
-
-<h2 id="-1-şəbəkə-bilikləri-networking">🌐 1. Şəbəkə Bilikləri (Networking)</h2>
-
-<p>Əgər şəbəkəni bilmirsənsə:</p>
-
-<p>➡️ hücumun necə işlədiyini də anlaya bilməzsən.</p>
-
-<p>Öyrənilməli mövzular:</p>
-
-<ul>
-  <li>IP Addressing</li>
-  <li>TCP / UDP</li>
-  <li>DNS</li>
-  <li>HTTP / HTTPS</li>
-  <li>VLAN</li>
-  <li>Routing</li>
-  <li>Switching</li>
-  <li>Firewall</li>
-</ul>
-
-<p>⚡ Hackerlər ilk olaraq trafiki analiz etməyi öyrənirlər.</p>
-
-<hr />
-
-<h1 id="-2-linux-bilikləri">🐧 2. Linux Bilikləri</h1>
-
-<p>Kibertəhlükəsizlik dünyasının əsas sistemi:</p>
-
-<p>🔥 Linux</p>
-
-<p>Çünki:</p>
-
-<ul>
-  <li>serverlərin çoxu Linuxdur</li>
-  <li>təhlükəsizlik alətləri Linuxda işləyir</li>
-  <li>log analizləri Linux üzərində edilir</li>
-</ul>
-
-<p>Öyrənilməli mövzular:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre><span class="nb">cd
-ls
-grep
-chmod
-</span>systemctl
-journalctl
-ssh
-tcpdump
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>➡️ Linux bilmədən professional cyber security inkişafı çox çətindir.</p>
-
-<hr />
-
-<h1 id="-3-proqramlaşdırma-bacarıqları">💻 3. Proqramlaşdırma Bacarıqları</h1>
-
-<p>Ən vacib dillər:</p>
-
-<h2 id="-python">🐍 Python</h2>
-
-<ul>
-  <li>avtomatlaşdırma</li>
-  <li>log analizi</li>
-  <li>exploit development</li>
-  <li>API inteqrasiyası</li>
-</ul>
-
-<hr />
-
-<h2 id="-bash">⚡ Bash</h2>
-
-<p>Linux avtomatlaşdırmaları üçün.</p>
-
-<hr />
-
-<h2 id="-javascript">🌐 JavaScript</h2>
-
-<p>Web təhlükəsizliyi və browser dünyasını anlamaq üçün.</p>
-
-<hr />
-
-<h2 id="️-golang--c">⚙️ Golang / C</h2>
-
-<p>Advanced tool development və payload anlayışı üçün.</p>
-
-<hr />
-
-<h1 id="-red-team-nədir">🔴 Red Team Nədir?</h1>
-
-<p>Red Team:</p>
-
-<p>➡️ hücum tərəfidir.</p>
-
-<p>Məqsəd:</p>
-
-<ul>
-  <li>sistemdə zəiflik tapmaq</li>
-  <li>real hücum simulyasiyası etmək</li>
-  <li>şirkətin müdafiəsini test etmək</li>
-</ul>
-
-<p>İstifadə olunan sahələr:</p>
-
-<ul>
-  <li>penetration testing</li>
-  <li>phishing simulation</li>
-  <li>Active Directory attacks</li>
-  <li>lateral movement</li>
-  <li>privilege escalation</li>
-</ul>
-
-<hr />
-
-<h1 id="-blue-team-nədir">🔵 Blue Team Nədir?</h1>
-
-<p>Blue Team:</p>
-
-<p>🛡️ müdafiə tərəfidir.</p>
-
-<p>Onların işi:</p>
-
-<ul>
-  <li>log izləmək</li>
-  <li>SIEM analiz etmək</li>
-  <li>alertlərə baxmaq</li>
-  <li>hücumu aşkarlamaq</li>
-  <li>sistemi qorumaq</li>
-</ul>
-
-<p>İstifadə olunan texnologiyalar:</p>
-
-<ul>
-  <li>Wazuh</li>
-  <li>Splunk</li>
-  <li>ELK Stack</li>
-  <li>Suricata</li>
-  <li>Zeek</li>
-  <li>Sysmon</li>
-</ul>
-
-<hr />
-
-<h1 id="-iot-təhlükəsizliyi-niyə-vacibdir">📡 IoT Təhlükəsizliyi Niyə Vacibdir?</h1>
-
-<p>Gələcək:</p>
-
-<p>⚡ IoT + AI + Smart Systems</p>
-
-<p>deməkdir.</p>
-
-<p>IoT cihazları:</p>
-
-<ul>
-  <li>kameralar</li>
-  <li>sensorlar</li>
-  <li>smart evlər</li>
-  <li>RFID sistemləri</li>
-  <li>ESP32 layihələri</li>
-</ul>
-
-<p>hamısı potensial riskdir.</p>
-
-<hr />
-
-<h1 id="-iot-security-üçün-nələr-lazımdır">🤖 IoT Security üçün Nələr Lazımdır?</h1>
-
-<ul>
-  <li>Embedded systems anlayışı</li>
-  <li>ESP32 / Raspberry Pi bilikləri</li>
-  <li>MQTT</li>
-  <li>HTTP API</li>
-  <li>Sensor logic</li>
-  <li>Network monitoring</li>
-</ul>
-
-<hr />
-
-<h1 id="-hacker-necə-i̇nkişaf-edir">🧠 Hacker Necə İnkişaf Edir?</h1>
-
-<p>Əsl inkişaf belə olur:</p>
-
-<h2 id="1️⃣-əsas-sistemləri-öyrən">1️⃣ Əsas sistemləri öyrən</h2>
-
-<ul>
-  <li>Windows</li>
-  <li>Linux</li>
-  <li>Network</li>
-</ul>
-
-<hr />
-
-<h2 id="2️⃣-lab-qur">2️⃣ Lab qur</h2>
-
-<p>Praktika olmadan inkişaf yoxdur.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Wazuh SIEM</li>
-  <li>Suricata IDS</li>
-  <li>Kali Linux</li>
-  <li>Ubuntu Server</li>
-  <li>Active Directory lab</li>
-</ul>
-
-<hr />
-
-<h2 id="3️⃣-log-analiz-et">3️⃣ Log analiz et</h2>
-
-<p>Ən güclü bacarıqlardan biri:</p>
-
-<p>🔥 log oxumaqdır.</p>
-
-<p>Çünki real təhlükələr orada görünür.</p>
-
-<hr />
-
-<h2 id="4️⃣-real-ssenarilər-qur">4️⃣ Real ssenarilər qur</h2>
-
-<ul>
-  <li>phishing testləri</li>
-  <li>honeypot</li>
-  <li>brute force detection</li>
-  <li>SIEM alerting</li>
-  <li>USB detection</li>
-  <li>IoT monitoring</li>
-</ul>
-
-<hr />
-
-<h1 id="-ən-böyük-səhv">🚨 Ən Böyük Səhv</h1>
-
-<p>Bir çox insan:</p>
-
-<p>❌ yalnız tool istifadə edir.</p>
-
-<p>Amma professional cyber security üçün:</p>
-
-<p>✅ sistem məntiqini başa düşmək lazımdır.</p>
-
-<hr />
-
-<h1 id="-gələcəyin-cyber-dünyası">🌍 Gələcəyin Cyber Dünyası</h1>
-
-<p>2026+ dövründə:</p>
-
-<p>⚡ AI Security<br />
-⚡ IoT Security<br />
-⚡ Autonomous Defense<br />
-⚡ Threat Hunting<br />
-⚡ SOC Automation</p>
-
-<p>ən vacib sahələr olacaq.</p>
-
-<hr />
-
-<h1 id="-kibertəhlükəsizlikdə-uğurun-sirri">🚀 Kibertəhlükəsizlikdə Uğurun Sirri</h1>
-
-<p>✅ davamlı praktika<br />
-✅ real lablar<br />
-✅ araşdırma<br />
-✅ analiz düşüncəsi<br />
-✅ texnologiyanı sevmək</p>
-
-<hr />
-
-<h1 id="-nəticə">💀 Nəticə</h1>
-
-<p>Hacker olmaq:</p>
-
-<p>❌ sadəcə tool işlətmək deyil</p>
-
-<p>✅ texnologiyanı başa düşməkdir.</p>
-
-<p>Əsl kibertəhlükəsizlik mütəxəssisi:</p>
-
-<p>🧠 analiz edir<br />
-⚡ araşdırır<br />
-🛡️ müdafiə qurur<br />
-📡 sistemləri izləyir<br />
-💻 real dünyanı öyrənir</p>
-
-<p>və daim inkişaf edir.</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları</a></li>
-  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
-  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki hücumlar</a></li>
-  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth hücumları</a></li>
-  <li>🔎 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları</a></li>
-  <li>📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Public Wi-Fi Riskləri</a></li>
-  <li>🤖 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI &amp; Kibertəhlükəsizlik</a></li>
-  <li>🤖 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
-</ul>
-
-<hr />
-
-<h1 id="-cybershieldy-academy">📢 CyberShieldy Academy</h1>
-
-<h2 id="-savaylov-emin">👨‍💻 Savaylov Emin</h2>
-<p>Kibertəhlükəsizlik mütəxəssisi<br />
-🔴 Red &amp; Blue Team üzrə təlimçi</p>
-
-<p>🌐 https://cybershieldy.com</p>
-
-<p>🚀 Real bilik • Praktiki lablar • Real ssenarilər • Cyber Security Təlimləri</p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="ethical hacking" /><category term="cyber security" /><category term="kiber dersler" /><category term="hacker dersleri" /><category term="xaker dersleri" /><category term="kiber təhlükəsizlik" /><category term="kiber tehlukesizlik" /><category term="cyber security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="iot security" /><category term="linux security" /><category term="siem" /><category term="wazuh" /><category term="hacking" /><category term="penetration testing" /><summary type="html"><![CDATA[Hacker olmaq üçün hansı bacarıqlar lazımdır? Red Team, Blue Team, IoT, Linux, şəbəkə və real kibertəhlükəsizlik dünyasında inkişaf etmək üçün tam roadmap.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/hackerss.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/hackerss.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="phishing" /><category term="zərərli link" /><category term="sosial mühəndislik" /><category term="osint" /><category term="red team" /><category term="blue team" /><category term="cyber security" /><summary type="html"><![CDATA[Şübhəli linklərə daxil olduqda IP, cihaz məlumatları, brauzer metadata-sı, saxta Outlook/SMS bildirişləri və phishing riskləri necə yarana bilər?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/phishings.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/phishings.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
