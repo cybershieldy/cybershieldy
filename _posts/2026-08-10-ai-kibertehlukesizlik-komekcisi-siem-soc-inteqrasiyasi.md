@@ -53,7 +53,7 @@ tags:
 
 description: "Süni intellekt, səsli idarəetmə, SIEM və təhlükəsizlik avtomatlaşdırmasını birləşdirən danışan AI kibertəhlükəsizlik köməkçisi necə işləyir? Gələcəyin SOC mərkəzlərində AI assistentlərin rolu, üstünlükləri, riskləri və CyberShieldy laboratoriya layihəsi."
 
-image: /assets/images/ai-cybersecurity-assistant.webp
+image: /assets/images/casper.webp
 canonical: https://cybershieldy.com/posts/ai-cybersecurity-assistant
 permalink: /posts/ai-cybersecurity-assistant
 --------------------------------------------
