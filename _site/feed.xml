@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-10T13:30:07+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html"></title><link href="https://cybershieldy.com/posts/2026-08-10-ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi/" rel="alternate" type="text/html" title="" /><published>2026-08-10T13:30:07+04:00</published><updated>2026-08-10T13:23:09+04:00</updated><id>https://cybershieldy.com/posts/2026-08-10-ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/2026-08-10-ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi/"><![CDATA[<h1 id="-ai-cybersecurity-assistant--praktiki-demo">🎥 AI Cybersecurity Assistant – Praktiki Demo</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-10T13:34:45+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri</title><link href="https://cybershieldy.com/posts/ai-cybersecurity-assistant" rel="alternate" type="text/html" title="🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri" /><published>2026-08-10T12:20:00+04:00</published><updated>2026-08-10T13:30:18+04:00</updated><id>https://cybershieldy.com/posts/ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-cybersecurity-assistant"><![CDATA[<h1 id="️-danışan-ai-kibertəhlükəsizlik-köməkçisi">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi</h1>
+
+<p>Kibertəhlükəsizlik dünyasında hər saniyə minlərlə hadisə, log, şəbəkə bağlantısı və təhlükəsizlik siqnalı yarana bilər.</p>
+
+<p>SOC analitikinin qarşısında isə əsas problem yalnız məlumatın çoxluğu deyil.</p>
+
+<p>Əsas sual budur:</p>
+
+<p><strong>Bu məlumatların hansı hissəsi həqiqətən təhlükəlidir və hansı hadisəyə ilk olaraq reaksiya vermək lazımdır?</strong></p>
+
+<p>Məhz burada süni intellekt kibertəhlükəsizlik sistemlərinə yeni bir yanaşma gətirir.</p>
+
+<p>Artıq təhlükəsizlik sistemi sadəcə dashboard üzərində qırmızı alert göstərən proqram olmaq məcburiyyətində deyil.</p>
+
+<p>Təsəvvür edin ki, təhlükəsizlik sisteminə deyirsiniz:</p>
+
+<blockquote>
+  <p>“SIEM vəziyyətini yoxla.”</p>
+</blockquote>
+
+<p>və sistem sizinlə danışaraq vəziyyəti izah edir.</p>
+
+<p>Yaxud:</p>
+
+<blockquote>
+  <p>“Son təhlükəsizlik hadisələrini analiz et.”</p>
+</blockquote>
+
+<p>və AI köməkçisi logları, təhlükəsizlik siqnallarını və sistem vəziyyətini analiz edərək nəticəni insan dilində təqdim edir.</p>
+
+<p>Bu ideya əsasında hazırladığım laboratoriya layihəsində <strong>süni intellekt, səsli idarəetmə və kibertəhlükəsizlik sistemlərini vahid ağıllı köməkçi konsepsiyasında birləşdirirəm.</strong></p>
+
+<hr />
+
+<h1 id="-ai-cybersecurity-assistant--praktiki-demo">🎥 AI Cybersecurity Assistant – Praktiki Demo</h1>
 
 <p>Hazırladığım danışan kibertəhlükəsizlik köməkçisinin real laboratoriya demosunu aşağıdakı videoda görə bilərsiniz:</p>
 
@@ -1198,7 +1232,7 @@ https://www.instagram.com/reel/DbvjiAvsPxb/?igsh=OHZyczkwbTA0M3Bw</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author></entry><entry><title type="html">🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası</title><link href="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri" rel="alternate" type="text/html" title="🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası" /><published>2026-07-30T10:30:00+04:00</published><updated>2026-07-30T12:52:18+04:00</updated><id>https://cybershieldy.com/posts/biometrik-tehlukesizlik-barmaq-izi-uz-tanima-siem-ve-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri"><![CDATA[<h1 id="-biometrik-təhlükəsizlik-sistemləri">🔐 Biometrik Təhlükəsizlik Sistemləri</h1>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="blue team" /><category term="soc" /><category term="security automation" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity assistant" /><category term="ai security assistant" /><category term="voice assistant" /><category term="voice controlled security" /><category term="siem" /><category term="soc" /><category term="soc analyst" /><category term="blue team" /><category term="red team" /><category term="purple team" /><category term="security automation" /><category term="incident response" /><category term="log analysis" /><category term="threat detection" /><category term="threat intelligence" /><category term="anomaly detection" /><category term="ai agent" /><category term="llm" /><category term="mcp" /><category term="voice ai" /><category term="conversational ai" /><category term="cyber defense" /><category term="security monitoring" /><category term="security operations center" /><category term="wazuh" /><category term="iot security" /><category term="android security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="siber güvenlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[Süni intellekt, səsli idarəetmə, SIEM və təhlükəsizlik avtomatlaşdırmasını birləşdirən danışan AI kibertəhlükəsizlik köməkçisi necə işləyir? Gələcəyin SOC mərkəzlərində AI assistentlərin rolu, üstünlükləri, riskləri və CyberShieldy laboratoriya layihəsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası</title><link href="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri" rel="alternate" type="text/html" title="🔐 Biometrik Təhlükəsizlik Sistemləri – Barmaq İzi, Üz Tanıma, Kamera və SIEM İnteqrasiyası" /><published>2026-07-30T10:30:00+04:00</published><updated>2026-07-30T12:52:18+04:00</updated><id>https://cybershieldy.com/posts/biometrik-tehlukesizlik-barmaq-izi-uz-tanima-siem-ve-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/biometrik-tehlukesizlik-sistemleri"><![CDATA[<h1 id="-biometrik-təhlükəsizlik-sistemləri">🔐 Biometrik Təhlükəsizlik Sistemləri</h1>
 
 <p>Rəqəmsal sistemlərdə istifadəçinin kimliyini müəyyən etmək üçün uzun illər əsasən istifadəçi adı və şifrə kombinasiyasından istifadə olunub.</p>
 

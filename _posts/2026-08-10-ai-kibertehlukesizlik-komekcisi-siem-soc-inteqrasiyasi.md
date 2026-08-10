@@ -1,5 +1,4 @@
 ---
-
 title: "🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri"
 date: 2026-08-10 12:20:00 +0400
 lastmod: 2026-08-10 12:20:00 +0400
@@ -56,7 +55,7 @@ description: "Süni intellekt, səsli idarəetmə, SIEM və təhlükəsizlik avt
 image: /assets/images/casper.webp
 canonical: https://cybershieldy.com/posts/ai-cybersecurity-assistant
 permalink: /posts/ai-cybersecurity-assistant
---------------------------------------------
+---
 
 # 🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi
 
