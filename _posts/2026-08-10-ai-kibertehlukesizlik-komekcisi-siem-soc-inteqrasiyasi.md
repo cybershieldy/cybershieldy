@@ -96,7 +96,7 @@ width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;
 
 📱 **Instagram Reel:**
 
-https://www.instagram.com/reel/DbvjiAvsPxb/?igsh=OHZyczkwbTA0M3Bw
+
 
 ---
 
@@ -997,11 +997,7 @@ Süni intellekt kibertəhlükəsizlik mütəxəssisini əvəz etməyə deyil, on
 
 🌐 https://cybershieldy.com
 
-📱 Instagram:
-https://www.instagram.com/cyber_shieldy
 
-🎥 AI Cybersecurity Assistant Demo:
-https://www.instagram.com/reel/DbvjiAvsPxb/?igsh=OHZyczkwbTA0M3Bw
 
 > **“Gələcəyin SOC analitiki süni intellektlə yarışmayacaq — onunla birlikdə işləyəcək.”**
 
