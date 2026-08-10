@@ -6,50 +6,50 @@ lastmod: 2026-08-10 12:20:00 +0400
 
 categories:
 
-* kibertəhlükəsizlik
-* süni intellekt
-* blue team
-* soc
-* security automation
+- kibertəhlükəsizlik
+- süni intellekt
+- blue team
+- soc
+- security automation
 
 tags:
 
-* artificial intelligence
-* ai cybersecurity
-* cybersecurity assistant
-* ai security assistant
-* voice assistant
-* voice controlled security
-* siem
-* soc
-* soc analyst
-* blue team
-* red team
-* purple team
-* security automation
-* incident response
-* log analysis
-* threat detection
-* threat intelligence
-* anomaly detection
-* ai agent
-* llm
-* mcp
-* voice ai
-* conversational ai
-* cyber defense
-* security monitoring
-* security operations center
-* wazuh
-* iot security
-* android security
-* cybersecurity
-* kibertəhlükəsizlik
-* siber güvenlik
-* cyber education
-* kiber dərsləri
-* cybershieldy
-* savaylov emin
+- artificial intelligence
+- ai cybersecurity
+- cybersecurity assistant
+- ai security assistant
+- voice assistant
+- voice controlled security
+- siem
+- soc
+- soc analyst
+- blue team
+- red team
+- purple team
+- security automation
+- incident response
+- log analysis
+- threat detection
+- threat intelligence
+- anomaly detection
+- ai agent
+- llm
+- mcp
+- voice ai
+- conversational ai
+- cyber defense
+- security monitoring
+- security operations center
+- wazuh
+- iot security
+- android security
+- cybersecurity
+- kibertəhlükəsizlik
+- siber güvenlik
+- cyber education
+- kiber dərsləri
+- cybershieldy
+- savaylov emin
 
 description: "Süni intellekt, səsli idarəetmə, SIEM və təhlükəsizlik avtomatlaşdırmasını birləşdirən danışan AI kibertəhlükəsizlik köməkçisi necə işləyir? Gələcəyin SOC mərkəzlərində AI assistentlərin rolu, üstünlükləri, riskləri və CyberShieldy laboratoriya layihəsi."
 
