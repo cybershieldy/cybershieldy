@@ -168,7 +168,7 @@ Qara düymə Casper-in ən maraqlı funksiyalarından birini — süni intellekt
 4. düzgün təsdiqdən sonra hesabat prosesini başladır;
 5. nəticəni Telegram-a göndərir.
 
-Bu, adi telefon zəngi deyil. Burada **ESP32-S3, HTTP API, Asterisk,  səsli AI, DTMF və Telegram** eyni hadisə zəncirində işləyir.
+Bu, adi telefon zəngi deyil. Burada **ESP32-S3, HTTP API, səsli AI, DTMF və Telegram** eyni hadisə zəncirində işləyir.
 
 Təhlükəsizlik baxımından real giriş kodları, şəbəkə ünvanları və daxili konfiqurasiya ictimai məqalədə paylaşılmır.
 
