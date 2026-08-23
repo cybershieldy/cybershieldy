@@ -35,7 +35,7 @@ tags:
   - kiber dərsləri
   - cybershieldy
   - savaylov emin
-description: "CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, VoIP zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir."
+description: "CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi,  zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir."
 image: /assets/images/casper-buttons.webp
 canonical: https://cybershieldy.com/posts/casper-ai-cybersecurity-robot
 permalink: /posts/casper-ai-cybersecurity-robot
@@ -49,7 +49,7 @@ Robot ətrafındakı məsafəni ölçür, otağın temperaturunu və rütubətin
 
 Bu, sadəcə bir elektronika eksperimenti deyil.
 
-Bu, **süni intellekt, robotika, IoT, VoIP və kibertəhlükəsizliyin eyni fiziki platformada birləşdiyi CyberShieldy Casper layihəsidir.**
+Bu, **süni intellekt, robotika, IoT,  kibertəhlükəsizliyin eyni fiziki platformada birləşdiyi CyberShieldy Casper layihəsidir.**
 
 Casper-in məqsədi yalnız əmrləri icra etmək deyil. Məqsəd rəqəmsal təhlükəsizlik sistemlərini fiziki dünya ilə əlaqələndirən, istifadəçi ilə danışan, məlumat toplayan və gələcəkdə Red Team və Blue Team əməliyyatlarına kömək edə bilən ağıllı laboratoriya assistenti yaratmaqdır.
 
@@ -77,7 +77,7 @@ Casper nəticəni sadəcə ekranda göstərmir. O:
 - məlumatı səsləndirə bilər;
 - sensor nəticələrini analiz edə bilər;
 - servo mexanizmini idarə edə bilər;
-- VoIP zəngi başlada bilər;
+- zəngi başlada bilər;
 - hesabat yarada bilər;
 - Telegram üzərindən məlumat göndərə bilər;
 - gələcəkdə SIEM və SOC sistemləri ilə işləyə bilər.
@@ -163,13 +163,12 @@ Qara düymə Casper-in ən maraqlı funksiyalarından birini — süni intellekt
 Əmr verildikdə sistem:
 
 1. zəng serverinə sorğu göndərir;
-2. Linphone üzərindən təhlükəsizlik zəngi yaradır;
-3. Casper-in AI səsini telefon xəttinə yönləndirir;
-4. istifadəçidən daxili təsdiq kodu tələb edir;
-5. düzgün təsdiqdən sonra hesabat prosesini başladır;
-6. nəticəni Telegram-a göndərir.
+2. Casper-in AI səsini telefon xəttinə yönləndirir;
+3. istifadəçidən daxili təsdiq kodu tələb edir;
+4. düzgün təsdiqdən sonra hesabat prosesini başladır;
+5. nəticəni Telegram-a göndərir.
 
-Bu, adi telefon zəngi deyil. Burada **ESP32-S3, HTTP API, Asterisk, Linphone, səsli AI, DTMF və Telegram** eyni hadisə zəncirində işləyir.
+Bu, adi telefon zəngi deyil. Burada **ESP32-S3, HTTP API, Asterisk,  səsli AI, DTMF və Telegram** eyni hadisə zəncirində işləyir.
 
 Təhlükəsizlik baxımından real giriş kodları, şəbəkə ünvanları və daxili konfiqurasiya ictimai məqalədə paylaşılmır.
 
@@ -212,7 +211,7 @@ Casper-də fiziki düymənin basılması bütöv bir avtomatlaşdırma zəncirin
 3. Ölçmə və hadisə məlumatı **Wi-Fi üzərindən API serverinə** göndərilir.
 4. Server məlumatı analiz edib Casper-in **AI səs sisteminə** ötürür.
 5. Casper nəticəni telefon üzərindən səsləndirir.
-6. Lazım gəldikdə **Asterisk və Linphone** zəng zənciri başladılır.
+6. Lazım gəldikdə  zəng zənciri başladılır.
 7. Təsdiqlənmiş nəticə **Telegram hesabatına** çevrilir.
 
 Beləliklə bir düymə fiziki hərəkəti, şəbəkə sorğusunu, AI cavabını, səsli reaksiyanı və hesabatlaşdırmanı eyni anda idarə edə bilir.
@@ -348,7 +347,6 @@ Casper tələbələrə müxtəlif sahələrin bir-biri ilə necə əlaqələndiy
 - Wi-Fi və HTTP API-ləri;
 - Python server avtomatlaşdırması;
 - Android tətbiqi və səsli AI;
-- VoIP və Asterisk;
 - DTMF təsdiqləmə;
 - Telegram inteqrasiyası;
 - Red Team və Blue Team iş axınları;
@@ -371,7 +369,6 @@ Bu sistemdə:
 - ESP32-S3 məlumatı emal edir;
 - servo fiziki reaksiya yaradır;
 - AI nəticəni anlayıb danışır;
-- VoIP uzaqdan əlaqə qurur;
 - Telegram yekun hesabatı təqdim edir;
 - Red Team və Blue Team məntiqi vahid assistentdə birləşir.
 
@@ -385,17 +382,27 @@ Bu gün Casper fiziki düymələrlə idarə olunan laboratoriya prototipidir. Sa
 
 ---
 
-# 👨‍💻 Müəllif
+# 🔗 Oxşar Mövzular
 
-**Savaylov Emin**  
-Red & Blue Team üzrə mütəxəssis və təlimçi  
-🌐 [CyberShieldy](https://cybershieldy.com)  
-📱 [Casper Instagram demosu](https://www.instagram.com/reel/DcWXN5CtWaG/?igsi=MTBhcXVxOTIzcWo5OA==)
+* 📊🛡️ [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
+* 🔴🔵 [Red Team və Blue Team arasındakı fərqlər](https://cybershieldy.com/posts/red-team-vs-blue-team)
+* 🤖🛡️ [SIEM və Süni İntellekt inteqrasiyası](https://cybershieldy.com/posts/ai-siem-integration)
+* 🤖📡 [IoT Security və ağıllı sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
+* ⚡🛡️ [ESP32 ilə SIEM inteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
+* 🧪💾 [Rəqəmsal forensika və məlumat bərpası](https://cybershieldy.com/posts/digital-forensics)
+* 🤖⚡ [CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi](https://cybershieldy.com/posts/ai-cybersecurity-assistant)
 
----
+## 📢 CyberShieldy Academy
 
-# 📌 Sosial media üçün qısa təqdimat
+**Savaylov Emin**
 
-> 🤖⚡ CyberShieldy Casper — fiziki düymələrlə idarə olunan AI kibertəhlükəsizlik robotu. Məsafə ölçümü, servo skanı, temperatur və rütubət analizi, AI dəstəkli VoIP zəngi və Telegram hesabatı vahid sistemdə birləşir. Red Team, Blue Team, IoT və robotika bir layihədə! 🛡️🚀
+**🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi**
 
-**#CyberShieldy #CasperAI #CyberSecurity #KiberTehlukesizlik #RedTeam #BlueTeam #ESP32S3 #IoT #ArtificialIntelligence #Robotika #VoIP #TelegramBot #CyberLab**
+🌐 https://cybershieldy.com
+
+
+
+> **“Gələcəyin SOC analitiki süni intellektlə yarışmayacaq — onunla birlikdə işləyəcək.”**
+
+{% include cyber-popup.html %}
+

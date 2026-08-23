@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-23T11:01:41+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu</title><link href="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu" /><published>2026-08-23T08:00:00+04:00</published><updated>2026-08-23T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-robot-esp32-sensor-servo-telegram-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot"><![CDATA[<h1 id="-cybershieldy-casper-kibertəhlükəsizliyin-fiziki-düymələrlə-i̇darə-olunan-gələcəyi">🤖⚡ CyberShieldy Casper: Kibertəhlükəsizliyin Fiziki Düymələrlə İdarə Olunan Gələcəyi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-23T11:42:56+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu</title><link href="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu" /><published>2026-08-23T08:00:00+04:00</published><updated>2026-08-23T11:01:53+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-robot-esp32-sensor-servo-telegram-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot"><![CDATA[<h1 id="-cybershieldy-casper-kibertəhlükəsizliyin-fiziki-düymələrlə-i̇darə-olunan-gələcəyi">🤖⚡ CyberShieldy Casper: Kibertəhlükəsizliyin Fiziki Düymələrlə İdarə Olunan Gələcəyi</h1>
 
 <p>Bir düyməyə toxunursunuz.</p>
 
@@ -6,7 +6,7 @@
 
 <p>Bu, sadəcə bir elektronika eksperimenti deyil.</p>
 
-<p>Bu, <strong>süni intellekt, robotika, IoT, VoIP və kibertəhlükəsizliyin eyni fiziki platformada birləşdiyi CyberShieldy Casper layihəsidir.</strong></p>
+<p>Bu, <strong>süni intellekt, robotika, IoT,  kibertəhlükəsizliyin eyni fiziki platformada birləşdiyi CyberShieldy Casper layihəsidir.</strong></p>
 
 <p>Casper-in məqsədi yalnız əmrləri icra etmək deyil. Məqsəd rəqəmsal təhlükəsizlik sistemlərini fiziki dünya ilə əlaqələndirən, istifadəçi ilə danışan, məlumat toplayan və gələcəkdə Red Team və Blue Team əməliyyatlarına kömək edə bilən ağıllı laboratoriya assistenti yaratmaqdır.</p>
 
@@ -34,7 +34,7 @@
   <li>məlumatı səsləndirə bilər;</li>
   <li>sensor nəticələrini analiz edə bilər;</li>
   <li>servo mexanizmini idarə edə bilər;</li>
-  <li>VoIP zəngi başlada bilər;</li>
+  <li>zəngi başlada bilər;</li>
   <li>hesabat yarada bilər;</li>
   <li>Telegram üzərindən məlumat göndərə bilər;</li>
   <li>gələcəkdə SIEM və SOC sistemləri ilə işləyə bilər.</li>
@@ -136,14 +136,13 @@
 
 <ol>
   <li>zəng serverinə sorğu göndərir;</li>
-  <li>Linphone üzərindən təhlükəsizlik zəngi yaradır;</li>
   <li>Casper-in AI səsini telefon xəttinə yönləndirir;</li>
   <li>istifadəçidən daxili təsdiq kodu tələb edir;</li>
   <li>düzgün təsdiqdən sonra hesabat prosesini başladır;</li>
   <li>nəticəni Telegram-a göndərir.</li>
 </ol>
 
-<p>Bu, adi telefon zəngi deyil. Burada <strong>ESP32-S3, HTTP API, Asterisk, Linphone, səsli AI, DTMF və Telegram</strong> eyni hadisə zəncirində işləyir.</p>
+<p>Bu, adi telefon zəngi deyil. Burada <strong>ESP32-S3, HTTP API, Asterisk,  səsli AI, DTMF və Telegram</strong> eyni hadisə zəncirində işləyir.</p>
 
 <p>Təhlükəsizlik baxımından real giriş kodları, şəbəkə ünvanları və daxili konfiqurasiya ictimai məqalədə paylaşılmır.</p>
 
@@ -195,7 +194,7 @@
   <li>Ölçmə və hadisə məlumatı <strong>Wi-Fi üzərindən API serverinə</strong> göndərilir.</li>
   <li>Server məlumatı analiz edib Casper-in <strong>AI səs sisteminə</strong> ötürür.</li>
   <li>Casper nəticəni telefon üzərindən səsləndirir.</li>
-  <li>Lazım gəldikdə <strong>Asterisk və Linphone</strong> zəng zənciri başladılır.</li>
+  <li>Lazım gəldikdə  zəng zənciri başladılır.</li>
   <li>Təsdiqlənmiş nəticə <strong>Telegram hesabatına</strong> çevrilir.</li>
 </ol>
 
@@ -345,7 +344,6 @@
   <li>Wi-Fi və HTTP API-ləri;</li>
   <li>Python server avtomatlaşdırması;</li>
   <li>Android tətbiqi və səsli AI;</li>
-  <li>VoIP və Asterisk;</li>
   <li>DTMF təsdiqləmə;</li>
   <li>Telegram inteqrasiyası;</li>
   <li>Red Team və Blue Team iş axınları;</li>
@@ -370,7 +368,6 @@
   <li>ESP32-S3 məlumatı emal edir;</li>
   <li>servo fiziki reaksiya yaradır;</li>
   <li>AI nəticəni anlayıb danışır;</li>
-  <li>VoIP uzaqdan əlaqə qurur;</li>
   <li>Telegram yekun hesabatı təqdim edir;</li>
   <li>Red Team və Blue Team məntiqi vahid assistentdə birləşir.</li>
 </ul>
@@ -387,22 +384,163 @@
 
 <hr />
 
-<h1 id="-müəllif">👨‍💻 Müəllif</h1>
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
 
-<p><strong>Savaylov Emin</strong><br />
-Red &amp; Blue Team üzrə mütəxəssis və təlimçi<br />
-🌐 <a href="https://cybershieldy.com">CyberShieldy</a><br />
-📱 <a href="https://www.instagram.com/reel/DcWXN5CtWaG/?igsi=MTBhcXVxOTIzcWo5OA==">Casper Instagram demosu</a></p>
+<ul>
+  <li>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></li>
+  <li>🧪💾 <a href="https://cybershieldy.com/posts/digital-forensics">Rəqəmsal forensika və məlumat bərpası</a></li>
+  <li>🤖⚡ <a href="https://cybershieldy.com/posts/ai-cybersecurity-assistant">CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi</a></li>
+</ul>
 
-<hr />
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
 
-<h1 id="-sosial-media-üçün-qısa-təqdimat">📌 Sosial media üçün qısa təqdimat</h1>
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
+
+<p>🌐 https://cybershieldy.com</p>
 
 <blockquote>
-  <p>🤖⚡ CyberShieldy Casper — fiziki düymələrlə idarə olunan AI kibertəhlükəsizlik robotu. Məsafə ölçümü, servo skanı, temperatur və rütubət analizi, AI dəstəkli VoIP zəngi və Telegram hesabatı vahid sistemdə birləşir. Red Team, Blue Team, IoT və robotika bir layihədə! 🛡️🚀</p>
+  <p><strong>“Gələcəyin SOC analitiki süni intellektlə yarışmayacaq — onunla birlikdə işləyəcək.”</strong></p>
 </blockquote>
 
-<p><strong>#CyberShieldy #CasperAI #CyberSecurity #KiberTehlukesizlik #RedTeam #BlueTeam #ESP32S3 #IoT #ArtificialIntelligence #Robotika #VoIP #TelegramBot #CyberLab</strong></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robotika" /><category term="iot" /><category term="security automation" /><category term="casper ai" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity robot" /><category term="esp32-s3" /><category term="iot security" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="security automation" /><category term="incident response" /><category term="voip security" /><category term="linphone" /><category term="asterisk" /><category term="telegram bot" /><category term="sensor fusion" /><category term="robotics" /><category term="arduino" /><category term="cyber lab" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, VoIP zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-buttons.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-buttons.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri</title><link href="https://cybershieldy.com/posts/ai-cybersecurity-assistant" rel="alternate" type="text/html" title="🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri" /><published>2026-08-10T12:20:00+04:00</published><updated>2026-08-10T13:46:40+04:00</updated><id>https://cybershieldy.com/posts/ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-cybersecurity-assistant"><![CDATA[<h1 id="️-danışan-ai-kibertəhlükəsizlik-köməkçisi">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi</h1>
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robotika" /><category term="iot" /><category term="security automation" /><category term="casper ai" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity robot" /><category term="esp32-s3" /><category term="iot security" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="security automation" /><category term="incident response" /><category term="voip security" /><category term="linphone" /><category term="asterisk" /><category term="telegram bot" /><category term="sensor fusion" /><category term="robotics" /><category term="arduino" /><category term="cyber lab" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-buttons.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-buttons.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri</title><link href="https://cybershieldy.com/posts/ai-cybersecurity-assistant" rel="alternate" type="text/html" title="🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri" /><published>2026-08-10T12:20:00+04:00</published><updated>2026-08-10T13:46:40+04:00</updated><id>https://cybershieldy.com/posts/ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-cybersecurity-assistant"><![CDATA[<h1 id="️-danışan-ai-kibertəhlükəsizlik-köməkçisi">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi</h1>
 
 <p>Kibertəhlükəsizlik dünyasında hər saniyə minlərlə hadisə, log, şəbəkə bağlantısı və təhlükəsizlik siqnalı yarana bilər.</p>
 
