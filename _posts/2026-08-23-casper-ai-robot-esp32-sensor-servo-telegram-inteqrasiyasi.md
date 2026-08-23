@@ -36,7 +36,7 @@ tags:
   - cybershieldy
   - savaylov emin
 description: "CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi,  zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir."
-image: /assets/images/casper-buttons.webp
+image: /assets/images/robot_button.webp
 canonical: https://cybershieldy.com/posts/casper-ai-cybersecurity-robot
 permalink: /posts/casper-ai-cybersecurity-robot
 ---
