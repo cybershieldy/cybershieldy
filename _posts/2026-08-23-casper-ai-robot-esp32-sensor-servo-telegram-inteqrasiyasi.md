@@ -1,7 +1,7 @@
 ---
 title: "🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu"
-date: 2026-08-23 12:00:00 +0400
-lastmod: 2026-08-23 12:00:00 +0400
+date: 2026-08-23 08:00:00 +0400
+lastmod: 2026-08-23 08:00:00 +0400
 categories:
   - kibertəhlükəsizlik
   - süni intellekt

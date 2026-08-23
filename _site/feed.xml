@@ -1,4 +1,408 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-23T10:55:56+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri</title><link href="https://cybershieldy.com/posts/ai-cybersecurity-assistant" rel="alternate" type="text/html" title="🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri" /><published>2026-08-10T12:20:00+04:00</published><updated>2026-08-10T13:46:40+04:00</updated><id>https://cybershieldy.com/posts/ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-cybersecurity-assistant"><![CDATA[<h1 id="️-danışan-ai-kibertəhlükəsizlik-köməkçisi">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-23T11:01:41+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu</title><link href="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu" /><published>2026-08-23T08:00:00+04:00</published><updated>2026-08-23T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-robot-esp32-sensor-servo-telegram-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot"><![CDATA[<h1 id="-cybershieldy-casper-kibertəhlükəsizliyin-fiziki-düymələrlə-i̇darə-olunan-gələcəyi">🤖⚡ CyberShieldy Casper: Kibertəhlükəsizliyin Fiziki Düymələrlə İdarə Olunan Gələcəyi</h1>
+
+<p>Bir düyməyə toxunursunuz.</p>
+
+<p>Robot ətrafındakı məsafəni ölçür, otağın temperaturunu və rütubətini analiz edir, servo motorla ətrafı skan edir, süni intellekt dəstəkli telefon zəngi başladır və nəticələri səsli şəkildə təqdim edir.</p>
+
+<p>Bu, sadəcə bir elektronika eksperimenti deyil.</p>
+
+<p>Bu, <strong>süni intellekt, robotika, IoT, VoIP və kibertəhlükəsizliyin eyni fiziki platformada birləşdiyi CyberShieldy Casper layihəsidir.</strong></p>
+
+<p>Casper-in məqsədi yalnız əmrləri icra etmək deyil. Məqsəd rəqəmsal təhlükəsizlik sistemlərini fiziki dünya ilə əlaqələndirən, istifadəçi ilə danışan, məlumat toplayan və gələcəkdə Red Team və Blue Team əməliyyatlarına kömək edə bilən ağıllı laboratoriya assistenti yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-casper-in-praktiki-demosu">🎥 Casper-in Praktiki Demosu</h1>
+
+<p>Layihənin fiziki düymələr, sensorlar, robot gözləri və səsli süni intellekt ilə işləyən real demosunu aşağıdakı videoda izləyə bilərsiniz:</p>
+
+<iframe src="https://www.instagram.com/reel/DcWXN5CtWaG/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen=""></iframe>
+
+<p>📱 <strong>Instagram Reel:</strong> <a href="https://www.instagram.com/reel/DcWXN5CtWaG/?igsi=MTBhcXVxOTIzcWo5OA==">CyberShieldy Casper praktiki demosuna bax</a></p>
+
+<hr />
+
+<h1 id="-casper-nədir">🧠 Casper Nədir?</h1>
+
+<p>Casper fiziki sensorları, mikrocontrolleri, şəbəkə xidmətlərini və süni intellekti birləşdirən interaktiv kibertəhlükəsizlik robotudur.</p>
+
+<p>Layihənin mərkəzində <strong>ESP32-S3</strong> yerləşir. Fiziki düymələrdən və sensorlardan gələn məlumatlar ESP32-S3 tərəfindən qəbul edilir, uyğun əmrlər yerinə yetirilir və nəticələr şəbəkə üzərindən Casper-in AI sisteminə ötürülür.</p>
+
+<p>Casper nəticəni sadəcə ekranda göstərmir. O:</p>
+
+<ul>
+  <li>məlumatı səsləndirə bilər;</li>
+  <li>sensor nəticələrini analiz edə bilər;</li>
+  <li>servo mexanizmini idarə edə bilər;</li>
+  <li>VoIP zəngi başlada bilər;</li>
+  <li>hesabat yarada bilər;</li>
+  <li>Telegram üzərindən məlumat göndərə bilər;</li>
+  <li>gələcəkdə SIEM və SOC sistemləri ilə işləyə bilər.</li>
+</ul>
+
+<p>Bu quruluş Casper-i adi IoT layihəsindən çıxararaq <strong>fiziki AI təhlükəsizlik assistentinə</strong> çevirir.</p>
+
+<hr />
+
+<h1 id="️-beş-fiziki-düymə--beş-fərqli-missiya">🎛️ Beş Fiziki Düymə — Beş Fərqli Missiya</h1>
+
+<p>Casper-in idarəetmə panelində hər rəng ayrıca funksiyanı təmsil edir. İstifadəçi menyular arasında keçid etmir və uzun komandalar yazmır. Sadəcə uyğun düyməni basır və sistem dərhal həmin missiyaya başlayır.</p>
+
+<h2 id="-qırmızı-düymə--məsafə-və-yaxınlıq-nəzarəti">🔴 Qırmızı düymə — Məsafə və yaxınlıq nəzarəti</h2>
+
+<p>Qırmızı düymə ultrasəs məsafə sensorunu aktivləşdirir.</p>
+
+<p>Casper:</p>
+
+<ol>
+  <li>ətraf mühitə ölçmə siqnalı göndərir;</li>
+  <li>obyektə qədər məsafəni hesablayır;</li>
+  <li>bir neçə ölçməni müqayisə edərək daha etibarlı nəticə seçir;</li>
+  <li>nəticəni santimetrlə bildirir;</li>
+  <li>obyekt təhlükəli dərəcədə yaxındırsa xəbərdarlıq yaradır;</li>
+  <li>ölçməni AI və hesabat sisteminə ötürür.</li>
+</ol>
+
+<p>Bu funksiya gələcəkdə robotun maneələri görməsi, otaqda təhlükəsiz hərəkət etməsi və qorunan sahəyə yaxınlaşmanı aşkarlaması üçün istifadə oluna bilər.</p>
+
+<blockquote>
+  <p><strong>Casper:</strong> “Qırmızı düymə aktiv oldu. Məsafə ölçülür. Obyekt təhlükəsiz məsafədədir.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-göy-düymə--servo-skanı-və-fiziki-müşahidə">🔵 Göy düymə — Servo skanı və fiziki müşahidə</h2>
+
+<p>Göy düymə servo motoru aktivləşdirir.</p>
+
+<p>Servo sağa və sola hərəkət edərək ətrafı skan edir, daha sonra başlanğıc mövqeyinə qayıdır. Bu mexanizm gələcəkdə kamera, məsafə sensoru və ya digər müşahidə modulları üçün hərəkətli platforma rolunu oynaya bilər.</p>
+
+<p>Göy düymənin gələcək imkanları:</p>
+
+<ul>
+  <li>kameranı müxtəlif istiqamətlərə çevirmək;</li>
+  <li>obyekt izləmək;</li>
+  <li>otağın xəritəsini qurmaq;</li>
+  <li>hərəkət aşkar edilən istiqamətə baxmaq;</li>
+  <li>üz və obyekt tanıma sistemini yönləndirmək;</li>
+  <li>təhlükəsizlik hadisəsində vizual sübut toplamaq.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Casper:</strong> “Göy düymə aktiv oldu. Servo skanı başlayır. Sağ sektor yoxlanılır. Sol sektor yoxlanılır. Motor mərkəzə qayıtdı.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-ağ-düymə--temperatur-və-rütubət-analizi">⚪ Ağ düymə — Temperatur və rütubət analizi</h2>
+
+<p>Ağ düymə otaq sensorunu aktivləşdirir.</p>
+
+<p>Casper temperatur və rütubət məlumatını oxuyur, nəticəni analiz edir və otağın vəziyyətini insan dilində səsləndirir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>otaq temperaturu normaldır;</li>
+  <li>otaq çox istidir;</li>
+  <li>otaq soyuqdur;</li>
+  <li>rütubət yüksəkdir;</li>
+  <li>sensor nəticəsi etibarlı deyil və yenidən ölçülməlidir.</li>
+</ul>
+
+<p>Bu funksiya ilk baxışda sadə görünə bilər, lakin server otaqları və laboratoriyalar üçün böyük əhəmiyyət daşıyır. Temperaturun artması avadanlığın isinməsi, soyutma sisteminin dayanması və ya enerji probleminin ilkin əlaməti ola bilər.</p>
+
+<p>Gələcəkdə Casper kritik temperatur aşkar etdikdə:</p>
+
+<ul>
+  <li>administratora xəbərdarlıq göndərə;</li>
+  <li>Telegram hesabatı yarada;</li>
+  <li>səsli alarm verə;</li>
+  <li>soyutma və ya ventilyasiya sistemini aktivləşdirə;</li>
+  <li>hadisəni SIEM platformasına log kimi ötürə bilər.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Casper:</strong> “Ağ düymə aktiv oldu. Temperatur 30 dərəcədir. Rütubət 49 faizdir. Otaq temperaturu yüksəkdir.”</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-qara-düymə--ai-dəstəkli-təhlükəsizlik-zəngi">⚫ Qara düymə — AI dəstəkli təhlükəsizlik zəngi</h2>
+
+<p>Qara düymə Casper-in ən maraqlı funksiyalarından birini — süni intellekt dəstəkli VoIP zəngini başladır.</p>
+
+<p>Əmr verildikdə sistem:</p>
+
+<ol>
+  <li>zəng serverinə sorğu göndərir;</li>
+  <li>Linphone üzərindən təhlükəsizlik zəngi yaradır;</li>
+  <li>Casper-in AI səsini telefon xəttinə yönləndirir;</li>
+  <li>istifadəçidən daxili təsdiq kodu tələb edir;</li>
+  <li>düzgün təsdiqdən sonra hesabat prosesini başladır;</li>
+  <li>nəticəni Telegram-a göndərir.</li>
+</ol>
+
+<p>Bu, adi telefon zəngi deyil. Burada <strong>ESP32-S3, HTTP API, Asterisk, Linphone, səsli AI, DTMF və Telegram</strong> eyni hadisə zəncirində işləyir.</p>
+
+<p>Təhlükəsizlik baxımından real giriş kodları, şəbəkə ünvanları və daxili konfiqurasiya ictimai məqalədə paylaşılmır.</p>
+
+<blockquote>
+  <p><strong>Casper:</strong> “Təhlükəsizlik hesabatını əldə etmək üçün daxili təsdiq kodunu daxil edin.”</p>
+</blockquote>
+
+<p>Doğru təsdiqdən sonra:</p>
+
+<blockquote>
+  <p><strong>Casper:</strong> “Kod təsdiqləndi. Tam hesabat hazırlanır və Telegram-a göndərilir.”</p>
+</blockquote>
+
+<p>Bu funksiya gələcəkdə kritik SOC hadisələri zamanı məsul şəxslə avtomatik əlaqə yaratmaq üçün istifadə edilə bilər.</p>
+
+<hr />
+
+<h2 id="-sarı-düymə--ai-və-ağıllı-analiz-rejimi">🟡 Sarı düymə — AI və ağıllı analiz rejimi</h2>
+
+<p>Sarı düymə Casper-in süni intellekt rejimini aktivləşdirir.</p>
+
+<p>Bu rejimdə Casper sadəcə əvvəlcədən yazılmış cümlələr səsləndirən cihaz deyil. O, daxil olan məlumatları kontekstə çevirən və istifadəçi ilə təbii dildə ünsiyyət yaradan ağıllı köməkçiyə çevrilir.</p>
+
+<p>AI rejiminin nəzərdə tutulan funksiyaları:</p>
+
+<ul>
+  <li>sensor məlumatlarını izah etmək;</li>
+  <li>təhlükəsizlik hadisələrini xülasə etmək;</li>
+  <li>Red Team və Blue Team əmrlərini ayırmaq;</li>
+  <li>SIEM loglarını insan dilində təqdim etmək;</li>
+  <li>laboratoriya tapşırıqlarını mərhələlərə bölmək;</li>
+  <li>təhlükəli əməliyyatlarda təsdiq istəmək;</li>
+  <li>görülən işlər üzrə yekun hesabat yaratmaq.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Casper:</strong> “Sarı düymə aktiv oldu. AI rejimi hazırdır. Red Team, yoxsa Blue Team əməliyyatına başlayaq?”</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-məlumat-axını-necə-i̇şləyir">📡 Məlumat Axını Necə İşləyir?</h1>
+
+<p>Casper-də fiziki düymənin basılması bütöv bir avtomatlaşdırma zəncirini başladır:</p>
+
+<ol>
+  <li><strong>Fiziki düymə</strong> əmri ESP32-S3-ə ötürür.</li>
+  <li><strong>ESP32-S3</strong> uyğun sensoru və ya mexanizmi aktivləşdirir.</li>
+  <li>Ölçmə və hadisə məlumatı <strong>Wi-Fi üzərindən API serverinə</strong> göndərilir.</li>
+  <li>Server məlumatı analiz edib Casper-in <strong>AI səs sisteminə</strong> ötürür.</li>
+  <li>Casper nəticəni telefon üzərindən səsləndirir.</li>
+  <li>Lazım gəldikdə <strong>Asterisk və Linphone</strong> zəng zənciri başladılır.</li>
+  <li>Təsdiqlənmiş nəticə <strong>Telegram hesabatına</strong> çevrilir.</li>
+</ol>
+
+<p>Beləliklə bir düymə fiziki hərəkəti, şəbəkə sorğusunu, AI cavabını, səsli reaksiyanı və hesabatlaşdırmanı eyni anda idarə edə bilir.</p>
+
+<hr />
+
+<h1 id="-telegram-hesabatında-nələr-ola-bilər">📨 Telegram Hesabatında Nələr Ola Bilər?</h1>
+
+<p>Casper-in yaratdığı hesabat müxtəlif mənbələrdən toplanmış məlumatları bir yerdə təqdim edə bilər:</p>
+
+<ul>
+  <li>son məsafə ölçməsi;</li>
+  <li>obyektin yaxınlıq vəziyyəti;</li>
+  <li>temperatur;</li>
+  <li>rütubət;</li>
+  <li>otağın ümumi vəziyyəti;</li>
+  <li>servo skanının statusu;</li>
+  <li>cihazın onlayn vəziyyəti;</li>
+  <li>Wi-Fi siqnal keyfiyyəti;</li>
+  <li>hadisənin tarixi və vaxtı;</li>
+  <li>gələcəkdə SIEM alertləri və risk səviyyəsi.</li>
+</ul>
+
+<p>Bu yanaşma uzun log fayllarını araşdırmadan sistemin cari vəziyyətini bir mesajda görməyə imkan verir.</p>
+
+<hr />
+
+<h1 id="️-red-team-əməliyyatlarında-casper-in-gələcək-rolu">⚔️ Red Team Əməliyyatlarında Casper-in Gələcək Rolu</h1>
+
+<p>Casper gələcəkdə yalnız sensor robotu deyil, icazəli laboratoriya mühitində işləyən Red Team assistenti ola bilər.</p>
+
+<p>Potensial funksiyalar:</p>
+
+<ul>
+  <li>təsdiqlənmiş hədəflər üzrə şəbəkə kəşfiyyatını başlatmaq;</li>
+  <li>Nmap və digər təhlükəsizlik alətlərinin nəticələrini səsləndirmək;</li>
+  <li>açıq portları və xidmətləri xülasə etmək;</li>
+  <li>laboratoriya tapşırıqlarının ardıcıllığını idarə etmək;</li>
+  <li>hücum simulyasiyalarında istifadəçidən fiziki təsdiq almaq;</li>
+  <li>görülən əməliyyatları audit jurnalına yazmaq;</li>
+  <li>testin sonunda avtomatik hesabat yaratmaq.</li>
+</ul>
+
+<p>Burada əsas prinsip dəyişməzdir: bütün testlər yalnız sahibinə məxsus və ya açıq şəkildə icazə verilmiş sistemlərdə aparılmalıdır.</p>
+
+<hr />
+
+<h1 id="️-blue-team-və-soc-əməliyyatlarında-casper-in-gələcək-rolu">🛡️ Blue Team və SOC Əməliyyatlarında Casper-in Gələcək Rolu</h1>
+
+<p>Blue Team tərəfində Casper-in imkanları daha da genişlənə bilər:</p>
+
+<ul>
+  <li>SIEM alertlərini səslə bildirmək;</li>
+  <li>kritik hadisələri prioritetləşdirmək;</li>
+  <li>firewall və IDS/IPS vəziyyətini yoxlamaq;</li>
+  <li>serverlərin aktivliyini monitorinq etmək;</li>
+  <li>Wazuh, Suricata və digər təhlükəsizlik mənbələrindən məlumat toplamaq;</li>
+  <li>şübhəli IP ünvanlarını xülasə etmək;</li>
+  <li>hadisə cavab planını mərhələlərlə təqdim etmək;</li>
+  <li>telefon, Telegram, SMS və PDF hesabat zəncirini başladmaq;</li>
+  <li>SOC analitikinə qərar dəstəyi vermək.</li>
+</ul>
+
+<p>Təsəvvür edin ki, gecə kritik alert yaranır. Casper gözlərini qırmızı rejimə keçirir, səsli xəbərdarlıq verir, məsul şəxsə zəng edir və təsdiqdən sonra tam hadisə hesabatını Telegram-a göndərir.</p>
+
+<p>Bu artıq sadəcə dashboard deyil. Bu, təhlükəsizlik infrastrukturunun <strong>danışan və fiziki reaksiya verən interfeysidir.</strong></p>
+
+<hr />
+
+<h1 id="-robot-gözləri-və-vizual-emosiyalar">👀 Robot Gözləri və Vizual Emosiyalar</h1>
+
+<p>Casper-in telefon ekranındakı robot gözləri sistem vəziyyətini vizual şəkildə göstərir.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>🔵 <strong>Listening:</strong> istifadəçini dinləyir;</li>
+  <li>🟡 <strong>Thinking:</strong> məlumatı analiz edir;</li>
+  <li>🟢 <strong>Ready:</strong> sistem işləməyə hazırdır;</li>
+  <li>🔴 <strong>Alert:</strong> təhlükəsizlik hadisəsi aşkarlanıb;</li>
+  <li>😊 <strong>Happy:</strong> əməliyyat uğurla tamamlanıb;</li>
+  <li>😴 <strong>Sleeping:</strong> gözləmə rejimidir.</li>
+</ul>
+
+<p>Bu vizual reaksiyalar istifadəçiyə sistemin hansı vəziyyətdə olduğunu bir baxışda anlamağa imkan verir və Casper-ə daha canlı xarakter qazandırır.</p>
+
+<hr />
+
+<h1 id="-gələcək-i̇nkişaf-planı">🚀 Gələcək İnkişaf Planı</h1>
+
+<p>CyberShieldy Casper layihəsinin növbəti mərhələlərində aşağıdakı imkanlar nəzərdə tutula bilər:</p>
+
+<ul>
+  <li>kamera ilə obyekt və üz tanıma;</li>
+  <li>servo üzərində hərəkətli kamera sistemi;</li>
+  <li>maneələrdən yayınan mobil robot platforması;</li>
+  <li>barmaq izi və RFID autentifikasiyası;</li>
+  <li>lokal AI modeli ilə internetdən asılı olmayan iş rejimi;</li>
+  <li>səs sahibinin tanınması;</li>
+  <li>ağıllı ev və server otağı nəzarəti;</li>
+  <li>SIEM və SOAR inteqrasiyası;</li>
+  <li>avtomatik incident-response playbook-ları;</li>
+  <li>xəritələmə və patrul rejimi;</li>
+  <li>risk balının hesablanması;</li>
+  <li>çoxdilli səsli ünsiyyət;</li>
+  <li>fiziki ekran, LED və alarm sistemləri;</li>
+  <li>təhlükəsiz uzaqdan idarəetmə.</li>
+</ul>
+
+<p>Gələcək versiyada Casper otaqda sərbəst hərəkət edən, ətrafı görən, istifadəçini tanıyan, təhlükəsizlik sistemlərini idarə edən və kritik qərarlarda insandan təsdiq alan avtonom assistentə çevrilə bilər.</p>
+
+<hr />
+
+<h1 id="-təhlükəsiz-dizayn-prinsipi">🔐 Təhlükəsiz Dizayn Prinsipi</h1>
+
+<p>AI və fiziki idarəetmə birləşdikdə təhlükəsizlik daha vacib olur.</p>
+
+<p>Casper kimi sistemdə aşağıdakı prinsiplər qorunmalıdır:</p>
+
+<ul>
+  <li>kritik əməliyyatlardan əvvəl insan təsdiqi;</li>
+  <li>minimum səlahiyyət prinsipi;</li>
+  <li>giriş kodlarının və tokenlərin gizli saxlanması;</li>
+  <li>API sorğularının autentifikasiyası;</li>
+  <li>şifrələnmiş rabitə;</li>
+  <li>əməliyyatların audit jurnalına yazılması;</li>
+  <li>icazəsiz hədəflərin bloklanması;</li>
+  <li>təhlükəli əmrlər üçün əlavə təsdiq;</li>
+  <li>servo və motorlar üçün ayrıca, sabit enerji mənbəyi;</li>
+  <li>sensor xətalarında təhlükəsiz dayanma rejimi.</li>
+</ul>
+
+<p>Əsas məqsəd AI-yə məhdudiyyətsiz nəzarət vermək deyil. Məqsəd <strong>insanın nəzarətində işləyən ağıllı və izah edilə bilən təhlükəsizlik köməkçisi</strong> yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-təhsil-və-praktiki-laboratoriya-dəyəri">🎓 Təhsil və Praktiki Laboratoriya Dəyəri</h1>
+
+<p>Casper tələbələrə müxtəlif sahələrin bir-biri ilə necə əlaqələndiyini praktiki şəkildə göstərir:</p>
+
+<ul>
+  <li>elektronika və breadboard bağlantıları;</li>
+  <li>ESP32-S3 proqramlaşdırması;</li>
+  <li>sensorların işləmə prinsipi;</li>
+  <li>servo və PWM idarəetməsi;</li>
+  <li>Wi-Fi və HTTP API-ləri;</li>
+  <li>Python server avtomatlaşdırması;</li>
+  <li>Android tətbiqi və səsli AI;</li>
+  <li>VoIP və Asterisk;</li>
+  <li>DTMF təsdiqləmə;</li>
+  <li>Telegram inteqrasiyası;</li>
+  <li>Red Team və Blue Team iş axınları;</li>
+  <li>təhlükəsiz sistem dizaynı.</li>
+</ul>
+
+<p>Tələbə bir layihə daxilində həm kod, həm elektronika, həm şəbəkə, həm süni intellekt, həm də kibertəhlükəsizlik anlayışlarını görə bilir.</p>
+
+<p>Bu səbəbdən Casper sadəcə təqdimat üçün hazırlanmış robot deyil. O, <strong>interaktiv tədris və tədqiqat platformasıdır.</strong></p>
+
+<hr />
+
+<h1 id="-nəticə">🌍 Nəticə</h1>
+
+<p>CyberShieldy Casper layihəsi gələcəyin kibertəhlükəsizlik interfeyslərinin necə görünə biləcəyini göstərən praktiki prototipdir.</p>
+
+<p>Bu sistemdə:</p>
+
+<ul>
+  <li>fiziki düymələr əmri başladır;</li>
+  <li>sensorlar real dünyadan məlumat toplayır;</li>
+  <li>ESP32-S3 məlumatı emal edir;</li>
+  <li>servo fiziki reaksiya yaradır;</li>
+  <li>AI nəticəni anlayıb danışır;</li>
+  <li>VoIP uzaqdan əlaqə qurur;</li>
+  <li>Telegram yekun hesabatı təqdim edir;</li>
+  <li>Red Team və Blue Team məntiqi vahid assistentdə birləşir.</li>
+</ul>
+
+<p>Casper-in əsas ideyası sadədir:</p>
+
+<blockquote>
+  <p><strong>Kibertəhlükəsizlik sistemi yalnız ekranda görünməməlidir. O, ətrafı hiss etməli, danışmalı, izah etməli və insanla birlikdə hərəkət etməlidir.</strong></p>
+</blockquote>
+
+<p>Bu gün Casper fiziki düymələrlə idarə olunan laboratoriya prototipidir. Sabah isə o, SOC mərkəzində analitikə kömək edən, server otağında patrul edən və kritik hadisələrə ağıllı reaksiya verən tam avtonom kibertəhlükəsizlik robotuna çevrilə bilər.</p>
+
+<p>🤖 <strong>Bu, CyberShieldy Casper-dir — AI, IoT, robotika və kibertəhlükəsizliyin birləşdiyi nöqtə.</strong></p>
+
+<hr />
+
+<h1 id="-müəllif">👨‍💻 Müəllif</h1>
+
+<p><strong>Savaylov Emin</strong><br />
+Red &amp; Blue Team üzrə mütəxəssis və təlimçi<br />
+🌐 <a href="https://cybershieldy.com">CyberShieldy</a><br />
+📱 <a href="https://www.instagram.com/reel/DcWXN5CtWaG/?igsi=MTBhcXVxOTIzcWo5OA==">Casper Instagram demosu</a></p>
+
+<hr />
+
+<h1 id="-sosial-media-üçün-qısa-təqdimat">📌 Sosial media üçün qısa təqdimat</h1>
+
+<blockquote>
+  <p>🤖⚡ CyberShieldy Casper — fiziki düymələrlə idarə olunan AI kibertəhlükəsizlik robotu. Məsafə ölçümü, servo skanı, temperatur və rütubət analizi, AI dəstəkli VoIP zəngi və Telegram hesabatı vahid sistemdə birləşir. Red Team, Blue Team, IoT və robotika bir layihədə! 🛡️🚀</p>
+</blockquote>
+
+<p><strong>#CyberShieldy #CasperAI #CyberSecurity #KiberTehlukesizlik #RedTeam #BlueTeam #ESP32S3 #IoT #ArtificialIntelligence #Robotika #VoIP #TelegramBot #CyberLab</strong></p>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robotika" /><category term="iot" /><category term="security automation" /><category term="casper ai" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity robot" /><category term="esp32-s3" /><category term="iot security" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="security automation" /><category term="incident response" /><category term="voip security" /><category term="linphone" /><category term="asterisk" /><category term="telegram bot" /><category term="sensor fusion" /><category term="robotics" /><category term="arduino" /><category term="cyber lab" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, VoIP zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-buttons.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-buttons.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri</title><link href="https://cybershieldy.com/posts/ai-cybersecurity-assistant" rel="alternate" type="text/html" title="🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri" /><published>2026-08-10T12:20:00+04:00</published><updated>2026-08-10T13:46:40+04:00</updated><id>https://cybershieldy.com/posts/ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-cybersecurity-assistant"><![CDATA[<h1 id="️-danışan-ai-kibertəhlükəsizlik-köməkçisi">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi</h1>
 
 <p>Kibertəhlükəsizlik dünyasında hər saniyə minlərlə hadisə, log, şəbəkə bağlantısı və təhlükəsizlik siqnalı yarana bilər.</p>
 
@@ -5100,382 +5504,4 @@ Transport: ADB File Stream</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="texnologiya" /><category term="gələcək" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><summary type="html"><![CDATA[Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/new-hacker.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/new-hacker.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?</title><link href="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler" rel="alternate" type="text/html" title="🔗⚠️ Şübhəli Linklərə Daxil Olanda Nə Baş Verə Bilər?" /><published>2026-05-23T08:00:00+04:00</published><updated>2026-05-23T09:45:36+04:00</updated><id>https://cybershieldy.com/posts/tehlukeli-linkler-phishing-ip-ve-metadata-riskleri</id><content type="html" xml:base="https://cybershieldy.com/posts/linklere-girdikde-ne-bas-vere-biler"><![CDATA[<h1 id="️-linklərə-daxil-olanda-nə-baş-verə-bilər">🔗⚠️ Linklərə Daxil Olanda Nə Baş Verə Bilər?</h1>
-
-<p>İnternetdə bir linkə klik etmək çox sadə görünür…</p>
-
-<p>Amma bəzən həmin klik:</p>
-
-<p>⚠️ IP ünvanını göstərə bilər<br />
-⚠️ cihaz və brauzer məlumatlarını ötürə bilər<br />
-⚠️ saxta Outlook və SMS səhifəsinə yönləndirə bilər<br />
-⚠️ phishing hücumuna səbəb ola bilər<br />
-⚠️ metadata və davranış izlərini ortaya çıxara bilər</p>
-
-<p>Yəni problem təkcə “linkə girdim, nə olacaq ki?” deyil.</p>
-
-<p>Bəzən bir klik — hücumçunun səni analiz etməsi üçün kifayət edir.</p>
-
-<hr />
-
-<h1 id="-canlı-demo--reels">🎥 Canlı Demo / Reels</h1>
-
-<p>📲 Bu mövzunu real ssenari kimi göstərdiyim videoya bax:</p>
-
-<p>https://www.instagram.com/reel/DYhmsJMsf2-/?igsh=YjhuN2JrN3M1ajV5</p>
-
-<iframe src="https://www.instagram.com/reel/DYhmsJMsf2-/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<hr />
-
-<h1 id="-linkə-daxil-olanda-ilk-nə-baş-verir">🧠 Linkə daxil olanda ilk nə baş verir?</h1>
-
-<p>Bir linkə klik etdikdə brauzer serverə sorğu göndərir.</p>
-
-<p>Bu sorğuda bəzi texniki məlumatlar görünə bilər:</p>
-
-<ul>
-  <li>IP ünvanı</li>
-  <li>cihaz tipi</li>
-  <li>əməliyyat sistemi</li>
-  <li>brauzer adı</li>
-  <li>ekran ölçüsü</li>
-  <li>dil ayarları</li>
-  <li>təxmini lokasiya</li>
-  <li>istifadəçi davranışı</li>
-</ul>
-
-<p>Bunların hamısı birlikdə hücumçuya profil çıxarmağa kömək edə bilər.</p>
-
-<hr />
-
-<h1 id="-ip-gizli-olsa-belə-risk-bitmir">🌍 IP gizli olsa belə risk bitmir</h1>
-
-<p>Çox adam düşünür:</p>
-
-<blockquote>
-  <p>“VPN istifadə edirəm, deməli təhlükəsizəm.”</p>
-</blockquote>
-
-<p>Amma bu tam doğru deyil.</p>
-
-<p>VPN IP-ni gizlədə bilər, amma:</p>
-
-<ul>
-  <li>brauzer fingerprint qala bilər</li>
-  <li>cookie məlumatları görünə bilər</li>
-  <li>login etdiyin hesablar səni tanıda bilər</li>
-  <li>metadata izləri qala bilər</li>
-  <li>cihaz davranışın analiz oluna bilər</li>
-</ul>
-
-<p>Yəni təkcə IP-ni gizlətmək tam anonimlik demək deyil.</p>
-
-<hr />
-
-<h1 id="-saxta-outlook-və-sms-ssenarisi">📩 Saxta Outlook və SMS ssenarisi</h1>
-
-<p>Phishing hücumlarında çox istifadə olunan üsullardan biri budur:</p>
-
-<ol>
-  <li>Sən linkə girirsən</li>
-  <li>Qarşına Outlook, Gmail və ya SMS doğrulama səhifəsi çıxır</li>
-  <li>Sən məlumatı real zənn edib daxil edirsən</li>
-  <li>Məlumat hücumçuya gedir</li>
-  <li>Sistem hesabını, cihazını və davranışını analiz edir</li>
-</ol>
-
-<p>Bu tip səhifələr çox vaxt real sayta bənzədilir.</p>
-
-<p>Logo real olur.<br />
-Dizayn real olur.<br />
-Amma arxada saxta sistem işləyir.</p>
-
-<hr />
-
-<h1 id="️-metadata-nədir">🕵️ Metadata nədir?</h1>
-
-<p>Metadata — görünməyən, amma sistemin oxuya bildiyi əlavə məlumatdır.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>hansı cihazdan girdin</li>
-  <li>hansı brauzerdən istifadə etdin</li>
-  <li>hansı saatda girdin</li>
-  <li>hansı ölkə/şəhərdən sorğu gəldi</li>
-  <li>linkə neçə dəfə klik edildi</li>
-  <li>hansı səhifədə nə qədər qaldın</li>
-</ul>
-
-<p>Bəzən hacker üçün paroldan əvvəl bu məlumatlar daha dəyərlidir.</p>
-
-<p>Çünki bu məlumatla sənin haqqında profil yaradılır.</p>
-
-<hr />
-
-<h1 id="-phishing-necə-işləyir">🎣 Phishing necə işləyir?</h1>
-
-<p>Phishing sadə dildə belədir:</p>
-
-<p>Sənə real kimi görünən saxta link göndərilir.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>“Hesabın bloklanacaq”</li>
-  <li>“Outlook girişini təsdiqlə”</li>
-  <li>“SMS doğrulama lazımdır”</li>
-  <li>“Kuryer məlumatını yenilə”</li>
-  <li>“Şifrəni dəyiş”</li>
-</ul>
-
-<p>Məqsəd səni tələsdirməkdir.</p>
-
-<p>Çünki insan qorxanda, panikaya düşəndə və ya maraqlananda daha tez klik edir.</p>
-
-<hr />
-
-<h1 id="-red-team-baxışı">🔴 Red Team baxışı</h1>
-
-<p>Red Team tərəfdən belə testlər istifadə olunur:</p>
-
-<ul>
-  <li>istifadəçi maarifləndirməsi</li>
-  <li>phishing awareness təlimi</li>
-  <li>link davranış analizi</li>
-  <li>sosial mühəndislik ssenariləri</li>
-  <li>təhlükəsizlik monitorinqinin yoxlanması</li>
-</ul>
-
-<p>Amma bu yalnız icazəli lab və təlim mühitində edilməlidir.</p>
-
-<hr />
-
-<h1 id="-blue-team-baxışı">🔵 Blue Team baxışı</h1>
-
-<p>Blue Team bu tip hadisələri belə izləyə bilər:</p>
-
-<ul>
-  <li>SIEM logları</li>
-  <li>DNS sorğuları</li>
-  <li>proxy qeydləri</li>
-  <li>email gateway alertləri</li>
-  <li>endpoint detection</li>
-  <li>suspicious URL detection</li>
-  <li>SOC bildirişləri</li>
-</ul>
-
-<p>Yəni müdafiə tərəfi linkə klik hadisəsini belə analiz edə bilər:</p>
-
-<p>Kim klik etdi?<br />
-Haradan klik etdi?<br />
-Hansı cihazdan klik etdi?<br />
-Hansı məlumat ötürüldü?<br />
-Hadisə zərərli idi, yoxsa test?</p>
-
-<hr />
-
-<h1 id="️-özünü-necə-qorumalısan">🛡️ Özünü necə qorumalısan?</h1>
-
-<p>Ən sadə qaydalar:</p>
-
-<p>✅ tanımadığın linkə klik etmə<br />
-✅ Outlook/Gmail giriş səhifəsinin domeninə bax<br />
-✅ SMS-lə gələn linklərə ehtiyatla yanaş<br />
-✅ qısa linkləri yoxlamadan açma<br />
-✅ 2FA aktiv et<br />
-✅ brauzeri və sistemi yenilə<br />
-✅ şifrəni heç vaxt saxta səhifədə yazma<br />
-✅ linki açmadan əvvəl mənbəni yoxla</p>
-
-<p>Əgər link şübhəlidirsə, ən yaxşı müdafiə klik etməməkdir.</p>
-
-<hr />
-
-<h1 id="️-ən-təhlükəli-səhv">⚠️ Ən təhlükəli səhv</h1>
-
-<p>Ən böyük səhv budur:</p>
-
-<p>“Bu sadəcə linkdir, heç nə olmaz.”</p>
-
-<p>Kiber təhlükəsizlikdə bəzən hücum bir faylla yox, bir kliklə başlayır.</p>
-
-<p>Bir klik:</p>
-<ul>
-  <li>məlumat toplaya bilər</li>
-  <li>hesabı ələ keçirə bilər</li>
-  <li>cihazı analiz edə bilər</li>
-  <li>istifadəçini saxta giriş səhifəsinə sala bilər</li>
-</ul>
-
-<hr />
-
-<h1 id="-nəticə">⚡ Nəticə</h1>
-
-<p>Link təhlükəli ola bilər, çünki o sadəcə keçid deyil.</p>
-
-<p>Bəzən link:</p>
-
-<p>🔗 məlumat toplayır<br />
-🎣 phishing səhifəsinə aparır<br />
-🧠 istifadəçini analiz edir<br />
-📩 saxta Outlook/SMS ekranı göstərir<br />
-🛡️ SOC sistemlərində alert yaradır</p>
-
-<p>Ona görə də internetdə ən sadə klik belə təhlükəsizlik baxımından ciddi hadisə ola bilər.</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>🎣⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir və Necə Qorunmaq olar?</a></li>
-  <li>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
-  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin — Kibertəhlükəsizlik mütəxəssisi<br />
-Red &amp; Blue Team üzrə təlimçi</strong></p>
-
-<p>🚀 Real bilik &gt; sertifikat<br />
-💻 Praktiki lablar • Real ssenarilər • Canlı testlər</p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="phishing" /><category term="sosial mühəndislik" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="phishing" /><category term="zərərli link" /><category term="sosial mühəndislik" /><category term="osint" /><category term="red team" /><category term="blue team" /><category term="cyber security" /><summary type="html"><![CDATA[Şübhəli linklərə daxil olduqda IP, cihaz məlumatları, brauzer metadata-sı, saxta Outlook/SMS bildirişləri və phishing riskləri necə yarana bilər?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/phishings.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/phishings.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="texnologiya" /><category term="gələcək" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><summary type="html"><![CDATA[Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/new-hacker.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/new-hacker.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

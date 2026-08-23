@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu",
+    "url": "/posts/casper-ai-cybersecurity-robot",
+    "categories": "kibertəhlükəsizlik, süni intellekt, robotika, iot, security automation",
+    "tags": "casper ai, artificial intelligence, ai cybersecurity, cybersecurity robot, esp32-s3, iot security, red team, blue team, purple team, soc, security automation, incident response, voip security, linphone, asterisk, telegram bot, sensor fusion, robotics, arduino, cyber lab, cybersecurity, kibertəhlükəsizlik, cyber education, kiber dərsləri, cybershieldy, savaylov emin",
+    "date": "2026-08-23 08:00:00 +0400",
+    "content": "CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, VoIP zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir."
+  },
+  
+  {
     "title": "🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri",
     "url": "/posts/ai-cybersecurity-assistant",
     "categories": "kibertəhlükəsizlik, süni intellekt, blue team, soc, security automation",
