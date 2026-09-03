@@ -33,7 +33,7 @@ tags:
   - cybershieldy
   - savaylov emin
 description: "CyberShieldy Casper layihəsində səsli əmrlərlə Android idarəetməsi, PIN autentifikasiyası, SMS əməliyyatları və Digispark əsaslı USB təhlükəsizlik skanı vahid AI kibertəhlükəsizlik laboratoriyasında birləşdirilir."
-image: /assets/images/casper-ai-mobile-usb-security.webp
+image: /assets/images/casper-aii.webp
 canonical: https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab
 permalink: /posts/casper-ai-mobile-usb-security-lab
 ---
