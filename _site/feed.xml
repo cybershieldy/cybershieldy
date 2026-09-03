@@ -1,4 +1,432 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-08-23T13:22:09+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu</title><link href="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu" /><published>2026-08-23T08:00:00+04:00</published><updated>2026-08-23T13:10:56+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-robot-esp32-sensor-servo-telegram-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot"><![CDATA[<h1 id="-cybershieldy-casper-kibertəhlükəsizliyin-fiziki-düymələrlə-i̇darə-olunan-gələcəyi">🤖⚡ CyberShieldy Casper: Kibertəhlükəsizliyin Fiziki Düymələrlə İdarə Olunan Gələcəyi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-03T14:20:43+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖🛡️ CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası</title><link href="https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab" rel="alternate" type="text/html" title="🤖🛡️ CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası" /><published>2026-09-03T08:00:00+04:00</published><updated>2026-09-03T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-android-sesli-idareetme-digispark-usb-tehlukesizlik-sistemi</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab"><![CDATA[<h1 id="️-cybershieldy-casper-səsli-mobil-i̇darəetmə-və-usb-təhlükəsizlik-laboratoriyası">🤖🛡️ CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası</h1>
+
+<p>Bir tərəfdə fiziki PIN paneli, süni intellekt və səsli komandalarla idarə olunan Android cihazı var.</p>
+
+<p>Digər tərəfdə isə telefona qoşulan USB cihazını aşkarlayan, onu yoxlama prosesinə daxil edən və nəticəni Casper-in vizual-səsli interfeysində göstərən təhlükəsizlik modulu yerləşir.</p>
+
+<p>Bu iki ssenari ayrı görünə bilər. Əslində isə hər ikisi eyni ideyanın hissəsidir: <strong>rəqəmsal təhlükəsizlik hadisələrini fiziki dünya, mobil cihaz və süni intellekt arasında idarə olunan bir avtomatlaşdırma zəncirinə çevirmək.</strong></p>
+
+<p>CyberShieldy Casper hazır telefon funksiyalarını sadəcə səslə işə salan köməkçi deyil. O, autentifikasiya, əmrin tanınması, server tərəfli yoxlama, mobil avtomatlaşdırma, vizual geribildirim və insan təsdiqini vahid laboratoriya platformasında birləşdirən eksperimental AI kibertəhlükəsizlik assistentidir.</p>
+
+<blockquote>
+  <p><strong>Casper-in əsas prinsipi:</strong> əmri eşitmək kifayət deyil; əməliyyat yoxlanmalı, icazəli mühitdə icra edilməli, nəticə göstərilməli və audit edilə bilməlidir.</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-demo-1--səsli-əmrlə-android-telefonun-i̇darə-edilməsi">🎥 Demo 1 — Səsli Əmrlə Android Telefonun İdarə Edilməsi</h1>
+
+<p>Aşağıdakı videoda ESP32-S3 əsaslı giriş paneli, Casper AI və Android avtomatlaşdırmasının birlikdə işləməsi nümayiş olunur:</p>
+
+<iframe src="https://www.instagram.com/reel/DcygQeOtZFD/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen=""></iframe>
+
+<p>📱 <strong>Instagram Reel:</strong> <a href="https://www.instagram.com/reel/DcygQeOtZFD/?igsi=bmppdGUzN3FvbDlo">Casper AI səsli Android idarəetmə demosuna bax</a></p>
+
+<p>Bu demoda sistem yalnız bir düyməni aktivləşdirmir. Arxa planda mərhələli təhlükəsizlik axını işləyir:</p>
+
+<ol>
+  <li>İstifadəçi fiziki panel üzərindən giriş məlumatını daxil edir.</li>
+  <li>ESP32-S3 sorğunu təhlükəsiz yoxlama qatına ötürür.</li>
+  <li>Daxil edilən məlumat təsdiqlənərsə mobil idarəetmə sessiyası aktivləşir.</li>
+  <li>Casper nəticəni səsli şəkildə bildirir və növbəti əmri gözləyir.</li>
+  <li>İstifadəçi Bluetooth, GPS, səs, ekran işığı və ya SMS əməliyyatını seçir.</li>
+  <li>Komanda normallaşdırılır, icazəli əməliyyata çevrilir və test telefonunda icra olunur.</li>
+  <li>Nəticə yenidən Casper-ə qaytarılır və istifadəçiyə səsləndirilir.</li>
+</ol>
+
+<p>Beləliklə, sadə görünən bir səsli komandanın arxasında <strong>fiziki autentifikasiya, şəbəkə rabitəsi, AI səs tanıma, mobil idarəetmə və nəticə təsdiqi</strong> birlikdə çalışır.</p>
+
+<hr />
+
+<h1 id="-pin-autentifikasiyası-nə-üçündür">🔐 PIN Autentifikasiyası Nə Üçündür?</h1>
+
+<p>Səsli idarəetmə rahatdır, lakin təkbaşına etibarlı təhlükəsizlik sərhədi sayılmamalıdır. Buna görə Casper-in mobil idarəetmə ssenarisində əmrlərdən əvvəl fiziki autentifikasiya mərhələsi qurulub.</p>
+
+<p>PIN panelinin məqsədi:</p>
+
+<ul>
+  <li>idarəetmə sessiyasını hər kəs üçün açıq saxlamamaq;</li>
+  <li>düzgün və yanlış giriş cəhdlərini ayırmaq;</li>
+  <li>icazəsiz cəhddə əməliyyatı dayandırmaq;</li>
+  <li>təsdiqlənmiş istifadəçiyə məhdud funksiyalar təqdim etmək;</li>
+  <li>gələcəkdə RFID və barmaq izi ilə çoxfaktorlu yoxlamaya keçməkdir.</li>
+</ul>
+
+<p>İctimai təqdimatda real kodlar, cihaz ünvanları və daxili əlaqə parametrləri göstərilmir. Məqsəd işləyən təhlükəsizlik konseptini nümayiş etdirməkdir, infrastrukturu açmaq deyil.</p>
+
+<hr />
+
+<h1 id="️-casper-hansı-mobil-əməliyyatları-i̇darə-edir">🗣️ Casper Hansı Mobil Əməliyyatları İdarə Edir?</h1>
+
+<p>Demo mühitində Casper əvvəlcədən icazə verilmiş əmrləri qəbul edir:</p>
+
+<ul>
+  <li>📶 Bluetooth rejiminin dəyişdirilməsi;</li>
+  <li>📍 məkan xidmətinin idarə edilməsi;</li>
+  <li>🔊 media səsinin artırılması və azaldılması;</li>
+  <li>💡 ekran parlaqlığının dəyişdirilməsi;</li>
+  <li>🧭 sürətli idarəetmə panelinin açılması və bağlanması;</li>
+  <li>💬 SMS qaralamasının hazırlanması;</li>
+  <li>✅ istifadəçi təsdiqindən sonra mesajın göndərilməsi.</li>
+</ul>
+
+<p>Burada vacib məqam budur: Casper sərbəst və nəzarətsiz şəkildə bütün telefonu idarə etmir. Səsli ifadələr əvvəlcədən müəyyənləşdirilmiş <strong>icazəli komandalar siyahısı</strong> ilə uyğunlaşdırılır. Tanınmayan və ya riskli sorğular avtomatik əməliyyata çevrilmir.</p>
+
+<p>Bu yanaşma təhlükəsizlik avtomatlaşdırmasında istifadə olunan <em>allowlist</em> prinsipinə bənzəyir: sistem yalnız açıq şəkildə təsdiqlənmiş funksiyaları icra edir.</p>
+
+<hr />
+
+<h1 id="-sms-əməliyyatında-i̇nsan-təsdiqi">💬 SMS Əməliyyatında İnsan Təsdiqi</h1>
+
+<p>Mesaj göndərilməsi digər mobil əməliyyatlardan daha həssasdır. Buna görə layihədə SMS prosesi iki mərhələyə bölünüb:</p>
+
+<ol>
+  <li>Casper əvvəlcə alıcını və test mətnini ehtiva edən qaralama hazırlayır.</li>
+  <li>Mesaj yalnız ayrıca səsli təsdiqdən sonra göndərilir.</li>
+</ol>
+
+<p>Göndərmə anında sistem düzgün tətbiqin, nəzərdə tutulan alıcının, mətn sahəsinin və göndərmə düyməsinin mövcudluğunu yoxlayır. Uyğunsuzluq aşkarlanarsa əməliyyat dayandırılır.</p>
+
+<p>Bu, Casper layihəsinin əsas dizayn fəlsəfəsini göstərir: <strong>AI təklif edə və hazırlaya bilər, lakin həssas əməliyyat insan təsdiqi ilə tamamlanmalıdır.</strong></p>
+
+<hr />
+
+<h1 id="-demo-2--digispark-ilə-usb-təhlükəsizlik-skanı">🎥 Demo 2 — Digispark ilə USB Təhlükəsizlik Skanı</h1>
+
+<p>İkinci videoda Digispark/ATtiny85 əsaslı USB cihazının Casper tərəfindən aşkarlanması və təhlükəsizlik skanı ssenarisi göstərilir:</p>
+
+<iframe src="https://www.instagram.com/reel/Dcqx6lKNC2j/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen=""></iframe>
+
+<p>📱 <strong>Instagram Reel:</strong> <a href="https://www.instagram.com/reel/Dcqx6lKNC2j/?igsi=MTk4ZTZ0cjg1ZnRoaA==">Casper Digispark USB təhlükəsizlik demosuna bax</a></p>
+
+<p>USB cihazı telefona qoşulduqda Casper hadisəni aşkarlayır, vizual rejimini dəyişir və istifadəçiyə yeni qurğunun yoxlanmalı olduğunu bildirir. Sonra istifadəçi təsdiqi ilə laboratoriya skanı başlanır və nəticə ekranda təqdim edilir.</p>
+
+<p>Bu demo real zərərli kod yaymaq üçün deyil. Məqsəd mobil sistemdə yeni USB qurğusunun qoşulmasını <strong>təhlükəsizlik hadisəsi</strong> kimi izləmək və nəzarətli analiz axını yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-usb-cihazı-niyə-təhlükəsizlik-hadisəsidir">💾 USB Cihazı Niyə Təhlükəsizlik Hadisəsidir?</h1>
+
+<p>USB interfeysi yalnız yaddaş daşıyıcısı demək deyil. Qoşulan cihaz sistem tərəfindən fərqli siniflərdə tanına bilər və müxtəlif davranış göstərə bilər. Təhlükəsizlik baxımından əsas risklər bunlardır:</p>
+
+<ul>
+  <li>cihazın kimliyinin və məqsədinin məlum olmaması;</li>
+  <li>klaviatura və ya başqa periferik qurğu kimi təqdim olunması;</li>
+  <li>icazəsiz məlumat ötürülməsi ehtimalı;</li>
+  <li>istifadəçinin cihazı avtomatik etibarlı hesab etməsi;</li>
+  <li>qoşulma hadisəsinin qeydə alınmaması;</li>
+  <li>təhlükəli əməliyyatın təsdiqsiz başlaması.</li>
+</ul>
+
+<p>Casper USB modulunun rolu cihazın bütün məzmununu kor-koranə açmaq deyil. İlk mərhələdə o, qoşulma hadisəsini görür, cihaz barədə məhdud texniki identifikasiya aparır, risk statusu yaradır və istifadəçidən qərar istəyir.</p>
+
+<p>Bu yanaşma gələcəkdə USB Device Control, mobil EDR və SOC xəbərdarlıq sistemləri ilə genişləndirilə bilər.</p>
+
+<hr />
+
+<h1 id="-robot-gözləri-təhlükəsizlik-statusunu-necə-göstərir">👀 Robot Gözləri Təhlükəsizlik Statusunu Necə Göstərir?</h1>
+
+<p>Casper-in robot gözləri yalnız vizual effekt deyil. Onlar sistemin cari vəziyyətini istifadəçiyə dərhal göstərən interfeys rolunu oynayır:</p>
+
+<ul>
+  <li>🔵 <strong>Listening:</strong> Casper səsli komandanı dinləyir;</li>
+  <li>🟡 <strong>Thinking:</strong> məlumat yoxlanılır və qərar hazırlanır;</li>
+  <li>🟢 <strong>Ready:</strong> sistem yeni əməliyyata hazırdır;</li>
+  <li>🔴 <strong>Alert:</strong> naməlum USB və ya təhlükəsizlik hadisəsi aşkarlanıb;</li>
+  <li>😊 <strong>Success:</strong> əməliyyat uğurla tamamlanıb;</li>
+  <li>😴 <strong>Standby:</strong> aktiv tapşırıq yoxdur.</li>
+</ul>
+
+<p>Məsələn, yeni USB cihazı aşkarlananda gözlərin xəbərdarlıq rejiminə keçməsi istifadəçiyə ekrandakı mətni oxumadan belə risk olduğunu bildirir. SMS göndərildikdə isə əməliyyatın nəticəsi qısa vizual bildirişlə göstərilir.</p>
+
+<hr />
+
+<h1 id="-i̇ki-demonun-ortaq-arxitekturası">🧠 İki Demonun Ortaq Arxitekturası</h1>
+
+<p>Səsli mobil idarəetmə və USB təhlükəsizlik skanı fərqli giriş nöqtələrindən başlasa da, eyni təhlükəsizlik modelindən istifadə edir:</p>
+
+<ol>
+  <li><strong>Hadisə:</strong> PIN daxil edilir, səsli əmr verilir və ya USB qoşulur.</li>
+  <li><strong>Aşkarlama:</strong> ESP32-S3 və ya Android tətbiqi hadisəni tanıyır.</li>
+  <li><strong>Normallaşdırma:</strong> məlumat sistemin anlaya biləcəyi komandaya çevrilir.</li>
+  <li><strong>Yoxlama:</strong> icazə, vəziyyət və gözlənilən kontekst təsdiqlənir.</li>
+  <li><strong>İcra:</strong> yalnız icazəli funksiya test cihazında başladılır.</li>
+  <li><strong>Geribildirim:</strong> Casper nəticəni səs, animasiya və statusla təqdim edir.</li>
+  <li><strong>Audit:</strong> əməliyyat laboratoriya jurnalında qeydə alına bilər.</li>
+</ol>
+
+<p>Bu model gələcəkdə yalnız telefon üçün deyil, SIEM alertləri, server nəzarəti, RFID giriş sistemi, barmaq izi autentifikasiyası və robot hərəkətlərinin idarə olunması üçün də istifadə edilə bilər.</p>
+
+<hr />
+
+<h1 id="️-red-team-blue-team-və-purple-team-baxışı">⚔️ Red Team, Blue Team və Purple Team Baxışı</h1>
+
+<h2 id="-red-team">🔴 Red Team</h2>
+
+<p>Red Team baxımından layihə fiziki giriş nöqtələrinin, mobil avtomatlaşdırmanın və USB cihaz davranışının necə təhlükəsizlik səthinə çevrildiyini öyrənməyə imkan verir. Təcrübələr yalnız sahibinə məxsus və ya açıq şəkildə icazə verilmiş cihazlarda aparılır.</p>
+
+<h2 id="-blue-team">🔵 Blue Team</h2>
+
+<p>Blue Team üçün əsas dəyər aşkarlama və cavab mexanizmidir:</p>
+
+<ul>
+  <li>naməlum cihazın qoşulmasını qeydə almaq;</li>
+  <li>səhv autentifikasiya cəhdini bloklamaq;</li>
+  <li>əməliyyat nəticəsini istifadəçiyə bildirmək;</li>
+  <li>riskli addımdan əvvəl təsdiq tələb etmək;</li>
+  <li>gələcəkdə hadisəni SIEM sisteminə ötürmək.</li>
+</ul>
+
+<h2 id="-purple-team">🟣 Purple Team</h2>
+
+<p>Purple Team yanaşmasında hər iki tərəf bir ssenaridə birləşir: əvvəl riskli davranış nəzarətli şəkildə simulyasiya olunur, sonra aşkarlama, bloklama və hesabat mexanizmi yoxlanılır.</p>
+
+<hr />
+
+<h1 id="-təhlükəsiz-dizayn-prinsipləri">🔐 Təhlükəsiz Dizayn Prinsipləri</h1>
+
+<p>Casper kimi AI və fiziki idarəetməni birləşdirən sistemlərdə aşağıdakı qaydalar vacibdir:</p>
+
+<ul>
+  <li>yalnız icazəli laboratoriya və şəxsi cihazlardan istifadə;</li>
+  <li>kritik əməliyyatlardan əvvəl insan təsdiqi;</li>
+  <li>minimum səlahiyyət prinsipi;</li>
+  <li>komandalar üçün allowlist yanaşması;</li>
+  <li>giriş kodları, tokenlər və şəbəkə ünvanlarının gizli saxlanması;</li>
+  <li>hadisələrin audit jurnalına yazılması;</li>
+  <li>yanlış kontekstdə əməliyyatın dayandırılması;</li>
+  <li>mikrocontroller və mobil tətbiq arasında etibarlı rabitə;</li>
+  <li>nasazlıq zamanı təhlükəsiz dayanma rejimi;</li>
+  <li>demo məlumatlarının real şəxsi məlumatlardan ayrılması.</li>
+</ul>
+
+<p>İctimai məqalədə sistemin daxili ünvanları, tam əmrləri, autentifikasiya məlumatları və müdafiə mexanizmlərinin keçilməsinə kömək edə biləcək detalları paylaşılmır.</p>
+
+<hr />
+
+<h1 id="-tədris-və-laboratoriya-dəyəri">🎓 Tədris və Laboratoriya Dəyəri</h1>
+
+<p>Bu layihə tələbəyə bir sistem daxilində bir neçə istiqamətin əlaqəsini göstərir:</p>
+
+<ul>
+  <li>ESP32-S3 və mikrokontroller proqramlaşdırması;</li>
+  <li>toxunma paneli və fiziki autentifikasiya;</li>
+  <li>Android tətbiq arxitekturası;</li>
+  <li>AI əsaslı səs tanıma;</li>
+  <li>server və API məntiqi;</li>
+  <li>mobil təhlükəsizlik avtomatlaşdırması;</li>
+  <li>USB cihaz aşkarlaması;</li>
+  <li>təhlükəsiz əməliyyat təsdiqi;</li>
+  <li>Red Team və Blue Team ssenariləri;</li>
+  <li>vizual və səsli geribildirim;</li>
+  <li>audit və gələcək SIEM inteqrasiyası.</li>
+</ul>
+
+<p>Tələbə yalnız hazır aləti işlətmir. O, hadisənin fiziki cihazdan başlayaraq tətbiqə, serverə, təhlükəsizlik qərarına və istifadəçi bildirişinə qədər necə hərəkət etdiyini görür.</p>
+
+<hr />
+
+<h1 id="-gələcək-i̇nkişaf-i̇stiqamətləri">🚀 Gələcək İnkişaf İstiqamətləri</h1>
+
+<p>Casper-in bu iki modulu gələcəkdə aşağıdakı imkanlarla genişləndirilə bilər:</p>
+
+<ul>
+  <li>RFID və barmaq izi ilə çoxfaktorlu autentifikasiya;</li>
+  <li>naməlum USB cihazları üçün risk balı;</li>
+  <li>SIEM və SOAR sistemlərinə hadisə ötürülməsi;</li>
+  <li>Telegram və PDF təhlükəsizlik hesabatları;</li>
+  <li>lokal AI ilə internetdən asılı olmayan səsli idarəetmə;</li>
+  <li>istifadəçinin səs profilinin tanınması;</li>
+  <li>USB cihaz siyasətlərinin mərkəzləşdirilmiş idarəsi;</li>
+  <li>mobil cihaz vəziyyətinin real vaxt monitorinqi;</li>
+  <li>təhlükəsiz incident-response playbook-ları;</li>
+  <li>robot platforması üzərində fiziki patrul və müşahidə.</li>
+</ul>
+
+<p>Əsas məqsəd bütün idarəetməni AI-yə vermək deyil. Məqsəd insan nəzarətində işləyən, səbəbini izah edən və həssas addımlarda təsdiq istəyən ağıllı təhlükəsizlik assistenti yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-nəticə">🌍 Nəticə</h1>
+
+<p>CyberShieldy Casper layihəsinin səsli mobil idarəetmə və Digispark USB skan modulları AI, IoT və kibertəhlükəsizliyin praktik şəkildə necə birləşdirilə biləcəyini göstərir.</p>
+
+<p>Bu sistemdə:</p>
+
+<ul>
+  <li>ESP32-S3 fiziki autentifikasiya qatını yaradır;</li>
+  <li>Casper istifadəçinin səsli əmrini anlayır;</li>
+  <li>server əmri yoxlayır və idarəetmə axınını koordinasiya edir;</li>
+  <li>Android cihaz yalnız icazəli funksiyanı icra edir;</li>
+  <li>SMS kimi həssas əməliyyat insan təsdiqi gözləyir;</li>
+  <li>Digispark qoşulması təhlükəsizlik hadisəsi kimi aşkarlanır;</li>
+  <li>robot gözləri və səs sistemi nəticəni canlı şəkildə təqdim edir.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Casper sadəcə telefondakı funksiyanı işə salmır. O, fiziki girişdən təhlükəsizlik qərarına və nəticənin təqdim edilməsinə qədər bütöv bir laboratoriya prosesini idarə edir.</strong></p>
+</blockquote>
+
+<p>🤖 <strong>Bu, CyberShieldy Casper-dir — AI, mobil təhlükəsizlik, IoT və insan nəzarətinin birləşdiyi interaktiv kiber laboratoriya.</strong></p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></li>
+  <li>🤖⚡ <a href="https://cybershieldy.com/posts/ai-cybersecurity-assistant">CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi</a></li>
+</ul>
+
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə təlimçi</strong></p>
+
+<p>🌐 <a href="https://cybershieldy.com">CyberShieldy.com</a></p>
+
+<blockquote>
+  <p><strong>“Gələcəyin SOC analitiki süni intellektlə yarışmayacaq — onunla birlikdə işləyəcək.”</strong></p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="mobil təhlükəsizlik" /><category term="iot" /><category term="security automation" /><category term="casper ai" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="android security" /><category term="mobile security" /><category term="usb security" /><category term="digispark" /><category term="attiny85" /><category term="esp32-s3" /><category term="voice control" /><category term="security automation" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="iot security" /><category term="cyber lab" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper layihəsində səsli əmrlərlə Android idarəetməsi, PIN autentifikasiyası, SMS əməliyyatları və Digispark əsaslı USB təhlükəsizlik skanı vahid AI kibertəhlükəsizlik laboratoriyasında birləşdirilir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-ai-mobile-usb-security.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-ai-mobile-usb-security.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu</title><link href="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚡ CyberShieldy Casper: Fiziki Düymələrlə İdarə Olunan AI Kibertəhlükəsizlik Robotu" /><published>2026-08-23T08:00:00+04:00</published><updated>2026-08-23T13:22:21+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-robot-esp32-sensor-servo-telegram-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-cybersecurity-robot"><![CDATA[<h1 id="-cybershieldy-casper-kibertəhlükəsizliyin-fiziki-düymələrlə-i̇darə-olunan-gələcəyi">🤖⚡ CyberShieldy Casper: Kibertəhlükəsizliyin Fiziki Düymələrlə İdarə Olunan Gələcəyi</h1>
 
 <p>Bir düyməyə toxunursunuz.</p>
 
@@ -5230,416 +5658,4 @@ Transport: ADB File Stream</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="rf təhlükəsizliyi" /><category term="wireless security" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><category term="rf security" /><category term="wireless security" /><category term="radio frequency" /><category term="wifi security" /><category term="bluetooth security" /><category term="iot security" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile security" /><category term="android security" /><category term="network security" /><category term="cyber lab" /><category term="cybersecurity training" /><category term="infosec" /><category term="wireless monitoring" /><category term="radio signals" /><category term="cybersecurity lessons" /><summary type="html"><![CDATA[Radio tezlikləri və görünməyən simsiz dünya müasir kibertəhlükəsizlikdə niyə vacibdir? RF siqnalları, IoT sistemləri, monitorinq və gələcəyin təhlükəsizlik mütəxəssisləri haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/rf.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/rf.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</title><link href="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir" rel="alternate" type="text/html" title="🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir" /><published>2026-06-07T10:00:00+04:00</published><updated>2026-06-07T18:46:12+04:00</updated><id>https://cybershieldy.com/posts/kibertehlukesizlik-artiq-layihe-esaslidir</id><content type="html" xml:base="https://cybershieldy.com/posts/kiber-tehlukesizlik-artiq-deyisir"><![CDATA[<h1 id="️-kibertəhlükəsizlik-dəyişir-90-cı-i̇llərin-yanaşması-artıq-kifayət-etmir">🛡️ Kibertəhlükəsizlik Dəyişir: 90-cı İllərin Yanaşması Artıq Kifayət Etmir</h1>
-
-<p>Uzun illər əvvəl insanlar “hacker” sözünü eşidəndə gözlərinin qarşısına qaranlıq otaqda oturan, qara ekranda yaşıl yazılar arasında kod yazan biri gəlirdi.</p>
-
-<p>Filmlər, seriallar və internet mədəniyyəti də bu obrazı daha da məşhur etmişdi.</p>
-
-<p>Lakin zaman dəyişdi.</p>
-
-<p>İnternet dəyişdi.</p>
-
-<p>Texnologiya dəyişdi.</p>
-
-<p>Ən əsası isə kibertəhlükəsizlik sahəsinin özü tamamilə başqa istiqamətə keçdi.</p>
-
-<p>Bu gün artıq təkcə bir neçə proqramı işlədə bilmək və ya müəyyən alətlərlə tanış olmaq peşəkar mütəxəssis olmaq üçün kifayət etmir.</p>
-
-<p>Müasir kibertəhlükəsizlik layihə, analiz və sistem düşüncəsi üzərində qurulur.</p>
-
-<hr />
-
-<h1 id="-bu-mövzuda-hazırladığım-video">🎥 Bu mövzuda hazırladığım video</h1>
-
-<p>📲 Instagram Reels:</p>
-
-<p>https://www.instagram.com/reel/DZIMptjNhxm/?igsh=MWdwYzZxa3VrMTlnMg==</p>
-
-<iframe src="https://www.instagram.com/reel/DZIMptjNhxm/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<hr />
-
-<h1 id="-90-cı-illərdə-kibertəhlükəsizlik-necə-görünürdü">🌍 90-cı illərdə kibertəhlükəsizlik necə görünürdü?</h1>
-
-<p>İlk internet dövrlərində sistemlər bugünkü qədər mürəkkəb deyildi.</p>
-
-<p>Şəbəkələr kiçik idi.</p>
-
-<p>Bulud texnologiyaları yox idi.</p>
-
-<p>Mobil tətbiqlər demək olar ki, mövcud deyildi.</p>
-
-<p>Bir çox sistem ayrıca işləyirdi və təhlükəsizlik yanaşması da daha sadə idi.</p>
-
-<p>O dövrdə əsas məqsəd sistemi tanımaq, zəiflikləri müəyyən etmək və onların necə işlədiyini başa düşmək idi.</p>
-
-<p>Bu yanaşma həmin dövr üçün kifayət qədər effektiv idi.</p>
-
-<p>Amma bu gün artıq milyonlarla cihaz, server, tətbiq və istifadəçi eyni anda bir-biri ilə əlaqə saxlayır.</p>
-
-<p>Belə bir mühitdə köhnə yanaşmalar təkbaşına kifayət etmir.</p>
-
-<hr />
-
-<h1 id="-müasir-kibertəhlükəsizlik-artıq-sistem-düşüncəsidir">🧠 Müasir kibertəhlükəsizlik artıq sistem düşüncəsidir</h1>
-
-<p>Bugünkü mütəxəssis yalnız bir hadisəyə baxmır.</p>
-
-<p>O, hadisənin haradan başladığını, hansı sistemlərə təsir etdiyini və hansı nəticələrə səbəb ola biləcəyini analiz edir.</p>
-
-<p>Bir istifadəçinin sistemə daxil olması…</p>
-
-<p>Bir tətbiqin serverə qoşulması…</p>
-
-<p>Bir cihazın şəbəkəyə bağlanması…</p>
-
-<p>Bir xidmətin dayanması…</p>
-
-<p>Bütün bunlar ayrı-ayrı hadisələr deyil.</p>
-
-<p>Onlar böyük bir zəncirin hissələridir.</p>
-
-<p>Peşəkar mütəxəssis isə həmin zənciri görə bilir.</p>
-
-<hr />
-
-<h1 id="-log-və-hadisə-analizinin-rolu">📊 Log və hadisə analizinin rolu</h1>
-
-<p>Rəqəmsal dünyada baş verən demək olar ki, hər bir əməliyyat öz arxasında müəyyən iz buraxır.</p>
-
-<p>Bu izlər bəzən sadə görünə bilər.</p>
-
-<p>Amma düzgün analiz olunduqda böyük mənzərəni göstərir.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>istifadəçi girişləri</li>
-  <li>sistem dəyişiklikləri</li>
-  <li>şəbəkə əlaqələri</li>
-  <li>tətbiq fəaliyyətləri</li>
-  <li>autentifikasiya cəhdləri</li>
-  <li>xidmətlərin işə düşməsi və dayanması</li>
-</ul>
-
-<p>Bəzən bir hücum tək bir hadisədən ibarət olmur.</p>
-
-<p>O, müxtəlif mənbələrdə görünən onlarla kiçik hadisənin birləşməsindən yaranır.</p>
-
-<p>Bu səbəbdən müasir kibertəhlükəsizlikdə hadisələri əlaqələndirmək bacarığı çox böyük əhəmiyyət daşıyır.</p>
-
-<hr />
-<hr />
-
-<h1 id="️-bulud-texnologiyaları-və-yeni-təhlükəsizlik-çağırışları">☁️ Bulud Texnologiyaları və Yeni Təhlükəsizlik Çağırışları</h1>
-
-<p>90-cı illərdə şirkətlərin əksəriyyəti öz serverlərini fiziki olaraq idarə edirdi.</p>
-
-<p>Bu gün isə vəziyyət tamamilə fərqlidir.</p>
-
-<p>Bulud texnologiyaları milyonlarla istifadəçinin məlumatlarını eyni infrastruktur üzərində saxlayır.</p>
-
-<p>AWS.</p>
-
-<p>Azure.</p>
-
-<p>Google Cloud.</p>
-
-<p>Və digər platformalar artıq müasir biznesin ayrılmaz hissəsinə çevrilib.</p>
-
-<p>Bu dəyişiklik kibertəhlükəsizlik mütəxəssislərinin qarşısına yeni vəzifələr çıxarıb.</p>
-
-<p>Artıq yalnız bir serveri qorumaq kifayət etmir.</p>
-
-<p>Bulud mühitləri.</p>
-
-<p>API-lər.</p>
-
-<p>Konteynerlər.</p>
-
-<p>Virtual maşınlar.</p>
-
-<p>Mikroxidmətlər.</p>
-
-<p>Bütün bunların təhlükəsizliyi ayrıca diqqət tələb edir.</p>
-
-<hr />
-
-<h1 id="-android-və-mobil-təhlükəsizlik-niyə-önəmlidir">📱 Android və Mobil Təhlükəsizlik Niyə Önəmlidir?</h1>
-
-<p>Müasir insanın rəqəmsal həyatı böyük ölçüdə smartfon üzərində qurulub.</p>
-
-<p>Bank hesabları.</p>
-
-<p>Sosial şəbəkələr.</p>
-
-<p>Elektron poçtlar.</p>
-
-<p>Şəxsi məlumatlar.</p>
-
-<p>İş sənədləri.</p>
-
-<p>Bütün bunlar mobil cihazlarda saxlanılır.</p>
-
-<p>Bu səbəbdən Android və mobil təhlükəsizlik son illərdə kibertəhlükəsizliyin ən vacib istiqamətlərindən birinə çevrilib.</p>
-
-<p>Bir çox hücum artıq kompüterlərə deyil, birbaşa istifadəçinin telefonuna yönəlir.</p>
-
-<hr />
-
-<h1 id="-android-pentest-və-mobil-tətbiq-təhlükəsizliyi">📲 Android Pentest və Mobil Tətbiq Təhlükəsizliyi</h1>
-
-<p>Android təhlükəsizliyi sadəcə tətbiq quraşdırmaq və ya antivirus istifadə etməkdən ibarət deyil.</p>
-
-<p>Mobil tətbiqlərin arxasında mürəkkəb sistemlər fəaliyyət göstərir.</p>
-
-<p>Bu sahədə çalışan mütəxəssislər aşağıdakı istiqamətlərdə araşdırmalar aparırlar:</p>
-
-<ul>
-  <li>APK analizi</li>
-  <li>Reverse Engineering</li>
-  <li>API təhlükəsizliyi</li>
-  <li>Mobil tətbiq zəiflikləri</li>
-  <li>Trafik monitorinqi</li>
-  <li>Sertifikat və şifrələmə mexanizmləri</li>
-  <li>Mobil malware analizi</li>
-  <li>Android Permission təhlükəsizliyi</li>
-</ul>
-
-<p>Bugünkü bug bounty proqramlarında mobil tətbiqlər üzərində araşdırma aparan mütəxəssislərə böyük ehtiyac var.</p>
-
-<hr />
-
-<h1 id="-süni-i̇ntellekt-kibertəhlükəsizliyi-necə-dəyişir">🤖 Süni İntellekt Kibertəhlükəsizliyi Necə Dəyişir?</h1>
-
-<p>Son illərdə süni intellekt texnologiyalarının inkişafı kibertəhlükəsizlik sahəsinə də ciddi təsir göstərib.</p>
-
-<p>Artıq təhlükələrin aşkarlanması.</p>
-
-<p>Log analizi.</p>
-
-<p>Anomaliya aşkarlanması.</p>
-
-<p>Hadisələrin korrelyasiyası.</p>
-
-<p>Təhlükə kəşfiyyatı.</p>
-
-<p>Kimi proseslərdə süni intellektdən istifadə edilir.</p>
-
-<p>Lakin bu texnologiya yalnız müdafiə tərəfinin əlində deyil.</p>
-
-<p>Hücumçular da avtomatlaşdırılmış sistemlərdən istifadə etməyə başlayırlar.</p>
-
-<p>Bu səbəbdən gələcəyin mütəxəssisi həm təhlükəsizliyi, həm də süni intellekt texnologiyalarını başa düşməlidir.</p>
-
-<hr />
-
-<h1 id="-osint-və-məlumat-kəşfiyyatının-artan-rolu">🌐 OSINT və Məlumat Kəşfiyyatının Artan Rolu</h1>
-
-<p>İnformasiya müasir dövrün ən dəyərli resurslarından biridir.</p>
-
-<p>Bir çox hallarda sistemə daxil olmadan belə böyük həcmdə məlumat toplamaq mümkündür.</p>
-
-<p>OSINT (Open Source Intelligence) məhz bu məqsədlə istifadə olunur.</p>
-
-<p>Domen məlumatları.</p>
-
-<p>Sosial şəbəkələr.</p>
-
-<p>Açıq mənbələr.</p>
-
-<p>Texniki metadata.</p>
-
-<p>Sızmış məlumat bazaları.</p>
-
-<p>Bütün bunlar təhlükəsizlik araşdırmalarında mühüm rol oynayır.</p>
-
-<p>Peşəkar mütəxəssis yalnız sistemləri deyil, məlumat axınını da analiz etməyi bacarmalıdır.</p>
-
-<hr />
-
-<h1 id="-gələcəkdə-kibertəhlükəsizlik-hara-gedir">🔮 Gələcəkdə Kibertəhlükəsizlik Hara Gedir?</h1>
-
-<p>Texnologiyanın inkişaf sürəti hər il artır.</p>
-
-<p>IoT cihazları çoxalır.</p>
-
-<p>Süni intellekt inkişaf edir.</p>
-
-<p>Mobil platformalar böyüyür.</p>
-
-<p>Bulud sistemləri genişlənir.</p>
-
-<p>Bu dəyişikliklər kibertəhlükəsizlik mütəxəssislərinin də daim yenilənməsini tələb edir.</p>
-
-<p>Gələcəyin ən uğurlu mütəxəssisi yalnız bir aləti bilən deyil.</p>
-
-<p>Sistemi bütöv şəkildə görə bilən.</p>
-
-<p>Araşdıran.</p>
-
-<p>Analiz edən.</p>
-
-<p>Öyrənməyi dayandırmayan insan olacaq.</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>🔎🧠 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
-  <li>🔴🔵🛡️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
-  <li>🔌💀🧠 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar və Təhlükəsizlik Riskləri</a></li>
-  <li>📡🔓⚠️ <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth Hücumları</a></li>
-  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik</a></li>
-  <li>🤖🚀 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin</strong></p>
-
-<p><strong>Kibertəhlükəsizlik mütəxəssisi • Red &amp; Blue Team üzrə təlimçi</strong></p>
-
-<p>🚀 Real bilik &gt; sertifikat</p>
-
-<p>💻 Praktiki təcrübə • Real layihələr • Müasir yanaşma</p>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="texnologiya" /><category term="gələcək" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><summary type="html"><![CDATA[Müasir kibertəhlükəsizlik artıq sadəcə bir neçə aləti işlətmək deyil. Sistem düşüncəsi, log analizi və layihə əsaslı inkişaf gələcəyin əsas istiqamətinə çevrilib.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/new-hacker.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/new-hacker.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="rf təhlükəsizliyi" /><category term="wireless security" /><category term="kiber təhlükəsizlik" /><category term="kiber dersleri" /><category term="hacker" /><category term="hacking" /><category term="hacker dersleri" /><category term="cyber security" /><category term="cybersecurity" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="soc" /><category term="siem" /><category term="log analizi" /><category term="layihə əsaslı öyrənmə" /><category term="informasiya təhlükəsizliyi" /><category term="linux" /><category term="network security" /><category term="penetration testing" /><category term="android security" /><category term="android pentesting" /><category term="mobile security" /><category term="mobile application security" /><category term="android hacking" /><category term="android təhlükəsizliyi" /><category term="mobil təhlükəsizlik" /><category term="mobil tətbiq təhlükəsizliyi" /><category term="android dersleri" /><category term="android pentest" /><category term="smartphone security" /><category term="cyber lab" /><category term="osint" /><category term="bug bounty" /><category term="kibertəhlükəsizlik kursu" /><category term="rf security" /><category term="wireless security" /><category term="radio frequency" /><category term="wifi security" /><category term="bluetooth security" /><category term="iot security" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile security" /><category term="android security" /><category term="network security" /><category term="cyber lab" /><category term="cybersecurity training" /><category term="infosec" /><category term="wireless monitoring" /><category term="radio signals" /><category term="cybersecurity lessons" /><summary type="html"><![CDATA[Radio tezlikləri və görünməyən simsiz dünya müasir kibertəhlükəsizlikdə niyə vacibdir? RF siqnalları, IoT sistemləri, monitorinq və gələcəyin təhlükəsizlik mütəxəssisləri haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/rf.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/rf.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
