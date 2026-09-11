@@ -1,70 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-11T17:33:32+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması</title><link href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması" /><published>2026-09-11T08:24:00+04:00</published><updated>2026-09-11T08:24:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-kiber-tehlukesizlik-robotu-pentest-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot"><![CDATA[<p><strong># 🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-11T17:48:34+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması</title><link href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması" /><published>2026-09-11T08:24:00+04:00</published><updated>2026-09-11T08:24:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-kiber-tehlukesizlik-robotu-pentest-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot"><![CDATA[<h1 id="️-cybershieldy-casper-gələcəyin-ai-pentest-robotu">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu</h1>
 
 <p>Bir tərəfdə telefon və kompüteri səsli əmrlərlə idarə edə bilən süni intellekt sistemi var.</p>
 
-<p>Digər tərəfdə isə Nmap, SQLmap, proxy, mobil təhlükəsizlik, IoT, Red Team və Blue Team proseslərini vahid idarəetmə qatında birləşdirən <strong>**CyberShieldy Casper**</strong> platforması inkişaf edir.</p>
+<p>Digər tərəfdə isə Nmap, SQLmap, proxy, mobil təhlükəsizlik, IoT, Red Team və Blue Team proseslərini vahid idarəetmə qatında birləşdirən <strong>CyberShieldy Casper</strong> platforması inkişaf edir.</p>
 
 <p>Bu sistemlər ayrı-ayrı layihələr kimi görünə bilər.</p>
 
 <p>Əslində isə onların hamısı eyni böyük konseptin hissəsidir:</p>
 
-<p>&gt; <strong>**Gələcəkdə fiziki robot formasında işləyən, görən, eşidən, analiz edən, danışan, hərəkət edən, icazəli pentest proseslərini koordinasiya edən və eyni zamanda müdafiə tərəfini yoxlayan AI Cybersecurity Robot yaratmaq.**</strong></p>
+<blockquote>
+  <p><strong>Gələcəkdə fiziki robot formasında işləyən, görən, eşidən, analiz edən, danışan, hərəkət edən, icazəli pentest proseslərini koordinasiya edən və eyni zamanda müdafiə tərəfini yoxlayan AI Cybersecurity Robot yaratmaq:</strong></p>
+</blockquote>
 
 <p>CyberShieldy Casper sadəcə səsli köməkçi deyil.</p>
 
-<p>O, mərhələli şəkildə <strong>**AI, kibertəhlükəsizlik, Red Team, Blue Team, IoT, mobil təhlükəsizlik, avtomatlaşdırma və robototexnikanı**</strong> vahid sistemdə birləşdirən eksperimental platformadır.</p>
+<p>O, mərhələli şəkildə <strong>AI, kibertəhlükəsizlik, Red Team, Blue Team, IoT, mobil təhlükəsizlik, avtomatlaşdırma və robototexnikanı</strong> vahid sistemdə birləşdirən eksperimental platformadır.</p>
 
 <p>Casper-in gələcək məqsədi yalnız istifadəçiyə cavab vermək deyil.</p>
 
 <p>Məqsəd onun kiber laboratoriyanı anlaya bilməsi, müxtəlif təhlükəsizlik sistemləri arasında əlaqə qurması və insan nəzarəti altında təhlükəsizlik proseslərini idarə etməsidir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🎥 Casper AI — Yeni Demo</strong></p>
+<h1 id="-casper-ai--yeni-demo">🎥 Casper AI — Yeni Demo</h1>
 
 <p>CyberShieldy Casper layihəsinin hazırkı inkişaf mərhələlərindən birini aşağıdakı videoda izləmək mümkündür:</p>
 
-<p>&lt;iframe src=”https://www.instagram.com/reel/DdHG5AqN-tx/embed”</p>
+<iframe src="https://www.instagram.com/reel/DdHG5AqN-tx/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen=""></iframe>
 
-<p>width=”100%” height=”700” style=”border:none;overflow:hidden;border-radius:12px;” allowfullscreen&gt;&lt;/iframe&gt;</p>
-
-<p>📱 <strong>**Instagram Reel:**</strong> [CyberShieldy Casper AI demosuna bax](https://www.instagram.com/reel/DdHG5AqN-tx/?stkn=MXYyenNuOWR3MTZjZg==)</p>
+<p>📱 <strong>Instagram Reel:</strong> <a href="https://www.instagram.com/reel/DdHG5AqN-tx/?stkn=MXYyenNuOWR3MTZjZg==">CyberShieldy Casper AI demosuna bax</a></p>
 
 <p>Bu video Casper-in son forması deyil.</p>
 
 <p>Bu, gələcəyin fiziki AI kibertəhlükəsizlik robotuna gedən inkişaf yolunun mərhələlərindən biridir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🧠 Casper Nədir?</strong></p>
+<h1 id="-casper-nədir">🧠 Casper Nədir?</h1>
 
-<p>CyberShieldy Casper, Savaylov Emin tərəfindən inkişaf etdirilən eksperimental <strong>**AI Cybersecurity Assistant və gələcəyin fiziki Cybersecurity Robot platformasıdır.**</strong></p>
+<p>CyberShieldy Casper, Savaylov Emin tərəfindən inkişaf etdirilən eksperimental <strong>AI Cybersecurity Assistant və gələcəyin fiziki Cybersecurity Robot platformasıdır.</strong></p>
 
 <p>Casper-in əsas ideyası müxtəlif cihazları və təhlükəsizlik sistemlərini vahid ağıllı idarəetmə qatında birləşdirməkdir.</p>
 
 <p>Hazırkı və gələcək konseptdə Casper:</p>
 
-<p>* 🎙️ səsli komandaları qəbul edir;</p>
-
-<p>* 📱 mobil cihazlarla qarşılıqlı işləyir;</p>
-
-<p>* 💻 kompüter sistemlərinə təhlükəsiz idarəetmə sorğuları göndərir;</p>
-
-<p>* 🌐 şəbəkə təhlükəsizlik alətlərini koordinasiya edir;</p>
-
-<p>* 🔎 təhlükəsizlik nəticələrini analiz edir;</p>
-
-<p>* 🔴 Red Team proseslərini idarə edə bilir;</p>
-
-<p>* 🔵 Blue Team hadisələrini izləyə bilir;</p>
-
-<p>* 🟣 Purple Team ssenarilərini birləşdirə bilir;</p>
-
-<p>* 📡 IoT sensorlarından məlumat ala bilir;</p>
-
-<p>* 🤖 fiziki robot platformasına inteqrasiya edilə bilir;</p>
-
-<p>* 📊 nəticələri hesabat şəklində təqdim edə bilir.</p>
+<ul>
+  <li>
+    <p>🎙️ səsli komandaları qəbul edir;</p>
+  </li>
+  <li>
+    <p>📱 mobil cihazlarla qarşılıqlı işləyir;</p>
+  </li>
+  <li>
+    <p>💻 kompüter sistemlərinə təhlükəsiz idarəetmə sorğuları göndərir;</p>
+  </li>
+  <li>
+    <p>🌐 şəbəkə təhlükəsizlik alətlərini koordinasiya edir;</p>
+  </li>
+  <li>
+    <p>🔎 təhlükəsizlik nəticələrini analiz edir;</p>
+  </li>
+  <li>
+    <p>🔴 Red Team proseslərini idarə edə bilir;</p>
+  </li>
+  <li>
+    <p>🔵 Blue Team hadisələrini izləyə bilir;</p>
+  </li>
+  <li>
+    <p>🟣 Purple Team ssenarilərini birləşdirə bilir;</p>
+  </li>
+  <li>
+    <p>📡 IoT sensorlarından məlumat ala bilir;</p>
+  </li>
+  <li>
+    <p>🤖 fiziki robot platformasına inteqrasiya edilə bilir;</p>
+  </li>
+  <li>
+    <p>📊 nəticələri hesabat şəklində təqdim edə bilir.</p>
+  </li>
+</ul>
 
 <p>Casper-in ümumi konsepti belədir:</p>
 
@@ -83,30 +97,62 @@
 13
 14
 15
-</pre></td><td class="rouge-code"><pre>İNSAN
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td><td class="rouge-code"><pre>
+İNSAN
+
    ↓
+
 SƏS / AUTENTİFİKASİYA / MOBİL İNTERFEYS
+
    ↓
+
 CASPER AI
+
    ↓
+
 TƏHLÜKƏSİZLİK QƏRAR QATI
+
    ↓
+
 RED TEAM / BLUE TEAM / SYSTEM CONTROL
+
    ↓
+
 ANALİZ
+
    ↓
+
 NƏTİCƏ
+
    ↓
+
 SƏS + VİZUAL STATUS + AUDIT + REPORT
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <blockquote>
-  <p><strong>**Casper-in əsas prinsipi əmri sadəcə eşitmək deyil. Əmr tanınmalı, icazə yoxlanmalı, düzgün modula yönləndirilməli və nəticə audit edilə bilməlidir.</strong>**</p>
+  <p><strong>Casper-in əsas prinsipi əmri sadəcə eşitmək deyil. Əmr tanınmalı, icazə yoxlanmalı, düzgün modula yönləndirilməli və nəticə audit edilə bilməlidir.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🎙️ Səsli Kiber Təhlükəsizlik İdarəetməsi</strong></p>
+<h1 id="️-səsli-kiber-təhlükəsizlik-i̇darəetməsi">🎙️ Səsli Kiber Təhlükəsizlik İdarəetməsi</h1>
 
 <p>Casper layihəsinin ən vacib xüsusiyyətlərindən biri səsli əmrlərin real təhlükəsizlik prosesləri ilə birləşdirilməsidir.</p>
 
@@ -117,25 +163,41 @@ SƏS + VİZUAL STATUS + AUDIT + REPORT
 <p>Məsələn:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, Nmap rejimini başlat.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, Nmap rejimini başlat.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>və ya:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, proxy statusunu yoxla.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, proxy statusunu yoxla.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>və ya:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, sistemlərin təhlükəsizlik vəziyyətini analiz et.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, sistemlərin təhlükəsizlik vəziyyətini analiz et.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>və ya:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, Blue Team statusunu göstər.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, Blue Team statusunu göstər.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Burada səsli əmr birbaşa nəzarətsiz shell əmrinə çevrilmir.</p>
@@ -180,11 +242,11 @@ SƏS + VİZUAL STATUS + AUDIT + REPORT
 
 <p>Beləliklə Casper-də AI yalnız danışmır.</p>
 
-<p><strong>**AI təhlükəsizlik workflow-sunun koordinasiya qatına çevrilir.</strong>**</p>
+<p><strong>AI təhlükəsizlik workflow-sunun koordinasiya qatına çevrilir.</strong></p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 📱💻 Telefon və Kompüter İdarəetməsi</strong></p>
+<h1 id="-telefon-və-kompüter-i̇darəetməsi">📱💻 Telefon və Kompüter İdarəetməsi</h1>
 
 <p>Casper-in əsas istiqamətlərindən biri mobil cihazlarla kompüter sistemlərini eyni ekosistemdə birləşdirməkdir.</p>
 
@@ -227,24 +289,48 @@ SƏS + VİZUAL STATUS + AUDIT + REPORT
 9
 10
 11
-</pre></td><td class="rouge-code"><pre>CASPER ROBOT
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="rouge-code"><pre>
+CASPER ROBOT
+
      ↓
+
 ANDROID INTERFACE
+
      ↓
+
 VOICE / VISUAL CONTROL
+
      ↓
+
 CASPER AI CORE
+
      ↓
+
 LINUX / WINDOWS / SERVER
+
      ↓
+
 CYBERSECURITY TOOLS
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Bu quruluş Casper-i adi mobil assistant-dan fərqləndirir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔎 Casper + Nmap</strong></p>
+<h1 id="-casper--nmap">🔎 Casper + Nmap</h1>
 
 <p>Nmap şəbəkə təhlükəsizliyi və penetration testing sahəsində əsas analiz alətlərindən biridir.</p>
 
@@ -297,32 +383,68 @@ CYBERSECURITY TOOLS
 15
 16
 17
-</pre></td><td class="rouge-code"><pre>VOICE COMMAND
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+</pre></td><td class="rouge-code"><pre>
+VOICE COMMAND
+
       ↓
+
 CASPER
+
       ↓
+
 AUTHORIZED NETWORK ANALYSIS
+
       ↓
+
 NMAP
+
       ↓
+
 SCAN RESULT
+
       ↓
+
 CASPER ANALYSIS
+
       ↓
+
 RED TEAM VIEW
+
       +
+
 BLUE TEAM VIEW
+
       ↓
+
 REPORT
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <blockquote>
-  <p><strong>**Nmap məlumatı toplayır. Casper isə həmin məlumatın təhlükəsizlik baxımından nə demək olduğunu anlamağa və izah etməyə kömək edir.</strong>**</p>
+  <p><strong>Nmap məlumatı toplayır. Casper isə həmin məlumatın təhlükəsizlik baxımından nə demək olduğunu anlamağa və izah etməyə kömək edir.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🧪 Casper + SQLmap</strong></p>
+<h1 id="-casper--sqlmap">🧪 Casper + SQLmap</h1>
 
 <p>Web Security və Penetration Testing laboratoriyalarında SQL Injection təhlükəsizlik testləri mühüm mövzulardan biridir.</p>
 
@@ -343,25 +465,57 @@ REPORT
 11
 12
 13
-</pre></td><td class="rouge-code"><pre>AUTHORIZED TEST TARGET
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+</pre></td><td class="rouge-code"><pre>
+AUTHORIZED TEST TARGET
+
         ↓
+
 WEB SECURITY TEST
+
         ↓
+
 FINDING
+
         ↓
+
 CASPER ANALYSIS
+
         ↓
+
 RISK CLASSIFICATION
+
         ↓
+
 BLUE TEAM RECOMMENDATION
+
         ↓
+
 REPORT
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Burada Casper-in məqsədi yalnız:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Zəiflik tapıldı.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Zəiflik tapıldı.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>demək deyil.</p>
@@ -391,9 +545,9 @@ REPORT
   </li>
 </ul>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🌐 Casper + Proxy</strong></p>
+<h1 id="-casper--proxy">🌐 Casper + Proxy</h1>
 
 <p>Proxy infrastrukturu Casper layihəsində şəbəkə idarəetmə və təhlükəsizlik nəzarət qatlarından biri kimi istifadə oluna bilər.</p>
 
@@ -427,24 +581,34 @@ REPORT
 <p>Casper istifadəçidən belə əmr ala bilər:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, proxy status.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, proxy status.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>və sistem cavab verə bilər:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre>Proxy aktivdir.
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>
+Proxy aktivdir.
+
 Təhlükəsizlik servisi işləyir.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Gələcək mərhələdə isə Casper proxy məlumatlarını firewall, IDS/IPS, server logları və SIEM alertləri ilə birlikdə analiz edə bilər.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔴 Casper Red Team</strong></p>
+<h1 id="-casper-red-team">🔴 Casper Red Team</h1>
 
-<p>Casper-in əsas istiqamətlərindən biri <strong>**Red Team</strong>** proseslərinin AI ilə koordinasiyasıdır.</p>
+<p>Casper-in əsas istiqamətlərindən biri <strong>Red Team</strong> proseslərinin AI ilə koordinasiyasıdır.</p>
 
 <p>Red Team təhlükəsizlik sisteminə hücumçu baxışından yanaşır.</p>
 
@@ -490,27 +654,35 @@ Təhlükəsizlik servisi işləyir.
 <p>Onun əsas rolu:</p>
 
 <blockquote>
-  <p><strong>**müxtəlif alətlər arasında orkestrasiya, analiz və qərar dəstəyi qatını yaratmaqdır.</strong>**</p>
+  <p><strong>müxtəlif alətlər arasında orkestrasiya, analiz və qərar dəstəyi qatını yaratmaqdır.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔵 Casper Blue Team</strong></p>
+<h1 id="-casper-blue-team">🔵 Casper Blue Team</h1>
 
 <p>Casper yalnız Red Team robotu olmayacaq.</p>
 
-<p>Layihənin digər əsas istiqaməti <strong>**Blue Team</strong>** olacaq.</p>
+<p>Layihənin digər əsas istiqaməti <strong>Blue Team</strong> olacaq.</p>
 
 <p>Əgər Red Team soruşursa:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Sistemdə hansı zəiflik var?
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Sistemdə hansı zəiflik var?
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Blue Team soruşur:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Bu fəaliyyəti necə aşkarlaya və qarşısını necə ala bilərəm?
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Bu fəaliyyəti necə aşkarlaya və qarşısını necə ala bilərəm?
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Casper Blue Team istiqamətində gələcəkdə:</p>
@@ -559,28 +731,60 @@ Təhlükəsizlik servisi işləyir.
 13
 14
 15
-</pre></td><td class="rouge-code"><pre>SECURITY EVENT
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td><td class="rouge-code"><pre>
+SECURITY EVENT
+
       ↓
+
 SIEM / IDS / SERVER
+
       ↓
+
 CASPER
+
       ↓
+
 AI ANALYSIS
+
       ↓
+
 RISK PRIORITY
+
       ↓
+
 VOICE ALERT
+
       ↓
+
 HUMAN DECISION
+
       ↓
+
 RESPONSE
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🟣 Casper Purple Team</strong></p>
+<h1 id="-casper-purple-team">🟣 Casper Purple Team</h1>
 
-<p>CyberShieldy Casper layihəsinin ən maraqlı istiqamətlərindən biri <strong>**Purple Team Automation</strong>** konseptidir.</p>
+<p>CyberShieldy Casper layihəsinin ən maraqlı istiqamətlərindən biri <strong>Purple Team Automation</strong> konseptidir.</p>
 
 <p>Purple Team Red Team və Blue Team proseslərini eyni ssenaridə birləşdirir.</p>
 
@@ -599,21 +803,53 @@ RESPONSE
 13
 14
 15
-</pre></td><td class="rouge-code"><pre>🔴 RED TEAM
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td><td class="rouge-code"><pre>
+🔴 RED TEAM
+
      ↓
+
 ATTACK SIMULATION
+
      ↓
+
 🔵 BLUE TEAM
+
      ↓
+
 DETECTION
+
      ↓
+
 📊 SIEM ALERT
+
      ↓
+
 🤖 CASPER ANALYSIS
+
      ↓
+
 🛡️ DEFENSE RECOMMENDATION
+
      ↓
+
 🔴 RE-TEST
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Bu halda tələbə və ya təhlükəsizlik mütəxəssisi yalnız test nəticəsini görmür.</p>
@@ -643,9 +879,9 @@ DETECTION
 
 <p>müşahidə edə bilir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🤖 Casper Niyə Fiziki Robot Olacaq?</strong></p>
+<h1 id="-casper-niyə-fiziki-robot-olacaq">🤖 Casper Niyə Fiziki Robot Olacaq?</h1>
 
 <p>CyberShieldy Casper layihəsinin uzunmüddətli məqsədi yalnız kompüter və ya telefon ekranında yaşayan AI sistemi yaratmaq deyil.</p>
 
@@ -697,12 +933,12 @@ DETECTION
 <p>O:</p>
 
 <blockquote>
-  <p><strong>**fiziki Cybersecurity Operations Robot konseptinə çevrilir.</strong>**</p>
+  <p><strong>fiziki Cybersecurity Operations Robot konseptinə çevrilir.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 👀 Casper-in Robot Gözləri</strong></p>
+<h1 id="-casper-in-robot-gözləri">👀 Casper-in Robot Gözləri</h1>
 
 <p>Casper-in robot gözləri yalnız vizual effekt üçün nəzərdə tutulmur.</p>
 
@@ -739,9 +975,9 @@ DETECTION
 
 <p>Bu yanaşma ilə istifadəçi robotun üzünə baxaraq Casper-in hansı rejimdə olduğunu anlaya bilər.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🛞 Casper-in Fiziki Hərəkəti</strong></p>
+<h1 id="-casper-in-fiziki-hərəkəti">🛞 Casper-in Fiziki Hərəkəti</h1>
 
 <p>Casper-in robot platforması mərhələli şəkildə inkişaf edə bilər.</p>
 
@@ -753,12 +989,26 @@ DETECTION
 4
 5
 6
-</pre></td><td class="rouge-code"><pre>TELEFON
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>
+TELEFON
+
    ↓
+
 PAN / TILT
+
    ↓
+
 SAĞA / SOLA
+
 YUXARI / AŞAĞI
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>şəklində idarə edilə bilər.</p>
@@ -772,13 +1022,29 @@ YUXARI / AŞAĞI
 5
 6
 7
-</pre></td><td class="rouge-code"><pre>CASPER HEAD
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>
+CASPER HEAD
+
      ↓
+
 ROBOT BODY
+
      ↓
+
 MOTOR CONTROLLER
+
      ↓
+
 WHEELS
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>modelinə keçmək mümkündür.</p>
@@ -809,9 +1075,9 @@ WHEELS
   </li>
 </ul>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 📡 IoT + Cybersecurity + Robot</strong></p>
+<h1 id="-iot--cybersecurity--robot">📡 IoT + Cybersecurity + Robot</h1>
 
 <p>Casper layihəsinin vacib hissələrindən biri IoT inteqrasiyasıdır.</p>
 
@@ -857,9 +1123,9 @@ WHEELS
 
 <p>Bu modeldə Casper yalnız rəqəmsal sistemləri deyil, fiziki mühiti də anlaya bilər.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔐 Biometrik Autentifikasiya</strong></p>
+<h1 id="-biometrik-autentifikasiya">🔐 Biometrik Autentifikasiya</h1>
 
 <p>Fiziki kibertəhlükəsizlik robotunda hər əməliyyatın hər istifadəçi üçün açıq olması düzgün yanaşma deyil.</p>
 
@@ -874,15 +1140,35 @@ WHEELS
 7
 8
 9
-</pre></td><td class="rouge-code"><pre>PIN
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>
+PIN
+
  +
+
 RFID
+
  +
+
 FINGERPRINT
+
  +
+
 VOICE
+
  =
+
 MULTI-FACTOR AUTHENTICATION
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Məsələn, Casper-in adi vəziyyətini soruşmaq aşağı riskli əməliyyat ola bilər.</p>
@@ -890,21 +1176,25 @@ MULTI-FACTOR AUTHENTICATION
 <p>Lakin:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, authorized pentest mode.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, authorized pentest mode.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>kimi daha həssas əməliyyat əlavə autentifikasiya tələb edə bilər.</p>
 
 <p>Beləliklə AI sistemi istifadəçinin səsini eşitsə belə, kritik funksiyalar yalnız təhlükəsizlik siyasəti təsdiqləndikdən sonra aktivləşir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># ⚔️ Casper Hacker-i Əvəz Edəcək?</strong></p>
+<h1 id="️-casper-hacker-i-əvəz-edəcək">⚔️ Casper Hacker-i Əvəz Edəcək?</h1>
 
 <p>CyberShieldy Casper konseptinin ən maraqlı suallarından biri budur:</p>
 
 <blockquote>
-  <p><strong>**Gələcəkdə AI və robot bir kibertəhlükəsizlik mütəxəssisinin gördüyü işi görə biləcəkmi?</strong>**</p>
+  <p><strong>Gələcəkdə AI və robot bir kibertəhlükəsizlik mütəxəssisinin gördüyü işi görə biləcəkmi?</strong></p>
 </blockquote>
 
 <p>AI artıq bir çox rutin təhlükəsizlik prosesini sürətləndirə bilir.</p>
@@ -944,13 +1234,21 @@ MULTI-FACTOR AUTHENTICATION
 <p>Bu səbəbdən gələcəyin modeli yalnız:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>HUMAN
+2
+3
+</pre></td><td class="rouge-code"><pre>
+HUMAN
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>və ya yalnız:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>AI
+2
+3
+</pre></td><td class="rouge-code"><pre>
+AI
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>olmaya bilər.</p>
@@ -966,24 +1264,44 @@ MULTI-FACTOR AUTHENTICATION
 7
 8
 9
-</pre></td><td class="rouge-code"><pre>HUMAN EXPERIENCE
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>
+HUMAN EXPERIENCE
+
         +
+
 ARTIFICIAL INTELLIGENCE
+
         +
+
 SECURITY AUTOMATION
+
         +
+
 ROBOTICS
+
         =
+
 FUTURE CYBERSECURITY
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Casper-in məqsədi insan kibertəhlükəsizlik mütəxəssisini tamamilə sistemdən çıxarmaq deyil.</p>
 
 <p>Məqsəd insanın saatlarla əl ilə etdiyi bir çox rutin prosesi AI ilə sürətləndirmək və insanın diqqətini daha kritik qərarlara yönəltməkdir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔥 Gələcəyin Tam Casper Ssenarisi</strong></p>
+<h1 id="-gələcəyin-tam-casper-ssenarisi">🔥 Gələcəyin Tam Casper Ssenarisi</h1>
 
 <p>Təsəvvür edin.</p>
 
@@ -992,7 +1310,11 @@ FUTURE CYBERSECURITY
 <p>İstifadəçi deyir:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, cyber lab status.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, cyber lab status.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Casper laboratoriyanın icazəli sistemlərindən status məlumatı toplayır.</p>
@@ -1000,7 +1322,11 @@ FUTURE CYBERSECURITY
 <p>Daha sonra istifadəçi deyir:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Casper, authorized pentest mode.
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Casper, authorized pentest mode.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Casper dərhal testə başlamır.</p>
@@ -1059,17 +1385,27 @@ FUTURE CYBERSECURITY
 2
 3
 4
-</pre></td><td class="rouge-code"><pre>Security analysis completed.
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>
+Security analysis completed.
+
 Red Team findings detected.
+
 Blue Team visibility checked.
+
 Report is ready.
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Bu, CyberShieldy Casper layihəsinin uzunmüddətli konseptidir.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔴🔵 Gələcəyin Tam Red &amp; Blue Team Robotu</strong></p>
+<h1 id="-gələcəyin-tam-red--blue-team-robotu">🔴🔵 Gələcəyin Tam Red &amp; Blue Team Robotu</h1>
 
 <p>Casper-in son vizyonunda Red Team və Blue Team bir-birindən ayrı sistemlər olmayacaq.</p>
 
@@ -1078,13 +1414,21 @@ Report is ready.
 <p>Red Team soruşacaq:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Bu sistemdə hansı zəif nöqtə var?
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Bu sistemdə hansı zəif nöqtə var?
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Blue Team soruşacaq:</p>
 
 <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Bu fəaliyyət aşkarlanırmı?
+2
+3
+</pre></td><td class="rouge-code"><pre>
+Bu fəaliyyət aşkarlanırmı?
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Casper isə hər iki nəticəni əlaqələndirəcək.</p>
@@ -1106,23 +1450,59 @@ Report is ready.
 15
 16
 17
-</pre></td><td class="rouge-code"><pre>RED TEAM
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+</pre></td><td class="rouge-code"><pre>
+RED TEAM
+
     ↓
+
 FINDING
+
     ↓
+
 CASPER
+
     ↓
+
 BLUE TEAM
+
     ↓
+
 DETECTION
+
     ↓
+
 CASPER
+
     ↓
+
 CORRELATION
+
     ↓
+
 RECOMMENDATION
+
     ↓
+
 RE-TEST
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Beləliklə Casper yalnız “hücum edən robot” və ya yalnız “müdafiə edən robot” deyil.</p>
@@ -1130,12 +1510,12 @@ RE-TEST
 <p>O:</p>
 
 <blockquote>
-  <p><strong>**hücum simulyasiyasını, aşkarlamanı, müdafiəni və təkrar testi eyni laboratoriya prosesində birləşdirən AI Purple Team platformasıdır.</strong>**</p>
+  <p><strong>hücum simulyasiyasını, aşkarlamanı, müdafiəni və təkrar testi eyni laboratoriya prosesində birləşdirən AI Purple Team platformasıdır.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔐 Təhlükəsiz Dizayn Prinsipləri</strong></p>
+<h1 id="-təhlükəsiz-dizayn-prinsipləri">🔐 Təhlükəsiz Dizayn Prinsipləri</h1>
 
 <p>Casper kimi AI, pentest, mobil idarəetmə, IoT və robototexnikanı birləşdirən sistemdə təhlükəsizlik layihənin əsas hissəsidir.</p>
 
@@ -1212,12 +1592,12 @@ RE-TEST
 </ul>
 
 <blockquote>
-  <p><strong>**Konsepti göstəririk. Texnologiyanı öyrədirik. Amma sistemin açarını ictimaiyyətə vermirik.</strong>**</p>
+  <p><strong>Konsepti göstəririk. Texnologiyanı öyrədirik. Amma sistemin açarını ictimaiyyətə vermirik.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🎓 Casper və Kiber Dərsləri</strong></p>
+<h1 id="-casper-və-kiber-dərsləri">🎓 Casper və Kiber Dərsləri</h1>
 
 <p>CyberShieldy Casper yalnız robot layihəsi deyil.</p>
 
@@ -1315,28 +1695,60 @@ RE-TEST
 13
 14
 15
-</pre></td><td class="rouge-code"><pre>FİZİKİ CİHAZ
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td><td class="rouge-code"><pre>
+FİZİKİ CİHAZ
+
      ↓
+
 ŞƏBƏKƏ
+
      ↓
+
 SERVER
+
      ↓
+
 SECURITY TOOL
+
      ↓
+
 AI ANALYSIS
+
      ↓
+
 SIEM
+
      ↓
+
 DECISION
+
      ↓
+
 RESPONSE
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>zənciri boyunca necə hərəkət etdiyini anlayır.</p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🚀 Casper-in Gələcək İnkişaf İstiqamətləri</strong></p>
+<h1 id="-casper-in-gələcək-i̇nkişaf-i̇stiqamətləri">🚀 Casper-in Gələcək İnkişaf İstiqamətləri</h1>
 
 <p>CyberShieldy Casper gələcəkdə aşağıdakı imkanlarla genişləndirilə bilər:</p>
 
@@ -1418,9 +1830,9 @@ RESPONSE
   </li>
 </ul>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🌍 Gələcəyin Kibertəhlükəsizliyi</strong></p>
+<h1 id="-gələcəyin-kibertəhlükəsizliyi">🌍 Gələcəyin Kibertəhlükəsizliyi</h1>
 
 <p>Gələcəyin kibertəhlükəsizlik mütəxəssisi onlarla müxtəlif proqram arasında əl ilə keçid etməyə bilər.</p>
 
@@ -1443,30 +1855,62 @@ RESPONSE
 13
 14
 15
-</pre></td><td class="rouge-code"><pre>CYBERSECURITY
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td><td class="rouge-code"><pre>
+CYBERSECURITY
+
       +
+
 ARTIFICIAL INTELLIGENCE
+
       +
+
 RED TEAM
+
       +
+
 BLUE TEAM
+
       +
+
 AUTOMATION
+
       +
+
 IoT
+
       +
+
 ROBOTICS
+
       =
+
 CYBERSHIELDY CASPER
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Casper-in məqsədi sadəcə “AI əlavə edilmiş robot” yaratmaq deyil.</p>
 
-<p>Məqsəd <strong>**AI-nin fiziki və rəqəmsal kibertəhlükəsizlik sistemləri arasında qərar və koordinasiya qatı olduğu yeni platforma yaratmaqdır.</strong>**</p>
+<p>Məqsəd <strong>AI-nin fiziki və rəqəmsal kibertəhlükəsizlik sistemləri arasında qərar və koordinasiya qatı olduğu yeni platforma yaratmaqdır.</strong></p>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🌍 Nəticə</strong></p>
+<h1 id="-nəticə">🌍 Nəticə</h1>
 
 <p>CyberShieldy Casper sadəcə chatbot deyil.</p>
 
@@ -1501,46 +1945,94 @@ CYBERSHIELDY CASPER
 21
 22
 23
-</pre></td><td class="rouge-code"><pre>🤖 ROBOT
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+</pre></td><td class="rouge-code"><pre>
+🤖 ROBOT
+
 +
+
 🧠 AI
+
 +
+
 🎙️ VOICE
+
 +
+
 💻 COMPUTER
+
 +
+
 📱 MOBILE
+
 +
+
 🔎 PENTEST
+
 +
+
 🔴 RED TEAM
+
 +
+
 🔵 BLUE TEAM
+
 +
+
 🟣 PURPLE TEAM
+
 +
+
 📊 SOC / SIEM
+
 +
+
 📡 IoT
+
 +
+
 ⚙️ AUTOMATION
+
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Bütün bunlar tədricən vahid platformada birləşdirilir.</p>
 
 <blockquote>
-  <p><strong>**Casper sadəcə telefondakı və kompüterdəki funksiyaları işə salmır. O, fiziki girişdən təhlükəsizlik qərarına, Red Team analizindən Blue Team aşkarlamasına və nəticənin təqdim edilməsinə qədər bütöv kiber laboratoriya prosesini idarə edən platformaya çevrilir.</strong>**</p>
+  <p><strong>Casper sadəcə telefondakı və kompüterdəki funksiyaları işə salmır. O, fiziki girişdən təhlükəsizlik qərarına, Red Team analizindən Blue Team aşkarlamasına və nəticənin təqdim edilməsinə qədər bütöv kiber laboratoriya prosesini idarə edən platformaya çevrilir.</strong></p>
 </blockquote>
 
-<p>🤖 <strong>**Bu, CyberShieldy Casper-dir — AI, Pentest, Red Team, Blue Team, mobil təhlükəsizlik, IoT, robototexnika və insan nəzarətinin birləşdiyi gələcəyin fiziki kiber təhlükəsizlik robotu.</strong>**</p>
+<p>🤖 <strong>Bu, CyberShieldy Casper-dir — AI, Pentest, Red Team, Blue Team, mobil təhlükəsizlik, IoT, robototexnika və insan nəzarətinin birləşdiyi gələcəyin fiziki kiber təhlükəsizlik robotu.</strong></p>
 
 <blockquote>
-  <p><strong>**Gələcəyin hacker-i yalnız insan və ya yalnız AI olmayacaq. Ən güclü model insan təcrübəsi, süni intellekt və robototexnikanın birlikdə işlədiyi model olacaq.</strong>**</p>
+  <p><strong>Gələcəyin hacker-i yalnız insan və ya yalnız AI olmayacaq. Ən güclü model insan təcrübəsi, süni intellekt və robototexnikanın birlikdə işlədiyi model olacaq.</strong></p>
 </blockquote>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong># 🔗 Oxşar Mövzular</strong></p>
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
 
 <ul>
   <li>
@@ -1566,26 +2058,26 @@ CYBERSHIELDY CASPER
   </li>
 </ul>
 
-<p><strong>—</strong></p>
+<hr />
 
-<p><strong>## 📢 CyberShieldy Academy</strong></p>
+<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
 
-<p><strong>**Savaylov Emin</strong>**</p>
+<p><strong>Savaylov Emin</strong></p>
 
-<p><strong>**🛡️ Kibertəhlükəsizlik mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə təlimçi</strong>**</p>
+<p><strong>🛡️ Kibertəhlükəsizlik mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə təlimçi</strong></p>
 
-<p><strong>**🤖 CyberShieldy Casper AI Cybersecurity Robot layihəsinin müəllifi və inkişaf etdiricisi</strong>**</p>
+<p><strong>🤖 CyberShieldy Casper AI Cybersecurity Robot layihəsinin müəllifi və inkişaf etdiricisi</strong></p>
 
 <p>🌐 <a href="https://cybershieldy.com">CyberShieldy.com</a></p>
 
 <p>🎥 <a href="https://www.instagram.com/reel/DdHG5AqN-tx/?stkn=MXYyenNuOWR3MTZjZg==">CyberShieldy Casper — Instagram Demo</a></p>
 
 <blockquote>
-  <p><strong>**“Gələcəyin kibertəhlükəsizlik mütəxəssisi süni intellektlə yarışmayacaq — AI, robototexnika və insan təcrübəsi birlikdə işləyəcək.”</strong>**</p>
+  <p><strong>“Gələcəyin kibertəhlükəsizlik mütəxəssisi süni intellektlə yarışmayacaq — AI, robototexnika və insan təcrübəsi birlikdə işləyəcək.”</strong></p>
 </blockquote>
 
 <blockquote>
-  <p><strong>**“CyberShieldy Casper-in məqsədi sadəcə əmrləri yerinə yetirən robot yaratmaq deyil. Məqsəd Red Team, Blue Team, AI, IoT və təhlükəsizlik avtomatlaşdırmasını vahid fiziki platformada birləşdirən gələcəyin kiber robotunu yaratmaqdır.”</strong>**</p>
+  <p><strong>“CyberShieldy Casper-in məqsədi sadəcə əmrləri yerinə yetirən robot yaratmaq deyil. Məqsəd Red Team, Blue Team, AI, IoT və təhlükəsizlik avtomatlaşdırmasını vahid fiziki platformada birləşdirən gələcəyin kiber robotunu yaratmaqdır.”</strong></p>
 </blockquote>
 
 <!-- ===== CYBERSHIELDY POPUP ===== -->
