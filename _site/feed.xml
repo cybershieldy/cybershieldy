@@ -1,4 +1,1851 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-11T18:24:18+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması</title><link href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması" /><published>2026-09-11T08:24:00+04:00</published><updated>2026-09-11T17:48:47+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-kiber-tehlukesizlik-robotu-pentest-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot"><![CDATA[<h1 id="️-cybershieldy-casper-gələcəyin-ai-pentest-robotu">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-15T15:17:22+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖📱 CyberShieldy Casper QR Scan Security Test — Naməlum QR Kod, APK Təhlükəsi və AI Kiber Müdafiə</title><link href="https://cybershieldy.com/posts/casper-qr-scan-security-test" rel="alternate" type="text/html" title="🤖📱 CyberShieldy Casper QR Scan Security Test — Naməlum QR Kod, APK Təhlükəsi və AI Kiber Müdafiə" /><published>2026-09-15T08:05:00+04:00</published><updated>2026-09-15T08:05:00+04:00</updated><id>https://cybershieldy.com/posts/casper-qr-scan-apk-android-kiber-tehlukesizlik-ai-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-qr-scan-security-test"><![CDATA[<h1 id="-cybershieldy-casper-qr-scan-security-test">🤖📱 CyberShieldy Casper QR Scan Security Test</h1>
+
+<p>Bir QR kod görürük.</p>
+
+<p>Telefonu çıxarırıq.</p>
+
+<p>Kameranı açırıq.</p>
+
+<p>QR kodu skan edirik.</p>
+
+<p>Çox vaxt isə həmin QR kodun daxilində hansı linkin olduğunu, bizi hansı sayta yönləndirdiyini və hansı əməliyyatı başladacağını yoxlamadan davam edirik.</p>
+
+<p>Amma həmin QR kod adi bir veb səhifəyə deyil, naməlum mənbədən <strong>APK faylının endirilməsinə</strong> yönləndirirsə nə baş verə bilər?</p>
+
+<p>CyberShieldy Casper layihəsinin yeni <strong>QR Scan Security Test</strong> laboratoriyasında məhz bu ssenari sınaqdan keçirildi.</p>
+
+<p>Test zamanı:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>QR CODE
+   ↓
+SMARTPHONE
+   ↓
+QR SCAN
+   ↓
+LINK OPEN
+   ↓
+APK DOWNLOAD ATTEMPT
+   ↓
+CASPER SECURITY DETECTION
+   ↓
+VOICE ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper APK endirmə cəhdini müəyyən etdi və istifadəçiyə təhlükəsizlik xəbərdarlığı verdi.</p>
+
+<blockquote>
+  <p><strong>Tanımadığınız QR kodları skan etməyin.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Naməlum QR kod sizi APK endirməyə yönləndirirsə, faylı yoxlamadan quraşdırmayın.</strong></p>
+</blockquote>
+
+<p>Bu laboratoriyanın məqsədi insanlara QR kodların həmişə təhlükəsiz olmadığını göstərmək və mobil kibertəhlükəsizlik mövzusunda real təhlükəsizlik düşüncəsi yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-casper-qr-scan-security--yeni-demo">🎥 Casper QR Scan Security — Yeni Demo</h1>
+
+<p>CyberShieldy Casper layihəsinin yeni QR Security laboratoriyasını aşağıdakı Instagram Reel-də izləmək mümkündür:</p>
+
+<iframe src="https://www.instagram.com/reel/DdRZw6lNT2Y/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen=""></iframe>
+
+<p>📱 <strong>Instagram Reel:</strong></p>
+
+<p><a href="https://www.instagram.com/reel/DdRZw6lNT2Y/?stkn=ZXVuNHV1d3ZqbGcw">CyberShieldy Casper QR Scan Security Test</a></p>
+
+<p>Bu demoda QR kod skan edilir, link vasitəsilə APK endirmə cəhdi yaranır və Casper təhlükəsizlik hadisəsini müəyyən edərək istifadəçiyə səsli xəbərdarlıq edir.</p>
+
+<hr />
+
+<h1 id="️-qr-kod-həmişə-təhlükəsiz-deyil">⚠️ QR Kod Həmişə Təhlükəsiz Deyil</h1>
+
+<p>QR kod sadəcə məlumat daşıyan vizual texnologiyadır.</p>
+
+<p>QR kodun daxilində:</p>
+
+<ul>
+  <li>🌐 veb sayt linki;</li>
+  <li>📱 mobil tətbiq linki;</li>
+  <li>📄 sənəd;</li>
+  <li>📍 xəritə ünvanı;</li>
+  <li>📧 email;</li>
+  <li>📞 telefon nömrəsi;</li>
+  <li>💳 ödəniş səhifəsi;</li>
+  <li>📥 fayl download linki;</li>
+  <li>📦 APK download ünvanı;</li>
+  <li>🔐 login səhifəsi</li>
+</ul>
+
+<p>ola bilər.</p>
+
+<p>Problem QR kod texnologiyasının özündə deyil.</p>
+
+<p>Əsas problem istifadəçinin <strong>QR kodun daxilindəki ünvanı əvvəlcədən görmədən ona etibar etməsidir.</strong></p>
+
+<p>Adi linkdə istifadəçi domeni görə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>https://example.com/download
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>QR kodda isə həmin ünvan sadəcə vizual kod kimi görünür.</p>
+
+<p>İstifadəçi çox vaxt linki yalnız skan etdikdən sonra görür.</p>
+
+<p>Buna görə QR kodlara avtomatik etibar etmək düzgün təhlükəsizlik yanaşması deyil.</p>
+
+<hr />
+
+<h1 id="-casper-qr-testində-nə-baş-verdi">🎯 Casper QR Testində Nə Baş Verdi?</h1>
+
+<p>CyberShieldy Casper QR Security laboratoriyasında proses aşağıdakı kimi quruldu:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>QR CODE
+      ↓
+ANDROID PHONE
+      ↓
+QR SCAN
+      ↓
+WEB LINK
+      ↓
+APK DOWNLOAD ATTEMPT
+      ↓
+SECURITY EVENT
+      ↓
+CASPER
+      ↓
+SECURITY ANALYSIS
+      ↓
+VOICE ALERT
+      ↓
+USER DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper istifadəçiyə naməlum mənbədən APK endirmə cəhdi olduğunu bildirir.</p>
+
+<p>Sistemin məqsədi sadəcə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>APK endirilir.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>demək deyil.</p>
+
+<p>Əsas məqsəd hadisəni təhlükəsizlik kontekstində qiymətləndirməkdir.</p>
+
+<p>Casper üçün əsas suallar bunlardır:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>Bu download gözlənilən əməliyyatdırmı?
+
+Mənbə tanınırmı?
+
+Domen etibarlıdırmı?
+
+İstifadəçi bu əməliyyatı özü başladıb?
+
+Fayl növü nədir?
+
+Əlavə təhlükəsizlik yoxlaması lazımdırmı?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə Casper sadəcə hadisəni görmür.</p>
+
+<p>O hadisənin istifadəçi üçün <strong>risk yaradıb-yaratmadığını anlamağa çalışan təhlükəsizlik qatına çevrilir.</strong></p>
+
+<hr />
+
+<h1 id="-naməlum-qr-kod-niyə-risklidir">🚨 Naməlum QR Kod Niyə Risklidir?</h1>
+
+<p>İstifadəçi QR kodun daxilindəki məlumatı gözlə oxuya bilmir.</p>
+
+<p>Bu xüsusiyyətdən sosial mühəndislik ssenarilərində istifadə edilə bilər.</p>
+
+<p>QR kod istifadəçini:</p>
+
+<ul>
+  <li>saxta login səhifəsinə;</li>
+  <li>saxta sosial media giriş ekranına;</li>
+  <li>naməlum APK faylına;</li>
+  <li>phishing səhifəsinə;</li>
+  <li>saxta ödəniş səhifəsinə;</li>
+  <li>saxta Wi-Fi portalına;</li>
+  <li>reklam yönləndirməsinə;</li>
+  <li>naməlum download səhifəsinə</li>
+</ul>
+
+<p>apara bilər.</p>
+
+<p>Buna görə müasir kibertəhlükəsizlikdə <strong>QR Phishing</strong> və ya <strong>Quishing</strong> anlayışı da istifadə olunur.</p>
+
+<hr />
+
+<h1 id="-quishing-nədir">🎣 Quishing Nədir?</h1>
+
+<p><strong>Quishing — QR Code Phishing</strong> anlayışıdır.</p>
+
+<p>Ənənəvi phishing hücumunda istifadəçiyə kliklənə bilən link göndərilir.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>Hesabınızı təsdiqləyin.
+
+Buradan daxil olun.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>QR phishing ssenarisində isə link əvəzinə QR kod göstərilir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>PHISHING URL
+      ↓
+QR CODE
+      ↓
+SMARTPHONE
+      ↓
+SCAN
+      ↓
+FAKE PAGE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>İstifadəçi QR kodu gördükdə bəzən onu adi linkdən daha təhlükəsiz hesab edə bilər.</p>
+
+<p>Əslində isə QR kod sadəcə linkin başqa formada təqdim edilməsidir.</p>
+
+<blockquote>
+  <p><strong>QR kodun özü təhlükəsizlik zəmanəti deyil.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-apk-nədir">📱 APK Nədir?</h1>
+
+<p>APK — Android Package faylıdır.</p>
+
+<p>Android tətbiqlərinin quraşdırılması üçün istifadə olunan paket formatıdır.</p>
+
+<p>APK faylının özü avtomatik olaraq zərərli demək deyil.</p>
+
+<p>Amma APK naməlum mənbədən gəlirsə, əlavə təhlükəsizlik yoxlaması lazımdır.</p>
+
+<p>Tətbiq quraşdırıldıqdan sonra aşağıdakı icazələri istəyə bilər:</p>
+
+<ul>
+  <li>📷 Camera;</li>
+  <li>🎙️ Microphone;</li>
+  <li>📍 Location;</li>
+  <li>📇 Contacts;</li>
+  <li>📁 Storage;</li>
+  <li>🔔 Notifications;</li>
+  <li>♿ Accessibility;</li>
+  <li>🌐 Network Access.</li>
+</ul>
+
+<p>Buna görə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>QR CODE
+   ↓
+APK DOWNLOAD
+   ↓
+INSTALL
+   ↓
+ALLOW EVERYTHING
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>yanaşması təhlükəli ola bilər.</p>
+
+<hr />
+
+<h1 id="-apk-download-hələ-malware-demək-deyil">🛑 APK Download Hələ Malware Demək Deyil</h1>
+
+<p>Burada vacib bir təhlükəsizlik fərqi var.</p>
+
+<p>APK faylının endirilməsi avtomatik olaraq həmin faylın malware olduğunu göstərmir.</p>
+
+<p>Düzgün təhlükəsizlik sistemi hadisəni kontekstlə birlikdə qiymətləndirməlidir.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>APK DOWNLOAD
+      ↓
+SOURCE CHECK
+      ↓
+DOMAIN CHECK
+      ↓
+FILE CHECK
+      ↓
+PERMISSION CHECK
+      ↓
+BEHAVIOR CHECK
+      ↓
+RISK CLASSIFICATION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CyberShieldy Casper konseptində məqsəd hər APK faylını virus adlandırmaq deyil.</p>
+
+<p>Məqsəd <strong>naməlum və gözlənilməz APK download davranışını təhlükəsizlik hadisəsi kimi müəyyən etməkdir.</strong></p>
+
+<hr />
+
+<h1 id="-casper-burada-nə-edir">🤖 Casper Burada Nə Edir?</h1>
+
+<p>CyberShieldy Casper sadəcə səsli assistant deyil.</p>
+
+<p>Casper mərhələli şəkildə:</p>
+
+<ul>
+  <li>AI;</li>
+  <li>Cybersecurity;</li>
+  <li>Android Security;</li>
+  <li>Mobile Security;</li>
+  <li>Red Team;</li>
+  <li>Blue Team;</li>
+  <li>Purple Team;</li>
+  <li>IoT;</li>
+  <li>Robototexnika;</li>
+  <li>Security Automation</li>
+</ul>
+
+<p>sahələrini vahid platformada birləşdirən eksperimental sistemdir.</p>
+
+<p>QR Scan Security laboratoriyasında Casper:</p>
+
+<ul>
+  <li>📱 mobil təhlükəsizlik hadisəsini qəbul edir;</li>
+  <li>🔎 APK download davranışını müəyyən edir;</li>
+  <li>⚠️ təhlükəsizlik riskini işarələyir;</li>
+  <li>🧠 hadisəni analiz edir;</li>
+  <li>🗣️ istifadəçiyə səsli xəbərdarlıq verir;</li>
+  <li>👀 vizual ALERT rejiminə keçə bilər;</li>
+  <li>📊 hadisəni loglaya bilər;</li>
+  <li>🛡️ istifadəçiyə qərar verməkdə kömək edir.</li>
+</ul>
+
+<p>Ümumi model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>USER
+   ↓
+QR SCAN
+   ↓
+ANDROID
+   ↓
+SECURITY EVENT
+   ↓
+CASPER AI
+   ↓
+RISK ANALYSIS
+   ↓
+VOICE ALERT
+   ↓
+VISUAL ALERT
+   ↓
+HUMAN DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="️-casper-in-təhlükəsizlik-xəbərdarlığı">🗣️ Casper-in Təhlükəsizlik Xəbərdarlığı</h1>
+
+<p>Belə bir hadisədə Casper istifadəçiyə aşağıdakı kimi xəbərdarlıq verə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>Diqqət.
+
+Naməlum mənbədən APK endirmə cəhdi aşkarlandı.
+
+Fayl zərərli ola bilər.
+
+Mənbəni yoxlamadan quraşdırma etməyin.
+
+Təhlükəsizlik alarmı aktivləşdirildi.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Burada əsas məqsəd istifadəçini qorxutmaq deyil.</p>
+
+<p>Əsas məqsəd istifadəçinin avtomatik olaraq:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>SCAN
+↓
+DOWNLOAD
+↓
+INSTALL
+↓
+ALLOW
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>etməsinin qarşısını almaqdır.</p>
+
+<p>İstifadəçi əvvəlcə dayanmalı, yoxlamalı və sonra qərar verməlidir.</p>
+
+<hr />
+
+<h1 id="-ən-böyük-təhlükə-bəzən-texnologiya-deyil">👀 Ən Böyük Təhlükə Bəzən Texnologiya Deyil</h1>
+
+<p>Kibertəhlükəsizlikdə ən böyük risklərdən biri insan davranışıdır.</p>
+
+<p>İstifadəçi QR kod üzərində:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>SCAN ME
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>görür və skan edir.</p>
+
+<p>Sonra:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>DOWNLOAD
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>görür və basır.</p>
+
+<p>Daha sonra:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Install unknown app?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>görür və təsdiqləyir.</p>
+
+<p>Sonra tətbiq:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>Camera
+Microphone
+Location
+Contacts
+Accessibility
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>icazələri istəyir.</p>
+
+<p>İstifadəçi hamısına:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ALLOW
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>basır.</p>
+
+<p>Bu zaman bir neçə təhlükəsizlik baryeri istifadəçinin öz qərarı ilə keçilmiş olur.</p>
+
+<hr />
+
+<h1 id="-təhlükəsiz-davranış-necə-olmalıdır">🧠 Təhlükəsiz Davranış Necə Olmalıdır?</h1>
+
+<p>Daha təhlükəsiz model belədir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>QR CODE
+   ↓
+SCAN
+   ↓
+CHECK URL
+   ↓
+CHECK DOMAIN
+   ↓
+CHECK SOURCE
+   ↓
+CHECK FILE TYPE
+   ↓
+CHECK PERMISSIONS
+   ↓
+DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu çox sadə görünür.</p>
+
+<p>Amma kibertəhlükəsizlikdə belə kiçik vərdişlər böyük problemlərin qarşısını ala bilər.</p>
+
+<hr />
+
+<h1 id="-qr-kod-skan-edəndə-nələri-yoxlamaq-lazımdır">🔍 QR Kod Skan Edəndə Nələri Yoxlamaq Lazımdır?</h1>
+
+<p>QR kod skan etdikdən sonra aşağıdakılara diqqət edin:</p>
+
+<ul>
+  <li>Domen adı düzgündürmü?</li>
+  <li>HTTPS istifadə olunurmu?</li>
+  <li>Domen adında hərf dəyişiklikləri varmı?</li>
+  <li>Link başqa domenə redirect edirmi?</li>
+  <li>URL qısaldılıb?</li>
+  <li>Sayt dərhal fayl endirməyə başlayır?</li>
+  <li>APK endirmə tələb olunur?</li>
+  <li>Login və şifrə istəyir?</li>
+  <li>Bank məlumatı istəyir?</li>
+  <li>Şəxsi məlumat tələb edir?</li>
+  <li>Android əlavə permission istəyir?</li>
+</ul>
+
+<p>Əgər davranış sizə şübhəli görünürsə:</p>
+
+<blockquote>
+  <p><strong>Prosesi dayandırın.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-social-engineering-və-qr-kodlar">🧠 Social Engineering və QR Kodlar</h1>
+
+<p>Kibertəhlükəsizlik yalnız firewall, antivirus və SIEM demək deyil.</p>
+
+<p>İnsan davranışı da təhlükəsizlik sisteminin bir hissəsidir.</p>
+
+<p>Bəzən hücumçunun mürəkkəb exploit istifadə etməsinə ehtiyac yoxdur.</p>
+
+<p>İstifadəçiyə maraqlı QR kod göstərmək kifayət edə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>🎁 Pulsuz hədiyyə
+
+📶 Free Wi-Fi
+
+💰 50% endirim
+
+🎫 Pulsuz bilet
+
+📦 Çatdırılma məlumatı
+
+🔐 Hesabınızı təsdiqləyin
+
+📱 Yeni tətbiqi yükləyin
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və yanında QR kod.</p>
+
+<p>Bu artıq yalnız texniki təhlükəsizlik problemi deyil.</p>
+
+<p>Bu <strong>Social Engineering</strong> problemidir.</p>
+
+<hr />
+
+<h1 id="-casper-red-team-perspektivi">🔴 Casper Red Team Perspektivi</h1>
+
+<p>Red Team hadisəyə hücumçu baxışından yanaşır.</p>
+
+<p>Sual budur:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>İstifadəçini QR kodu skan etməyə nə vadar edə bilər?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>İcazəli təhlükəsizlik laboratoriyasında aşağıdakı mövzular yoxlanıla bilər:</p>
+
+<ul>
+  <li>QR Phishing Awareness;</li>
+  <li>Social Engineering;</li>
+  <li>Mobile Security;</li>
+  <li>Android Security;</li>
+  <li>URL Security;</li>
+  <li>APK Security;</li>
+  <li>istifadəçi davranışı;</li>
+  <li>security warning effektivliyi.</li>
+</ul>
+
+<p>Buradakı məqsəd real insanları aldatmaq deyil.</p>
+
+<p>Məqsəd hücum məntiqini anlayaraq müdafiəni yaxşılaşdırmaqdır.</p>
+
+<hr />
+
+<h1 id="-casper-blue-team-perspektivi">🔵 Casper Blue Team Perspektivi</h1>
+
+<p>Blue Team isə başqa sual verir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Bu fəaliyyəti necə aşkarlaya bilərik?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>QR SCAN
+   ↓
+UNKNOWN DOMAIN
+   ↓
+APK DOWNLOAD
+   ↓
+SECURITY EVENT
+   ↓
+CASPER DETECTION
+   ↓
+VOICE ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Blue Team üçün maraqlı hadisələr:</p>
+
+<ul>
+  <li>naməlum APK download;</li>
+  <li>suspicious URL;</li>
+  <li>suspicious redirect;</li>
+  <li>unknown application source;</li>
+  <li>unusual permission request;</li>
+  <li>mobile security event;</li>
+  <li>suspicious network connection.</li>
+</ul>
+
+<p>Casper gələcəkdə bu məlumatları SOC və SIEM sistemləri ilə də əlaqələndirə bilər.</p>
+
+<hr />
+
+<h1 id="-casper-purple-team">🟣 Casper Purple Team</h1>
+
+<p>Purple Team yanaşması Red Team və Blue Team-i eyni laboratoriyada birləşdirir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="rouge-code"><pre>🔴 RED TEAM
+     ↓
+QR ATTACK SIMULATION
+     ↓
+📱 ANDROID DEVICE
+     ↓
+APK DOWNLOAD EVENT
+     ↓
+🔵 BLUE TEAM
+     ↓
+DETECTION
+     ↓
+🤖 CASPER
+     ↓
+VOICE ALERT
+     ↓
+📊 ANALYSIS
+     ↓
+🛡️ DEFENSE IMPROVEMENT
+     ↓
+🔁 RE-TEST
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə tələbə yalnız hücum ssenarisini görmür.</p>
+
+<p>Eyni zamanda:</p>
+
+<ul>
+  <li>hücumun necə başladığını;</li>
+  <li>mobil cihazda hansı hadisənin yarandığını;</li>
+  <li>Blue Team-in bunu görüb-görmədiyini;</li>
+  <li>Casper-in alert yaradıb-yaratmadığını;</li>
+  <li>müdafiənin necə yaxşılaşdırıldığını</li>
+</ul>
+
+<p>da görür.</p>
+
+<hr />
+
+<h1 id="-ai--cybersecurity--qr-security">🤖 AI + Cybersecurity + QR Security</h1>
+
+<p>CyberShieldy Casper layihəsində AI yalnız danışmaq üçün istifadə edilmir.</p>
+
+<p>AI təhlükəsizlik workflow-sunun analiz qatına çevrilə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>QR SOURCE
++
+DOMAIN
++
+URL
++
+FILE TYPE
++
+APK
++
+ANDROID EVENT
++
+PERMISSIONS
++
+NETWORK BEHAVIOR
++
+USER CONTEXT
+=
+SECURITY RISK
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu yanaşma sadə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Virus var.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və ya:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Virus yoxdur.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>yanaşmasından daha genişdir.</p>
+
+<hr />
+
+<h1 id="-risk-səviyyəsinin-qiymətləndirilməsi">📊 Risk Səviyyəsinin Qiymətləndirilməsi</h1>
+
+<p>Casper gələcəkdə hadisələri risk səviyyəsinə görə ayıra bilər.</p>
+
+<h2 id="-low">🟢 LOW</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>QR
+↓
+Tanınmış domain
+↓
+Normal HTTPS səhifəsi
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="-medium">🟡 MEDIUM</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>QR
+↓
+Unknown domain
+↓
+Redirect
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="-high">🟠 HIGH</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>QR
+↓
+Unknown domain
+↓
+APK download
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="-critical">🔴 CRITICAL</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>QR
+↓
+Unknown source
+↓
+APK
+↓
+Suspicious permissions
+↓
+Suspicious network behavior
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə Casper yalnız hadisəni göstərmir.</p>
+
+<p>O hadisəni <strong>prioritetləşdirə</strong> bilər.</p>
+
+<hr />
+
+<h1 id="-android-security-niyə-vacibdir">📱 Android Security Niyə Vacibdir?</h1>
+
+<p>Bu gün smartfon sadəcə zəng cihazı deyil.</p>
+
+<p>Telefonlarımızda:</p>
+
+<ul>
+  <li>email;</li>
+  <li>sosial media;</li>
+  <li>şəxsi şəkillər;</li>
+  <li>kontaktlar;</li>
+  <li>bank tətbiqləri;</li>
+  <li>autentifikasiya tətbiqləri;</li>
+  <li>cloud hesabları;</li>
+  <li>şəxsi sənədlər;</li>
+  <li>GPS məlumatları;</li>
+  <li>iş məlumatları</li>
+</ul>
+
+<p>ola bilər.</p>
+
+<p>Buna görə mobil təhlükəsizlik artıq ayrıca mövzu deyil.</p>
+
+<p>O ümumi kibertəhlükəsizliyin əsas hissəsidir.</p>
+
+<hr />
+
+<h1 id="-permission-ları-oxumadan-allow-etməyin">🔐 Permission-ları Oxumadan Allow Etməyin</h1>
+
+<p>Tətbiq quraşdırıldıqdan sonra müxtəlif permission-lar istəyə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>Camera
+Microphone
+Location
+Contacts
+Storage
+Notifications
+Accessibility
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>İstifadəçi hər dəfə avtomatik:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ALLOW
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>basmamalıdır.</p>
+
+<p>Özünüzə sual verin:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Bu tətbiqin həqiqətən bu icazəyə ehtiyacı varmı?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Sadə bir tətbiq funksiyası ilə əlaqəsi olmayan permission istəyirsə, bunun səbəbi araşdırılmalıdır.</p>
+
+<hr />
+
+<h1 id="-unknown-sources-təhlükəsi">🚫 Unknown Sources Təhlükəsi</h1>
+
+<p>Android sistemində naməlum mənbədən tətbiq quraşdırmaq mümkündür.</p>
+
+<p>Bu funksiya özü təhlükəli deyil.</p>
+
+<p>Amma naməlum mənbədən gələn tətbiq ayrıca yoxlanmalıdır.</p>
+
+<p>Bütün xarici APK-lər malware deyil.</p>
+
+<p>Lakin prinsip sadədir:</p>
+
+<blockquote>
+  <p><strong>Mənbəni tanımırsınızsa, proqramı yoxlamadan quraşdırmayın.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="️-qr-kod-təhlükəsizlik-qaydaları">🛡️ QR Kod Təhlükəsizlik Qaydaları</h1>
+
+<p>QR kod skan edərkən bu qaydaları yadda saxlayın:</p>
+
+<ol>
+  <li>Tanımadığınız QR kodu səbəbsiz skan etməyin.</li>
+  <li>Link açılmadan əvvəl URL-i yoxlayın.</li>
+  <li>Domen adını diqqətlə oxuyun.</li>
+  <li>Naməlum QR koddan gələn APK faylını quraşdırmayın.</li>
+  <li>URL qısaldıcı linklərdə daha diqqətli olun.</li>
+  <li>Login səhifəsinin domenini yoxlayın.</li>
+  <li>Bank və ödəniş səhifələrində xüsusi diqqətli olun.</li>
+  <li>Android permission-ları oxuyun.</li>
+  <li>Naməlum tətbiqlərə kritik icazələr verməyin.</li>
+  <li>Şübhəli davranış gördükdə prosesi dayandırın.</li>
+</ol>
+
+<hr />
+
+<h1 id="-casper-niyə-səsli-xəbərdarlıq-verir">🤖 Casper Niyə Səsli Xəbərdarlıq Verir?</h1>
+
+<p>İnsan kiçik notification-u görməyə bilər.</p>
+
+<p>Amma Casper:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>DİQQƏT!
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>deyəndə hadisə daha aydın hiss olunur.</p>
+
+<p>CyberShieldy Casper-də təhlükəsizlik alertləri gələcəkdə bir neçə kanal vasitəsilə təqdim edilə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>SECURITY EVENT
+       ↓
+CASPER
+       ↓
+VOICE ALERT
++
+VISUAL ALERT
++
+MOBILE ALERT
++
+LOG
++
+REPORT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu artıq adi notification deyil.</p>
+
+<p>Bu <strong>multimodal cybersecurity alert system</strong> konseptidir.</p>
+
+<hr />
+
+<h1 id="-casper-robot-gözləri-və-security-alert">👀 Casper Robot Gözləri və Security Alert</h1>
+
+<p>Casper-in robot gözləri sadəcə vizual dizayn deyil.</p>
+
+<p>Onlar sistem statusunun vizual interfeysinə çevrilə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>🔵 NORMAL
+
+🟡 ANALYZING
+
+🟠 SUSPICIOUS
+
+🔴 SECURITY ALERT
+
+🟢 SAFE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>QR Security ssenarisində:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>NORMAL
+   ↓
+QR SCAN
+   ↓
+ANALYZING
+   ↓
+APK DETECTED
+   ↓
+ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>modeli yarana bilər.</p>
+
+<p>Beləliklə istifadəçi təhlükəsizlik vəziyyətini həm eşidir, həm də robotun üzündə görür.</p>
+
+<hr />
+
+<h1 id="-casper--soc--siem">📊 Casper + SOC + SIEM</h1>
+
+<p>Gələcək mərhələdə Casper QR Security hadisələri SIEM sisteminə ötürə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>ANDROID
+   ↓
+APK DOWNLOAD EVENT
+   ↓
+CASPER
+   ↓
+LOG
+   ↓
+SIEM
+   ↓
+CORRELATION
+   ↓
+ALERT
+   ↓
+REPORT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu zaman QR Scan hadisəsi tək mobil telefonda qalmır.</p>
+
+<p>O ümumi SOC monitorinq prosesinin bir hissəsinə çevrilir.</p>
+
+<hr />
+
+<h1 id="-kiber-dərsləri-üçün-qr-security-lab">🧪 Kiber Dərsləri Üçün QR Security Lab</h1>
+
+<p>Belə laboratoriyalar kibertəhlükəsizlik dərslərində çox faydalıdır.</p>
+
+<p>Çünki tələbə eyni laboratoriyada:</p>
+
+<ul>
+  <li>QR Code Security;</li>
+  <li>Social Engineering;</li>
+  <li>Phishing;</li>
+  <li>Quishing;</li>
+  <li>Mobile Security;</li>
+  <li>Android Security;</li>
+  <li>APK Security;</li>
+  <li>Network Security;</li>
+  <li>Red Team;</li>
+  <li>Blue Team;</li>
+  <li>Purple Team;</li>
+  <li>AI Cybersecurity;</li>
+  <li>Security Automation;</li>
+  <li>Robototexnika;</li>
+  <li>SOC;</li>
+  <li>SIEM</li>
+</ul>
+
+<p>mövzularının bir-biri ilə necə əlaqəli olduğunu görə bilir.</p>
+
+<p>Ümumi proses:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>USER
+  ↓
+QR CODE
+  ↓
+ANDROID
+  ↓
+DOWNLOAD EVENT
+  ↓
+SECURITY MONITOR
+  ↓
+CASPER AI
+  ↓
+ALERT
+  ↓
+SIEM
+  ↓
+ANALYSIS
+  ↓
+DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="-hacker-dərsləri-və-kiber-dərsləri">🎓 Hacker Dərsləri və Kiber Dərsləri</h1>
+
+<p>Kibertəhlükəsizlik öyrənən şəxsin məqsədi sadəcə hazır komandalar əzbərləmək olmamalıdır.</p>
+
+<p>Əsas suallar bunlardır:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>Bu təhlükə necə yaranır?
+
+İstifadəçi hansı səhvi edir?
+
+Hücumçu hansı davranışdan istifadə edə bilər?
+
+Red Team bunu necə test edir?
+
+Blue Team bunu necə aşkarlayır?
+
+SIEM bunu görə bilərmi?
+
+AI hadisəni necə analiz edir?
+
+İstifadəçiyə necə xəbərdarlıq edilir?
+
+Müdafiəni necə yaxşılaşdırmaq olar?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CyberShieldy Casper laboratoriyalarının məqsədi məhz bu düşüncə modelini yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-ai--robototexnika--kibertəhlükəsizlik">🤖 AI + Robototexnika + Kibertəhlükəsizlik</h1>
+
+<p>Casper layihəsi yalnız proqram təminatı deyil.</p>
+
+<p>Layihənin əsas istiqamətlərindən biri AI-nin fiziki robot platforması ilə birləşdirilməsidir.</p>
+
+<p>Gələcək Casper:</p>
+
+<ul>
+  <li>👀 görə bilər;</li>
+  <li>👂 eşidə bilər;</li>
+  <li>🗣️ danışa bilər;</li>
+  <li>🧠 analiz edə bilər;</li>
+  <li>📱 telefonla əlaqə qura bilər;</li>
+  <li>💻 kompüterlə işləyə bilər;</li>
+  <li>📡 IoT sistemlərindən məlumat ala bilər;</li>
+  <li>🛡️ təhlükəsizlik alertlərini analiz edə bilər;</li>
+  <li>🛞 hərəkət edə bilər;</li>
+  <li>📊 təhlükəsizlik nəticələrini göstərə bilər.</li>
+</ul>
+
+<p>QR Security Test də bu böyük konseptin mobil təhlükəsizlik hissəsidir.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-ai-cybersecurity-robotu">🔥 Gələcəyin AI Cybersecurity Robotu</h1>
+
+<p>CyberShieldy Casper-in ümumi konsepti:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="rouge-code"><pre>CYBERSECURITY
+      +
+ARTIFICIAL INTELLIGENCE
+      +
+MOBILE SECURITY
+      +
+ANDROID SECURITY
+      +
+RED TEAM
+      +
+BLUE TEAM
+      +
+PURPLE TEAM
+      +
+SOC / SIEM
+      +
+IoT
+      +
+ROBOTICS
+      +
+SECURITY AUTOMATION
+      =
+CYBERSHIELDY CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper-in məqsədi yalnız istifadəçiyə cavab vermək deyil.</p>
+
+<p>Məqsəd fiziki və rəqəmsal təhlükəsizlik sistemləri arasında <strong>analiz, koordinasiya və xəbərdarlıq qatı</strong> yaratmaqdır.</p>
+
+<hr />
+
+<h1 id="-təhlükəsiz-dizayn-prinsipləri">🔐 Təhlükəsiz Dizayn Prinsipləri</h1>
+
+<p>Casper kimi AI, mobil təhlükəsizlik və robototexnikanı birləşdirən sistemdə təhlükəsizlik əsas prioritetdir.</p>
+
+<p>Əsas prinsiplər:</p>
+
+<ul>
+  <li>yalnız sahibinə məxsus və ya icazəli sistemlərdə test;</li>
+  <li>kritik əməliyyatlardan əvvəl insan təsdiqi;</li>
+  <li>minimum permission prinsipi;</li>
+  <li>allowlist əsaslı idarəetmə;</li>
+  <li>naməlum APK-lərin avtomatik quraşdırılmaması;</li>
+  <li>təhlükəsizlik hadisələrinin loglanması;</li>
+  <li>API tokenlərinin qorunması;</li>
+  <li>şəxsi məlumatların demo məlumatlarından ayrılması;</li>
+  <li>şübhəli əməliyyatda safe-mode;</li>
+  <li>audit sisteminin saxlanması.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Konsepti göstəririk. Təhlükəni öyrədirik. Müdafiəni gücləndiririk.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-casper-qr-security-gələcək-i̇nkişafı">🚀 Casper QR Security Gələcək İnkişafı</h1>
+
+<p>CyberShieldy Casper QR Security sistemi gələcəkdə aşağıdakı imkanlarla genişləndirilə bilər:</p>
+
+<ul>
+  <li>🔎 QR link analizi;</li>
+  <li>🌐 domain reputation;</li>
+  <li>🔗 redirect analizi;</li>
+  <li>📦 APK hash analizi;</li>
+  <li>🛡️ malware scanner inteqrasiyası;</li>
+  <li>📱 Android permission analizi;</li>
+  <li>🧠 AI risk classification;</li>
+  <li>📊 SIEM inteqrasiyası;</li>
+  <li>🚨 real-time alert;</li>
+  <li>🗣️ səsli risk izahı;</li>
+  <li>📄 avtomatik PDF security report;</li>
+  <li>🔴 Red Team simulation;</li>
+  <li>🔵 Blue Team detection;</li>
+  <li>🟣 Purple Team workflow;</li>
+  <li>🤖 robot security alert;</li>
+  <li>👀 robot gözlərinin təhlükəyə uyğun dəyişməsi;</li>
+  <li>📲 mobil xəbərdarlıq;</li>
+  <li>🧠 AI correlation.</li>
+</ul>
+
+<hr />
+
+<h1 id="-gələcəyin-kiber-təhlükəsizlik-təhsili">🌍 Gələcəyin Kiber Təhlükəsizlik Təhsili</h1>
+
+<p>Gələcəyin kiber dərsləri yalnız terminalda kod yazmaqdan ibarət olmayacaq.</p>
+
+<p>Tələbə hadisənin tam zəncirini görə biləcək:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>FİZİKİ QR CODE
+      ↓
+MOBILE DEVICE
+      ↓
+NETWORK
+      ↓
+SECURITY EVENT
+      ↓
+AI ANALYSIS
+      ↓
+SIEM
+      ↓
+ROBOT ALERT
+      ↓
+HUMAN DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu yanaşma tələbəyə yalnız aləti deyil, <strong>təhlükəsizlik düşüncəsini</strong> öyrədir.</p>
+
+<hr />
+
+<h1 id="️-bir-qr-kod-bəzən-sadəcə-qr-kod-deyil">⚠️ Bir QR Kod Bəzən Sadəcə QR Kod Deyil</h1>
+
+<p>QR kodlar bu gün hər yerdədir:</p>
+
+<ul>
+  <li>kafedə;</li>
+  <li>restoranda;</li>
+  <li>metroda;</li>
+  <li>küçədə;</li>
+  <li>posterlərdə;</li>
+  <li>məhsulların üzərində;</li>
+  <li>email-lərdə;</li>
+  <li>sosial mediada;</li>
+  <li>tədbirlərdə.</li>
+</ul>
+
+<p>Əsas sual:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Bu QR kod nədir?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>deyil.</p>
+
+<p>Daha vacib sual:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Bu QR kod məni hara aparır?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>olmalıdır.</p>
+
+<hr />
+
+<h1 id="-yadda-saxla">🧠 Yadda Saxla</h1>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>QR KODU GÖRDÜN
+      ↓
+MƏNBƏNİ YOXLА
+      ↓
+QR SCAN
+      ↓
+LINKİ YOXLА
+      ↓
+DOMENİ YOXLА
+      ↓
+APK GƏLİRSƏ DAYAN
+      ↓
+MƏNBƏNİ ARAŞDIR
+      ↓
+PERMISSION-LARI YOXLА
+      ↓
+SONRA QƏRAR VER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p><strong>Bir neçə saniyəlik yoxlama böyük təhlükəsizlik probleminin qarşısını ala bilər.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-nəticə">🌍 Nəticə</h1>
+
+<p>CyberShieldy Casper QR Scan Security Test sadəcə QR kod skan demosu deyil.</p>
+
+<p>Bu laboratoriya:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</pre></td><td class="rouge-code"><pre>QR SECURITY
++
+QUISHING
++
+SOCIAL ENGINEERING
++
+ANDROID SECURITY
++
+APK SECURITY
++
+MOBILE SECURITY
++
+RED TEAM
++
+BLUE TEAM
++
+PURPLE TEAM
++
+AI
++
+SOC / SIEM
++
+ROBOTICS
++
+SECURITY AUTOMATION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>mövzularını eyni təhlükəsizlik ssenarisində birləşdirir.</p>
+
+<p>Test zamanı QR kod skan edilir.</p>
+
+<p>QR kod vasitəsilə APK endirmə cəhdi yaranır.</p>
+
+<p>Casper hadisəni müəyyən edir.</p>
+
+<p>Security Alert aktivləşir.</p>
+
+<p>Casper istifadəçiyə səsli xəbərdarlıq verir.</p>
+
+<p>Və əsas təhlükəsizlik mesajı təqdim edilir:</p>
+
+<blockquote>
+  <p><strong>Tanımadığınız QR kodları skan etməyin.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Naməlum QR koddan gələn APK faylını yoxlamadan quraşdırmayın.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>QR kodun görünüşünə deyil, sizi apardığı ünvana etibar edin.</strong></p>
+</blockquote>
+
+<p>CyberShieldy Casper-in məqsədi gələcəyin AI kibertəhlükəsizlik robotunu qurmaqla yanaşı, kibertəhlükəsizliyi insanlara daha vizual, interaktiv və praktiki laboratoriyalar vasitəsilə öyrətməkdir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>
+    <p>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></p>
+  </li>
+  <li>
+    <p>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></p>
+  </li>
+  <li>
+    <p>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></p>
+  </li>
+  <li>
+    <p>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></p>
+  </li>
+  <li>
+    <p>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></p>
+  </li>
+  <li>
+    <p>🤖⚡ <a href="https://cybershieldy.com/posts/ai-cybersecurity-assistant">CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi</a></p>
+  </li>
+  <li>
+    <p>🤖📱 <a href="https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab">CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası</a></p>
+  </li>
+  <li>
+    <p>🤖⚔️ <a href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot">CyberShieldy Casper: Gələcəyin AI Pentest Robotu</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="-casper-qr-security-demo">🎥 Casper QR Security Demo</h1>
+
+<p>📱 <strong>Instagram Reel</strong></p>
+
+<p>https://www.instagram.com/reel/DdRZw6lNT2Y/?stkn=ZXVuNHV1d3ZqbGcw</p>
+
+<hr />
+
+<h1 id="-cybershieldy-academy">📢 CyberShieldy Academy</h1>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p><strong>🛡️ Kibertəhlükəsizlik mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə təlimçi</strong></p>
+
+<p><strong>🤖 CyberShieldy Casper AI Cybersecurity Robot layihəsinin müəllifi və inkişaf etdiricisi</strong></p>
+
+<p>🌐 <a href="https://cybershieldy.com">CyberShieldy.com</a></p>
+
+<p>🎥 <a href="https://www.instagram.com/reel/DdRZw6lNT2Y/?stkn=ZXVuNHV1d3ZqbGcw">CyberShieldy Casper — QR Scan Security Demo</a></p>
+
+<blockquote>
+  <p><strong>“Tanımadığınız QR kodu skan etməzdən əvvəl onun sizi hara apardığını düşünün.”</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>“Gələcəyin kibertəhlükəsizliyi yalnız təhlükəni bloklamaq deyil — təhlükəni istifadəçiyə vaxtında göstərmək və düzgün qərar verməsinə kömək etməkdir.”</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>“CyberShieldy Casper — AI, kibertəhlükəsizlik, mobil təhlükəsizlik, IoT və robototexnikanın birləşdiyi gələcəyin kiber təhlükəsizlik platformasıdır.”</strong></p>
+</blockquote>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robototexnika" /><category term="mobile security" /><category term="android security" /><category term="qr security" /><category term="red team" /><category term="blue team" /><category term="security awareness" /><category term="casper ai" /><category term="casper robot" /><category term="cybershieldy" /><category term="cybersecurity" /><category term="cyber security" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="qr code security" /><category term="qr security" /><category term="qr scan security" /><category term="qr phishing" /><category term="quishing" /><category term="malicious qr code" /><category term="apk security" /><category term="android apk" /><category term="android security" /><category term="mobile security" /><category term="mobile malware" /><category term="phishing" /><category term="social engineering" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="ai security" /><category term="ai robot" /><category term="cybersecurity robot" /><category term="cyber robot" /><category term="robototexnika" /><category term="robotics" /><category term="iot security" /><category term="hacker" /><category term="hacking" /><category term="ethical hacking" /><category term="penetration testing" /><category term="pentest" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="siem" /><category term="threat detection" /><category term="malware detection" /><category term="cyber defense" /><category term="cyber attack" /><category term="cyber awareness" /><category term="security automation" /><category term="cyber lab" /><category term="cybersecurity lab" /><category term="cybersecurity training" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="ai dərsləri" /><category term="robototexnika dərsləri" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper QR Scan Security Test: naməlum QR kod skan edildikdə APK yükləmə cəhdi aşkarlanır və Casper istifadəçiyə səsli təhlükəsizlik xəbərdarlığı verir. QR phishing, APK təhlükəsizliyi, Android Security, AI Cybersecurity və robototexnika mövzusunda praktiki kibertəhlükəsizlik laboratoriyası.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-qr-security.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-qr-security.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması</title><link href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot" rel="alternate" type="text/html" title="🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu və Kiber Təhlükəsizlik Platforması" /><published>2026-09-11T08:24:00+04:00</published><updated>2026-09-11T18:24:35+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-kiber-tehlukesizlik-robotu-pentest-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot"><![CDATA[<h1 id="️-cybershieldy-casper-gələcəyin-ai-pentest-robotu">🤖⚔️ CyberShieldy Casper: Gələcəyin AI Pentest Robotu</h1>
 
 <p>Bir tərəfdə telefon və kompüteri səsli əmrlərlə idarə edə bilən süni intellekt sistemi var.</p>
 
@@ -7040,339 +8887,4 @@ Transport: ADB File Stream</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="automation" /><category term="ai" /><category term="süni intellekt" /><category term="cybersecurity" /><category term="soc" /><category term="siem" /><category term="wazuh" /><category term="automation" /><category term="voice assistant" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="cyber automation" /><category term="llm" /><category term="ai agent" /><category term="threat hunting" /><category term="detection engineering" /><category term="python" /><category term="linux" /><category term="web security" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="hacking" /><category term="mobile pentest" /><category term="android security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="cybersecurity" /><category term="penetration testing" /><category term="mobile hacking" /><category term="smartphone security" /><category term="pin code" /><category term="authentication" /><category term="android pentest" /><category term="mobile application security" /><category term="android hacking" /><category term="mobile forensics" /><category term="digital forensics" /><category term="cybersecurity training" /><category term="infosec" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile malware" /><category term="application security" /><category term="cyber lab" /><category term="kali linux" /><category term="burp suite" /><category term="owasp" /><category term="api security" /><category term="mobile authentication" /><category term="smartphone security" /><category term="cyber lessons" /><category term="cyber academy" /><summary type="html"><![CDATA[AI və səs texnologiyalarının kibertəhlükəsizlik sistemlərinə inteqrasiyası, avtomatlaşdırılmış SOC mühitləri və gələcəyin ağıllı təhlükəsizlik platformaları haqqında geniş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/AI_lab.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/AI_lab.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik</title><link href="https://cybershieldy.com/posts/pin-code-mobile-security" rel="alternate" type="text/html" title="📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik" /><published>2026-06-28T08:00:00+04:00</published><updated>2026-06-28T17:05:15+04:00</updated><id>https://cybershieldy.com/posts/pin-kod-tehlukesizliyi-ve-mobil-pentest</id><content type="html" xml:base="https://cybershieldy.com/posts/pin-code-mobile-security"><![CDATA[<h1 id="-pin-kod-təhlükəsizliyi-mobil-pentest-və-müasir-kibertəhlükəsizlik">📱 PIN Kod Təhlükəsizliyi: Mobil Pentest və Müasir Kibertəhlükəsizlik</h1>
-
-<p>Müasir dövrdə smartfonlar sadəcə zəng etmək və mesaj göndərmək üçün istifadə olunan cihazlar deyil. Onlar şəxsi məlumatlarımızı, bank hesablarımızı, elektron poçtlarımızı, sosial media hesablarımızı və gündəlik həyatımızın böyük hissəsini özündə saxlayan rəqəmsal platformalara çevriliblər.</p>
-
-<p>Bu səbəbdən mobil cihazların təhlükəsizliyi həm fərdi istifadəçilər, həm də təşkilatlar üçün böyük əhəmiyyət daşıyır. Telefonun ilk müdafiə xətti isə ekran kilidi və PIN kod autentifikasiyasıdır.</p>
-
-<hr />
-
-<h1 id="-bu-mövzuda-hazırladığım-video">🎥 Bu mövzuda hazırladığım video</h1>
-
-<iframe src="https://www.instagram.com/reel/DaF-5btM699/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-<h1 id="-pin-kod-təhlükəsizliyi-necə-i̇şləyir">🔐 PIN Kod Təhlükəsizliyi Necə İşləyir?</h1>
-
-<p>Bir çox istifadəçi düşünür ki, PIN kod sadəcə ekranı açan bir neçə rəqəmdən ibarətdir. Əslində isə müasir mobil əməliyyat sistemlərində autentifikasiya prosesi daha mürəkkəb şəkildə həyata keçirilir.</p>
-
-<p>İstifadəçi PIN kodu daxil etdikdə əməliyyat sistemi bu məlumatı daxili təhlükəsizlik mexanizmləri vasitəsilə yoxlayır. Kod düzgün olduqda cihazın istifadəsinə icazə verilir, yanlış olduqda isə təhlükəsizlik siyasətləri işə düşür.</p>
-
-<p>Android və iOS platformaları ardıcıl səhv PIN cəhdlərini izləyir. Çox sayda uğursuz cəhd olduqda cihaz müəyyən müddət ərzində yeni cəhdlərə icazə verməyə bilər. Bu yanaşma təsadüfi və ya avtomatlaşdırılmış PIN təxminlərini çətinləşdirir.</p>
-
-<hr />
-
-<h1 id="-mobil-pentest-nədir">📱 Mobil Pentest Nədir?</h1>
-
-<p>Mobil Pentest (Mobile Penetration Testing) mobil tətbiqlərin və mobil cihazların təhlükəsizliyinin etik qaydalar çərçivəsində qiymətləndirilməsidir.</p>
-
-<p>Bu testlərin məqsədi istifadəçiyə və ya təşkilata zərər vurmaq deyil. Məqsəd mövcud təhlükəsizlik zəifliklərini aşkar etmək və onların aradan qaldırılması üçün tövsiyələr hazırlamaqdır.</p>
-
-<p>Mobil pentest zamanı mütəxəssislər aşağıdakı sahələri araşdırırlar:</p>
-
-<ul>
-  <li>Autentifikasiya mexanizmləri</li>
-  <li>Sessiya idarəetməsi</li>
-  <li>API təhlükəsizliyi</li>
-  <li>Şifrələnmiş məlumatların saxlanılması</li>
-  <li>Mobil tətbiqin icazələri</li>
-  <li>PIN və biometrik autentifikasiya</li>
-  <li>Root və Jailbreak aşkarlanması</li>
-  <li>Şəbəkə trafiki</li>
-  <li>Sertifikat yoxlanılması</li>
-  <li>Token idarəetməsi</li>
-</ul>
-
-<hr />
-
-<h1 id="-pin-kod-pentest-zamanı-nələr-yoxlanılır">📲 PIN Kod Pentest Zamanı Nələr Yoxlanılır?</h1>
-
-<p>Mobil təhlükəsizlik testləri zamanı PIN kodla bağlı müxtəlif təhlükəsizlik mexanizmləri qiymətləndirilə bilər.</p>
-
-<p>Məsələn:</p>
-
-<p>• Ardıcıl yanlış PIN cəhdlərindən sonra gözləmə müddəti varmı?</p>
-
-<p>• Cihaz təhlükəsizlik siyasətlərinə əməl edirmi?</p>
-
-<p>• PIN daxil edilməsi zamanı tətbiq əlavə təhlükəsizlik tədbirləri görürmü?</p>
-
-<p>• Biometrik autentifikasiya deaktiv olduqda sistem düzgün davranırmı?</p>
-
-<p>• Mobil tətbiq öz daxilində əlavə PIN istifadə edirmi?</p>
-
-<p>• Sessiya düzgün idarə olunurmu?</p>
-
-<p>Bu kimi yoxlamalar sistemin təhlükəsizlik səviyyəsini qiymətləndirməyə kömək edir.</p>
-
-<hr />
-
-<h1 id="-güclü-pin-kod-seçmək-niyə-vacibdir">🔑 Güclü PIN Kod Seçmək Niyə Vacibdir?</h1>
-
-<p>Ən çox istifadə olunan PIN kodlar aşağıdakılardır:</p>
-
-<p>1234</p>
-
-<p>0000</p>
-
-<p>1111</p>
-
-<p>1212</p>
-
-<p>2580</p>
-
-<p>Bu kimi kombinasiyalar çox sadə olduğundan onların təxmin edilməsi daha asan ola bilər.</p>
-
-<p>Daha təhlükəsiz yanaşma:</p>
-
-<p>✔ Uzun PIN istifadə etmək</p>
-
-<p>✔ Doğum tarixindən istifadə etməmək</p>
-
-<p>✔ Təkrarlanan rəqəmlərdən uzaq durmaq</p>
-
-<p>✔ Ardıcıl rəqəmlər seçməmək</p>
-
-<p>✔ Mürəkkəb kombinasiyalar yaratmaq</p>
-
-<p>Bu yanaşmalar mobil cihazın təhlükəsizliyini artırmağa kömək edir.</p>
-
-<hr />
-
-<h1 id="-android-təhlükəsizlik-arxitekturası">🤖 Android Təhlükəsizlik Arxitekturası</h1>
-
-<p>Android əməliyyat sistemi yalnız PIN koddan istifadə etmir.</p>
-
-<p>Platforma aşağıdakı təhlükəsizlik texnologiyalarını da tətbiq edir:</p>
-
-<p>• Application Sandbox</p>
-
-<p>• SELinux</p>
-
-<p>• Verified Boot</p>
-
-<p>• Hardware-backed Keystore</p>
-
-<p>• Google Play Protect</p>
-
-<p>• File-Based Encryption</p>
-
-<p>• Secure Lock Screen</p>
-
-<p>Bu mexanizmlər birlikdə işləyərək istifadəçi məlumatlarının qorunmasına kömək edir.</p>
-
-<hr />
-
-<h1 id="-android-və-ios-arasında-fərqlər">🍏 Android və iOS Arasında Fərqlər</h1>
-
-<p>Android daha açıq ekosistemdir və müxtəlif istehsalçılar tərəfindən istifadə olunur.</p>
-
-<p>iOS isə Apple tərəfindən idarə olunan qapalı ekosistemdir.</p>
-
-<p>Hər iki platforma yüksək təhlükəsizlik səviyyəsi təqdim etsə də, onların təhlükəsizlik yanaşmaları fərqlənir.</p>
-
-<p>Mobil təhlükəsizlik üzrə mütəxəssislər hər iki platformanın xüsusiyyətlərini öyrənməli və qiymətləndirməlidirlər.</p>
-
-<hr />
-
-<h1 id="-red-team-perspektivi">🔴 Red Team Perspektivi</h1>
-
-<p>Red Team mütəxəssisləri mobil sistemlərə hücumçunun baxış bucağından yanaşırlar.</p>
-
-<p>Onlar aşağıdakı riskləri araşdırırlar:</p>
-
-<ul>
-  <li>Zəif autentifikasiya</li>
-  <li>API təhlükəsizliyi</li>
-  <li>Sessiya problemləri</li>
-  <li>Token təhlükəsizliyi</li>
-  <li>Mobil tətbiq zəiflikləri</li>
-  <li>İcazə idarəetməsi</li>
-</ul>
-
-<p>Bu analizlər müdafiə sistemlərinin nə dərəcədə effektiv olduğunu göstərməyə kömək edir.</p>
-
-<hr />
-
-<h1 id="-blue-team-perspektivi">🔵 Blue Team Perspektivi</h1>
-
-<p>Blue Team komandalarının əsas məqsədi mobil cihazlardan gələn təhlükəsizlik hadisələrini izləmək və analiz etməkdir.</p>
-
-<p>Buraya daxildir:</p>
-
-<ul>
-  <li>Şübhəli giriş cəhdləri</li>
-  <li>Uyğunsuz təhlükəsizlik siyasətləri</li>
-  <li>Root edilmiş cihazlar</li>
-  <li>Təhlükəli tətbiqlər</li>
-  <li>Mobil hadisələrin SIEM platformalarına ötürülməsi</li>
-  <li>Hadisələrin korrelyasiya edilməsi</li>
-</ul>
-
-<p>Müasir SOC komandaları mobil təhlükəsizliyi də ümumi infrastrukturun vacib hissəsi kimi qiymətləndirirlər.</p>
-
-<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
-
-<ul>
-  <li>🔎🧠🌐 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></li>
-  <li>📶🔓⚠️📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
-  <li>🔴🔵🛡️⚔️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>🤖📡🏠🔐 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
-  <li>🔌💀🧠🚪 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar və Təhlükəsizlik Riskləri</a></li>
-  <li>📡🔓⚠️📱 <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth Hücumları</a></li>
-  <li>🤖🛡️🚀 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik</a></li>
-  <li>🤖🚀🧠💻 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
-  <li>🎣📧⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
-  <li>🕵️🎭🧠 <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li>🔐📲🛡️ <a href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li>📊🛡️🚨 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-</ul>
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin</strong></p>
-
-<p><strong>Kibertəhlükəsizlik mütəxəssisi • Red Team • Blue Team • SOC • Threat Hunting</strong></p>
-
-<p>🚀 Real bilik &gt; sertifikat</p>
-
-<p>🛡️ Praktiki laboratoriyalar • Real ssenarilər • Müasir kibertəhlükəsizlik təlimləri</p>
-
-<p>🌐 https://cybershieldy.com</p>
-
-<blockquote>
-  <p>Gələcəyin təhlükəsizlik mütəxəssisi yalnız sistemləri deyil, görünməyən dünyanı da başa düşməlidir.</p>
-</blockquote>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="mobil təhlükəsizlik" /><category term="android security" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="hacking" /><category term="mobile pentest" /><category term="android security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="cybersecurity" /><category term="penetration testing" /><category term="mobile hacking" /><category term="smartphone security" /><category term="pin code" /><category term="authentication" /><category term="android pentest" /><category term="mobile application security" /><category term="android hacking" /><category term="mobile forensics" /><category term="digital forensics" /><category term="cybersecurity training" /><category term="infosec" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile malware" /><category term="application security" /><category term="cyber lab" /><category term="kali linux" /><category term="burp suite" /><category term="owasp" /><category term="api security" /><category term="mobile authentication" /><category term="smartphone security" /><category term="cyber lessons" /><category term="cyber academy" /><summary type="html"><![CDATA[PIN kod təhlükəsizliyi nədir? Mobil cihazlarda autentifikasiya necə işləyir, mobil pentest zamanı hansı məqamlar yoxlanılır və təhlükəsizlik üçün nələrə diqqət edilməlidir?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/password.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/password.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="automation" /><category term="ai" /><category term="süni intellekt" /><category term="cybersecurity" /><category term="soc" /><category term="siem" /><category term="wazuh" /><category term="automation" /><category term="voice assistant" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="cyber automation" /><category term="llm" /><category term="ai agent" /><category term="threat hunting" /><category term="detection engineering" /><category term="python" /><category term="linux" /><category term="web security" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="hacking" /><category term="mobile pentest" /><category term="android security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="cybersecurity" /><category term="penetration testing" /><category term="mobile hacking" /><category term="smartphone security" /><category term="pin code" /><category term="authentication" /><category term="android pentest" /><category term="mobile application security" /><category term="android hacking" /><category term="mobile forensics" /><category term="digital forensics" /><category term="cybersecurity training" /><category term="infosec" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile malware" /><category term="application security" /><category term="cyber lab" /><category term="kali linux" /><category term="burp suite" /><category term="owasp" /><category term="api security" /><category term="mobile authentication" /><category term="smartphone security" /><category term="cyber lessons" /><category term="cyber academy" /><summary type="html"><![CDATA[AI və səs texnologiyalarının kibertəhlükəsizlik sistemlərinə inteqrasiyası, avtomatlaşdırılmış SOC mühitləri və gələcəyin ağıllı təhlükəsizlik platformaları haqqında geniş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/AI_lab.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/AI_lab.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
