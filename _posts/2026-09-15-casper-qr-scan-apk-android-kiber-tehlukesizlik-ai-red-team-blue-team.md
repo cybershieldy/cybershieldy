@@ -75,7 +75,7 @@ tags:
 
 description: "CyberShieldy Casper QR Scan Security Test: naməlum QR kod skan edildikdə APK yükləmə cəhdi aşkarlanır və Casper istifadəçiyə səsli təhlükəsizlik xəbərdarlığı verir. QR phishing, APK təhlükəsizliyi, Android Security, AI Cybersecurity və robototexnika mövzusunda praktiki kibertəhlükəsizlik laboratoriyası."
 
-image: /assets/images/casper-qr-security.webp
+image: /assets/images/qr.webp
 
 canonical: https://cybershieldy.com/posts/casper-qr-scan-security-test
 
