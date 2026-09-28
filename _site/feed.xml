@@ -1,4 +1,2054 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-15T16:17:10+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖📱 CyberShieldy Casper QR Scan Security Test — Naməlum QR Kod, APK Təhlükəsi və AI Kiber Müdafiə</title><link href="https://cybershieldy.com/posts/casper-qr-scan-security-test" rel="alternate" type="text/html" title="🤖📱 CyberShieldy Casper QR Scan Security Test — Naməlum QR Kod, APK Təhlükəsi və AI Kiber Müdafiə" /><published>2026-09-15T08:05:00+04:00</published><updated>2026-09-15T08:05:00+04:00</updated><id>https://cybershieldy.com/posts/casper-qr-scan-apk-android-kiber-tehlukesizlik-ai-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-qr-scan-security-test"><![CDATA[<h1 id="-cybershieldy-casper-qr-scan-security-test">🤖📱 CyberShieldy Casper QR Scan Security Test</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-09-28T17:59:26+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖 CyberShieldy Casper Robot Head Control — Sağ, Sol və Mərkəz Hərəkəti | AI, Robototexnika və Kibertəhlükəsizlik</title><link href="https://cybershieldy.com/posts/casper-robot-head-control" rel="alternate" type="text/html" title="🤖 CyberShieldy Casper Robot Head Control — Sağ, Sol və Mərkəz Hərəkəti | AI, Robototexnika və Kibertəhlükəsizlik" /><published>2026-09-28T08:45:00+04:00</published><updated>2026-09-28T08:45:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-robot-head-control-robototexnika-kiber-tehlukesizlik-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-robot-head-control"><![CDATA[<h1 id="-cybershieldy-casper-robot-head-control">🤖 CyberShieldy Casper Robot Head Control</h1>
+
+<p>CyberShieldy Casper layihəsində yeni robototexnika mərhələsinə keçid edildi.</p>
+
+<p>Casper artıq yalnız ekranda gözləri görünən, səsli cavab verən və kiber təhlükəsizlik hadisələrini analiz edən sistem deyil.</p>
+
+<p>Yeni mərhələdə Casper robot başlığı fiziki olaraq:</p>
+
+<ul>
+  <li>sağa;</li>
+  <li>sola;</li>
+  <li>mərkəzə</li>
+</ul>
+
+<p>hərəkət etdirə bilir.</p>
+
+<p>Bu ilk baxışda sadə bir robot hərəkəti kimi görünə bilər.</p>
+
+<p>Amma layihənin əsas məqsədi sadəcə motoru sağa və sola çevirmək deyil.</p>
+
+<p>Əsas məqsəd gələcəkdə süni intellekt, sensorlar, robototexnika və kibertəhlükəsizlik sistemlərini vahid platformada birləşdirməkdir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>SENSOR
+   ↓
+DATA
+   ↓
+CASPER AI
+   ↓
+ANALYSIS
+   ↓
+DECISION
+   ↓
+PHYSICAL ACTION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə Casper yalnız proqram daxilində işləyən AI köməkçisi olmaqdan çıxaraq real fiziki sistemlərə reaksiya verən eksperimental AI Cybersecurity Robot platformasına çevrilir.</p>
+
+<hr />
+
+<h1 id="-casper-robot-head-movement--yeni-demo">🎥 Casper Robot Head Movement — Yeni Demo</h1>
+
+<p>Yeni Casper robototexnika testini aşağıdakı Instagram Reel videosunda izləyə bilərsiniz:</p>
+
+<iframe src="https://www.instagram.com/reel/Ddy4FZwMTlO/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen="">
+</iframe>
+
+<p>📱 <strong>Instagram Reel:</strong></p>
+
+<p><a href="https://www.instagram.com/reel/Ddy4FZwMTlO/?stkn=MW54dnVvazhkaTIzaQ==">CyberShieldy Casper Robot Head Control</a></p>
+
+<p>Bu videoda robot başlığının əsas istiqamətlər üzrə hərəkəti göstərilir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>CENTER
+   ↓
+RIGHT
+   ↓
+CENTER
+   ↓
+LEFT
+   ↓
+CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu sadə görünən test gələcək daha mürəkkəb robot davranışları üçün əsas yaradır.</p>
+
+<hr />
+
+<h1 id="-cybershieldy-casper-nədir">🤖 CyberShieldy Casper Nədir?</h1>
+
+<p>CyberShieldy Casper mənim hazırladığım və mərhələli şəkildə inkişaf etdirdiyim eksperimental AI Cybersecurity Robot layihəsidir.</p>
+
+<p>Layihənin məqsədi sadəcə danışan robot hazırlamaq deyil.</p>
+
+<p>Əsas məqsəd müxtəlif texnologiyaları bir-birindən ayrı istifadə etmək əvəzinə onları vahid sistem daxilində birləşdirməkdir.</p>
+
+<p>Casper konsepti:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="rouge-code"><pre>ARTIFICIAL INTELLIGENCE
+        +
+CYBERSECURITY
+        +
+ROBOTICS
+        +
+IoT
+        +
+AUTOMATION
+        +
+SOC / SIEM
+        +
+MOBILE SECURITY
+        +
+RED TEAM
+        +
+BLUE TEAM
+        +
+PURPLE TEAM
+        =
+CYBERSHIELDY CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper həm proqram təminatı, həm süni intellekt, həm IoT, həm də fiziki robototexnika qatlarından ibarət eksperimental layihədir.</p>
+
+<hr />
+
+<h1 id="-layihənin-müəllifi">👨‍💻 Layihənin Müəllifi</h1>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p>🛡️ Kibertəhlükəsizlik mütəxəssisi<br />
+🔴 Red Team<br />
+🔵 Blue Team üzrə təlimçi<br />
+🤖 CyberShieldy Casper AI Cybersecurity Robot layihəsinin müəllifi və inkişaf etdiricisi</p>
+
+<p>🌐 <strong>CyberShieldy.com</strong></p>
+
+<p>Bu layihə şəxsi eksperimental laboratoriya və kiber təhsil məqsədi ilə hazırlanır.</p>
+
+<p>Casper üzərində əsas istiqamətlər:</p>
+
+<ul>
+  <li>Artificial Intelligence;</li>
+  <li>AI Cybersecurity;</li>
+  <li>Robototexnika;</li>
+  <li>IoT;</li>
+  <li>ESP32 sistemləri;</li>
+  <li>sensor sistemləri;</li>
+  <li>Cybersecurity;</li>
+  <li>Red Team;</li>
+  <li>Blue Team;</li>
+  <li>Purple Team;</li>
+  <li>SOC;</li>
+  <li>SIEM;</li>
+  <li>Security Automation;</li>
+  <li>Mobile Security;</li>
+  <li>Android Security;</li>
+  <li>təhlükəsizlik alertləri;</li>
+  <li>səsli idarəetmə;</li>
+  <li>fiziki hərəkət sistemləri.</li>
+</ul>
+
+<hr />
+
+<h1 id="-robot-başının-sağ-sol-və-mərkəz-hərəkəti">🦾 Robot Başının Sağ, Sol və Mərkəz Hərəkəti</h1>
+
+<p>Yeni testdə Casper-in baş hissəsi üç əsas istiqamətdə idarə olunur:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>LEFT
+CENTER
+RIGHT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu üç baza mövqeyi gələcək robot hərəkətlərinin təməlidir.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>CENTER
+   ↓
+LOOK LEFT
+   ↓
+CENTER
+   ↓
+LOOK RIGHT
+   ↓
+CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu mexanizmin gələcəkdə sensor və AI qərarları ilə birlikdə işləməsi planlaşdırılır.</p>
+
+<p>Yəni robot həmişə əvvəlcədən yazılmış ardıcıllıqla hərəkət etməyə məcbur deyil.</p>
+
+<p>Gələcək model belə ola bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ENVIRONMENT
+     ↓
+SENSOR
+     ↓
+CASPER AI
+     ↓
+ANALYSIS
+     ↓
+DIRECTION
+     ↓
+HEAD MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="-casper-ətrafına-baxmağı-öyrənir">👀 Casper Ətrafına Baxmağı Öyrənir</h1>
+
+<p>Robotun baş hissəsinin sağa və sola hərəkət etməsi gələcəkdə onun ətraf mühiti daha aktiv analiz etməsinə imkan verə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>LEFT
+ ↓
+SCAN
+
+CENTER
+ ↓
+SCAN
+
+RIGHT
+ ↓
+SCAN
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Sonra:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>SCAN DATA
+    ↓
+COMPARE
+    ↓
+ANALYSIS
+    ↓
+DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu yanaşma ilə Casper gələcəkdə hansı istiqamətdə maraqlı obyekt və ya hadisə olduğunu müəyyən edə bilər.</p>
+
+<hr />
+
+<h1 id="-sensor--robot-head">📡 Sensor + Robot Head</h1>
+
+<p>Robototexnikada motor hərəkəti təkbaşına əsas məqsəd deyil.</p>
+
+<p>Əsas məntiq sensor məlumatını fiziki reaksiyaya çevirməkdir.</p>
+
+<p>Konseptual nümunə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>DISTANCE SENSOR
+       ↓
+OBJECT DETECTED
+       ↓
+DIRECTION CHECK
+       ↓
+CASPER
+       ↓
+HEAD TURN
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu halda Casper sadəcə istifadəçidən:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Sağa dön
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>əmrini gözləməyə bilər.</p>
+
+<p>Sistem özü ətraf mühit məlumatını analiz edib uyğun istiqamətə dönə bilər.</p>
+
+<hr />
+
+<h1 id="-süni-i̇ntellekt-robot-hərəkətini-necə-dəyişdirə-bilər">🧠 Süni İntellekt Robot Hərəkətini Necə Dəyişdirə Bilər?</h1>
+
+<p>Ənənəvi AI sistemi adətən belə işləyir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>USER
+ ↓
+QUESTION
+ ↓
+AI
+ ↓
+TEXT RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper konseptində isə model daha genişdir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>USER
+ ↓
+VOICE
+ ↓
+CASPER AI
+ ↓
+ANALYSIS
+ ↓
+DECISION
+ ↓
+ROBOT ACTION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Robot əməliyyatı aşağıdakılardan biri ola bilər:</p>
+
+<ul>
+  <li>sağa baxmaq;</li>
+  <li>sola baxmaq;</li>
+  <li>mərkəzə dönmək;</li>
+  <li>göz animasiyasını dəyişmək;</li>
+  <li>səsli cavab vermək;</li>
+  <li>alert rejiminə keçmək;</li>
+  <li>sensor məlumatını analiz etmək;</li>
+  <li>fiziki sistemlə əlaqə yaratmaq.</li>
+</ul>
+
+<p>Bu artıq sadə chatbot yanaşmasından fərqlidir.</p>
+
+<hr />
+
+<h1 id="️-səsli-əmr--robot-hərəkəti">🗣️ Səsli Əmr + Robot Hərəkəti</h1>
+
+<p>Casper-in gələcək əsas imkanlarından biri təbii dil ilə fiziki robot hərəkətinin birləşdirilməsidir.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="rouge-code"><pre>USER:
+"Casper, sağa bax."
+
+        ↓
+
+VOICE INPUT
+
+        ↓
+
+CASPER AI
+
+        ↓
+
+COMMAND ANALYSIS
+
+        ↓
+
+HEAD RIGHT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və ya:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre>USER:
+"Casper, sola bax."
+
+        ↓
+
+CASPER
+
+        ↓
+
+HEAD LEFT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>USER:
+"Mərkəzə qayıt."
+
+        ↓
+
+HEAD CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə istifadəçi robotla adi insan dili ilə ünsiyyət qura bilər.</p>
+
+<hr />
+
+<h1 id="-robot-gözləri--baş-hərəkəti">👀 Robot Gözləri + Baş Hərəkəti</h1>
+
+<p>Casper-in ekrandakı gözləri sadəcə dizayn elementi deyil.</p>
+
+<p>Onlar sistemin vəziyyətini göstərən vizual interfeys rolunu oynaya bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+</pre></td><td class="rouge-code"><pre>NORMAL
+  👀
+
+LISTENING
+  👂
+
+THINKING
+  🧠
+
+ALERT
+  🚨
+
+SAFE
+  🟢
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Baş hərəkəti əlavə olunduqda:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>VOICE
++
+EYES
++
+HEAD MOVEMENT
++
+SENSORS
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>birlikdə daha canlı robot davranışı yaradır.</p>
+
+<hr />
+
+<h1 id="-casper-in-robot-kimi-görünməsi">🤖 Casper-in Robot Kimi Görünməsi</h1>
+
+<p>Statik ekran robot təsiri yaradır.</p>
+
+<p>Amma fiziki baş hərəkəti robotun daha canlı görünməsinə səbəb olur.</p>
+
+<p>Sadə halda:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>👀
+CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>İnkişaf etmiş halda:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>👀
+ ↔
+HEAD MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Daha sonra:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>👀 EYES
++
+🗣️ VOICE
++
+↔ HEAD MOVEMENT
++
+📡 SENSOR
++
+🧠 AI
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>vahid sistem daxilində işləyə bilər.</p>
+
+<hr />
+
+<h1 id="-kamera-i̇nteqrasiyası">📷 Kamera İnteqrasiyası</h1>
+
+<p>Robotun baş hərəkəti gələcək kamera sisteminin də əsas komponentlərindən biri ola bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>CAMERA
+   ↓
+OBJECT
+   ↓
+OBJECT POSITION
+   ↓
+AI ANALYSIS
+   ↓
+HEAD MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Əgər obyekt kameranın sol hissəsindədirsə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>TURN LEFT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Əgər sağ hissəsindədirsə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>TURN RIGHT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Əgər mərkəzdədirsə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>KEEP CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə robot gələcəkdə müəyyən obyektləri izləyə bilər.</p>
+
+<hr />
+
+<h1 id="-object-tracking-konsepti">🎥 Object Tracking Konsepti</h1>
+
+<p>Casper üçün gələcək eksperimental funksiyalardan biri obyekt izləmə ola bilər.</p>
+
+<p>Ümumi model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>CAMERA FRAME
+     ↓
+OBJECT DETECTED
+     ↓
+POSITION
+     ↓
+LEFT / CENTER / RIGHT
+     ↓
+ROBOT HEAD
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu üsulla kamera və fiziki robot başı bir sistemdə işləyə bilər.</p>
+
+<hr />
+
+<h1 id="️-casper-in-kibertəhlükəsizliklə-əlaqəsi">🛡️ Casper-in Kibertəhlükəsizliklə Əlaqəsi</h1>
+
+<p>Casper-i adi robot layihələrindən fərqləndirən əsas istiqamətlərdən biri kibertəhlükəsizlikdir.</p>
+
+<p>Əsas konsept:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>CYBER EVENT
+    ↓
+SECURITY SYSTEM
+    ↓
+ALERT
+    ↓
+CASPER AI
+    ↓
+ANALYSIS
+    ↓
+VOICE
++
+VISUAL
++
+PHYSICAL RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu modeldə kibertəhlükəsizlik hadisəsi yalnız monitor üzərində yazı kimi qalmır.</p>
+
+<p>Casper həmin hadisəni fiziki və vizual formada istifadəçiyə göstərə bilər.</p>
+
+<hr />
+
+<h1 id="-security-alert--robot-movement">🚨 Security Alert + Robot Movement</h1>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>NORMAL MODE
+     ↓
+SECURITY ALERT
+     ↓
+CASPER
+     ↓
+ANALYSIS
+     ↓
+ALERT MODE
+     ↓
+HEAD MOVEMENT
+     ↓
+VOICE WARNING
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper təhlükəsizlik hadisəsi zamanı fərqli hərəkət edə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>NORMAL
+   ↓
+CENTER
+
+ALERT
+   ↓
+LEFT
+   ↓
+RIGHT
+   ↓
+CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu hərəkət vizual təhlükəsizlik siqnalının bir hissəsinə çevrilə bilər.</p>
+
+<hr />
+
+<h1 id="-red-team-perspektivi">🔴 Red Team Perspektivi</h1>
+
+<p>Red Team baxımından Casper laboratoriyada təhlükəsizlik ssenarilərinin fiziki interfeysi kimi istifadə edilə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>AUTHORIZED LAB
+      ↓
+RED TEAM TEST
+      ↓
+SECURITY EVENT
+      ↓
+DETECTION
+      ↓
+CASPER ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Buradakı əsas məqsəd real sistemlərə icazəsiz müdaxilə deyil.</p>
+
+<p>Məqsəd təhlükəsizlik hadisəsinin necə yarandığını və müdafiə sistemlərinin buna necə reaksiya verdiyini göstərməkdir.</p>
+
+<hr />
+
+<h1 id="-blue-team-perspektivi">🔵 Blue Team Perspektivi</h1>
+
+<p>Blue Team baxımından Casper alert və monitorinq qatına çevrilə bilər.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>LOG
+ ↓
+SIEM
+ ↓
+DETECTION
+ ↓
+CASPER
+ ↓
+VOICE ALERT
+ ↓
+VISUAL ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Baş hərəkəti də bu vizual alert mexanizminin hissəsi ola bilər.</p>
+
+<hr />
+
+<h1 id="-purple-team-perspektivi">🟣 Purple Team Perspektivi</h1>
+
+<p>Purple Team yanaşmasında hücum simulyasiyası və müdafiə eyni laboratoriyada birləşdirilir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>RED TEAM
+   ↓
+AUTHORIZED TEST
+   ↓
+SECURITY EVENT
+   ↓
+BLUE TEAM
+   ↓
+DETECTION
+   ↓
+CASPER
+   ↓
+ALERT
+   ↓
+ANALYSIS
+   ↓
+DEFENSE IMPROVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu yanaşma tələbəyə yalnız hacker alətlərini deyil, bütöv təhlükəsizlik prosesini anlamağa kömək edir.</p>
+
+<hr />
+
+<h1 id="-casper--soc--siem">📊 Casper + SOC + SIEM</h1>
+
+<p>Casper gələcəkdə SOC və SIEM sistemləri ilə daha sıx inteqrasiya edilə bilər.</p>
+
+<p>Ümumi model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>SERVER
+  ↓
+LOG
+  ↓
+SIEM
+  ↓
+CORRELATION
+  ↓
+SECURITY ALERT
+  ↓
+CASPER
+  ↓
+VOICE
++
+DISPLAY
++
+MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə Casper fiziki SOC köməkçisi kimi istifadə edilə bilər.</p>
+
+<hr />
+
+<h1 id="-ai--siem--robototexnika">🧠 AI + SIEM + Robototexnika</h1>
+
+<p>Ən maraqlı ssenarilərdən biri:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>SIEM ALERT
+    ↓
+AI ANALYSIS
+    ↓
+CASPER
+    ↓
+ROBOT RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu zaman robot sadəcə alert göstərmir.</p>
+
+<p>O, hadisəni analiz edən AI qatının fiziki interfeysinə çevrilir.</p>
+
+<hr />
+
+<h1 id="-kiber-dərsləri-üçün-casper">💻 Kiber Dərsləri Üçün Casper</h1>
+
+<p>Casper layihəsinin əsas istiqamətlərindən biri kiber təhlükəsizlik təhsilidir.</p>
+
+<p>Kiber dərslərində tələbə yalnız terminal və komandalar görməməlidir.</p>
+
+<p>O, bütöv prosesi görməlidir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>EVENT
+ ↓
+LOG
+ ↓
+DETECTION
+ ↓
+SIEM
+ ↓
+AI
+ ↓
+ROBOT ALERT
+ ↓
+ANALYSIS
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu yanaşma kiber dərslərini daha vizual və interaktiv edir.</p>
+
+<hr />
+
+<h1 id="-hacker-dərsləri">🎓 Hacker Dərsləri</h1>
+
+<p>Hacker dərsləri yalnız hazır komandaları əzbərləmək demək deyil.</p>
+
+<p>Əsas məqsəd aşağıdakı sualları başa düşməkdir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>Hücum necə yaranır?
+
+Sistem hansı izləri buraxır?
+
+Blue Team bunu necə görür?
+
+SIEM hansı logları analiz edir?
+
+AI bu məlumatı necə şərh edə bilər?
+
+Robot istifadəçiyə necə xəbərdarlıq edə bilər?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CyberShieldy Casper laboratoriyalarında məqsəd məhz bu düşüncə modelini göstərməkdir.</p>
+
+<hr />
+
+<h1 id="️-kiber-hücum-və-müdafiə">⚔️ Kiber Hücum və Müdafiə</h1>
+
+<p>Kiber hücum anlayışını öyrənmək üçün yalnız hücum tərəfinə baxmaq kifayət deyil.</p>
+
+<p>Tam model belədir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>CYBER ATTACK SIMULATION
+        ↓
+LOG GENERATION
+        ↓
+DETECTION
+        ↓
+SECURITY ANALYSIS
+        ↓
+DEFENSE
+        ↓
+RE-TEST
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu proses Red Team və Blue Team yanaşmalarını birləşdirir.</p>
+
+<hr />
+
+<h1 id="-robototexnika-dərsləri">🤖 Robototexnika Dərsləri</h1>
+
+<p>Casper eyni zamanda robototexnika üçün praktiki laboratoriya rolunu oynayır.</p>
+
+<p>Burada:</p>
+
+<ul>
+  <li>motor idarəetməsi;</li>
+  <li>sensorlar;</li>
+  <li>mikrocontroller sistemləri;</li>
+  <li>fiziki hərəkət;</li>
+  <li>AI inteqrasiyası;</li>
+  <li>IoT;</li>
+  <li>şəbəkə əlaqəsi;</li>
+  <li>robot interfeysi</li>
+</ul>
+
+<p>kimi mövzular birlikdə öyrənilə bilər.</p>
+
+<hr />
+
+<h1 id="-iot-security">📡 IoT Security</h1>
+
+<p>Robot internet və şəbəkə üzərindən idarə olunursa, IoT Security mühüm mövzuya çevrilir.</p>
+
+<p>Ümumi model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>USER
+ ↓
+NETWORK
+ ↓
+IoT DEVICE
+ ↓
+ROBOT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Burada təhlükəsizlik əsas şərtdir.</p>
+
+<p>İdarəetmə sistemləri:</p>
+
+<ul>
+  <li>autentifikasiya;</li>
+  <li>icazə nəzarəti;</li>
+  <li>şifrəli əlaqə;</li>
+  <li>audit;</li>
+  <li>loglama;</li>
+  <li>təhlükəsiz API dizaynı</li>
+</ul>
+
+<p>kimi prinsiplərlə qorunmalıdır.</p>
+
+<hr />
+
+<h1 id="-robot-təhlükəsizliyi">🔐 Robot Təhlükəsizliyi</h1>
+
+<p>AI robot hazırlamaq yalnız motor və sensor qoşmaq deyil.</p>
+
+<p>Robot sistemi qorunmalıdır.</p>
+
+<p>Əks halda:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>NETWORK
+ ↓
+UNAUTHORIZED COMMAND
+ ↓
+ROBOT ACTION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>kimi risk yarana bilər.</p>
+
+<p>Buna görə Casper konseptində təhlükəsizlik ayrıca komponent deyil.</p>
+
+<p>Təhlükəsizlik sistemin əsas dizayn prinsipidir.</p>
+
+<hr />
+
+<h1 id="️-təhlükəsiz-dizayn-prinsipləri">🛡️ Təhlükəsiz Dizayn Prinsipləri</h1>
+
+<p>CyberShieldy Casper laboratoriyasında əsas prinsiplər:</p>
+
+<ul>
+  <li>yalnız sahibinə məxsus və ya icazə verilmiş sistemlərdə test;</li>
+  <li>kritik əməliyyatlardan əvvəl insan təsdiqi;</li>
+  <li>minimum permission prinsipi;</li>
+  <li>allowlist əsaslı idarəetmə;</li>
+  <li>autentifikasiya;</li>
+  <li>təhlükəsiz API;</li>
+  <li>loglama;</li>
+  <li>audit;</li>
+  <li>emergency stop;</li>
+  <li>cihazların izolyasiyası;</li>
+  <li>şəbəkə nəzarəti;</li>
+  <li>fiziki hərəkətlər üçün limitlər.</li>
+</ul>
+
+<hr />
+
+<h1 id="-layihənin-texniki-detalları-niyə-tam-paylaşılmır">🔒 Layihənin Texniki Detalları Niyə Tam Paylaşılmır?</h1>
+
+<p>CyberShieldy Casper layihəsinin ümumi konsepti açıq şəkildə təqdim olunur.</p>
+
+<p>Ancaq sistemin bütün daxili texniki detalları ictimai şəkildə paylaşılmır.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>tam pin xəritəsi;</li>
+  <li>daxili idarəetmə məntiqi;</li>
+  <li>təhlükəsizlik tokenləri;</li>
+  <li>API açarları;</li>
+  <li>autentifikasiya məlumatları;</li>
+  <li>xüsusi avtomatlaşdırma qaydaları;</li>
+  <li>daxili şəbəkə strukturu;</li>
+  <li>kritik sistem konfiqurasiyaları;</li>
+  <li>tam robot idarəetmə kodunun müəyyən hissələri</li>
+</ul>
+
+<p>ictimai məqalələrdə göstərilmir.</p>
+
+<p>Səbəb sadədir:</p>
+
+<blockquote>
+  <p><strong>Konsepti paylaşmaq olar, amma sistemin təhlükəsizliyini zəiflədə biləcək bütün daxili detalları açıqlamaq lazım deyil.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-security-by-design">🔐 Security by Design</h1>
+
+<p>Casper üçün əsas prinsip:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>FUNCTIONALITY
+     +
+SECURITY
+     =
+SAFE ROBOT SYSTEM
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Robotun bir funksiyanı yerinə yetirə bilməsi həmin funksiyanın təhlükəsiz olduğu demək deyil.</p>
+
+<p>Buna görə hər yeni modul təhlükəsizlik baxımından ayrıca qiymətləndirilir.</p>
+
+<hr />
+
+<h1 id="-casper-in-gələcək-i̇nkişafı">🚀 Casper-in Gələcək İnkişafı</h1>
+
+<p>Robot baş hərəkəti Casper layihəsinin yalnız bir mərhələsidir.</p>
+
+<p>Gələcək inkişaf istiqamətləri:</p>
+
+<ul>
+  <li>sağ-sol baş hərəkəti;</li>
+  <li>aşağı-yuxarı baş hərəkəti;</li>
+  <li>kamera;</li>
+  <li>obyekt aşkarlama;</li>
+  <li>obyekt izləmə;</li>
+  <li>məsafə analizi;</li>
+  <li>səsli idarəetmə;</li>
+  <li>robot göz animasiyası;</li>
+  <li>AI agent;</li>
+  <li>mobil inteqrasiya;</li>
+  <li>SOC/SIEM inteqrasiyası;</li>
+  <li>təhlükəsizlik xəbərdarlıqları;</li>
+  <li>IoT idarəetməsi;</li>
+  <li>robot hərəkəti;</li>
+  <li>fiziki təhlükəsizlik sistemləri;</li>
+  <li>multimodal AI.</li>
+</ul>
+
+<hr />
+
+<h1 id="-multimodal-casper">🧠 Multimodal Casper</h1>
+
+<p>Gələcək Casper yalnız mətnlə işləyən sistem olmaya bilər.</p>
+
+<p>Konsept:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>VISION
+  +
+VOICE
+  +
+TEXT
+  +
+SENSORS
+  +
+CYBERSECURITY DATA
+  +
+ROBOTICS
+  =
+MULTIMODAL CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu zaman Casper:</p>
+
+<ul>
+  <li>görə;</li>
+  <li>eşidə;</li>
+  <li>danışa;</li>
+  <li>analiz edə;</li>
+  <li>hərəkət edə;</li>
+  <li>təhlükəsizlik hadisələrini müşahidə edə;</li>
+  <li>istifadəçiyə xəbərdarlıq verə bilər.</li>
+</ul>
+
+<hr />
+
+<h1 id="-eşidən-casper">👂 Eşidən Casper</h1>
+
+<p>Səsli sistem əlavə edildikdə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>USER VOICE
+     ↓
+SPEECH
+     ↓
+AI
+     ↓
+INTENT
+     ↓
+ROBOT ACTION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>modeli istifadə edilə bilər.</p>
+
+<p>İstifadəçi:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Casper, sağa bax.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>deyə bilər.</p>
+
+<p>Robot bunu fiziki hərəkətə çevirə bilər.</p>
+
+<hr />
+
+<h1 id="️-görən-casper">👁️ Görən Casper</h1>
+
+<p>Kamera əlavə edildikdə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>CAMERA
+ ↓
+VISION AI
+ ↓
+OBJECT
+ ↓
+POSITION
+ ↓
+HEAD MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>modeli qurula bilər.</p>
+
+<p>Bu, robotun ətraf mühitlə qarşılıqlı əlaqəsini daha təbii edir.</p>
+
+<hr />
+
+<h1 id="️-danışan-casper">🗣️ Danışan Casper</h1>
+
+<p>Robot yalnız hərəkət etməməlidir.</p>
+
+<p>O, istifadəçi ilə danışa da bilməlidir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>EVENT
+ ↓
+AI ANALYSIS
+ ↓
+VOICE RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Məsələn təhlükəsizlik hadisəsində:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>Diqqət.
+
+Şübhəli təhlükəsizlik hadisəsi aşkarlandı.
+
+Hadisə analiz edilir.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>kimi səsli cavab verilə bilər.</p>
+
+<hr />
+
+<h1 id="-fiziki-cybersecurity-alert">🚨 Fiziki Cybersecurity Alert</h1>
+
+<p>Casper-in maraqlı tərəflərindən biri kiber hadisəni fiziki dünyaya çıxarmaqdır.</p>
+
+<p>Ənənəvi sistem:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>ALERT
+ ↓
+SCREEN
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper modeli:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ALERT
+ ↓
+AI
+ ↓
+ROBOT
+ ↓
+VOICE
++
+EYES
++
+HEAD MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu, cybersecurity alert anlayışına yeni vizual və fiziki yanaşmadır.</p>
+
+<hr />
+
+<h1 id="-ai-cybersecurity-robot">🔥 AI Cybersecurity Robot</h1>
+
+<p>CyberShieldy Casper-in əsas məqsədi sadəcə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>robot düzəltmək
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>deyil.</p>
+
+<p>Əsas məqsəd:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>AI
++
+CYBERSECURITY
++
+ROBOTICS
++
+IoT
++
+AUTOMATION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>texnologiyalarını eyni laboratoriyada birləşdirməkdir.</p>
+
+<hr />
+
+<h1 id="-gələcəyin-kiber-təhlükəsizlik-laboratoriyası">🌍 Gələcəyin Kiber Təhlükəsizlik Laboratoriyası</h1>
+
+<p>Gələcək kiber təhlükəsizlik laboratoriyası yalnız monitor və terminaldan ibarət olmaya bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>NETWORK
+    ↓
+SECURITY EVENT
+    ↓
+SIEM
+    ↓
+AI
+    ↓
+ROBOT
+    ↓
+HUMAN
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu modeldə insan, AI və robot eyni təhlükəsizlik workflow-su daxilində işləyir.</p>
+
+<hr />
+
+<h1 id="-cybershieldy-casper-in-rolu">🎯 CyberShieldy Casper-in Rolu</h1>
+
+<p>Casper-in məqsədi insanı əvəz etmək deyil.</p>
+
+<p>Casper-in rolu:</p>
+
+<ul>
+  <li>məlumat toplamaq;</li>
+  <li>hadisəni göstərmək;</li>
+  <li>təhlükəsizlik məlumatını analiz etmək;</li>
+  <li>istifadəçiyə xəbərdarlıq etmək;</li>
+  <li>fiziki və vizual reaksiya vermək;</li>
+  <li>təhlükəsizlik operatoruna yardım etməkdir.</li>
+</ul>
+
+<p>Son qərar kritik sistemlərdə insan tərəfindən verilməlidir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>AI ANALYSIS
+    ↓
+RECOMMENDATION
+    ↓
+HUMAN DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="-eksperimental-kiber-laboratoriya">🧪 Eksperimental Kiber Laboratoriya</h1>
+
+<p>CyberShieldy Casper kommersiya məqsədli hazır robot məhsulundan daha çox eksperimental araşdırma platformasıdır.</p>
+
+<p>Layihədə müxtəlif texnologiyaların bir-biri ilə necə işləyə biləcəyi test edilir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ROBOTICS
++
+CYBERSECURITY
++
+AI
++
+NETWORKING
++
+IoT
++
+AUTOMATION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu səbəbdən hər yeni mərhələ ayrıca laboratoriya testidir.</p>
+
+<hr />
+
+<h1 id="-bugünkü-testin-məqsədi">🔬 Bugünkü Testin Məqsədi</h1>
+
+<p>Bugünkü robot baş testinin məqsədi:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>RIGHT
+LEFT
+CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>əsas fiziki idarəetmə mexanizminin işləməsini yoxlamaqdır.</p>
+
+<p>Bu funksiya gələcəkdə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>SENSOR
+ ↓
+AI
+ ↓
+MOVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>sisteminin bir hissəsinə çevrilə bilər.</p>
+
+<hr />
+
+<h1 id="-kiber-dərsləri--robototexnika">📚 Kiber Dərsləri + Robototexnika</h1>
+
+<p>Casper layihəsi kiber dərslərində müxtəlif mövzuları eyni demo daxilində göstərmək üçün istifadə edilə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ESP32
+ ↓
+NETWORK
+ ↓
+API
+ ↓
+AI
+ ↓
+ROBOT
+ ↓
+SIEM
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə tələbə bir layihə daxilində:</p>
+
+<ul>
+  <li>proqramlaşdırma;</li>
+  <li>şəbəkə;</li>
+  <li>IoT;</li>
+  <li>kibertəhlükəsizlik;</li>
+  <li>süni intellekt;</li>
+  <li>robototexnika;</li>
+  <li>avtomatlaşdırma</li>
+</ul>
+
+<p>mövzularını görə bilir.</p>
+
+<hr />
+
+<h1 id="-cybersecurity-təhsili">🎓 Cybersecurity Təhsili</h1>
+
+<p>Kiber təhlükəsizlik yalnız nəzəriyyə ilə öyrənilmir.</p>
+
+<p>Praktiki laboratoriyalar çox vacibdir.</p>
+
+<p>Tələbə aşağıdakı zənciri real şəkildə görməlidir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>ACTION
+ ↓
+EVENT
+ ↓
+LOG
+ ↓
+DETECTION
+ ↓
+ALERT
+ ↓
+ANALYSIS
+ ↓
+RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Casper bu prosesin vizual və fiziki interfeysinə çevrilə bilər.</p>
+
+<hr />
+
+<h1 id="-seo-mövzuları">🔎 SEO Mövzuları</h1>
+
+<p>Bu layihə aşağıdakı mövzularla birbaşa əlaqəlidir:</p>
+
+<p><strong>Kiber təhlükəsizlik</strong></p>
+
+<p><strong>Kiber təhlükəsizlik dərsləri</strong></p>
+
+<p><strong>Kiber dərsləri</strong></p>
+
+<p><strong>Hacker dərsləri</strong></p>
+
+<p><strong>Ethical Hacking</strong></p>
+
+<p><strong>Hacking dərsləri</strong></p>
+
+<p><strong>Kiber hücum</strong></p>
+
+<p><strong>Kiber müdafiə</strong></p>
+
+<p><strong>Cybersecurity</strong></p>
+
+<p><strong>Cyber Security</strong></p>
+
+<p><strong>Red Team</strong></p>
+
+<p><strong>Blue Team</strong></p>
+
+<p><strong>Purple Team</strong></p>
+
+<p><strong>SOC</strong></p>
+
+<p><strong>SIEM</strong></p>
+
+<p><strong>Artificial Intelligence</strong></p>
+
+<p><strong>AI Cybersecurity</strong></p>
+
+<p><strong>Robototexnika</strong></p>
+
+<p><strong>Robotics</strong></p>
+
+<p><strong>IoT Security</strong></p>
+
+<p><strong>ESP32</strong></p>
+
+<p><strong>Security Automation</strong></p>
+
+<p><strong>AI Robot</strong></p>
+
+<p><strong>Cybersecurity Robot</strong></p>
+
+<p><strong>Cyber Robot</strong></p>
+
+<p><strong>Cybersecurity Training</strong></p>
+
+<p><strong>Cybersecurity Lab</strong></p>
+
+<hr />
+
+<h1 id="-red-team---blue-team---casper">🔴 Red Team + 🔵 Blue Team + 🤖 Casper</h1>
+
+<p>Casper-in gələcək təhlükəsizlik workflow-su belə təsəvvür edilə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="rouge-code"><pre>🔴 RED TEAM
+     ↓
+AUTHORIZED ATTACK SIMULATION
+     ↓
+SECURITY EVENT
+     ↓
+🔵 BLUE TEAM
+     ↓
+SIEM DETECTION
+     ↓
+🤖 CASPER AI
+     ↓
+ANALYSIS
+     ↓
+VOICE ALERT
+     ↓
+VISUAL ALERT
+     ↓
+ROBOT MOVEMENT
+     ↓
+👨‍💻 HUMAN DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu model kiber təhlükəsizliyin müxtəlif sahələrini vahid laboratoriyada birləşdirir.</p>
+
+<hr />
+
+<h1 id="-casper-in-fəlsəfəsi">🤖 Casper-in Fəlsəfəsi</h1>
+
+<p>Casper layihəsində əsas fikir budur:</p>
+
+<blockquote>
+  <p><strong>AI yalnız danışmamalıdır.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>AI ətraf mühiti anlamalıdır.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Təhlükəsizlik hadisələrini analiz etməlidir.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>İstifadəçiyə kömək etməlidir.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>İcazəli və təhlükəsiz çərçivədə fiziki sistemlərlə işləyə bilməlidir.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-cybershieldy">🌐 CyberShieldy</h1>
+
+<p>CyberShieldy platformasının əsas istiqaməti praktiki kibertəhlükəsizlik, Red Team, Blue Team, AI, IoT və robototexnika laboratoriyalarını bir araya gətirməkdir.</p>
+
+<p>Burada məqsəd yalnız hazır alətlərin istifadəsini göstərmək deyil.</p>
+
+<p>Əsas məqsəd müxtəlif texnologiyalar arasında əlaqəni anlamaqdır.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>CYBERSECURITY
+     +
+AI
+     +
+ROBOTICS
+     =
+NEW LAB EXPERIENCE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="-nəticə">📢 Nəticə</h1>
+
+<p>CyberShieldy Casper-in başını sağa, sola və mərkəzə hərəkət etdirməsi kiçik bir robototexnika testi kimi görünə bilər.</p>
+
+<p>Amma bu test daha böyük konseptin başlanğıcıdır.</p>
+
+<p>Bugünkü model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>COMMAND
+ ↓
+ROBOT HEAD
+ ↓
+RIGHT / LEFT / CENTER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Gələcək model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>ENVIRONMENT
+     ↓
+SENSORS
+     ↓
+AI
+     ↓
+CYBERSECURITY DATA
+     ↓
+ANALYSIS
+     ↓
+DECISION
+     ↓
+ROBOT MOVEMENT
+     ↓
+VOICE / VISUAL RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CyberShieldy Casper layihəsinin məqsədi AI, robototexnika, IoT və kibertəhlükəsizliyi vahid eksperimental platformada birləşdirməkdir.</p>
+
+<p>Casper-in baş hərəkəti bu yolun növbəti addımlarından biridir.</p>
+
+<hr />
+
+<h1 id="-texniki-qeyd">🔐 Texniki Qeyd</h1>
+
+<p>CyberShieldy Casper layihəsinin təqdim olunan materialları təhsil və eksperimental laboratoriya məqsədi daşıyır.</p>
+
+<p>Layihənin təhlükəsizliyinə təsir edə biləcək daxili texniki məlumatların hamısı ictimai paylaşılmır.</p>
+
+<p>Tam:</p>
+
+<ul>
+  <li>idarəetmə məntiqi;</li>
+  <li>daxili API məlumatları;</li>
+  <li>təhlükəsizlik konfiqurasiyaları;</li>
+  <li>autentifikasiya məlumatları;</li>
+  <li>şəbəkə detalları;</li>
+  <li>xüsusi kod hissələri;</li>
+  <li>kritik qoşulma məlumatları</li>
+</ul>
+
+<p>məxfi saxlanılır.</p>
+
+<blockquote>
+  <p><strong>Konsept paylaşılır, kritik texniki sirlər paylaşılmır.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-cybershieldy-casper">🚀 CyberShieldy Casper</h1>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>AI
++
+CYBERSECURITY
++
+ROBOTICS
++
+IoT
++
+RED TEAM
++
+BLUE TEAM
++
+SOC / SIEM
++
+AUTOMATION
+=
+CYBERSHIELDY CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>🤖 AI Cybersecurity Robot<br />
+🛡️ Cyber Defense<br />
+🔴 Red Team<br />
+🔵 Blue Team<br />
+🟣 Purple Team<br />
+📊 SOC / SIEM<br />
+📡 IoT<br />
+🦾 Robototexnika<br />
+🧠 Artificial Intelligence<br />
+⚡ Security Automation</p>
+
+<hr />
+
+<h1 id="-casper-robot-head-control-demo">🎥 Casper Robot Head Control Demo</h1>
+
+<p>📱 <strong>Instagram Reel</strong></p>
+
+<p>https://www.instagram.com/reel/Ddy4FZwMTlO/?stkn=MW54dnVvazhkaTIzaQ==</p>
+
+<hr />
+
+<h1 id="-müəllif">👨‍💻 Müəllif</h1>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p>🛡️ <strong>Kibertəhlükəsizlik mütəxəssisi</strong></p>
+
+<p>🔴 <strong>Red Team</strong></p>
+
+<p>🔵 <strong>Blue Team üzrə təlimçi</strong></p>
+
+<p>🤖 <strong>CyberShieldy Casper AI Cybersecurity Robot layihəsinin müəllifi və inkişaf etdiricisi</strong></p>
+
+<p>🌐 <strong>https://cybershieldy.com</strong></p>
+
+<hr />
+
+<blockquote>
+  <p><strong>“CyberShieldy Casper — süni intellekt, kibertəhlükəsizlik, IoT və robototexnikanın eyni laboratoriyada birləşdiyi eksperimental AI Cybersecurity Robot platformasıdır.”</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>“Kiber təhlükəsizlik yalnız hücumu görmək deyil — hadisəni analiz etmək, doğru reaksiyanı yaratmaq və müdafiəni gücləndirməkdir.”</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>“Bugün Casper sağa, sola və mərkəzə baxır. Məqsəd isə gələcəkdə ətraf mühiti anlayan, təhlükəsizlik hadisələrini analiz edən və fiziki şəkildə reaksiya verən AI robot yaratmaqdır.”</strong></p>
+</blockquote>]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robototexnika" /><category term="ai cybersecurity" /><category term="red team" /><category term="blue team" /><category term="iot" /><category term="cyber education" /><category term="casper ai" /><category term="casper robot" /><category term="cybershieldy" /><category term="cybersecurity" /><category term="cyber security" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="kiber" /><category term="hacker" /><category term="hacking" /><category term="ethical hacking" /><category term="hacker dərsləri" /><category term="hacking dərsləri" /><category term="kiber dərsləri" /><category term="kibertəhlükəsizlik dərsləri" /><category term="kiber hücum" /><category term="cyber attack" /><category term="cyber defense" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="penetration testing" /><category term="pentest" /><category term="ai cybersecurity" /><category term="artificial intelligence" /><category term="ai robot" /><category term="cybersecurity robot" /><category term="cyber robot" /><category term="robototexnika" /><category term="robotics" /><category term="esp32" /><category term="esp32 s3" /><category term="iot security" /><category term="security automation" /><category term="soc" /><category term="siem" /><category term="cyber lab" /><category term="cybersecurity lab" /><category term="cybersecurity training" /><category term="cyber education" /><category term="savaylov emin" /><category term="cybershieldy academy" /><summary type="html"><![CDATA[CyberShieldy Casper AI Cybersecurity Robot layihəsinin yeni mərhələsi: robot başının sağ, sol və mərkəz istiqamətində idarə olunması. Savaylov Emin tərəfindən hazırlanmış Casper layihəsində süni intellekt, robototexnika, IoT, kiber təhlükəsizlik, Red Team, Blue Team, hacker dərsləri və təhlükəsizlik avtomatlaşdırması vahid eksperimental platformada birləşdirilir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-robot-head.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-robot-head.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖📱 CyberShieldy Casper QR Scan Security Test — Naməlum QR Kod, APK Təhlükəsi və AI Kiber Müdafiə</title><link href="https://cybershieldy.com/posts/casper-qr-scan-security-test" rel="alternate" type="text/html" title="🤖📱 CyberShieldy Casper QR Scan Security Test — Naməlum QR Kod, APK Təhlükəsi və AI Kiber Müdafiə" /><published>2026-09-15T08:05:00+04:00</published><updated>2026-09-15T16:17:25+04:00</updated><id>https://cybershieldy.com/posts/casper-qr-scan-apk-android-kiber-tehlukesizlik-ai-red-team-blue-team</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-qr-scan-security-test"><![CDATA[<h1 id="-cybershieldy-casper-qr-scan-security-test">🤖📱 CyberShieldy Casper QR Scan Security Test</h1>
 
 <p>Bir QR kod görürük.</p>
 
@@ -8492,399 +10542,4 @@ Transport: ADB File Stream</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hardware security" /><category term="red team" /><category term="raspberry pi pico" /><category term="pico" /><category term="hid" /><category term="usb hid" /><category term="badusb" /><category term="cybersecurity" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="penetration testing" /><category term="usb security" /><category term="windows security" /><category term="linux security" /><category term="hardware hacking" /><category term="cybersecurity training" /><category term="cyber lab" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="red team" /><category term="blue team" /><category term="usb attack" /><category term="hid device" /><category term="security awareness" /><summary type="html"><![CDATA[Raspberry Pi Pico HID nədir? Real laboratoriya mühitində təhlükəsizlik testləri, USB HID cihazlarının iş prinsipi və onlardan qorunma yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/pico.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/pico.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları</title><link href="https://cybershieldy.com/posts/ai-voice-cybersecurity" rel="alternate" type="text/html" title="🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri: Gələcəyin SOC Platformaları" /><published>2026-07-07T08:00:00+04:00</published><updated>2026-07-07T18:59:18+04:00</updated><id>https://cybershieldy.com/posts/ai-ile-ses-idare-olunan-kibertehlukesizlik-sistemleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-voice-cybersecurity"><![CDATA[<h1 id="-ai-ilə-səs-i̇darə-olunan-kibertəhlükəsizlik-sistemləri">🤖 AI ilə Səs İdarə Olunan Kibertəhlükəsizlik Sistemləri</h1>
-
-<p>Kibertəhlükəsizlik son illərdə sürətlə inkişaf edən sahələrdən biridir. Hücumların sayı və mürəkkəbliyi artdıqca təhlükəsizlik komandaları da daha ağıllı həllərdən istifadə etməyə başlayırlar. Süni intellekt (AI) artıq yalnız mətn yazan və ya şəkil yaradan texnologiya deyil. O, təhlükəsizlik hadisələrinin analizində, risklərin qiymətləndirilməsində və qərar qəbulunda mühüm rol oynayır.</p>
-
-<p>Yaxın gələcəkdə təhlükəsizlik mütəxəssisi sadəcə klaviatura ilə deyil, səsli əmrlərlə də sistemlərini idarə edə biləcək.</p>
-
-<hr />
-
-<h1 id="-mövzu-ilə-bağlı-video">🎥 Mövzu ilə bağlı video</h1>
-
-<iframe src="https://www.instagram.com/reel/DaatvEcMbe8/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<hr />
-
-<h1 id="ai-kibertəhlükəsizlikdə-nələri-dəyişir">AI Kibertəhlükəsizlikdə Nələri Dəyişir?</h1>
-
-<p>Ənənəvi təhlükəsizlik sistemləri əvvəlcədən yazılmış qaydalar əsasında işləyir. AI isə məlumatları analiz edərək yeni nümunələri aşkar edə, hadisələr arasında əlaqə qura və operatora qərar verməkdə kömək edə bilər.</p>
-
-<p>Məsələn, SIEM platformasına qısa müddətdə minlərlə hadisə daxil olduqda AI onların prioritetini müəyyən edə, oxşar hadisələri qruplaşdıra və təhlükəsizlik mütəxəssisinə yalnız vacib olanları təqdim edə bilər.</p>
-
-<hr />
-
-<h1 id="️-səsli-i̇darəetmə-mümkündürmü">🎙️ Səsli İdarəetmə Mümkündürmü?</h1>
-
-<p>Bəli. Müasir səs tanıma sistemləri müxtəlif proqramlarla inteqrasiya oluna bilir.</p>
-
-<p>Təsəvvür edin ki, SOC operatoru aşağıdakı əmrləri səslə verir:</p>
-
-<ul>
-  <li>“Son bir saatın kritik hadisələrini göstər.”</li>
-  <li>“SSH brute-force cəhdlərini filtrlə.”</li>
-  <li>“Bu IP haqqında məlumat topla.”</li>
-  <li>“Firewall qaydasını yenilə.”</li>
-  <li>“PDF hesabat hazırla.”</li>
-  <li>“Komandaya bildiriş göndər.”</li>
-</ul>
-
-<p>Belə sistemdə səs əvvəlcə mətnə çevrilir, sonra AI əmrin məqsədini müəyyən edir və yalnız icazə verilmiş funksiyaları icra edir.</p>
-
-<hr />
-
-<h1 id="ai-agentlər">AI Agentlər</h1>
-
-<p>Son dövrdə AI agent anlayışı sürətlə inkişaf edir. AI agent sadəcə suala cavab vermir, eyni zamanda ardıcıl tapşırıqları yerinə yetirə bilir.</p>
-
-<p>Məsələn:</p>
-
-<ol>
-  <li>Siem hadisəsini oxuyur.</li>
-  <li>IP ünvanını analiz edir.</li>
-  <li>Risk səviyyəsini hesablayır.</li>
-  <li>VirusTotal və digər mənbələrdən əlavə məlumat toplayır.</li>
-  <li>PDF hesabat hazırlayır.</li>
-  <li>Operator üçün qısa xülasə yaradır.</li>
-</ol>
-
-<p>Bu yanaşma SOC komandalarının iş yükünü azalda bilər.</p>
-
-<hr />
-
-<h1 id="siem-və-ai">Siem və AI</h1>
-
-<p>SIEM platformaları AI ilə birlikdə istifadə olunduqda hadisələrin araşdırılması daha sürətli ola bilər.</p>
-
-<p>Nümunə ssenari:</p>
-
-<ul>
-  <li>Siem SSH brute-force aşkar edir.</li>
-  <li>AI hadisəni oxuyur.</li>
-  <li>Oxşar hadisələrlə müqayisə aparır.</li>
-  <li>Təhlükə səviyyəsini qiymətləndirir.</li>
-  <li>Operator üçün sadə izah hazırlayır.</li>
-  <li>Lazım gələrsə bildiriş yaradır.</li>
-</ul>
-
-<p>Burada son qərar yenə də təhlükəsizlik mütəxəssisinə məxsus olur.</p>
-
-<hr />
-
-<h1 id="red-team-perspektivi">Red Team Perspektivi</h1>
-
-<p>Red Team mütəxəssisləri AI-dən laboratoriya mühitində aşağıdakı məqsədlər üçün istifadə edə bilərlər:</p>
-
-<ul>
-  <li>Log analizi</li>
-  <li>Skript yazılması</li>
-  <li>Pentest qeydlərinin hazırlanması</li>
-  <li>Hesabatların avtomatik formalaşdırılması</li>
-  <li>Təlim mühitlərinin qurulması</li>
-</ul>
-
-<p>AI insan təcrübəsini əvəz etmir, lakin gündəlik işləri sürətləndirə bilər.</p>
-
-<hr />
-
-<h1 id="blue-team-perspektivi">Blue Team Perspektivi</h1>
-
-<p>Blue Team üçün AI aşağıdakı istiqamətlərdə faydalı ola bilər:</p>
-
-<ul>
-  <li>Alert prioritetləşdirilməsi</li>
-  <li>Log xülasələrinin hazırlanması</li>
-  <li>Anomaliyaların aşkarlanması</li>
-  <li>Təhlükə ovçuluğuna dəstək</li>
-  <li>Təhlükəsizlik hesabatlarının avtomatlaşdırılması</li>
-  <li>SIEM qaydalarının təhlili</li>
-</ul>
-
-<p>Bu imkanlar analitiklərin daha mürəkkəb hadisələrə fokuslanmasına kömək edir.</p>
-
-<hr />
-
-<h1 id="-llm-və-kibertəhlükəsizlik">🧠 LLM və Kibertəhlükəsizlik</h1>
-
-<p>Böyük Dil Modelləri (Large Language Models - LLM) kibertəhlükəsizlik sahəsində yalnız suallara cavab vermək üçün deyil, həm də analitik köməkçi kimi istifadə oluna bilər. Onlar mürəkkəb log fayllarını oxuyaraq hadisələrin qısa xülasəsini hazırlaya, təhlükəsizlik qaydalarını izah edə və analitiklərə araşdırma prosesində dəstək göstərə bilər.</p>
-
-<p>Məsələn, minlərlə sətirdən ibarət log faylı AI tərəfindən emal edilərək aşağıdakı kimi nəticə təqdim oluna bilər:</p>
-
-<ul>
-  <li>Hücumun başlanğıc vaxtı</li>
-  <li>Şübhəli IP ünvanları</li>
-  <li>Təsirə məruz qalan sistemlər</li>
-  <li>Potensial risk səviyyəsi</li>
-  <li>Tövsiyə olunan növbəti addımlar</li>
-</ul>
-
-<p>Belə yanaşma SOC analitiklərinin hadisələri daha sürətli qiymətləndirməsinə kömək edə bilər.</p>
-
-<hr />
-
-<h1 id="-səsli-soc-operatoru-konsepti">🎤 Səsli SOC Operatoru Konsepti</h1>
-
-<p>Təsəvvür edin ki, gələcəyin SOC mərkəzində analitik yalnız klaviatura ilə deyil, səsli əmrlərlə də işləyir.</p>
-
-<p>Məsələn:</p>
-
-<p>“Son 24 saatın yüksək kritik hadisələrini göstər.”</p>
-
-<p>“Bu IP ünvanını yoxla.”</p>
-
-<p>“SSH brute-force cəhdlərini siyahıya al.”</p>
-
-<p>“Yeni PDF hesabat hazırla.”</p>
-
-<p>“Komandaya bildiriş göndər.”</p>
-
-<p>Bu cür sistemdə səs əvvəlcə tanınır, sonra AI əmrin məqsədini müəyyən edir və uyğun avtomatlaşdırılmış iş axınını başladır.</p>
-
-<hr />
-
-<h1 id="️-avtomatlaşdırılmış-i̇ş-axınları">⚙️ Avtomatlaşdırılmış İş Axınları</h1>
-
-<p>AI müxtəlif təhlükəsizlik platformalarını bir-biri ilə əlaqələndirə bilər.</p>
-
-<p>Nümunə iş axını:</p>
-
-<ol>
-  <li>SIEM platforması hadisəni aşkar edir.</li>
-  <li>AI hadisəni təhlil edir.</li>
-  <li>Risk səviyyəsini müəyyən edir.</li>
-  <li>Analitik üçün qısa izah hazırlayır.</li>
-  <li>Hesabat yaradır.</li>
-  <li>Komandaya bildiriş göndərir.</li>
-</ol>
-
-<p>Belə yanaşma təkrarlanan işləri azalda və qərar qəbulunu sürətləndirə bilər.</p>
-
-<hr />
-
-<h1 id="-təhlükə-ovçuluğunda-ai">🔍 Təhlükə Ovçuluğunda AI</h1>
-
-<p>Threat Hunting zamanı analitiklər böyük həcmdə məlumatı araşdırırlar.</p>
-
-<p>AI aşağıdakı işlərdə köməkçi ola bilər:</p>
-
-<ul>
-  <li>Oxşar hadisələrin qruplaşdırılması</li>
-  <li>Şübhəli davranışların seçilməsi</li>
-  <li>Zaman ardıcıllığının qurulması</li>
-  <li>Risklərin prioritetləşdirilməsi</li>
-  <li>Vizual xülasələrin hazırlanması</li>
-</ul>
-
-<p>Bu, araşdırma prosesini daha səmərəli edə bilər.</p>
-
-<hr />
-
-<h1 id="-gələcəyin-təhlükəsizlik-platformaları">🌐 Gələcəyin Təhlükəsizlik Platformaları</h1>
-
-<p>Yaxın illərdə kibertəhlükəsizlik platformalarının daha ağıllı olması gözlənilir.</p>
-
-<p>Mümkün xüsusiyyətlər:</p>
-
-<ul>
-  <li>AI köməkçisi</li>
-  <li>Səsli idarəetmə</li>
-  <li>Avtomatik hesabatlar</li>
-  <li>Təhlükələrin prioritetləşdirilməsi</li>
-  <li>Təbii dildə sorğular</li>
-  <li>Hadisələrin vizual analizi</li>
-  <li>Tövsiyə sistemi</li>
-</ul>
-
-<p>Bu funksiyalar insan analitikini əvəz etmək üçün deyil, onun işini daha məhsuldar etmək üçün nəzərdə tutulur.</p>
-
-<hr />
-
-<h1 id="️-etik-məsələlər">⚖️ Etik Məsələlər</h1>
-
-<p>AI güclü texnologiyadır və onun istifadəsi məsuliyyət tələb edir.</p>
-
-<p>Kibertəhlükəsizlik sahəsində AI tətbiq edilərkən aşağıdakı prinsiplərə əməl olunmalıdır:</p>
-
-<ul>
-  <li>İnsan nəzarəti saxlanılmalıdır.</li>
-  <li>Vacib qərarlar yalnız AI tərəfindən verilməməlidir.</li>
-  <li>Məlumatların məxfiliyi qorunmalıdır.</li>
-  <li>Avtomatlaşdırılmış sistemlər mütəmadi yoxlanılmalıdır.</li>
-  <li>Hüquqi və etik normalara riayət edilməlidir.</li>
-</ul>
-
-<hr />
-
-<h1 id="-nəticə">🚀 Nəticə</h1>
-
-<p>Süni intellekt kibertəhlükəsizlik sahəsini sürətlə dəyişdirir. Səsli idarəetmə, avtomatlaşdırılmış analiz, ağıllı köməkçilər və AI agentləri gələcəyin SOC mərkəzlərinin əsas elementlərindən birinə çevrilə bilər.</p>
-
-<p>Bununla belə, AI insan mütəxəssisinin yerini tutmur. Təcrübə, analitik düşüncə və etik yanaşma hələ də kibertəhlükəsizliyin əsas dayaqlarıdır. AI isə bu prosesləri sürətləndirən və daha səmərəli edən güclü köməkçi rolunu oynaya bilər.</p>
-
-<hr />
-
-<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
-
-<ul>
-  <li>🔎🧠🌐 <a href="https://cybershieldy.com/posts/osint-arastirmalari">OSINT Araşdırmaları: Açıq Mənbədən Kəşfiyyat</a></li>
-  <li>📶🔓⚠️📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
-  <li>🔴🔵🛡️⚔️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>🤖📡🏠🔐 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
-  <li>🔌💀🧠🚪 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar və Təhlükəsizlik Riskləri</a></li>
-  <li>📡🔓⚠️📱 <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth Hücumları</a></li>
-  <li>🤖🛡️🚀 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik</a></li>
-  <li>🤖🚀🧠💻 <a href="https://cybershieldy.com/posts/ai-hacker-avtomatlasma">AI, Süni İntellekt və Hacker İnkişafı</a></li>
-  <li>🎣📧⚠️ <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Phishing Hücumu Nədir? Canlı Nümunələr və Qorunma Yolları</a></li>
-  <li>🕵️🎭🧠 <a href="https://cybershieldy.com/posts/sosial-mühəndislik">Sosial mühəndislik nədir və real nümunələr</a></li>
-  <li>🔐📲🛡️ <a href="https://cybershieldy.com/posts/iki-faktorlu-identifikasiya">İki faktorlu identifikasiya nədir?</a></li>
-  <li>📊🛡️🚨 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li>⚡📟🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">Ideaspark ESP32 ilə SIEM İnteqrasiyası: SSH Brute Force Hücumu necə Aşkarlanır?</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin</strong></p>
-
-<p><strong>Kibertəhlükəsizlik Mütəxəssisi • Red Team • Blue Team üzrə Təlimçi</strong></p>
-
-<p>🌐 https://cybershieldy.com</p>
-
-<blockquote>
-  <p>“Gələcəyin kibertəhlükəsizlik mütəxəssisi yalnız alətlərdən istifadə etməyəcək, həm də süni intellektlə birlikdə işləməyi bacaracaq.”</p>
-</blockquote>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="automation" /><category term="ai" /><category term="süni intellekt" /><category term="cybersecurity" /><category term="soc" /><category term="siem" /><category term="wazuh" /><category term="automation" /><category term="voice assistant" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="cyber automation" /><category term="llm" /><category term="ai agent" /><category term="threat hunting" /><category term="detection engineering" /><category term="python" /><category term="linux" /><category term="web security" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="hacking" /><category term="mobile pentest" /><category term="android security" /><category term="ethical hacking" /><category term="red team" /><category term="blue team" /><category term="cybersecurity" /><category term="penetration testing" /><category term="mobile hacking" /><category term="smartphone security" /><category term="pin code" /><category term="authentication" /><category term="android pentest" /><category term="mobile application security" /><category term="android hacking" /><category term="mobile forensics" /><category term="digital forensics" /><category term="cybersecurity training" /><category term="infosec" /><category term="threat hunting" /><category term="detection engineering" /><category term="mobile malware" /><category term="application security" /><category term="cyber lab" /><category term="kali linux" /><category term="burp suite" /><category term="owasp" /><category term="api security" /><category term="mobile authentication" /><category term="smartphone security" /><category term="cyber lessons" /><category term="cyber academy" /><summary type="html"><![CDATA[AI və səs texnologiyalarının kibertəhlükəsizlik sistemlərinə inteqrasiyası, avtomatlaşdırılmış SOC mühitləri və gələcəyin ağıllı təhlükəsizlik platformaları haqqında geniş məqalə.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/AI_lab.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/AI_lab.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="hardware security" /><category term="red team" /><category term="raspberry pi pico" /><category term="pico" /><category term="hid" /><category term="usb hid" /><category term="badusb" /><category term="cybersecurity" /><category term="red team" /><category term="blue team" /><category term="ethical hacking" /><category term="penetration testing" /><category term="usb security" /><category term="windows security" /><category term="linux security" /><category term="hardware hacking" /><category term="cybersecurity training" /><category term="cyber lab" /><category term="kiber təhlükəsizlik" /><category term="hacker dərsləri" /><category term="red team" /><category term="blue team" /><category term="usb attack" /><category term="hid device" /><category term="security awareness" /><summary type="html"><![CDATA[Raspberry Pi Pico HID nədir? Real laboratoriya mühitində təhlükəsizlik testləri, USB HID cihazlarının iş prinsipi və onlardan qorunma yolları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/pico.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/pico.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
