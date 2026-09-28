@@ -59,7 +59,7 @@ tags:
 
 description: "CyberShieldy Casper AI Cybersecurity Robot layihəsinin yeni mərhələsi: robot başının sağ, sol və mərkəz istiqamətində idarə olunması. Savaylov Emin tərəfindən hazırlanmış Casper layihəsində süni intellekt, robototexnika, IoT, kiber təhlükəsizlik, Red Team, Blue Team, hacker dərsləri və təhlükəsizlik avtomatlaşdırması vahid eksperimental platformada birləşdirilir."
 
-image: /assets/images/casper-robot-head.webp
+image: /assets/images/casper_robot.webp
 
 canonical: https://cybershieldy.com/posts/casper-robot-head-control
 permalink: /posts/casper-robot-head-control
