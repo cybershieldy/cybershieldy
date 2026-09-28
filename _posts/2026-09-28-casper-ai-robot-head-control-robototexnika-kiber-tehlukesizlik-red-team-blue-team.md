@@ -1566,6 +1566,27 @@ CYBERSHIELDY CASPER
 ⚡ Security Automation
 
 ---
+# 🔗 Oxşar Mövzular
+
+* 📊🛡️ [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
+
+* 🔴🔵 [Red Team və Blue Team arasındakı fərqlər](https://cybershieldy.com/posts/red-team-vs-blue-team)
+
+* 🤖🛡️ [SIEM və Süni İntellekt inteqrasiyası](https://cybershieldy.com/posts/ai-siem-integration)
+
+* 🤖📡 [IoT Security və ağıllı sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
+
+* ⚡🛡️ [ESP32 ilə SIEM inteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
+
+* 🤖⚡ [CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi](https://cybershieldy.com/posts/ai-cybersecurity-assistant)
+
+* 🤖📱 [CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası](https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab)
+
+* 🤖⚔️ [CyberShieldy Casper: Gələcəyin AI Pentest Robotu](https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot)
+
+---
+
+# 🎥 Casper QR Security Demo
 
 # 🎥 Casper Robot Head Control Demo
 
@@ -1596,3 +1617,6 @@ https://www.instagram.com/reel/Ddy4FZwMTlO/?stkn=MW54dnVvazhkaTIzaQ==
 > **“Kiber təhlükəsizlik yalnız hücumu görmək deyil — hadisəni analiz etmək, doğru reaksiyanı yaratmaq və müdafiəni gücləndirməkdir.”**
 
 > **“Bugün Casper sağa, sola və mərkəzə baxır. Məqsəd isə gələcəkdə ətraf mühiti anlayan, təhlükəsizlik hadisələrini analiz edən və fiziki şəkildə reaksiya verən AI robot yaratmaqdır.”**
+
+
+{% include cyber-popup.html %}
