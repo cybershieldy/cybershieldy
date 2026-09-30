@@ -54,6 +54,612 @@ canonical: https://cybershieldy.com/haqqinda
 
 ---
 
+## 🤖 Casper AI – Emin Savaylovun Müəllif AI və Cyber Robotics Layihəsi
+
+<div style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap; margin-top: 20px; margin-bottom: 25px;">
+
+  <img src="/assets/images/casper-ai.webp"
+       alt="Casper AI - Emin Savaylov tərəfindən hazırlanmış AI Cybersecurity Robot"
+       style="width: 280px; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.25);">
+
+  <div style="flex: 1; min-width: 280px;">
+
+  <h3>🧠 Cybersecurity + AI + Robotics</h3>
+
+  <p>
+  <strong>Casper AI</strong> — mənim, <strong>Emin Savaylovun</strong>, süni intellekt, kiber təhlükəsizlik, IoT, robototexnika və avtomatlaşdırma texnologiyalarını bir sistem daxilində birləşdirmək məqsədilə inkişaf etdirdiyim müəllif layihəsidir.
+  </p>
+
+  <p>
+  Layihənin əsas məqsədi sadəcə danışan və ya hərəkət edən robot yaratmaq deyil. Məqsəd real laboratoriya infrastrukturu ilə əlaqə qura bilən, məlumat qəbul edən, təhlükəsizlik hadisələrini analiz edən və fiziki mühitlə qarşılıqlı əlaqədə ola bilən <strong>AI əsaslı Cybersecurity Assistant</strong> yaratmaqdır.
+  </p>
+
+  </div>
+
+</div>
+
+### 🚀 Casper AI nədir?
+
+Casper AI klassik robot layihəsindən fərqli olaraq bir neçə texnologiya istiqamətini bir sistemdə birləşdirir:
+
+- 🤖 **Artificial Intelligence**
+- 🛡️ **Cybersecurity**
+- 🔴 **Red Team laboratoriyaları**
+- 🔵 **Blue Team və SOC monitorinqi**
+- 📊 **SIEM sistemləri**
+- 🌐 **Network Security**
+- 📡 **IoT və sensor sistemləri**
+- 🧠 **AI Agent və MCP inteqrasiyası**
+- 🔐 **Biometrik identifikasiya**
+- 📲 **Mobil sistemlərlə əlaqə**
+- 📞 **VoIP və avtomatik xəbərdarlıq**
+- ⚙️ **Robototexnika və avtomatlaşdırma**
+- 🖥️ **Linux server infrastrukturu**
+- 🔌 **ESP32-S3 və mikrokontroller sistemləri**
+
+Casper layihəsində məqsəd rəqəmsal dünyada baş verən təhlükəsizlik hadisələri ilə fiziki dünyanın bir-birinə bağlanmasını nümayiş etdirməkdir.
+
+---
+
+## 🧑‍💻 Casper AI layihəsinin müəllifi
+
+<strong>Casper AI layihəsinin ideyası, arxitekturası, proqramlaşdırılması, cybersecurity laboratoriyalarına inteqrasiyası və inkişaf konsepsiyası Emin Savaylov tərəfindən hazırlanır.</strong>
+
+Layihə mənim illər ərzində topladığım:
+
+- Cybersecurity
+- Ethical Hacking
+- Red Team
+- Blue Team
+- SOC
+- SIEM
+- Linux
+- Network Security
+- Web Security
+- IoT
+- Embedded Systems
+- Artificial Intelligence
+- Robotics
+
+istiqamətlərindəki bilik və praktiki təcrübəni vahid sistemdə birləşdirmək məqsədi daşıyır.
+
+Casper AI həm şəxsi araşdırma layihəm, həm də gələcəkdə tələbələrə **AI, robototexnika və kiber təhlükəsizlik texnologiyalarının birlikdə necə işləyə biləcəyini praktiki şəkildə göstərmək üçün hazırlanmış tədris platformasıdır.**
+
+---
+
+## 🛡️ Casper AI və Cybersecurity
+
+Casper yalnız fiziki robot kimi nəzərdə tutulmur.
+
+Layihənin mühüm hissələrindən biri onun cybersecurity infrastrukturu ilə əlaqəsidir.
+
+Casper laboratoriya daxilində müxtəlif təhlükəsizlik sistemlərindən məlumat qəbul edə və həmin məlumatları istifadəçiyə daha anlaşılan formada təqdim edə biləcək şəkildə inkişaf etdirilir.
+
+Məsələn:
+
+### 🚨 SIEM Alert → Casper AI
+
+Laboratoriyada təhlükəsizlik hadisəsi baş verdikdə:
+
+**Security Event**
+
+↓
+
+**SIEM / Wazuh**
+
+↓
+
+**Automation Server**
+
+↓
+
+**AI Analysis**
+
+↓
+
+**Casper AI**
+
+↓
+
+**Səsli / vizual xəbərdarlıq**
+
+Beləliklə Casper gələcəkdə SOC infrastrukturu ilə fiziki AI robot arasında interfeys rolunu oynaya bilər.
+
+---
+
+## 🔵 Blue Team inteqrasiyası
+
+Casper AI layihəsində Blue Team istiqamətində əsas məqsədlərdən biri təhlükəsizlik sistemlərindən gələn məlumatların AI vasitəsilə analiz edilməsidir.
+
+Bu istiqamətdə laboratoriya mühitində istifadə edilən texnologiyalar arasında:
+
+- Wazuh SIEM
+- Suricata IDS/IPS
+- Zeek Network Security Monitor
+- Sysmon
+- Linux log sistemləri
+- Firewall sistemləri
+- Network monitoring
+- Incident Response
+- IoC analizi
+- Security automation
+
+kimi texnologiyalar mövcuddur.
+
+Casper gələcəkdə bu sistemlərdən gələn məlumatların daha interaktiv formada təqdim edilməsində istifadə oluna bilər.
+
+---
+
+## 🔴 Red Team laboratoriyaları
+
+Casper AI layihəsi eyni zamanda təhlükəsiz və izolyasiya edilmiş laboratoriya mühitində Red Team ssenarilərinin nəticələrini analiz etmək üçün də istifadə ediləcək.
+
+Burada məqsəd real sistemlərə hücum etmək deyil.
+
+Bütün testlər şəxsi və idarə olunan cybersecurity laboratoriyalarında həyata keçirilir.
+
+Bu laboratoriyalarda yaradılan təhlükəsizlik hadisələri Blue Team infrastrukturu tərəfindən aşkarlanır və nəticə AI sistemlərinə ötürülür.
+
+Beləliklə:
+
+**Red Team**
+
+→ hücum ssenarisini simulyasiya edir
+
+**Blue Team**
+
+→ hadisəni aşkarlayır
+
+**SIEM**
+
+→ alert yaradır
+
+**AI**
+
+→ hadisəni analiz edir
+
+**Casper**
+
+→ nəticəni istifadəçiyə təqdim edir.
+
+Bu yanaşma Cybersecurity + AI + Robotics konsepsiyasının praktiki nümayişidir.
+
+---
+
+## 🧠 Casper AI və süni intellekt
+
+Casper layihəsinin gələcək inkişafında süni intellekt əsas komponentlərdən biridir.
+
+Planlaşdırılan sistemdə Casper:
+
+- verilən sualları başa düşə,
+- sistem vəziyyətini soruşa,
+- təhlükəsizlik alertlərini izah edə,
+- serverlərdən məlumat ala,
+- laboratoriya sistemləri ilə əlaqə qura,
+- sensor məlumatlarını analiz edə,
+- müəyyən əmrləri icra edə,
+- nəticələri səs və ekran vasitəsilə təqdim edə bilər.
+
+Bu məqsədlə müxtəlif AI agent və API arxitekturaları üzərində araşdırmalar aparılır.
+
+---
+
+## 🔗 MCP – Model Context Protocol inteqrasiyası
+
+Casper AI layihəsinin mühüm araşdırma istiqamətlərindən biri də <strong>MCP – Model Context Protocol</strong> texnologiyasıdır.
+
+Məqsəd AI modelinin müxtəlif lokal sistem və servislərlə təhlükəsiz şəkildə əlaqə yaratmasına imkan verməkdir.
+
+Məsələn:
+
+**Casper AI**
+
+↓
+
+**AI Agent**
+
+↓
+
+**MCP Server**
+
+↓
+
+**Linux / Cybersecurity Lab**
+
+↓
+
+**SIEM / IoT / Sensor / Database / API**
+
+Bu arxitektura sayəsində süni intellekt yalnız danışan sistem deyil, müəyyən icazələr çərçivəsində real laboratoriya servislərindən məlumat əldə edə bilən ağıllı interfeysə çevrilə bilər.
+
+---
+
+## 👁️ Casper-in gələcək sensor sistemi
+
+Layihənin gələcək mərhələlərində Casper-in ətraf mühiti daha yaxşı dərk edə bilməsi üçün müxtəlif sensor və identifikasiya texnologiyalarının inteqrasiyası planlaşdırılır.
+
+Bunlara daxildir:
+
+- 👁️ Kamera və computer vision
+- 👤 Üz aşkarlanması
+- 🖐️ Fingerprint identifikasiyası
+- 💳 RFID identifikasiyası
+- 🔢 PIN authentication
+- 📏 Məsafə sensorları
+- 🌡️ Temperatur və rütubət sensorları
+- 🚶 Hərəkət sensorları
+- 📡 Simsiz kommunikasiya
+- 🎤 Səsli komandalar
+- 🔊 Səsli cavab sistemi
+
+Məqsəd Casper-in yalnız kompüter daxilində deyil, fiziki mühitdə də məlumat toplayıb analiz edə bilməsidir.
+
+---
+
+## 🔐 Multi-Factor Physical Access
+
+Casper layihəsinin araşdırılan istiqamətlərindən biri də fiziki təhlükəsizlik sistemləridir.
+
+Eksperimental laboratoriya mühitində müxtəlif identifikasiya metodları birlikdə istifadə edilə bilər:
+
+**RFID**
+
++
+
+**Fingerprint**
+
++
+
+**PIN**
+
+↓
+
+**AI / Access Control Server**
+
+↓
+
+**Authorized / Denied**
+
+Bu konsepsiya IoT Security və Physical Cybersecurity mövzularının praktik şəkildə öyrənilməsinə imkan verir.
+
+---
+
+## 🤖 Casper Robotics
+
+Casper-in digər əsas hissəsi fiziki robot platformasıdır.
+
+Robot platformasında mərhələli şəkildə:
+
+- başın sağa və sola hərəkəti,
+- yuxarı və aşağı hərəkət,
+- servo motor idarəetməsi,
+- robot bazasının hərəkəti,
+- məsafə ölçülməsi,
+- obyektlərin aşkarlanması,
+- ətraf mühit sensorları,
+- avtomatik reaksiya,
+- mobil idarəetmə,
+- AI əsaslı qərar sistemi
+
+kimi imkanların inkişaf etdirilməsi planlaşdırılır.
+
+Burada əsas məqsəd sadə uzaqdan idarə olunan robot yaratmaq deyil.
+
+Məqsəd sensorlardan məlumat alan və bu məlumatlara əsasən AI vasitəsilə qərar verə bilən modul robot platforması yaratmaqdır.
+
+---
+
+## 📱 Casper Mobile AI
+
+Casper layihəsinin mobil hissəsi də inkişaf konsepsiyasının bir parçasıdır.
+
+Mobil cihaz:
+
+- robotun vizual üzü,
+- AI interfeysi,
+- kamera sistemi,
+- mikrofon,
+- səs çıxışı,
+- şəbəkə bağlantısı,
+- serverlə kommunikasiya
+
+üçün istifadə edilə bilər.
+
+Beləliklə telefon yalnız robot üzərində ekran kimi deyil, sistemin güclü hesablama və kommunikasiya komponentlərindən biri kimi işləyə bilər.
+
+---
+
+## 📞 Casper AI + VoIP
+
+Layihənin eksperimental istiqamətlərindən biri də cybersecurity alertlərinin telefon və səs sistemləri ilə əlaqələndirilməsidir.
+
+Məsələn:
+
+**Wazuh Alert**
+
+↓
+
+**Automation**
+
+↓
+
+**VoIP Server**
+
+↓
+
+**Telefon zəngi**
+
+↓
+
+**Casper AI tərəfindən hadisənin izahı**
+
+Bu konsepsiya kritik təhlükəsizlik hadisələrinin operatora daha sürətli çatdırılmasını nümayiş etdirmək üçün istifadə olunur.
+
+---
+
+## 🌐 IoT və ESP32-S3
+
+Casper-in fiziki dünyayla əlaqəsində mikrokontrollerlər mühüm rol oynayır.
+
+Layihədə ESP32-S3 kimi mikrokontrollerlər vasitəsilə:
+
+- sensorlardan məlumat toplamaq,
+- servo motorları idarə etmək,
+- ekranlara məlumat göndərmək,
+- biometrik modullarla işləmək,
+- RFID məlumatlarını oxumaq,
+- lokal serverlərə API sorğuları göndərmək,
+- Wi-Fi üzərindən kommunikasiya yaratmaq
+
+kimi funksiyalar sınaqdan keçirilir.
+
+---
+
+## 🧪 Casper Cyber Lab
+
+Casper AI yalnız bir robot deyil.
+
+Layihənin əsas hissəsi arxa planda yerləşən böyük laboratoriya infrastrukturudur.
+
+Konseptual olaraq sistem belə qurulur:
+
+```text
+                 CASPER AI
+                     │
+             ┌───────┴───────┐
+             │               │
+          AI Agent         Robot
+             │               │
+          MCP/API         ESP32-S3
+             │               │
+      Cybersecurity Lab     Sensors
+             │
+   ┌─────────┼───────────┐
+   │         │           │
+ Wazuh    Suricata     Linux
+   │         │           │
+ SIEM       IDS        Servers
+   │
+ Security Events
+```
+
+Bu arxitektura AI, Cybersecurity, IoT və Robotics texnologiyalarının eyni platformada işləməsini nümayiş etdirir.
+
+---
+
+# 🚀 Casper AI – Gələcək İnkişaf Planı
+
+Casper AI davamlı inkişaf etdirilən eksperimental layihədir.
+
+Gələcək mərhələlərdə aşağıdakı istiqamətlərin araşdırılması və inkişaf etdirilməsi planlaşdırılır:
+
+### 🤖 1. Tam fiziki robot platforması
+
+Robotun:
+
+- baş hərəkətləri,
+- mobil baza,
+- sensor sistemləri,
+- kamera,
+- səs,
+- ekran,
+- motor idarəetməsi
+
+vahid sistemdə birləşdiriləcək.
+
+---
+
+### 👁️ 2. Computer Vision
+
+Casper-in kamera vasitəsilə ətraf mühiti analiz etməsi üzərində iş aparılması planlaşdırılır.
+
+Gələcək funksiyalar:
+
+- insan aşkarlanması,
+- obyekt tanınması,
+- hərəkətin izlənməsi,
+- vizual hadisə analizi.
+
+---
+
+### 🗣️ 3. Daha inkişaf etmiş Voice AI
+
+Casper ilə daha təbii danışıq sistemi yaradılması planlaşdırılır.
+
+İstifadəçi məsələn soruşa bilər:
+
+> “Casper, sistemdə kritik alert varmı?”
+
+və AI sistemdən məlumat alaraq cavab hazırlaya bilər.
+
+---
+
+### 🛡️ 4. AI SOC Assistant
+
+Casper-in gələcək əsas istiqamətlərindən biri <strong>AI SOC Assistant</strong> konsepsiyasıdır.
+
+Sistem:
+
+- alertləri qəbul edə,
+- logları analiz edə,
+- hadisələri qruplaşdıra,
+- risk haqqında məlumat verə,
+- operatora insident barədə qısa məlumat təqdim edə bilər.
+
+---
+
+### 📊 5. Cybersecurity Dashboard inteqrasiyası
+
+Casper-in SIEM və digər təhlükəsizlik sistemlərindən gələn məlumatları vizual şəkildə göstərməsi də gələcək planlar sırasındadır.
+
+Məsələn:
+
+- aktiv alert sayı,
+- agent statusları,
+- şəbəkə hadisələri,
+- sensor məlumatları,
+- sistem sağlamlığı,
+- kritik təhlükəsizlik bildirişləri.
+
+---
+
+### 🧠 6. Lokal AI imkanları
+
+Gələcəkdə bəzi AI funksiyalarının lokal infrastruktur üzərində işləməsi araşdırılacaq.
+
+Bu yanaşmanın məqsədlərindən biri:
+
+- məlumatların lokal saxlanılması,
+- daha aşağı gecikmə,
+- xüsusi cybersecurity modelləri,
+- şəxsi laboratoriyaya uyğun AI agentləri
+
+yaratmaqdır.
+
+---
+
+### 🏠 7. Physical Security + Smart Lab
+
+Casper gələcəkdə yalnız cybersecurity sistemi deyil, laboratoriyanın fiziki təhlükəsizlik sistemləri ilə də əlaqələndirilə bilər.
+
+Məsələn:
+
+- RFID
+- Fingerprint
+- PIN
+- kamera
+- qapı sensorları
+- hərəkət sensorları
+- smart lock
+- alert sistemi
+
+vahid təhlükəsizlik arxitekturasında işləyə bilər.
+
+---
+
+### 🌐 8. Multi-Agent Cybersecurity Lab
+
+Daha uzunmüddətli istiqamətlərdən biri bir neçə AI agentinin birlikdə işlədiyi laboratoriya modelidir.
+
+Məsələn:
+
+**SOC Agent**
+
+→ təhlükəsizlik hadisələrini analiz edir
+
+**IoT Agent**
+
+→ sensor və cihazları idarə edir
+
+**Network Agent**
+
+→ şəbəkə vəziyyətini analiz edir
+
+**Casper**
+
+→ bütün bu məlumatları istifadəçi üçün vahid interfeysə çevirir.
+
+---
+
+## 🎓 Casper AI və təhsil
+
+Casper AI layihəsinin ən vacib məqsədlərindən biri də təhsildir.
+
+Bu platforma vasitəsilə tələbələr gələcəkdə:
+
+- AI-nin real sistemlərə necə inteqrasiya edildiyini,
+- IoT cihazlarının necə işlədiyini,
+- mikrokontroller proqramlaşdırmasını,
+- API kommunikasiya sistemlərini,
+- cybersecurity monitorinqini,
+- SIEM arxitekturasını,
+- Red Team və Blue Team qarşılıqlı əlaqəsini,
+- robototexnikanı,
+- sensor sistemlərini,
+- Linux serverlərini,
+- avtomatlaşdırmanı
+
+eyni laboratoriya üzərində görə bilərlər.
+
+Bu isə ayrıca öyrənilən texnologiyaların real layihədə necə bir-biri ilə əlaqə yaratdığını göstərir.
+
+---
+
+## 💡 Casper AI-nin əsas fəlsəfəsi
+
+Casper AI layihəsində məqsəd hazır texnologiyaları sadəcə istifadə etmək deyil.
+
+Əsas məqsəd:
+
+<strong>öyrənmək → qurmaq → test etmək → analiz etmək → avtomatlaşdırmaq → yeni sistem yaratmaqdır.</strong>
+
+Mənim üçün Cybersecurity yalnız proqram və alətlərdən ibarət deyil.
+
+Cybersecurity artıq:
+
+**AI + Software + Networks + IoT + Electronics + Robotics + Automation**
+
+sahələrinin birləşdiyi böyük texnologiya ekosistemidir.
+
+Casper AI də məhz bu yanaşmanın eksperimental nəticəsidir.
+
+---
+
+## 👨‍💻 Müəllif – Emin Savaylov
+
+<strong>Emin Savaylov</strong>
+
+🛡️ Cybersecurity Specialist  
+🔴 Red Team  
+🔵 Blue Team  
+🎓 Cybersecurity Instructor  
+🤖 Casper AI Creator  
+🧠 AI Cyber Labs  
+🌐 CyberShieldy  
+
+Casper AI layihəsinin ideyası, proqram arxitekturası, cybersecurity inteqrasiyası və robot platformasının inkişafı müəllif tərəfindən davamlı şəkildə araşdırılır və təkmilləşdirilir.
+
+---
+
+## 🔮 Casper AI – gələcəyə baxış
+
+Uzunmüddətli məqsəd Casper-i sadə bir robotdan daha geniş sistemə çevirməkdir:
+
+> **AI ilə düşünən, cybersecurity infrastrukturu ilə əlaqə quran, IoT sensorlarından məlumat alan, fiziki mühitlə qarşılıqlı əlaqə yaradan və insanla təbii şəkildə kommunikasiya qura bilən Cybersecurity Robot Assistant.**
+
+Casper AI hazır məhsul deyil — davamlı inkişaf edən <strong>AI + Cybersecurity + Robotics Research Project</strong> layihəsidir.
+
+Yeni modullar, sensorlar, AI imkanları və cybersecurity inteqrasiyaları inkişaf etdikcə layihə mərhələli şəkildə genişləndiriləcək.
+
+---
+
+### 🔎 Casper AI mövzuları
+
+`Casper AI` • `Emin Savaylov` • `CyberShieldy` • `Cybersecurity Robot` • `AI Cybersecurity` • `Cyber Robotics` • `Artificial Intelligence` • `Robototexnika` • `ESP32-S3` • `IoT Security` • `SIEM` • `SOC` • `Wazuh` • `Red Team` • `Blue Team` • `Ethical Hacking` • `Cyber Security` • `Kiber Təhlükəsizlik` • `Kiber Təhlükəsizlik Dərsləri` • `AI Agent` • `MCP` • `Model Context Protocol` • `Computer Vision` • `Cyber Automation` • `Physical Security` • `Linux Security` • `Network Security`
+
+---
+
 
 ## 🌐 Ən Çox Axtarılan Kurslar
 
