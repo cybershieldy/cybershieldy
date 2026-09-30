@@ -58,7 +58,7 @@ canonical: https://cybershieldy.com/haqqinda
 
 <div style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap; margin-top: 20px; margin-bottom: 25px;">
 
-  <img src="/assets/images/casper-ai.webp"
+  <img src="/assets/images/casper_robot.webp"
        alt="Casper AI - Emin Savaylov tərəfindən hazırlanmış AI Cybersecurity Robot"
        style="width: 280px; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.25);">
 
@@ -145,7 +145,7 @@ Laboratoriyada təhlükəsizlik hadisəsi baş verdikdə:
 
 ↓
 
-**SIEM / Wazuh**
+**SIEM **
 
 ↓
 
@@ -173,7 +173,7 @@ Casper AI layihəsində Blue Team istiqamətində əsas məqsədlərdən biri t�
 
 Bu istiqamətdə laboratoriya mühitində istifadə edilən texnologiyalar arasında:
 
-- Wazuh SIEM
+- SIEM
 - Suricata IDS/IPS
 - Zeek Network Security Monitor
 - Sysmon
@@ -376,7 +376,7 @@ Layihənin eksperimental istiqamətlərindən biri də cybersecurity alertlərin
 
 Məsələn:
 
-**Wazuh Alert**
+**Siem Alert**
 
 ↓
 
@@ -437,7 +437,7 @@ Konseptual olaraq sistem belə qurulur:
              │
    ┌─────────┼───────────┐
    │         │           │
- Wazuh    Suricata     Linux
+        Suricata     Linux
    │         │           │
  SIEM       IDS        Servers
    │
@@ -656,7 +656,7 @@ Yeni modullar, sensorlar, AI imkanları və cybersecurity inteqrasiyaları inki�
 
 ### 🔎 Casper AI mövzuları
 
-`Casper AI` • `Emin Savaylov` • `CyberShieldy` • `Cybersecurity Robot` • `AI Cybersecurity` • `Cyber Robotics` • `Artificial Intelligence` • `Robototexnika` • `ESP32-S3` • `IoT Security` • `SIEM` • `SOC` • `Wazuh` • `Red Team` • `Blue Team` • `Ethical Hacking` • `Cyber Security` • `Kiber Təhlükəsizlik` • `Kiber Təhlükəsizlik Dərsləri` • `AI Agent` • `MCP` • `Model Context Protocol` • `Computer Vision` • `Cyber Automation` • `Physical Security` • `Linux Security` • `Network Security`
+`Casper AI` • `Emin Savaylov` • `CyberShieldy` • `Cybersecurity Robot` • `AI Cybersecurity` • `Cyber Robotics` • `Artificial Intelligence` • `Robototexnika` • `ESP32-S3` • `IoT Security` • `SIEM` • `SOC`  • `Red Team` • `Blue Team` • `Ethical Hacking` • `Cyber Security` • `Kiber Təhlükəsizlik` • `Kiber Təhlükəsizlik Dərsləri` • `AI Agent` • `MCP` • `Model Context Protocol` • `Computer Vision` • `Cyber Automation` • `Physical Security` • `Linux Security` • `Network Security`
 
 ---
 
