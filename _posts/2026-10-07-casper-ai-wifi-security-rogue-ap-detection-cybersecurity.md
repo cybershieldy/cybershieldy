@@ -60,7 +60,7 @@ tags:
 
 description: "CyberShieldy CASPER AI Wi-Fi Security layihəsində real vaxtda Wi-Fi şəbəkələrinin aşkarlanması, Rogue AP və Fake Wi-Fi təhlükələrinin monitorinqi, ESP32-S3 vizual interfeysi və səsli təhlükəsizlik xəbərdarlıqları vahid eksperimental kibertəhlükəsizlik laboratoriyasında birləşdirilir."
 
-image: /assets/images/casper_wifi_security.webp
+image: /assets/images/wfi=t.webp
 
 canonical: https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection
 permalink: /posts/casper-ai-wifi-security-rogue-ap-detection
