@@ -757,4 +757,52 @@ CyberShieldy CASPER layihəsinin əsas məqsədi AI, robototexnika, IoT və kibe
 
 > **“CyberShieldy CASPER — AI, Wi-Fi Security, Cybersecurity, IoT və robototexnikanın vahid eksperimental platformada birləşdiyi layihədir.”**
 
+
+---
+
+# 🎥 CASPER AI Wi-Fi Security — Instagram Reel Demo
+
+Yeni CASPER AI Wi-Fi Security demosunu Instagram Reel videosunda izləyə bilərsiniz.
+
+📱 **Instagram Reel:**
+
+[CASPER AI — Wi-Fi Threat Detection Demo](https://www.instagram.com/reel/DeHlrS7Mo-z/?stkn=MTV6NmFsZzM2bDNxMQ==)
+
+<iframe
+src="https://www.instagram.com/reel/DeHlrS7Mo-z/embed"
+width="100%"
+height="700"
+style="border:none;overflow:hidden;border-radius:12px;"
+allowfullscreen>
+</iframe>
+
+Bu videoda CASPER AI sisteminin simsiz şəbəkə monitorinqi, Wi-Fi detection, Rogue AP / Fake Wi-Fi təhlükə aşkarlanması və təhlükəsizlik xəbərdarlığı konsepti nümayiş etdirilir.
+
+---
+
+# 🔗 Oxşar Mövzular
+
+* 📊🛡️ [SIEM nədir və necə işləyir?](https://cybershieldy.com/posts/siem-nedir)
+
+* 🔴🔵 [Red Team və Blue Team arasındakı fərqlər](https://cybershieldy.com/posts/red-team-vs-blue-team)
+
+* 🤖🛡️ [SIEM və Süni İntellekt inteqrasiyası](https://cybershieldy.com/posts/ai-siem-integration)
+
+* 🤖📡 [IoT Security və ağıllı sistemlər](https://cybershieldy.com/posts/robotexnika-kiber-gelecek)
+
+* ⚡🛡️ [ESP32 ilə SIEM inteqrasiyası](https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force)
+
+* 🤖⚡ [CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi](https://cybershieldy.com/posts/ai-cybersecurity-assistant)
+
+* 🤖📱 [CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası](https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab)
+
+* 🤖⚔️ [CyberShieldy Casper: Gələcəyin AI Pentest Robotu](https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot)
+
+* 🕵️ [MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən](/posts/sebeke-hucumlari)
+
+* 🎣 [Phishing hücumu nədir? Müdafiə yolları](/posts/sosial-mühəndislik)
+
+* 📡 [Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri](/posts/wifi-hucumlari)
+
+
 {% include cyber-popup.html %}
