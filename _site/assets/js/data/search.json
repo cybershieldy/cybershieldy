@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring",
+    "url": "/posts/casper-ai-reverse-shell-hid-security-lab",
+    "categories": "kibertəhlükəsizlik, reverse shell, ethical hacking, cybersecurity lab, red team, blue team, purple team, ai cybersecurity, usb security, hid security, mobile security, cyber education",
+    "tags": "casper ai, cybershieldy, cybersecurity, cyber security, kibertəhlükəsizlik, kiber təhlükəsizlik, reverse shell, reverse shell attack, reverse shell detection, hacker attack, hacker hücumu, hacking, ethical hacking, ethical hacker, penetration testing, pentest, red team, blue team, purple team, cyber attack, cyber attacks, cyber defense, threat detection, attack detection, real time monitoring, security monitoring, network security, endpoint security, mobile security, android security, termux, termux security, raspberry pi pico, raspberry pi pico hid, pico hid, usb hid, hid attack, usb security, usb attack detection, badusb, device security, ai cybersecurity, artificial intelligence, cybersecurity ai, security automation, cybersecurity automation, soc, siem, security operations center, cybersecurity lab, cyber lab, ethical hacking lab, cybersecurity training, kiber dərsləri, hacker dərsləri, kiber təlimləri, cyber security course, hacking training, cyber education, cybershieldy academy, casper cybersecurity robot, cybersecurity robot, savaylov emin",
+    "date": "2026-10-12 08:30:00 +0400",
+    "content": "CyberShieldy CASPER AI Reverse Shell Security Lab layihəsində Raspberry Pi Pico HID, Android Termux, real-time monitoring, təhlükəsizlik hadisələrinin aşkarlanması, AI əsaslı xəbərdarlıq və Red Team / Blue Team yanaşmaları vahid eksperimental kibertəhlükəsizlik laboratoriyasında birləşdirilir."
+  },
+  
+  {
     "title": "📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring",
     "url": "/posts/casper-ai-wifi-security-rogue-ap-detection",
     "categories": "kibertəhlükəsizlik, wifi security, ai cybersecurity, network security, red team, blue team, iot security, cyber education",

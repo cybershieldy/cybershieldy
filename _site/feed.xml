@@ -1,4 +1,1829 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-10-07T15:04:50+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection" rel="alternate" type="text/html" title="📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring" /><published>2026-10-07T07:00:00+04:00</published><updated>2026-10-07T13:58:22+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection"><![CDATA[<h1 id="-casper-ai-wi-fi-security">📡 CASPER AI Wi-Fi Security</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-10-12T17:45:47+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab" rel="alternate" type="text/html" title="🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring" /><published>2026-10-12T08:30:00+04:00</published><updated>2026-10-12T08:30:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-reverse-shell-detection-pico-hid-termux-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab"><![CDATA[<h1 id="-casper-ai-reverse-shell-security-lab">🤖⚡ CASPER AI Reverse Shell Security Lab</h1>
+
+<p>CyberShieldy CASPER layihəsinin yeni eksperimental mərhələsində <strong>Reverse Shell Security</strong>, <strong>Raspberry Pi Pico HID</strong>, <strong>Android Termux</strong>, <strong>real-time cyber attack monitoring</strong> və <strong>CASPER AI təhlükəsizlik xəbərdarlıqları</strong> vahid laboratoriya sistemində birləşdirilir.</p>
+
+<p>Bu dəfə CASPER yalnız şəbəkəni izləyən və təhlükəsizlik məlumatlarını ekranda göstərən sistem deyil.</p>
+
+<p>Yeni laboratoriya ssenarisində fiziki USB cihazdan başlayan hadisənin mobil sistemə, oradan təhlükəsizlik monitorinqinə və nəhayət CASPER AI xəbərdarlıq sisteminə qədər necə izlənilə biləcəyi göstərilir.</p>
+
+<p>Ümumi konsept:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>RASPBERRY PI PICO
+        ↓
+USB / HID EVENT
+        ↓
+ANDROID DEVICE
+        ↓
+TERMUX SECURITY LAB
+        ↓
+SECURITY EVENT
+        ↓
+MONITORING SERVER
+        ↓
+CASPER AI
+        ↓
+VISUAL + VOICE ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Burada əsas məqsəd hücum kodunu yaymaq deyil.</p>
+
+<p>Əsas məqsəd:</p>
+
+<blockquote>
+  <p><strong>Bir təhlükəsizlik hadisəsinin necə başladığını, necə aşkarlanmasını və müdafiə sistemi tərəfindən necə izlənilə biləcəyini göstərməkdir.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-yeni-casper-reverse-shell-demo">🔥 Yeni CASPER Reverse Shell Demo</h1>
+
+<p>Yeni CASPER laboratoriya demosunda Raspberry Pi Pico mikrocontrolleri USB cihaz kimi test sisteminə qoşulur.</p>
+
+<p>Laboratoriya daxilində Pico xüsusi <strong>HID security simulation</strong> rolunu oynayır.</p>
+
+<p>Hadisə baş verdikdə Android cihazındakı Termux mühiti bunu müşahidə edir və təhlükəsizlik sistemi hadisəni qeyd edir.</p>
+
+<p>Daha sonra məlumat CASPER monitorinq sisteminə ötürülür.</p>
+
+<p>Konsept belədir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>PICO CONNECTED
+      ↓
+USB EVENT DETECTED
+      ↓
+TERMUX MONITOR
+      ↓
+SECURITY EVENT CREATED
+      ↓
+CASPER SERVER
+      ↓
+AI SECURITY ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER ekranında isə belə statuslar göstərilə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>CASPER SOC
+
+SYSTEM READY
+
+USB DEVICE DETECTED
+
+SECURITY EVENT
+
+REVERSE SHELL ACTIVITY
+
+MONITORING ACTIVE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və CASPER AI səsli xəbərdarlıq yarada bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>Diqqət.
+
+Şübhəli təhlükəsizlik fəaliyyəti aşkar edildi.
+
+Reverse shell tipli laboratoriya hadisəsi müəyyən edildi.
+
+Casper monitorinq sistemini aktivləşdirdi.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="-reverse-shell-nədir">🧠 Reverse Shell Nədir?</h1>
+
+<p>Reverse Shell kibertəhlükəsizlikdə tez-tez rast gəlinən uzaq idarəetmə konseptlərindən biridir.</p>
+
+<p>Ənənəvi bir bağlantıda istifadəçi uzaqdakı sistemə qoşulur.</p>
+
+<p>Reverse Shell modelində isə əlaqənin istiqaməti dəyişə bilər.</p>
+
+<p>Sadələşdirilmiş konsept:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>NORMAL REMOTE CONNECTION
+
+ADMIN
+  ↓
+SERVER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Reverse Shell modeli isə konseptual olaraq:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>CONTROLLED TEST SYSTEM
+        ↓
+OUTBOUND CONNECTION
+        ↓
+AUTHORIZED LAB LISTENER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>kimi düşünülə bilər.</p>
+
+<p>Bu tip mexanizmlər Red Team laboratoriyalarında hücum ssenarilərinin necə işlədiyini öyrənmək üçün, Blue Team tərəfində isə şübhəli outbound connection-ların necə aşkar ediləcəyini öyrənmək üçün istifadə edilir.</p>
+
+<p>CyberShieldy laboratoriyasında bu mövzu yalnız:</p>
+
+<ul>
+  <li>şəxsi cihazlarda;</li>
+  <li>kontrollu laboratoriyada;</li>
+  <li>tədris məqsədi ilə;</li>
+  <li>təhlükəsizlik aşkarlama sistemlərini sınaqdan keçirmək üçün</li>
+</ul>
+
+<p>simulyasiya edilir.</p>
+
+<hr />
+
+<h1 id="️-reverse-shell-niyə-təhlükəlidir">⚠️ Reverse Shell Niyə Təhlükəlidir?</h1>
+
+<p>Real dünyada icazəsiz Reverse Shell təhlükəli ola bilər.</p>
+
+<p>Çünki hücumçu kompromis edilmiş sistem üzərindən uzaq idarəetmə əldə etməyə cəhd edə bilər.</p>
+
+<p>Mümkün təhlükələr:</p>
+
+<ul>
+  <li>uzaq komanda icrası;</li>
+  <li>sistemə nəzarət;</li>
+  <li>əlavə zərərli fəaliyyət;</li>
+  <li>məlumatlara icazəsiz çıxış;</li>
+  <li>şəbəkə daxilində lateral movement;</li>
+  <li>əlavə cihazların araşdırılması;</li>
+  <li>persistence cəhdləri;</li>
+  <li>təhlükəsizlik sistemlərindən yayınma;</li>
+  <li>məlumatların çıxarılması;</li>
+  <li>sistem resurslarından sui-istifadə.</li>
+</ul>
+
+<p>Buna görə Reverse Shell detection SOC və Blue Team üçün vacib mövzulardan biridir.</p>
+
+<hr />
+
+<h1 id="-reverse-shell-detection">🔍 Reverse Shell Detection</h1>
+
+<p>Müdafiə tərəfdə məqsəd sadəcə “reverse shell” sözünü tapmaq deyil.</p>
+
+<p>Əsas məqsəd sistem davranışını analiz etməkdir.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>PROCESS
+   ↓
+NETWORK CONNECTION
+   ↓
+UNUSUAL DESTINATION
+   ↓
+BEHAVIOR ANALYSIS
+   ↓
+SECURITY EVENT
+   ↓
+ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Blue Team aşağıdakı göstəricilərə diqqət edə bilər:</p>
+
+<ul>
+  <li>gözlənilməyən outbound connection;</li>
+  <li>qeyri-adi port istifadəsi;</li>
+  <li>sistem shell-i ilə network connection arasında əlaqə;</li>
+  <li>şübhəli child process;</li>
+  <li>terminal fəaliyyətinin dəyişməsi;</li>
+  <li>qeyri-adi process chain;</li>
+  <li>yeni USB cihazının qoşulmasından dərhal sonra başlayan fəaliyyət;</li>
+  <li>endpoint loglarında anomaliya;</li>
+  <li>SIEM correlation nəticələri.</li>
+</ul>
+
+<p>CASPER-in rolu bu hadisəni istifadəçiyə daha vizual göstərməkdir.</p>
+
+<hr />
+
+<h1 id="-raspberry-pi-pico--hid-security">🔌 Raspberry Pi Pico + HID Security</h1>
+
+<p>Layihənin maraqlı hissələrindən biri <strong>Raspberry Pi Pico</strong> istifadə edilməsidir.</p>
+
+<p>Pico USB cihaz kimi müxtəlif eksperimental laboratoriya funksiyalarında istifadə edilə bilər.</p>
+
+<p>CASPER laboratoriyasında məqsəd Pico-nu zərərli cihaz kimi təqdim etmək deyil.</p>
+
+<p>Əksinə məqsəd:</p>
+
+<blockquote>
+  <p><strong>USB/HID əsaslı təhlükəsizlik hadisəsi baş verdikdə müdafiə sisteminin bunu necə görə biləcəyini öyrənməkdir.</strong></p>
+</blockquote>
+
+<p>Konsept:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>USB DEVICE
+    ↓
+HID EVENT
+    ↓
+OPERATING SYSTEM
+    ↓
+SECURITY MONITOR
+    ↓
+CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu, USB təhlükəsizliyi mövzusunu daha vizual şəkildə öyrənməyə imkan verir.</p>
+
+<hr />
+
+<h1 id="️-hid-nədir">⌨️ HID Nədir?</h1>
+
+<p>HID — <strong>Human Interface Device</strong> anlayışıdır.</p>
+
+<p>Klaviatura və siçan kimi cihazlar HID kateqoriyasına daxildir.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>KEYBOARD
+MOUSE
+USB CONTROLLER
+SPECIAL USB DEVICE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Əgər əməliyyat sistemi bir cihazı klaviatura kimi tanıyırsa, həmin cihaz istifadəçi interfeysi ilə əlaqəli input yarada bilər.</p>
+
+<p>Buna görə cybersecurity sahəsində <strong>USB HID Security</strong> ayrıca araşdırma mövzusudur.</p>
+
+<p>Blue Team üçün əsas sual belədir:</p>
+
+<blockquote>
+  <p>Kompüterə qoşulan hər USB cihazına avtomatik etibar etmək doğrudurmu?</p>
+</blockquote>
+
+<p>Cavab adətən:</p>
+
+<p><strong>Xeyr.</strong></p>
+
+<hr />
+
+<h1 id="-android--termux-security-monitoring">📱 Android + Termux Security Monitoring</h1>
+
+<p>CASPER laboratoriyasının digər maraqlı tərəfi Android cihazının istifadə edilməsidir.</p>
+
+<p>Android daxilində Termux təhlükəsizlik laboratoriyası kimi istifadə olunur.</p>
+
+<p>Termux burada:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ANDROID
+   ↓
+TERMUX
+   ↓
+DEVICE EVENT
+   ↓
+SECURITY SCRIPT
+   ↓
+LOG
+   ↓
+SERVER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>modelində işləyir.</p>
+
+<p>Məsələn Raspberry Pi Pico telefona qoşulduqda sistem USB cihaz hadisəsini müşahidə edə bilər.</p>
+
+<p>Daha sonra təhlükəsizlik monitorinqi bunu qeyd edir.</p>
+
+<p>CASPER server isə həmin hadisəni ayrıca security event kimi emal edir.</p>
+
+<hr />
+
+<h1 id="-telefon-kibertəhlükəsizlik-sensoruna-çevrilir">📲 Telefon Kibertəhlükəsizlik Sensoruna Çevrilir</h1>
+
+<p>Bu layihədə telefon sadəcə mobil cihaz deyil.</p>
+
+<p>Telefon müəyyən mənada portativ security sensor rolunu oynayır.</p>
+
+<p>Konsept:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>USB HARDWARE
+      ↓
+ANDROID PHONE
+      ↓
+TERMUX
+      ↓
+SECURITY SENSOR
+      ↓
+NETWORK
+      ↓
+CASPER AI
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu isə mobil cihaz, mikrocontroller və AI sistemini eyni cybersecurity layihəsində birləşdirir.</p>
+
+<hr />
+
+<h1 id="-casper-ai-hadisəni-necə-görür">🤖 CASPER AI Hadisəni Necə Görür?</h1>
+
+<p>CASPER təhlükəsizlik hadisəsini müxtəlif mənbələrdən ala bilər.</p>
+
+<p>Ümumi model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>SECURITY EVENT
+      ↓
+SERVER
+      ↓
+EVENT CLASSIFICATION
+      ↓
+CASPER AI
+      ↓
+RISK CONTEXT
+      ↓
+ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER istifadəçiyə hadisəni sadə dildə təqdim edə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>CASPER ALERT
+
+USB EVENT DETECTED
+
+SUSPICIOUS ACTIVITY
+
+MONITORING ACTIVE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>və ya:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>CASPER SOC
+
+REVERSE SHELL ACTIVITY
+
+ANALYZING EVENT
+
+SECURITY ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="️-casper-ai-voice-alert">🗣️ CASPER AI Voice Alert</h1>
+
+<p>Vizual xəbərdarlıqdan əlavə CASPER səsli xəbərdarlıq da verə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>Diqqət.
+
+Yeni USB təhlükəsizlik hadisəsi aşkar edildi.
+
+Sistem şübhəli bağlantı aktivliyi müəyyən etdi.
+
+Casper təhlükəsizlik analizini başladır.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu halda cybersecurity hadisəsi yalnız log faylında qalmır.</p>
+
+<p>Hadisə fiziki dünyaya çıxır:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>LOG
+ ↓
+AI
+ ↓
+DISPLAY
+ +
+VOICE
+ +
+PHYSICAL CYBER DEVICE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h1 id="️-casper-monitor">🖥️ CASPER Monitor</h1>
+
+<p>CASPER layihəsinin əsas ideyalarından biri təhlükəsizlik məlumatını terminaldan çıxarıb ayrıca fiziki interfeysə gətirməkdir.</p>
+
+<p>Ənənəvi yanaşma:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>LOG
+ ↓
+TERMINAL
+ ↓
+ANALYST
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER yanaşması:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>SECURITY EVENT
+      ↓
+MONITORING SERVER
+      ↓
+CASPER AI
+      ↓
+PHYSICAL DISPLAY
+      ↓
+VOICE ALERT
+      ↓
+ANALYST
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu həm tələbə, həm də izləyici üçün hadisəni daha anlaşılan edir.</p>
+
+<hr />
+
+<h1 id="-red-team-perspektivi">🔴 Red Team Perspektivi</h1>
+
+<p>Red Team laboratoriyasında Reverse Shell konsepti vacib mövzulardan biridir.</p>
+
+<p>Lakin Red Team təliminin əsas məqsədi sadəcə bağlantı əldə etmək deyil.</p>
+
+<p>Əsl məqsəd hücum zəncirini başa düşməkdir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>AUTHORIZED LAB
+      ↓
+ATTACK SIMULATION
+      ↓
+SECURITY EVENT
+      ↓
+DETECTION OPPORTUNITY
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Red Team baxımından suallar:</p>
+
+<ul>
+  <li>belə fəaliyyət hansı logları yaradır?</li>
+  <li>endpoint bunu necə görür?</li>
+  <li>network monitor bunu görə bilərmi?</li>
+  <li>SIEM hansı hadisələri correlation edə bilər?</li>
+  <li>Blue Team hansı göstəricilərdən istifadə edə bilər?</li>
+  <li>hadisə nə qədər tez aşkar edilir?</li>
+</ul>
+
+<hr />
+
+<h1 id="-blue-team-perspektivi">🔵 Blue Team Perspektivi</h1>
+
+<p>Blue Team üçün əsas məqsəd:</p>
+
+<p><strong>Detection + Analysis + Response</strong></p>
+
+<p>Model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>ENDPOINT EVENT
+      ↓
+LOG
+      ↓
+MONITORING
+      ↓
+DETECTION
+      ↓
+ANALYSIS
+      ↓
+ALERT
+      ↓
+RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Blue Team aşağıdakı hadisələri araşdıra bilər:</p>
+
+<ul>
+  <li>USB device connection;</li>
+  <li>yeni process;</li>
+  <li>qeyri-adi network connection;</li>
+  <li>shell activity;</li>
+  <li>endpoint anomaly;</li>
+  <li>təhlükəli process chain;</li>
+  <li>şübhəli outbound traffic;</li>
+  <li>fərqli cihazlar arasında correlation.</li>
+</ul>
+
+<hr />
+
+<h1 id="-purple-team-yanaşması">🟣 Purple Team Yanaşması</h1>
+
+<p>CASPER layihəsinin ən güclü tərəflərindən biri Red Team və Blue Team yanaşmasının birlikdə nümayiş etdirilməsidir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>RED TEAM
+   ↓
+AUTHORIZED SIMULATION
+   ↓
+SECURITY EVENT
+   ↓
+BLUE TEAM
+   ↓
+DETECTION
+   ↓
+CASPER AI
+   ↓
+ANALYSIS
+   ↓
+DEFENSE IMPROVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu, Purple Team yanaşmasıdır.</p>
+
+<p>Yəni məqsəd:</p>
+
+<p><strong>“Hücum etdim”</strong> demək deyil.</p>
+
+<p>Məqsəd:</p>
+
+<p><strong>“Hücum simulyasiyası zamanı müdafiə sisteminin nə gördüyünü və onu necə yaxşılaşdıra biləcəyimizi öyrəndik.”</strong></p>
+
+<hr />
+
+<h1 id="-network-security-perspektivi">📡 Network Security Perspektivi</h1>
+
+<p>Reverse Shell ssenarilərində network visibility də vacibdir.</p>
+
+<p>Müdafiə tərəfi trafikdə anomaliyaları araşdıra bilər.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ENDPOINT
+   ↓
+NETWORK
+   ↓
+IDS / IPS
+   ↓
+LOG
+   ↓
+SIEM
+   ↓
+SOC
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Burada aşağıdakı texnologiyalar rol oynaya bilər:</p>
+
+<ul>
+  <li>IDS;</li>
+  <li>IPS;</li>
+  <li>SIEM;</li>
+  <li>EDR;</li>
+  <li>XDR;</li>
+  <li>Firewall;</li>
+  <li>Network Monitoring;</li>
+  <li>DNS Monitoring;</li>
+  <li>Endpoint Logging;</li>
+  <li>Threat Detection.</li>
+</ul>
+
+<hr />
+
+<h1 id="️-ids--ips-ilə-detection">🛡️ IDS / IPS ilə Detection</h1>
+
+<p>Şəbəkə əsaslı təhlükəsizlik sistemləri trafik davranışını analiz edə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>NETWORK TRAFFIC
+       ↓
+IDS / IPS
+       ↓
+ANALYSIS
+       ↓
+SUSPICIOUS EVENT
+       ↓
+SIEM
+       ↓
+CASPER
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER burada son vizual notification qatına çevrilə bilər.</p>
+
+<hr />
+
+<h1 id="-siem--casper">📊 SIEM + CASPER</h1>
+
+<p>CASPER gələcəkdə SIEM sistemləri ilə daha dərin inteqrasiya edilə bilər.</p>
+
+<p>Məsələn:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>ENDPOINT
+   ↓
+LOG
+   ↓
+SIEM
+   ↓
+CORRELATION
+   ↓
+AI ANALYSIS
+   ↓
+CASPER
+   ↓
+VOICE + DISPLAY
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu halda CASPER fiziki SOC assistant kimi fəaliyyət göstərə bilər.</p>
+
+<hr />
+
+<h1 id="-soc-perspektivi">🚨 SOC Perspektivi</h1>
+
+<p>SOC analyst üçün əsas suallar belədir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>NƏ BAŞ VERDİ?
+
+HANSI CİHAZDA BAŞ VERDİ?
+
+NƏ VAXT BAŞ VERDİ?
+
+HANSI PROSES BAŞLADI?
+
+HANSI NETWORK CONNECTION YARANDI?
+
+HADİSƏ RİSKLİDİRMİ?
+
+HANSI RESPONSE TƏTBİQ OLUNMALIDIR?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER bu məlumatların bir hissəsini sadələşdirilmiş formada təqdim edə bilər.</p>
+
+<hr />
+
+<h1 id="-ai-cybersecurity">🧠 AI Cybersecurity</h1>
+
+<p>AI burada “hacker” rolunu oynamır.</p>
+
+<p>CASPER AI-nin əsas rolu təhlükəsizlik məlumatını anlamağa kömək etməkdir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>RAW LOGS
+   ↓
+SECURITY EVENTS
+   ↓
+AI CONTEXT
+   ↓
+RISK CLASSIFICATION
+   ↓
+HUMAN-READABLE ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Məsələn AI müəyyən edə bilər:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>USB EVENT
++
+NEW PROCESS
++
+OUTBOUND CONNECTION
+=
+SUSPICIOUS SECURITY CONTEXT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Son qərar isə yenə insana məxsusdur.</p>
+
+<hr />
+
+<h1 id="-event-correlation">🧩 Event Correlation</h1>
+
+<p>Tək bir hadisə həmişə təhlükə demək deyil.</p>
+
+<p>Məsələn USB cihazının qoşulması normal ola bilər.</p>
+
+<p>Network connection da normal ola bilər.</p>
+
+<p>Terminal açılması da normal ola bilər.</p>
+
+<p>Lakin hadisələr ardıcıl şəkildə meydana gəlirsə:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>USB CONNECTED
+      +
+TERMINAL EVENT
+      +
+PROCESS EVENT
+      +
+NETWORK EVENT
+      ↓
+CORRELATION
+      ↓
+HIGHER SECURITY CONTEXT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>yarana bilər.</p>
+
+<p>Bu, SIEM və SOC məntiqinin əsas prinsiplərindən biridir.</p>
+
+<hr />
+
+<h1 id="-real-time-cyber-attack-monitoring">⚡ Real-Time Cyber Attack Monitoring</h1>
+
+<p>CASPER layihəsində məqsəd hadisəni mümkün qədər real-time göstərməkdir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>EVENT
+ ↓
+DETECTION
+ ↓
+PROCESSING
+ ↓
+CASPER
+ ↓
+ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Nəticədə istifadəçi təhlükəsizlik hadisəsini baş verdiyi anda vizual şəkildə görə bilir.</p>
+
+<hr />
+
+<h1 id="-wi-fi-hücumları-ilə-əlaqə">📡 Wi-Fi Hücumları ilə Əlaqə</h1>
+
+<p>CASPER layihəsi yalnız Reverse Shell laboratoriyası ilə məhdudlaşmır.</p>
+
+<p>Layihədə Wi-Fi security mövzuları da ayrıca araşdırılır.</p>
+
+<p>Məsələn:</p>
+
+<ul>
+  <li>Wireless Security;</li>
+  <li>Rogue AP Detection;</li>
+  <li>Fake Wi-Fi Detection;</li>
+  <li>Wi-Fi Monitoring;</li>
+  <li>Network Discovery;</li>
+  <li>Threat Detection;</li>
+  <li>Unauthorized Device Detection.</li>
+</ul>
+
+<p>Bu sistemlər gələcəkdə vahid təhlükəsizlik monitorinq platformasında birləşdirilə bilər.</p>
+
+<hr />
+
+<h1 id="-multi-vector-cybersecurity-lab">🔥 Multi-Vector Cybersecurity Lab</h1>
+
+<p>Gələcək CASPER modeli müxtəlif təhlükəsizlik hadisələrini eyni anda analiz edə bilər.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>WI-FI EVENT
+     +
+USB EVENT
+     +
+REVERSE SHELL EVENT
+     +
+NETWORK EVENT
+     +
+ENDPOINT EVENT
+     ↓
+CASPER AI
+     ↓
+SOC
+     ↓
+ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Beləliklə CASPER yalnız bir hücum növünə fokuslanmır.</p>
+
+<p>CASPER <strong>multi-vector cybersecurity monitoring platform</strong> konseptinə doğru inkişaf edir.</p>
+
+<hr />
+
+<h1 id="-endpoint-security">💻 Endpoint Security</h1>
+
+<p>Reverse Shell detection üçün endpoint visibility çox vacibdir.</p>
+
+<p>Endpoint tərəfində:</p>
+
+<ul>
+  <li>process creation;</li>
+  <li>command interpreter activity;</li>
+  <li>process tree;</li>
+  <li>network connection;</li>
+  <li>USB event;</li>
+  <li>authentication;</li>
+  <li>user activity;</li>
+  <li>file activity</li>
+</ul>
+
+<p>kimi məlumatlar təhlükəsizlik analizi üçün istifadə edilə bilər.</p>
+
+<hr />
+
+<h1 id="-mobile-security">📱 Mobile Security</h1>
+
+<p>CASPER layihəsi mobile security mövzusunu da əhatə edir.</p>
+
+<p>Android + Termux kombinasiyası burada maraqlı eksperimental platforma yaradır.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ANDROID
+  +
+TERMUX
+  +
+USB
+  +
+NETWORK
+  +
+AI
+  =
+MOBILE CYBERSECURITY LAB
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu yanaşma tələbəyə mobil əməliyyat sistemi və cybersecurity arasındakı əlaqəni göstərir.</p>
+
+<hr />
+
+<h1 id="-usb-security">🔌 USB Security</h1>
+
+<p>USB security real təşkilatlarda vacib müdafiə sahəsidir.</p>
+
+<p>Naməlum USB cihazlar risk yarada bilər.</p>
+
+<p>Mümkün qorunma yanaşmaları:</p>
+
+<ul>
+  <li>device control;</li>
+  <li>USB policy;</li>
+  <li>endpoint monitoring;</li>
+  <li>allowlisting;</li>
+  <li>least privilege;</li>
+  <li>user awareness;</li>
+  <li>device logging;</li>
+  <li>EDR monitoring;</li>
+  <li>physical security.</li>
+</ul>
+
+<p>Əsas prinsip:</p>
+
+<blockquote>
+  <p><strong>Naməlum USB cihazına avtomatik etibar etmə.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-hacker-dərsləri-və-ethical-hacking">🎓 Hacker Dərsləri və Ethical Hacking</h1>
+
+<p>Ethical Hacking dərslərində yalnız hücum alətlərini göstərmək kifayət deyil.</p>
+
+<p>Tələbə aşağıdakı zənciri anlamalıdır:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ATTACK TECHNIQUE
+       ↓
+SECURITY EVENT
+       ↓
+LOG
+       ↓
+DETECTION
+       ↓
+ANALYSIS
+       ↓
+RESPONSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CyberShieldy CASPER laboratoriyasının əsas məqsədlərindən biri də budur.</p>
+
+<hr />
+
+<h1 id="-kiber-təhlükəsizlik-dərsləri">🎓 Kiber Təhlükəsizlik Dərsləri</h1>
+
+<p>CASPER layihəsi aşağıdakı mövzular üzrə kiber dərslərdə istifadə edilə bilər:</p>
+
+<ul>
+  <li>Cybersecurity;</li>
+  <li>Kiber Təhlükəsizlik;</li>
+  <li>Ethical Hacking;</li>
+  <li>Hacker dərsləri;</li>
+  <li>Penetration Testing;</li>
+  <li>Reverse Shell;</li>
+  <li>Reverse Shell Detection;</li>
+  <li>Red Team;</li>
+  <li>Blue Team;</li>
+  <li>Purple Team;</li>
+  <li>SOC;</li>
+  <li>SIEM;</li>
+  <li>IDS / IPS;</li>
+  <li>Endpoint Security;</li>
+  <li>Network Security;</li>
+  <li>USB Security;</li>
+  <li>HID Security;</li>
+  <li>Mobile Security;</li>
+  <li>Termux;</li>
+  <li>Raspberry Pi Pico;</li>
+  <li>IoT Security;</li>
+  <li>AI Cybersecurity;</li>
+  <li>Security Automation;</li>
+  <li>Threat Detection;</li>
+  <li>Incident Response.</li>
+</ul>
+
+<hr />
+
+<h1 id="-cybersecurity-training-lab">🧪 Cybersecurity Training Lab</h1>
+
+<p>CyberShieldy CASPER laboratoriyasının əsas prinsipi real infrastruktura zərər vermədən real cybersecurity proseslərini vizuallaşdırmaqdır.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>CONTROLLED LAB
+      ↓
+SIMULATION
+      ↓
+DETECTION
+      ↓
+ANALYSIS
+      ↓
+DEFENSE
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Tələbə həm hücum məntiqini, həm müdafiə məntiqini eyni sistemdə görə bilir.</p>
+
+<hr />
+
+<h1 id="-təhlükəsizlik-prinsipləri">🔐 Təhlükəsizlik Prinsipləri</h1>
+
+<p>CyberShieldy laboratoriyasında bütün testlər aşağıdakı prinsiplərlə aparılır:</p>
+
+<ul>
+  <li>yalnız sahibinə məxsus cihazlarda test;</li>
+  <li>yalnız icazəli sistemlər;</li>
+  <li>kontrollu laboratoriya;</li>
+  <li>üçüncü şəxslərin sistemlərinə müdaxilə edilməməsi;</li>
+  <li>real istifadəçi məlumatlarının toplanmaması;</li>
+  <li>kritik məlumatların ictimai paylaşılmaması;</li>
+  <li>authentication;</li>
+  <li>authorization;</li>
+  <li>logging;</li>
+  <li>audit;</li>
+  <li>least privilege;</li>
+  <li>network isolation;</li>
+  <li>təhlükəsiz API dizaynı;</li>
+  <li>insan nəzarəti.</li>
+</ul>
+
+<hr />
+
+<h1 id="-texniki-detallar-niyə-açıq-paylaşılmır">🔒 Texniki Detallar Niyə Açıq Paylaşılmır?</h1>
+
+<p>CyberShieldy CASPER layihəsində konsept və müdafiə yanaşması ictimai şəkildə təqdim olunur.</p>
+
+<p>Lakin real sistemdə sui-istifadəyə səbəb ola biləcək kritik texniki detallar paylaşılmır.</p>
+
+<p>Məsələn açıq şəkildə paylaşılmır:</p>
+
+<ul>
+  <li>işlək reverse shell payload-ları;</li>
+  <li>real exploitation komandaları;</li>
+  <li>avtomatik hücum scriptləri;</li>
+  <li>şəxsi IP ünvanları;</li>
+  <li>authentication məlumatları;</li>
+  <li>API tokenləri;</li>
+  <li>SSH açarları;</li>
+  <li>daxili sistem credential-ları;</li>
+  <li>real persistence mexanizmləri;</li>
+  <li>bypass texnikaları;</li>
+  <li>tam HID attack payload;</li>
+  <li>daxili server infrastrukturu;</li>
+  <li>kritik müdafiə konfiqurasiyası.</li>
+</ul>
+
+<p>Əsas prinsip:</p>
+
+<blockquote>
+  <p><strong>Konsept paylaşılır. Təhlükəsizlik öyrədilir. Kritik hücum sirləri paylaşılmır.</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="-seo--reverse-shell-və-cybersecurity-mövzuları">🔎 SEO — Reverse Shell və Cybersecurity Mövzuları</h1>
+
+<p>Bu layihə aşağıdakı axtarış mövzuları ilə birbaşa əlaqəlidir:</p>
+
+<p><strong>Reverse Shell</strong></p>
+
+<p><strong>Reverse Shell Attack</strong></p>
+
+<p><strong>Reverse Shell Detection</strong></p>
+
+<p><strong>Reverse Shell Security</strong></p>
+
+<p><strong>Cybersecurity</strong></p>
+
+<p><strong>Cyber Security</strong></p>
+
+<p><strong>Kiber Təhlükəsizlik</strong></p>
+
+<p><strong>Kiber Təhlükəsizlik Dərsləri</strong></p>
+
+<p><strong>Kiber Təhlükəsizlik Təlimləri</strong></p>
+
+<p><strong>Hacker Dərsləri</strong></p>
+
+<p><strong>Ethical Hacking</strong></p>
+
+<p><strong>Ethical Hacker</strong></p>
+
+<p><strong>Hacking</strong></p>
+
+<p><strong>Hacker Attack</strong></p>
+
+<p><strong>Cyber Attack</strong></p>
+
+<p><strong>Cyber Attacks</strong></p>
+
+<p><strong>Penetration Testing</strong></p>
+
+<p><strong>Pentest</strong></p>
+
+<p><strong>Red Team</strong></p>
+
+<p><strong>Blue Team</strong></p>
+
+<p><strong>Purple Team</strong></p>
+
+<p><strong>SOC</strong></p>
+
+<p><strong>Security Operations Center</strong></p>
+
+<p><strong>SIEM</strong></p>
+
+<p><strong>IDS</strong></p>
+
+<p><strong>IPS</strong></p>
+
+<p><strong>EDR</strong></p>
+
+<p><strong>XDR</strong></p>
+
+<p><strong>Threat Detection</strong></p>
+
+<p><strong>Cyber Defense</strong></p>
+
+<p><strong>Incident Response</strong></p>
+
+<p><strong>Network Security</strong></p>
+
+<p><strong>Endpoint Security</strong></p>
+
+<p><strong>Mobile Security</strong></p>
+
+<p><strong>Android Security</strong></p>
+
+<p><strong>USB Security</strong></p>
+
+<p><strong>USB HID</strong></p>
+
+<p><strong>HID Security</strong></p>
+
+<p><strong>HID Attack Detection</strong></p>
+
+<p><strong>Raspberry Pi Pico</strong></p>
+
+<p><strong>Raspberry Pi Pico HID</strong></p>
+
+<p><strong>Pico HID</strong></p>
+
+<p><strong>Termux</strong></p>
+
+<p><strong>Termux Security</strong></p>
+
+<p><strong>AI Cybersecurity</strong></p>
+
+<p><strong>Artificial Intelligence Cybersecurity</strong></p>
+
+<p><strong>Security Automation</strong></p>
+
+<p><strong>Cybersecurity Robot</strong></p>
+
+<p><strong>Cybersecurity Lab</strong></p>
+
+<p><strong>Cybersecurity Training</strong></p>
+
+<p><strong>CyberShieldy</strong></p>
+
+<p><strong>CASPER AI</strong></p>
+
+<hr />
+
+<h1 id="-casper-ai-cybersecurity-platform">🚀 CASPER AI Cybersecurity Platform</h1>
+
+<p>CASPER konsepti getdikcə genişlənir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+</pre></td><td class="rouge-code"><pre>AI
++
+CYBERSECURITY
++
+NETWORK SECURITY
++
+REVERSE SHELL DETECTION
++
+USB SECURITY
++
+HID SECURITY
++
+MOBILE SECURITY
++
+WI-FI SECURITY
++
+IoT
++
+ROBOTICS
++
+SOC
++
+SIEM
++
+RED TEAM
++
+BLUE TEAM
++
+PURPLE TEAM
++
+SECURITY AUTOMATION
+=
+CYBERSHIELDY CASPER AI
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER sadəcə robot deyil.</p>
+
+<p>CASPER müxtəlif cybersecurity hadisələrini fiziki dünyada göstərən eksperimental <strong>AI Cybersecurity Platform</strong> konseptidir.</p>
+
+<hr />
+
+<h1 id="-casper-in-gələcək-modeli">🤖 CASPER-in Gələcək Modeli</h1>
+
+<p>Gələcək model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="rouge-code"><pre>USB / HID
+     ↓
+ENDPOINT
+     ↓
+NETWORK
+     ↓
+SECURITY DATA
+     ↓
+SIEM / SOC
+     ↓
+AI ANALYSIS
+     ↓
+CASPER
+     ↓
+VOICE
++
+DISPLAY
++
+PHYSICAL RESPONSE
+     ↓
+HUMAN DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu sistem gələcəkdə müxtəlif təhlükəsizlik sensorlarını vahid platformada birləşdirə bilər.</p>
+
+<hr />
+
+<h1 id="-layihənin-müəllifi">👨‍💻 Layihənin Müəllifi</h1>
+
+<p><strong>Savaylov Emin</strong></p>
+
+<p>🛡️ Kibertəhlükəsizlik Mütəxəssisi</p>
+
+<p>🔴 Red Team</p>
+
+<p>🔵 Blue Team üzrə Təlimçi</p>
+
+<p>🟣 Purple Team Security Lab</p>
+
+<p>🤖 CyberShieldy CASPER AI Cybersecurity layihəsinin müəllifi və inkişaf etdiricisi</p>
+
+<p>🌐 <strong>https://cybershieldy.com</strong></p>
+
+<hr />
+
+<h1 id="-casper-ai-reverse-shell-security-lab--instagram-reel">🎥 CASPER AI Reverse Shell Security Lab — Instagram Reel</h1>
+
+<p>CASPER AI Reverse Shell / Raspberry Pi Pico HID / Termux cybersecurity laboratoriya demosunu Instagram Reel videosunda izləyə bilərsiniz.</p>
+
+<p>📱 <strong>Instagram Reel:</strong></p>
+
+<p><a href="https://www.instagram.com/reel/DeUaBietXJh/?xtok=YmQ0ZzNjaTI5Z3lx">CASPER AI — Reverse Shell Security Lab</a></p>
+
+<iframe src="https://www.instagram.com/reel/DeUaBietXJh/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;" allowfullscreen="">
+</iframe>
+
+<p>Videoda Raspberry Pi Pico ilə yaradılmış kontrollu USB/HID laboratoriya hadisəsinin Android/Termux tərəfində izlənilməsi, təhlükəsizlik monitorinq sisteminə ötürülməsi və CASPER AI tərəfindən vizual və səsli cybersecurity xəbərdarlığına çevrilməsi konsepti nümayiş etdirilir.</p>
+
+<hr />
+
+<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
+
+<ul>
+  <li>📡 <a href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection">CASPER AI Wi-Fi Security — Rogue AP və Fake Wi-Fi Detection</a></li>
+  <li>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></li>
+  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></li>
+  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></li>
+  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></li>
+  <li>🤖⚡ <a href="https://cybershieldy.com/posts/ai-cybersecurity-assistant">CyberShieldy Casper: AI kibertəhlükəsizlik köməkçisi</a></li>
+  <li>🤖📱 <a href="https://cybershieldy.com/posts/casper-ai-mobile-usb-security-lab">CyberShieldy Casper: Səsli Mobil İdarəetmə və USB Təhlükəsizlik Laboratoriyası</a></li>
+  <li>🤖⚔️ <a href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot">CyberShieldy Casper: Gələcəyin AI Pentest Robotu</a></li>
+  <li>🕵️ <a href="/posts/sebeke-hucumlari">MITM Hücumu Nədir? Şəbəkədəki Görünməz Düşmən</a></li>
+  <li>🎣 <a href="/posts/sosial-mühəndislik">Phishing hücumu nədir? Müdafiə yolları</a></li>
+  <li>📡 <a href="/posts/wifi-hucumlari">Wi-Fi Hücumları və Təhlükəsizlik Tövsiyələri</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-nəticə">📢 Nəticə</h1>
+
+<p>CyberShieldy CASPER AI Reverse Shell Security Lab layihəsi <strong>Raspberry Pi Pico, USB HID, Android, Termux, Reverse Shell Detection, Network Monitoring, AI, SOC, SIEM, Red Team, Blue Team və Purple Team</strong> konseptlərini vahid eksperimental cybersecurity laboratoriyasında birləşdirir.</p>
+
+<p>Bugünkü model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>PICO
+ ↓
+USB / HID
+ ↓
+ANDROID
+ ↓
+TERMUX
+ ↓
+SECURITY EVENT
+ ↓
+CASPER AI
+ ↓
+ALERT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Gələcək model:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>MULTIPLE SECURITY SOURCES
+          ↓
+USB + WIFI + ENDPOINT + NETWORK
+          ↓
+SECURITY MONITORING
+          ↓
+SIEM
+          ↓
+AI ANALYSIS
+          ↓
+CASPER AI
+          ↓
+VOICE + DISPLAY
+          ↓
+SOC ANALYST
+          ↓
+HUMAN DECISION
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>CASPER layihəsinin məqsədi sadəcə hücum göstərmək deyil.</p>
+
+<p>Əsas məqsəd hücum və müdafiə arasındakı bütün prosesi görünən etməkdir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>ATTACK SIMULATION
+        ↓
+DETECTION
+        ↓
+ANALYSIS
+        ↓
+ALERT
+        ↓
+RESPONSE
+        ↓
+DEFENSE IMPROVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p><strong>“Kibertəhlükəsizlik yalnız hücumu bilmək deyil — hücumun izini görmək, vaxtında aşkarlamaq və düzgün müdafiə qurmaqdır.”</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>“CASPER AI — cyber attack simulation, threat detection, AI analysis və physical cybersecurity monitoring-i vahid laboratoriyada birləşdirən CyberShieldy platformasıdır.”</strong></p>
+</blockquote>
+
+<hr />
+
+<p>#️⃣ <strong>Hashtags</strong></p>
+
+<p>#CyberShieldy #CasperAI #Cybersecurity #CyberSecurity #KiberTehlukesizlik #KiberTəhlükəsizlik #ReverseShell #ReverseShellAttack #ReverseShellDetection #EthicalHacking #EthicalHacker #Hacking #Hacker #HackerAttack #CyberAttack #CyberAttacks #Pentest #PenetrationTesting #RedTeam #BlueTeam #PurpleTeam #SOC #SIEM #CyberDefense #ThreatDetection #IncidentResponse #NetworkSecurity #EndpointSecurity #MobileSecurity #AndroidSecurity #Termux #RaspberryPiPico #PicoHID #USBHID #USBSecurity #HIDSecurity #IoTSecurity #AICybersecurity #ArtificialIntelligence #SecurityAutomation #CybersecurityLab #CyberLab #CybersecurityTraining #KiberDersleri #HackerDersleri #KiberTelimleri #CyberEducation #CyberShieldyAcademy #SavaylovEmin</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="reverse shell" /><category term="ethical hacking" /><category term="cybersecurity lab" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="ai cybersecurity" /><category term="usb security" /><category term="hid security" /><category term="mobile security" /><category term="cyber education" /><category term="casper ai" /><category term="cybershieldy" /><category term="cybersecurity" /><category term="cyber security" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="reverse shell" /><category term="reverse shell attack" /><category term="reverse shell detection" /><category term="hacker attack" /><category term="hacker hücumu" /><category term="hacking" /><category term="ethical hacking" /><category term="ethical hacker" /><category term="penetration testing" /><category term="pentest" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="cyber attack" /><category term="cyber attacks" /><category term="cyber defense" /><category term="threat detection" /><category term="attack detection" /><category term="real time monitoring" /><category term="security monitoring" /><category term="network security" /><category term="endpoint security" /><category term="mobile security" /><category term="android security" /><category term="termux" /><category term="termux security" /><category term="raspberry pi pico" /><category term="raspberry pi pico hid" /><category term="pico hid" /><category term="usb hid" /><category term="hid attack" /><category term="usb security" /><category term="usb attack detection" /><category term="badusb" /><category term="device security" /><category term="ai cybersecurity" /><category term="artificial intelligence" /><category term="cybersecurity ai" /><category term="security automation" /><category term="cybersecurity automation" /><category term="soc" /><category term="siem" /><category term="security operations center" /><category term="cybersecurity lab" /><category term="cyber lab" /><category term="ethical hacking lab" /><category term="cybersecurity training" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="kiber təlimləri" /><category term="cyber security course" /><category term="hacking training" /><category term="cyber education" /><category term="cybershieldy academy" /><category term="casper cybersecurity robot" /><category term="cybersecurity robot" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy CASPER AI Reverse Shell Security Lab layihəsində Raspberry Pi Pico HID, Android Termux, real-time monitoring, təhlükəsizlik hadisələrinin aşkarlanması, AI əsaslı xəbərdarlıq və Red Team / Blue Team yanaşmaları vahid eksperimental kibertəhlükəsizlik laboratoriyasında birləşdirilir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-reverse-shell-security-lab.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-reverse-shell-security-lab.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection" rel="alternate" type="text/html" title="📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring" /><published>2026-10-07T07:00:00+04:00</published><updated>2026-10-07T15:05:05+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection"><![CDATA[<h1 id="-casper-ai-wi-fi-security">📡 CASPER AI Wi-Fi Security</h1>
 
 <p>CyberShieldy CASPER AI layihəsinin yeni mərhələsində simsiz şəbəkə təhlükəsizliyi, real-time Wi-Fi monitoring, Rogue AP detection və AI əsaslı təhlükəsizlik xəbərdarlıqları vahid laboratoriya sistemi daxilində birləşdirilir.</p>
 
@@ -10960,543 +12785,4 @@ Transport: ADB File Stream</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="artificial intelligence" /><category term="blue team" /><category term="ai" /><category term="artificial intelligence" /><category term="machine learning" /><category term="siem" /><category term="soc" /><category term="security operations center" /><category term="blue team" /><category term="red team" /><category term="automation" /><category term="soar" /><category term="incident response" /><category term="threat detection" /><category term="threat hunting" /><category term="cyber defense" /><category term="log analysis" /><category term="anomaly detection" /><category term="wazuh" /><category term="splunk" /><category term="microsoft sentinel" /><category term="elastic security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[SIEM və Süni İntellekt (AI) inteqrasiyası kibertəhlükəsizlikdə necə istifadə olunur? Üstünlükləri, riskləri, SOC komandalarına təsiri və gələcəyin təhlükəsizlik yanaşmaları haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/claude.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/claude.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🧪 Rəqəmsal Forensika Nədir? Telefon, HDD, SSD, NVMe Ekspertizası və Fayl Bərpası</title><link href="https://cybershieldy.com/posts/digital-forensics" rel="alternate" type="text/html" title="🧪 Rəqəmsal Forensika Nədir? Telefon, HDD, SSD, NVMe Ekspertizası və Fayl Bərpası" /><published>2026-07-16T08:00:00+04:00</published><updated>2026-07-23T14:30:45+04:00</updated><id>https://cybershieldy.com/posts/digital-forensics-telefon-hdd-ssd-nvme-ekspertiza-ve-fayl-berpasi</id><content type="html" xml:base="https://cybershieldy.com/posts/digital-forensics"><![CDATA[<h1 id="-rəqəmsal-forensika-nədir">🧪 Rəqəmsal Forensika Nədir?</h1>
-
-<p>Müasir dövrdə demək olar ki, bütün cinayət, kiberhücum və daxili araşdırmaların arxasında <strong>rəqəmsal izlər</strong> qalır.</p>
-
-<p>Silinmiş şəkillər, mesajlar, USB tarixçəsi, brauzer məlumatları, sistem logları və hətta silinmiş fayllar belə düzgün metodlarla araşdırıldıqda vacib sübutlara çevrilə bilər.</p>
-
-<p>Məhz bu proses <strong>Digital Forensics (Rəqəmsal Forensika)</strong> adlanır.</p>
-
-<p>Forensikanın əsas məqsədi:</p>
-
-<ul>
-  <li>Rəqəmsal sübutların toplanması</li>
-  <li>Sübutların dəyişdirilmədən qorunması</li>
-  <li>Faylların bərpası</li>
-  <li>Hücumun necə baş verdiyini müəyyən etmək</li>
-  <li>Məhkəmə və hüquqi ekspertizaya uyğun hesabat hazırlamaq</li>
-</ul>
-
-<hr />
-
-<h1 id="-mövzu-ilə-bağlı-video">🎥 Mövzu ilə bağlı video</h1>
-
-<iframe src="https://www.instagram.com/reel/Dax7USmMzgi/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<hr />
-
-<h1 id="digital-forensics-hansı-sahələri-əhatə-edir">Digital Forensics Hansı Sahələri Əhatə Edir?</h1>
-
-<p>Bugünkü DFIR (Digital Forensics &amp; Incident Response) çox geniş sahəni əhatə edir.</p>
-
-<p>Əsas istiqamətlər:</p>
-
-<ul>
-  <li>📱 Mobil telefon ekspertizası</li>
-  <li>💻 Kompüter ekspertizası</li>
-  <li>💾 HDD analizləri</li>
-  <li>⚡ SSD və NVMe ekspertizası</li>
-  <li>☁️ Cloud forensics</li>
-  <li>🌐 Network forensics</li>
-  <li>📧 Email forensics</li>
-  <li>🧠 Memory (RAM) forensics</li>
-  <li>🗂️ Log analizi</li>
-  <li>🦠 Malware forensics</li>
-</ul>
-
-<hr />
-
-<h1 id="telefon-forensikası">Telefon Forensikası</h1>
-
-<p>Telefon artıq insanın ikinci yaddaşı hesab olunur.</p>
-
-<p>Ekspertiza zamanı aşağıdakı məlumatlar araşdırıla bilər:</p>
-
-<ul>
-  <li>Kontaktlar</li>
-  <li>SMS</li>
-  <li>WhatsApp məlumatları</li>
-  <li>Telegram məlumatları</li>
-  <li>Şəkillər</li>
-  <li>Videolar</li>
-  <li>GPS tarixçəsi</li>
-  <li>Wi-Fi tarixçəsi</li>
-  <li>Bluetooth əlaqələri</li>
-  <li>Browser məlumatları</li>
-  <li>Tətbiq məlumatları</li>
-  <li>SIM kart məlumatları</li>
-  <li>IMEI</li>
-  <li>Quraşdırılmış proqramlar</li>
-  <li>Silinmiş fayllar</li>
-</ul>
-
-<p>Telefon ekspertizasında əsas məqsəd istifadəçinin fəaliyyətini zaman ardıcıllığı ilə bərpa etməkdir.</p>
-
-<hr />
-
-<h1 id="android-ekspertizası">Android Ekspertizası</h1>
-
-<p>Android cihazlarında araşdırılan məlumatlardan bəziləri:</p>
-
-<ul>
-  <li>SQLite verilənlər bazaları</li>
-  <li>tətbiq məlumatları</li>
-  <li>şəkillər</li>
-  <li>cache</li>
-  <li>log faylları</li>
-  <li>call history</li>
-  <li>location history</li>
-  <li>notifications</li>
-  <li>accounts</li>
-  <li>downloads</li>
-</ul>
-
-<p>Əgər cihaz şifrələnibsə və kilidlidirsə, əldə edilə bilən məlumatların həcmi modeldən və Android versiyasından asılı olaraq dəyişə bilər.</p>
-
-<hr />
-
-<h1 id="iphone-ekspertizası">iPhone Ekspertizası</h1>
-
-<p>iOS cihazlarında ekspertiza daha çətin ola bilər.</p>
-
-<p>Araşdırılan məlumatlar:</p>
-
-<ul>
-  <li>iMessage</li>
-  <li>Photos</li>
-  <li>Safari History</li>
-  <li>Health məlumatları</li>
-  <li>Call logs</li>
-  <li>Contacts</li>
-  <li>Notes</li>
-  <li>Calendar</li>
-  <li>tətbiq məlumatları</li>
-</ul>
-
-<p>Apple cihazlarında Secure Enclave və güclü şifrələmə səbəbindən məlumatlara çıxış imkanları cihazın modeli, iOS versiyası və hüquqi/icazəli əldəetmə üsullarından asılıdır.</p>
-
-<hr />
-
-<h1 id="hdd-forensikası">HDD Forensikası</h1>
-
-<p>Ən klassik ekspertiza sahələrindən biridir.</p>
-
-<p>HDD-də araşdırılan məlumatlar:</p>
-
-<ul>
-  <li>NTFS</li>
-  <li>FAT32</li>
-  <li>exFAT</li>
-  <li>EXT4</li>
-  <li>silinmiş fayllar</li>
-  <li>MFT</li>
-  <li>partition məlumatları</li>
-  <li>USB tarixçəsi</li>
-  <li>Registry</li>
-  <li>Event Logs</li>
-</ul>
-
-<p>Mexaniki disklərdə silinmiş məlumatlar üzərinə yeni məlumat yazılmayıbsa, bəzən bərpa olunma ehtimalı yüksək ola bilər.</p>
-
-<hr />
-
-<h1 id="ssd-və-nvme-ekspertizası">SSD və NVMe Ekspertizası</h1>
-
-<p>Bir çox istifadəçi düşünür ki, SSD-də silinən məlumatlar HDD kimi bərpa olunur.</p>
-
-<p>Əslində vəziyyət fərqlidir.</p>
-
-<p>SSD və NVMe disklərdə:</p>
-
-<ul>
-  <li>TRIM</li>
-  <li>Garbage Collection</li>
-  <li>Wear Leveling</li>
-</ul>
-
-<p>kimi texnologiyalar istifadə olunur.</p>
-
-<p>Bu mexanizmlər səbəbindən silinmiş məlumatların bərpası HDD ilə müqayisədə daha çətin və bəzən mümkün olmaya bilər.</p>
-
-<hr />
-
-<h1 id="trim-nədir">TRIM Nədir?</h1>
-
-<p>TRIM əmri əməliyyat sisteminə bildirir ki, müəyyən bloklar artıq istifadə olunmur.</p>
-
-<p>SSD həmin blokları sonradan təmizləyə bilər.</p>
-
-<p>Nəticədə:</p>
-
-<ul>
-  <li>fayl silinir</li>
-  <li>blok boş hesab olunur</li>
-  <li>məlumat sonradan fiziki olaraq silinə bilər</li>
-</ul>
-
-<p>Bu səbəbdən SSD-də vaxtında ekspertiza aparılması vacibdir.</p>
-
-<hr />
-
-<h1 id="nvme-disklərdə-risklər">NVMe Disklərdə Risklər</h1>
-
-<p>NVMe disklər çox yüksək sürətə malikdir.</p>
-
-<p>Lakin:</p>
-
-<ul>
-  <li>sürətli TRIM</li>
-  <li>controller optimizasiyası</li>
-  <li>wear leveling</li>
-</ul>
-
-<p>kimi xüsusiyyətlər səbəbindən məlumatların bərpası daha mürəkkəb ola bilər.</p>
-
-<p>Bu səbəbdən ilk addım kimi orijinal disk üzərində işləmək əvəzinə onun məhkəmə məqsədli surətinin (forensic image) yaradılması tövsiyə olunur.</p>
-
-<hr />
-
-<h1 id="silinmiş-fayllar-necə-bərpa-olunur">Silinmiş Fayllar Necə Bərpa Olunur?</h1>
-
-<p>Əgər məlumatın üzərinə yeni məlumat yazılmayıbsa, müxtəlif metodlardan istifadə edilə bilər.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>File Carving</li>
-  <li>Metadata analizi</li>
-  <li>Signature analizi</li>
-  <li>Partition Recovery</li>
-  <li>Journal analizi</li>
-</ul>
-
-<p>Bu metodlar müxtəlif fayl növlərinin bərpasına kömək edə bilər.</p>
-
-<hr />
-
-<h1 id="file-carving-nədir">File Carving Nədir?</h1>
-
-<p>File Carving fayl sistemi məlumatları olmasa belə, faylın başlanğıc və son imzalarına əsasən məlumatların axtarılması üsuludur.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>JPG</li>
-  <li>PNG</li>
-  <li>PDF</li>
-  <li>ZIP</li>
-  <li>DOCX</li>
-  <li>MP4</li>
-</ul>
-
-<p>kimi fayllar bəzən bu üsulla bərpa edilə bilər.</p>
-
-<hr />
-
-<h1 id="populyar-forensika-alətləri">Populyar Forensika Alətləri</h1>
-
-<p>Laboratoriyalarda və ekspertizalarda tez-tez istifadə olunan alətlər:</p>
-
-<ul>
-  <li>Autopsy</li>
-  <li>The Sleuth Kit</li>
-  <li>FTK Imager</li>
-  <li>PhotoRec</li>
-  <li>TestDisk</li>
-  <li>Foremost</li>
-  <li>Bulk Extractor</li>
-  <li>Volatility</li>
-  <li>Magnet AXIOM</li>
-  <li>Cellebrite (mobil ekspertiza)</li>
-  <li>Oxygen Forensic Detective</li>
-</ul>
-
-<p>Hər alətin öz üstünlükləri və istifadə sahəsi vardır.</p>
-
-<hr />
-
-<h1 id="mənim-laboratoriya-testlərim">Mənim Laboratoriya Testlərim</h1>
-
-<p>Laboratoriya mühitimdə müxtəlif ssenarilər üzərində sınaqlar aparmışam.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Foremost ilə silinmiş şəkillərin bərpası</li>
-  <li>Autopsy ilə disk analizləri</li>
-  <li>Siem vasitəsilə hadisələrin monitorinqi</li>
-  <li>Linux sistemlərində fayl bərpası testləri</li>
-  <li>Android laboratoriya analizləri</li>
-</ul>
-
-<p>Bu testlər yalnız mənə məxsus və icazəli laboratoriya mühitində həyata keçirilmişdir.</p>
-
-<hr />
-
-<h1 id="ekspertiza-prosesi">Ekspertiza Prosesi</h1>
-
-<p>Peşəkar ekspertiza adətən aşağıdakı mərhələlərdən ibarət olur:</p>
-
-<ol>
-  <li>Sübutun qəbul edilməsi</li>
-  <li>Write Blocker istifadə olunması</li>
-  <li>Forensic Image yaradılması</li>
-  <li>Hash hesablanması (SHA-256 və s.)</li>
-  <li>Analiz</li>
-  <li>Fayl bərpası</li>
-  <li>Timeline hazırlanması</li>
-  <li>Hesabatın tərtib olunması</li>
-</ol>
-
-<p>Bu yanaşma sübutların bütövlüyünün qorunmasına kömək edir.</p>
-
-<hr />
-
-<h1 id="sübutların-qorunması">Sübutların Qorunması</h1>
-
-<p>Ekspertiza zamanı ən vacib qaydalardan biri:</p>
-
-<p><strong>Orijinal sübut üzərində işləməməkdir.</strong></p>
-
-<p>Bunun üçün:</p>
-
-<ul>
-  <li>write blocker</li>
-  <li>forensic image</li>
-  <li>hash verification</li>
-  <li>chain of custody</li>
-</ul>
-
-<p>kimi prosedurlardan istifadə olunur.</p>
-
-<hr />
-
-<h1 id="fayl-bərpasında-risklər">Fayl Bərpasında Risklər</h1>
-
-<p>İstifadəçilərin ən çox etdiyi səhvlər:</p>
-
-<ul>
-  <li>Diskdən istifadə etməyə davam etmək</li>
-  <li>Yeni proqram quraşdırmaq</li>
-  <li>Faylları həmin diskin üzərinə bərpa etmək</li>
-  <li>SSD-də gecikmək</li>
-  <li>Diski formatlamağa çalışmaq</li>
-  <li>SMART xəbərdarlıqlarını nəzərə almamaq</li>
-</ul>
-
-<p>Bu addımlar məlumatların tam itirilməsinə səbəb ola bilər.</p>
-
-<hr />
-
-<h1 id="blue-team-üçün-forensikanın-əhəmiyyəti">Blue Team üçün Forensikanın Əhəmiyyəti</h1>
-
-<p>Blue Team üçün forensika:</p>
-
-<ul>
-  <li>Hadisənin səbəbini müəyyən etməyə</li>
-  <li>Hücumun necə başladığını anlamağa</li>
-  <li>IOC-ləri toplamağa</li>
-  <li>Logları əlaqələndirməyə</li>
-  <li>Təhlükəsizlik boşluqlarını aşkarlamağa</li>
-  <li>Gələcək hücumların qarşısını almağa</li>
-</ul>
-
-<p>kömək edir.</p>
-
-<hr />
-
-<h1 id="dfir-nədir">DFIR Nədir?</h1>
-
-<p>DFIR — <strong>Digital Forensics and Incident Response</strong> anlayışıdır.</p>
-
-<p>Bu sahədə mütəxəssislər:</p>
-
-<ul>
-  <li>hücumları araşdırırlar</li>
-  <li>sübutları qoruyurlar</li>
-  <li>logları analiz edirlər</li>
-  <li>zərərli proqramları araşdırırlar</li>
-  <li>təşkilatın normal fəaliyyətini bərpa etməyə kömək edirlər</li>
-</ul>
-
-<hr />
-
-<h1 id="nəticə">Nəticə</h1>
-
-<p>Rəqəmsal forensika yalnız silinmiş faylları geri qaytarmaq deyil.</p>
-
-<p>Bu sahə:</p>
-
-<ul>
-  <li>kiberhücumların araşdırılması,</li>
-  <li>rəqəmsal sübutların qorunması,</li>
-  <li>telefon ekspertizası,</li>
-  <li>HDD, SSD və NVMe analizləri,</li>
-  <li>hadisələrin zaman xəttinin qurulması,</li>
-  <li>və peşəkar hesabat hazırlanmasını əhatə edən geniş bir elmdir.</li>
-</ul>
-
-<p>İstər Blue Team mütəxəssisi, istər DFIR analitiki, istərsə də kibertəhlükəsizlik həvəskarı olun, forensika bilikləri real hadisələrin araşdırılmasında mühüm rol oynayır.</p>
-
-<hr />
-
-<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
-
-<ul>
-  <li>📊🛡️🚨 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li>🔴🔵🛡️⚔️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>🤖📡🏠🔐 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
-  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM İnteqrasiyası</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
-  <li>🔌💀🧠🚪 <a href="https://cybershieldy.com/posts/fiziki-hucumlar-genis">Fiziki Hücumlar və Təhlükəsizlik Riskləri</a></li>
-  <li>🧪📱💾🔍 <a href="https://cybershieldy.com/posts/digital-forensics-nedir">Rəqəmsal Forensika: Telefon, HDD, SSD və NVMe Ekspertizası</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin</strong></p>
-
-<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
-
-<p>🌐 https://cybershieldy.com</p>
-
-<blockquote>
-  <p>“Rəqəmsal sübutlar danışmır, lakin düzgün ekspertiza onları danışdırmağı bacarır.”</p>
-</blockquote>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="digital forensics" /><category term="blue team" /><category term="digital forensics" /><category term="computer forensics" /><category term="mobile forensics" /><category term="file recovery" /><category term="data recovery" /><category term="hdd" /><category term="ssd" /><category term="nvme" /><category term="autopsy" /><category term="foremost" /><category term="photorec" /><category term="sleuthkit" /><category term="dfir" /><category term="incident response" /><category term="blue team" /><category term="cybersecurity" /><category term="digital evidence" /><category term="android forensics" /><category term="iphone forensics" /><category term="cyber lab" /><category term="kibertəhlükəsizlik" /><category term="ekspertiza" /><category term="fayl bərpası" /><summary type="html"><![CDATA[Rəqəmsal forensika nədir? Telefon ekspertizası, HDD, SSD və NVMe disklərdən fayl bərpası, risklər, sübutların qorunması və DFIR prosesləri haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/forenzika.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/forenzika.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="artificial intelligence" /><category term="blue team" /><category term="ai" /><category term="artificial intelligence" /><category term="machine learning" /><category term="siem" /><category term="soc" /><category term="security operations center" /><category term="blue team" /><category term="red team" /><category term="automation" /><category term="soar" /><category term="incident response" /><category term="threat detection" /><category term="threat hunting" /><category term="cyber defense" /><category term="log analysis" /><category term="anomaly detection" /><category term="wazuh" /><category term="splunk" /><category term="microsoft sentinel" /><category term="elastic security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[SIEM və Süni İntellekt (AI) inteqrasiyası kibertəhlükəsizlikdə necə istifadə olunur? Üstünlükləri, riskləri, SOC komandalarına təsiri və gələcəyin təhlükəsizlik yanaşmaları haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/claude.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/claude.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
