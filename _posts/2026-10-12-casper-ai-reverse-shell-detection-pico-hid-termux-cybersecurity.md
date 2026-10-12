@@ -84,7 +84,7 @@ tags:
 
 description: "CyberShieldy CASPER AI Reverse Shell Security Lab layihəsində Raspberry Pi Pico HID, Android Termux, real-time monitoring, təhlükəsizlik hadisələrinin aşkarlanması, AI əsaslı xəbərdarlıq və Red Team / Blue Team yanaşmaları vahid eksperimental kibertəhlükəsizlik laboratoriyasında birləşdirilir."
 
-image: /assets/images/casper-reverse-shell-security-lab.webp
+image: /assets/images/casper_ai_reverse.webp
 canonical: https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab
 permalink: /posts/casper-ai-reverse-shell-hid-security-lab
 ---
@@ -1053,115 +1053,6 @@ Məsələn açıq şəkildə paylaşılmır:
 
 ---
 
-# 🔎 SEO — Reverse Shell və Cybersecurity Mövzuları
-
-Bu layihə aşağıdakı axtarış mövzuları ilə birbaşa əlaqəlidir:
-
-**Reverse Shell**
-
-**Reverse Shell Attack**
-
-**Reverse Shell Detection**
-
-**Reverse Shell Security**
-
-**Cybersecurity**
-
-**Cyber Security**
-
-**Kiber Təhlükəsizlik**
-
-**Kiber Təhlükəsizlik Dərsləri**
-
-**Kiber Təhlükəsizlik Təlimləri**
-
-**Hacker Dərsləri**
-
-**Ethical Hacking**
-
-**Ethical Hacker**
-
-**Hacking**
-
-**Hacker Attack**
-
-**Cyber Attack**
-
-**Cyber Attacks**
-
-**Penetration Testing**
-
-**Pentest**
-
-**Red Team**
-
-**Blue Team**
-
-**Purple Team**
-
-**SOC**
-
-**Security Operations Center**
-
-**SIEM**
-
-**IDS**
-
-**IPS**
-
-**EDR**
-
-**XDR**
-
-**Threat Detection**
-
-**Cyber Defense**
-
-**Incident Response**
-
-**Network Security**
-
-**Endpoint Security**
-
-**Mobile Security**
-
-**Android Security**
-
-**USB Security**
-
-**USB HID**
-
-**HID Security**
-
-**HID Attack Detection**
-
-**Raspberry Pi Pico**
-
-**Raspberry Pi Pico HID**
-
-**Pico HID**
-
-**Termux**
-
-**Termux Security**
-
-**AI Cybersecurity**
-
-**Artificial Intelligence Cybersecurity**
-
-**Security Automation**
-
-**Cybersecurity Robot**
-
-**Cybersecurity Lab**
-
-**Cybersecurity Training**
-
-**CyberShieldy**
-
-**CASPER AI**
-
----
 
 # 🚀 CASPER AI Cybersecurity Platform
 
@@ -1364,8 +1255,5 @@ DEFENSE IMPROVEMENT
 
 ---
 
-#️⃣ **Hashtags**
-
-#CyberShieldy #CasperAI #Cybersecurity #CyberSecurity #KiberTehlukesizlik #KiberTəhlükəsizlik #ReverseShell #ReverseShellAttack #ReverseShellDetection #EthicalHacking #EthicalHacker #Hacking #Hacker #HackerAttack #CyberAttack #CyberAttacks #Pentest #PenetrationTesting #RedTeam #BlueTeam #PurpleTeam #SOC #SIEM #CyberDefense #ThreatDetection #IncidentResponse #NetworkSecurity #EndpointSecurity #MobileSecurity #AndroidSecurity #Termux #RaspberryPiPico #PicoHID #USBHID #USBSecurity #HIDSecurity #IoTSecurity #AICybersecurity #ArtificialIntelligence #SecurityAutomation #CybersecurityLab #CyberLab #CybersecurityTraining #KiberDersleri #HackerDersleri #KiberTelimleri #CyberEducation #CyberShieldyAcademy #SavaylovEmin
 
 {% include cyber-popup.html %}

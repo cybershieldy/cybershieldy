@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-10-12T17:45:47+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab" rel="alternate" type="text/html" title="🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring" /><published>2026-10-12T08:30:00+04:00</published><updated>2026-10-12T08:30:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-reverse-shell-detection-pico-hid-termux-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab"><![CDATA[<h1 id="-casper-ai-reverse-shell-security-lab">🤖⚡ CASPER AI Reverse Shell Security Lab</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-10-12T18:26:16+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab" rel="alternate" type="text/html" title="🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring" /><published>2026-10-12T08:30:00+04:00</published><updated>2026-10-12T08:30:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-reverse-shell-detection-pico-hid-termux-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab"><![CDATA[<h1 id="-casper-ai-reverse-shell-security-lab">🤖⚡ CASPER AI Reverse Shell Security Lab</h1>
 
 <p>CyberShieldy CASPER layihəsinin yeni eksperimental mərhələsində <strong>Reverse Shell Security</strong>, <strong>Raspberry Pi Pico HID</strong>, <strong>Android Termux</strong>, <strong>real-time cyber attack monitoring</strong> və <strong>CASPER AI təhlükəsizlik xəbərdarlıqları</strong> vahid laboratoriya sistemində birləşdirilir.</p>
 
@@ -1285,116 +1285,6 @@ DEFENSE
 
 <hr />
 
-<h1 id="-seo--reverse-shell-və-cybersecurity-mövzuları">🔎 SEO — Reverse Shell və Cybersecurity Mövzuları</h1>
-
-<p>Bu layihə aşağıdakı axtarış mövzuları ilə birbaşa əlaqəlidir:</p>
-
-<p><strong>Reverse Shell</strong></p>
-
-<p><strong>Reverse Shell Attack</strong></p>
-
-<p><strong>Reverse Shell Detection</strong></p>
-
-<p><strong>Reverse Shell Security</strong></p>
-
-<p><strong>Cybersecurity</strong></p>
-
-<p><strong>Cyber Security</strong></p>
-
-<p><strong>Kiber Təhlükəsizlik</strong></p>
-
-<p><strong>Kiber Təhlükəsizlik Dərsləri</strong></p>
-
-<p><strong>Kiber Təhlükəsizlik Təlimləri</strong></p>
-
-<p><strong>Hacker Dərsləri</strong></p>
-
-<p><strong>Ethical Hacking</strong></p>
-
-<p><strong>Ethical Hacker</strong></p>
-
-<p><strong>Hacking</strong></p>
-
-<p><strong>Hacker Attack</strong></p>
-
-<p><strong>Cyber Attack</strong></p>
-
-<p><strong>Cyber Attacks</strong></p>
-
-<p><strong>Penetration Testing</strong></p>
-
-<p><strong>Pentest</strong></p>
-
-<p><strong>Red Team</strong></p>
-
-<p><strong>Blue Team</strong></p>
-
-<p><strong>Purple Team</strong></p>
-
-<p><strong>SOC</strong></p>
-
-<p><strong>Security Operations Center</strong></p>
-
-<p><strong>SIEM</strong></p>
-
-<p><strong>IDS</strong></p>
-
-<p><strong>IPS</strong></p>
-
-<p><strong>EDR</strong></p>
-
-<p><strong>XDR</strong></p>
-
-<p><strong>Threat Detection</strong></p>
-
-<p><strong>Cyber Defense</strong></p>
-
-<p><strong>Incident Response</strong></p>
-
-<p><strong>Network Security</strong></p>
-
-<p><strong>Endpoint Security</strong></p>
-
-<p><strong>Mobile Security</strong></p>
-
-<p><strong>Android Security</strong></p>
-
-<p><strong>USB Security</strong></p>
-
-<p><strong>USB HID</strong></p>
-
-<p><strong>HID Security</strong></p>
-
-<p><strong>HID Attack Detection</strong></p>
-
-<p><strong>Raspberry Pi Pico</strong></p>
-
-<p><strong>Raspberry Pi Pico HID</strong></p>
-
-<p><strong>Pico HID</strong></p>
-
-<p><strong>Termux</strong></p>
-
-<p><strong>Termux Security</strong></p>
-
-<p><strong>AI Cybersecurity</strong></p>
-
-<p><strong>Artificial Intelligence Cybersecurity</strong></p>
-
-<p><strong>Security Automation</strong></p>
-
-<p><strong>Cybersecurity Robot</strong></p>
-
-<p><strong>Cybersecurity Lab</strong></p>
-
-<p><strong>Cybersecurity Training</strong></p>
-
-<p><strong>CyberShieldy</strong></p>
-
-<p><strong>CASPER AI</strong></p>
-
-<hr />
-
 <h1 id="-casper-ai-cybersecurity-platform">🚀 CASPER AI Cybersecurity Platform</h1>
 
 <p>CASPER konsepti getdikcə genişlənir.</p>
@@ -1687,10 +1577,6 @@ DEFENSE IMPROVEMENT
 
 <hr />
 
-<p>#️⃣ <strong>Hashtags</strong></p>
-
-<p>#CyberShieldy #CasperAI #Cybersecurity #CyberSecurity #KiberTehlukesizlik #KiberTəhlükəsizlik #ReverseShell #ReverseShellAttack #ReverseShellDetection #EthicalHacking #EthicalHacker #Hacking #Hacker #HackerAttack #CyberAttack #CyberAttacks #Pentest #PenetrationTesting #RedTeam #BlueTeam #PurpleTeam #SOC #SIEM #CyberDefense #ThreatDetection #IncidentResponse #NetworkSecurity #EndpointSecurity #MobileSecurity #AndroidSecurity #Termux #RaspberryPiPico #PicoHID #USBHID #USBSecurity #HIDSecurity #IoTSecurity #AICybersecurity #ArtificialIntelligence #SecurityAutomation #CybersecurityLab #CyberLab #CybersecurityTraining #KiberDersleri #HackerDersleri #KiberTelimleri #CyberEducation #CyberShieldyAcademy #SavaylovEmin</p>
-
 <!-- ===== CYBERSHIELDY POPUP ===== -->
 <div id="cyber-popup">
   <div class="popup-content">
@@ -1823,7 +1709,7 @@ DEFENSE IMPROVEMENT
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="reverse shell" /><category term="ethical hacking" /><category term="cybersecurity lab" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="ai cybersecurity" /><category term="usb security" /><category term="hid security" /><category term="mobile security" /><category term="cyber education" /><category term="casper ai" /><category term="cybershieldy" /><category term="cybersecurity" /><category term="cyber security" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="reverse shell" /><category term="reverse shell attack" /><category term="reverse shell detection" /><category term="hacker attack" /><category term="hacker hücumu" /><category term="hacking" /><category term="ethical hacking" /><category term="ethical hacker" /><category term="penetration testing" /><category term="pentest" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="cyber attack" /><category term="cyber attacks" /><category term="cyber defense" /><category term="threat detection" /><category term="attack detection" /><category term="real time monitoring" /><category term="security monitoring" /><category term="network security" /><category term="endpoint security" /><category term="mobile security" /><category term="android security" /><category term="termux" /><category term="termux security" /><category term="raspberry pi pico" /><category term="raspberry pi pico hid" /><category term="pico hid" /><category term="usb hid" /><category term="hid attack" /><category term="usb security" /><category term="usb attack detection" /><category term="badusb" /><category term="device security" /><category term="ai cybersecurity" /><category term="artificial intelligence" /><category term="cybersecurity ai" /><category term="security automation" /><category term="cybersecurity automation" /><category term="soc" /><category term="siem" /><category term="security operations center" /><category term="cybersecurity lab" /><category term="cyber lab" /><category term="ethical hacking lab" /><category term="cybersecurity training" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="kiber təlimləri" /><category term="cyber security course" /><category term="hacking training" /><category term="cyber education" /><category term="cybershieldy academy" /><category term="casper cybersecurity robot" /><category term="cybersecurity robot" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy CASPER AI Reverse Shell Security Lab layihəsində Raspberry Pi Pico HID, Android Termux, real-time monitoring, təhlükəsizlik hadisələrinin aşkarlanması, AI əsaslı xəbərdarlıq və Red Team / Blue Team yanaşmaları vahid eksperimental kibertəhlükəsizlik laboratoriyasında birləşdirilir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-reverse-shell-security-lab.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-reverse-shell-security-lab.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection" rel="alternate" type="text/html" title="📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring" /><published>2026-10-07T07:00:00+04:00</published><updated>2026-10-07T15:05:05+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection"><![CDATA[<h1 id="-casper-ai-wi-fi-security">📡 CASPER AI Wi-Fi Security</h1>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="reverse shell" /><category term="ethical hacking" /><category term="cybersecurity lab" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="ai cybersecurity" /><category term="usb security" /><category term="hid security" /><category term="mobile security" /><category term="cyber education" /><category term="casper ai" /><category term="cybershieldy" /><category term="cybersecurity" /><category term="cyber security" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="reverse shell" /><category term="reverse shell attack" /><category term="reverse shell detection" /><category term="hacker attack" /><category term="hacker hücumu" /><category term="hacking" /><category term="ethical hacking" /><category term="ethical hacker" /><category term="penetration testing" /><category term="pentest" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="cyber attack" /><category term="cyber attacks" /><category term="cyber defense" /><category term="threat detection" /><category term="attack detection" /><category term="real time monitoring" /><category term="security monitoring" /><category term="network security" /><category term="endpoint security" /><category term="mobile security" /><category term="android security" /><category term="termux" /><category term="termux security" /><category term="raspberry pi pico" /><category term="raspberry pi pico hid" /><category term="pico hid" /><category term="usb hid" /><category term="hid attack" /><category term="usb security" /><category term="usb attack detection" /><category term="badusb" /><category term="device security" /><category term="ai cybersecurity" /><category term="artificial intelligence" /><category term="cybersecurity ai" /><category term="security automation" /><category term="cybersecurity automation" /><category term="soc" /><category term="siem" /><category term="security operations center" /><category term="cybersecurity lab" /><category term="cyber lab" /><category term="ethical hacking lab" /><category term="cybersecurity training" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="kiber təlimləri" /><category term="cyber security course" /><category term="hacking training" /><category term="cyber education" /><category term="cybershieldy academy" /><category term="casper cybersecurity robot" /><category term="cybersecurity robot" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy CASPER AI Reverse Shell Security Lab layihəsində Raspberry Pi Pico HID, Android Termux, real-time monitoring, təhlükəsizlik hadisələrinin aşkarlanması, AI əsaslı xəbərdarlıq və Red Team / Blue Team yanaşmaları vahid eksperimental kibertəhlükəsizlik laboratoriyasında birləşdirilir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper_ai_reverse.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper_ai_reverse.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection" rel="alternate" type="text/html" title="📡 CASPER AI Wi-Fi Security — Rogue AP, Fake Wi-Fi Detection və Real-Time Cybersecurity Monitoring" /><published>2026-10-07T07:00:00+04:00</published><updated>2026-10-07T15:05:05+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection"><![CDATA[<h1 id="-casper-ai-wi-fi-security">📡 CASPER AI Wi-Fi Security</h1>
 
 <p>CyberShieldy CASPER AI layihəsinin yeni mərhələsində simsiz şəbəkə təhlükəsizliyi, real-time Wi-Fi monitoring, Rogue AP detection və AI əsaslı təhlükəsizlik xəbərdarlıqları vahid laboratoriya sistemi daxilində birləşdirilir.</p>
 
