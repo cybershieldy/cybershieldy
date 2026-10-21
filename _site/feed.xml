@@ -1,4 +1,731 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-10-12T18:26:16+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab" rel="alternate" type="text/html" title="🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring" /><published>2026-10-12T08:30:00+04:00</published><updated>2026-10-12T08:30:00+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-reverse-shell-detection-pico-hid-termux-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab"><![CDATA[<h1 id="-casper-ai-reverse-shell-security-lab">🤖⚡ CASPER AI Reverse Shell Security Lab</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-10-21T20:22:53+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖📡 CASPER AI Wireless Security Lab — Flipper Zero, M5Stick, T-Embed, ESP32-S3 və Wi-Fi/Bluetooth Pentest</title><link href="https://cybershieldy.com/posts/casper-ai-wireless-hacking-tools-pentest" rel="alternate" type="text/html" title="🤖📡 CASPER AI Wireless Security Lab — Flipper Zero, M5Stick, T-Embed, ESP32-S3 və Wi-Fi/Bluetooth Pentest" /><published>2026-10-21T08:30:00+04:00</published><updated>2026-10-21T08:30:00+04:00</updated><id>https://cybershieldy.com/posts/flipper-zero-m5stick-t-embed-esp32-casper-ai-wifi-bluetooth-pentest</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-wireless-hacking-tools-pentest"><![CDATA[<h1 id="-casper-ai-wireless-security-lab--portativ-hacking-tools-və-wireless-pentest">🤖📡 CASPER AI Wireless Security Lab — Portativ Hacking Tools və Wireless Pentest</h1>
+
+<p><strong>Flipper Zero • M5Stick • LILYGO T-Embed • ESP32-S3 • Evil Twin • Fake Wi-Fi • Beacon Flood • Bluetooth Spam • CASPER AI Voice Alerts</strong></p>
+
+<p>Müasir <strong>kibertəhlükəsizlik (Cybersecurity)</strong> yalnız kompüterdə terminal açmaq, Nmap işlətmək və ya veb tətbiqləri yoxlamaqdan ibarət deyil. Bu gün <strong>Wireless Security, Wi-Fi Security, Bluetooth Security, IoT Security, RF Security</strong> və <strong>Penetration Testing</strong> mövzularını real avadanlıqla öyrənmək mümkündür.</p>
+
+<p><strong>CyberShieldy CASPER AI</strong> layihəsində mən — <strong>Savaylov Emin</strong> — portativ kiber cihazların imkanlarını, nəzarət edilən <strong>Red Team / Blue Team / Purple Team</strong> laboratoriya ssenarilərini və müdafiə sisteminin hadisələrə reaksiyasını birləşdirirəm. Məqsəd yalnız “hücum aləti nə edir?” sualına cavab vermək deyil: <strong>hansı iz qalır, təhlükə necə aşkarlanır, hansı xəbərdarlıq yaranır və müdafiə necə gücləndirilir?</strong></p>
+
+<p>Bu məqalədə cihazların real texniki fərqlərini, müxtəlif firmware sistemlərini, şəxsi laboratoriyamda apardığım <strong>Evil Twin, Fake Wi-Fi, Beacon və Bluetooth Spam testlərini</strong>, eləcə də <strong>CASPER AI səsli xəbərdarlıq</strong> konseptini izah edirəm. Video nümayişin linki aşağıdadır.</p>
+
+<blockquote>
+  <p><strong>Laboratoriyanın əsas ideyası:</strong> Hücum davranışını icazəli mühitdə simulyasiya et → hadisəni müşahidə et → log və sübut topla → Blue Team aşkarlamasını yoxla → CASPER AI ilə vizual/səsli xəbərdarlıq göstər.</p>
+</blockquote>
+
+<hr />
+
+<h1 id="-real-casper-ai-wireless-security-demo--instagram-reel">🎥 Real CASPER AI Wireless Security Demo — Instagram Reel</h1>
+
+<p>📱 <strong><a href="https://www.instagram.com/reel/Deo9XfDNSXF/?cplk=MWpucG5qMDZqZjNiOA==">Instagram-da real laboratoriya Reel videosunu izləyin</a></strong></p>
+
+<iframe src="https://www.instagram.com/reel/Deo9XfDNSXF/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;max-width:540px;" allowfullscreen="" loading="lazy" title="CASPER AI Wireless Security Lab Instagram Reel"></iframe>
+
+<p>Videonun mövzusu <strong>Evil Twin / Fake Wi-Fi laboratoriya simulyasiyaları, Beacon testləri, Bluetooth Spam davranışı və CASPER AI səsli xəbərdarlıq</strong> imkanlarıdır. Bunlar icazəli sınaq cihazları üzərində tədris məqsədilə təqdim olunur; videonu ayrıca texniki audit sübutu kimi deyil, nümayiş materialı kimi qiymətləndirmək lazımdır.</p>
+
+<hr />
+
+<h1 id="-portativ-hacker-cihazları-nədir">🧰 Portativ Hacker Cihazları Nədir?</h1>
+
+<p><strong>Hacker tools / penetration testing devices</strong> — simsiz protokolları öyrənmək, cihazları tanımaq, öz şəbəkəsinin təhlükəsizliyini ölçmək, radiotezlik mühitini araşdırmaq və təhlükəsizlik hadisələrini nümayiş etdirmək üçün istifadə edilən proqramlaşdırıla bilən avadanlıqlardır.</p>
+
+<ul>
+  <li><strong>Flipper Zero:</strong> Sub-GHz, 125 kHz RFID, NFC, infrared, iButton və USB HID mövzularında tədris və yoxlama.</li>
+  <li><strong>M5Stick:</strong> kiçik ESP32 əsaslı proqramlaşdırıla bilən cihaz; Wi-Fi/Bluetooth, ekran, sensor və IoT layihələri. Dəqiq funksiyalar modelə bağlıdır.</li>
+  <li><strong>LILYGO T-Embed:</strong> ESP32-S3, rəngli ekran, idarəetmə düyməsi/enkoder, Wi-Fi/Bluetooth; <strong>T-Embed CC1101</strong> variantında əlavə Sub-GHz və NFC modulları.</li>
+  <li><strong>ESP32-S3 custom handheld:</strong> xüsusi ekran, sensorlar, əlavə RF modulları və öz firmware-i ilə məqsədə uyğun qurulan portativ laboratoriya cihazı.</li>
+  <li><strong>CASPER AI:</strong> cihazların özləri ilə qarışdırılmamalıdır; mənim hazırladığım <strong>hadisə monitorinqi, səsli bildiriş və vizual təhlükəsizlik interfeysi</strong> istiqamətində inkişaf edən layihədir.</li>
+</ul>
+
+<p><strong>Vacib fərq:</strong> Hər cihazın üzərindəki menyu və ya firmware adı onun bütün hücumları avtomatik yerinə yetirdiyi demək deyil. Real imkan <strong>hardware + firmware + əlavə modul + qanuni tezlik/şəbəkə şərtləri</strong> ilə müəyyənləşir.</p>
+
+<hr />
+
+<h1 id="-flipper-zero--rf-nfc-rfid-və-physical-security">🐬 Flipper Zero — RF, NFC, RFID və Physical Security</h1>
+
+<p><strong>Flipper Zero</strong> portativ təhlükəsizlik təhsilində çox tanınan cihazdır. Onun üstünlüyü fərqli fiziki interfeysləri bir korpusda birləşdirməsidir.</p>
+
+<h2 id="flipper-zero-nə-üçün-istifadə-olunur">Flipper Zero nə üçün istifadə olunur?</h2>
+
+<ul>
+  <li><strong>Sub-GHz RF:</strong> öz pult və sensorlarının radioprotokollarını anlamaq, uyğun tezliklərdə icazəli yoxlama.</li>
+  <li><strong>125 kHz RFID:</strong> uyğun aşağı tezlikli identifikasiya kartlarının iş prinsipini öyrənmək.</li>
+  <li><strong>13.56 MHz NFC:</strong> yaxın məsafəli kart və etiket texnologiyalarını araşdırmaq.</li>
+  <li><strong>Infrared (IR):</strong> öz infraqırmızı pultlarını öyrənmək və sınaqdan keçirmək.</li>
+  <li><strong>GPIO:</strong> əlavə elektronik modullar və prototipləşdirmə.</li>
+  <li><strong>USB HID / BadUSB təlimi:</strong> təhlükəli USB klaviatura etimadı riskini zərərsiz, icazəli simulyasiyada göstərmək.</li>
+</ul>
+
+<p><strong>Pentest rolu:</strong> physical security awareness, access-control audit, RF inventarlaşdırma və cihazın etimad sərhədləri. <strong>Məhdudiyyət:</strong> Flipper Zero təkbaşına ümumi təyinatlı Wi-Fi pentest cihazı deyil; Wi-Fi ssenariləri üçün ayrıca uyğun modul və proqram təminatı lazım ola bilər. <strong>NFC/RFID də bütün kartların sındırılması demək deyil.</strong></p>
+
+<hr />
+
+<h1 id="-m5stick--kiçik-ölçüdə-esp32-və-wireless-security">📱 M5Stick — Kiçik Ölçüdə ESP32 və Wireless Security</h1>
+
+<p><strong>M5Stick ailəsi</strong> kompakt ESP32 inkişaf platformalarıdır. Məsələn <strong>M5StickC Plus2</strong> tipli modellər kiçik ekranlı, portativ IoT və proqramlaşdırma layihələrinə uyğundur.</p>
+
+<p><strong>İstifadə sahələri:</strong></p>
+
+<ol>
+  <li><strong>Wi-Fi inventory:</strong> öz laboratoriya şəbəkəsində SSID və siqnal göstəricilərini müşahidə etmək.</li>
+  <li><strong>Bluetooth/BLE discovery:</strong> ətrafdakı öz test cihazlarının reklam paketlərini və identifikatorlarını öyrənmək.</li>
+  <li><strong>Wireless monitoring interface:</strong> monitorinq serverindən gələn statusları portativ ekranda göstərmək.</li>
+  <li><strong>Sensors / automation:</strong> hərəkət, düymə, xəbərdarlıq və digər IoT hadisələrinə reaksiya.</li>
+  <li><strong>Custom firmware / programming:</strong> Arduino, ESP-IDF və modelə uyğun proqramlaşdırma mühitləri.</li>
+</ol>
+
+<p><strong>Pentest rolu:</strong> daşınan sensor, protokol öyrənmə və təhlükəsizlik maarifləndirməsi. M5Stick <strong>Flipper Zero-nun bütün RF/NFC imkanlarını standart olaraq əvəz etmir</strong>; funksiyalar model və qoşulan modullara görə dəyişir.</p>
+
+<hr />
+
+<h1 id="-lilygo-t-embed-və-t-embed-cc1101--rf--wi-fible">🔥 LILYGO T-Embed və T-Embed CC1101 — RF + Wi-Fi/BLE</h1>
+
+<p><strong>T-Embed</strong> və <strong>T-Embed CC1101</strong> eyni ad altında qarışdırılan, lakin fərqli hardware imkanları olan qurğulardır.</p>
+
+<p><strong>Standart T-Embed:</strong> ESP32-S3, 1.9 düymlük TFT, rotary encoder, Wi-Fi, Bluetooth LE, audio və IoT proqramlaşdırma interfeysləri.</p>
+
+<p><strong>T-Embed CC1101:</strong> bunlara əlavə olaraq <strong>CC1101 Sub-GHz transceiver</strong>, bəzi versiyalarda <strong>PN532 NFC</strong>, IR və digər periferik imkanları təqdim edir. Modeli və reviziyanı alışdan əvvəl dəqiqləşdirmək lazımdır.</p>
+
+<p><strong>Pentest rolu:</strong> uyğun radioprotokolların təhlili, öz simsiz cihazlarının test edilməsi, portativ təsvir və monitorinq. CC1101 mövcudluğu <strong>bütün tezliklərdə sərbəst yayım icazəsi</strong> vermir və cellular/LTE baza stansiyası qurmaq qabiliyyəti demək deyil.</p>
+
+<hr />
+
+<h1 id="-esp32-s3--valhalla-firmware--custom-wireless-lab">💀 ESP32-S3 + Valhalla Firmware — Custom Wireless Lab</h1>
+
+<p>Mənim laboratoriya yanaşmamda <strong>ESP32-S3</strong> sadəcə mikrokontroller deyil: ekran, düymələr, server API-si və əlavə modullarla <strong>xüsusi cybersecurity handheld</strong> kimi istifadə edilə bilən platformadır.</p>
+
+<p>Şəkildəki cihazın ekranında <strong>Valhalla</strong> interfeysi və <strong>Wi-Fi, Bluetooth, 2.4 GHz, Sub-GHz, RFID, Tools, Settings</strong> kimi menyu mövzuları görünür. Bu menyular firmware-in təqdimatıdır; <strong>konkret cihazda RF modullarının quraşdırılması və hər funksiyanın işlək olması ayrıca yoxlanmalıdır</strong>.</p>
+
+<p>Mümkün laboratoriya mövzuları:</p>
+
+<ul>
+  <li>Wi-Fi reklam mühitinin monitorinqi;</li>
+  <li>öz BLE cihazlarının reklam paketlərinin müşahidəsi;</li>
+  <li>ekranlı security status dashboard;</li>
+  <li>serverə telemetriya və event göndərilməsi;</li>
+  <li>CASPER səsli xəbərdarlıq üçün hadisə inteqrasiyası;</li>
+  <li>RFID/NFC və Sub-GHz üzrə ayrıca <strong>uyğun hardware olduqda</strong> yoxlamalar;</li>
+  <li>təhlükəsizlik tələbələri üçün mikrocontroller, firmware və embedded security tədrisi.</li>
+</ul>
+
+<p><strong>Əsas mesaj:</strong> yalnız firmware adını dəyişmək cihazın radio çipini və hardware məhdudiyyətlərini dəyişmir.</p>
+
+<hr />
+
+<h1 id="️-flipper-zero-vs-m5stick-vs-t-embed-vs-esp32-s3">⚖️ Flipper Zero vs M5Stick vs T-Embed vs ESP32-S3</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cihaz</th>
+      <th>Güclü tərəfi</th>
+      <th>Penetrasiya testlərində tipik rolu</th>
+      <th>Nəzərə alınmalı məqam</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Flipper Zero</td>
+      <td>Sub-GHz, NFC, LF RFID, IR, GPIO</td>
+      <td>Fiziki/RF təhlükəsizlik tədrisi</td>
+      <td>Wi-Fi imkanları əlavə modullardan asılı ola bilər</td>
+    </tr>
+    <tr>
+      <td>M5Stick</td>
+      <td>Kompakt ESP32 və Wi-Fi/BLE</td>
+      <td>Portativ IoT sensoru, BLE/Wi-Fi müşahidəsi</td>
+      <td>Modeldən asılı periferik imkanlar</td>
+    </tr>
+    <tr>
+      <td>T-Embed (standart)</td>
+      <td>ESP32-S3, ekran, enkoder, audio</td>
+      <td>Wireless/IoT prototipləri</td>
+      <td>CC1101 və NFC standart versiyada olmaya bilər</td>
+    </tr>
+    <tr>
+      <td>T-Embed CC1101</td>
+      <td>ESP32-S3 + Sub-GHz + NFC</td>
+      <td>Çoxprotokollu RF/IoT laboratoriyası</td>
+      <td>Hardware reviziyası, regional radio qaydaları</td>
+    </tr>
+    <tr>
+      <td>Custom ESP32-S3</td>
+      <td>Açıq layihə və fərdiləşdirmə</td>
+      <td>CASPER inteqrasiyası, alert, log, sensor</td>
+      <td>Hər əlavə funksiya ayrıca modul və kod tələb edə bilər</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Hansı daha yaxşıdır?</strong> Fiziki təhlükəsizlik mövzusu üçün Flipper Zero; portativ proqramlaşdırma üçün M5Stick; genişləndirilmiş RF kombinasiyaları üçün <strong>məhz CC1101 variantlı</strong> T-Embed; xüsusi CASPER AI arxitekturası üçün ESP32-S3 uyğun seçimlərdir. Universal “ən güclü hacker cihazı” anlayışı yoxdur.</p>
+
+<hr />
+
+<h1 id="-wi-fi-security--evil-twin-və-fake-wi-fi-nədir">📡 Wi-Fi Security — Evil Twin və Fake Wi-Fi Nədir?</h1>
+
+<p><strong>Evil Twin</strong> real Wi-Fi şəbəkəsinə bənzəyən saxta giriş nöqtəsi vasitəsilə istifadəçini səhv şəbəkəyə qoşulmağa təşviq edən təhlükə modelidir. <strong>Fake Wi-Fi / Rogue AP</strong> isə şəbəkədə icazəsiz və ya aldadıcı giriş nöqtələrinin mövcudluğu ilə bağlı daha geniş mövzudur. Hər Rogue AP mütləq Evil Twin deyil.</p>
+
+<p><strong>Penetration Testing</strong> üçün əsas yoxlama sualları:</p>
+
+<ul>
+  <li>Eyni və ya bənzər <strong>SSID</strong> göründükdə cihaz və istifadəçi bunu necə ayırd edir?</li>
+  <li>Giriş nöqtəsinin <strong>BSSID</strong>, təhlükəsizlik parametrləri və real infrastrukturla əlaqəsi necə qiymətləndirilir?</li>
+  <li>İstifadəçi saxta giriş səhifəsini necə tanıya bilər?</li>
+  <li>Quruluş <strong>WPA2/WPA3</strong>, sertifikat yoxlaması və enterprise Wi-Fi siyasəti baxımından nə qədər davamlıdır?</li>
+  <li>Blue Team şübhəli AP-ni hansı telemetriya ilə görür?</li>
+</ul>
+
+<p><strong>Təhlükəsizlik prinsipləri:</strong> tanınmayan Wi-Fi-a avtomatik qoşulmağı məhdudlaşdırmaq, HTTPS və sertifikat xəbərdarlıqlarına fikir vermək, enterprise şəbəkələrində sertifikat təsdiqini düzgün qurmaq, WPA3/PMF dəstəyini uyğun hallarda aktivləşdirmək və şəbəkə inventarını mütəmadi yeniləmək.</p>
+
+<hr />
+
+<h1 id="-beacon-flood--beacon-spam--ssid-siyahısı-niyə-dolur">⚡ Beacon Flood / Beacon Spam — SSID Siyahısı Niyə Dolur?</h1>
+
+<p><strong>802.11 Beacon frame</strong> giriş nöqtələrinin şəbəkə haqqında məlumat yaydığı idarəetmə çərçivəsidir. Nəzarət olunan test mühitində çoxsaylı şəbəkə reklamı simulyasiya edildikdə cihazın Wi-Fi siyahısında çoxlu SSID görünə bilər. Bu davranış <strong>Beacon Flood</strong> və ya <strong>Beacon Spam</strong> kimi müzakirə olunur.</p>
+
+<p>Bu testin məqsədi şəbəkəni pozmaq yox, <strong>wireless visibility, UI behavior, anomaliya deteksiyası və istifadəçi maarifləndirməsi</strong> ola bilər.</p>
+
+<p><strong>Blue Team üçün müşahidə göstəriciləri:</strong> qısa müddətdə yeni SSID sayının kəskin artması, eyni radio mühitində qeyri-adi BSSID/SSID nümunələri, beacon interval və vendor məlumatlarının uyğunsuzluğu, eyni sahədə tez-tez dəyişən siqnal mənzərəsi. Tək bir göstərici hücumun qəti sübutu deyil.</p>
+
+<hr />
+
+<h1 id="-bluetooth-spam--ble-advertising-security">🟦 Bluetooth Spam / BLE Advertising Security</h1>
+
+<p><strong>Bluetooth Low Energy (BLE)</strong> cihazların xidmət və mövcudluq məlumatlarını reklam paketləri ilə bildirməsinə imkan verir. Bəzi laboratoriya ssenariləri çoxsaylı reklamların və ya bildirişə bənzər davranışların cihaz interfeysinə təsirini göstərir; buna gündəlik dildə <strong>Bluetooth Spam</strong> deyilir.</p>
+
+<p><strong>Bluetooth təhlükəsizlik testi</strong> ilə öyrənilən mövzular:</p>
+
+<ul>
+  <li>BLE advertising və discovery iş prinsipi;</li>
+  <li>pairing sorğularına və tanınmayan cihazlara etibar riski;</li>
+  <li>mobil cihazlarda lazımsız bildirişlər və istifadəçi təcrübəsi;</li>
+  <li>Bluetooth aktivliyi üçün normal baza xəttinin yaradılması;</li>
+  <li>monitorinqdə reklam tezliyi, cihaz sayının dəyişməsi və anomaliyalar.</li>
+</ul>
+
+<p><strong>Müdafiə:</strong> əməliyyat sistemini yeniləmək, naməlum qoşulma sorğularını qəbul etməmək, istifadə edilməyəndə görünürlük rejimini məhdudlaşdırmaq, şübhəli davranışı loglamaq və çoxsaylı reklamları avtomatik olaraq cihazın komprometasiya sübutu saymamaq.</p>
+
+<hr />
+
+<h1 id="-mənim-real-laboratoriya-testlərim--reel-demo">🧪 Mənim Real Laboratoriya Testlərim — Reel Demo</h1>
+
+<p><strong>CyberShieldy laboratoriyasında</strong> portativ cihazlarla aşağıdakı mövzular üzərində nümayiş və sınaqlar apardım:</p>
+
+<p><strong>1. Evil Twin / Fake Wi-Fi</strong> — oxşar simsiz şəbəkə identifikatorlarının yaratdığı riskin və təhlükəsizlik monitorinqi ehtiyacının öyrənilməsi.</p>
+
+<p><strong>2. Wi-Fi Beacon testləri</strong> — çoxsaylı SSID reklamı davranışının və bunun cihazların Wi-Fi siyahısında necə göründüyünün müşahidəsi.</p>
+
+<p><strong>3. Bluetooth Spam / BLE testləri</strong> — BLE reklam aktivliyinin mobil cihazlarda və təhlükəsizlik laboratoriyasında necə göründüyünün nümayişi.</p>
+
+<p><strong>4. CASPER AI səsli xəbərdarlıqları</strong> — wireless security hadisələrinin ekranda və səsli bildiriş formasında təqdim edilməsi ideyasının nümayişi.</p>
+
+<p>Bu, mənim <strong>Reels formatında paylaşdığım real tədris layihəsinin</strong> mövzusudur. Məqalədəki SIEM korrelyasiya, avtomatlaşdırılmış təsnifat və əlavə sensor ssenarilərinin hamısı həmin bir Reel-də tam sınaqdan keçirilib kimi təqdim edilmir; onların bir qismi <strong>CASPER platformasının arxitekturası və inkişaf istiqamətidir</strong>.</p>
+
+<hr />
+
+<h1 id="-casper-ai-voice-alerts--hadisə-səsə-necə-çevrilir">🤖 CASPER AI Voice Alerts — Hadisə Səsə Necə Çevrilir?</h1>
+
+<p><strong>CASPER AI</strong> layihəsinin maraqlı tərəfi təhlükəsizlik hadisəsinin sadəcə terminalda görünməməsi, <strong>fiziki interfeys və səs vasitəsilə istifadəçiyə çatdırılmasıdır</strong>.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>CONTROLLED WIRELESS TEST
+          ↓
+WI-FI / BLE OBSERVATION
+          ↓
+SECURITY SENSOR / TEST LOG
+          ↓
+CASPER MONITORING SERVER
+          ↓
+EVENT TYPE + CONTEXT
+          ↓
+CASPER DISPLAY / ANDROID VOICE
+          ↓
+SECURITY ALERT + HUMAN REVIEW
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Aşağıdakı status və səslər <strong>tədris üçün nümunə alert mətnləridir</strong>:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>CASPER AI — WIRELESS SECURITY
+STATUS: MONITORING ACTIVE
+EVENT: SUSPICIOUS SSID PATTERN
+RISK: INVESTIGATE
+ACTION: REVIEW ACCESS POINT INVENTORY
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>🎙️ <strong>“Diqqət! Wi-Fi mühitində qeyri-adi şəbəkə reklam aktivliyi müşahidə edildi. CASPER təhlükəsizlik yoxlamasını tövsiyə edir.”</strong></p>
+</blockquote>
+
+<blockquote>
+  <p>🎙️ <strong>“Diqqət! Bluetooth reklam trafikində anomaliya müşahidə olundu. Hadisə analiz üçün qeyd edildi.”</strong></p>
+</blockquote>
+
+<p><strong>Vacib texniki fərq:</strong> Səsli bildirişin olması avtomatik olaraq hücumun kriptoqrafik və ya forensik təsdiqi demək deyil. Alert <strong>analitik araşdırma üçün siqnaldır</strong>, yekun qərar deyil.</p>
+
+<hr />
+
+<h1 id="-red-team--hücum-məntiqini-öyrənmək">🔴 Red Team — Hücum Məntiqini Öyrənmək</h1>
+
+<p><strong>Red Team</strong> icazəli sınaqda müdafiə sisteminin hansı davranışlara reaksiyasını yoxlayır:</p>
+
+<ul>
+  <li>Evil Twin mövzusunda identifikasiya və istifadəçi etimadı;</li>
+  <li>Fake Wi-Fi və Rogue AP mühitində policy yoxlamaları;</li>
+  <li>Beacon anomaliyalarının nə qədər görünən olması;</li>
+  <li>BLE reklamlara və pairing cəhdlərinə cavab;</li>
+  <li>portable IoT alətlərinin infrastruktura qoşulanda yaratdığı audit izləri.</li>
+</ul>
+
+<p>Əsl ölçü “ekranda neçə şəbəkə göstərdim?” deyil. Əsl ölçü <strong>sınağın məqsədi, müşahidə olunan risk, əldə edilən sübut və müdafiə nəticəsidir</strong>.</p>
+
+<hr />
+
+<h1 id="-blue-team--detection-analysis-response">🔵 Blue Team — Detection, Analysis, Response</h1>
+
+<p><strong>Blue Team</strong> üçün nümunə müşahidə sahələri:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hadisə</th>
+      <th>Monitorinq siqnalı</th>
+      <th>Müdafiə reaksiyası</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fake Wi-Fi / Rogue AP</td>
+      <td>Yeni AP və tanınmayan BSSID</td>
+      <td>AP inventarı ilə müqayisə, yoxlama</td>
+    </tr>
+    <tr>
+      <td>Evil Twin şübhəsi</td>
+      <td>Oxşar SSID + fərqli təhlükəsizlik profilı</td>
+      <td>Sertifikat və AP konfiqurasiyasını təsdiqləmə</td>
+    </tr>
+    <tr>
+      <td>Beacon Flood</td>
+      <td>Yeni SSID-lərin anomal artması</td>
+      <td>Spektr/802.11 analiz, false positive yoxlaması</td>
+    </tr>
+    <tr>
+      <td>BLE Spam</td>
+      <td>BLE reklamlarının qəfil sıxlaşması</td>
+      <td>Mənbə təhlili, mobil bildiriş siyasəti</td>
+    </tr>
+    <tr>
+      <td>Unknown IoT device</td>
+      <td>Yeni cihaz və anormal davranış</td>
+      <td>Segmentasiya, NAC/asset inventory</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>İstifadə oluna bilən müdafiə komponentləri: <strong>WIDS/WIPS, monitor-mode Wi-Fi sensoru, IDS/IPS, SIEM, endpoint security, firewall, NAC, mobil təhlükəsizlik monitorinqi və SOC analizi</strong>. Qeyd: klassik kabel şəbəkəsi IDS sistemi <strong>öz-özünə havadakı bütün 802.11 idarəetmə çərçivələrini görmür</strong>; bunun üçün uyğun radio sensoru lazımdır.</p>
+
+<hr />
+
+<h1 id="-purple-team--hücum-və-müdafiəni-birləşdirmək">🟣 Purple Team — Hücum və Müdafiəni Birləşdirmək</h1>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>RED TEAM: CONTROLLED SIMULATION
+               ↓
+WIRELESS EVENT / OBSERVATION
+               ↓
+BLUE TEAM: TELEMETRY + VALIDATION
+               ↓
+CASPER AI: DISPLAY + VOICE ALERT
+               ↓
+ANALYST: TRIAGE + RESPONSE
+               ↓
+DETECTION RULE IMPROVEMENT
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Purple Team</strong> yanaşmasının gücü buradadır: testdən sonra hansı müşahidə qaydasının işlədiyini, hansının yanlış pozitiv yaratdığını və hansı təhlükəni qaçırdığını müqayisə etmək mümkündür.</p>
+
+<hr />
+
+<h1 id="️-wi-fi-hücumlarından-necə-qorunmaq-olar">🛡️ Wi-Fi Hücumlarından Necə Qorunmaq Olar?</h1>
+
+<ol>
+  <li>Şirkət və laboratoriya üçün <strong>tanınmış SSID/BSSID inventarı</strong> saxla.</li>
+  <li>Mümkün olduqda <strong>WPA3</strong>, uyğun təhlükəsizlik parametrləri və <strong>Protected Management Frames (PMF)</strong> istifadə et.</li>
+  <li><strong>802.1X Enterprise</strong> istifadə olunursa server sertifikatının yoxlanmasını düzgün konfiqurasiya et.</li>
+  <li>Naməlum və oxşar adlı Wi-Fi-lara <strong>auto-join</strong> davranışını məhdudlaşdır.</li>
+  <li>Şübhəli captive portalda şəxsi məlumat və parol yazma.</li>
+  <li>Wireless sensorlarından gələn anomaliyaları SIEM-də digər mənbələrlə təsdiqlə.</li>
+  <li><strong>Bluetooth pairing</strong> istəklərini və lazımsız discoverable rejimini nəzarətdə saxla.</li>
+  <li>IoT qurğularını ayrıca VLAN/segmentdə saxla, firmware yeniləmələrini izləyib sına.</li>
+  <li>Yalnız <strong>icazəli və izolə edilmiş laboratoriyada</strong> simulyasiya apar; başqa istifadəçilərin rabitəsinə müdaxilə etmə.</li>
+</ol>
+
+<hr />
+
+<h1 id="-kiber-təhlükəsizlik-və-hacker-dərsləri-üçün-tədris-planı">🏫 Kiber Təhlükəsizlik və Hacker Dərsləri Üçün Tədris Planı</h1>
+
+<p><strong>CyberShieldy Academy</strong> kontekstində bu layihə aşağıdakı mövzuları izah etmək üçün istifadə oluna bilər:</p>
+
+<ul>
+  <li><strong>Modul 1 — Network fundamentals:</strong> TCP/IP, SSID, BSSID, 802.11, access point, channel anlayışları.</li>
+  <li><strong>Modul 2 — Wireless security:</strong> WPA2/WPA3, PMF, Rogue AP, Evil Twin təhlükəsi.</li>
+  <li><strong>Modul 3 — Bluetooth security:</strong> BLE reklam paketləri, pairing, device trust.</li>
+  <li><strong>Modul 4 — Embedded / IoT:</strong> ESP32-S3, M5Stick, firmware, GPIO və sensorlar.</li>
+  <li><strong>Modul 5 — Physical / RF:</strong> Flipper Zero, Sub-GHz, NFC, RFID və IR əsasları.</li>
+  <li><strong>Modul 6 — Red Team:</strong> icazəli test planı, məqsəd və sübut.</li>
+  <li><strong>Modul 7 — Blue Team:</strong> detection, alert triage, WIDS, SIEM, SOC.</li>
+  <li><strong>Modul 8 — AI + automation:</strong> CASPER AI, event parsing, səsli xəbərdarlıq.</li>
+  <li><strong>Modul 9 — Purple Team:</strong> test nəticələrinə görə müdafiə qaydalarının təkmilləşdirilməsi.</li>
+</ul>
+
+<hr />
+
+<h1 id="-soc-siem-wazuh-və-casper-ai-i̇nteqrasiyası">🧠 SOC, SIEM, Wazuh və CASPER AI İnteqrasiyası</h1>
+
+<p><strong>Genişləndirilə bilən arxitektura konsepti:</strong></p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>FLIPPER / M5STICK / T-EMBED / ESP32-S3
+               ↓
+AUTHORIZED WIRELESS LAB
+               ↓
+WI-FI / BLE TELEMETRY SENSOR
+               ↓
+EVENT LOG / MONITORING SERVER
+               ↓
+WAZUH / SIEM CORRELATION (WHEN INTEGRATED)
+               ↓
+CASPER EVENT API
+               ↓
+TFT STATUS + ANDROID TTS / VOICE
+               ↓
+SOC ANALYST / INSTRUCTOR
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Wazuh</strong>, <strong>SIEM</strong>, <strong>SOC</strong>, <strong>IDS/IPS</strong>, <strong>AI Cybersecurity</strong> və <strong>Security Automation</strong> kimi anlayışlar burada vahid təhlükəsizlik prosesinin mərhələləridir. Bu sxem <strong>inteqrasiya konseptidir</strong>; hər konkret hadisə üçün end-to-end inteqrasiyanın işləməsi ayrıca log, API və bildiriş testi ilə təsdiqlənməlidir.</p>
+
+<p>Məntiqli event sahələri:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="p">{</span><span class="w">
+  </span><span class="nl">"project"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CASPER AI WIRELESS SECURITY LAB"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"event_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wireless_anomaly"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"source"</span><span class="p">:</span><span class="w"> </span><span class="s2">"authorized_lab_sensor"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"severity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"review"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wifi_or_ble"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"action"</span><span class="p">:</span><span class="w"> </span><span class="s2">"analyst_verification_required"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Bu nümunə <strong>təhlükəsiz şərti event formatıdır</strong>, real logdan çıxarış deyil.</p>
+
+<hr />
+
+<h1 id="-tez-tez-verilən-suallar--faq">❓ Tez-tez Verilən Suallar — FAQ</h1>
+
+<h3 id="flipper-zero-ilə-wi-fi-test-etmək-olur">Flipper Zero ilə Wi-Fi test etmək olur?</h3>
+
+<p>Bəzi Wi-Fi ssenariləri əlavə uyğun hardware və firmware ilə mümkündür; <strong>standart cihazın əsas gücü Wi-Fi deyil</strong>, RF/NFC/RFID/IR kimi funksiyalardır.</p>
+
+<h3 id="m5stick-hacker-cihazıdır">M5Stick hacker cihazıdır?</h3>
+
+<p>M5Stick proqramlaşdırıla bilən IoT inkişaf cihazıdır. <strong>Ethical hacking dərslərində</strong> sensor və wireless müşahidə üçün yararlıdır; məqsəd və proqram təminatı onun rolunu müəyyən edir.</p>
+
+<h3 id="t-embed-bütün-rf-funksiyalarını-dəstəkləyir">T-Embed bütün RF funksiyalarını dəstəkləyir?</h3>
+
+<p>Xeyr. <strong>Standart T-Embed</strong> və <strong>T-Embed CC1101</strong> eyni deyil. Sub-GHz/NFC üçün konkret variant və reviziya yoxlanmalıdır.</p>
+
+<h3 id="esp32-s3-valhalla-bütün-menyuları-işlədirmi">ESP32-S3 Valhalla bütün menyuları işlədirmi?</h3>
+
+<p>Menyunun görünməsi bütün funksiyaların qoşulu olduğunu göstərmir. Hər imkan üçün uyğun radio çip, antenna, pinout, firmware və sınaq lazımdır.</p>
+
+<h3 id="evil-twin-ilə-fake-wi-fi-eynidirmi">Evil Twin ilə Fake Wi-Fi eynidirmi?</h3>
+
+<p>Qismən əlaqəlidir, amma tam eyni deyil. Evil Twin adətən həqiqi şəbəkəni təqlid edən saxta AP ssenarisidir; Rogue AP daha geniş anlayışdır.</p>
+
+<h3 id="beacon-flood-nəyi-göstərir">Beacon Flood nəyi göstərir?</h3>
+
+<p>802.11 reklam mühitində anormal sayda SSID/BSSID görünməsi kimi davranışı. Bu, yalnız müşahidə və əlavə analizlə düzgün şərh edilə bilər.</p>
+
+<h3 id="bluetooth-spam-ilə-telefon-hack-olunur">Bluetooth Spam ilə telefon hack olunur?</h3>
+
+<p>Xeyr, <strong>spam və bildiriş narahatlığı avtomatik olaraq telefona giriş əldə etmək demək deyil</strong>. Real komprometasiya iddiası ayrıca texniki sübut tələb edir.</p>
+
+<h3 id="casper-ai-özü-hücum-edir">CASPER AI özü hücum edir?</h3>
+
+<p>Layihənin burada təqdim edilən əsas funksiyası <strong>təhlükəsizlik hadisələrini izləmək və bildirməkdir</strong>; icazəli testin müdafiə tərəfindən necə görüldüyünü izah etməyə kömək edir.</p>
+
+<hr />
+
+<h1 id="-etik-və-hüquqi-çərçivə">🔐 Etik və Hüquqi Çərçivə</h1>
+
+<p><strong>Bütün wireless, Bluetooth, RF və penetrasiya testləri yalnız öz cihazlarında və ya yazılı icazə verilmiş mühitdə aparılmalıdır.</strong> Real istifadəçilərin şəbəkə bağlantısını pozmaq, razılıqsız saxta giriş səhifəsi ilə məlumat toplamaq, üçüncü şəxslərin cihazlarına arzuolunmaz paketlər göndərmək və qanunsuz radiotezlik ötürməsi etmək yolverilməzdir.</p>
+
+<p>Bu məqalə <strong>təlim, maarifləndirmə, təhlükəsizlik təhlili və müdafiə</strong> məqsədilə hazırlanıb; hücum payloadları, parol toplama ssenariləri və yayım sui-istifadəsi təlimatları verilmir.</p>
+
+<hr />
+
+<h1 id="-layihənin-müəllifi--savaylov-emin">👨‍💻 Layihənin Müəllifi — Savaylov Emin</h1>
+
+<p><strong>Savaylov Emin</strong><br />
+🛡️ Kibertəhlükəsizlik mütəxəssisi<br />
+🔴 Red Team • 🔵 Blue Team • 🟣 Purple Team istiqamətləri üzrə təlimçi<br />
+🤖 <strong>CyberShieldy CASPER AI</strong> layihəsinin müəllifi və inkişaf etdiricisi<br />
+🌐 <strong><a href="https://cybershieldy.com">CyberShieldy.com</a></strong></p>
+
+<p>Layihədə <strong>Cybersecurity, Ethical Hacking, Wireless Security, IoT, ESP32, AI Automation, SOC və SIEM</strong> anlayışları real tədris prosesində vizual nümayişlə birləşdirilir.</p>
+
+<hr />
+
+<h1 id="-oxşar-cybershieldy-mövzuları">🔗 Oxşar CyberShieldy Mövzuları</h1>
+
+<ul>
+  <li>📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection">CASPER AI — Wi-Fi Security və Rogue AP Detection</a></li>
+  <li>📊 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team fərqləri</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot">CASPER AI — Pentest və Cybersecurity Robot</a></li>
+</ul>
+
+<hr />
+
+<h1 id="-texniki-i̇stinadlar">📚 Texniki İstinadlar</h1>
+
+<ul>
+  <li><a href="https://docs.flipper.net/zero/sub-ghz">Flipper Zero — Sub-GHz rəsmi sənədləri</a></li>
+  <li><a href="https://wiki.lilygo.cc/products/t-embed-series/t-embed/">LILYGO T-Embed — rəsmi sənədlər</a></li>
+  <li><a href="https://wiki.lilygo.cc/products/t-embed-series/t-embed-cc1101/">LILYGO T-Embed CC1101 — rəsmi sənədlər</a></li>
+</ul>
+
+<p>Cihazların firmware, hardware reviziyası və proqram imkanları dəyişə bilər; hər zaman istehsalçının aktual sənədlərinə baxmaq lazımdır.</p>
+
+<hr />
+
+<h1 id="-nəticə--casper-ai-ilə-wireless-attack-detection">📢 Nəticə — CASPER AI ilə Wireless Attack Detection</h1>
+
+<p><strong>Flipper Zero, M5Stick, T-Embed, ESP32-S3 və CASPER AI</strong> bir-birini əvəz edən eyni cihazlar deyil. Onların birlikdə öyrədilməsi simsiz təhlükəsizliyin müxtəlif qatlarını nümayiş etdirməyə imkan verir: <strong>RF, Wi-Fi, Bluetooth, IoT, firmware, protokol görünürlüğü, threat detection və real-time security alert</strong>.</p>
+
+<p>Mənim <strong>Evil Twin, Fake Wi-Fi, Beacon və Bluetooth laboratoriya sınaqlarıma</strong> dair Reel nümayişi bu mövzunun praktiki hissəsini göstərir; <strong>CASPER AI səsli xəbərdarlıq</strong> ideyası isə hadisələrin insanlar tərəfindən daha tez anlaşılması üçün əlavə interfeysdir.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>AUTHORIZED WIRELESS TEST
+          ↓
+SECURITY TELEMETRY
+          ↓
+DETECTION + VALIDATION
+          ↓
+CASPER AI ALERT
+          ↓
+VOICE + DISPLAY
+          ↓
+BLUE TEAM RESPONSE
+          ↓
+SAFER NETWORK
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p><strong>“Kibertəhlükəsizlik yalnız hücum alətlərini tanımaq deyil — Wi-Fi və Bluetooth risklərini anlamaq, təhlükənin izini görmək, vaxtında aşkarlamaq və müdafiəni gücləndirməkdir.” — Savaylov Emin, CyberShieldy CASPER AI</strong></p>
+</blockquote>
+
+<p>📹 <strong><a href="https://www.instagram.com/reel/Deo9XfDNSXF/?cplk=MWpucG5qMDZqZjNiOA==">Real Reel: CASPER AI Wireless Security Lab</a></strong></p>
+
+<hr />
+
+<h2 id="️⃣-hashtags--cybersecurity--hacking--wireless-pentest">#️⃣ Hashtags — Cybersecurity / Hacking / Wireless Pentest</h2>
+
+<p>#CyberShieldy #CasperAI #SavaylovEmin #Cybersecurity #CyberSecurity #KiberTehlukesizlik #KiberTəhlükəsizlik #KiberDərsləri #HackerDərsləri #EthicalHacking #EthicalHacker #HackerTools #HackingTools #HackerDevices #KiberCihazlar #Pentest #PenetrationTesting #WirelessSecurity #WirelessPentest #WiFiSecurity #WiFiAttack #WiFiAttacks #WiFiHacking #FakeWiFi #EvilTwin #EvilTwinAttack #RogueAP #RogueAPDetection #BeaconFlood #BeaconSpam #BluetoothSecurity #BluetoothAttack #BluetoothSpam #BLE #BLESecurity #FlipperZero #M5Stick #TEmbed #TEmbedCC1101 #ESP32 #ESP32S3 #ValhallaFirmware #RFID #NFC #SubGHz #RFTesting #IoTSecurity #WirelessMonitoring #SecurityMonitoring #ThreatDetection #AttackDetection #VoiceAlert #SecurityAlert #RedTeam #BlueTeam #PurpleTeam #SOC #SIEM #Wazuh #CyberDefense #NetworkSecurity #AICybersecurity #SecurityAutomation #CybersecurityLab #CybersecurityTraining #CybersecurityEducation #CyberShieldyAcademy</p>
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name>Savaylov Emin</name></author><category term="kibertəhlükəsizlik" /><category term="ethical hacking" /><category term="penetration testing" /><category term="wireless security" /><category term="wifi security" /><category term="bluetooth security" /><category term="red team" /><category term="blue team" /><category term="iot security" /><category term="ai cybersecurity" /><category term="kiber dərsləri" /><category term="casper ai" /><category term="cybershieldy" /><category term="savaylov emin" /><category term="cybersecurity" /><category term="cyber security" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="kiber ders" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="ethical hacker" /><category term="hacker tools" /><category term="hacking tools" /><category term="hacking devices" /><category term="hacker cihazları" /><category term="kiber cihazlar" /><category term="penetration testing" /><category term="pentest" /><category term="pentest cihazları" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="wifi security" /><category term="wi-fi security" /><category term="wifi attack" /><category term="wifi attacks" /><category term="wifi hücumları" /><category term="wireless hacking" /><category term="wireless security testing" /><category term="wireless pentest" /><category term="evil twin" /><category term="fake wifi" /><category term="rogue access point" /><category term="rogue ap detection" /><category term="beacon flood" /><category term="beacon spam" /><category term="bluetooth attack" /><category term="bluetooth spam" /><category term="ble security" /><category term="bluetooth security" /><category term="wifi monitoring" /><category term="flipper zero" /><category term="m5stick" /><category term="m5stickc plus2" /><category term="lilygo t-embed" /><category term="t-embed cc1101" /><category term="esp32" /><category term="esp32-s3" /><category term="valhalla firmware" /><category term="sub ghz" /><category term="nfc" /><category term="rfid" /><category term="radio frequency security" /><category term="iot security" /><category term="ai cybersecurity" /><category term="security automation" /><category term="threat detection" /><category term="security alerts" /><category term="voice alert" /><category term="soc" /><category term="siem" /><category term="wazuh" /><category term="network security" /><category term="cyber security training" /><category term="cybershieldy academy" /><summary type="html"><![CDATA[CASPER AI Wireless Security Lab: Flipper Zero, M5Stick, LILYGO T-Embed və ESP32-S3 kimi portativ kiber cihazların pentestdə rolu; Evil Twin, Fake Wi-Fi, Beacon Flood və Bluetooth Spam laboratoriya testləri, Wi-Fi təhlükəsizliyi, Red Team/Blue Team analizi və CASPER AI səsli xəbərdarlıqları.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper_ai_wireless_tools.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper_ai_wireless_tools.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring</title><link href="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab" rel="alternate" type="text/html" title="🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring" /><published>2026-10-12T08:30:00+04:00</published><updated>2026-10-12T18:26:31+04:00</updated><id>https://cybershieldy.com/posts/casper-ai-reverse-shell-detection-pico-hid-termux-cybersecurity</id><content type="html" xml:base="https://cybershieldy.com/posts/casper-ai-reverse-shell-hid-security-lab"><![CDATA[<h1 id="-casper-ai-reverse-shell-security-lab">🤖⚡ CASPER AI Reverse Shell Security Lab</h1>
 
 <p>CyberShieldy CASPER layihəsinin yeni eksperimental mərhələsində <strong>Reverse Shell Security</strong>, <strong>Raspberry Pi Pico HID</strong>, <strong>Android Termux</strong>, <strong>real-time cyber attack monitoring</strong> və <strong>CASPER AI təhlükəsizlik xəbərdarlıqları</strong> vahid laboratoriya sistemində birləşdirilir.</p>
 
@@ -12257,418 +12984,4 @@ Transport: ADB File Stream</p>
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="biometrik təhlükəsizlik" /><category term="blue team" /><category term="iot security" /><category term="biometrics" /><category term="biometric security" /><category term="fingerprint" /><category term="fingerprint sensor" /><category term="face recognition" /><category term="facial recognition" /><category term="iris recognition" /><category term="retina scan" /><category term="voice recognition" /><category term="palm recognition" /><category term="access control" /><category term="identity verification" /><category term="authentication" /><category term="multifactor authentication" /><category term="mfa" /><category term="passwordless authentication" /><category term="physical security" /><category term="cyber physical security" /><category term="camera security" /><category term="cctv" /><category term="video analytics" /><category term="liveness detection" /><category term="anti spoofing" /><category term="deepfake detection" /><category term="esp32" /><category term="esp32 s3" /><category term="android security" /><category term="termux" /><category term="qr code" /><category term="siem" /><category term="soc" /><category term="n8n" /><category term="telegram" /><category term="security automation" /><category term="incident response" /><category term="log analysis" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="iot security" /><category term="embedded security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="siber güvenlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[Barmaq izi, üz tanıma, iris, səs, kamera analitikası və digər biometrik yoxlama üsulları necə işləyir? Biometrik sistemlərin üstünlükləri, riskləri, SIEM inteqrasiyası və real laboratoriya nümunəsi haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/fingerprint.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/fingerprint.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü</title><link href="https://cybershieldy.com/posts/ai-siem-integration" rel="alternate" type="text/html" title="🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası – Kibertəhlükəsizliyin Yeni Dövrü" /><published>2026-07-23T06:00:00+04:00</published><updated>2026-07-23T15:43:49+04:00</updated><id>https://cybershieldy.com/posts/ai-siem-inteqrasiyasi-ve-kibertehlukesizlikde-geleceyin-soc-merkezleri</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-siem-integration"><![CDATA[<h1 id="-siem-və-süni-i̇ntellekt-ai-i̇nteqrasiyası">🤖 SIEM və Süni İntellekt (AI) İnteqrasiyası</h1>
-
-<p>Kibertəhlükəsizlik sahəsi son illərdə sürətlə dəyişir. Minlərlə cihaz, milyonlarla hadisə (event) və hər saniyə yaranan yeni hücum üsulları səbəbindən təhlükəsizlik komandalarının işi əvvəlki illərlə müqayisədə daha mürəkkəbləşib.</p>
-
-<p>Ənənəvi təhlükəsizlik sistemləri artıq təkbaşına kifayət etmir. Məhz buna görə <strong>SIEM (Security Information and Event Management)</strong> platformaları ilə <strong>Süni İntellekt (Artificial Intelligence - AI)</strong> texnologiyalarının inteqrasiyası müasir SOC (Security Operations Center) komandalarının əsas istiqamətlərindən birinə çevrilib.</p>
-
-<hr />
-
-<h1 id="-mövzu-ilə-bağlı-video">🎥 Mövzu ilə bağlı video</h1>
-
-<iframe src="https://www.instagram.com/reel/DbGW3S3MQUs/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<hr />
-
-<h1 id="siem-nədir">SIEM Nədir?</h1>
-
-<p>SIEM müxtəlif sistemlərdən gələn logları toplayır, əlaqələndirir və təhlükəsizlik hadisələrini analiz edir.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Windows Event Logs</li>
-  <li>Linux Syslog</li>
-  <li>Firewall logları</li>
-  <li>IDS/IPS</li>
-  <li>Antivirus</li>
-  <li>Endpoint Security</li>
-  <li>Active Directory</li>
-  <li>Cloud xidmətləri</li>
-  <li>Web Server logları</li>
-</ul>
-
-<p>Bu məlumatlar bir platformada birləşdirilərək təhlükəsizlik analitiklərinə təqdim olunur.</p>
-
-<hr />
-
-<h1 id="ai-siem-ə-nə-qazandırır">AI SIEM-ə Nə Qazandırır?</h1>
-
-<p>Ənənəvi SIEM əsasən əvvəlcədən yazılmış qaydalar (Rules) ilə işləyir.</p>
-
-<p>AI isə əlavə olaraq:</p>
-
-<ul>
-  <li>Davranış analizi aparır</li>
-  <li>Anomaliyaları müəyyən edir</li>
-  <li>Normal istifadəçi davranışını öyrənir</li>
-  <li>Risk səviyyəsini hesablayır</li>
-  <li>Hadisələri prioritetləşdirir</li>
-  <li>Yalan pozitivləri azaltmağa kömək edir</li>
-</ul>
-
-<p>Beləliklə analitiklər minlərlə xəbərdarlıq yerinə daha vacib hadisələrə fokuslana bilirlər.</p>
-
-<hr />
-
-<h1 id="ai-ilə-siem-necə-i̇şləyir">AI ilə SIEM Necə İşləyir?</h1>
-
-<p>Sadə ssenari:</p>
-
-<ol>
-  <li>Server log göndərir.</li>
-  <li>SIEM hadisəni qəbul edir.</li>
-  <li>AI həmin istifadəçinin əvvəlki davranışını analiz edir.</li>
-  <li>Qeyri-adi aktivlik aşkarlanır.</li>
-  <li>Risk balı hesablanır.</li>
-  <li>Analitikə xəbərdarlıq göndərilir.</li>
-  <li>Lazım gəldikdə avtomatlaşdırılmış cavab tədbirləri işə düşür.</li>
-</ol>
-
-<p>Bu yanaşma hadisələrin daha sürətli aşkarlanmasına kömək edir.</p>
-
-<hr />
-
-<h1 id="ai-hansı-hücumları-daha-tez-aşkarlaya-bilər">AI Hansı Hücumları Daha Tez Aşkarlaya Bilər?</h1>
-
-<p>AI aşağıdakı kimi vəziyyətlərdə faydalı ola bilər:</p>
-
-<ul>
-  <li>Brute Force cəhdləri</li>
-  <li>Credential Stuffing</li>
-  <li>Lateral Movement əlamətləri</li>
-  <li>Privilege Escalation davranışları</li>
-  <li>Daxili istifadəçi riskləri</li>
-  <li>Məlumat sızdırılması əlamətləri</li>
-  <li>Qeyri-adi VPN girişləri</li>
-  <li>Yeni ölkədən girişlər</li>
-  <li>Anormal proses fəaliyyəti</li>
-  <li>Endpoint davranış dəyişiklikləri</li>
-</ul>
-
-<p>AI bu hadisələri mövcud loglar və davranış nümunələri əsasında qiymətləndirə bilər.</p>
-
-<hr />
-
-<h1 id="soc-komandaları-üçün-üstünlüklər">SOC Komandaları üçün Üstünlüklər</h1>
-
-<p>AI inteqrasiyası nəticəsində:</p>
-
-<ul>
-  <li>Analiz müddəti azalır.</li>
-  <li>Prioritet hadisələr daha tez seçilir.</li>
-  <li>Təkrar işlər avtomatlaşdırılır.</li>
-  <li>Analitiklərin yükü azalır.</li>
-  <li>Hadisələr daha sürətli araşdırılır.</li>
-  <li>Təhlükələrin aşkarlanma vaxtı qısalır.</li>
-  <li>Reaksiya müddəti yaxşılaşır.</li>
-</ul>
-
-<p>Bu isə təşkilatın ümumi müdafiə səviyyəsini yüksəldə bilər.</p>
-
-<hr />
-
-<h1 id="soar-ilə-birlikdə-i̇stifadə">SOAR ilə Birlikdə İstifadə</h1>
-
-<p>Bir çox təşkilatda AI yalnız SIEM ilə deyil, həm də <strong>SOAR (Security Orchestration, Automation and Response)</strong> platformaları ilə işləyir.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Host izolyasiya edilir.</li>
-  <li>IP bloklanır.</li>
-  <li>İstifadəçi hesabı müvəqqəti deaktiv edilir.</li>
-  <li>Analitikə bildiriş göndərilir.</li>
-  <li>Hadisə avtomatik olaraq ticket sisteminə əlavə olunur.</li>
-</ul>
-
-<p>Belə proseslər insan müdaxiləsini azaltmağa kömək edir.</p>
-
-<hr />
-
-<h1 id="populyar-siem-platformaları">Populyar SIEM Platformaları</h1>
-
-<p>Müxtəlif təşkilatlar fərqli həllərdən istifadə edirlər.</p>
-
-<p>Məşhur platformalara nümunə:</p>
-
-<ul>
-  <li>Wazuh</li>
-  <li>Microsoft Sentinel</li>
-  <li>Splunk Enterprise Security</li>
-  <li>Elastic Security</li>
-  <li>IBM QRadar</li>
-  <li>Google Security Operations</li>
-  <li>ArcSight</li>
-</ul>
-
-<p>Platforma seçimi təşkilatın ölçüsündən, infrastrukturundan və ehtiyaclarından asılıdır.</p>
-
-<hr />
-
-<h1 id="ai-i̇nteqrasiyasının-müsbət-tərəfləri">AI İnteqrasiyasının Müsbət Tərəfləri</h1>
-
-<p>Əsas üstünlüklər:</p>
-
-<ul>
-  <li>Daha sürətli analiz</li>
-  <li>Anomaliyaların aşkarlanması</li>
-  <li>Risk əsaslı prioritetləşdirmə</li>
-  <li>Təhlükələrin erkən müəyyən edilməsi</li>
-  <li>Analitiklərin iş yükünün azalması</li>
-  <li>Böyük həcmli logların emalı</li>
-  <li>Davranış analizi</li>
-  <li>24/7 avtomatlaşdırılmış monitorinq</li>
-  <li>Daha çevik müdafiə</li>
-</ul>
-
-<hr />
-
-<h1 id="ai-i̇nteqrasiyasının-mənfi-tərəfləri">AI İnteqrasiyasının Mənfi Tərəfləri</h1>
-
-<p>Hər texnologiya kimi AI də mükəmməl deyil.</p>
-
-<p>Mümkün risklər:</p>
-
-<ul>
-  <li>Yanlış pozitivlər</li>
-  <li>Yanlış neqativlər</li>
-  <li>Təlim məlumatlarının keyfiyyətindən asılılıq</li>
-  <li>Modelin köhnəlməsi</li>
-  <li>Hesablama resurslarına yüksək tələbat</li>
-  <li>Məxfilik və məlumat qorunması problemləri</li>
-  <li>AI qərarlarının hər zaman izah edilə bilməməsi</li>
-</ul>
-
-<p>Bu səbəbdən AI təhlükəsizlik analitiklərini tam əvəz etmir, onların işini dəstəkləyən bir vasitə kimi istifadə olunur.</p>
-
-<hr />
-
-<h1 id="ai-hücumçular-tərəfindən-də-i̇stifadə-oluna-bilərmi">AI Hücumçular Tərəfindən də İstifadə Oluna Bilərmi?</h1>
-
-<p>Bəli.</p>
-
-<p>Süni intellekt yalnız müdafiə məqsədilə deyil, hücumçular tərəfindən də müxtəlif məqsədlər üçün istifadə oluna bilər.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Daha inandırıcı fişinq mətnlərinin hazırlanması</li>
-  <li>Saxta səs və görüntü (deepfake) yaradılması</li>
-  <li>Sosial mühəndislik hücumlarının fərdiləşdirilməsi</li>
-  <li>Böyük həcmli məlumatların avtomatik təhlili</li>
-</ul>
-
-<p>Bu səbəbdən təşkilatlar həm AI-nin imkanlarından yararlanmalı, həm də AI-dən istifadə edən yeni təhdidlərə qarşı hazır olmalıdır.</p>
-
-<hr />
-
-<h1 id="gələcəyin-soc-mərkəzləri">Gələcəyin SOC Mərkəzləri</h1>
-
-<p>Yeni nəsil SOC-larda aşağıdakı texnologiyaların birlikdə işləməsi gözlənilir:</p>
-
-<ul>
-  <li>AI</li>
-  <li>SIEM</li>
-  <li>SOAR</li>
-  <li>Threat Intelligence</li>
-  <li>EDR/XDR</li>
-  <li>UEBA</li>
-  <li>Cloud Security</li>
-  <li>Threat Hunting</li>
-</ul>
-
-<p>Bu inteqrasiya analitiklərin qərarvermə prosesini sürətləndirə və müdafiə imkanlarını gücləndirə bilər.</p>
-
-<hr />
-
-<h1 id="mənim-laboratoriya-təcrübəm">Mənim Laboratoriya Təcrübəm</h1>
-
-<p>Laboratoriya mühitimdə müxtəlif təhlükəsizlik ssenarilərini sınaqdan keçirərək SIEM əsaslı monitorinq və avtomatlaşdırma yanaşmalarını araşdırıram.</p>
-
-<p>Bu testlərə nümunə olaraq:</p>
-
-<ul>
-  <li>SIEM üzərindən təhlükəsizlik hadisələrinin izlənməsi</li>
-  <li>Logların əlaqələndirilməsi və analiz edilməsi</li>
-  <li>Avtomatlaşdırılmış bildiriş ssenarilərinin hazırlanması</li>
-  <li>Təhlükəsizlik hadisələrinin laboratoriya mühitində simulyasiyası</li>
-</ul>
-
-<p>Bütün sınaqlar yalnız mənə məxsus və icazəli laboratoriya mühitində həyata keçirilir.</p>
-
-<hr />
-
-<h1 id="nəticə">Nəticə</h1>
-
-<p>Süni İntellekt və SIEM inteqrasiyası müasir kibertəhlükəsizlik sahəsində mühüm istiqamətlərdən biridir.</p>
-
-<p>AI təhlükəsizlik komandalarının işini sürətləndirə, böyük həcmdə məlumatı emal etməyə kömək edə və təhlükələri daha tez müəyyənləşdirməyə imkan yarada bilər. Bununla yanaşı, AI qərarlarının insan nəzarəti ilə qiymətləndirilməsi və düzgün konfiqurasiya olunması vacib olaraq qalır.</p>
-
-<p>Gələcəkdə SIEM, AI və avtomatlaşdırma texnologiyalarının birlikdə istifadəsi təşkilatların kibermüdafiə imkanlarını daha da inkişaf etdirəcək əsas istiqamətlərdən biri hesab olunur.</p>
-
-<hr />
-
-<h2 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h2>
-
-<ul>
-  <li>📊🛡️🚨 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li>🔴🔵🛡️⚔️ <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team vs Blue Team</a></li>
-  <li>🤖📡🏠🔐 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və Smart Sistemlər</a></li>
-  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM İnteqrasiyası</a></li>
-  <li>🧪📱💾🔍 <a href="https://cybershieldy.com/posts/digital-forensics">Rəqəmsal Forensika</a></li>
-  <li>📶🔓⚠️ <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi Hücumları və Public Şəbəkə Riskləri</a></li>
-  <li>📡🔓⚠️📱 <a href="https://cybershieldy.com/posts/ble-vs-classic-bluetooth">BLE vs Classic Bluetooth Hücumları</a></li>
-  <li>🤖🛡️🚀 <a href="https://cybershieldy.com/posts/ai-kibertelhukesizlik">AI və Kibertəhlükəsizlik</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin</strong></p>
-
-<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
-
-<p>🌐 https://cybershieldy.com</p>
-
-<p>📱 Instagram: https://www.instagram.com/cyber_shieldy</p>
-
-<blockquote>
-  <p>“Süni intellekt təhlükəsizlik analitikini əvəz etmir; ona daha sürətli qərar vermək üçün güclü dəstək verir.”</p>
-</blockquote>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="artificial intelligence" /><category term="blue team" /><category term="ai" /><category term="artificial intelligence" /><category term="machine learning" /><category term="siem" /><category term="soc" /><category term="security operations center" /><category term="blue team" /><category term="red team" /><category term="automation" /><category term="soar" /><category term="incident response" /><category term="threat detection" /><category term="threat hunting" /><category term="cyber defense" /><category term="log analysis" /><category term="anomaly detection" /><category term="wazuh" /><category term="splunk" /><category term="microsoft sentinel" /><category term="elastic security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><summary type="html"><![CDATA[SIEM və Süni İntellekt (AI) inteqrasiyası kibertəhlükəsizlikdə necə istifadə olunur? Üstünlükləri, riskləri, SOC komandalarına təsiri və gələcəyin təhlükəsizlik yanaşmaları haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/claude.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/claude.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="biometrik təhlükəsizlik" /><category term="blue team" /><category term="iot security" /><category term="biometrics" /><category term="biometric security" /><category term="fingerprint" /><category term="fingerprint sensor" /><category term="face recognition" /><category term="facial recognition" /><category term="iris recognition" /><category term="retina scan" /><category term="voice recognition" /><category term="palm recognition" /><category term="access control" /><category term="identity verification" /><category term="authentication" /><category term="multifactor authentication" /><category term="mfa" /><category term="passwordless authentication" /><category term="physical security" /><category term="cyber physical security" /><category term="camera security" /><category term="cctv" /><category term="video analytics" /><category term="liveness detection" /><category term="anti spoofing" /><category term="deepfake detection" /><category term="esp32" /><category term="esp32 s3" /><category term="android security" /><category term="termux" /><category term="qr code" /><category term="siem" /><category term="soc" /><category term="n8n" /><category term="telegram" /><category term="security automation" /><category term="incident response" /><category term="log analysis" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="iot security" /><category term="embedded security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="siber güvenlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[Barmaq izi, üz tanıma, iris, səs, kamera analitikası və digər biometrik yoxlama üsulları necə işləyir? Biometrik sistemlərin üstünlükləri, riskləri, SIEM inteqrasiyası və real laboratoriya nümunəsi haqqında geniş bələdçi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/fingerprint.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/fingerprint.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

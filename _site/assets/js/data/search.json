@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖📡 CASPER AI Wireless Security Lab — Flipper Zero, M5Stick, T-Embed, ESP32-S3 və Wi-Fi/Bluetooth Pentest",
+    "url": "/posts/casper-ai-wireless-hacking-tools-pentest",
+    "categories": "kibertəhlükəsizlik, ethical hacking, penetration testing, wireless security, wifi security, bluetooth security, red team, blue team, iot security, ai cybersecurity, kiber dərsləri",
+    "tags": "casper ai, cybershieldy, savaylov emin, cybersecurity, cyber security, kibertəhlükəsizlik, kiber təhlükəsizlik, kiber ders, kiber dərsləri, hacker dərsləri, ethical hacking, ethical hacker, hacker tools, hacking tools, hacking devices, hacker cihazları, kiber cihazlar, penetration testing, pentest, pentest cihazları, red team, blue team, purple team, wifi security, wi-fi security, wifi attack, wifi attacks, wifi hücumları, wireless hacking, wireless security testing, wireless pentest, evil twin, fake wifi, rogue access point, rogue ap detection, beacon flood, beacon spam, bluetooth attack, bluetooth spam, ble security, bluetooth security, wifi monitoring, flipper zero, m5stick, m5stickc plus2, lilygo t-embed, t-embed cc1101, esp32, esp32-s3, valhalla firmware, sub ghz, nfc, rfid, radio frequency security, iot security, ai cybersecurity, security automation, threat detection, security alerts, voice alert, soc, siem, wazuh, network security, cyber security training, cybershieldy academy",
+    "date": "2026-10-21 08:30:00 +0400",
+    "content": "CASPER AI Wireless Security Lab: Flipper Zero, M5Stick, LILYGO T-Embed və ESP32-S3 kimi portativ kiber cihazların pentestdə rolu; Evil Twin, Fake Wi-Fi, Beacon Flood və Bluetooth Spam laboratoriya testləri, Wi-Fi təhlükəsizliyi, Red Team/Blue Team analizi və CASPER AI səsli xəbərdarlıqları."
+  },
+  
+  {
     "title": "🤖⚡ CASPER AI Reverse Shell Security Lab — Pico HID, Termux, Real-Time Detection və Cyber Attack Monitoring",
     "url": "/posts/casper-ai-reverse-shell-hid-security-lab",
     "categories": "kibertəhlükəsizlik, reverse shell, ethical hacking, cybersecurity lab, red team, blue team, purple team, ai cybersecurity, usb security, hid security, mobile security, cyber education",
