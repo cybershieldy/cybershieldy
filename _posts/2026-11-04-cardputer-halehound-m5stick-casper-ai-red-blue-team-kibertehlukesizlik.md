@@ -61,6 +61,7 @@ tags:
   - Emin Savaylov
   - Savaylov Emin
 description: "Savaylov Emin izah edir: M5Stack Cardputer, HaleHound və M5StickC Plus2 müasir kibertəhlükəsizlik, ethical hacking, IoT və Red Team/Blue Team dərslərində necə istifadə olunur? CyberShieldy CASPER AI praktiki kiber laboratoriyaları, Wazuh, Splunk və real layihələr."
+image: /assets/images/cardputer.webp
 permalink: /posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai
 canonical: https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai
 ---
