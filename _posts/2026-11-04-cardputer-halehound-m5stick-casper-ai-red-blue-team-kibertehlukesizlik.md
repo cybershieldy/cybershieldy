@@ -3,7 +3,6 @@ layout: post
 title: "🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin"
 date: 2026-11-04 12:00:00 +0400
 lastmod: 2026-11-04 12:00:00 +0400
-author: "Savaylov Emin"
 categories:
   - kibertəhlükəsizlik
   - kiber dərsləri
