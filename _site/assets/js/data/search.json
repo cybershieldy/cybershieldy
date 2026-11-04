@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin",
+    "url": "/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai",
+    "categories": "kibertəhlükəsizlik, kiber dərsləri, ethical hacking, red team, blue team, iot security, embedded security, ai cybersecurity, penetration testing, cybersecurity education",
+    "tags": "kibertəhlükəsizlik, kiber təhlükəsizlik, kibertəhlükəsizlik Azərbaycan, kibertəhlükəsizlik dərsləri, kiber dərs, kiber dərsləri, hacker dərsləri, hacker dərsləri Azərbaycan, ethical hacking dərsləri, ethical hacker, cybersecurity Azerbaijan, cyber security courses, penetration testing, pentest dərsləri, red team, blue team, purple team, SOC, SIEM, Wazuh, Splunk, security automation, threat detection, mikrokontroller, mikrokontrollerlər, ESP32, ESP32-S3, Cardputer, M5Stack Cardputer, M5StickC Plus2, M5Stick, HaleHound, IoT security, embedded security, wireless security, Wi-Fi security, Bluetooth security, RFID, NFC, CASPER AI, CyberShieldy, CyberShieldy Academy, Emin Savaylov, Savaylov Emin",
+    "date": "2026-11-04 12:00:00 +0400",
+    "content": "Savaylov Emin izah edir: M5Stack Cardputer, HaleHound və M5StickC Plus2 müasir kibertəhlükəsizlik, ethical hacking, IoT və Red Team/Blue Team dərslərində necə istifadə olunur? CyberShieldy CASPER AI praktiki kiber laboratoriyaları, Wazuh, Splunk və real layihələr."
+  },
+  
+  {
     "title": "🤖📡 CASPER AI Wireless Security Lab — Flipper Zero, M5Stick, T-Embed, ESP32-S3 və Wi-Fi/Bluetooth Pentest",
     "url": "/posts/casper-ai-wireless-hacking-tools-pentest",
     "categories": "kibertəhlükəsizlik, ethical hacking, penetration testing, wireless security, wifi security, bluetooth security, red team, blue team, iot security, ai cybersecurity, kiber dərsləri",
