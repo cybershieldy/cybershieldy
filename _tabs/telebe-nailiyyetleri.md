@@ -83,6 +83,62 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
     </div>
   </div>
 
+<!-- 👩‍💻 Tələbə - Rahmatova Narmin Faiq -->
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
+
+  <img src="/assets/images/nermin.webp"
+       alt="Rahmatova Narmin Faiq - CyberShieldy Academy Cybersecurity Red Team Blue Team Student"
+       style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
+
+  <div style="color: #1e1e1e; flex: 1; min-width: 260px;">
+
+    <h3 style="font-weight: 700; margin-bottom: 5px;">
+      Rahmatova Narmin Faiq
+    </h3>
+
+    <p><strong>🎓 Azerbaijan State University of Economics (UNEC)</strong></p>
+
+    <p><strong>🛡️ Cybersecurity | Red Team & Blue Team | Practical Cybersecurity Training</strong></p>
+
+    <p>
+      My name is Narmin Rahmatova, and I am a student at Azerbaijan State University of Economics (UNEC). My journey into cybersecurity began from the very beginning, with a strong desire to understand how computer systems, networks, cyber attacks, and digital defense technologies work.
+    </p>
+
+    <p>
+      Under the mentorship of <strong>Emin Savaylov</strong>, a cybersecurity specialist and Red Team & Blue Team instructor, I completed a comprehensive, practice-oriented cybersecurity training program covering both offensive and defensive security. Starting with fundamental concepts, I progressively developed my knowledge and advanced toward more complex cybersecurity topics and practical laboratory exercises.
+    </p>
+
+    <p>
+      Throughout my training, I explored <strong>network security, Linux, ethical hacking, penetration testing, vulnerability assessment, security monitoring, threat detection, SOC operations, SIEM technologies, and incident response</strong>. The combination of Red Team and Blue Team methodologies helped me understand not only how cyber threats emerge, but also how security professionals investigate, detect, and defend against them.
+    </p>
+
+    <p>
+      One of the most valuable aspects of this learning experience was the emphasis on <strong>hands-on practice and real-world cybersecurity scenarios</strong>. Instead of relying solely on theoretical knowledge, I had the opportunity to work with practical labs, security tools, network environments, and attack-and-defense simulations. This approach strengthened my technical understanding, analytical thinking, and problem-solving abilities.
+    </p>
+
+    <p>
+      Looking back at where I started, I am proud of my progress from having no prior cybersecurity experience to developing the knowledge and confidence needed to approach advanced-level cybersecurity subjects. This journey has shown me that with dedication, consistent practice, and the right mentorship, even complex technical fields become achievable.
+    </p>
+
+    <p>
+      My goal is to continue improving my skills in <strong>Red Team, Blue Team, penetration testing, and security operations</strong>, while transforming the knowledge I have gained into professional experience and meaningful contributions to the cybersecurity community.
+    </p>
+
+    <p>
+      I believe cybersecurity is more than just a technical profession. It is a field that requires curiosity, discipline, continuous learning, and a commitment to protecting the digital world.
+    </p>
+
+    <p>
+      <strong>🚀 "I started my cybersecurity journey from zero, but through practical training, dedication, and the mentorship of Emin Savaylov, I discovered how far consistent learning can take me. Every challenge became an opportunity to grow."</strong>
+    </p>
+
+    <p>
+      <strong>🎯 My journey is proof that every cybersecurity expert starts somewhere. What matters most is the willingness to learn, practice, and never stop improving.</strong>
+    </p>
+
+  </div>
+</div>
+
 
   <!-- 👩‍💻 5-ci tələbə - Günel -->
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
@@ -104,6 +160,9 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
       
     </div>
   </div>
+
+
+
 
 </div> <!-- 🔥 Bu sətir əsas problemi həll edir! -->
 
