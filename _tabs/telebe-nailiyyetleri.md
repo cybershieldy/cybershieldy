@@ -83,10 +83,33 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
     </div>
   </div>
 
+
+  <!-- 👩‍💻 5-ci tələbə - Günel -->
+  <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
+    <img src="/assets/images/ayxan.webp" alt="Ayxan Abbasov
+ - kiber təhlükəsizlik" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
+
+    <div style="color: #1e1e1e;">
+      <h3 style="font-weight: 700; margin-bottom: 5px;">Ayxan Abbasov
+</h3>
+      <p><strong>Kiber Təhlükəsizlik</strong></p>
+
+      <p>Mən Ayxan Abbasovam. Bakü şəhərində yaşayıram və Azərbaycan Texniki Universitetində Kompüter Elmləri ixtisası üzrə bakalavr təhsilimi başa vurdum. Təhsilim ərzində həm nəzəri, həm də praktiki biliklər əldə etdim və kibertəhlükəsizlik sahəsinə xüsusi maraq göstərdim. Bu marağım məni həm universitet layihələrində, həm də şəxsi öyrənmə yolu ilə kibertəhlükəsizlik üzrə əlavə hazırlıq keçməyə sövq etdi.
+
+      Kibertəhlükəsizlik yalnız texnologiyanı qorumaq deyil, həm də müasir rəqəmsal cəmiyyətin, iqtisadiyyatın və milli təhlükəsizliyin ayrılmaz bir hissəsidir. Kibertəhlükəsizlik sahəsindəki bilik yolculuğum Emin Savaylovun rəhbərlik etdiyi xüsusi kursla daha da dərinləşdi və burada praktiki bacarıqlarımı inkişaf etdirmək fürsəti əldə etdim. Bu sahədə daim yenilənən bilik və bacarıqlar tələb olunur. Mən də özümü şəbəkə təhlükəsizliyi, məlumatların qorunması, penetrasiya testləri və sosial mühəndislik kimi istiqamətlərdə inkişaf etdirirəm.</p>
+
+      <p>Təhsilim və kurslarım çərçivəsində kiberhücumların təhlili, təhlükəsizlik protokolları, açıqlıqların qiymətləndirilməsi, həmçinin müxtəlif təhlükəsizlik alətləri ilə işləməyi öyrəndim. Praktiki məşğələlər və təcrübə proqramları vasitəsilə də penetrasiya testlərinin əsasları, SOC prosesləri və təhlükəsizlik monitorinqi bacarıqlarımı möhkəmləndirdim.
+
+      Məqsədim kibertəhlükəsizlik sahəsində etik haker və ya SOC analisti kimi karyerama başlamaq, sonrakı mərhələlərdə isə bulud təhlükəsizliyi mütəxəssisi və ya Kibertəhlükəsizlik üzrə Rəhbər (CISO) kimi inkişaf etməkdir. Kibertəhlükəsizlik mənim üçün yalnız peşə deyil, həm də mürəkkəb problemləri həll etmək, öyrənmək və təhlükəsiz rəqəmsal gələcəyə töhfə vermək fürsətidir.</p>
+      
+    </div>
+  </div>
+
+  
 <!-- 👩‍💻 Tələbə - Rahmatova Narmin Faiq -->
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
 
-  <img src="/assets/images/nermin.webp"
+  <img src="/assets/images/narmin.webp"
        alt="Rahmatova Narmin Faiq - CyberShieldy Academy Cybersecurity Red Team Blue Team Student"
        style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
 
@@ -138,30 +161,6 @@ Onlar artıq <strong>IT və Kiber Təhlükəsizlik sahəsində</strong> aktiv f�
 
   </div>
 </div>
-
-
-  <!-- 👩‍💻 5-ci tələbə - Günel -->
-  <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; background: linear-gradient(135deg, #f0f2f5 0%, #e1e8ed 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);">
-    <img src="/assets/images/ayxan.webp" alt="Ayxan Abbasov
- - kiber təhlükəsizlik" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.25);">
-
-    <div style="color: #1e1e1e;">
-      <h3 style="font-weight: 700; margin-bottom: 5px;">Ayxan Abbasov
-</h3>
-      <p><strong>Kiber Təhlükəsizlik</strong></p>
-
-      <p>Mən Ayxan Abbasovam. Bakü şəhərində yaşayıram və Azərbaycan Texniki Universitetində Kompüter Elmləri ixtisası üzrə bakalavr təhsilimi başa vurdum. Təhsilim ərzində həm nəzəri, həm də praktiki biliklər əldə etdim və kibertəhlükəsizlik sahəsinə xüsusi maraq göstərdim. Bu marağım məni həm universitet layihələrində, həm də şəxsi öyrənmə yolu ilə kibertəhlükəsizlik üzrə əlavə hazırlıq keçməyə sövq etdi.
-
-      Kibertəhlükəsizlik yalnız texnologiyanı qorumaq deyil, həm də müasir rəqəmsal cəmiyyətin, iqtisadiyyatın və milli təhlükəsizliyin ayrılmaz bir hissəsidir. Kibertəhlükəsizlik sahəsindəki bilik yolculuğum Emin Savaylovun rəhbərlik etdiyi xüsusi kursla daha da dərinləşdi və burada praktiki bacarıqlarımı inkişaf etdirmək fürsəti əldə etdim. Bu sahədə daim yenilənən bilik və bacarıqlar tələb olunur. Mən də özümü şəbəkə təhlükəsizliyi, məlumatların qorunması, penetrasiya testləri və sosial mühəndislik kimi istiqamətlərdə inkişaf etdirirəm.</p>
-
-      <p>Təhsilim və kurslarım çərçivəsində kiberhücumların təhlili, təhlükəsizlik protokolları, açıqlıqların qiymətləndirilməsi, həmçinin müxtəlif təhlükəsizlik alətləri ilə işləməyi öyrəndim. Praktiki məşğələlər və təcrübə proqramları vasitəsilə də penetrasiya testlərinin əsasları, SOC prosesləri və təhlükəsizlik monitorinqi bacarıqlarımı möhkəmləndirdim.
-
-      Məqsədim kibertəhlükəsizlik sahəsində etik haker və ya SOC analisti kimi karyerama başlamaq, sonrakı mərhələlərdə isə bulud təhlükəsizliyi mütəxəssisi və ya Kibertəhlükəsizlik üzrə Rəhbər (CISO) kimi inkişaf etməkdir. Kibertəhlükəsizlik mənim üçün yalnız peşə deyil, həm də mürəkkəb problemləri həll etmək, öyrənmək və təhlükəsiz rəqəmsal gələcəyə töhfə vermək fürsətidir.</p>
-      
-    </div>
-  </div>
-
-
 
 
 </div> <!-- 🔥 Bu sətir əsas problemi həll edir! -->
