@@ -343,7 +343,7 @@ Bu kursda robotexnika, embedded proqramlaşdırma və cybersecurity bir-birini t
 ## 🏆 Robotexnika Kursu Sertifikatı
 Kursun yekun qiymətləndirməsi və sertifikatlaşdırma şərtləri qeydiyyat zamanı dəqiqləşdirilir. Aşağıdakı bölmə **CyberShieldy Academy — Casper AI Robotexnika** sertifikatının nümunə şəklini yerləşdirmək üçündür.
 
-![CyberShieldy Academy — Casper AI Robotexnika və Süni İntellekt Kursu Sertifikatı](/assets/images/casper-ai-robotexnika-sertifikat.webp "Casper AI Robotexnika Kursu Sertifikat Nümunəsi")
+![CyberShieldy Academy — Casper AI Robotexnika və Süni İntellekt Kursu Sertifikatı](/assets/images/robot.webp "Casper AI Robotexnika Kursu Sertifikat Nümunəsi")
 
 ---
 ## ❓ Tez-tez verilən suallar (FAQ)
