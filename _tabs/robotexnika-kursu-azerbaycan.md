@@ -8,7 +8,7 @@ keywords: "robotexnika kursu, robototexnika kursu, robot texnikası kursu, robot
 robots: index, follow
 canonical: https://cybershieldy.com/robotexnika-casper-ai-kursu/
 permalink: /robotexnika-casper-ai-kursu/
-image: /assets/images/casper-ai-robotexnika-kursu.webp
+image: /assets/images/rosec.webp
 icon: fas fa-robot
 ---
 
