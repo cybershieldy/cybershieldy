@@ -89,27 +89,27 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-1. **\*\*Body — Mexanika və hərəkət:\*\*** servomotor, DC motor, pan–tilt, sürücü və enerji.
+1\. **\*\*Body — Mexanika və hərəkət:\*\*** servomotor, DC motor, pan–tilt, sürücü və enerji.
 
 
 
-2. **\*\*Senses — Sensorlar:\*\*** məsafə, RFID, barmaq izi, kamera, toxunma, EMG və digər siqnallar.
+2\. **\*\*Senses — Sensorlar:\*\*** məsafə, RFID, barmaq izi, kamera, toxunma, EMG və digər siqnallar.
 
 
 
-3. **\*\*Brain — Embedded logic:\*\*** ESP32/ESP32-S3, mikrocontroller firmware, real-time qərar mexanizmi.
+3\. **\*\*Brain — Embedded logic:\*\*** ESP32/ESP32-S3, mikrocontroller firmware, real-time qərar mexanizmi.
 
 
 
-4. **\*\*Intelligence — AI:\*\*** səs komandaları, obyekt tanıma, qayda əsaslı qərarlar və AI xidmətləri ilə inteqrasiya.
+4\. **\*\*Intelligence — AI:\*\*** səs komandaları, obyekt tanıma, qayda əsaslı qərarlar və AI xidmətləri ilə inteqrasiya.
 
 
 
-5. **\*\*Connectivity — IoT:\*\*** Wi-Fi, MQTT, REST API, server, dashboard və mobil cihaz inteqrasiyası.
+5\. **\*\*Connectivity — IoT:\*\*** Wi-Fi, MQTT, REST API, server, dashboard və mobil cihaz inteqrasiyası.
 
 
 
-6. **\*\*Defense — Security:\*\*** autentifikasiya, icazələr, loglama, audit, təhlükəsiz idarəetmə və anomaliya xəbərdarlıqları.
+6\. **\*\*Defense — Security:\*\*** autentifikasiya, icazələr, loglama, audit, təhlükəsiz idarəetmə və anomaliya xəbərdarlıqları.
 
 
 
@@ -125,31 +125,31 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- ✅ **\*\*Yalnız nəzəriyyə yox:\*\*** real ESP32 lövhələri və sensorlarla laboratoriya işləri.
+\- ✅ **\*\*Yalnız nəzəriyyə yox:\*\*** real ESP32 lövhələri və sensorlarla laboratoriya işləri.
 
 
 
-- ✅ **\*\*Robotun beynini özün proqramlaşdır:\*\*** firmware, hadisələr, state machine və avtomatlaşdırma.
+\- ✅ **\*\*Robotun beynini özün proqramlaşdır:\*\*** firmware, hadisələr, state machine və avtomatlaşdırma.
 
 
 
-- ✅ **\*\*Casper AI yanaşması:\*\*** səs, vizual siqnallar, sensor reaksiyası və server əsaslı idarəetmə.
+\- ✅ **\*\*Casper AI yanaşması:\*\*** səs, vizual siqnallar, sensor reaksiyası və server əsaslı idarəetmə.
 
 
 
-- ✅ **\*\*Cyber + Robotics:\*\*** IoT və embedded təhlükəsizliyi, etik hardware security testləri.
+\- ✅ **\*\*Cyber + Robotics:\*\*** IoT və embedded təhlükəsizliyi, etik hardware security testləri.
 
 
 
-- ✅ **\*\*Kompüterdən fiziki dünyaya:\*\*** Python API → ESP32 → motor/sensor → cavab → log.
+\- ✅ **\*\*Kompüterdən fiziki dünyaya:\*\*** Python API → ESP32 → motor/sensor → cavab → log.
 
 
 
-- ✅ **\*\*Mühəndislik portfolion:\*\*** sxem, kod, test hesabatı, demo video və final layihəsi.
+\- ✅ **\*\*Mühəndislik portfolion:\*\*** sxem, kod, test hesabatı, demo video və final layihəsi.
 
 
 
-- ✅ **\*\*Modul layihələri:\*\*** hər mərhələdə işləyən konkret funksiyanın hazırlanması.
+\- ✅ **\*\*Modul layihələri:\*\*** hər mərhələdə işləyən konkret funksiyanın hazırlanması.
 
 
 
@@ -165,23 +165,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Mikrocontroller və single-board computer fərqi: ESP32, ESP32-S3, ESP8266, Raspberry Pi Pico, Raspberry Pi.
+\- Mikrocontroller və single-board computer fərqi: ESP32, ESP32-S3, ESP8266, Raspberry Pi Pico, Raspberry Pi.
 
 
 
-- CPU, RAM, Flash, GPIO, ADC, PWM, UART, SPI, I²C, interrupt, watchdog və enerji rejimləri.
+\- CPU, RAM, Flash, GPIO, ADC, PWM, UART, SPI, I²C, interrupt, watchdog və enerji rejimləri.
 
 
 
-- Arduino IDE, PlatformIO, C/C++ və MicroPython; Git ilə versiya idarəetməsi.
+\- Arduino IDE, PlatformIO, C/C++ və MicroPython; Git ilə versiya idarəetməsi.
 
 
 
-- Datasheet oxuma, pinout, firmware flash və serial monitor diaqnostikası.
+\- Datasheet oxuma, pinout, firmware flash və serial monitor diaqnostikası.
 
 
 
-- Modullar arasında məlumat axını və düzgün arxitektura seçimi.
+\- Modullar arasında məlumat axını və düzgün arxitektura seçimi.
 
 
 
@@ -193,23 +193,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Gərginlik, cərəyan, müqavimət, multimetrlə ölçmə və siqnal səviyyələri.
+\- Gərginlik, cərəyan, müqavimət, multimetrlə ölçmə və siqnal səviyyələri.
 
 
 
-- 3.3 V / 5 V məntiq səviyyələri, level shifting və ümumi GND konsepti.
+\- 3.3 V / 5 V məntiq səviyyələri, level shifting və ümumi GND konsepti.
 
 
 
-- Servo və motor üçün ayrıca qidalanma, buck converter, rele, MOSFET, qoruyucu elementlər.
+\- Servo və motor üçün ayrıca qidalanma, buck converter, rele, MOSFET, qoruyucu elementlər.
 
 
 
-- Breadboard, lehimləmə, konnektorlar, PCB əsasları və korpus dizaynı.
+\- Breadboard, lehimləmə, konnektorlar, PCB əsasları və korpus dizaynı.
 
 
 
-- Enerji büdcəsi, qızma, qısaqapanma və reverse polarity riskləri.
+\- Enerji büdcəsi, qızma, qısaqapanma və reverse polarity riskləri.
 
 
 
@@ -221,23 +221,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Servo, DC motor və motor driver (L298N və alternativlər).
+\- Servo, DC motor və motor driver (L298N və alternativlər).
 
 
 
-- Pan–tilt mexanizmi, bucaq limitləri, kalibrasiya və PWM siqnalları.
+\- Pan–tilt mexanizmi, bucaq limitləri, kalibrasiya və PWM siqnalları.
 
 
 
-- Joystick ilə manual/auto rejim, limit switch və təhlükəsiz dayanma.
+\- Joystick ilə manual/auto rejim, limit switch və təhlükəsiz dayanma.
 
 
 
-- Hərəkət ardıcıllığı, state machine, sadə PID anlayışı.
+\- Hərəkət ardıcıllığı, state machine, sadə PID anlayışı.
 
 
 
-- Robotun başı, gözü, qolu və mobil platforması üçün modulyar dizayn.
+\- Robotun başı, gözü, qolu və mobil platforması üçün modulyar dizayn.
 
 
 
@@ -249,23 +249,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- HC-SR04 ultrasəs məsafə ölçümü və filtrasiya.
+\- HC-SR04 ultrasəs məsafə ölçümü və filtrasiya.
 
 
 
-- TTP229 toxunma klaviaturası, joystick, RFID RC522, PN532 və barmaq izi sensoru.
+\- TTP229 toxunma klaviaturası, joystick, RFID RC522, PN532 və barmaq izi sensoru.
 
 
 
-- ADC siqnal oxuma, noise reduction, debouncing və hadisə aşkarlanması.
+\- ADC siqnal oxuma, noise reduction, debouncing və hadisə aşkarlanması.
 
 
 
-- EMG kimi siqnallarla yalnız uyğun izolyasiyalı, təhlükəsiz, bədənə qoşulma üçün nəzərdə tutulmuş avadanlıqdan istifadə prinsipləri.
+\- EMG kimi siqnallarla yalnız uyğun izolyasiyalı, təhlükəsiz, bədənə qoşulma üçün nəzərdə tutulmuş avadanlıqdan istifadə prinsipləri.
 
 
 
-- Çoxsaylı sensordan gələn nəticələrin qayda əsaslı birləşdirilməsi.
+\- Çoxsaylı sensordan gələn nəticələrin qayda əsaslı birləşdirilməsi.
 
 
 
@@ -277,19 +277,19 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- SSD1306 OLED və ILI9341 TFT interfeysləri.
+\- SSD1306 OLED və ILI9341 TFT interfeysləri.
 
 
 
-- Robot gözü: iris, bəbək, göz qırpma və istiqamət animasiyaları.
+\- Robot gözü: iris, bəbək, göz qırpma və istiqamət animasiyaları.
 
 
 
-- Hadisəyə görə emosional/veb status göstəriciləri.
+\- Hadisəyə görə emosional/veb status göstəriciləri.
 
 
 
-- Frame update, performans, SPI resursları və animasiya optimallaşdırması.
+\- Frame update, performans, SPI resursları və animasiya optimallaşdırması.
 
 
 
@@ -301,23 +301,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- C/C++ ilə firmware modulları, siniflər, sürücülər və təhlükəsiz konfiqurasiya.
+\- C/C++ ilə firmware modulları, siniflər, sürücülər və təhlükəsiz konfiqurasiya.
 
 
 
-- Non-blocking kod, timers, queue, interrupts və ESP32 FreeRTOS əsasları.
+\- Non-blocking kod, timers, queue, interrupts və ESP32 FreeRTOS əsasları.
 
 
 
-- Sensor → qərar → aktuator hadisə xətti.
+\- Sensor → qərar → aktuator hadisə xətti.
 
 
 
-- Finite State Machine (FSM), fail-safe rejim və watchdog.
+\- Finite State Machine (FSM), fail-safe rejim və watchdog.
 
 
 
-- Test edilən komponentlər, debugging və telemetriya.
+\- Test edilən komponentlər, debugging və telemetriya.
 
 
 
@@ -329,23 +329,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Wi-Fi şəbəkəsi, MQTT, HTTP/REST, JSON və WebSocket konseptləri.
+\- Wi-Fi şəbəkəsi, MQTT, HTTP/REST, JSON və WebSocket konseptləri.
 
 
 
-- ESP32 ↔ Python/FastAPI və ya Flask ↔ mobil/veb interfeys.
+\- ESP32 ↔ Python/FastAPI və ya Flask ↔ mobil/veb interfeys.
 
 
 
-- Sensor məlumatlarının serverə göndərilməsi və əmrlərin robotda icrası.
+\- Sensor məlumatlarının serverə göndərilməsi və əmrlərin robotda icrası.
 
 
 
-- Local-first arxitektura, bağlantı qopduqda təhlükəsiz davranış.
+\- Local-first arxitektura, bağlantı qopduqda təhlükəsiz davranış.
 
 
 
-- Dashboard, strukturlaşdırılmış log və hadisə tarixçəsi.
+\- Dashboard, strukturlaşdırılmış log və hadisə tarixçəsi.
 
 
 
@@ -357,27 +357,27 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- AI və rule-based sistem fərqi; nəyi mikrokontroller, nəyi server yerinə yetirməlidir?
+\- AI və rule-based sistem fərqi; nəyi mikrokontroller, nəyi server yerinə yetirməlidir?
 
 
 
-- Speech-to-Text, Text-to-Speech və səs əmrlərinin emalı.
+\- Speech-to-Text, Text-to-Speech və səs əmrlərinin emalı.
 
 
 
-- Azərbaycan dilində komanda axını üçün prototipləmə.
+\- Azərbaycan dilində komanda axını üçün prototipləmə.
 
 
 
-- Python vasitəsilə AI xidmətləri və robot funksiyaları arasında körpü.
+\- Python vasitəsilə AI xidmətləri və robot funksiyaları arasında körpü.
 
 
 
-- İcazə verilən əmrlər siyahısı, yanlış tanıma zamanı təsdiq və təhlükəsiz icra.
+\- İcazə verilən əmrlər siyahısı, yanlış tanıma zamanı təsdiq və təhlükəsiz icra.
 
 
 
-- Lokal AI imkanları, bulud xidmətlərinin məhdudiyyətləri və məxfilik.
+\- Lokal AI imkanları, bulud xidmətlərinin məhdudiyyətləri və məxfilik.
 
 
 
@@ -389,23 +389,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- ESP32-CAM, kamera interfeysləri, OpenCV və görüntü emalına giriş.
+\- ESP32-CAM, kamera interfeysləri, OpenCV və görüntü emalına giriş.
 
 
 
-- Obyektin aşkarlanması, hərəkət aşkarlanması və vizual hadisə analizi.
+\- Obyektin aşkarlanması, hərəkət aşkarlanması və vizual hadisə analizi.
 
 
 
-- Kamera kadrının serverdə işlənməsi və nəticənin ESP32-yə qaytarılması.
+\- Kamera kadrının serverdə işlənməsi və nəticənin ESP32-yə qaytarılması.
 
 
 
-- Vizual izləmə ilə pan–tilt reaksiya sistemi.
+\- Vizual izləmə ilə pan–tilt reaksiya sistemi.
 
 
 
-- Gizlilik, razılıq və görüntülərin təhlükəsiz saxlanması.
+\- Gizlilik, razılıq və görüntülərin təhlükəsiz saxlanması.
 
 
 
@@ -417,23 +417,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- RFID/NFC texnologiyaları və autentifikasiya məhdudiyyətləri.
+\- RFID/NFC texnologiyaları və autentifikasiya məhdudiyyətləri.
 
 
 
-- Barmaq izi sensoru ilə qeydiyyat, yoxlama və giriş qərarı.
+\- Barmaq izi sensoru ilə qeydiyyat, yoxlama və giriş qərarı.
 
 
 
-- Relay və elektromaqnit qıfılın qorunan idarəetmə arxitekturası.
+\- Relay və elektromaqnit qıfılın qorunan idarəetmə arxitekturası.
 
 
 
-- İcazə verilən/verilməyən giriş hadisələrinin qeydiyyatı.
+\- İcazə verilən/verilməyən giriş hadisələrinin qeydiyyatı.
 
 
 
-- Anti-replay prinsipləri, default-deny və manual emergency override.
+\- Anti-replay prinsipləri, default-deny və manual emergency override.
 
 
 
@@ -445,35 +445,35 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Yalnız **\*\*öz cihazların və icazəli, təcrid edilmiş laboratoriya\*\*** mühitində təhlükəsizlik testləri.
+\- Yalnız **\*\*öz cihazların və icazəli, təcrid edilmiş laboratoriya\*\*** mühitində təhlükəsizlik testləri.
 
 
 
-- UART, I²C və SPI trafikinin diaqnostikası; firmware və debug interfeysləri.
+\- UART, I²C və SPI trafikinin diaqnostikası; firmware və debug interfeysləri.
 
 
 
-- IoT threat modeling, secure boot/flash encryption prinsipləri, sirlərin qorunması.
+\- IoT threat modeling, secure boot/flash encryption prinsipləri, sirlərin qorunması.
 
 
 
-- Wi-Fi/BLE bağlantılarında autentifikasiya, şifrələmə və məxfilik.
+\- Wi-Fi/BLE bağlantılarında autentifikasiya, şifrələmə və məxfilik.
 
 
 
-- RFID sistemlərinin təhlükə modelləri və müdafiə mexanizmləri.
+\- RFID sistemlərinin təhlükə modelləri və müdafiə mexanizmləri.
 
 
 
-- USB HID risklərinin təhlili və yalnız təsdiq edilmiş demo avtomatlaşdırması.
+\- USB HID risklərinin təhlili və yalnız təsdiq edilmiş demo avtomatlaşdırması.
 
 
 
-- Loglama, anomaliya aşkarlanması, Wazuh/Splunk/SIEM ilə konseptual inteqrasiya.
+\- Loglama, anomaliya aşkarlanması, Wazuh/Splunk/SIEM ilə konseptual inteqrasiya.
 
 
 
-- İcazəsiz radio siqnalı yayımı, şəbəkəyə müdaxilə və üçüncü şəxslərin cihazlarında test yoxdur.
+\- İcazəsiz radio siqnalı yayımı, şəbəkəyə müdaxilə və üçüncü şəxslərin cihazlarında test yoxdur.
 
 
 
@@ -485,23 +485,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Linux və Python servis arxitekturası; robot üçün backend.
+\- Linux və Python servis arxitekturası; robot üçün backend.
 
 
 
-- Docker ilə lokaldakı xidmətləri ayırma, API və webhook axınları.
+\- Docker ilə lokaldakı xidmətləri ayırma, API və webhook axınları.
 
 
 
-- Hadisə qaydaları, n8n tipli workflow və Telegram bildirişlərinin layihələndirilməsi.
+\- Hadisə qaydaları, n8n tipli workflow və Telegram bildirişlərinin layihələndirilməsi.
 
 
 
-- Məlumatın saxlanması, audit, monitorinq və səhv olduqda bərpa strategiyası.
+\- Məlumatın saxlanması, audit, monitorinq və səhv olduqda bərpa strategiyası.
 
 
 
-- İstəyə bağlı inteqrasiya: SIEM məlumatları əsasında robotun ekran/səs xəbərdarlığı.
+\- İstəyə bağlı inteqrasiya: SIEM məlumatları əsasında robotun ekran/səs xəbərdarlığı.
 
 
 
@@ -513,19 +513,19 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Mobil panel, brauzer və lokal şəbəkədən idarəetmə.
+\- Mobil panel, brauzer və lokal şəbəkədən idarəetmə.
 
 
 
-- Joystick, touch input və serial komanda interfeysləri.
+\- Joystick, touch input və serial komanda interfeysləri.
 
 
 
-- Əmr prioritetləri, səlahiyyətlər, timeout və emergency stop.
+\- Əmr prioritetləri, səlahiyyətlər, timeout və emergency stop.
 
 
 
-- Geri əlaqə: kamera, sensor statusu və aktuator mövqeyi.
+\- Geri əlaqə: kamera, sensor statusu və aktuator mövqeyi.
 
 
 
@@ -537,19 +537,19 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- Sxem və blok diaqramı, BOM (hissə siyahısı), GitHub README.
+\- Sxem və blok diaqramı, BOM (hissə siyahısı), GitHub README.
 
 
 
-- Firmware, backend, dashboard və AI modullarının inteqrasiya testləri.
+\- Firmware, backend, dashboard və AI modullarının inteqrasiya testləri.
 
 
 
-- Sensor səhvi, internet kəsintisi, enerji problemi və fail-safe testləri.
+\- Sensor səhvi, internet kəsintisi, enerji problemi və fail-safe testləri.
 
 
 
-- Demo videosu, texniki hesabat və məhsul prototipinin təqdimatı.
+\- Demo videosu, texniki hesabat və məhsul prototipinin təqdimatı.
 
 
 
@@ -569,46 +569,47 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-| Layihə | Texnologiyalar | Nümayiş etdirilən bacarıq |
+\| Layihə | Texnologiyalar | Nümayiş etdirilən bacarıq |
 
 
 
-|---|---|---|
+\|---|---|---|
 
 
 
-| **\*\*Casper Robotic Head\*\*** | ESP32, servo, joystick, PWM | Baş hərəkəti, kalibrasiya və manual/auto rejim |
+\| **\*\*Casper Robotic Head\*\*** | ESP32, servo, joystick, PWM | Baş hərəkəti, kalibrasiya və manual/auto rejim |
 
 
 
-| **\*\*Casper Digital Eyes\*\*** | ESP32-S3, TFT ILI9341 | Robotun vizual ifadəsi və ekran animasiyası |
+\| **\*\*Casper Digital Eyes\*\*** | ESP32-S3, TFT ILI9341 | Robotun vizual ifadəsi və ekran animasiyası |
 
 
 
-| **\*\*Casper Voice Control\*\*** | Python, Android TTS, HTTP API | Səs və serverlə robot idarəetməsi |
+\| **\*\*Casper Voice Control\*\*** | Python, Android TTS, HTTP API | Səs və serverlə robot idarəetməsi |
 
 
 
-| **\*\*Casper Smart Access\*\*** | RC522, fingerprint, relay | RFID, biometrik yoxlama və giriş logları |
-
-
-| **\*\*Casper Sensor Lab\*\*** | HC-SR04, EMG, TTP229 | Sensorlardan siqnal və hadisə emalı |
+\| **\*\*Casper Smart Access\*\*** | RC522, fingerprint, relay | RFID, biometrik yoxlama və giriş logları |
 
 
 
-| **\*\*Casper IoT Bridge\*\*** | ESP32, Wi-Fi, JSON, Python | Robot–server arasında məlumat mübadiləsi |
+\| **\*\*Casper Sensor Lab\*\*** | HC-SR04, EMG, TTP229 | Sensorlardan siqnal və hadisə emalı |
 
 
 
-| **\*\*Casper Cyber Alert\*\*** | SIEM hadisələri, webhook, səs/display | Təhlükəsizlik bildirişlərinin robotda əks olunması |
+\| **\*\*Casper IoT Bridge\*\*** | ESP32, Wi-Fi, JSON, Python | Robot–server arasında məlumat mübadiləsi |
 
 
 
-| **\*\*Casper Hardware Security Lab\*\*** | ESP32, UART/SPI/I²C, HID demo | Embedded sistemlərin etik təhlükəsizlik təhlili |
+\| **\*\*Casper Cyber Alert\*\*** | SIEM hadisələri, webhook, səs/display | Təhlükəsizlik bildirişlərinin robotda əks olunması |
 
 
 
-> **\*\*Casper AI tək bir robot deyil — sensorlar, mikrokontrollerlər, AI modulları, serverlər və təhlükəsizlik laboratoriyalarını birləşdirən mühəndislik konseptidir.\*\***
+\| **\*\*Casper Hardware Security Lab\*\*** | ESP32, UART/SPI/I²C, HID demo | Embedded sistemlərin etik təhlükəsizlik təhlili |
+
+
+
+\> **\*\*Casper AI tək bir robot deyil — sensorlar, mikrokontrollerlər, AI modulları, serverlər və təhlükəsizlik laboratoriyalarını birləşdirən mühəndislik konseptidir.\*\***
 
 
 
@@ -660,23 +661,23 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-- ESP32/Arduino ilə baza səviyyəsində işləyib daha ciddi robot sistemi qurmaq istəyənlər.
+\- ESP32/Arduino ilə baza səviyyəsində işləyib daha ciddi robot sistemi qurmaq istəyənlər.
 
 
 
-- C/C++ və Python bacarıqlarını fiziki cihazlarda tətbiq etmək istəyən proqramçılar.
+\- C/C++ və Python bacarıqlarını fiziki cihazlarda tətbiq etmək istəyən proqramçılar.
 
 
 
-- AI, computer vision və səsli köməkçini real robotla birləşdirmək istəyənlər.
+\- AI, computer vision və səsli köməkçini real robotla birləşdirmək istəyənlər.
 
 
 
-- IoT və embedded security sahəsində ixtisaslaşmaq istəyən kibertəhlükəsizlik mütəxəssisləri.
+\- IoT və embedded security sahəsində ixtisaslaşmaq istəyən kibertəhlükəsizlik mütəxəssisləri.
 
 
 
-- Öz **\*\*robot prototipini, smart security cihazını və ya AI-assisted automation\*\*** sistemini yaratmaq istəyən mühəndislər.
+\- Öz **\*\*robot prototipini, smart security cihazını və ya AI-assisted automation\*\*** sistemini yaratmaq istəyən mühəndislər.
 
 
 
@@ -692,31 +693,31 @@ Bir çox başlanğıc robotexnika dərslərində robot sadəcə xətt izləyir v
 
 
 
-1. Mikrokontroller üçün strukturlaşdırılmış firmware yazmaq və debug etmək.
+1\. Mikrokontroller üçün strukturlaşdırılmış firmware yazmaq və debug etmək.
 
 
 
-2. Servo, motor, sensor, displey və enerji hissələrini təhlükəsiz inteqrasiya etmək.
+2\. Servo, motor, sensor, displey və enerji hissələrini təhlükəsiz inteqrasiya etmək.
 
 
 
-3. Robot üçün **\*\*brain/controller\*\*** arxitekturası və qərar mexanizmi yaratmaq.
+3\. Robot üçün **\*\*brain/controller\*\*** arxitekturası və qərar mexanizmi yaratmaq.
 
 
 
-4. Python serveri və API ilə robotu idarə etmək.
+4\. Python serveri və API ilə robotu idarə etmək.
 
 
 
-5. Robotun səs, vizual və sensor reaksiyalarını AI imkanları ilə birləşdirmək.
+5\. Robotun səs, vizual və sensor reaksiyalarını AI imkanları ilə birləşdirmək.
 
 
 
-6. IoT cihazları üçün təhlükə modeli, giriş nəzarəti və audit logları qurmaq.
+6\. IoT cihazları üçün təhlükə modeli, giriş nəzarəti və audit logları qurmaq.
 
 
 
-7. Prototipin sxemini, kodunu, test hesabatını və portfoliolarını təqdim etmək.
+7\. Prototipin sxemini, kodunu, test hesabatını və portfoliolarını təqdim etmək.
 
 
 
@@ -848,15 +849,15 @@ Müddət, dərs qrafiki, qrup ölçüsü, qiymət və mümkün sertifikat şərt
 
 
 
-- **\*\*Robotexnika və robototexnika:\*\*** robotexnika kursu, robototexnika kursları, Bakı robot dərsləri, robot hazırlama, qabaqcıl robot mühəndisliyi, robot proqramlaşdırma.
+\- **\*\*Robotexnika və robototexnika:\*\*** robotexnika kursu, robototexnika kursları, Bakı robot dərsləri, robot hazırlama, qabaqcıl robot mühəndisliyi, robot proqramlaşdırma.
 
-- **\*\*Kiber robot və hacking:\*\*** kiber robot kursu, kiber robotexnika, etik hacking kursu, hardware hacking, IoT hacking, embedded security, kiber təhlükəsizlik kursu Azərbaycan.
+\- **\*\*Kiber robot və hacking:\*\*** kiber robot kursu, kiber robotexnika, etik hacking kursu, hardware hacking, IoT hacking, embedded security, kiber təhlükəsizlik kursu Azərbaycan.
 
-- **\*\*AI və avtomatlaşdırma:\*\*** süni intellekt robotu, AI robot beyni, Casper AI, səsli robot idarəetmə, computer vision, sensor fusion, ağıllı sistemlər.
+\- **\*\*AI və avtomatlaşdırma:\*\*** süni intellekt robotu, AI robot beyni, Casper AI, səsli robot idarəetmə, computer vision, sensor fusion, ağıllı sistemlər.
 
-- **\*\*Elektronika və embedded proqramlaşdırma:\*\*** ESP32, ESP32-S3, Arduino, Raspberry Pi Pico, mikrokontroller kursu, C/C++, MicroPython, robot firmware, RFID və servo idarəetmə.
+\- **\*\*Elektronika və embedded proqramlaşdırma:\*\*** ESP32, ESP32-S3, Arduino, Raspberry Pi Pico, mikrokontroller kursu, C/C++, MicroPython, robot firmware, RFID və servo idarəetmə.
 
-- **\*\*Praktiki layihələr:\*\*** Casper AI Robotic Head, Digital Eyes, Voice Control, Smart Access, Cyber Alert Robot, AI Security Assistant.
+\- **\*\*Praktiki layihələr:\*\*** Casper AI Robotic Head, Digital Eyes, Voice Control, Smart Access, Cyber Alert Robot, AI Security Assistant.
 
 
 
@@ -893,191 +894,97 @@ Müddət, dərs qrafiki, qrup ölçüsü, qiymət və mümkün sertifikat şərt
 
 
 <!-- SEO Structured Data: Course -->
-
-
-
 <script type="application/ld+json">
-
 {
-
-  "@context": "https\://schema.org",
-
-  "@type": "Course",
-
-  "name": "Robotexnika Kursu Azərbaycanda — Advanced Robotics və Casper AI",
-
-  "description": "Emin Savaylov tərəfindən təqdim olunan qabaqcıl robotexnika, AI, mikrokontroller, kiber robot və etik hardware hacking təlim konsepti.",
-
-  "url": "https\://cybershieldy.com/robotexnika-casper-ai-kursu/",
-
-  "inLanguage": "az-AZ",
-
-  "provider": {
-
-    "@type": "Organization",
-
-    "name": "CyberShieldy Academy",
-
-    "url": "https\://cybershieldy.com/"
-
-  },
-
-  "instructor": {
-
-    "@type": "Person",
-
-    "name": "Emin Savaylov"
-
-  },
-
-  "educationalLevel": "Advanced",
-
-  "keywords": [
-
-    "robotexnika kursu",
-
-    "robototexnika kursu",
-
-    "robot texnikası kursu",
-
-    "robotexnika kursları Azərbaycan",
-
-    "robotexnika kursu Bakı",
-
-    "robotexnika dərsləri",
-
-    "robot hazırlama kursu",
-
-    "robot proqramlaşdırma kursu",
-
-    "qabaqcıl robotexnika kursu",
-
-    "advanced robotexnika kursu",
-
-    "robot mühəndisliyi kursu",
-
-    "ağıllı robot kursu",
-
-    "kiber robot kursu",
-
-    "kiber robotexnika kursu",
-
-    "kiber robot hazırlamaq",
-
-    "AI robot kursu",
-
-    "süni intellekt kursu",
-
-    "süni intellekt robotexnika",
-
-    "AI və robotexnika kursu",
-
-    "Casper AI kursu",
-
-    "Casper AI robot layihəsi",
-
-    "Casper AI Engineering",
-
-    "kibertəhlükəsizlik kursu",
-
-    "kiber təhlükəsizlik kursu",
-
-    "kibertəhlükəsizlik kursu Bakı",
-
-    "kiber təhlükəsizlik kursu Azərbaycan",
-
-    "ethical hacking kursu",
-
-    "etik hakerlik kursu",
-
-    "hacker kursu",
-
-    "hacking kursu",
-
-    "hardware hacking kursu",
-
-    "IoT hacking kursu",
-
-    "etik hardware hacking",
-
-    "IoT təhlükəsizlik kursu",
-
-    "embedded security kursu",
-
-    "mikrokontroller kursu",
-
-    "mikrokontroller proqramlaşdırma",
-
-    "ESP32 kursu",
-
-    "ESP32-S3 proqramlaşdırma",
-
-    "Arduino kursu",
-
-    "Arduino proqramlaşdırma",
-
-    "Raspberry Pi Pico",
-
-    "MicroPython kursu",
-
-    "C++ mikrokontroller",
-
-    "Python robot proqramlaşdırma",
-
-    "robot beyni proqramlaşdırma",
-
-    "embedded systems kursu",
-
-    "IoT kursu Azərbaycan",
-
-    "ağıllı cihaz proqramlaşdırma",
-
-    "robot səsli idarəetmə",
-
-    "robot computer vision",
-
-    "AI robot beyni",
-
-    "RFID robot layihəsi",
-
-    "biometrik robot",
-
-    "robot sensorları",
-
-    "servo motor idarəetmə",
-
-    "robot firmware",
-
-    "robot təhlükəsizlik sistemləri",
-
-    "Red Team Blue Team",
-
-    "CyberShieldy Academy",
-
-    "Emin Savaylov"
-
-  ],
-
-  "about": [
-
-    "Robotexnika",
-
-    "Kiber robot",
-
-    "Casper AI",
-
-    "Süni intellekt",
-
-    "Kibertəhlükəsizlik",
-
-    "ESP32",
-
-    "Etik hardware hacking"
-
-  ]
-
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Robotexnika Kursu Azərbaycanda — Advanced Robotics və Casper AI",
+  "description": "Emin Savaylov tərəfindən təqdim olunan qabaqcıl robotexnika, AI, mikrokontroller, kiber robot və etik hardware hacking təlim konsepti.",
+  "url": "https://cybershieldy.com/robotexnika-casper-ai-kursu/",
+  "inLanguage": "az-AZ",
+  "provider": {
+    "@type": "Organization",
+    "name": "CyberShieldy Academy",
+    "url": "https://cybershieldy.com/"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Emin Savaylov"
+  },
+  "educationalLevel": "Advanced",
+  "keywords": [
+    "robotexnika kursu",
+    "robototexnika kursu",
+    "robot texnikası kursu",
+    "robotexnika kursları Azərbaycan",
+    "robotexnika kursu Bakı",
+    "robotexnika dərsləri",
+    "robot hazırlama kursu",
+    "robot proqramlaşdırma kursu",
+    "qabaqcıl robotexnika kursu",
+    "advanced robotexnika kursu",
+    "robot mühəndisliyi kursu",
+    "ağıllı robot kursu",
+    "kiber robot kursu",
+    "kiber robotexnika kursu",
+    "kiber robot hazırlamaq",
+    "AI robot kursu",
+    "süni intellekt kursu",
+    "süni intellekt robotexnika",
+    "AI və robotexnika kursu",
+    "Casper AI kursu",
+    "Casper AI robot layihəsi",
+    "Casper AI Engineering",
+    "kibertəhlükəsizlik kursu",
+    "kiber təhlükəsizlik kursu",
+    "kibertəhlükəsizlik kursu Bakı",
+    "kiber təhlükəsizlik kursu Azərbaycan",
+    "ethical hacking kursu",
+    "etik hakerlik kursu",
+    "hacker kursu",
+    "hacking kursu",
+    "hardware hacking kursu",
+    "IoT hacking kursu",
+    "etik hardware hacking",
+    "IoT təhlükəsizlik kursu",
+    "embedded security kursu",
+    "mikrokontroller kursu",
+    "mikrokontroller proqramlaşdırma",
+    "ESP32 kursu",
+    "ESP32-S3 proqramlaşdırma",
+    "Arduino kursu",
+    "Arduino proqramlaşdırma",
+    "Raspberry Pi Pico",
+    "MicroPython kursu",
+    "C++ mikrokontroller",
+    "Python robot proqramlaşdırma",
+    "robot beyni proqramlaşdırma",
+    "embedded systems kursu",
+    "IoT kursu Azərbaycan",
+    "ağıllı cihaz proqramlaşdırma",
+    "robot səsli idarəetmə",
+    "robot computer vision",
+    "AI robot beyni",
+    "RFID robot layihəsi",
+    "biometrik robot",
+    "robot sensorları",
+    "servo motor idarəetmə",
+    "robot firmware",
+    "robot təhlükəsizlik sistemləri",
+    "Red Team Blue Team",
+    "CyberShieldy Academy",
+    "Emin Savaylov"
+  ],
+  "about": [
+    "Robotexnika",
+    "Kiber robot",
+    "Casper AI",
+    "Süni intellekt",
+    "Kibertəhlükəsizlik",
+    "ESP32",
+    "Etik hardware hacking"
+  ]
 }
-
 </script>
 
 
