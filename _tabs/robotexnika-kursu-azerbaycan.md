@@ -14,7 +14,7 @@ icon: fas fa-robot
 
 # 🤖 Advanced Robotexnika, Süni İntellekt və Casper AI Kursu
 
-![Robotexnika kursu Azərbaycanda — Casper AI, ESP32, süni intellekt və kiber robot layihələri](/assets/images/casper-ai-robotexnika-kursu.webp "Casper AI — Advanced Robotexnika və Kiber Robot Kursu")
+![Robotexnika kursu Azərbaycanda — Casper AI, ESP32, süni intellekt və kiber robot layihələri](/assets/images/rosec.webp "Casper AI — Advanced Robotexnika və Kiber Robot Kursu")
 
 ### Robotun yalnız hərəkətini deyil, onun **beynini, proqramını, sensorlarını və təhlükəsizlik sistemini** özün qur!
 **CyberShieldy Academy** tərəfindən təqdim edilən **Advanced Robotexnika & Casper AI Engineering** təlimi sadə robot yığımı ilə məhdudlaşmayan, **mikrokontroller, embedded systems, süni intellekt, IoT, kompüter görməsi, robot avtomatikası və kibertəhlükəsizliyi** birləşdirən layihə əsaslı tədris konseptidir.
