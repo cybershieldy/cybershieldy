@@ -896,7 +896,7 @@ Müddət, dərs qrafiki, qrup ölçüsü, qiymət və mümkün sertifikat şərt
 
 
 
-\<script type="application/ld+json">
+<script type="application/ld+json">
 
 {
 
