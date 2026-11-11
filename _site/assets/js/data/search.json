@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32-S3, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin",
+    "url": "/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika",
+    "categories": "kibertəhlükəsizlik, robotexnika, ethical hacking, iot security, embedded security, ai cybersecurity, kiber dərsləri",
+    "tags": "kibertəhlükəsizlik, kiber təhlükəsizlik, kibertəhlükəsizlik Azərbaycan, kibertəhlükəsizlik kursu, kiber təhlükəsizlik dərsləri, kiber dərs, kiber dərsləri, hacker dərsləri, ethical hacking, ethical hacking Azerbaijan, hacking, ethical hacker, penetration testing, pentest kursu, red team, blue team, purple team, SOC, SIEM, Wazuh, Splunk, robotexnika, robotexnika kursu, robototexnika, AI robotics, EMG, EMG sensor, əzələ sensoru, elektromioqrafiya, muscle sensor, muscle control, bioelektrik siqnal, biosignal, human computer interaction, biohacking, ESP32, ESP32-S3, Android, ADB, IoT security, embedded systems, CASPER AI, CyberShieldy, CyberShieldy Academy, Savaylov Emin, Emin Savaylov",
+    "date": "2026-11-11 08:00:00 +0400",
+    "content": "Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32-S3, Python və Android ADB ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri."
+  },
+  
+  {
     "title": "🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin",
     "url": "/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai",
     "categories": "kibertəhlükəsizlik, kiber dərsləri, ethical hacking, red team, blue team, iot security, embedded security, ai cybersecurity, penetration testing, cybersecurity education",

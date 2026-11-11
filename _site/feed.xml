@@ -1,4 +1,661 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-11-05T21:03:40+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin</title><link href="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai" rel="alternate" type="text/html" title="🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin" /><published>2026-11-04T12:00:00+04:00</published><updated>2026-11-04T18:37:19+04:00</updated><id>https://cybershieldy.com/posts/cardputer-halehound-m5stick-casper-ai-red-blue-team-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai"><![CDATA[<h1 id="️-mikrokontrollerlər-müasir-kibertəhlükəsizlikdə-niyə-vacibdir">🤖🛡️ Mikrokontrollerlər müasir kibertəhlükəsizlikdə niyə vacibdir?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-11-11T14:22:22+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32-S3, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin</title><link href="https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika" rel="alternate" type="text/html" title="💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32-S3, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin" /><published>2026-11-11T08:00:00+04:00</published><updated>2026-11-11T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/emg-ezele-sensoru-esp32-casper-ai-telefon-idareetme-robotexnika-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika"><![CDATA[<h1 id="-əzələ-siqnalı-ilə-telefonu-idarə-etmək-emg-esp32-s3-və-casper-ai">💪🧠 Əzələ siqnalı ilə telefonu idarə etmək: EMG, ESP32-S3 və CASPER AI</h1>
+
+<h3 id="-robotexnika--️-kibertəhlükəsizlik---android---bioelektronika---red--blue-team">🤖 Robotexnika × 🛡️ Kibertəhlükəsizlik × 📱 Android × 🧬 Bioelektronika × 🔴🔵 Red &amp; Blue Team</h3>
+
+<p><strong>Müəllif: Savaylov Emin — kibertəhlükəsizlik mütəxəssisi, Red Team və Blue Team üzrə təlimçi, CyberShieldy Academy və CASPER AI praktiki laboratoriya layihələrinin inkişaf etdiricisi.</strong></p>
+
+<p>Telefonu toxunmadan idarə etmək mümkündürmü? Əzələlərimizin yaratdığı elektrik aktivliyi rəqəmsal əmrlərə çevrilə bilərmi? Bəs belə bir sistem <strong>robotexnika, IoT, süni intellekt və kibertəhlükəsizlik</strong> üçün hansı yeni imkanları açır?</p>
+
+<p>Bu sualları nəzəri müzakirə ilə məhdudlaşdırmadım. <strong>CyberShieldy CASPER AI laboratoriyasında EMG (elektromioqrafiya) əzələ sensorundan alınan siqnalı ESP32 və server proqramı vasitəsilə emal edərək Android telefonunda ekranın kilidlənməsi və açılma davranışını idarə edən eksperimental demo qurduq.</strong> Buradakı “açılma” telefonu sirrli yolla sındırmaq, PIN və ya biometrik doğrulamanı keçmək demək deyil: sınaq öz laboratoriya cihazımızda, icazəli Android idarəetmə interfeysi vasitəsilə aparılıb.</p>
+
+<p><strong>Layihənin ideyası:</strong> İnsan əzələsi → EMG siqnalı → mikrokontroller → proqram məntiqi → Android əmri. Kiçik bir sensor belə <strong>həm insan–kompüter interfeysi, həm də real təhlükəsizlik laboratoriyası</strong> yarada bilər.</p>
+
+<blockquote>
+  <p><strong>“Gələcəyin kibertəhlükəsizlik mütəxəssisi təkcə proqramı deyil, siqnalın fiziki dünyadan rəqəmsal sistemə necə keçdiyini də anlamalıdır.” — Savaylov Emin</strong></p>
+</blockquote>
+
+<hr />
+
+<h2 id="-real-laboratoriya-videosu--emg-əzələ-sensoru-ilə-telefonun-idarə-edilməsi">🎥 Real laboratoriya videosu — EMG əzələ sensoru ilə telefonun idarə edilməsi</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>📲 **[Instagram Reels — Savaylov Emin</td>
+      <td>EMG Muscle Sensor + CASPER AI + Android](https://www.instagram.com/reel/DffB9eWtafb/)**</td>
+    </tr>
+  </tbody>
+</table>
+
+<iframe src="https://www.instagram.com/reel/DffB9eWtafb/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;max-width:540px;" loading="lazy" allowfullscreen="" title="Savaylov Emin — EMG əzələ sensoru, CASPER AI və Android telefon idarəetməsi"></iframe>
+
+<p>Bu video layihənin <strong>praktik nümayişinə</strong> həsr olunub. Aşağıdakı məqalədə isə həmin ideyanın mühəndislik arxitekturasını, <strong>ethical hacking</strong>, <strong>IoT security</strong>, <strong>Blue Team</strong>, <strong>robotexnika</strong>, <strong>AI və avtomatlaşdırma</strong> baxımından rolunu geniş izah edirəm.</p>
+
+<hr />
+
+<h2 id="-emg-nədir-əzələ-siqnalı-necə-oxunur">⚡ EMG nədir? Əzələ siqnalı necə oxunur?</h2>
+
+<p><strong>EMG — Electromyography (elektromioqrafiya)</strong> — əzələ aktivliyi ilə əlaqəli elektrik siqnallarının ölçülməsi üsuludur. İnsan hərəkət etməyə çalışanda və ya əzələsini gərginləşdirəndə sinir–əzələ fəaliyyəti elektrik dəyişiklikləri yaradır. Uyğun sensor və elektrodlar həmin zəif dəyişiklikləri qəbul edib ölçülə bilən siqnala çevirə bilir.</p>
+
+<p>Bu, düşüncələrin oxunması deyil. <strong>EMG beyindəki fikirləri deyil, əzələ aktivliyini ölçür.</strong> EEG ilə EMG qarışdırılmamalıdır: EEG baş dərisindən beynin elektrik aktivliyini, EMG isə əzələ aktivliyini müşahidə etmək üçün istifadə olunur.</p>
+
+<p>Laboratoriya baxımından proses belədir:</p>
+
+<ol>
+  <li><strong>Elektrodlar</strong> əzələ aktivliyindən yaranan bioelektrik dəyişiklikləri tutur.</li>
+  <li><strong>EMG siqnal kondisioneri</strong> siqnalı gücləndirir və uyğun formaya salır.</li>
+  <li><strong>ESP32-S3 kimi mikrokontroller</strong> uyğun analog girişdən dəyəri ölçür.</li>
+  <li><strong>Proqram təminatı</strong> səs-küyü süzgəcdən keçirir, aktivlik həddini və komandaları müəyyən edir.</li>
+  <li><strong>Backend</strong> qəbul etdiyi hadisəni yoxlayır, qeydə alır və icazəli əmri həyata keçirir.</li>
+  <li><strong>Android test cihazı</strong> uyğun sistem əmrinə cavab verir.</li>
+</ol>
+
+<p>Beləliklə, insanın fiziki hərəkəti <strong>rəqəmsal hadisəyə (digital event)</strong> çevrilir. Bu proses robotexnika, əlilliyi olan şəxslər üçün köməkçi texnologiyalar, protezlərin tədqiqatı, oyun idarəetməsi və təhlükəsizlik laboratoriyaları üçün maraqlı tədris mövzusudur.</p>
+
+<hr />
+
+<h2 id="-casper-ai-emg-laboratoriyasını-necə-qurduq">🧪 CASPER AI EMG laboratoriyasını necə qurduq?</h2>
+
+<p>Layihənin müxtəlif test mərhələlərində <strong>EMG sensoru, ESP32-S3, Python serveri, Wi-Fi bağlantısı, Android telefon və ADB (Android Debug Bridge)</strong> istifadə edildi. Məqsəd EMG siqnalındakı dəyişiklikləri izləyib onları laboratoriya şəraitində telefon idarəetmə hadisələri ilə əlaqələndirmək idi.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Komponent</th>
+      <th>Laboratoriyadakı rolu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EMG əzələ sensoru</strong></td>
+      <td>Əzələ aktivliyi ilə bağlı analoq siqnalı əldə etmək</td>
+    </tr>
+    <tr>
+      <td><strong>ESP32-S3</strong></td>
+      <td>Sensor oxunuşlarını proqramla emal etmək və ötürmək</td>
+    </tr>
+    <tr>
+      <td><strong>Wi-Fi / HTTP</strong></td>
+      <td>Hadisəni yerli şəbəkədəki serverə göndərmək</td>
+    </tr>
+    <tr>
+      <td><strong>Python backend</strong></td>
+      <td>Siqnal və əmrlər arasında qərar məntiqi qurmaq</td>
+    </tr>
+    <tr>
+      <td><strong>Android + ADB</strong></td>
+      <td>Öz test telefonumuzda icazəli ekran idarəetmə əmrləri</td>
+    </tr>
+    <tr>
+      <td><strong>CASPER AI konsepti</strong></td>
+      <td>Sensor, telemetriya, avtomatlaşdırma və gələcək ağıllı qərar mexanizmlərini birləşdirmək</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-sistem-arxitekturası">📡 Sistem arxitekturası</h3>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</pre></td><td class="rouge-code"><pre>       💪 İNSAN ƏZƏLƏSİ
+               |
+               v
+      [ EMG MUSCLE SENSOR ]
+               |
+        ANALOG SİQNAL
+               |
+               v
+         [ ESP32-S3 ]
+       Ölçmə + filtrasiya
+               |
+          Wi-Fi / HTTP
+               |
+               v
+       [ PYTHON SERVER ]
+    Hadisə yoxlama + loglama
+               |
+       İcazəli ADB əmri
+               |
+               v
+       [ ANDROID TELEFON ]
+     Ekran/kilid demo davranışı
+               |
+               v
+    [ CASPER AI LAB TELEMETRİYA ]
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Burada <strong>telefonun ekranını yandırmaq, kilidləmək və istifadəçi tərəfindən müəyyənləşdirilmiş test hərəkətini icra etmək</strong> ayrı-ayrı anlayışlardır. ADB ilə ekranı oyatmaq Android-in PIN, parol və ya biometrik təhlükəsizlik mexanizmini avtomatik ləğv etmir. Təhlükəsiz kilid aktivdirsə, normal autentifikasiya yenə tələb olunmalıdır.</p>
+
+<h3 id="-hadisə-məntiqi">📊 Hadisə məntiqi</h3>
+
+<p><strong>Əzələ aktivliyi aşkarlanır → təsdiqləmə pəncərəsi → icazəli idarəetmə əmri → Android vəziyyətinin yoxlanması → hadisənin jurnala yazılması.</strong></p>
+
+<p>Məsələn, tədris üçün uydurulmuş JSON formatında:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="p">{</span><span class="w">
+  </span><span class="nl">"project"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CYBERSHIELDY CASPER AI"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sensor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EMG"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"device"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ESP32-S3"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"event_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"muscle_activation_detected"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"confidence"</span><span class="p">:</span><span class="w"> </span><span class="s2">"demo_threshold_passed"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"action_requested"</span><span class="p">:</span><span class="w"> </span><span class="s2">"android_screen_control"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"environment"</span><span class="p">:</span><span class="w"> </span><span class="s2">"authorized_lab"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"reviewed"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Qeyd:</strong> Bu JSON real qeydiyyat faylından çıxarış deyil; məqalə üçün hazırlanmış nümunədir. Sadə threshold nəticəsi elmi mənada etibarlı biometrik “confidence score” deyil.</p>
+
+<hr />
+
+<h2 id="-casper-ai-bu-layihədə-nə-deməkdir">🧠 CASPER AI bu layihədə nə deməkdir?</h2>
+
+<p><strong>CASPER AI</strong> mənim robotexnika, sensor sistemləri, proqramlaşdırma və kibertəhlükəsizlik üzərində qurduğum laboratoriya ekosistemidir. Onun əsas istiqaməti fiziki hadisələri rəqəmsal infrastrukturla əlaqələndirməkdir.</p>
+
+<p>EMG layihəsi həmin ekosistemə yeni bir imkan əlavə edir: <strong>bədən hərəkətinin sensor vasitəsilə əmri işə salması</strong>. Eyni yanaşma digər layihələrdə barmaq izi, RFID, kamera, ultrasonik sensor, servo-motor, səsli komandalar və xəbərdarlıq sistemləri ilə də tətbiq oluna bilər.</p>
+
+<p>Əsas məqsəd sensoru “AI” adı ilə təqdim etmək deyil. Sadə hədd yoxlaması <strong>süni intellekt modeli deyil</strong>. Gələcəkdə kalibrlənmiş siqnallar üzərində xüsusiyyət çıxarma, təkrarlanan jestlərin təsnifatı və səhv aktivləşmələrin azaldılması üçün maşın öyrənməsi ayrıca əlavə oluna bilər. CASPER AI burada <strong>layihə platformasının və inteqrasiya istiqamətinin adıdır</strong>; EMG nümayişində bütün AI imkanlarının işlək olduğu iddia edilmir.</p>
+
+<h3 id="-gələcək-inkişaf-istiqamətləri">🚀 Gələcək inkişaf istiqamətləri</h3>
+
+<ul>
+  <li><strong>Gesture recognition:</strong> bir neçə əzələ gərginləşmə nümunəsini ayrı komandalara çevirmək.</li>
+  <li><strong>Robot control:</strong> EMG ilə servo-motoru, robot əlini və ya pan-tilt mexanizmini idarə etmək.</li>
+  <li><strong>Accessibility:</strong> fiziki düymə istifadə etməkdə çətinlik çəkənlər üçün alternativ interfeys prototipləri.</li>
+  <li><strong>Security telemetry:</strong> hər sensor əmri üçün cihaz, vaxt, mənbə və icra nəticəsi jurnalı saxlamaq.</li>
+  <li><strong>Anomaly detection:</strong> təsadüfi aktivləşmə, siqnal itkisi və qeyri-adi komanda sürətini aşkar etmək.</li>
+  <li><strong>CASPER voice integration:</strong> təsdiqlənmiş hadisənin səsli statusunu elan etmək.</li>
+</ul>
+
+<hr />
+
+<h2 id="-robotexnika-ilə-kibertəhlükəsizliyin-əlaqəsi-niyə-bu-layihə-vacibdir">🤖 Robotexnika ilə kibertəhlükəsizliyin əlaqəsi: niyə bu layihə vacibdir?</h2>
+
+<p>Ənənəvi <strong>robotexnika dərsləri</strong> çox vaxt motorlar, sensorlar, elektronika və mikrokontrollerlərlə başlayır. <strong>Kibertəhlükəsizlik dərsləri</strong> isə Linux, Windows, şəbəkə, zəiflik analizi və müdafiə alətləri üzərində qurulur. Halbuki müasir ağıllı robot və IoT cihazında bu sahələr ayrılmazdır.</p>
+
+<p>Təsəvvür edək ki, bir robot əl EMG siqnalı ilə hərəkət edir. Sensor ölçmə aparır, ESP32 qərar verir, API komanda qəbul edir, mühərrik hərəkət edir. <strong>Bu zəncirin istənilən hissəsində xəta və ya təhlükəsizlik boşluğu real fiziki nəticə yarada bilər.</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Robotexnika komponenti</th>
+      <th>Kibertəhlükəsizlik sualı</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EMG sensoru</td>
+      <td>Səs-küylü və ya saxta aktivləşmə necə müəyyən edilir?</td>
+    </tr>
+    <tr>
+      <td>ESP32 firmware</td>
+      <td>Proqramın bütövlüyü və yenilənməsi necə qorunur?</td>
+    </tr>
+    <tr>
+      <td>Wi-Fi şəbəkəsi</td>
+      <td>Cihazlar izolə olunubmu və rabitə qorunurmu?</td>
+    </tr>
+    <tr>
+      <td>API/server</td>
+      <td>Əmri yalnız icazəli mənbə göndərə bilir?</td>
+    </tr>
+    <tr>
+      <td>Android/robot aktuatoru</td>
+      <td>Yanlış komanda fiziki təhlükə yaradarmı?</td>
+    </tr>
+    <tr>
+      <td>Log və monitorinq</td>
+      <td>Nəyin, nə vaxt və niyə baş verdiyini sübut etmək mümkündürmü?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Deməli, <strong>robotexnika yalnız mexanika deyil; embedded security, IoT security, secure coding və təhlükəsiz idarəetmə məsələsidir.</strong> Azərbaycanda robotexnika kursu və kiber təhlükəsizlik təhsili ilə maraqlananlar üçün bu cür ortaq layihələr xüsusi praktik dəyərə malikdir.</p>
+
+<hr />
+
+<h2 id="-əzələ-siqnalı-biometrik-autentifikasiya-kimi-istifadə-oluna-bilərmi">🔐 Əzələ siqnalı biometrik autentifikasiya kimi istifadə oluna bilərmi?</h2>
+
+<p>EMG müəyyən şərtlərdə şəxsi və ya jesti tanımaq üçün tədqiq edilə bilər. Amma bizim təqdim etdiyimiz <strong>əzələ gərginliyini aşkar edən demo, etibarlı biometrik giriş sistemi demək deyil.</strong> Sadə “əzələ aktiv oldu → telefon açıldı” məntiqi təhlükəsizlik üçün kifayət etmir.</p>
+
+<p>Bunun səbəbləri var:</p>
+
+<ol>
+  <li><strong>False positive:</strong> təsadüfi hərəkət və ya elektrik səs-küyü komanda kimi qəbul oluna bilər.</li>
+  <li><strong>False negative:</strong> real jest düzgün oxunmaya bilər.</li>
+  <li><strong>Sensor yeri:</strong> elektrodların yerləşməsi nəticələri dəyişir.</li>
+  <li><strong>Təkrarlanma və imitasiya:</strong> sadə siqnal/komanda mexanizmi təkrar göndərilə və ya təqlid edilə bilər.</li>
+  <li><strong>Sessiya təhlükəsizliyi:</strong> sensorun özü istifadəçinin kimliyini sübut etmir.</li>
+  <li><strong>İstismar riskləri:</strong> ADB və idarəetmə API-si lazımsız açıq qalarsa təhlükə yarada bilər.</li>
+</ol>
+
+<p><strong>Tövsiyə olunan təhlükəsizlik yanaşması:</strong> EMG-ni əsas PIN, parol və ya passkey-in əvəzinə deyil, <strong>əlavə idarəetmə jesti</strong> kimi nəzərdən keçirmək; həssas əmrlərdə müstəqil təsdiq tələb etmək. Laboratoriyada ADB girişini məhdudlaşdırmaq, cihazları ayrı şəbəkədə saxlamaq, hər əmri autentifikasiya etmək, rate limiting, timeout və audit log tətbiq etmək lazımdır.</p>
+
+<h3 id="️-biohacking-və-ethical-hacking-arasında-düzgün-sərhəd">🛡️ Biohacking və ethical hacking arasında düzgün sərhəd</h3>
+
+<p><strong>Biohacking</strong> termini burada bədənin ölçülə bilən siqnallarını elektronika və proqramlaşdırma ilə tədqiq etmək mənasında işlədilir. <strong>Ethical hacking</strong> isə yalnız əvvəlcədən icazə verilmiş sistemlərin təhlükəsizlik yoxlanışıdır. Bu laboratoriya başqasının telefonunu kiliddən çıxarmaq, gizli giriş almaq və ya autentifikasiyanı sındırmaq üçün hazırlanmayıb.</p>
+
+<hr />
+
+<h2 id="️-i̇nsan-bədəninə-qoşulan-elektronikanın-təhlükəsizliyi">⚠️ İnsan bədəninə qoşulan elektronikanın təhlükəsizliyi</h2>
+
+<p>EMG layihələrində kibertəhlükəsizlik qədər <strong>elektrik təhlükəsizliyi</strong> də vacibdir. Bədənə qoşulan elektrodlar olan prototipi adi DIY elektronika kimi qiymətləndirmək olmaz.</p>
+
+<p><strong>Bədənə taxılan elektrodlarla işləyərkən yalnız insanla təmas üçün nəzərdə tutulmuş, müvafiq izolyasiyalı və təhlükəsiz bio-siqnal toplama avadanlığından istifadə olunmalıdır.</strong> Batareya ilə qidalanan modulun mövcudluğu təkbaşına təhlükəsizliyi təmin etmir. Elektrod taxılı vəziyyətdə olan qurğunu birbaşa USB, şəbəkə adapteri, kompüter, osiloskop və ya torpaqlanmış avadanlığa qoşmaq təhlükəli ola bilər; uyğun tibbi/ölçmə izolyasiyası və mütəxəssis yoxlaması tələb olunur.</p>
+
+<p>ESP32-S3-ün <strong>ADC girişi üçün dəqiq gərginlik diapazonu, seçilən GPIO və attenuation</strong> istehsalçı sənədlərinə əsasən yoxlanmalıdır. Hər ESP32 ailəsində bütün GPIO-lar analog giriş deyil. Xüsusən <strong>ESP32-S3-də GPIO34 ümumi təyinatlı pin olsa da ADC giriş kanalı deyil</strong>; uyğun ADC1/ADC2 pinlərindən istifadə olunmalıdır. <a href="https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html">https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html</a></p>
+
+<p>Bu məqalə bədən üzərində elektrik qoşulma sxemi deyil, layihənin <strong>konseptual və kiber-tədris izahıdır</strong>.</p>
+
+<hr />
+
+<h2 id="-red-team-sensorservertelefon-zəncirində-nələri-yoxlayırıq">🔴 Red Team: sensor–server–telefon zəncirində nələri yoxlayırıq?</h2>
+
+<p><strong>Red Team və penetration testing</strong> baxımından bu layihə bir neçə risk sinfini öyrənməyə imkan verir. Testlər yalnız özümüzə məxsus izolə edilmiş laboratoriyada aparılmalıdır.</p>
+
+<ul>
+  <li><strong>Input validation:</strong> sensor dəyəri gözlənilməyən formatda gəlirsə server necə davranır?</li>
+  <li><strong>Authentication:</strong> şəbəkədə başqa test cihazı eyni API-yə icazəsiz komanda göndərə bilirmi?</li>
+  <li><strong>Replay protection:</strong> köhnə hadisənin təkrar göndərilməsi yeni əmri işə salırmı?</li>
+  <li><strong>Rate limiting:</strong> tez-tez aktivləşmə sistemin stabilliyini pozurmu?</li>
+  <li><strong>Command isolation:</strong> sensor yalnız əvvəlcədən təsdiqlənmiş komanda siyahısından istifadə edirmi?</li>
+  <li><strong>ADB hardening:</strong> Android debug bağlantısı yalnız zəruri müddətdə və etibarlı hostla məhdudlaşdırılıbmı?</li>
+  <li><strong>Fail-safe design:</strong> Wi-Fi kəsilsə, server dayansa və ya sensor çıxarılsa sistem təhlükəsiz vəziyyətə keçir?</li>
+</ul>
+
+<p>Ethical hacker üçün məqsəd sadəcə “komanda getdi” demək deyil; <strong>zəifliyi təsvir etmək, riski ölçmək, reproduksiya edilən sübut toplamaq və düzəliş təklif etməkdir.</strong></p>
+
+<hr />
+
+<h2 id="-blue-team-soc-və-siem-emg-hadisəsini-təhlükəsizlik-siqnalına-çevirmək">🔵 Blue Team, SOC və SIEM: EMG hadisəsini təhlükəsizlik siqnalına çevirmək</h2>
+
+<p><strong>Blue Team</strong> mövqeyindən baxanda hər sensor hadisəsi izlənilə bilən telemetriyaya çevrilməlidir. ESP32-dən gələn JSON, Python backend logu, firewall hadisələri və Android-in icazəli diaqnostika məlumatları birlikdə araşdırıla bilər.</p>
+
+<p>Aşağıdakı axın layihəni daha geniş <strong>SOC (Security Operations Center)</strong> və <strong>SIEM (Security Information and Event Management)</strong> tədris ssenarisinə çevirir:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>EMG SENSOR / ESP32-S3
+        |
+        v
+ PYTHON API + JSON LOG
+        |
+        v
+   WAZUH / SPLUNK
+        |
+        v
+  QAYDA / CORRELATION
+        |
+        v
+ N8N / WEBHOOK / ALERT
+        |
+        v
+  CASPER AI STATUS PANEL
+        |
+        v
+  ANALİTİKİN QƏRARI
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Texniki dəqiqlik:</strong> Bu hissə EMG nümayişindən inkişaf etdirilə bilən <strong>SIEM inteqrasiya arxitekturasıdır</strong>. Videoda Wazuh/Splunk/n8n zəncirinin bütövlükdə işlədiyi iddia edilmir.</p>
+
+<h3 id="monitorinq-üçün-nümunə-use-case-lər">Monitorinq üçün nümunə use-case-lər</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hadisə</th>
+      <th>Blue Team yanaşması</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bir neçə saniyədə çoxlu EMG əmri</td>
+      <td>Threshold, cooldown və rate-limit qaydalarını yoxlamaq</td>
+    </tr>
+    <tr>
+      <td>Tanınmayan cihazdan API sorğusu</td>
+      <td>Mənbənin autentifikasiyasını və şəbəkə qaydalarını araşdırmaq</td>
+    </tr>
+    <tr>
+      <td>Sensor məlumatının uzun müddət gəlməməsi</td>
+      <td>Sensorun və bağlantının vəziyyətini yoxlamaq</td>
+    </tr>
+    <tr>
+      <td>Gözlənilməyən Android əmri</td>
+      <td>Komandanın mənbəyini, icazəsini və audit logunu yoxlamaq</td>
+    </tr>
+    <tr>
+      <td>Təkrar edilən eyni event ID</td>
+      <td>Replay cəhdini və ya tətbiq xətasını araşdırmaq</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Bu, <strong>Red Team → Blue Team → Purple Team</strong> tədris dövrünü gücləndirir. Hücum səthini başa düşən tələbə daha yaxşı müdafiə qaydası qura bilir; log analizini öyrənən tələbə isə sensorun real davranışını daha düzgün qiymətləndirir.</p>
+
+<hr />
+
+<h2 id="-azərbaycanda-kibertəhlükəsizlik-və-robotexnika-dərslərində-belə-layihələr-niyə-lazımdır">🏫 Azərbaycanda kibertəhlükəsizlik və robotexnika dərslərində belə layihələr niyə lazımdır?</h2>
+
+<p>Azərbaycanda <strong>kibertəhlükəsizlik kursu</strong>, <strong>kiber dərsləri</strong>, <strong>hacker dərsləri</strong>, <strong>ethical hacking</strong>, <strong>Red Team</strong>, <strong>Blue Team</strong>, <strong>SOC analitik</strong>, <strong>pentest</strong>, <strong>robotexnika kursu</strong> və <strong>ESP32 proqramlaşdırması</strong> ilə maraqlanan tələbələr üçün əsas məsələ nəzəri bilikləri real sınaqla möhkəmləndirməkdir.</p>
+
+<p>Bir çox mövzu ayrı-ayrılıqda tədris edilir. EMG kimi bir laboratoriya isə onları eyni zəncirdə birləşdirir:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tədris modulu</th>
+      <th>Bu layihədə qazanılan bacarıq</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Elektronika və robotexnika</strong></td>
+      <td>Sensorun siqnalını və aktuator məntiqini anlamaq</td>
+    </tr>
+    <tr>
+      <td><strong>ESP32 / Embedded Systems</strong></td>
+      <td>ADC, GPIO, firmware və mikrokontroller proqramlaşdırması</td>
+    </tr>
+    <tr>
+      <td><strong>Python proqramlaşdırma</strong></td>
+      <td>Backend API, JSON, şərt və hadisə emalı</td>
+    </tr>
+    <tr>
+      <td><strong>Linux / Android</strong></td>
+      <td>Lokal serverlər və icazəli cihaz idarəetməsi</td>
+    </tr>
+    <tr>
+      <td><strong>Şəbəkə təhlükəsizliyi</strong></td>
+      <td>Wi-Fi, HTTP, autentifikasiya və şəbəkə seqmentasiyası</td>
+    </tr>
+    <tr>
+      <td><strong>Ethical Hacking / Red Team</strong></td>
+      <td>Hücum səthi, təhlükəsizlik sınağının çərçivəsi və risk analizi</td>
+    </tr>
+    <tr>
+      <td><strong>Blue Team / SOC</strong></td>
+      <td>Log analizi, alert dizaynı və hadisə araşdırması</td>
+    </tr>
+    <tr>
+      <td><strong>AI / CASPER AI</strong></td>
+      <td>Siqnal təsnifatı və ağıllı avtomatlaşdırma konsepti</td>
+    </tr>
+    <tr>
+      <td><strong>Purple Team</strong></td>
+      <td>Tapıntıların müdafiə təkmilləşdirməsinə çevrilməsi</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>CyberShieldy Academy</strong> yanaşmasında vacib olan cihazın bahalı olması deyil: tələbənin <strong>öz əli ilə qurması, kodlaması, test etməsi, hadisəni müşahidə etməsi və təhlükəsizlik nəticəsini izah etməsidir</strong>.</p>
+
+<h3 id="-niyə-iş-dünyası-üçün-də-əhəmiyyətlidir">💼 Niyə iş dünyası üçün də əhəmiyyətlidir?</h3>
+
+<p>Ağıllı ev sistemləri, sənaye avtomatlaşdırması, wearable cihazlar, tibbi texnologiya prototipləri, robotlar və IoT infrastrukturu getdikcə daha çox <strong>hardware + software + network + security</strong> bacarıqlarının birlikdə tətbiqini tələb edir. EMG laboratoriyası bu inteqrasiyanı kiçik miqyasda göstərən konkret bir layihədir.</p>
+
+<hr />
+
+<h2 id="-tez-tez-verilən-suallar--faq">❓ Tez-tez verilən suallar — FAQ</h2>
+
+<h3 id="emg-əzələ-sensoru-ilə-telefonu-açmaq-mümkündürmü">EMG əzələ sensoru ilə telefonu açmaq mümkündürmü?</h3>
+
+<p>Öz Android test cihazında <strong>icazəli idarəetmə interfeysi</strong> ilə sensor hadisəsini ekran idarəetmə əmrinə bağlamaq mümkündür. Lakin bu, Android PIN, parol və ya biometrik kilidinin sındırılması demək deyil.</p>
+
+<h3 id="emg-sensoru-insanın-düşüncələrini-oxuyur">EMG sensoru insanın düşüncələrini oxuyur?</h3>
+
+<p>Xeyr. EMG əzələ elektrik aktivliyini ölçür; düşüncələri birbaşa oxumur.</p>
+
+<h3 id="esp32-s3-bu-layihədə-nə-iş-görür">ESP32-S3 bu layihədə nə iş görür?</h3>
+
+<p>Sensor məlumatını oxuyur, ilkin filtrasiya və hadisə yaradılmasını həyata keçirir, lazım gəldikdə məlumatı serverə ötürür.</p>
+
+<h3 id="casper-ai-sensoru-idarə-edən-hazır-süni-intellekt-modelidir">CASPER AI sensoru idarə edən hazır süni intellekt modelidir?</h3>
+
+<p>CASPER AI laboratoriya platformasının adıdır. Sadə threshold ilə işləyən EMG demo süni intellekt sayılmır; əlavə ML modulları ayrıca hazırlanıb yoxlanıla bilər.</p>
+
+<h3 id="bu-layihənin-kibertəhlükəsizliklə-əlaqəsi-nədir">Bu layihənin kibertəhlükəsizliklə əlaqəsi nədir?</h3>
+
+<p>Sensorun firmware-i, şəbəkə bağlantısı, API, əmrlərin icazələndirilməsi, Android idarəetməsi, hadisə qeydləri və SIEM inteqrasiyası <strong>IoT security və embedded security</strong> üçün real mövzulardır.</p>
+
+<h3 id="emg-biometrik-parol-əvəzi-ola-bilərmi">EMG biometrik parol əvəzi ola bilərmi?</h3>
+
+<p>Sadə EMG aktivləşmə sensorunu müstəqil autentifikasiya vasitəsi kimi qəbul etmək olmaz. Etibarlı biometrik sistem üçün ayrıca tədqiqat, canlılıq yoxlamaları, səhv nisbətlərinin ölçülməsi və təhlükəsiz çoxfaktorlu dizayn lazımdır.</p>
+
+<h3 id="azərbaycanda-kibertəhlükəsizlik-və-robotexnikanı-birlikdə-öyrənmək-faydalıdırmı">Azərbaycanda kibertəhlükəsizlik və robotexnikanı birlikdə öyrənmək faydalıdırmı?</h3>
+
+<p>Bəli. Xüsusilə IoT security, hardware hacking, embedded systems, robot security və SOC avtomatlaşdırması üçün praktiki üstünlük yaradır.</p>
+
+<h3 id="hacker-dərslərində-belə-cihazlar-niyə-göstərilir">Hacker dərslərində belə cihazlar niyə göstərilir?</h3>
+
+<p>Məqsəd icazəsiz giriş deyil; cihazın necə işlədiyini, hücum səthini, riskləri və müdafiə mexanizmlərini <strong>etik və icazəli laboratoriyada</strong> öyrətməkdir.</p>
+
+<hr />
+
+<h2 id="-müəllif-haqqında--savaylov-emin">👨‍💻 Müəllif haqqında — Savaylov Emin</h2>
+
+<p><strong>Savaylov Emin</strong><br />
+🛡️ Kibertəhlükəsizlik mütəxəssisi<br />
+🔴 Red Team və 🔵 Blue Team istiqamətləri üzrə təlimçi<br />
+🟣 Praktiki Purple Team və SOC laboratoriya yanaşması<br />
+🤖 Robotexnika, ESP32, sensor sistemləri və CASPER AI layihələri<br />
+🎓 <strong>CyberShieldy Academy</strong><br />
+🌐 <strong><a href="https://cybershieldy.com">CyberShieldy.com</a></strong></p>
+
+<p>Məqsədim <strong>kiber təhlükəsizlik təhsilini real laboratoriya işi ilə birləşdirməkdir</strong>. Linux, Windows, şəbəkə, pentest, log analizi, IoT sensorları, Android və robotexnika mənim üçün eyni texnoloji ekosistemin bir-birini tamamlayan hissələridir.</p>
+
+<hr />
+
+<h2 id="-texniki-mənbələr-və-əlavə-oxu">📚 Texniki mənbələr və əlavə oxu</h2>
+
+<ul>
+  <li><a href="https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html">Espressif — ESP32-S3 ADC sənədləri</a></li>
+  <li><a href="https://developer.android.com/tools/adb">Android Developers — ADB sənədləri</a></li>
+  <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html">OWASP — Authentication Cheat Sheet</a></li>
+  <li><a href="https://documentation.wazuh.com/">Wazuh — Rəsmi sənədlər</a></li>
+  <li><a href="https://docs.splunk.com/">Splunk — Rəsmi sənədlər</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-nəticə-əzələ-hərəkətindən-kiber-laboratoriyaya">🚀 Nəticə: əzələ hərəkətindən kiber laboratoriyaya</h2>
+
+<p><strong>Bir EMG sensoru ilə başlayan layihə</strong> bizə daha böyük bir dərs verir: gələcəyin ağıllı sistemləri insan, sensor, mikrokontroller, şəbəkə, server və təhlükəsizlik mexanizmlərinin birlikdə işləməsindən yaranır.</p>
+
+<p><strong>CASPER AI EMG + ESP32-S3 + Android laboratoriyası</strong> bu əlaqəni praktiki şəkildə göstərir. Eyni layihə daxilində <strong>robotexnika</strong>, <strong>embedded programming</strong>, <strong>IoT security</strong>, <strong>ethical hacking</strong>, <strong>Red Team</strong>, <strong>Blue Team</strong>, <strong>SIEM</strong>, <strong>Python</strong> və <strong>AI automation</strong> mövzularına keçmək mümkündür.</p>
+
+<blockquote>
+  <p><strong>“Kibertəhlükəsizlik yalnız haker alətlərini öyrənmək deyil. Sistem yaratmaq, onu test etmək, hadisəni izləmək və təhlükəsizliyini sübut etməkdir.” — Savaylov Emin, CyberShieldy CASPER AI</strong></p>
+</blockquote>
+
+<p>🎬 <strong><a href="https://www.instagram.com/reel/DffB9eWtafb/">Instagram-da EMG + telefon idarəetmə laboratoriya videosunu izlə</a></strong><br />
+🌐 <strong><a href="https://cybershieldy.com">CyberShieldy — Azərbaycanda praktik kibertəhlükəsizlik və robotexnika</a></strong></p>
+
+<hr />
+
+<!-- ===== CYBERSHIELDY POPUP ===== -->
+<div id="cyber-popup">
+  <div class="popup-content">
+    <p class="popup-message">
+      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
+      CyberShieldy kiber kurslarına qoşul
+    </p>
+
+    <input type="text" id="popup-name" placeholder="Ad Soyad" />
+    <input type="email" id="popup-email" placeholder="Email" />
+    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
+
+    <div class="popup-buttons">
+      <button id="popup-join">Qeydiyyat</button>
+      <button id="popup-close">Bağla</button>
+    </div>
+  </div>
+</div>
+
+<style>
+#cyber-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+
+.popup-content {
+  background: rgba(11,18,32,0.97);
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-message {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popup-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-join {
+  background: #4caf50;
+  color: #fff;
+}
+
+#popup-close {
+  background: #f44336;
+  color: #fff;
+}
+</style>
+
+<script>
+(function () {
+  const POPUP_KEY = "cyberPopupLastSeen";
+  const SHOW_AFTER_DAYS = 7;
+  const SHOW_DELAY = 5000;
+
+  const popup = document.getElementById("cyber-popup");
+  if (!popup) return;
+
+  const lastSeen = localStorage.getItem(POPUP_KEY);
+  const now = Date.now();
+
+  if (lastSeen) {
+    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
+    if (diffDays < SHOW_AFTER_DAYS) return;
+  }
+
+  setTimeout(function () {
+    popup.style.display = "block";
+  }, SHOW_DELAY);
+
+  document.getElementById("popup-close").onclick = function () {
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+
+  document.getElementById("popup-join").onclick = function () {
+    const name = document.getElementById("popup-name").value.trim();
+    const email = document.getElementById("popup-email").value.trim();
+    const phone = document.getElementById("popup-phone").value.trim();
+
+    if (!name || !email || !phone) {
+      alert("Zəhmət olmasa bütün xanaları doldurun");
+      return;
+    }
+
+    const number = "994555182523";
+    const msg =
+      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
+      "Ad Soyad: " + name + "%0A" +
+      "Email: " + email + "%0A" +
+      "Telefon: " + phone;
+
+    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
+
+    popup.style.display = "none";
+    localStorage.setItem(POPUP_KEY, Date.now());
+  };
+})();
+</script>
+
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name>Savaylov Emin</name></author><category term="kibertəhlükəsizlik" /><category term="robotexnika" /><category term="ethical hacking" /><category term="iot security" /><category term="embedded security" /><category term="ai cybersecurity" /><category term="kiber dərsləri" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="kibertəhlükəsizlik Azərbaycan" /><category term="kibertəhlükəsizlik kursu" /><category term="kiber təhlükəsizlik dərsləri" /><category term="kiber dərs" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="ethical hacking Azerbaijan" /><category term="hacking" /><category term="ethical hacker" /><category term="penetration testing" /><category term="pentest kursu" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="SOC" /><category term="SIEM" /><category term="Wazuh" /><category term="Splunk" /><category term="robotexnika" /><category term="robotexnika kursu" /><category term="robototexnika" /><category term="AI robotics" /><category term="EMG" /><category term="EMG sensor" /><category term="əzələ sensoru" /><category term="elektromioqrafiya" /><category term="muscle sensor" /><category term="muscle control" /><category term="bioelektrik siqnal" /><category term="biosignal" /><category term="human computer interaction" /><category term="biohacking" /><category term="ESP32" /><category term="ESP32-S3" /><category term="Android" /><category term="ADB" /><category term="IoT security" /><category term="embedded systems" /><category term="CASPER AI" /><category term="CyberShieldy" /><category term="CyberShieldy Academy" /><category term="Savaylov Emin" /><category term="Emin Savaylov" /><summary type="html"><![CDATA[Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32-S3, Python və Android ADB ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-emg-muscle-sensor.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-emg-muscle-sensor.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin</title><link href="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai" rel="alternate" type="text/html" title="🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin" /><published>2026-11-04T12:00:00+04:00</published><updated>2026-11-04T18:37:19+04:00</updated><id>https://cybershieldy.com/posts/cardputer-halehound-m5stick-casper-ai-red-blue-team-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai"><![CDATA[<h1 id="️-mikrokontrollerlər-müasir-kibertəhlükəsizlikdə-niyə-vacibdir">🤖🛡️ Mikrokontrollerlər müasir kibertəhlükəsizlikdə niyə vacibdir?</h1>
 
 <h3 id="m5stack-cardputer--halehound--m5stickc-plus2--esp32--red-team--blue-team--casper-ai">M5Stack Cardputer • HaleHound • M5StickC Plus2 • ESP32 • Red Team • Blue Team • CASPER AI</h3>
 
@@ -11388,1230 +12045,4 @@ CYBERSHIELDY CASPER
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robotika" /><category term="iot" /><category term="security automation" /><category term="casper ai" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity robot" /><category term="esp32-s3" /><category term="iot security" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="security automation" /><category term="incident response" /><category term="voip security" /><category term="linphone" /><category term="asterisk" /><category term="telegram bot" /><category term="sensor fusion" /><category term="robotics" /><category term="arduino" /><category term="cyber lab" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/robot_button.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/robot_button.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri</title><link href="https://cybershieldy.com/posts/ai-cybersecurity-assistant" rel="alternate" type="text/html" title="🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi – Gələcəyin Ağıllı SOC Assistentləri" /><published>2026-08-10T12:20:00+04:00</published><updated>2026-08-10T13:46:40+04:00</updated><id>https://cybershieldy.com/posts/ai-kibertehlukesizlik-komekcisi-siem-soc-inteqrasiyasi</id><content type="html" xml:base="https://cybershieldy.com/posts/ai-cybersecurity-assistant"><![CDATA[<h1 id="️-danışan-ai-kibertəhlükəsizlik-köməkçisi">🤖🛡️ Danışan AI Kibertəhlükəsizlik Köməkçisi</h1>
-
-<p>Kibertəhlükəsizlik dünyasında hər saniyə minlərlə hadisə, log, şəbəkə bağlantısı və təhlükəsizlik siqnalı yarana bilər.</p>
-
-<p>SOC analitikinin qarşısında isə əsas problem yalnız məlumatın çoxluğu deyil.</p>
-
-<p>Əsas sual budur:</p>
-
-<p><strong>Bu məlumatların hansı hissəsi həqiqətən təhlükəlidir və hansı hadisəyə ilk olaraq reaksiya vermək lazımdır?</strong></p>
-
-<p>Məhz burada süni intellekt kibertəhlükəsizlik sistemlərinə yeni bir yanaşma gətirir.</p>
-
-<p>Artıq təhlükəsizlik sistemi sadəcə dashboard üzərində qırmızı alert göstərən proqram olmaq məcburiyyətində deyil.</p>
-
-<p>Təsəvvür edin ki, təhlükəsizlik sisteminə deyirsiniz:</p>
-
-<blockquote>
-  <p>“SIEM vəziyyətini yoxla.”</p>
-</blockquote>
-
-<p>və sistem sizinlə danışaraq vəziyyəti izah edir.</p>
-
-<p>Yaxud:</p>
-
-<blockquote>
-  <p>“Son təhlükəsizlik hadisələrini analiz et.”</p>
-</blockquote>
-
-<p>və AI köməkçisi logları, təhlükəsizlik siqnallarını və sistem vəziyyətini analiz edərək nəticəni insan dilində təqdim edir.</p>
-
-<p>Bu ideya əsasında hazırladığım laboratoriya layihəsində <strong>süni intellekt, səsli idarəetmə və kibertəhlükəsizlik sistemlərini vahid ağıllı köməkçi konsepsiyasında birləşdirirəm.</strong></p>
-
-<hr />
-
-<h1 id="-ai-cybersecurity-assistant--praktiki-demo">🎥 AI Cybersecurity Assistant – Praktiki Demo</h1>
-
-<p>Hazırladığım danışan kibertəhlükəsizlik köməkçisinin real laboratoriya demosunu aşağıdakı videoda görə bilərsiniz:</p>
-
-<iframe src="https://www.instagram.com/reel/DbvjiAvsPxb/embed" width="100%" height="700" style="border:none;overflow:hidden;border-radius:12px;"></iframe>
-
-<p>📱 <strong>Instagram Reel:</strong></p>
-
-<hr />
-
-<h1 id="-ai-kibertəhlükəsizlik-köməkçisi-nədir">🧠 AI Kibertəhlükəsizlik Köməkçisi Nədir?</h1>
-
-<p>AI kibertəhlükəsizlik köməkçisi təhlükəsizlik sistemləri ilə insan arasında ağıllı interfeys rolunu oynayan proqram təminatı və süni intellekt qatıdır.</p>
-
-<p>Ənənəvi sistemdə analitik:</p>
-
-<ol>
-  <li>SIEM dashboard-a daxil olur.</li>
-  <li>Alertləri araşdırır.</li>
-  <li>Logları açır.</li>
-  <li>IP ünvanlarını yoxlayır.</li>
-  <li>Hadisələri müqayisə edir.</li>
-  <li>Risk səviyyəsini müəyyən edir.</li>
-  <li>Qərar verir.</li>
-  <li>Lazım gəldikdə cavab tədbiri başladır.</li>
-</ol>
-
-<p>AI əsaslı sistemdə isə bu proseslərin müəyyən hissələri avtomatlaşdırıla bilər.</p>
-
-<p>Məsələn istifadəçi sadəcə soruşa bilər:</p>
-
-<p><strong>“Şəbəkədə təhlükəli hadisə varmı?”</strong></p>
-
-<p>AI təhlükəsizlik köməkçisi isə müxtəlif təhlükəsizlik mənbələrindən gələn məlumatları analiz edərək daha anlaşıqlı cavab yarada bilər.</p>
-
-<hr />
-
-<h1 id="️-niyə-səsli-kibertəhlükəsizlik-assistent">🗣️ Niyə Səsli Kibertəhlükəsizlik Assistent?</h1>
-
-<p>Kibertəhlükəsizlik sistemlərinin böyük hissəsi klaviatura, terminal və dashboard əsaslıdır.</p>
-
-<p>Lakin gələcəkdə təhlükəsizlik analitikinin sistemlə ünsiyyəti daha təbii ola bilər.</p>
-
-<p>Məsələn:</p>
-
-<p>🗣️ <strong>Analitik:</strong>
-“Son kritik alerti göstər.”</p>
-
-<p>🤖 <strong>AI Assistant:</strong>
-“Son kritik təhlükəsizlik hadisəsi aşkarlandı. Hadisənin analizinə başlayıram.”</p>
-
-<p>və ya:</p>
-
-<p>🗣️ <strong>Analitik:</strong>
-“SIEM vəziyyəti necədir?”</p>
-
-<p>🤖 <strong>AI Assistant:</strong>
-“SIEM aktivdir və təhlükəsizlik hadisələri monitorinq olunur.”</p>
-
-<p>Bu yanaşmada səs sadəcə rahatlıq elementi deyil.</p>
-
-<p>Səsli interfeys insan ilə mürəkkəb təhlükəsizlik infrastrukturu arasında <strong>yeni idarəetmə qatı</strong> yaradır.</p>
-
-<hr />
-
-<h1 id="-vizual-reaksiya-verən-ai">👀 Vizual Reaksiya Verən AI</h1>
-
-<p>Layihənin maraqlı tərəflərindən biri köməkçinin yalnız danışması deyil.</p>
-
-<p>Sistem müxtəlif vəziyyətlərə vizual reaksiya da verə bilər.</p>
-
-<p>Məsələn:</p>
-
-<p>🟢 <strong>Normal vəziyyət</strong>
-Sistem sakit vizual rejimdə işləyir.</p>
-
-<p>🔵 <strong>Listening Mode</strong>
-İstifadəçinin səsini dinləyir.</p>
-
-<p>🟡 <strong>Thinking Mode</strong>
-Sorğunu analiz edir.</p>
-
-<p>🔴 <strong>Security Alert</strong>
-Kritik hadisə baş verdikdə vizual xəbərdarlıq verir.</p>
-
-<p>😊 <strong>Normal/HAPPY vəziyyəti</strong>
-Sistem istifadəçi ilə daha təbii qarşılıqlı əlaqə yaradır.</p>
-
-<p>Beləliklə kibertəhlükəsizlik sistemi sadəcə proqram interfeysi deyil, müəyyən mənada <strong>fiziki və vizual SOC assistentinə</strong> çevrilir.</p>
-
-<hr />
-
-<h1 id="️-ai--siem">🛡️ AI + SIEM</h1>
-
-<p>AI kibertəhlükəsizlik köməkçisinin ən güclü istifadə sahələrindən biri SIEM sistemləri ilə inteqrasiyadır.</p>
-
-<p>SIEM platformaları müxtəlif sistemlərdən log toplayır.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Serverlər</li>
-  <li>Windows sistemləri</li>
-  <li>Linux sistemləri</li>
-  <li>Firewall</li>
-  <li>IDS/IPS</li>
-  <li>Endpoint sistemləri</li>
-  <li>Veb serverlər</li>
-  <li>Mobil cihazlar</li>
-  <li>IoT cihazları</li>
-  <li>Şəbəkə avadanlıqları</li>
-  <li>Autentifikasiya sistemləri</li>
-</ul>
-
-<p>Bu məlumatların hamısı SOC mərkəzinə daxil ola bilər.</p>
-
-<p>Problem isə məlumatın həddindən artıq çox olmasıdır.</p>
-
-<p>AI burada analitikə kömək edə bilər.</p>
-
-<hr />
-
-<h1 id="-ai-siem-də-nə-edə-bilər">📊 AI SIEM-də Nə Edə Bilər?</h1>
-
-<p>Süni intellekt SIEM məlumatları üzərində aşağıdakı funksiyalarda istifadə edilə bilər:</p>
-
-<ul>
-  <li>Alertlərin izah edilməsi</li>
-  <li>Logların qruplaşdırılması</li>
-  <li>Oxşar hadisələrin əlaqələndirilməsi</li>
-  <li>Riskli fəaliyyətlərin seçilməsi</li>
-  <li>Anomaliyaların aşkarlanması</li>
-  <li>Hadisənin prioritetləşdirilməsi</li>
-  <li>Təhlükəsizlik hadisəsinin xülasəsinin hazırlanması</li>
-  <li>Analitik üçün araşdırma istiqamətlərinin təklif edilməsi</li>
-  <li>Hadisə hesabatının hazırlanması</li>
-  <li>Təkrar proseslərin avtomatlaşdırılması</li>
-</ul>
-
-<p>Əsas məqsəd analitiki sistemdən çıxarmaq deyil.</p>
-
-<p>Əksinə, analitikin qarşısındakı böyük məlumat kütləsini daha sürətli anlaşılan formaya çevirməkdir.</p>
-
-<hr />
-
-<h1 id="-təsəvvür-edək-ki-hücum-baş-verir">🚨 Təsəvvür Edək ki, Hücum Baş Verir</h1>
-
-<p>Ənənəvi təhlükəsizlik sistemində:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>Attack
-   ↓
-Log
-   ↓
-SIEM
-   ↓
-Alert
-   ↓
-Dashboard
-   ↓
-SOC Analyst
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Ağıllı təhlükəsizlik ekosistemində isə proses daha fərqli ola bilər:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td><td class="rouge-code"><pre>Security Event
-      ↓
-Logs / Sensors
-      ↓
-SIEM
-      ↓
-Correlation
-      ↓
-AI Analysis
-      ↓
-Risk Assessment
-      ↓
-Voice / Visual Assistant
-      ↓
-SOC Analyst
-      ↓
-Response
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Beləliklə təhlükəsizlik hadisəsi sadəcə dashboard-da görünmür.</p>
-
-<p>Sistem həmin hadisəni <strong>analiz edilə bilən, danışıq dilində təqdim olunan təhlükəsizlik məlumatına</strong> çevirir.</p>
-
-<hr />
-
-<h1 id="-hücum-aşkarlandı">🔊 “Hücum Aşkarlandı”</h1>
-
-<p>Gələcək SOC sistemlərində analitik hər saniyə dashboard-a baxmaq məcburiyyətində olmaya bilər.</p>
-
-<p>Məsələn kritik hadisə baş verdikdə sistem:</p>
-
-<p>🔴 vizual xəbərdarlıq verə,</p>
-
-<p>🔊 səsli şəkildə hadisəni bildirə,</p>
-
-<p>📊 SIEM məlumatını göstərə,</p>
-
-<p>📱 mobil sistemə məlumat ötürə,</p>
-
-<p>📄 hesabat hazırlaya,</p>
-
-<p>və təhlükəsizlik analitikindən qərar gözləyə bilər.</p>
-
-<p>Bu, təhlükəsizlik infrastrukturu ilə insan arasında daha aktiv qarşılıqlı əlaqə yaradır.</p>
-
-<hr />
-
-<h1 id="-ai-agent-konsepsiyası">🤖 AI Agent Konsepsiyası</h1>
-
-<p>Ənənəvi chatbot əsasən suala cavab verir.</p>
-
-<p>AI agent isə müəyyən sistemlərlə işləyə və verilmiş məqsədə uyğun prosesləri idarə edə bilər.</p>
-
-<p>Kibertəhlükəsizlik kontekstində AI agent:</p>
-
-<ul>
-  <li>SIEM-dən məlumat ala bilər</li>
-  <li>Sistemin vəziyyətini yoxlaya bilər</li>
-  <li>Logları analiz edə bilər</li>
-  <li>Müəyyən təhlükəsizlik alətlərindən nəticə ala bilər</li>
-  <li>Hadisələri əlaqələndirə bilər</li>
-  <li>Hesabat hazırlaya bilər</li>
-  <li>İnsan üçün qərar dəstəyi yarada bilər</li>
-</ul>
-
-<p>Lakin burada çox vacib prinsip mövcuddur:</p>
-
-<p><strong>AI-yə verilən səlahiyyət nə qədər böyükdürsə, təhlükəsizlik nəzarəti də bir o qədər güclü olmalıdır.</strong></p>
-
-<hr />
-
-<h1 id="-ai-yə-niyə-limitsiz-səlahiyyət-vermək-olmaz">🔐 AI-yə Niyə Limitsiz Səlahiyyət Vermək Olmaz?</h1>
-
-<p>AI təhlükəsizlik köməkçisi sistemə qoşulduqda onun hansı əməliyyatları yerinə yetirə bilməsi ciddi şəkildə məhdudlaşdırılmalıdır.</p>
-
-<p>Əks halda səhv qərar:</p>
-
-<ul>
-  <li>Lazımi servisi dayandıra bilər</li>
-  <li>Şəbəkə bağlantısını bloklaya bilər</li>
-  <li>Yanlış sistemi təhlükəli hesab edə bilər</li>
-  <li>Vacib məlumatın itirilməsinə səbəb ola bilər</li>
-  <li>Normal istifadəçini bloklaya bilər</li>
-</ul>
-
-<p>Bu səbəbdən AI agent sistemlərində aşağıdakı prinsiplər vacibdir:</p>
-
-<ul>
-  <li>Least Privilege</li>
-  <li>Role Based Access Control</li>
-  <li>Allowlist</li>
-  <li>Audit Logging</li>
-  <li>Human Approval</li>
-  <li>Scope Control</li>
-  <li>Rate Limiting</li>
-  <li>Command Validation</li>
-  <li>Authentication</li>
-  <li>Authorization</li>
-</ul>
-
-<p>AI hər şeyi edə bilən “super administrator” olmamalıdır.</p>
-
-<hr />
-
-<h1 id="-human-in-the-loop">👤 Human-in-the-Loop</h1>
-
-<p>AI əsaslı kibertəhlükəsizlik sistemlərinin ən vacib prinsiplərindən biri <strong>Human-in-the-Loop</strong> yanaşmasıdır.</p>
-
-<p>Yəni kritik əməliyyatlarda son qərar insanda qalır.</p>
-
-<p>Məsələn AI deyə bilər:</p>
-
-<blockquote>
-  <p>“Bu IP ünvanından şübhəli aktivlik aşkarlanıb. Bloklama tövsiyə olunur.”</p>
-</blockquote>
-
-<p>Lakin bloklama əməliyyatından əvvəl SOC analitikinin təsdiqi tələb oluna bilər.</p>
-
-<p>Bu yanaşma AI-nin sürətini insan təcrübəsi ilə birləşdirir.</p>
-
-<hr />
-
-<h1 id="-blue-team-üçün-ai">🔵 Blue Team üçün AI</h1>
-
-<p>Blue Team üçün süni intellekt xüsusilə böyük potensiala malikdir.</p>
-
-<p>Blue Team analitikləri çox vaxt minlərlə log və alert arasında həqiqi təhlükəni tapmağa çalışırlar.</p>
-
-<p>AI aşağıdakı sahələrdə kömək edə bilər:</p>
-
-<h3 id="-alert-triage">📊 Alert Triage</h3>
-
-<p>Alertləri risk səviyyəsinə görə prioritetləşdirmək.</p>
-
-<h3 id="-log-analysis">🔎 Log Analysis</h3>
-
-<p>Çoxsaylı log arasında əlaqəni müəyyən etməyə kömək etmək.</p>
-
-<h3 id="-threat-correlation">🧠 Threat Correlation</h3>
-
-<p>Fərqli təhlükəsizlik sistemlərindən gələn hadisələri birləşdirmək.</p>
-
-<h3 id="-incident-summary">📝 Incident Summary</h3>
-
-<p>Uzun logları qısa və anlaşıqlı hadisə xülasəsinə çevirmək.</p>
-
-<h3 id="-response-assistance">⚡ Response Assistance</h3>
-
-<p>Analitikə mümkün cavab addımları təqdim etmək.</p>
-
-<h3 id="️-voice-interface">🗣️ Voice Interface</h3>
-
-<p>Analitikin sistemlə təbii dildə danışmasına imkan vermək.</p>
-
-<hr />
-
-<h1 id="-red-team-üçün-ai">🔴 Red Team üçün AI</h1>
-
-<p>Süni intellekt Red Team və təhlükəsizlik testlərində də köməkçi rol oynaya bilər.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Test nəticələrinin qruplaşdırılması</li>
-  <li>Böyük scan nəticələrinin izah edilməsi</li>
-  <li>Servislərin təsnifatı</li>
-  <li>Tapıntıların sənədləşdirilməsi</li>
-  <li>Risklərin prioritetləşdirilməsi</li>
-  <li>Təhlükəsizlik hesabatının hazırlanması</li>
-</ul>
-
-<p>Lakin bütün testlər yalnız:</p>
-
-<p><strong>icazəli sistemlərdə, laboratoriya mühitində və müəyyən edilmiş scope daxilində aparılmalıdır.</strong></p>
-
-<p>AI təhlükəsizlik alətini daha sürətli edə bilər, amma etik və hüquqi sərhədləri aradan qaldırmır.</p>
-
-<hr />
-
-<h1 id="-----purple-team">🔴 + 🔵 = 🟣 Purple Team</h1>
-
-<p>Ən maraqlı istiqamətlərdən biri AI-nin Red Team və Blue Team arasında əlaqə yaratmasıdır.</p>
-
-<p>Məsələn Red Team laboratoriyada müəyyən ssenarini test edir.</p>
-
-<p>Blue Team həmin hadisəni aşkarlamağa çalışır.</p>
-
-<p>AI isə:</p>
-
-<ul>
-  <li>Red Team nəticəsini izah edə bilər</li>
-  <li>SIEM alertlərini müqayisə edə bilər</li>
-  <li>Aşkarlanmanın olub-olmadığını müəyyənləşdirməyə kömək edə bilər</li>
-  <li>Detection qaydalarının yaxşılaşdırılması üçün məlumat hazırlaya bilər</li>
-</ul>
-
-<p>Beləliklə AI Purple Team prosesində də bir növ <strong>analitik körpü</strong> rolunu oynaya bilər.</p>
-
-<hr />
-
-<h1 id="-ai--mcp">🧩 AI + MCP</h1>
-
-<p>Müasir AI sistemlərində maraqlı istiqamətlərdən biri də <strong>Model Context Protocol – MCP</strong> kimi yanaşmalardır.</p>
-
-<p>Sadə formada desək, MCP AI modelinin xarici sistemlər və alətlərlə daha strukturlaşdırılmış şəkildə işləməsinə imkan verən yanaşmadır.</p>
-
-<p>Bu konsepsiya kibertəhlükəsizlikdə xüsusilə maraqlıdır.</p>
-
-<p>Çünki gələcəkdə AI köməkçisi ayrı-ayrı təhlükəsizlik xidmətləri ilə standart interfeyslər vasitəsilə əlaqə qura bilər.</p>
-
-<p>Məsələn:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>AI Assistant
-     │
-     ├── SIEM
-     ├── Log Analysis
-     ├── Network Monitoring
-     ├── Endpoint Security
-     ├── IoT Security
-     ├── Incident Response
-     └── Reporting
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Ancaq təhlükəsizlik səbəbindən belə arxitekturalarda autentifikasiya, scope və əməliyyat məhdudiyyətləri əsas şərtlərdən olmalıdır.</p>
-
-<hr />
-
-<h1 id="-bir-köməkçi--bir-neçə-sistem">🌐 Bir Köməkçi – Bir Neçə Sistem</h1>
-
-<p>Layihənin gələcək konsepsiyası yalnız bir kompüter üzərində işləyən assistant yaratmaq deyil.</p>
-
-<p>Təsəvvür edin:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>            🤖 AI Cyber Assistant
-                    │
-       ┌────────────┼────────────┐
-       │            │            │
-      PC          Mobile       SIEM
-       │            │            │
-       ├──────── Network ─────────┤
-       │            │            │
-      IoT         Servers      Sensors
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>AI təhlükəsizlik köməkçisi müxtəlif cihazlarda işləyən təhlükəsizlik sistemlərini bir nöqtədən anlamağa kömək edə bilər.</p>
-
-<p>Məqsəd bütün şəbəkəni kor-koranə idarə edən AI yaratmaq deyil.</p>
-
-<p>Məqsəd analitikin müxtəlif sistemlərdən gələn məlumatı <strong>vahid ağıllı interfeysdə görməsidir.</strong></p>
-
-<hr />
-
-<h1 id="-mobil-ai-kibertəhlükəsizlik-assistent">📱 Mobil AI Kibertəhlükəsizlik Assistent</h1>
-
-<p>Mobil cihaz bu konsepsiyada xüsusi rol oynaya bilər.</p>
-
-<p>Telefon:</p>
-
-<ul>
-  <li>Mikrofon</li>
-  <li>Dinamik</li>
-  <li>Ekran</li>
-  <li>Şəbəkə bağlantısı</li>
-  <li>Sensorlar</li>
-  <li>Bildiriş sistemi</li>
-</ul>
-
-<p>kimi imkanlara malikdir.</p>
-
-<p>Bu səbəbdən mobil cihaz təhlükəsizlik infrastrukturu üçün portativ AI interfeysinə çevrilə bilər.</p>
-
-<p>Analitik kompüter qarşısında olmadıqda belə sistem vəziyyəti haqqında məlumat ala bilər.</p>
-
-<hr />
-
-<h1 id="-iot--ai--cybersecurity">📡 IoT + AI + Cybersecurity</h1>
-
-<p>IoT cihazları AI təhlükəsizlik köməkçisi ilə birləşdirildikdə daha maraqlı imkanlar yaranır.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Fiziki giriş sensorları</li>
-  <li>Biometrik sistemlər</li>
-  <li>Temperatur sensorları</li>
-  <li>Kamera sistemləri</li>
-  <li>RF sensorları</li>
-  <li>Şəbəkə cihazları</li>
-  <li>Mikrocontroller əsaslı təhlükəsizlik modulları</li>
-</ul>
-
-<p>hadisə yarada bilər.</p>
-
-<p>Bu hadisələr təhlükəsizlik sisteminə daxil olduqdan sonra AI onları daha geniş kontekstdə analiz edə bilər.</p>
-
-<p>Beləliklə <strong>fiziki təhlükəsizlik və kibertəhlükəsizlik arasındakı sərhəd getdikcə azalır.</strong></p>
-
-<hr />
-
-<h1 id="-gələcəyin-soc-mərkəzi-necə-görünə-bilər">🏢 Gələcəyin SOC Mərkəzi Necə Görünə Bilər?</h1>
-
-<p>Bu gün SOC mərkəzlərini adətən böyük monitorlar və çoxsaylı dashboard-larla təsəvvür edirik.</p>
-
-<p>Gələcəkdə isə SOC analitiki sistemlə belə danışa bilər:</p>
-
-<blockquote>
-  <p>“Son bir saatın vəziyyətini göstər.”</p>
-</blockquote>
-
-<blockquote>
-  <p>“Ən riskli üç hadisə hansıdır?”</p>
-</blockquote>
-
-<blockquote>
-  <p>“Bu alert digər hadisələrlə əlaqəlidirmi?”</p>
-</blockquote>
-
-<blockquote>
-  <p>“Bu cihaz əvvəllər də belə davranıb?”</p>
-</blockquote>
-
-<blockquote>
-  <p>“Hadisə üçün qısa hesabat hazırla.”</p>
-</blockquote>
-
-<p>AI isə müxtəlif məlumatları analiz edib cavabı təqdim edə bilər.</p>
-
-<p>Dashboard yox olmayacaq.</p>
-
-<p>Terminal da yox olmayacaq.</p>
-
-<p>Əksinə, AI onların üzərində əlavə <strong>intellektual interfeys</strong> yaradacaq.</p>
-
-<hr />
-
-<h1 id="-ai-soc-analitikini-əvəz-edəcək">⚡ AI SOC Analitikini Əvəz Edəcək?</h1>
-
-<p>Bu mövzuda tez-tez verilən suallardan biri budur.</p>
-
-<p><strong>AI SOC analitikini tam əvəz edəcəkmi?</strong></p>
-
-<p>Məncə gələcəyin daha real modeli belədir:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>Human Analyst
-      +
-Artificial Intelligence
-      +
-Automation
-      =
-Next Generation SOC
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>AI:</p>
-
-<ul>
-  <li>daha sürətli məlumat emal edə bilər,</li>
-  <li>minlərlə logu müqayisə edə bilər,</li>
-  <li>müəyyən patternləri aşkar edə bilər,</li>
-  <li>hesabat hazırlaya bilər.</li>
-</ul>
-
-<p>Lakin insan:</p>
-
-<ul>
-  <li>konteksti anlayır,</li>
-  <li>biznes riskini qiymətləndirir,</li>
-  <li>etik qərar verir,</li>
-  <li>qeyri-standart vəziyyəti analiz edir,</li>
-  <li>kritik qərarın məsuliyyətini daşıyır.</li>
-</ul>
-
-<p>Bu səbəbdən AI analitikin rəqibi deyil.</p>
-
-<p><strong>AI analitikin gücünü artıran vasitədir.</strong></p>
-
-<hr />
-
-<h1 id="-copilot-yanaşması">🧠 “Copilot” Yanaşması</h1>
-
-<p>Gələcəyin kibertəhlükəsizlik sistemləri üçün ən uyğun anlayışlardan biri <strong>Security Copilot</strong> konsepsiyasıdır.</p>
-
-<p>Pilot təyyarəni idarə edir.</p>
-
-<p>Copilot isə:</p>
-
-<ul>
-  <li>məlumat verir,</li>
-  <li>vəziyyəti izləyir,</li>
-  <li>riski göstərir,</li>
-  <li>qərara dəstək olur.</li>
-</ul>
-
-<p>AI kibertəhlükəsizlik sistemində də buna bənzər rol oynaya bilər.</p>
-
-<p>Son qərar analitikdə qalır.</p>
-
-<p>AI isə onun yanında işləyən ikinci ağıllı beyin kimi fəaliyyət göstərir.</p>
-
-<hr />
-
-<h1 id="️-ai-nin-özünün-də-təhlükəsizliyi-vacibdir">⚠️ AI-nin Özünün də Təhlükəsizliyi Vacibdir</h1>
-
-<p>AI təhlükəsizlik sisteminə qoşulduqda artıq özü də qorunmalı sistemə çevrilir.</p>
-
-<p>Mümkün risklər:</p>
-
-<ul>
-  <li>İcazəsiz komandalar</li>
-  <li>Prompt manipulation</li>
-  <li>Yanlış məlumat</li>
-  <li>Saxta log</li>
-  <li>Access token sızması</li>
-  <li>API açarlarının qorunmaması</li>
-  <li>Lazımsız yüksək səlahiyyətlər</li>
-  <li>AI-nin səhv qərarı</li>
-  <li>Audit mexanizminin olmaması</li>
-  <li>Xarici sistemdən manipulyasiya</li>
-</ul>
-
-<p>Bu səbəbdən AI Security Assistant yaradarkən yalnız “AI necə işləyir?” sualını vermək kifayət deyil.</p>
-
-<p>Digər əsas sual budur:</p>
-
-<p><strong>AI-nin özünü necə təhlükəsiz saxlayırıq?</strong></p>
-
-<hr />
-
-<h1 id="️-zero-trust-ai">🛡️ Zero Trust AI</h1>
-
-<p>AI sistemlərinə də Zero Trust prinsipi tətbiq edilə bilər.</p>
-
-<p>Yəni:</p>
-
-<p><strong>Never Trust, Always Verify.</strong></p>
-
-<p>AI müəyyən sistemə sorğu göndərmək istəyirsə:</p>
-
-<ul>
-  <li>Kimlik yoxlanmalıdır</li>
-  <li>Səlahiyyət yoxlanmalıdır</li>
-  <li>Hədəf yoxlanmalıdır</li>
-  <li>Əmrin tipi yoxlanmalıdır</li>
-  <li>Hadisə loglaşdırılmalıdır</li>
-</ul>
-
-<p>Beləliklə AI tərəfindən yaradılan hər əməliyyat izlənilə bilən olur.</p>
-
-<hr />
-
-<h1 id="-audit-log-niyə-vacibdir">📝 Audit Log Niyə Vacibdir?</h1>
-
-<p>AI sistemdə nə etdiyini gizli şəkildə həyata keçirməməlidir.</p>
-
-<p>Hər vacib əməliyyat audit logda saxlanmalıdır.</p>
-
-<p>Məsələn:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>Timestamp
-AI Agent
-Requested Action
-Target System
-Authorization Status
-Result
-Analyst Approval
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Bu məlumatlar sonradan:</p>
-
-<ul>
-  <li>Incident Response</li>
-  <li>Forensics</li>
-  <li>Audit</li>
-  <li>Compliance</li>
-  <li>Troubleshooting</li>
-</ul>
-
-<p>üçün istifadə edilə bilər.</p>
-
-<hr />
-
-<h1 id="-layihənin-bütün-texniki-detalları-niyə-paylaşılmır">🔐 Layihənin Bütün Texniki Detalları Niyə Paylaşılmır?</h1>
-
-<p>Kibertəhlükəsizlik layihəsinin arxitekturasını izah etmək faydalıdır.</p>
-
-<p>Lakin real sistemdə istifadə edilən:</p>
-
-<ul>
-  <li>daxili təhlükəsizlik mexanizmləri,</li>
-  <li>autentifikasiya məlumatları,</li>
-  <li>konkret giriş nöqtələri,</li>
-  <li>həssas konfiqurasiyalar,</li>
-  <li>API açarları,</li>
-  <li>tokenlər,</li>
-  <li>idarəetmə komandaları,</li>
-  <li>təhlükəsizlik bypass mexanizmləri</li>
-</ul>
-
-<p>ictimai şəkildə paylaşılmamalıdır.</p>
-
-<p>Security by obscurity təkbaşına müdafiə üsulu deyil.</p>
-
-<p>Amma <strong>operational security – OPSEC</strong> səbəbindən real infrastrukturun həssas detalları qorunmalıdır.</p>
-
-<p>Bu məqalədə də layihənin konsepsiyası təqdim olunur, lakin təhlükəsizlik baxımından kritik daxili mexanizmlər açıqlanmır.</p>
-
-<hr />
-
-<h1 id="-kibertəhlükəsizlik-təhsilində-ai">🎓 Kibertəhlükəsizlik Təhsilində AI</h1>
-
-<p>AI yalnız SOC üçün deyil, kibertəhlükəsizlik təhsili üçün də maraqlı imkanlar yaradır.</p>
-
-<p>Tələbə laboratoriyada təhlükəsizlik hadisəsi yaradır.</p>
-
-<p>Sistem həmin hadisəni loglaşdırır.</p>
-
-<p>SIEM alert yaradır.</p>
-
-<p>AI isə tələbəyə izah edir:</p>
-
-<ul>
-  <li>Nə baş verdi?</li>
-  <li>Hansı log yarandı?</li>
-  <li>SIEM niyə alert verdi?</li>
-  <li>Risk nədir?</li>
-  <li>Blue Team nə etməlidir?</li>
-  <li>Hansı əlavə məlumatlar araşdırılmalıdır?</li>
-</ul>
-
-<p>Beləliklə laboratoriya daha interaktiv öyrənmə mühitinə çevrilir.</p>
-
-<hr />
-
-<h1 id="-red-team---blue-team---ai">🔴 Red Team + 🔵 Blue Team + 🤖 AI</h1>
-
-<p>Mənim üçün gələcəyin kibertəhlükəsizlik təhsil modeli aşağıdakı üç istiqamətin birlikdə öyrənilməsidir:</p>
-
-<p>🔴 <strong>Red Team</strong>
-Sistemin necə test edildiyini öyrənmək.</p>
-
-<p>🔵 <strong>Blue Team</strong>
-Hadisənin necə aşkarlanacağını və analiz ediləcəyini öyrənmək.</p>
-
-<p>🤖 <strong>Artificial Intelligence</strong>
-Böyük məlumatın necə avtomatlaşdırılmış şəkildə analiz və təqdim edilə biləcəyini öyrənmək.</p>
-
-<p>Bu üç istiqamət birlikdə daha real kibertəhlükəsizlik düşüncəsi yaradır.</p>
-
-<hr />
-
-<h1 id="-gələcəyin-ai-security-assistant-sistemləri">🚀 Gələcəyin AI Security Assistant Sistemləri</h1>
-
-<p>Gələcəkdə belə sistemlərin daha geniş imkanlara sahib olacağını düşünmək mümkündür.</p>
-
-<p>Məsələn:</p>
-
-<ul>
-  <li>Continuous Security Monitoring</li>
-  <li>AI Threat Hunting</li>
-  <li>Voice Controlled SOC</li>
-  <li>Automated Incident Summary</li>
-  <li>Behavioral Analysis</li>
-  <li>Anomaly Detection</li>
-  <li>Threat Intelligence Correlation</li>
-  <li>IoT Security Monitoring</li>
-  <li>Digital Forensics Assistance</li>
-  <li>Automated Reporting</li>
-  <li>Multimodal Security Analysis</li>
-  <li>Natural Language Investigation</li>
-  <li>Human Approval Workflows</li>
-</ul>
-
-<p>AI yalnız yazılı məlumatla məhdudlaşmaya bilər.</p>
-
-<p>Səs, görüntü, log, şəbəkə məlumatları və sensor hadisələri eyni analitik sistemdə birləşdirilə bilər.</p>
-
-<hr />
-
-<h1 id="-multimodal-cybersecurity">🌍 Multimodal Cybersecurity</h1>
-
-<p>Gələcəyin təhlükəsizlik köməkçisi müxtəlif məlumat növlərini eyni vaxtda analiz edə bilər:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-</pre></td><td class="rouge-code"><pre>            🤖 AI
-             │
- ┌───────────┼────────────┐
- │           │            │
-Logs       Voice        Video
- │           │            │
-Network    Commands     Camera
- │           │            │
-SIEM       Analyst      Sensors
- └───────────┼────────────┘
-             │
-      Security Context
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Bu konsepsiya <strong>Multimodal Cybersecurity</strong> istiqamətinin əsaslarından biri ola bilər.</p>
-
-<hr />
-
-<h1 id="-ai--fiziki-robot">🤖 AI + Fiziki Robot?</h1>
-
-<p>Bu konsepsiyanı daha da irəli aparsaq, gələcəkdə SOC köməkçisi yalnız ekranda işləyən proqram olmaya bilər.</p>
-
-<p>AI:</p>
-
-<ul>
-  <li>Mobil cihazda</li>
-  <li>Masaüstü sistemdə</li>
-  <li>IoT cihazında</li>
-  <li>Robot platformasında</li>
-  <li>SOC terminalında</li>
-</ul>
-
-<p>eyni identikliklə işləyə bilər.</p>
-
-<p>Belə sistem şəbəkənin müxtəlif nöqtələrindən məlumat alaraq analitiklə səs və görüntü vasitəsilə əlaqə yarada bilər.</p>
-
-<p>Burada artıq klassik chatbotdan yox, <strong>kiber-fiziki AI təhlükəsizlik köməkçisindən</strong> danışırıq.</p>
-
-<hr />
-
-<h1 id="-əsas-məqsəd">🧠 Əsas Məqsəd</h1>
-
-<p>Bu layihənin məqsədi sadəcə danışan robot yaratmaq deyil.</p>
-
-<p>Əsas ideya budur:</p>
-
-<blockquote>
-  <p><strong>İnsan ilə kibertəhlükəsizlik infrastrukturu arasındakı əlaqəni daha ağıllı, sürətli və təbii etmək.</strong></p>
-</blockquote>
-
-<p>Əgər sistem minlərlə log yaradırsa, insan bunların hamısını əl ilə oxumamalıdır.</p>
-
-<p>AI həmin məlumatı filtrdən keçirib analitikin diqqətini ən vacib hadisələrə yönəltməlidir.</p>
-
-<hr />
-
-<h1 id="-ai-security-assistant-in-üstünlükləri">✅ AI Security Assistant-in Üstünlükləri</h1>
-
-<p>Belə sistemlərin potensial üstünlükləri:</p>
-
-<ul>
-  <li>Daha sürətli alert analizi</li>
-  <li>Daha rahat SIEM idarəetməsi</li>
-  <li>Böyük log məlumatının xülasəsi</li>
-  <li>Səsli interfeys</li>
-  <li>Avtomatlaşdırılmış hesabat</li>
-  <li>Analitik üçün qərar dəstəyi</li>
-  <li>Təhlükəsizlik məlumatlarının korrelyasiyası</li>
-  <li>Mobil idarəetmə imkanı</li>
-  <li>IoT sistemləri ilə inteqrasiya</li>
-  <li>Real vaxt xəbərdarlıqları</li>
-  <li>Təhsil laboratoriyalarında interaktivlik</li>
-  <li>SOC analitikinin iş yükünün azaldılması</li>
-</ul>
-
-<hr />
-
-<h1 id="️-risklər-və-məhdudiyyətlər">⚠️ Risklər və Məhdudiyyətlər</h1>
-
-<p>AI sistemi ideal deyil.</p>
-
-<p>Mümkün problemlər:</p>
-
-<ul>
-  <li>Yanlış analiz</li>
-  <li>False Positive</li>
-  <li>False Negative</li>
-  <li>Hallucination</li>
-  <li>Yanlış kontekst</li>
-  <li>Səlahiyyət problemi</li>
-  <li>Məxfilik riski</li>
-  <li>API təhlükəsizliyi</li>
-  <li>Prompt injection</li>
-  <li>İnsan nəzarətinin azalması</li>
-  <li>Həddindən artıq avtomatlaşdırma</li>
-  <li>AI nəticəsinə kor-koranə etibar</li>
-</ul>
-
-<p>Bu səbəbdən AI cavabı təhlükəsizlik faktı kimi avtomatik qəbul edilməməlidir.</p>
-
-<p>Kritik qərarlar əlavə mənbələrlə təsdiqlənməlidir.</p>
-
-<hr />
-
-<h1 id="️-ai-security-üçün-əsas-prinsiplər">🛡️ AI Security üçün Əsas Prinsiplər</h1>
-
-<p>AI əsaslı kibertəhlükəsizlik sistemi yaradarkən:</p>
-
-<ul>
-  <li>AI-yə minimum lazım olan səlahiyyət verin</li>
-  <li>Kritik əməliyyatlarda insan təsdiqi tələb edin</li>
-  <li>Audit loglarını aktiv edin</li>
-  <li>API açarlarını qoruyun</li>
-  <li>Şifrəli rabitədən istifadə edin</li>
-  <li>Allowlist tətbiq edin</li>
-  <li>Scope müəyyən edin</li>
-  <li>İstifadəçi autentifikasiyası tətbiq edin</li>
-  <li>AI nəticəsini əlavə mənbələrlə yoxlayın</li>
-  <li>Avtomatik əməliyyatlara limit qoyun</li>
-  <li>Prompt Injection riskini nəzərə alın</li>
-  <li>SIEM vasitəsilə AI fəaliyyətini də monitorinq edin</li>
-</ul>
-
-<hr />
-
-<h1 id="-ai-və-kibertəhlükəsizliyin-gələcəyi">🌐 AI və Kibertəhlükəsizliyin Gələcəyi</h1>
-
-<p>Əvvəllər kibertəhlükəsizlik sistemləri əsasən belə işləyirdi:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Log → Alert → İnsan
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>İndi isə model dəyişir:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>Log
- ↓
-SIEM
- ↓
-Automation
- ↓
-AI
- ↓
-Analyst
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Gələcək model isə daha kompleks ola bilər:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>Network + Endpoint + Cloud + IoT + Physical Security
-                       ↓
-                     SIEM
-                       ↓
-                     SOAR
-                       ↓
-                  AI Security
-                       ↓
-             Human SOC Analyst
-                       ↓
-                    Response
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Bu dəyişiklik SOC mərkəzlərini daha ağıllı və daha interaktiv edə bilər.</p>
-
-<hr />
-
-<h1 id="-nəticə">🧩 Nəticə</h1>
-
-<p>Süni intellekt kibertəhlükəsizlikdə yalnız chatbot kimi düşünülməməlidir.</p>
-
-<p>AI:</p>
-
-<ul>
-  <li>Log analizçisi</li>
-  <li>SOC köməkçisi</li>
-  <li>Threat Hunting assistenti</li>
-  <li>Hadisə xülasələyicisi</li>
-  <li>Səsli idarəetmə interfeysi</li>
-  <li>Təhlükəsizlik avtomatlaşdırma qatı</li>
-  <li>Təhsil köməkçisi</li>
-  <li>Qərar dəstək sistemi</li>
-</ul>
-
-<p>rolunu oynaya bilər.</p>
-
-<p>Hazırladığım <strong>CyberShieldy AI Cybersecurity Assistant</strong> laboratoriya layihəsinin məqsədi də məhz bu istiqaməti praktiki formada araşdırmaqdır.</p>
-
-<p>Layihədə süni intellekt, səsli qarşılıqlı əlaqə, mobil sistemlər, SIEM və kibertəhlükəsizlik avtomatlaşdırması vahid konsepsiya daxilində birləşdirilir.</p>
-
-<p>Bütün həssas texniki mexanizmləri açıq şəkildə paylaşmadan layihənin göstərdiyi əsas fikir budur:</p>
-
-<blockquote>
-  <p><strong>Gələcəyin təhlükəsizlik sistemi yalnız hücumu görməyəcək — onu anlayacaq, əlaqələndirəcək, analitikə izah edəcək və insanla birlikdə qərar prosesində iştirak edəcək.</strong></p>
-</blockquote>
-
-<p>Süni intellekt kibertəhlükəsizlik mütəxəssisini əvəz etməyə deyil, onun imkanlarını genişləndirməyə xidmət etməlidir.</p>
-
-<hr />
-
-<h1 id="-oxşar-mövzular">🔗 Oxşar Mövzular</h1>
-
-<ul>
-  <li>📊🛡️ <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir və necə işləyir?</a></li>
-  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team arasındakı fərqlər</a></li>
-  <li>🤖🛡️ <a href="https://cybershieldy.com/posts/ai-siem-integration">SIEM və Süni İntellekt inteqrasiyası</a></li>
-  <li>🤖📡 <a href="https://cybershieldy.com/posts/robotexnika-kiber-gelecek">IoT Security və ağıllı sistemlər</a></li>
-  <li>⚡🛡️ <a href="https://cybershieldy.com/posts/ideaspark-esp32-siem-ssh-brute-force">ESP32 ilə SIEM inteqrasiyası</a></li>
-  <li>🧪💾 <a href="https://cybershieldy.com/posts/digital-forensics">Rəqəmsal forensika və məlumat bərpası</a></li>
-</ul>
-
-<hr />
-
-<h2 id="-cybershieldy-academy">📢 CyberShieldy Academy</h2>
-
-<p><strong>Savaylov Emin</strong></p>
-
-<p><strong>🛡️ Kibertəhlükəsizlik Mütəxəssisi • 🔴 Red Team • 🔵 Blue Team üzrə Təlimçi</strong></p>
-
-<p>🌐 https://cybershieldy.com</p>
-
-<blockquote>
-  <p><strong>“Gələcəyin SOC analitiki süni intellektlə yarışmayacaq — onunla birlikdə işləyəcək.”</strong></p>
-</blockquote>
-
-<!-- ===== CYBERSHIELDY POPUP ===== -->
-<div id="cyber-popup">
-  <div class="popup-content">
-    <p class="popup-message">
-      🎓 <strong>PULSUZ Sınaq Dərs</strong><br />
-      CyberShieldy kiber kurslarına qoşul
-    </p>
-
-    <input type="text" id="popup-name" placeholder="Ad Soyad" />
-    <input type="email" id="popup-email" placeholder="Email" />
-    <input type="tel" id="popup-phone" placeholder="Mobil nömrə" />
-
-    <div class="popup-buttons">
-      <button id="popup-join">Qeydiyyat</button>
-      <button id="popup-close">Bağla</button>
-    </div>
-  </div>
-</div>
-
-<style>
-#cyber-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 99999;
-}
-
-.popup-content {
-  background: rgba(11,18,32,0.97);
-  color: #fff;
-  padding: 18px 22px;
-  border-radius: 14px;
-  text-align: center;
-  width: 340px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.popup-message {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.popup-content input {
-  width: 100%;
-  padding: 9px 10px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-}
-
-.popup-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.popup-buttons button {
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#popup-join {
-  background: #4caf50;
-  color: #fff;
-}
-
-#popup-close {
-  background: #f44336;
-  color: #fff;
-}
-</style>
-
-<script>
-(function () {
-  const POPUP_KEY = "cyberPopupLastSeen";
-  const SHOW_AFTER_DAYS = 7;
-  const SHOW_DELAY = 5000;
-
-  const popup = document.getElementById("cyber-popup");
-  if (!popup) return;
-
-  const lastSeen = localStorage.getItem(POPUP_KEY);
-  const now = Date.now();
-
-  if (lastSeen) {
-    const diffDays = (now - Number(lastSeen)) / (1000 * 60 * 60 * 24);
-    if (diffDays < SHOW_AFTER_DAYS) return;
-  }
-
-  setTimeout(function () {
-    popup.style.display = "block";
-  }, SHOW_DELAY);
-
-  document.getElementById("popup-close").onclick = function () {
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-
-  document.getElementById("popup-join").onclick = function () {
-    const name = document.getElementById("popup-name").value.trim();
-    const email = document.getElementById("popup-email").value.trim();
-    const phone = document.getElementById("popup-phone").value.trim();
-
-    if (!name || !email || !phone) {
-      alert("Zəhmət olmasa bütün xanaları doldurun");
-      return;
-    }
-
-    const number = "994555182523";
-    const msg =
-      "PULSUZ Sınaq Dərs Qeydiyyatı:%0A" +
-      "Ad Soyad: " + name + "%0A" +
-      "Email: " + email + "%0A" +
-      "Telefon: " + phone;
-
-    window.open("https://wa.me/" + number + "?text=" + msg, "_blank");
-
-    popup.style.display = "none";
-    localStorage.setItem(POPUP_KEY, Date.now());
-  };
-})();
-</script>
-
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="blue team" /><category term="soc" /><category term="security automation" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity assistant" /><category term="ai security assistant" /><category term="voice assistant" /><category term="voice controlled security" /><category term="siem" /><category term="soc" /><category term="soc analyst" /><category term="blue team" /><category term="red team" /><category term="purple team" /><category term="security automation" /><category term="incident response" /><category term="log analysis" /><category term="threat detection" /><category term="threat intelligence" /><category term="anomaly detection" /><category term="ai agent" /><category term="llm" /><category term="mcp" /><category term="voice ai" /><category term="conversational ai" /><category term="cyber defense" /><category term="security monitoring" /><category term="security operations center" /><category term="wazuh" /><category term="iot security" /><category term="android security" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="siber güvenlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[Süni intellekt, səsli idarəetmə, SIEM və təhlükəsizlik avtomatlaşdırmasını birləşdirən danışan AI kibertəhlükəsizlik köməkçisi necə işləyir? Gələcəyin SOC mərkəzlərində AI assistentlərin rolu, üstünlükləri, riskləri və CyberShieldy laboratoriya layihəsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name></name></author><category term="kibertəhlükəsizlik" /><category term="süni intellekt" /><category term="robotika" /><category term="iot" /><category term="security automation" /><category term="casper ai" /><category term="artificial intelligence" /><category term="ai cybersecurity" /><category term="cybersecurity robot" /><category term="esp32-s3" /><category term="iot security" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="soc" /><category term="security automation" /><category term="incident response" /><category term="voip security" /><category term="linphone" /><category term="asterisk" /><category term="telegram bot" /><category term="sensor fusion" /><category term="robotics" /><category term="arduino" /><category term="cyber lab" /><category term="cybersecurity" /><category term="kibertəhlükəsizlik" /><category term="cyber education" /><category term="kiber dərsləri" /><category term="cybershieldy" /><category term="savaylov emin" /><summary type="html"><![CDATA[CyberShieldy Casper layihəsində ESP32-S3, fiziki düymələr, məsafə və iqlim sensorları, servo skanı, AI səsli köməkçi, zəngi və Telegram hesabatı vahid kibertəhlükəsizlik robotunda birləşir.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/robot_button.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/robot_button.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
