@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32-S3, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin"
+title: "💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin"
 date: 2026-11-11 08:00:00 +0400
 lastmod: 2026-11-11 08:00:00 +0400
 author: "Savaylov Emin"
@@ -59,13 +59,13 @@ tags:
   - CyberShieldy Academy
   - Savaylov Emin
   - Emin Savaylov
-description: "Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32-S3, Python və Android ADB ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri."
+description: "Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32, Python və Android  ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri."
 image: /assets/images/casper-emg-muscle-sensor.webp
 permalink: /posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika
 canonical: https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika
 ---
 
-# 💪🧠 Əzələ siqnalı ilə telefonu idarə etmək: EMG, ESP32-S3 və CASPER AI
+# 💪🧠 Əzələ siqnalı ilə telefonu idarə etmək: EMG, ESP32 və CASPER AI
 
 ### 🤖 Robotexnika × 🛡️ Kibertəhlükəsizlik × 📱 Android × 🧬 Bioelektronika × 🔴🔵 Red & Blue Team
 
@@ -101,7 +101,7 @@ Laboratoriya baxımından proses belədir:
 
 1. **Elektrodlar** əzələ aktivliyindən yaranan bioelektrik dəyişiklikləri tutur.
 2. **EMG siqnal kondisioneri** siqnalı gücləndirir və uyğun formaya salır.
-3. **ESP32-S3 kimi mikrokontroller** uyğun analog girişdən dəyəri ölçür.
+3. **ESP32 kimi mikrokontroller** uyğun analog girişdən dəyəri ölçür.
 4. **Proqram təminatı** səs-küyü süzgəcdən keçirir, aktivlik həddini və komandaları müəyyən edir.
 5. **Backend** qəbul etdiyi hadisəni yoxlayır, qeydə alır və icazəli əmri həyata keçirir.
 6. **Android test cihazı** uyğun sistem əmrinə cavab verir.
@@ -112,15 +112,14 @@ Beləliklə, insanın fiziki hərəkəti **rəqəmsal hadisəyə (digital event)
 
 ## 🧪 CASPER AI EMG laboratoriyasını necə qurduq?
 
-Layihənin müxtəlif test mərhələlərində **EMG sensoru, ESP32-S3, Python serveri, Wi-Fi bağlantısı, Android telefon və ADB (Android Debug Bridge)** istifadə edildi. Məqsəd EMG siqnalındakı dəyişiklikləri izləyib onları laboratoriya şəraitində telefon idarəetmə hadisələri ilə əlaqələndirmək idi.
+Layihənin müxtəlif test mərhələlərində **EMG sensoru, ESP32, Python serveri, Wi-Fi bağlantısı, Android telefon  istifadə edildi. Məqsəd EMG siqnalındakı dəyişiklikləri izləyib onları laboratoriya şəraitində telefon idarəetmə hadisələri ilə əlaqələndirmək idi.
 
 | Komponent | Laboratoriyadakı rolu |
 |---|---|
 | **EMG əzələ sensoru** | Əzələ aktivliyi ilə bağlı analoq siqnalı əldə etmək |
-| **ESP32-S3** | Sensor oxunuşlarını proqramla emal etmək və ötürmək |
-| **Wi-Fi / HTTP** | Hadisəni yerli şəbəkədəki serverə göndərmək |
+| **ESP32** | Sensor oxunuşlarını proqramla emal etmək və ötürmək |
 | **Python backend** | Siqnal və əmrlər arasında qərar məntiqi qurmaq |
-| **Android + ADB** | Öz test telefonumuzda icazəli ekran idarəetmə əmrləri |
+| **Android Öz test telefonumuzda icazəli ekran idarəetmə əmrləri |
 | **CASPER AI konsepti** | Sensor, telemetriya, avtomatlaşdırma və gələcək ağıllı qərar mexanizmlərini birləşdirmək |
 
 ### 📡 Sistem arxitekturası
@@ -143,7 +142,6 @@ Layihənin müxtəlif test mərhələlərində **EMG sensoru, ESP32-S3, Python s
        [ PYTHON SERVER ]
     Hadisə yoxlama + loglama
                |
-       İcazəli ADB əmri
                |
                v
        [ ANDROID TELEFON ]
@@ -153,7 +151,7 @@ Layihənin müxtəlif test mərhələlərində **EMG sensoru, ESP32-S3, Python s
     [ CASPER AI LAB TELEMETRİYA ]
 ```
 
-Burada **telefonun ekranını yandırmaq, kilidləmək və istifadəçi tərəfindən müəyyənləşdirilmiş test hərəkətini icra etmək** ayrı-ayrı anlayışlardır. ADB ilə ekranı oyatmaq Android-in PIN, parol və ya biometrik təhlükəsizlik mexanizmini avtomatik ləğv etmir. Təhlükəsiz kilid aktivdirsə, normal autentifikasiya yenə tələb olunmalıdır.
+Burada **telefonun ekranını yandırmaq, kilidləmək və istifadəçi tərəfindən müəyyənləşdirilmiş test hərəkətini icra etmək** ayrı-ayrı anlayışlardır.  ekranı oyatmaq Android-in PIN, parol və ya biometrik təhlükəsizlik mexanizmini avtomatik ləğv etmir. Təhlükəsiz kilid aktivdirsə, normal autentifikasiya yenə tələb olunmalıdır.
 
 ### 📊 Hadisə məntiqi
 
@@ -227,7 +225,7 @@ Bunun səbəbləri var:
 3. **Sensor yeri:** elektrodların yerləşməsi nəticələri dəyişir.
 4. **Təkrarlanma və imitasiya:** sadə siqnal/komanda mexanizmi təkrar göndərilə və ya təqlid edilə bilər.
 5. **Sessiya təhlükəsizliyi:** sensorun özü istifadəçinin kimliyini sübut etmir.
-6. **İstismar riskləri:** ADB və idarəetmə API-si lazımsız açıq qalarsa təhlükə yarada bilər.
+
 
 **Tövsiyə olunan təhlükəsizlik yanaşması:** EMG-ni əsas PIN, parol və ya passkey-in əvəzinə deyil, **əlavə idarəetmə jesti** kimi nəzərdən keçirmək; həssas əmrlərdə müstəqil təsdiq tələb etmək. Laboratoriyada ADB girişini məhdudlaşdırmaq, cihazları ayrı şəbəkədə saxlamaq, hər əmri autentifikasiya etmək, rate limiting, timeout və audit log tətbiq etmək lazımdır.
 
@@ -243,7 +241,7 @@ EMG layihələrində kibertəhlükəsizlik qədər **elektrik təhlükəsizliyi*
 
 **Bədənə taxılan elektrodlarla işləyərkən yalnız insanla təmas üçün nəzərdə tutulmuş, müvafiq izolyasiyalı və təhlükəsiz bio-siqnal toplama avadanlığından istifadə olunmalıdır.** Batareya ilə qidalanan modulun mövcudluğu təkbaşına təhlükəsizliyi təmin etmir. Elektrod taxılı vəziyyətdə olan qurğunu birbaşa USB, şəbəkə adapteri, kompüter, osiloskop və ya torpaqlanmış avadanlığa qoşmaq təhlükəli ola bilər; uyğun tibbi/ölçmə izolyasiyası və mütəxəssis yoxlaması tələb olunur.
 
-ESP32-S3-ün **ADC girişi üçün dəqiq gərginlik diapazonu, seçilən GPIO və attenuation** istehsalçı sənədlərinə əsasən yoxlanmalıdır. Hər ESP32 ailəsində bütün GPIO-lar analog giriş deyil. Xüsusən **ESP32-S3-də GPIO34 ümumi təyinatlı pin olsa da ADC giriş kanalı deyil**; uyğun ADC1/ADC2 pinlərindən istifadə olunmalıdır. <https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html>
+
 
 Bu məqalə bədən üzərində elektrik qoşulma sxemi deyil, layihənin **konseptual və kiber-tədris izahıdır**.
 
@@ -258,7 +256,6 @@ Bu məqalə bədən üzərində elektrik qoşulma sxemi deyil, layihənin **kons
 - **Replay protection:** köhnə hadisənin təkrar göndərilməsi yeni əmri işə salırmı?
 - **Rate limiting:** tez-tez aktivləşmə sistemin stabilliyini pozurmu?
 - **Command isolation:** sensor yalnız əvvəlcədən təsdiqlənmiş komanda siyahısından istifadə edirmi?
-- **ADB hardening:** Android debug bağlantısı yalnız zəruri müddətdə və etibarlı hostla məhdudlaşdırılıbmı?
 - **Fail-safe design:** Wi-Fi kəsilsə, server dayansa və ya sensor çıxarılsa sistem təhlükəsiz vəziyyətə keçir?
 
 Ethical hacker üçün məqsəd sadəcə “komanda getdi” demək deyil; **zəifliyi təsvir etmək, riski ölçmək, reproduksiya edilən sübut toplamaq və düzəliş təklif etməkdir.**
@@ -269,31 +266,8 @@ Ethical hacker üçün məqsəd sadəcə “komanda getdi” demək deyil; **zə
 
 **Blue Team** mövqeyindən baxanda hər sensor hadisəsi izlənilə bilən telemetriyaya çevrilməlidir. ESP32-dən gələn JSON, Python backend logu, firewall hadisələri və Android-in icazəli diaqnostika məlumatları birlikdə araşdırıla bilər.
 
-Aşağıdakı axın layihəni daha geniş **SOC (Security Operations Center)** və **SIEM (Security Information and Event Management)** tədris ssenarisinə çevirir:
 
-```text
-EMG SENSOR / ESP32-S3
-        |
-        v
- PYTHON API + JSON LOG
-        |
-        v
-   WAZUH / SPLUNK
-        |
-        v
-  QAYDA / CORRELATION
-        |
-        v
- N8N / WEBHOOK / ALERT
-        |
-        v
-  CASPER AI STATUS PANEL
-        |
-        v
-  ANALİTİKİN QƏRARI
-```
 
-**Texniki dəqiqlik:** Bu hissə EMG nümayişindən inkişaf etdirilə bilən **SIEM inteqrasiya arxitekturasıdır**. Videoda Wazuh/Splunk/n8n zəncirinin bütövlükdə işlədiyi iddia edilmir.
 
 ### Monitorinq üçün nümunə use-case-lər
 
@@ -377,29 +351,33 @@ Məqsəd icazəsiz giriş deyil; cihazın necə işlədiyini, hücum səthini, r
 🛡️ Kibertəhlükəsizlik mütəxəssisi  
 🔴 Red Team və 🔵 Blue Team istiqamətləri üzrə təlimçi  
 🟣 Praktiki Purple Team və SOC laboratoriya yanaşması  
-🤖 Robotexnika, ESP32, sensor sistemləri və CASPER AI layihələri  
+🤖 Robotexnika,  və CASPER AI layihələri  
 🎓 **CyberShieldy Academy**  
 🌐 **[CyberShieldy.com](https://cybershieldy.com)**
 
 Məqsədim **kiber təhlükəsizlik təhsilini real laboratoriya işi ilə birləşdirməkdir**. Linux, Windows, şəbəkə, pentest, log analizi, IoT sensorları, Android və robotexnika mənim üçün eyni texnoloji ekosistemin bir-birini tamamlayan hissələridir.
 
 ---
+## 🔗 Oxşar məqalələr — CyberShieldy
 
-## 📚 Texniki mənbələr və əlavə oxu
+Aşağıdakı keçidlər əvvəlki CyberShieldy məqalə formatındakı daxili linklərə əsaslanır; saytın cari marşrutları ilə uyğunluğunu yayımdan əvvəl yoxlayın.
 
-- [Espressif — ESP32-S3 ADC sənədləri](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html)
-- [Android Developers — ADB sənədləri](https://developer.android.com/tools/adb)
-- [OWASP — Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-- [Wazuh — Rəsmi sənədlər](https://documentation.wazuh.com/)
-- [Splunk — Rəsmi sənədlər](https://docs.splunk.com/)
+- 📡 [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](https://cybershieldy.com/posts/wifi-hucumlari)
+- 🤖 [CASPER AI — Wi-Fi Security və Rogue AP Detection](https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection)
+- 📊 [SIEM nədir?](https://cybershieldy.com/posts/siem-nedir)
+- 🔴🔵 [Red Team və Blue Team fərqləri](https://cybershieldy.com/posts/red-team-vs-blue-team)
+- 🤖 [CASPER AI — Pentest və Cybersecurity Robot](https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot)
+- 🛡️ [CASPER AI Wireless Security Lab — portativ cihazlar və Wi-Fi/Bluetooth](https://cybershieldy.com/posts/casper-ai-wireless-hacking-tools-pentest)
+
 
 ---
+
 
 ## 🚀 Nəticə: əzələ hərəkətindən kiber laboratoriyaya
 
 **Bir EMG sensoru ilə başlayan layihə** bizə daha böyük bir dərs verir: gələcəyin ağıllı sistemləri insan, sensor, mikrokontroller, şəbəkə, server və təhlükəsizlik mexanizmlərinin birlikdə işləməsindən yaranır.
 
-**CASPER AI EMG + ESP32-S3 + Android laboratoriyası** bu əlaqəni praktiki şəkildə göstərir. Eyni layihə daxilində **robotexnika**, **embedded programming**, **IoT security**, **ethical hacking**, **Red Team**, **Blue Team**, **SIEM**, **Python** və **AI automation** mövzularına keçmək mümkündür.
+**CASPER AI EMG + ESP32 + Android laboratoriyası** bu əlaqəni praktiki şəkildə göstərir. Eyni layihə daxilində **robotexnika**, **embedded programming**, **IoT security**, **ethical hacking**, **Red Team**, **Blue Team**, **SIEM**, **Python** və **AI automation** mövzularına keçmək mümkündür.
 
 > **“Kibertəhlükəsizlik yalnız haker alətlərini öyrənmək deyil. Sistem yaratmaq, onu test etmək, hadisəni izləmək və təhlükəsizliyini sübut etməkdir.” — Savaylov Emin, CyberShieldy CASPER AI**
 

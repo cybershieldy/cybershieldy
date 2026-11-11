@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-11-11T14:22:22+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32-S3, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin</title><link href="https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika" rel="alternate" type="text/html" title="💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32-S3, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin" /><published>2026-11-11T08:00:00+04:00</published><updated>2026-11-11T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/emg-ezele-sensoru-esp32-casper-ai-telefon-idareetme-robotexnika-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika"><![CDATA[<h1 id="-əzələ-siqnalı-ilə-telefonu-idarə-etmək-emg-esp32-s3-və-casper-ai">💪🧠 Əzələ siqnalı ilə telefonu idarə etmək: EMG, ESP32-S3 və CASPER AI</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cybershieldy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cybershieldy.com/" rel="alternate" type="text/html" /><updated>2026-11-11T14:56:38+04:00</updated><id>https://cybershieldy.com/feed.xml</id><title type="html">Cybershieldy Academy — Cybersecurity &amp;amp; Web Development Training</title><subtitle>Emin Savaylov-un rəsmi kiber təhlükəsizlik bloqu və təlimlər saytı. Red Team, Blue Team, OSCP hazırlığı, real-world pentest nümunələri və daha çoxu.</subtitle><entry><title type="html">💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin</title><link href="https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika" rel="alternate" type="text/html" title="💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin" /><published>2026-11-11T08:00:00+04:00</published><updated>2026-11-11T08:00:00+04:00</updated><id>https://cybershieldy.com/posts/emg-ezele-sensoru-esp32-casper-ai-telefon-idareetme-robotexnika-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika"><![CDATA[<h1 id="-əzələ-siqnalı-ilə-telefonu-idarə-etmək-emg-esp32-və-casper-ai">💪🧠 Əzələ siqnalı ilə telefonu idarə etmək: EMG, ESP32 və CASPER AI</h1>
 
 <h3 id="-robotexnika--️-kibertəhlükəsizlik---android---bioelektronika---red--blue-team">🤖 Robotexnika × 🛡️ Kibertəhlükəsizlik × 📱 Android × 🧬 Bioelektronika × 🔴🔵 Red &amp; Blue Team</h3>
 
@@ -44,7 +44,7 @@
 <ol>
   <li><strong>Elektrodlar</strong> əzələ aktivliyindən yaranan bioelektrik dəyişiklikləri tutur.</li>
   <li><strong>EMG siqnal kondisioneri</strong> siqnalı gücləndirir və uyğun formaya salır.</li>
-  <li><strong>ESP32-S3 kimi mikrokontroller</strong> uyğun analog girişdən dəyəri ölçür.</li>
+  <li><strong>ESP32 kimi mikrokontroller</strong> uyğun analog girişdən dəyəri ölçür.</li>
   <li><strong>Proqram təminatı</strong> səs-küyü süzgəcdən keçirir, aktivlik həddini və komandaları müəyyən edir.</li>
   <li><strong>Backend</strong> qəbul etdiyi hadisəni yoxlayır, qeydə alır və icazəli əmri həyata keçirir.</li>
   <li><strong>Android test cihazı</strong> uyğun sistem əmrinə cavab verir.</li>
@@ -56,7 +56,7 @@
 
 <h2 id="-casper-ai-emg-laboratoriyasını-necə-qurduq">🧪 CASPER AI EMG laboratoriyasını necə qurduq?</h2>
 
-<p>Layihənin müxtəlif test mərhələlərində <strong>EMG sensoru, ESP32-S3, Python serveri, Wi-Fi bağlantısı, Android telefon və ADB (Android Debug Bridge)</strong> istifadə edildi. Məqsəd EMG siqnalındakı dəyişiklikləri izləyib onları laboratoriya şəraitində telefon idarəetmə hadisələri ilə əlaqələndirmək idi.</p>
+<p>Layihənin müxtəlif test mərhələlərində **EMG sensoru, ESP32, Python serveri, Wi-Fi bağlantısı, Android telefon  istifadə edildi. Məqsəd EMG siqnalındakı dəyişiklikləri izləyib onları laboratoriya şəraitində telefon idarəetmə hadisələri ilə əlaqələndirmək idi.</p>
 
 <table>
   <thead>
@@ -71,20 +71,16 @@
       <td>Əzələ aktivliyi ilə bağlı analoq siqnalı əldə etmək</td>
     </tr>
     <tr>
-      <td><strong>ESP32-S3</strong></td>
+      <td><strong>ESP32</strong></td>
       <td>Sensor oxunuşlarını proqramla emal etmək və ötürmək</td>
-    </tr>
-    <tr>
-      <td><strong>Wi-Fi / HTTP</strong></td>
-      <td>Hadisəni yerli şəbəkədəki serverə göndərmək</td>
     </tr>
     <tr>
       <td><strong>Python backend</strong></td>
       <td>Siqnal və əmrlər arasında qərar məntiqi qurmaq</td>
     </tr>
     <tr>
-      <td><strong>Android + ADB</strong></td>
-      <td>Öz test telefonumuzda icazəli ekran idarəetmə əmrləri</td>
+      <td>**Android Öz test telefonumuzda icazəli ekran idarəetmə əmrləri</td>
+      <td> </td>
     </tr>
     <tr>
       <td><strong>CASPER AI konsepti</strong></td>
@@ -119,7 +115,6 @@
 22
 23
 24
-25
 </pre></td><td class="rouge-code"><pre>       💪 İNSAN ƏZƏLƏSİ
                |
                v
@@ -137,7 +132,6 @@
        [ PYTHON SERVER ]
     Hadisə yoxlama + loglama
                |
-       İcazəli ADB əmri
                |
                v
        [ ANDROID TELEFON ]
@@ -147,7 +141,7 @@
     [ CASPER AI LAB TELEMETRİYA ]
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<p>Burada <strong>telefonun ekranını yandırmaq, kilidləmək və istifadəçi tərəfindən müəyyənləşdirilmiş test hərəkətini icra etmək</strong> ayrı-ayrı anlayışlardır. ADB ilə ekranı oyatmaq Android-in PIN, parol və ya biometrik təhlükəsizlik mexanizmini avtomatik ləğv etmir. Təhlükəsiz kilid aktivdirsə, normal autentifikasiya yenə tələb olunmalıdır.</p>
+<p>Burada <strong>telefonun ekranını yandırmaq, kilidləmək və istifadəçi tərəfindən müəyyənləşdirilmiş test hərəkətini icra etmək</strong> ayrı-ayrı anlayışlardır.  ekranı oyatmaq Android-in PIN, parol və ya biometrik təhlükəsizlik mexanizmini avtomatik ləğv etmir. Təhlükəsiz kilid aktivdirsə, normal autentifikasiya yenə tələb olunmalıdır.</p>
 
 <h3 id="-hadisə-məntiqi">📊 Hadisə məntiqi</h3>
 
@@ -259,7 +253,6 @@
   <li><strong>Sensor yeri:</strong> elektrodların yerləşməsi nəticələri dəyişir.</li>
   <li><strong>Təkrarlanma və imitasiya:</strong> sadə siqnal/komanda mexanizmi təkrar göndərilə və ya təqlid edilə bilər.</li>
   <li><strong>Sessiya təhlükəsizliyi:</strong> sensorun özü istifadəçinin kimliyini sübut etmir.</li>
-  <li><strong>İstismar riskləri:</strong> ADB və idarəetmə API-si lazımsız açıq qalarsa təhlükə yarada bilər.</li>
 </ol>
 
 <p><strong>Tövsiyə olunan təhlükəsizlik yanaşması:</strong> EMG-ni əsas PIN, parol və ya passkey-in əvəzinə deyil, <strong>əlavə idarəetmə jesti</strong> kimi nəzərdən keçirmək; həssas əmrlərdə müstəqil təsdiq tələb etmək. Laboratoriyada ADB girişini məhdudlaşdırmaq, cihazları ayrı şəbəkədə saxlamaq, hər əmri autentifikasiya etmək, rate limiting, timeout və audit log tətbiq etmək lazımdır.</p>
@@ -276,8 +269,6 @@
 
 <p><strong>Bədənə taxılan elektrodlarla işləyərkən yalnız insanla təmas üçün nəzərdə tutulmuş, müvafiq izolyasiyalı və təhlükəsiz bio-siqnal toplama avadanlığından istifadə olunmalıdır.</strong> Batareya ilə qidalanan modulun mövcudluğu təkbaşına təhlükəsizliyi təmin etmir. Elektrod taxılı vəziyyətdə olan qurğunu birbaşa USB, şəbəkə adapteri, kompüter, osiloskop və ya torpaqlanmış avadanlığa qoşmaq təhlükəli ola bilər; uyğun tibbi/ölçmə izolyasiyası və mütəxəssis yoxlaması tələb olunur.</p>
 
-<p>ESP32-S3-ün <strong>ADC girişi üçün dəqiq gərginlik diapazonu, seçilən GPIO və attenuation</strong> istehsalçı sənədlərinə əsasən yoxlanmalıdır. Hər ESP32 ailəsində bütün GPIO-lar analog giriş deyil. Xüsusən <strong>ESP32-S3-də GPIO34 ümumi təyinatlı pin olsa da ADC giriş kanalı deyil</strong>; uyğun ADC1/ADC2 pinlərindən istifadə olunmalıdır. <a href="https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html">https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html</a></p>
-
 <p>Bu məqalə bədən üzərində elektrik qoşulma sxemi deyil, layihənin <strong>konseptual və kiber-tədris izahıdır</strong>.</p>
 
 <hr />
@@ -292,7 +283,6 @@
   <li><strong>Replay protection:</strong> köhnə hadisənin təkrar göndərilməsi yeni əmri işə salırmı?</li>
   <li><strong>Rate limiting:</strong> tez-tez aktivləşmə sistemin stabilliyini pozurmu?</li>
   <li><strong>Command isolation:</strong> sensor yalnız əvvəlcədən təsdiqlənmiş komanda siyahısından istifadə edirmi?</li>
-  <li><strong>ADB hardening:</strong> Android debug bağlantısı yalnız zəruri müddətdə və etibarlı hostla məhdudlaşdırılıbmı?</li>
   <li><strong>Fail-safe design:</strong> Wi-Fi kəsilsə, server dayansa və ya sensor çıxarılsa sistem təhlükəsiz vəziyyətə keçir?</li>
 </ul>
 
@@ -303,50 +293,6 @@
 <h2 id="-blue-team-soc-və-siem-emg-hadisəsini-təhlükəsizlik-siqnalına-çevirmək">🔵 Blue Team, SOC və SIEM: EMG hadisəsini təhlükəsizlik siqnalına çevirmək</h2>
 
 <p><strong>Blue Team</strong> mövqeyindən baxanda hər sensor hadisəsi izlənilə bilən telemetriyaya çevrilməlidir. ESP32-dən gələn JSON, Python backend logu, firewall hadisələri və Android-in icazəli diaqnostika məlumatları birlikdə araşdırıla bilər.</p>
-
-<p>Aşağıdakı axın layihəni daha geniş <strong>SOC (Security Operations Center)</strong> və <strong>SIEM (Security Information and Event Management)</strong> tədris ssenarisinə çevirir:</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-</pre></td><td class="rouge-code"><pre>EMG SENSOR / ESP32-S3
-        |
-        v
- PYTHON API + JSON LOG
-        |
-        v
-   WAZUH / SPLUNK
-        |
-        v
-  QAYDA / CORRELATION
-        |
-        v
- N8N / WEBHOOK / ALERT
-        |
-        v
-  CASPER AI STATUS PANEL
-        |
-        v
-  ANALİTİKİN QƏRARI
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p><strong>Texniki dəqiqlik:</strong> Bu hissə EMG nümayişindən inkişaf etdirilə bilən <strong>SIEM inteqrasiya arxitekturasıdır</strong>. Videoda Wazuh/Splunk/n8n zəncirinin bütövlükdə işlədiyi iddia edilmir.</p>
 
 <h3 id="monitorinq-üçün-nümunə-use-case-lər">Monitorinq üçün nümunə use-case-lər</h3>
 
@@ -488,22 +434,24 @@
 🛡️ Kibertəhlükəsizlik mütəxəssisi<br />
 🔴 Red Team və 🔵 Blue Team istiqamətləri üzrə təlimçi<br />
 🟣 Praktiki Purple Team və SOC laboratoriya yanaşması<br />
-🤖 Robotexnika, ESP32, sensor sistemləri və CASPER AI layihələri<br />
+🤖 Robotexnika,  və CASPER AI layihələri<br />
 🎓 <strong>CyberShieldy Academy</strong><br />
 🌐 <strong><a href="https://cybershieldy.com">CyberShieldy.com</a></strong></p>
 
 <p>Məqsədim <strong>kiber təhlükəsizlik təhsilini real laboratoriya işi ilə birləşdirməkdir</strong>. Linux, Windows, şəbəkə, pentest, log analizi, IoT sensorları, Android və robotexnika mənim üçün eyni texnoloji ekosistemin bir-birini tamamlayan hissələridir.</p>
 
 <hr />
+<h2 id="-oxşar-məqalələr--cybershieldy">🔗 Oxşar məqalələr — CyberShieldy</h2>
 
-<h2 id="-texniki-mənbələr-və-əlavə-oxu">📚 Texniki mənbələr və əlavə oxu</h2>
+<p>Aşağıdakı keçidlər əvvəlki CyberShieldy məqalə formatındakı daxili linklərə əsaslanır; saytın cari marşrutları ilə uyğunluğunu yayımdan əvvəl yoxlayın.</p>
 
 <ul>
-  <li><a href="https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc/index.html">Espressif — ESP32-S3 ADC sənədləri</a></li>
-  <li><a href="https://developer.android.com/tools/adb">Android Developers — ADB sənədləri</a></li>
-  <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html">OWASP — Authentication Cheat Sheet</a></li>
-  <li><a href="https://documentation.wazuh.com/">Wazuh — Rəsmi sənədlər</a></li>
-  <li><a href="https://docs.splunk.com/">Splunk — Rəsmi sənədlər</a></li>
+  <li>📡 <a href="https://cybershieldy.com/posts/wifi-hucumlari">Wi-Fi hücumları və təhlükəsizlik tövsiyələri</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection">CASPER AI — Wi-Fi Security və Rogue AP Detection</a></li>
+  <li>📊 <a href="https://cybershieldy.com/posts/siem-nedir">SIEM nədir?</a></li>
+  <li>🔴🔵 <a href="https://cybershieldy.com/posts/red-team-vs-blue-team">Red Team və Blue Team fərqləri</a></li>
+  <li>🤖 <a href="https://cybershieldy.com/posts/casper-ai-pentest-cybersecurity-robot">CASPER AI — Pentest və Cybersecurity Robot</a></li>
+  <li>🛡️ <a href="https://cybershieldy.com/posts/casper-ai-wireless-hacking-tools-pentest">CASPER AI Wireless Security Lab — portativ cihazlar və Wi-Fi/Bluetooth</a></li>
 </ul>
 
 <hr />
@@ -512,7 +460,7 @@
 
 <p><strong>Bir EMG sensoru ilə başlayan layihə</strong> bizə daha böyük bir dərs verir: gələcəyin ağıllı sistemləri insan, sensor, mikrokontroller, şəbəkə, server və təhlükəsizlik mexanizmlərinin birlikdə işləməsindən yaranır.</p>
 
-<p><strong>CASPER AI EMG + ESP32-S3 + Android laboratoriyası</strong> bu əlaqəni praktiki şəkildə göstərir. Eyni layihə daxilində <strong>robotexnika</strong>, <strong>embedded programming</strong>, <strong>IoT security</strong>, <strong>ethical hacking</strong>, <strong>Red Team</strong>, <strong>Blue Team</strong>, <strong>SIEM</strong>, <strong>Python</strong> və <strong>AI automation</strong> mövzularına keçmək mümkündür.</p>
+<p><strong>CASPER AI EMG + ESP32 + Android laboratoriyası</strong> bu əlaqəni praktiki şəkildə göstərir. Eyni layihə daxilində <strong>robotexnika</strong>, <strong>embedded programming</strong>, <strong>IoT security</strong>, <strong>ethical hacking</strong>, <strong>Red Team</strong>, <strong>Blue Team</strong>, <strong>SIEM</strong>, <strong>Python</strong> və <strong>AI automation</strong> mövzularına keçmək mümkündür.</p>
 
 <blockquote>
   <p><strong>“Kibertəhlükəsizlik yalnız haker alətlərini öyrənmək deyil. Sistem yaratmaq, onu test etmək, hadisəni izləmək və təhlükəsizliyini sübut etməkdir.” — Savaylov Emin, CyberShieldy CASPER AI</strong></p>
@@ -655,7 +603,7 @@
 })();
 </script>
 
-<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name>Savaylov Emin</name></author><category term="kibertəhlükəsizlik" /><category term="robotexnika" /><category term="ethical hacking" /><category term="iot security" /><category term="embedded security" /><category term="ai cybersecurity" /><category term="kiber dərsləri" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="kibertəhlükəsizlik Azərbaycan" /><category term="kibertəhlükəsizlik kursu" /><category term="kiber təhlükəsizlik dərsləri" /><category term="kiber dərs" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="ethical hacking Azerbaijan" /><category term="hacking" /><category term="ethical hacker" /><category term="penetration testing" /><category term="pentest kursu" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="SOC" /><category term="SIEM" /><category term="Wazuh" /><category term="Splunk" /><category term="robotexnika" /><category term="robotexnika kursu" /><category term="robototexnika" /><category term="AI robotics" /><category term="EMG" /><category term="EMG sensor" /><category term="əzələ sensoru" /><category term="elektromioqrafiya" /><category term="muscle sensor" /><category term="muscle control" /><category term="bioelektrik siqnal" /><category term="biosignal" /><category term="human computer interaction" /><category term="biohacking" /><category term="ESP32" /><category term="ESP32-S3" /><category term="Android" /><category term="ADB" /><category term="IoT security" /><category term="embedded systems" /><category term="CASPER AI" /><category term="CyberShieldy" /><category term="CyberShieldy Academy" /><category term="Savaylov Emin" /><category term="Emin Savaylov" /><summary type="html"><![CDATA[Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32-S3, Python və Android ADB ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-emg-muscle-sensor.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-emg-muscle-sensor.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin</title><link href="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai" rel="alternate" type="text/html" title="🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin" /><published>2026-11-04T12:00:00+04:00</published><updated>2026-11-04T18:37:19+04:00</updated><id>https://cybershieldy.com/posts/cardputer-halehound-m5stick-casper-ai-red-blue-team-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai"><![CDATA[<h1 id="️-mikrokontrollerlər-müasir-kibertəhlükəsizlikdə-niyə-vacibdir">🤖🛡️ Mikrokontrollerlər müasir kibertəhlükəsizlikdə niyə vacibdir?</h1>
+<!-- ===== END CYBERSHIELDY POPUP ===== -->]]></content><author><name>Savaylov Emin</name></author><category term="kibertəhlükəsizlik" /><category term="robotexnika" /><category term="ethical hacking" /><category term="iot security" /><category term="embedded security" /><category term="ai cybersecurity" /><category term="kiber dərsləri" /><category term="kibertəhlükəsizlik" /><category term="kiber təhlükəsizlik" /><category term="kibertəhlükəsizlik Azərbaycan" /><category term="kibertəhlükəsizlik kursu" /><category term="kiber təhlükəsizlik dərsləri" /><category term="kiber dərs" /><category term="kiber dərsləri" /><category term="hacker dərsləri" /><category term="ethical hacking" /><category term="ethical hacking Azerbaijan" /><category term="hacking" /><category term="ethical hacker" /><category term="penetration testing" /><category term="pentest kursu" /><category term="red team" /><category term="blue team" /><category term="purple team" /><category term="SOC" /><category term="SIEM" /><category term="Wazuh" /><category term="Splunk" /><category term="robotexnika" /><category term="robotexnika kursu" /><category term="robototexnika" /><category term="AI robotics" /><category term="EMG" /><category term="EMG sensor" /><category term="əzələ sensoru" /><category term="elektromioqrafiya" /><category term="muscle sensor" /><category term="muscle control" /><category term="bioelektrik siqnal" /><category term="biosignal" /><category term="human computer interaction" /><category term="biohacking" /><category term="ESP32" /><category term="ESP32-S3" /><category term="Android" /><category term="ADB" /><category term="IoT security" /><category term="embedded systems" /><category term="CASPER AI" /><category term="CyberShieldy" /><category term="CyberShieldy Academy" /><category term="Savaylov Emin" /><category term="Emin Savaylov" /><summary type="html"><![CDATA[Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32, Python və Android ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cybershieldy.com/assets/images/casper-emg-muscle-sensor.webp" /><media:content medium="image" url="https://cybershieldy.com/assets/images/casper-emg-muscle-sensor.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin</title><link href="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai" rel="alternate" type="text/html" title="🤖🛡️ Kibertəhlükəsizlikdə Mikrokontrollerlərin Rolu: Cardputer, HaleHound, M5Stick və CASPER AI | Savaylov Emin" /><published>2026-11-04T12:00:00+04:00</published><updated>2026-11-04T18:37:19+04:00</updated><id>https://cybershieldy.com/posts/cardputer-halehound-m5stick-casper-ai-red-blue-team-kibertehlukesizlik</id><content type="html" xml:base="https://cybershieldy.com/posts/mikrokontroller-kibertehlukesizlik-cardputer-halehound-m5stick-casper-ai"><![CDATA[<h1 id="️-mikrokontrollerlər-müasir-kibertəhlükəsizlikdə-niyə-vacibdir">🤖🛡️ Mikrokontrollerlər müasir kibertəhlükəsizlikdə niyə vacibdir?</h1>
 
 <h3 id="m5stack-cardputer--halehound--m5stickc-plus2--esp32--red-team--blue-team--casper-ai">M5Stack Cardputer • HaleHound • M5StickC Plus2 • ESP32 • Red Team • Blue Team • CASPER AI</h3>
 
