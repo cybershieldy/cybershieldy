@@ -59,7 +59,7 @@ tags:
   - Savaylov Emin
   - Emin Savaylov
 description: "Savaylov Eminin CASPER AI laboratoriyasında EMG əzələ sensoru, ESP32, Python və Android  ilə telefonun ekran kilidinin idarə edilməsi: bioelektrik siqnallar, robotexnika, IoT security, ethical hacking, Red Team, Blue Team və Azərbaycanda praktik kibertəhlükəsizlik dərsləri."
-image: /assets/images/casper-emg-muscle-sensor.webp
+image: /assets/images/emg.webp
 permalink: /posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika
 canonical: https://cybershieldy.com/posts/emg-ezele-sensoru-telefon-casper-ai-kibertehlukesizlik-robotexnika
 ---
