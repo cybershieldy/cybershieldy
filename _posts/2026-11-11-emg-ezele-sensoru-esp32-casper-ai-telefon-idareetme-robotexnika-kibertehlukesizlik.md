@@ -3,7 +3,6 @@ layout: post
 title: "💪🧠 Əzələ Siqnalı ilə Telefonu İdarə Etmək: EMG Sensor, ESP32, CASPER AI və Kibertəhlükəsizlik | Savaylov Emin"
 date: 2026-11-11 08:00:00 +0400
 lastmod: 2026-11-11 08:00:00 +0400
-author: "Savaylov Emin"
 categories:
   - kibertəhlükəsizlik
   - robotexnika
@@ -360,7 +359,7 @@ Məqsədim **kiber təhlükəsizlik təhsilini real laboratoriya işi ilə birl�
 ---
 ## 🔗 Oxşar məqalələr — CyberShieldy
 
-Aşağıdakı keçidlər əvvəlki CyberShieldy məqalə formatındakı daxili linklərə əsaslanır; saytın cari marşrutları ilə uyğunluğunu yayımdan əvvəl yoxlayın.
+
 
 - 📡 [Wi-Fi hücumları və təhlükəsizlik tövsiyələri](https://cybershieldy.com/posts/wifi-hucumlari)
 - 🤖 [CASPER AI — Wi-Fi Security və Rogue AP Detection](https://cybershieldy.com/posts/casper-ai-wifi-security-rogue-ap-detection)
