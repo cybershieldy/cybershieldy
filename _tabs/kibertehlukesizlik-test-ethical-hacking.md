@@ -1,8 +1,8 @@
 ---
-title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)
+title: Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (70 Sual)
 icon: fas fa-shield-alt
 order: 4
-description: 61 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
+description: 70 sualdan ibarət bu test ilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi yoxlayın. OWASP, phishing, SQL injection və digər mövzuları əhatə edir.
 keywords:
   - kibertəhlükəsizlik testi
   - ethical hacking sualları
@@ -43,15 +43,15 @@ robots: index, follow
 <link rel="canonical" href="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 
 <!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)" />
-<meta property="og:description" content="61 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
+<meta property="og:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (70 Sual)" />
+<meta property="og:description" content="70 suallıq testlə kibertəhlükəsizlik, OWASP, phishing, SQL injection və digər mövzulardakı biliklərinizi yoxlayın." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sizin-saytiniz.az/kibertəhlükəsizlik-test" />
 <meta property="og:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
 <!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)" />
+<meta name="twitter:title" content="Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (70 Sual)" />
 <meta name="twitter:description" content="Ethical hacking, OWASP və SQLi biliklərinizi bu test ilə yoxlayın. CEH hazırlığı üçün uyğundur." />
 <meta name="twitter:image" content="https://sizin-saytiniz.az/assets/images/cyber-quiz-banner.png" />
 
@@ -94,9 +94,9 @@ robots: index, follow
   }
 </style>
 
-# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (61 Sual)
+# 🛡️ Kibertəhlükəsizlik və Ethical Hacking Bilik Testi (70 Sual)
 
-Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **61 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
+Bu test vasitəsilə kibertəhlükəsizlik, ethical hacking, penetration testing və web təhlükəsizliyi üzrə biliklərinizi sınaya bilərsiniz. **70 sualdan** ibarət bu test, **OWASP**, **phishing**, **SQL injection** və digər mühüm mövzuları əhatə edir.
 
 ### Təlimat:
 - Bütün suallara cavab verin.
@@ -610,6 +610,91 @@ d;
   <label><input type="radio" name="q60" value="incorrect"> c) Web sayt yaratmaq</label>
   <label><input type="radio" name="q60" value="incorrect"> d) Router konfiqurasiya etmək</label>
 </div>
+
+
+<!-- 🤖 62. ESP32-S3 və IoT Security -->
+<div class="question">
+  <p>62. ESP32-S3 mikrokontrolleri Wi-Fi vasitəsilə Linux serverə məlumat göndərir. Bu əlaqənin təhlükəsizliyini artırmaq üçün hansı üsul daha düzgündür?</p>
+  <label><input type="radio" name="q62" value="incorrect"> a) Wi-Fi şəbəkəsinin parolunu silmək</label>
+  <label><input type="radio" name="q62" value="incorrect"> b) HTTP üzərindən bütün məlumatları açıq göndərmək</label>
+  <label><input type="radio" name="q62" value="correct"> c) TLS/HTTPS, cihaz autentifikasiyası və server sertifikatının yoxlanılmasından istifadə etmək</label>
+  <label><input type="radio" name="q62" value="incorrect"> d) ESP32-S3 cihazının MAC ünvanını gizlətmək</label>
+</div>
+
+<!-- 💪 63. EMG Sensor və CASPER AI -->
+<div class="question">
+  <p>63. CASPER AI laboratoriyasında EMG əzələ sensorundan gələn siqnal ESP32-S3 vasitəsilə Android telefonun idarə edilməsində istifadə olunur. Yanlış siqnalların təsadüfi əmrlər yaratmasının qarşısını necə almaq olar?</p>
+  <label><input type="radio" name="q63" value="incorrect"> a) Sensor məlumatlarını heç bir yoxlama olmadan icra etmək</label>
+  <label><input type="radio" name="q63" value="correct"> b) Siqnal filtrasiyası, kalibrasiya, hədd qiymətləri və təkrar təsdiqləmə mexanizmləri tətbiq etmək</label>
+  <label><input type="radio" name="q63" value="incorrect"> c) ESP32-S3 cihazının Wi-Fi funksiyasını həmişə söndürmək</label>
+  <label><input type="radio" name="q63" value="incorrect"> d) EMG sensorunun siqnalını birbaşa telefonun USB portuna qoşmaq</label>
+</div>
+
+<!-- 🔐 64. RFID və Giriş Nəzarəti -->
+<div class="question">
+  <p>64. ESP32 və RC522 əsasında qurulmuş RFID giriş sistemində yalnız kartın UID məlumatına əsasən qapı açılır. Bu sistemin əsas təhlükəsizlik riski nədir?</p>
+  <label><input type="radio" name="q64" value="incorrect"> a) RFID sistemi yalnız internet vasitəsilə işləyir</label>
+  <label><input type="radio" name="q64" value="incorrect"> b) ESP32 mikrokontrollerində RFID istifadə etmək mümkün deyil</label>
+  <label><input type="radio" name="q64" value="incorrect"> c) UID məlumatı bütün kartlarda dəyişməz və kriptoqrafik olaraq qorunur</label>
+  <label><input type="radio" name="q64" value="correct"> d) UID bəzi kartlarda kopyalana və ya təqlid edilə bilər; təkcə UID etibarlı autentifikasiya deyil</label>
+</div>
+
+<!-- 🌐 65. ESP32 REST API Security -->
+<div class="question">
+  <p>65. ESP32-S3 üzərində robotun servo motorunu idarə edən /servo/open API endpoint-i hazırlanıb. Şəbəkədəki istənilən cihaz autentifikasiya olmadan bu endpoint-ə sorğu göndərə bilir. Əsas zəiflik nədir?</p>
+  <label><input type="radio" name="q65" value="correct"> a) Broken Access Control — icazəsiz istifadəçi idarəetmə əmrlərini icra edə bilər</label>
+  <label><input type="radio" name="q65" value="incorrect"> b) SQL Injection — çünki bütün ESP32 cihazlarında SQL bazası mövcuddur</label>
+  <label><input type="radio" name="q65" value="incorrect"> c) DNS Spoofing — çünki servo motor DNS serveridir</label>
+  <label><input type="radio" name="q65" value="incorrect"> d) XSS — çünki servo motor HTML kodunu icra edir</label>
+</div>
+
+<!-- 🛡️ 66. ESP32 Firmware Security -->
+<div class="question">
+  <p>66. ESP32-S3 əsaslı IoT cihazının firmware təhlükəsizliyini artırmaq üçün hansı mexanizmlərdən istifadə etmək daha məqsədəuyğundur?</p>
+  <label><input type="radio" name="q66" value="incorrect"> a) Firmware faylını hamı üçün açıq saxlamaq və yeniləmə yoxlamasını söndürmək</label>
+  <label><input type="radio" name="q66" value="incorrect"> b) Bütün API tokenlərini açıq şəkildə proqram koduna yerləşdirmək</label>
+  <label><input type="radio" name="q66" value="correct"> c) Secure Boot, Flash Encryption və imzalanmış firmware yeniləmələrini uyğun konfiqurasiya ilə tətbiq etmək</label>
+  <label><input type="radio" name="q66" value="incorrect"> d) Təhlükəsizlik üçün yalnız ESP32-S3 cihazının adını dəyişmək</label>
+</div>
+
+<!-- 🤖 67. Robotics və System Security -->
+<div class="question">
+  <p>67. CASPER AI robotunda servo motorlar, sensorlar və Linux idarəetmə serveri istifadə olunur. Serverlə əlaqə kəsildikdə robotun təhlükəsiz davranışı necə təmin edilməlidir?</p>
+  <label><input type="radio" name="q67" value="incorrect"> a) Robot son əmri məhdudiyyətsiz icra etməyə davam etməlidir</label>
+  <label><input type="radio" name="q67" value="incorrect"> b) Robot avtomatik olaraq bütün motorları maksimum sürətə keçirməlidir</label>
+  <label><input type="radio" name="q67" value="correct"> c) Watchdog, timeout və fail-safe mexanizmləri ilə robot təhlükəsiz vəziyyətə keçirilməlidir</label>
+  <label><input type="radio" name="q67" value="incorrect"> d) Wi-Fi kəsildikdə təhlükəsizlik mexanizmləri tamamilə deaktiv edilməlidir</label>
+</div>
+
+<!-- 🔵 68. Blue Team, SIEM və IoT Monitoring -->
+<div class="question">
+  <p>68. ESP32-S3 cihazı CASPER AI laboratoriya serverinə HTTP API vasitəsilə hadisələr göndərir. Blue Team həmin hadisələri Wazuh və ya Splunk SIEM sistemində izləmək istəyir. Hansı yanaşma daha düzgündür?</p>
+  <label><input type="radio" name="q68" value="incorrect"> a) Sensor məlumatlarını heç bir log yaratmadan silmək</label>
+  <label><input type="radio" name="q68" value="incorrect"> b) SIEM sistemini birbaşa ESP32-S3 cihazının GPIO pinlərinə qoşmaq</label>
+  <label><input type="radio" name="q68" value="incorrect"> c) Yalnız robotun LED işığının rəngini dəyişərək hadisəni izləmək</label>
+  <label><input type="radio" name="q68" value="correct"> d) ESP32 hadisələrini serverdə strukturlaşdırılmış log kimi toplamaq, SIEM-ə ötürmək və aşkarlama qaydaları yaratmaq</label>
+</div>
+
+
+<!-- 🔴 69. ESP32-S3 və IoT Firmware Hacking -->
+<div class="question">
+  <p>69. ESP32-S3 əsaslı IoT cihazında UART interfeysi vasitəsilə debug konsoluna giriş mümkündür. Bu vəziyyət hansı təhlükəsizlik riski yarada bilər?</p>
+  <label><input type="radio" name="q69" value="incorrect"> a) UART yalnız Wi-Fi parolunu dəyişmək üçün istifadə olunur</label>
+  <label><input type="radio" name="q69" value="incorrect"> b) UART bütün hallarda şifrələnmiş rabitə təmin edir</label>
+  <label><input type="radio" name="q69" value="correct"> c) Qorunmayan debug interfeysi həssas məlumatların sızmasına və icazəsiz əmrlərin icrasına səbəb ola bilər</label>
+  <label><input type="radio" name="q69" value="incorrect"> d) UART interfeysi ESP32-S3 cihazlarında mövcud deyil</label>
+</div>
+
+<!-- 🔵 70. Robotexnika, CASPER AI və Command Security -->
+<div class="question">
+  <p>70. CASPER AI robotu ESP32-S3 və Linux server vasitəsilə idarə olunur. Hücumçu şəbəkə üzərindən əvvəl göndərilmiş etibarlı servo əmrlərini yenidən göndərərək robotu hərəkət etdirməyə çalışır. Bu hansı hücum növüdür və əsas müdafiə üsulu nədir?</p>
+  <label><input type="radio" name="q70" value="incorrect"> a) SQL Injection — verilənlər bazasını silmək</label>
+  <label><input type="radio" name="q70" value="correct"> b) Replay Attack — autentifikasiya edilmiş əmrlərlə birlikdə nonce, zaman nişanı və ya ardıcıllıq nömrəsi yoxlaması tətbiq etmək</label>
+  <label><input type="radio" name="q70" value="incorrect"> c) XSS — robotun ekran parlaqlığını azaltmaq</label>
+  <label><input type="radio" name="q70" value="incorrect"> d) DNS Spoofing — servo motorun GPIO pinini dəyişmək</label>
+</div>
+
+
 
 <style>
 .correct-answer {
